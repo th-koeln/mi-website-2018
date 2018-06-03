@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main aria-role="main">
+    <div class="grid-x grid-margin-x">
+        <article class="cell large-8">
+            <h1>{{.Title}}</h1>
+            {{ with .Params.subtitle }}
+            <span class="subtitle">{{.}}</span> {{ end }}
+            <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+           
+            {{.Content}}
+        </article>
+    </div>
+    <div>
+        <!-- Note that .Data.Pages is the equivalent of .Site.Pages on the homepage template. -->
+        {{ range first 10 .Data.Pages }} {{ .Render "summary"}} {{ end }}
+    </div>
+
+</main>
+{{ end }}

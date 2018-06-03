@@ -1,0 +1,10 @@
+<footer class="m-footer">
+<div>
+
+    &copy;{{ now.Format "2006"}}
+    {{ with .Site.Params.copyright }}
+    {{ . | safeHTML }}
+    {{ end }}
+
+</div>
+</footer>

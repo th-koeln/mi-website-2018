@@ -1,0 +1,72 @@
+/* MI Base
+-----------------------------------------------------------------------------*/
+
+
+body,
+html {
+    font-size: $bfs;
+    hyphens: auto; 
+}
+
+
+
+
+/* Headlines & Texts
+-----------------------------------------------------------------------------*/
+
+h1{
+    font-weight: bold;
+    font-size: rem-calc(25px);
+}
+
+h2{
+    margin-top: $bfs * 2;
+    font-size: rem-calc(20px);
+}
+
+h1, h2, h3, h4{
+    line-height: 110%;
+}
+
+
+@media screen and #{breakpoint(medium)} {
+    p, li, td, th{
+        font-size: $bfs * 1.25;
+    }
+
+    h1{
+        font-size: rem-calc(40px);
+    }
+    
+    h2{
+        font-size: rem-calc(31.5px);
+    }
+}
+
+
+
+
+
+/* Lists
+-----------------------------------------------------------------------------*/
+
+li{
+    line-height: 140%;
+    margin-bottom: $bfs /2;
+}
+
+
+
+
+
+/* Other Elements
+-----------------------------------------------------------------------------*/
+
+blockquote{
+    border-left: solid $mi-border-small $mi-pink;
+    padding: $bfs/2  $bfs;
+
+    > p{
+        margin-bottom: 0;
+    }
+}

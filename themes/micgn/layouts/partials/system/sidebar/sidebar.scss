@@ -1,0 +1,24 @@
+.m-sidebar{
+    padding: map-get($grid-container-padding, small);
+
+    &--menu{
+        margin: 0;
+        padding: 0;
+
+        > li{
+            font-family: $family-headlines;
+            font-size: rem-calc(31.5);
+            display: block;
+            text-align: right;
+        }
+    }
+
+    &--logo{
+        margin-bottom: $bfs * 8;
+    }
+}
+
+
+
+
+

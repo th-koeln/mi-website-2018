@@ -1,0 +1,16 @@
+<!-- Menu -->
+<div class="m-sidebar">
+
+    <figure class="m-sidebar--logo">
+    	<img src="{{ "img/logo-th-koeln.png" | absURL }}" alt="Logo TH Köln">
+	</figure>
+
+    <ul class="m-sidebar--menu">
+		{{ $currentPage := . }} {{ range .Site.Menus.main }}
+		<li>
+			<a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+
+    </ul>
+</div>

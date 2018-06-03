@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Medieninformatik an der TH Köln</title>
+    <link>https://th-koeln.github.io/mi-website-2018/website/</link>
+    <description>Recent content in Website on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
+    
+	<atom:link href="https://th-koeln.github.io/mi-website-2018/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kategorien</title>
+      <link>https://th-koeln.github.io/mi-website-2018/website/categories/</link>
+      <pubDate>Sat, 24 Feb 2018 13:08:26 +0100</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/website/categories/</guid>
+      <description> Inhalte der Website werden den folgenden Kategorien zugeordnet:
+/home Die Startseite bildet den Einflugschneise für alle. Dementsprechend sollten hier wesentliche Ausschnitte aus allen anderen Kategorien gezeigt werden, um einen Überblick zu geben. In einer späteren Ausbaustufe könnte hier auch eine zielgruppenspezifische Ansprache, z.B. in Form eine Natural-language interface integriert werden.
+/mission /people /projects /pulse /research /study /toolbox </description>
+    </item>
+    
+    <item>
+      <title>Inhaltstypen</title>
+      <link>https://th-koeln.github.io/mi-website-2018/website/content-types/</link>
+      <pubDate>Sat, 24 Feb 2018 08:10:57 +0100</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/website/content-types/</guid>
+      <description> Folgende Inhaltstypen werden unterschieden:
+Announcement Review Background Paper Tutorial Statement </description>
+    </item>
+    
+    <item>
+      <title>Gestaltungsziele</title>
+      <link>https://th-koeln.github.io/mi-website-2018/website/gestaltungsziele/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/website/gestaltungsziele/</guid>
+      <description>Mit der Gestaltung der Seite sollen folgende Wirkungen erzielt werden:
+ die MI ist Teil der Hochschule, aber wir befinden uns hier nicht auf der Hochschulwebsite, sondern auf eigenem Terrain die MI ist technische orientiert die MI hat eine ausgeprägte ästhetische Komponente die MI ist eigenständig, prägnant und strukturiert die MI bietet Platz die MI ist freundlich, offen und zugewandt hier gibt es was zu entdecken  Das Design ist möglichst einfach, klar, reduziert und großzügig.</description>
+    </item>
+    
+    <item>
+      <title>Struktur</title>
+      <link>https://th-koeln.github.io/mi-website-2018/website/structure/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/website/structure/</guid>
+      <description>Strukturell besteht die Site aus Artikeln, die jeweils einer Kategorie zugeordnet sind. Die Kategorien bestehen möglichst aus einem Wort und sind das erste Segment der URL. Über die jeweilige Kategorien-URL wird die Übersichtsseite der Kategorie aufgerufen, z.B.:
+ medieninformatik.th-koeln.de/study
+ Ein weiteres Stukturierungselement bilden Tags. Einem Artikel können beliebig viele Tags zugeordnet werden. Jeder Tag bildet über eine eigene URL einen Einstiegspunkt in die Artikel zu diesem Tag, z.B.:
+ medieninformatik.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ $globalParams := . }}
+
+<head>
+    {{ partial "system/head/head.html" $globalParams }}
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            {{ partial "system/sidebar/sidebar.html" $globalParams }}
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <main class="grid-container fluid">
+                <div class="grid-x grid-margin-x">
+                    <div class="large-12 cell">
+                        {{if .Page.Data.Term }}
+                        TERER
+                        {{else}}
+                        NOOOP
+                        {{end}}
+
+
+                        {{ $fragments := split .Dir "/" }}
+                        {{ $fragment := index ($fragments) 0 }}
+                        {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
+                        {{ partial "system/navigationHeader/navigationHeader.html"  (dict "slug" $slug) }}
+                    </div>
+                </div>
+                {{ block "main" . }} {{ end }}
+            </main>
+            {{ partial "system/footer/footer.html" $globalParams }}
+        </div>
+    </div>
+</body>
+{{ partial "system/scripts/scripts.html" $globalParams }}
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todos on Medieninformatik an der TH Köln</title>
+    <link>https://th-koeln.github.io/mi-website-2018/todos/</link>
+    <description>Recent content in Todos on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 25 Feb 2018 08:57:45 +0100</lastBuildDate>
+    
+	<atom:link href="https://th-koeln.github.io/mi-website-2018/todos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projektseite</title>
+      <link>https://th-koeln.github.io/mi-website-2018/todos/projektseite/</link>
+      <pubDate>Sun, 25 Feb 2018 08:57:45 +0100</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/todos/projektseite/</guid>
+      <description>  Sourcemap integration  Coding Styleguide  Wie werden CSS Eigenschaften gestackt?  CSS Maps </description>
+    </item>
+    
+  </channel>
+</rss>

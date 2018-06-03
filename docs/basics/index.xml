@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on Medieninformatik an der TH Köln</title>
+    <link>https://th-koeln.github.io/mi-website-2018/basics/</link>
+    <description>Recent content in Basics on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 25 Feb 2018 08:24:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://th-koeln.github.io/mi-website-2018/basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zielgruppen</title>
+      <link>https://th-koeln.github.io/mi-website-2018/basics/targetgroups/</link>
+      <pubDate>Sun, 25 Feb 2018 08:25:42 +0100</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/basics/targetgroups/</guid>
+      <description> Die Kommunikation der Medieninformatik richtet sich primär an die folgenden Zielgruppen. Die Reihenfolge entspricht etwa der Priorität der jeweiligen Gruppe.
+Studieninteressierte, Eltern &amp;amp; Angehörige, Schulen Studierende Unternehmen, Presse Community, Alumni Hochschule intern &amp;amp; extern </description>
+    </item>
+    
+    <item>
+      <title>Formate</title>
+      <link>https://th-koeln.github.io/mi-website-2018/basics/formats/</link>
+      <pubDate>Sun, 25 Feb 2018 08:24:20 +0100</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/basics/formats/</guid>
+      <description> Showcase Filmfest Kontaktbörse Vorlesetag Tag der offenen Tür Girlsday Nacht der Technik </description>
+    </item>
+    
+    <item>
+      <title>Kanäle</title>
+      <link>https://th-koeln.github.io/mi-website-2018/basics/channels/</link>
+      <pubDate>Sun, 25 Feb 2018 08:24:20 +0100</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/basics/channels/</guid>
+      <description> Um die einzelnen Zielgruppen zu erreichen, nutzen wir verschiedene Kanäle. Jedem Kanal sind, mehr oder weniger spezifisch, Zielgruppen und Themen zugeordnet. Zudem sollten für jeden Kanal ein Vision Statement und eine ungefähre Tonalität formuliert sein.
+TH Website  Bachelor Master  MI Website MI Wiki Facebook Twitter Youtube Schwarzes Brett Ilias Schaukasten </description>
+    </item>
+    
+  </channel>
+</rss>

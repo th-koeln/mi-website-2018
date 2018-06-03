@@ -1,0 +1,8 @@
+/* MI Resets
+-----------------------------------------------------------------------------*/
+
+/* Keine Umrandung bei aktiven Links */
+.menu li a:focus {
+    box-shadow: none !important;
+    outline: none;
+}

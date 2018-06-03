@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ $params := . }}
+Terms List
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+		{{ partial "molecules/mi-textblock/mi-textblock.html" $params }}
+    </div>
+</div>
+{{ range .Pages }}
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+    	Child:
+        {{.Title}}
+        <div style="color:grey; font-size:16px;">{{ if .Params.years }}<strong>Categories:</strong> {{range .Params.years}}<a href="{{ "/years/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+    </div>
+</div>
+{{ end }} {{ end }}
