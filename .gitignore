@@ -4,3 +4,6 @@
 # Ignore folder
 _archiv/
 node_modules/
+
+
+/docs
