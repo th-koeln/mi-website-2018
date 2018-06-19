@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="content-column-content ">
+                Template: pm/single.html
+                <h1 id="title">{{ .Title }}</h1>
+                <article id="content">
+                    {{ .Content }}
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -6,7 +6,7 @@
     {{ partial "system/head/head.html" $globalParams }}
 </head>
 
-<body>
+<body data-kind="{{.Kind}}" data-baseref="{{.Site.Params.BaseFragment}}/{{.Dir}}" data-permalink="{{.RelPermalink}}">
     <div class="off-canvas-wrapper">
         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
             {{ partial "system/sidebar/sidebar.html" $globalParams }}

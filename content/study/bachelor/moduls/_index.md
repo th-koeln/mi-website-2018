@@ -1,8 +1,9 @@
 ---
-title: Einführung
+title: Module
+linkTitle: "Lehrmodule"
 verantwortlich: mi
 type: intro
-kuerzel: intro-Bachelor
+kuerzel: intro-bachelor
 teaser:
 ---
 
