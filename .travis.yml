@@ -11,6 +11,7 @@ script:
   - hugo
 
 deploy:
+  local-dir: docs/
   provider: pages
   skip-cleanup: true
   github-token: ${MITOKEN}  # Set in the settings page of your repository, as a secure variable
