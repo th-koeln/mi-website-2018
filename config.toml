@@ -1,4 +1,4 @@
-baseurl = "https://th-koeln.github.io/mi-website-2018/"
+baseurl = "https://slemke.github.io/mi-website-2018/"
 title = "Medieninformatik an der TH Köln"
 theme = "micgn"
 languageCode = "de-de"
