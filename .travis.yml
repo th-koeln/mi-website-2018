@@ -3,10 +3,6 @@ language: go
 go:
   - master
 
-env:
-  global:
-    - secure: "rRdyQhmXfVnm1CdeA++J22fFgVV2fHhW69mo8ANFje2DGLdt/l8zRwenubTNMYYpE16uk/P+FjLPbP4GWR4bemp3D6aD+bENeHs9dEWGUBleAjkYbqqm8/rIibbN1LVNi0HQeQ2DNNn1IS6DieTmUj/PPaZsOGZmtuUqFkcqXmG/oITwl0TDq18OGQ+SNWFPM89sKNWLGpQMSXzXlbP9fYCZwtFCeJrIZWSyhPHsw1oX4y1upYR/S5118RaUCHaug+w5B8CsgrRrKcc67CYjIiF2s/F3HINPQdLWNeH7ErEc4tg4dO9ozcN5OSy74hbYTy9X5m4XJ1PXMIMgFV1/XGnfHs99l4hPB6dtTMlqTMN5O4nSRQotG7nriXWvuxOMVypL4u+ULnLyYrzzCXCBc5co7nw3TgJrXOGoFkq+csIz99X5nHvlnGpXLraU2BOT1oBmDMAHE0G/MWaVKExuBdwivzE7FwX5uYd3Ocguc8BJMorDlM6HOCGIoakfklAvVP24VLviqMWmKubkc+EnMvN9u6aqFCdjZIhrZ5/8pA3eVzzU7mRqcEX83cStsMZUXMMw0JjVANISvpSxJROgHX4drVvFb5FkskS1GeF/Mk7eoiMEGhwxDOYjemmgnPNT2Jsrrw54pdrCqRsKy0HngkHWoE+RMNjlO0q/gBz6PXw="
-
 install:
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
@@ -17,7 +13,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $TOKEN  # Set in the settings page of your repository, as a secure variable
+  github-token: ${MITOKEN}  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
     branch: master
