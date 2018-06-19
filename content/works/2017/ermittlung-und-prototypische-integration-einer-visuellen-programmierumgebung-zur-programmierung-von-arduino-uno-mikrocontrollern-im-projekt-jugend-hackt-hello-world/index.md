@@ -1,11 +1,11 @@
 +++
 date = "2018-05-05T21:05:33+05:30"
 title = "Ermittlung und prototypische Integration einer visuellen Programmierumgebung zur Programmierung von Arduino-Uno-Mikrocontrollern im Projekt Jugend hackt - Hello World"
-autor = "Daniel Röger"
-modul = "Bachelorarbeit"
-betreuer = "Prof. Christian Noss"
-themen = "Open Knowledge"
-years = [2017]
+autoren = ["Daniel Röger"]
+module = ["Bachelorarbeit"]
+betreuer = ["Prof. Christian Noss", "Prof. Dr. Martin Eisemann"]
+themen = ["Open Knowledge"]
+works = [2017]
 +++
 
 Diese Arbeit baut auf dem Praxisprojekt SS17 mit dem Titel Konzeption eines Tages” workshops zur Vermittlung kreativer Probleml¨osekompetenzen anhand von Technik mit Fokus auf Programmierung - an Jugendliche zwischen 10 und 16 Jahren“ auf. Die Arbeit dient der Erlangung des akademischen Grades Bachelor of Science.

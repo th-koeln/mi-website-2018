@@ -1,10 +1,10 @@
 +++
 date = "2018-05-05T21:05:33+05:30"
 title = "Metriken und Visualisierungen zur Verbesserung der Navigation in der kommunalen Open Data Landschaft Deutschlands"
-autor = "Johannes Kimmeyer"
-modul = "Bachelorarbeit"
-betreuer = "Prof. Dr. Kristian Fischer"
-themen = "Open Data"
+autoren = ["Johannes Kimmeyer"]
+module = ["Bachelorarbeit"]
+betreuer = ["Prof. Dr. Kristian Fischer", "Prof. Christian Noss"]
+keywords = ["Open Data"]
 works = [2018]
 +++
 

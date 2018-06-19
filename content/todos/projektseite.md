@@ -5,6 +5,7 @@ draft = false
 autor = "Christian"
 category = ["pulse"]
 order = 0
+linkTitle = "Projektseite"
 +++
 
 - Sourcemap integration

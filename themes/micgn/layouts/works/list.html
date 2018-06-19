@@ -11,7 +11,13 @@ List Works
     <div class="cell large-8">
     	Child:
         <a href="{{.URL}}">{{.Title}}</a>
-        <div style="color:grey; font-size:16px;">{{ if .Params.works }}<strong>Categories:</strong> {{range .Params.works}}<a href="{{ "/works/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+        <div style="color:grey; font-size:16px;">
+        	{{ if .Params.works }}<strong>Jahr:</strong> {{range .Params.works}}<a href="{{ "/works/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{end}}{{end}}
+        	{{ if .Params.autoren }}<strong>Autor:</strong> {{range .Params.autoren}}<a href="{{ "/autoren/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{end}}{{end}}
+        	{{ if .Params.keywords }}<strong>Stichworte:</strong> {{range .Params.keywords}}<a href="{{ "/keywords/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{end}}{{end}}
+        	{{ if .Params.betreuer }}<strong>Betreuer:</strong> {{range .Params.betreuer}}<a href="{{ "/betreuer/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{end}}{{end}}
+        	{{ if .Params.module }}<strong>Module:</strong> {{range .Params.module}}<a href="{{ "/module/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{end}}{{end}}
+        </div>
     </div>
 </div>
 {{ end }} {{ end }}

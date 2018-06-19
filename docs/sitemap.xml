@@ -63,7 +63,22 @@
   </url>
   
   <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/study/intro-bachelor/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/study/intro-master/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://th-koeln.github.io/mi-website-2018/website/structure/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/study/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
@@ -78,19 +93,94 @@
   </url>
   
   <url>
-    <loc>https://th-koeln.github.io/mi-website-2018/years/2017/</loc>
+    <loc>https://th-koeln.github.io/mi-website-2018/study/bachelor/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/works/2017/</loc>
     <lastmod>2018-05-05T21:05:33+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://th-koeln.github.io/mi-website-2018/works/2018/</loc>
-    <lastmod>2018-05-05T21:05:33+05:30</lastmod>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/autoren/alexander-miske/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/autoren/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/module/bachelorarbeit/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/betreuer/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://th-koeln.github.io/mi-website-2018/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/autoren/daniel-r%C3%B6ger/</loc>
+    <lastmod>2018-05-05T21:05:33+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/autoren/johannes-kimmeyer/</loc>
+    <lastmod>2018-05-05T21:05:33+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/keywords/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/module/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/keywords/open-data/</loc>
+    <lastmod>2018-05-05T21:05:33+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-christian-noss/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-dr.-kristian-fischer/</loc>
+    <lastmod>2018-05-05T21:05:33+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-dr.-martin-eisemann/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,6 +196,12 @@
   </url>
   
   <url>
+    <loc>https://th-koeln.github.io/mi-website-2018/keywords/visualistik/</loc>
+    <lastmod>2018-06-02T13:49:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://th-koeln.github.io/mi-website-2018/works/</loc>
     <lastmod>2018-06-02T13:49:31+02:00</lastmod>
     <priority>0</priority>
@@ -113,7 +209,6 @@
   
   <url>
     <loc>https://th-koeln.github.io/mi-website-2018/years/</loc>
-    <lastmod>2018-05-05T21:05:33+05:30</lastmod>
     <priority>0</priority>
   </url>
   

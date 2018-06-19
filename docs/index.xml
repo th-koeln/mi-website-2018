@@ -110,6 +110,25 @@ Announcement Review Background Paper Tutorial Statement </description>
     </item>
     
     <item>
+      <title>Medieninformatik Bachelor</title>
+      <link>https://th-koeln.github.io/mi-website-2018/study/intro-bachelor/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/study/intro-bachelor/</guid>
+      <description>Der Bachelor Studiengang Medieninformatik ist ein sogenanntes grundständiges Studium und führt zum ersten Hochschulabschluss. Er ist auf sechs Fachsemester ausgelegt und schließt mit einem Bachelor of Science ab.</description>
+    </item>
+    
+    <item>
+      <title>Medieninformatik Master</title>
+      <link>https://th-koeln.github.io/mi-website-2018/study/intro-master/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/study/intro-master/</guid>
+      <description>Der Master Studiengang ist postgradual, d.h. zur Zulassung ist ein erfolgreich abgeschlossener grundständiger Studiengang erforderlich, z.B. der Medieninformatik Bachelor. Der Medieninformatik Master ist auf vier Fachsemester ausgelegt und schließt mit dem Master of Science ab. Klingt gut, oder?
+Der Masterstudiengang Medieninformatik ist inhaltlich durch seine Studienschwerpunkte Human Computer Interaction, Multi-Perspective Product Development, Social Computing, Visual Computing und Weaving the Web charakterisiert.</description>
+    </item>
+    
+    <item>
       <title>Struktur</title>
       <link>https://th-koeln.github.io/mi-website-2018/website/structure/</link>
       <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
@@ -119,6 +138,15 @@ Announcement Review Background Paper Tutorial Statement </description>
  medieninformatik.th-koeln.de/study
  Ein weiteres Stukturierungselement bilden Tags. Einem Artikel können beliebig viele Tags zugeordnet werden. Jeder Tag bildet über eine eigene URL einen Einstiegspunkt in die Artikel zu diesem Tag, z.B.:
  medieninformatik.</description>
+    </item>
+    
+    <item>
+      <title>_index</title>
+      <link>https://th-koeln.github.io/mi-website-2018/study/bachelor/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/study/bachelor/</guid>
+      <description>_index</description>
     </item>
     
   </channel>

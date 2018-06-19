@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Betreuer on Medieninformatik an der TH Köln</title>
+    <link>https://th-koeln.github.io/mi-website-2018/betreuer/</link>
+    <description>Recent content in Betreuer on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="https://th-koeln.github.io/mi-website-2018/betreuer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prof. Christian Noss</title>
+      <link>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-christian-noss/</link>
+      <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-christian-noss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prof. Dr. Kristian Fischer</title>
+      <link>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-dr.-kristian-fischer/</link>
+      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-dr.-kristian-fischer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prof. Dr. Martin Eisemann</title>
+      <link>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-dr.-martin-eisemann/</link>
+      <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/betreuer/prof.-dr.-martin-eisemann/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

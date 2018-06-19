@@ -6,9 +6,9 @@
 	</figure>
 
     <ul class="m-sidebar--menu">
-		{{ $currentPage := . }} {{ range .Site.Menus.main }}
+		{{ $currentPage := . }} {{ range .Site.Sections }}
 		<li>
-			<a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+			<a class="sidebar-nav-item" href="{{ .URL }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
         </li>
         {{ end }}
 

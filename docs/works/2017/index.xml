@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017 on Medieninformatik an der TH Köln</title>
+    <link>https://th-koeln.github.io/mi-website-2018/works/2017/</link>
+    <description>Recent content in 2017 on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sat, 05 May 2018 21:05:33 +0530</lastBuildDate>
+    
+	<atom:link href="https://th-koeln.github.io/mi-website-2018/works/2017/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ermittlung und prototypische Integration einer visuellen Programmierumgebung zur Programmierung von Arduino-Uno-Mikrocontrollern im Projekt Jugend hackt - Hello World</title>
+      <link>https://th-koeln.github.io/mi-website-2018/works/2017/ermittlung-und-prototypische-integration-einer-visuellen-programmierumgebung-zur-programmierung-von-arduino-uno-mikrocontrollern-im-projekt-jugend-hackt-hello-world/</link>
+      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
+      
+      <guid>https://th-koeln.github.io/mi-website-2018/works/2017/ermittlung-und-prototypische-integration-einer-visuellen-programmierumgebung-zur-programmierung-von-arduino-uno-mikrocontrollern-im-projekt-jugend-hackt-hello-world/</guid>
+      <description>Diese Arbeit baut auf dem Praxisprojekt SS17 mit dem Titel Konzeption eines Tages” workshops zur Vermittlung kreativer Probleml¨osekompetenzen anhand von Technik mit Fokus auf Programmierung - an Jugendliche zwischen 10 und 16 Jahren“ auf. Die Arbeit dient der Erlangung des akademischen Grades Bachelor of Science.
+Ziel der Arbeit ist eine Auswahl einer visuellen Programmierumgebung f¨ur ArduinoUno-Mikrocontroller f¨ur das Projekt Jugend hackt - Hello World“. Die Program” mierumgebung soll dazu dienen, Kindern und Jugendlichen, die Programmieren lernen m¨ochten, die Programmierung der Arduino-Uno-Mikrocontroller zu erleichtern.</description>
+    </item>
+    
+  </channel>
+</rss>

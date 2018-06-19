@@ -15,24 +15,28 @@
             <main class="grid-container fluid">
                 <div class="grid-x grid-margin-x">
                     <div class="large-12 cell">
-                        {{if .Page.Data.Term }}
-                        TERER
-                        {{else}}
-                        NOOOP
-                        {{end}}
+                        {{.Pages}}
+                        {{.Data.Pages}}
 
-
+                        Kind: {{.Page.Kind}} // Type: {{.Page.Type}} // Dir: {{.Dir}}
                         {{ $fragments := split .Dir "/" }}
                         {{ $fragment := index ($fragments) 0 }}
                         {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
-                        {{ partial "system/navigationHeader/navigationHeader.html"  (dict "slug" $slug) }}
+                        {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
                     </div>
                 </div>
+
                 {{ block "main" . }} {{ end }}
+
+
             </main>
+
             {{ partial "system/footer/footer.html" $globalParams }}
+ 
         </div>
     </div>
+
+
 </body>
 {{ partial "system/scripts/scripts.html" $globalParams }}
 
