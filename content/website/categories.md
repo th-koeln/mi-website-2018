@@ -3,7 +3,7 @@ title = "Kategorien"
 date = 2018-02-24T13:08:26+01:00
 draft = false
 autor = "Christian"
-category = ["pulse"]
+
 order = 40
 +++
 

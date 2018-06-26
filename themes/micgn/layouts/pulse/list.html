@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{ $params := . }}
+
+<span class="primary label">pulse-list-template</span>
+<span class="primary label">{{.Dir}}</span>
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+        <h1>{{.Title}}</h1>
+        {{.LinkTitle}} // {{.Params.Type}} // {{.Params.Kuerzel}}
+        {{ partial "molecules/mi-textblock/mi-textblock.html" $params }}
+    </div>
+</div>
+{{ range .Pages }}
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+        
+        <article class="m-mi-content-wrap">
+            <h3>Page: {{.Title}}</h3>
+            <span class="primary label">{{.Dir}}</span>
+            {{ .Summary }}
+            <div style="color:grey; font-size:16px;">{{ if .Params.years }}<strong>Categories:</strong> {{range .Params.years}}<a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+            <a href="{{.URL}}">mehr lesen</a>
+        </article>
+    </div>
+</div>
+{{ end }}
+
+{{ range .Sections }}
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+        <article class="m-mi-content-wrap">
+            <h3>Section: {{.Title}}</h3>
+            <div>{{.Dir}}</div>
+            {{ .Summary }}
+            <div style="color:grey; font-size:16px;">{{ if .Params.years }}<strong>Categories:</strong> {{range .Params.years}}<a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+            <a href="{{.URL}}">mehr lesen</a>
+        </article>
+    </div>
+</div>
+{{ end }}
+{{ end }}
