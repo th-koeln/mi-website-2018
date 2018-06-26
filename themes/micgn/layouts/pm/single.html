@@ -1,15 +1,21 @@
 {{ define "main" }}
-<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-    <div class="row">
-        <div class="col-lg-8">
-            <div class="content-column-content ">
-                Template: pm/single.html
-                <h1 id="title">{{ .Title }}</h1>
-                <article id="content">
-                    {{ .Content }}
-                </article>
-            </div>
-        </div>
+{{ $params := . }}
+
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+        Template: pm/single.html
+        <h1 id="title">{{ .Title }}</h1> {{if .Prev}}<a data-json-content="{{.Prev.Permalink}}index.json" href="{{.Prev.Permalink}}">prev</a> {{end}} {{if .Next}}<a data-json-content="{{.Next.Permalink}}index.json" href="{{.Next.Permalink}}">next</a> {{end}}
+        <article id="content">
+            {{ .Content }}
+        </article>
+    </div>
+</div>
+<hr>
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+        {{ .Scratch.Set "Pages" .Parent.Pages }}
+        {{ $indexScratch := .Scratch }}
+        {{ partial "molecules/mi-related-links/mi-related-links.html" (dict "this" $indexScratch "globalParams" $params) }}
     </div>
 </div>
 {{ end }}

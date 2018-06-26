@@ -15,7 +15,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:th-koeln/mi-website-2018.git"
-  }
+  },
   "devDependencies": {
     "autoprefixer": "^8.5.2",
     "babel-cli": "^6.26.0",

@@ -23,3 +23,8 @@ googleAnalytics = ""
   betreuer = "betreuer"
   autor = "autoren"
   modul = "module"
+
+[outputs]
+  page = ["HTML", "JSON"]
+  section = ["HTML", "JSON"]
+  home = ["html", "JSON"]

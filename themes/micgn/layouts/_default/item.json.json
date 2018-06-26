@@ -1,0 +1,6 @@
+{
+  "name" : "{{ .Title }}",
+  "src" : "{{ .Params.Src }}",
+  "text" : "{{ .Params.Text }}",
+  "tags" : [{{ range $i, $e := .Params.tags}}{{ if $i }}, {{ end }}"{{ $e }}"{{ end }}]
+}
