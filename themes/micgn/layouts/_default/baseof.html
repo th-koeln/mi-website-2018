@@ -22,6 +22,7 @@
                         {{ $fragments := split .Dir "/" }}
                         {{ $fragment := index ($fragments) 0 }}
                         {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
+                        {{ $fragments := split .Page.Type "/" }}
                         {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
                     </div>
                 </div>
@@ -30,7 +31,7 @@
 
 
             </main>
-
+{{$globalParams }}
             {{ partial "system/footer/footer.html" $globalParams }}
  
         </div>

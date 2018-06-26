@@ -12,12 +12,13 @@ googleAnalytics = ""
 
 [params]
   baseFragment = "/mi-website-2018"
+  template = ""
 
 [taxonomies]
   tag = "tags"
   category = "categories"
   year = "years"
-  work = "works"
+  paper = "papers"
   keyword = "keywords"
   betreuer = "betreuer"
   autor = "autoren"
