@@ -1,0 +1,15 @@
++++
+date = "2018-05-05T21:05:33+05:30"
+title = "Ermittlung und prototypische Integration einer visuellen Programmierumgebung zur Programmierung von Arduino-Uno-Mikrocontrollern im Projekt Jugend hackt - Hello World"
+autoren = ["Daniel Röger"]
+module = ["Bachelorarbeit"]
+betreuer = ["Prof. Christian Noss", "Prof. Dr. Martin Eisemann"]
+themen = ["Open Knowledge"]
+papers = [2017]
++++
+
+Diese Arbeit baut auf dem Praxisprojekt SS17 mit dem Titel Konzeption eines Tages” workshops zur Vermittlung kreativer Probleml¨osekompetenzen anhand von Technik mit Fokus auf Programmierung - an Jugendliche zwischen 10 und 16 Jahren“ auf. Die Arbeit dient der Erlangung des akademischen Grades Bachelor of Science.
+
+Ziel der Arbeit ist eine Auswahl einer visuellen Programmierumgebung f¨ur ArduinoUno-Mikrocontroller f¨ur das Projekt Jugend hackt - Hello World“. Die Program” mierumgebung soll dazu dienen, Kindern und Jugendlichen, die Programmieren lernen m¨ochten, die Programmierung der Arduino-Uno-Mikrocontroller zu erleichtern. Die Arbeit wird auf Basis von Fachliteratur zur Auswahl von Software in Unternehmen in Kombination mit Methoden der menschzentrierten Entwicklung durchgef¨uhrt. Sie beginnt mit der Beschreibung des aktuellen Zustands und der Problemstellung. Darauf folgt eine Durchleuchtung der Dom¨ane und des ben¨otigten fachlichen Grundwissens durch die Analyse des Nutzungskontextes und des technischen Kontextes des ArduinoUnos. Bei der Auswahl von Software wird zun¨achst empfohlen, Anforderungen zu ermitteln und anhand dieser bestehende Software abzugleichen und auszuw¨ahlen. Dazu wird die Methodik zur Anforderungsanalyse des Usability engineering lifecycles“ ange” wandt. Diese gibt vor, zun¨achst Benutzermodelle zu erstellen, um die Charakteristiken verschiedener Benutzer festzuhalten und einbeziehen zu k¨onnen. Dazu werden User Proﬁles erstellt.
+
+Im n¨achsten Schritt werden die Aufgaben der Benutzer erarbeitet, wozu Use Cases verwendet werden. Die Use Cases werden anschließend in einer Claim Analyse ausgewertet, woraus sich funktionale Anforderungen ableiten lassen. Neben den funktionalen Anforderungen lassen sich anhand der Informationen aus der Kontextanalyse qualitative Anforderungen aufstellen. Diese ergeben sich aus den Grunds¨atzen der Dialoggestaltung der DIN EN ISO Norm 9241, Teil 110 im Kontext zur Zielgruppe. Zudem k¨onnen technische und organisationale Anforderungen aus der Kontextanalyse abgeleitet werden. Sind alle Anforderungen an die Software aufgestellt, werden diese priorisiert und gewichtet. Anschließend wird eine Marktanalyse durchgef¨uhrt. Die dort ermittelte Software wird ohne praktische Tests mit den Anforderungen abgeglichen. Die Softwarel¨osungen, die am ehesten den Anforderungen entsprechen, werden in einer Testimplementierung in Form von Proof of Concepts genauer untersucht und anschließend anhand einer Nutzwertanalyse unter Ber¨ucksichtigung aller Anforderungen bewertet. Daraus erfolgt eine ﬁnale Softwareauswahl, ein Fazit und ein Ausblick.

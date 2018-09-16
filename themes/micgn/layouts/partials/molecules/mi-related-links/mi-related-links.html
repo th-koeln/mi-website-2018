@@ -1,0 +1,5 @@
+<ul class="m-mi-related-links">
+	 {{range .this.Get "Pages"}}
+ 	<li class="m-mi-related-links-item"><a href="{{.Permalink}}" data-json-content="{{.Permalink}}index.json">{{.Title}}</a></li>
+	 {{end}}
+</ul>

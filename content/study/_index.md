@@ -4,7 +4,6 @@ title = "Hier kann man studieren!"
 linkTitle = "Study"
 +++
 
-
 Am Campus Gummersbach bieten wir zwei aufeinander aufbauende Studiengänge an: den Medieninformatik Bachelor und den Medieninformatik Master.
 
 

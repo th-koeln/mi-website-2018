@@ -1,0 +1,14 @@
+{{ define "response" }}{
+    "title":"{{.Title}}",
+	"modulverantwortlich": "{{.Params.Modulverantwortlich}}",
+	"modulniveau": "{{.Params.Modulniveau}}",
+	"kuerzel": "{{.Params.Kuerzel}}",
+	"studiensemester": "{{.Params.Studiensemester}}",
+	"sprache": "{{.Params.Sprache}}",
+	"kreditpunkte": "{{.Params.Kreditpunkte}}",
+	"voraussetzungen-nach-pruefungsordnung": "{{.Params.VoraussetzungenNachPruefungsordnung}}",
+	"empfohlene-voraussetzungen": "{{.Params.EmpfohleneVoraussetzungen}}",
+	"published": "{{.Params.Published}}",
+	"type": "{{.Params.Type}}",
+    "content": "{{.RawContent | jsonify }}",
+}{{ end }}
