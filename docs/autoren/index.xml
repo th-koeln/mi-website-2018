@@ -2,39 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autoren on Medieninformatik an der TH Köln</title>
-    <link>https://th-koeln.github.io/mi-website-2018/autoren/</link>
+    <link>https://slemke.github.io/mi-website-2018/autoren/</link>
     <description>Recent content in Autoren on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sat, 02 Jun 2018 13:49:31 +0200</lastBuildDate>
     
-	<atom:link href="https://th-koeln.github.io/mi-website-2018/autoren/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slemke.github.io/mi-website-2018/autoren/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alexander Miske</title>
-      <link>https://th-koeln.github.io/mi-website-2018/autoren/alexander-miske/</link>
+      <link>https://slemke.github.io/mi-website-2018/autoren/alexander-miske/</link>
       <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
       
-      <guid>https://th-koeln.github.io/mi-website-2018/autoren/alexander-miske/</guid>
+      <guid>https://slemke.github.io/mi-website-2018/autoren/alexander-miske/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anja Sivakumar</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/anja-sivakumar/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/anja-sivakumar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christian Alexander Poplawski</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/christian-alexander-poplawski/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/christian-alexander-poplawski/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daniel Röger</title>
-      <link>https://th-koeln.github.io/mi-website-2018/autoren/daniel-r%C3%B6ger/</link>
+      <link>https://slemke.github.io/mi-website-2018/autoren/daniel-r%C3%B6ger/</link>
       <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
       
-      <guid>https://th-koeln.github.io/mi-website-2018/autoren/daniel-r%C3%B6ger/</guid>
+      <guid>https://slemke.github.io/mi-website-2018/autoren/daniel-r%C3%B6ger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David F. Petersen</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/david-f.-petersen/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/david-f.-petersen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eduard König</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/eduard-k%C3%B6nig/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/eduard-k%C3%B6nig/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Johannes Kimmeyer</title>
-      <link>https://th-koeln.github.io/mi-website-2018/autoren/johannes-kimmeyer/</link>
+      <link>https://slemke.github.io/mi-website-2018/autoren/johannes-kimmeyer/</link>
       <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
       
-      <guid>https://th-koeln.github.io/mi-website-2018/autoren/johannes-kimmeyer/</guid>
+      <guid>https://slemke.github.io/mi-website-2018/autoren/johannes-kimmeyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laura Maria Hermann</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/laura-maria-hermann/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/laura-maria-hermann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastian Leuer</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/sebastian-leuer/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/sebastian-leuer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sophie Marleen Stelzer</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/sophie-marleen-stelzer/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/sophie-marleen-stelzer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sven Hendrik Schebitz</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/sven-hendrik-schebitz/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/sven-hendrik-schebitz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas Friesen</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/thomas-friesen/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/thomas-friesen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vsevolod Küppers</title>
+      <link>https://slemke.github.io/mi-website-2018/autoren/vsevolod-k%C3%BCppers/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://slemke.github.io/mi-website-2018/autoren/vsevolod-k%C3%BCppers/</guid>
       <description></description>
     </item>
     

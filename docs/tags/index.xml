@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Medieninformatik an der TH Köln</title>
-    <link>https://th-koeln.github.io/mi-website-2018/tags/</link>
+    <link>https://slemke.github.io/mi-website-2018/tags/</link>
     <description>Recent content in Tags on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     
-	<atom:link href="https://th-koeln.github.io/mi-website-2018/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slemke.github.io/mi-website-2018/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

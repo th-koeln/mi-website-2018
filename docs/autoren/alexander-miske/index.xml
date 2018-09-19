@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexander Miske on Medieninformatik an der TH Köln</title>
-    <link>https://th-koeln.github.io/mi-website-2018/autoren/alexander-miske/</link>
+    <link>https://slemke.github.io/mi-website-2018/autoren/alexander-miske/</link>
     <description>Recent content in Alexander Miske on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sat, 02 Jun 2018 13:49:31 +0200</lastBuildDate>
     
-	<atom:link href="https://th-koeln.github.io/mi-website-2018/autoren/alexander-miske/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slemke.github.io/mi-website-2018/autoren/alexander-miske/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Generierung Von Wortwolken Im Svg Format Mittels Webstandards</title>
-      <link>https://th-koeln.github.io/mi-website-2018/works/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</link>
+      <link>https://slemke.github.io/mi-website-2018/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</link>
       <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
       
-      <guid>https://th-koeln.github.io/mi-website-2018/works/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</guid>
+      <guid>https://slemke.github.io/mi-website-2018/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</guid>
       <description>Bei der Visualisierung von Informationen geht es vor allem darum Daten oder Zusammenhänge graphisch darzustellen. Für die graphische Darstellung können verschiedene Mittel verwendet werden, wie z.B. Tabellen, Diagramme oder Bilder. Das Kriterium zur Auswahl der Mittel hängt mit dem Kontext der Information und einer oder mehreren Fragen, die es mit der Visualisierung zu beantworten gilt, zusammen [1, p. 18f]. Wenn die Information z.B. unmittelbar mit Zahlen zusammenhängt, eignet sich für die Visualisierung oft ein Diagramm, da hier geometrische Formen verwendet werden können und die Größe der Formen im Bezug zur zählbaren Information steht.</description>
     </item>
     
