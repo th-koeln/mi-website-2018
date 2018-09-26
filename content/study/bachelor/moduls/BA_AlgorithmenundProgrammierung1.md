@@ -1,18 +1,17 @@
----
-title: Algorithmen und Programmierung 1
-modulverantwortlich: fv
-modulniveau:
-kuerzel: AP1
-untertitel:
-studiensemester: 1
-kategorie:
-sprache: deutsch
-kreditpunkte: 8
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Algorithmen und Programmierung 1"
+modulverantwortlich = "fv"
+kuerzel = "AP1"
+untertitel = ""
+studiensemester = 1
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 8
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 
@@ -20,12 +19,12 @@ type: pm
 
 ## Arbeitsaufwand
 
-Gesamtaufwand 240h, davon 
+Gesamtaufwand 240h, davon
 
-- 54h Vorlesung 
+- 54h Vorlesung
 - 36h Praktikum
 - 18h Übung
-- 132h Selbststudium 
+- 132h Selbststudium
 
 ## Angestrebte Lernergebnisse
 
@@ -49,8 +48,8 @@ Die Studierenden sollen
 ## Studien-/Prüfungsleistungen
 Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
-## Medienformen
-- Beamer-gestützte Vorlesungen (Folien in elektronischer Form) 
+## +++formen
+- Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
 - Praktikum an Rechnern des Labors
 
 ## Literatur
@@ -59,4 +58,3 @@ Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvo
 * Fachliteratur: Diverse C-Bücher, u.a.: Kernighan, B.W., Ritchie, D.M.: „Programmieren in C“
 * Diverse Java-Bücher, u.a.: Bishop, J.: „Java Lernen“
 * Sedgewick, R.: „Algorithmen in Java“
-

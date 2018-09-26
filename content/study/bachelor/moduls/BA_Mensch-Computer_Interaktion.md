@@ -1,35 +1,35 @@
----
-title: Mensch-Computer Interaktion
-modulverantwortlich: gh
-modulniveau:
-kuerzel: MCI
-untertitel:
-studiensemester: 2
-kategorie:
-sprache: deutsch
-kreditpunkte: 10
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik
-published: true
-type: pm
----
++++
+title = "Mensch-Computer Interaktion"
+modulverantwortlich = "gh"
+modulniveau = ""
+kuerzel = "MCI"
+untertitel = ""
+studiensemester = 2
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 10
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik"
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 Vorlesung und Praktikum/Übung
 
 ## Arbeitsaufwand
-Gesamtaufwand 300h, davon 
+Gesamtaufwand 300h, davon
 
 * 65h Vorlesung
 * 65h Praktikum/Übung
 * 170h Selbststudium
 
 ## Angestrebte Lernergebnisse
-* Die Studierenden erwerben Grundkenntnisse in kognitions-, arbeits- und organisations-psychologischen Grundkonzepten und können diese auf Problemstellungen, im Kontext der Mensch-Computer Interaktion, anwenden. 
-* Die Studierenden kennen Modelle, Methoden, Arbeits- und Dokumentationstechniken der Mensch-Computer Interaktion, können sie anwenden, kritisch diskutieren und für konkrete Aktivitäten in Entwicklungsprojekten unter Abwägung der Alternativen auswählen. 
+* Die Studierenden erwerben Grundkenntnisse in kognitions-, arbeits- und organisations-psychologischen Grundkonzepten und können diese auf Problemstellungen, im Kontext der Mensch-Computer Interaktion, anwenden.
+* Die Studierenden kennen Modelle, Methoden, Arbeits- und Dokumentationstechniken der Mensch-Computer Interaktion, können sie anwenden, kritisch diskutieren und für konkrete Aktivitäten in Entwicklungsprojekten unter Abwägung der Alternativen auswählen.
 * Sie kennen relevante internationale Normen und Standards, können sie anwenden und erarbeitete Ergebnisse kritisch diskutieren und einordnen.
-* Sie kennen methodische Ansätze benutzer- oder benutzungsorientierter Entwicklungsprozesse und können diese systematisch und iterativ auf die Konzeption, Realisation, Evaluation und das Redesign von interaktiven Systemen anwenden. 
-* Zudem kennen sie Konzepte und Vorgehensmodelle für die Integration von Software- und Usability Engineering in einem Gesamtprozess und können diese in Entwicklungsprojekten anwenden. 
+* Sie kennen methodische Ansätze benutzer- oder benutzungsorientierter Entwicklungsprozesse und können diese systematisch und iterativ auf die Konzeption, Realisation, Evaluation und das Redesign von interaktiven Systemen anwenden.
+* Zudem kennen sie Konzepte und Vorgehensmodelle für die Integration von Software- und Usability Engineering in einem Gesamtprozess und können diese in Entwicklungsprojekten anwenden.
 * Die Studierenden erlangen die Fähigkeit zum fachlichen Diskurs.
 
 
@@ -74,4 +74,3 @@ Schriftliche Prüfung.
 - Rosson, M.B. & Carroll, J.M.: Usability Engineering. Scenario-Based Development of Human-Computer Interaction. San Francisco, Morgan Kaufmann, 2002.
 - Snyder, C: Paper Prototyping. San Francisco, Morgan Kaufmann, 2003.
 - Ulich, E.: Arbeitspsychologie. Stuttgart, Schäffer-Poeschel, 2001 (5.Auflage).
-

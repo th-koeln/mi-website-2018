@@ -1,29 +1,29 @@
----
-title: Mathematik 1
-modulverantwortlich: wk
-modulniveau:
-kuerzel: MA1
-untertitel:
-studiensemester: 1
-kategorie:
-sprache: deutsch
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-kreditpunkte: 7
-type: pm
----
++++
+title = "Mathematik 1"
+modulverantwortlich = "wk"
+modulniveau = ""
+kuerzel = "MA1"
+untertitel = ""
+studiensemester = 1
+kategorie = ""
+sprache = "deutsch"
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+kreditpunkte = 7
+type = "pm"
++++
 
 ## Lehrform/SWS
 6 SWS: Vorlesung  3 SWS; Praktikum 1 SWS; Übung 2 SWS
 
 ## Arbeitsaufwand
 
-Gesamtaufwand 210h, davon 
+Gesamtaufwand 210h, davon
 
-- 54h Vorlesung 
+- 54h Vorlesung
 - 18h Praktikum
 - 36h Übung
-- 102h Selbststudium 
+- 102h Selbststudium
 
 ## Angestrebte Lernergebnisse
 
@@ -47,5 +47,3 @@ Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvo
 * Hartmann, Peter: "Mathematik für Informatiker-Ein praxisbezogenes Lehrbuch" Vieweg Verlag, 475 Seiten, 3. Auflage 2006
 * Papula, Lothar: "Mathematik für Ingenieure und Naturwissenschaftler" Vieweg Verlag, 14. Auflage, 2014
 * Stingl, Mathematik für Fachhochschulen, Hanser 2003
-
-

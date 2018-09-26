@@ -1,7 +1,15 @@
 {{$BaseURL := .BaseURL}}
 {{$globalParams := .globalParams}}
 {{ $globalParams.Scratch.Set "path" "" }}
-Fragments: {{.Fragments}}
+
+<div class="search">
+  <form class="search--form">
+    <a href="#" class="search--clear hide">&times;</a>
+    <input type="text" name="search" />
+  </form>
+  <div class="search--autocomplete"></div>
+</div>
+
 <div class="m-navHead">
     <button data-toggle="offCanvas" id="icon-main-menu" class="m-navHead--hamburger hamburger-cancel">
         <span class="icon"></span>

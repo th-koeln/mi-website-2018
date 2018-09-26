@@ -104,7 +104,7 @@ function images() {
 }
 
 function js() {
-		clean(paths.js.stat);
+		//clean(paths.js.stat); removed - conflicts with hugo-lunr 
 		clean(paths.js.dest);
 		return _gulp2.default.src(paths.js.src).pipe((0, _gulpConcat2.default)('main.js')).pipe((0, _gulpHash2.default)()).pipe(_gulp2.default.dest(paths.js.stat)).pipe(_gulpHash2.default.manifest("hash.json")).pipe(_gulp2.default.dest(paths.js.dest));
 }

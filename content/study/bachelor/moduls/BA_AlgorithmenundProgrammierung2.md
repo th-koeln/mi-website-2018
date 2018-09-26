@@ -1,18 +1,18 @@
----
-title: Algorithmen und Programmierung 2
-modulverantwortlich: ck
-modulniveau:
-kuerzel: AP2
-untertitel:
-studiensemester: 2
-kategorie:
-sprache: deutsch
-kreditpunkte: 7
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Algorithmen und Programmierung 1
-published: true
-type: pm
----
++++
+title = "Algorithmen und Programmierung 2"
+modulverantwortlich = "ck"
+modulniveau = ""
+kuerzel = "AP2"
+untertitel = ""
+studiensemester = 2
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 7
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Algorithmen und Programmierung 1"
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 
@@ -20,12 +20,12 @@ type: pm
 
 ## Arbeitsaufwand
 
-Gesamtaufwand 210h, davon 
+Gesamtaufwand 210h, davon
 
-- 54h Vorlesung 
+- 54h Vorlesung
 - 36h Praktikum
 - 18h Übung
-- 102h Selbststudium 
+- 102h Selbststudium
 
 ## Angestrebte Lernergebnisse
 
@@ -43,7 +43,7 @@ Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvo
 
 ## Medienformen
 
-* Beamer-gestützte Vorlesungen (Folien in elektronischer Form) 
+* Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
 * Praktikum an Rechnern des Labors
 
 ## Literatur
@@ -52,4 +52,3 @@ Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvo
 - Fachliteratur: Bishop, J.: „Java Lernen“
 - Sedgewick, R.: „Algorithmen in Java“
 - Barnes, J., Kölling, M.: „Java Lernen mit BlueJ“, Verweise auf Onlinedokumente
-

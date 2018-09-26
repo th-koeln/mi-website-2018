@@ -1,18 +1,18 @@
----
-title: Datenbanken 1
-modulverantwortlich: bb, hfw
-modulniveau:
-kuerzel: DB1
-untertitel:
-studiensemester: 3
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Datenbanken 1"
+modulverantwortlich = "bb, hfw"
+modulniveau = ""
+kuerzel = "DB1"
+untertitel = ""
+studiensemester = 3
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "Klausurteilnahme nur bei bestandenem DBS1‐Praktikum"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 
@@ -20,12 +20,12 @@ type: pm
 
 ## Arbeitsaufwand
 
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
-- 36h Vorlesung 
+- 36h Vorlesung
 - 18h Praktikum
 - 18h Übung
-- 78h Selbststudium 
+- 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
 
@@ -69,4 +69,3 @@ Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur.
 - Kemper, A.; Eickler, A.: Datenbanksysteme – Eine Einführung. Oldenbourg‐Verlag, 2015
 - Saake, G., Sattler, K.‐U.; Heuer, A.: Datenbanken ‐ Konzepte und Sprachen. Mitp/bhv, 2013
 - Vossen, G.: Datenmodelle, Datenbanksprachen, Datenbankmanagementsysteme. Oldenbourg‐Verlag, 2008
-

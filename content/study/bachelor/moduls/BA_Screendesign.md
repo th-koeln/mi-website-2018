@@ -1,29 +1,29 @@
----
-title: Screendesign
-modulverantwortlich: cn
-modulniveau:
-kuerzel: SD
-untertitel:
-studiensemester: 3
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, MCI
-published: true
-type: pm
----
++++
+title = "Screendesign"
+modulverantwortlich = "cn"
+modulniveau = ""
+kuerzel = "SD"
+untertitel = ""
+studiensemester = 3
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik, MCI"
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 1 SWS; Seminar 3 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
 - 15h Vorlesung
-- 45h Seminar 
+- 45h Seminar
 - 80h Projektarbeit  
-- 10h Selbststudium 
+- 10h Selbststudium
 
 ## Angestrebte Lernergebnisse
 Die Studierenden kennen wesentliche Begriffe der visuellen Kommunikation und können diese anwenden um Briefings, Angebote oder Korrekturwünsche im Design-Kontext zu verstehen oder zu verfassen.
@@ -37,7 +37,7 @@ Die Studierenden können in einem gegebenen Gestaltungskontext, unter Berücksic
 ### Vorlesung
 - Design Basics
 - Axis Map & Semantisches Differential
-- Kommunikationsmodelle 
+- Kommunikationsmodelle
 - Visuelle Wahrnehmung
 - Benutzerziele
 - Corporate Identity
@@ -54,7 +54,7 @@ Die Studierenden können in einem gegebenen Gestaltungskontext, unter Berücksic
 - Designprojekte strukturieren
 - Layoutentwicklung mit Wireframes
 - Layoutentwicklung für verschiedene Endgeräte
-- Flow & Transition 
+- Flow & Transition
 - Typographie & Textsatz
 - Designkonzepte analysieren & bewerten
 - Variantenbildung

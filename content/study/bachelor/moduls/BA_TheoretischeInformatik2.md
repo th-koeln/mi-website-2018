@@ -1,18 +1,18 @@
----
-title: Theoretische Informatik 2
-modulverantwortlich: me
-modulniveau:
-kuerzel: TI2
-untertitel:
-studiensemester: 2
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
-published: true
-type: pm
----
++++
+title = "Theoretische Informatik 2"
+modulverantwortlich = "me"
+modulniveau = ""
+kuerzel = "TI2"
+untertitel = ""
+studiensemester = 2
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden."
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Übung 2 SWS

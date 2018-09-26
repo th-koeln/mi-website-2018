@@ -1,18 +1,18 @@
----
-title: Theoretische Informatik 1
-modulverantwortlich: me
-modulniveau:
-kuerzel: TI1
-untertitel:
-studiensemester: 1
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
-published: true
-type: pm
----
++++
+title = "Theoretische Informatik 1"
+modulverantwortlich = "me"
+modulniveau = ""
+kuerzel = "TI1"
+untertitel = ""
+studiensemester = 1
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden"
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Übung 2 SWS
@@ -21,7 +21,7 @@ type: pm
 Gesamtaufwand 150h, davon
 - 36h Vorlesung
 - 36h Übung
-- 78h Selbstlernphase 
+- 78h Selbstlernphase
 
 ## Angestrebte Lernergebnisse
 
@@ -53,4 +53,3 @@ Schriftliche Prüfung.
 - Kelly, J. ( 2003 ): Logik. Pearson Studium, München.
 - Ehrig, H. et al. (1999): Mathematisch-strukturelle Grundlagen der Informatik. Springer,  Heidelberg.
 - Beuth, K. (1992): Digitaltechnik. 9.Aufl.Vogel, Würzburg.
-

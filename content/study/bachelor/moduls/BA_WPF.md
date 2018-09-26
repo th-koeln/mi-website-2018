@@ -1,18 +1,18 @@
----
-title: Wahlpflichtmodul
-modulverantwortlich: all
-modulniveau: 
-kuerzel: WPF
-untertitel: 
-studiensemester: 5
-kategorie: 
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Wahlpflichtmodul"
+modulverantwortlich = "all"
+modulniveau = ""
+kuerzel = "WPF"
+untertitel = ""
+studiensemester = 5
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Arbeitsaufwand
 150 Stunden

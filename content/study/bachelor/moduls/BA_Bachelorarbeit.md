@@ -1,18 +1,18 @@
----
-title: Bachelorarbeit
-modulverantwortlich: all
-modulniveau:
-kuerzel: BA
-untertitel:
-studiensemester: 6
-kategorie:
-sprache: deutsch
-kreditpunkte: 12
-voraussetzungen-nach-pruefungsordnung: alle Modulprüfungen außer Bachelorarbeit und Kolloquium bestanden
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Bachelorarbeit"
+modulverantwortlich = "all"
+modulniveau = ""
+kuerzel = "BA"
+untertitel = ""
+studiensemester = 6
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 12
+voraussetzungen-nach-pruefungsordnung = "alle Modulprüfungen außer Bachelorarbeit und Kolloquium bestanden"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 Angeleitetes, eigenverantwortliches Arbeiten
@@ -28,4 +28,3 @@ Selbstständiges wissenschaftliches, fachpraktisches und gestalterisches Bearbei
 
 ## Studien-/Prüfungsleistungen
 Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
-

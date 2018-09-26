@@ -1,18 +1,18 @@
----
-title: Audiovisuelles Medienprojekt
-modulverantwortlich: hk
-modulniveau: BA
-kuerzel: AVM
-untertitel: null
-studiensemester: 3
-kategorie: null
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik
-published: true
-type: pm
----
++++
+title = "Audiovisuelles Medienprojekt"
+modulverantwortlich = "hk"
+modulniveau = "BA"
+kuerzel = "AVM"
+untertitel = ""
+studiensemester = 3
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik"
+published = true
+type = "pm"
++++
 
 ## Kurzbeschreibung
 Im Mittelpunkt dieses Moduls steht die digitale audiovisuelle Medienproduktion in den Formaten Porträt- und Dokumentarfilm.
@@ -29,7 +29,7 @@ Gesamtaufwand 150h, davon
 
 
 ## Angestrebte Lernergebnisse
-- Die Studierenden kennen die grundlegenden Erzählformen und Formate audiovisueller Medien und können auf der Basis klassischer Erzählmuster eigene audiovisuelle Erzählformen entwickeln. 
+- Die Studierenden kennen die grundlegenden Erzählformen und Formate audiovisueller Medien und können auf der Basis klassischer Erzählmuster eigene audiovisuelle Erzählformen entwickeln.
 
 - Die Studierenden können die in der audiovisuellen Produktion auftretende Problemstellungen selbstständig lösen und die verwendeten Medientechnologien, wie Videokamera, Tonaufnahmegeräte und Schnittsysteme technisch richtig und gestalterisch aussagekräftig einzusetzen.
 
@@ -73,4 +73,3 @@ Projektarbeit
 - Hans Beller Hg., Handbuch der Filmmontage, München: TR-Verlagsunion, 1993, ISBN 3-8058-2357-6
 - Karel Reisz, Gavin Millar, Geschichte und Technik der Filmmontage, München: Filmlandpresse, 1988, ISBN 3-88690-071-1
 - Chris Vogler, Die Reise des Drehbuchschreibens, Verlag Zweitausendeins
-

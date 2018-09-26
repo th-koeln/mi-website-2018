@@ -1,21 +1,21 @@
----
-title: Einführung in die Medieninformatik
-modulverantwortlich: mi
-modulniveau:
-kuerzel: EMI
-untertitel:
-studiensemester: 1
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Einführung in die Medieninformatik"
+modulverantwortlich = "mi"
+modulniveau = ""
+kuerzel = "EMI"
+untertitel = ""
+studiensemester = 1
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
-4 SWS: Seminar 3 SWS; Übung 1 SWS 
+4 SWS: Seminar 3 SWS; Übung 1 SWS
 
 Seminar mit eingebetteten Übungselementen und Projektarbeit.
 
@@ -28,9 +28,9 @@ Gesamtaufwand 150h, davon
 - 70h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Die Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen. 
+Die Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen.
 
-Die Studierenden kennen Grundkonzepte der Informatik (z.B. Anforderungen) sowie audiovisueller und interaktiver Medientechnologien, kennen architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte und können diese Kenntnisse auf eine gegebene Problemstellung anwenden. 
+Die Studierenden kennen Grundkonzepte der Informatik (z.B. Anforderungen) sowie audiovisueller und interaktiver Medientechnologien, kennen architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte und können diese Kenntnisse auf eine gegebene Problemstellung anwenden.
 
 Die Studierenden sind sensibilisiert für Modellierungs- und Entwicklungsaufgaben von medienbasierten Software-Systemen zur Unterstützung menschlichen Handelns in betrieblichen und privaten Kontexten.
 
@@ -53,5 +53,4 @@ Projektpräsentation(30%) und schriftliche Ausarbeitung(70%).
 
 ## Literatur
 * Michael Herczeg: Einführung in die Medieninformatik, Oldenbourg Verlag, 2006, ISBN: 3-486-581-031
-* Chris Rupp et al: Requirements-Engineering und -Management: Aus der Praxis von klassisch bis agil, Carl Hanser Verlag; 6-te Auflage, 2014, ISBN-10: 3446438939 
-
+* Chris Rupp et al: Requirements-Engineering und -Management: Aus der Praxis von klassisch bis agil, Carl Hanser Verlag; 6-te Auflage, 2014, ISBN-10: 3446438939

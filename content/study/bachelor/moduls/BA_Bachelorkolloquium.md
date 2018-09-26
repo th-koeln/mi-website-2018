@@ -1,18 +1,18 @@
----
-title: Bachelor Kolloquium
-modulverantwortlich: all
-modulniveau:
-kuerzel: BK
-untertitel:
-studiensemester: 6
-kategorie:
-sprache: deutsch
-kreditpunkte: 3
-voraussetzungen-nach-pruefungsordnung: alle Modulprüfungen außer Bachelor Kolloquium bestanden
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Bachelor Kolloquium"
+modulverantwortlich = "all"
+modulniveau = ""
+kuerzel = "BK"
+untertitel = ""
+studiensemester = 6
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 3
+voraussetzungen-nach-pruefungsordnung = "alle Modulprüfungen außer Bachelor Kolloquium bestanden"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 Angeleitetes, eigenverantwortliches Arbeiten

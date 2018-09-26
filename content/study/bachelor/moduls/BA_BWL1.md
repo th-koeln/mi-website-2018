@@ -1,24 +1,24 @@
----
-title: BWL I - Grundlagen
-modulverantwortlich: moe
-modulniveau:
-kuerzel: BWL1
-untertitel:
-studiensemester: 5
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "BWL I - Grundlagen"
+modulverantwortlich = "moe"
+modulniveau = ""
+kuerzel = "BWL1"
+untertitel = ""
+studiensemester = 5
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Übung 2 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
 - 30h Vorlesung
 - 30h Übung

@@ -1,18 +1,18 @@
----
-title: Praxisprojekt
-modulverantwortlich: all
-modulniveau:
-kuerzel: PP
-untertitel:
-studiensemester: 6
-kategorie:
-sprache: deutsch
-kreditpunkte: 10
-voraussetzungen-nach-pruefungsordnung: erreichte 140 Leistungspunkte (CP)
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Praxisprojekt"
+modulverantwortlich = "all"
+modulniveau = ""
+kuerzel = "PP"
+untertitel = ""
+studiensemester = 6
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 10
+voraussetzungen-nach-pruefungsordnung = "erreichte 140 Leistungspunkte (CP)"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 Angeleitetes, eigenverantwortliches Arbeiten
@@ -21,7 +21,7 @@ Angeleitetes, eigenverantwortliches Arbeiten
 300 h Projektarbeit
 
 ## Angestrebte Lernergebnisse
-Die Studierenden 
+Die Studierenden
 
 - können Methoden und Techniken, die sie im Studium erlernt haben, in realitätsnahen Projekten weitgehend selbstständig anwenden
 
@@ -33,6 +33,3 @@ Modulinhalte des ersten bis fünften Semesters anhand von realen Anforderungen i
 
 ## Studien-/Prüfungsleistungen
 Schriftliche Ausarbeitung, Projektdokumentation
-
-
-

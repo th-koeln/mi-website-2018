@@ -1,19 +1,19 @@
----
-title: Visual Computing
-modulverantwortlich: hk, me
-modulniveau:
-kuerzel: VC
-untertitel:
-studiensemester: 4
-kategorie:
-sprache: deutsch
-zuordnung-zum-curriculum: Medieninformatik Bachelor
-kreditpunkte: 20
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt
-published: true
-type: vpm
----
++++
+title = "Visual Computing"
+modulverantwortlich = "hk, me"
+modulniveau = ""
+kuerzel = "VC"
+untertitel = ""
+studiensemester = 4
+kategorie = ""
+sprache = "deutsch"
+zuordnung-zum-curriculum = "Medieninformatik Bachelor"
+kreditpunkte = 20
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt"
+published = true
+type = "vpm"
++++
 
 ## Kurzbeschreibung
 Das Modul „Visual Computing” im Medieninformatik Bachelor beschäftigt sich mit der Erzeugung und Verarbeitung visueller Informationen, sowohl in realen als auch computergenerierten Szenarien.
@@ -50,28 +50,28 @@ Aus den folgenden Wahlkatalogen sind zwei weitere Kurse zu jeweils 5CP zu belege
 600h Gesamtaufwand
 
 ### Audiovisuelle Medientechnik
-36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase
 
 ### Computergrafik und Animation
-36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase
 
 ### Audiovisuelles Medienprojekt 2
-36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase
 
 ### Visuelle Effekte und Animation
-36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase
 
 ### Crossplatform Game Development mit Unity3D
-36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase
 
 ### Prozedurale Generierung virtueller Welten
-36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase
 
 ## Angestrebte Lernergebnisse
 Je nach gewählten Vertiefungskursen entwickeln die Studierenden Fähigkeiten zur selbstverantwortlichen Durchführung von Projekten im Bereich Gamedevelopment, dreidimensionaler Darstellung virtueller Szenen, Film- und Fernsehtechnik, sowie Visueller Effekte.
 
 ### Audiovisuelle Medientechnik
-Die Studierenden sollen durch dieses Modul dazu befähigt werden, auf Basis der technischen Grundlagen der Video- und Fernsehtechnik weitergehende Fragestellungen selbstständig zu erarbeiten und sich so auch zukünftige technische Entwicklungen autonom erschließen zu können. 
+Die Studierenden sollen durch dieses Modul dazu befähigt werden, auf Basis der technischen Grundlagen der Video- und Fernsehtechnik weitergehende Fragestellungen selbstständig zu erarbeiten und sich so auch zukünftige technische Entwicklungen autonom erschließen zu können.
 Neben der Entwicklung und Förderung dieser Fachkompetenz ist die Initiierung der Methodenkompetenz eine wichtige Säule des Vorlesungsmoduls. Unter Methodenkompetenz ist hier die Selbstorganisation im Sinne von wissenschaftlicher Fragestellung an einen Themenkomplex und ein strukturiertes Vorgehen in der Erarbeitung eines Lösungsansatzes zu verstehen. Ziel ist es, das Wissen aus verschiedenen Bereichen, wie Kerninformatik, Internet- und Webtechnologien und benachbarten Wissenschaften mit der in diesem Modul unterrichteten Medientechnologien zu kombinieren und in die Medienproduktion zu integrieren.
 Gerade der Umgang mit Technologien und Methoden aus der Film- und Fernsehproduktion erweitert den Erfahrungshorizont der Studierenden über den bekannten Themenbereich der Kerninformatik hinaus und legt ihnen eine Einarbeitung in informatikfremde Sachverhalte und technologische Problemstellungen und deren Lösungsmethoden nahe.
 Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern audiovisueller Medien die Entwicklung und den Einsatz digitaler Medientechnik zu beraten, zu planen, durchzuführen oder zu verantworten.
@@ -79,18 +79,18 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern audiovisuell
 ### Computergrafik und Animation
 Die Grundlagen der zwei- und insbesondere der dreidimensionalen Computergraphik und Animation stellen ein hervorragendes Paradigma zur Vermittlung zentraler Inhalte und Kompetenzen der Medieninformatik dar.
 
-Den Studierenden wird deutlich, wie der Bogen von den abstrakten, geometrischen und algorithmischen Fakten zu den pragmatischen Gegebenheiten der Computergraphik-Hardware gespannt ist. 
-Sie erkennen die Zusammenhänge zwischen Grundlagenvorlesungen (Mathematik, Algorithmen, Programmierung) und der Gestaltung von Schnittstellen und Oberflächen und werden so für die jeweiligen Inhalte zusätzlich motiviert. 
+Den Studierenden wird deutlich, wie der Bogen von den abstrakten, geometrischen und algorithmischen Fakten zu den pragmatischen Gegebenheiten der Computergraphik-Hardware gespannt ist.
+Sie erkennen die Zusammenhänge zwischen Grundlagenvorlesungen (Mathematik, Algorithmen, Programmierung) und der Gestaltung von Schnittstellen und Oberflächen und werden so für die jeweiligen Inhalte zusätzlich motiviert.
 Dabei lernen Sie, im Kontext der Computergrafik, Verfahrensweisen kennen, um den algorithmischen Kern eines Problems zu identifizieren und können Algorithmen entwerfen, verifizieren und bzgl. ihres Ressourcenbedarfs bewerten.
-Sie erwerben die Fähigkeit, aktuelle technologische Entwicklungen im Medieninformatik-Kontext zu bewerten und Trends einzuordnen. 
+Sie erwerben die Fähigkeit, aktuelle technologische Entwicklungen im Medieninformatik-Kontext zu bewerten und Trends einzuordnen.
 
-Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse über Architektur und Programmierung moderner Graphikhardware, sowie deren Anwendung in konkreten Problemstellungen und Anwendungskontexten. 
+Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse über Architektur und Programmierung moderner Graphikhardware, sowie deren Anwendung in konkreten Problemstellungen und Anwendungskontexten.
 Am Beispiel von OpenGL und der Rendering-Pipeline lernen die Studierenden Problemstellungen im Anwendungskontext zu erkennen und sind mit den zugehörigen Lösungsmustern durch praktische Programmierung vertraut.
 
-Das erlernte Wissen und die erlernten Kenntnisse in der Soft- und Grafikhardware-Architektur ermöglicht es erfolgreichen Teilnehmern, anschließend Echtzeit-Visualisierungen mit OpenGL zu implementieren und somit mit einer modernen, plattformunabhängigen API umzugehen, die flexibel an bestehende Anforderungen angepasst werden kann. Zudem haben Sie die Fähigkeit hochparallele Algorithmen auf der Graphikkarte zu entwerfen und auszuführen. 
+Das erlernte Wissen und die erlernten Kenntnisse in der Soft- und Grafikhardware-Architektur ermöglicht es erfolgreichen Teilnehmern, anschließend Echtzeit-Visualisierungen mit OpenGL zu implementieren und somit mit einer modernen, plattformunabhängigen API umzugehen, die flexibel an bestehende Anforderungen angepasst werden kann. Zudem haben Sie die Fähigkeit hochparallele Algorithmen auf der Graphikkarte zu entwerfen und auszuführen.
 
 Dabei beherrschen die Studierenden nach Abschluss des Moduls die Fähigkeit abstrakte Szenen- und Objektbeschreibungen zu erstellen und darzustellen, sowie sich in vorhandenen Quelltext einzuarbeiten und diesen sinnvoll weiter zu entwickeln.
-Die Inhalte des Moduls befähigen die Studierenden die grundlegenden Algorithmen und Datenstrukturen der Echtzeit-Computergraphik zu beherrschen. 
+Die Inhalte des Moduls befähigen die Studierenden die grundlegenden Algorithmen und Datenstrukturen der Echtzeit-Computergraphik zu beherrschen.
 Die Studierenden können ihr erworbenes Können und Wissen zur Implementierung einer eigenen Game/Visualisierungs-Engine einsetzen. Dies zeigen Sie durch Umsetzung eines eigenen Projektes in Kleingruppen, wo sie zusätzlich lernen mündlich überzeugend zu präsentieren, abweichende Positionen zu erkennen und in eine sach- und interessengerechte Lösung zu integrieren. Sie zeigen dadurch, dass Sie in der Lage sind sich selbstständig neues Wissen anzueigenen und zu erkennen, welches Wissen relevant ist, können mediengestalterische Grundkompetenzen anwenden und besitzen aktive Vokabularien zur Beschreibung und Realisierung angemessener Konzeptionen. Zudem können sie die Realisationen bezüglich der Zielsetzungen kritisch diskutieren.
 
 ### Audiovisuelles Medienprojekt 2
@@ -118,15 +118,15 @@ Die Kursteilnehmer sammeln im Rahmen ihres eigenständig entwickelten Projektes 
 
 
 ### Prozedurale Generierung virtueller Welten
-Die Studierenden haben die Möglichkeit ihr Wissen über 3D-Computergrafik, 3D-Geometrie und Programmierung zu vertiefen und praktisch anzuwenden. Durch den Einsatz von Unity als Crossplatform-Game-Development-Tool können die Studierenden ihre Erfahrung mit einer aktuellen Game-Engine und der dazugehörigen Entwicklungsumgebung vertiefen und werden befähigt diese um Funktionalitäten zu erweitern. 
+Die Studierenden haben die Möglichkeit ihr Wissen über 3D-Computergrafik, 3D-Geometrie und Programmierung zu vertiefen und praktisch anzuwenden. Durch den Einsatz von Unity als Crossplatform-Game-Development-Tool können die Studierenden ihre Erfahrung mit einer aktuellen Game-Engine und der dazugehörigen Entwicklungsumgebung vertiefen und werden befähigt diese um Funktionalitäten zu erweitern.
 
 
 Die Inhalte des Moduls befähigen die Studierenden die grundlegenden Algorithmen und Datenstrukturen der Echtzeit-Computergrafik mit der Game-Engine Unity zu beherrschen.
-Das Modul ist daher geeignet das Wissen aus den Modulen „Computergrafik und Animation“, sowie ”Cross-Platform Game Development mit Unity 3D” zu vertiefen und zu erweitern. 
+Das Modul ist daher geeignet das Wissen aus den Modulen „Computergrafik und Animation“, sowie ”Cross-Platform Game Development mit Unity 3D” zu vertiefen und zu erweitern.
 
-Konzepte aus der 3D-Computergrafik und der prozeduralen Generierung werden in diesem sehr praktisch ausgelegten Kurs implementiert und die relevanten Grundlagen vermittelt, die es den Studierenden ermöglichen eigenständig Anforderungen für Projekte mit prozeduralen Techniken zu entwickeln und diese praktisch umzusetzen und kritisch zu evaluieren. 
+Konzepte aus der 3D-Computergrafik und der prozeduralen Generierung werden in diesem sehr praktisch ausgelegten Kurs implementiert und die relevanten Grundlagen vermittelt, die es den Studierenden ermöglichen eigenständig Anforderungen für Projekte mit prozeduralen Techniken zu entwickeln und diese praktisch umzusetzen und kritisch zu evaluieren.
 
-Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse über verschiedene Techniken der prozeduralen Generierung zur Erstellung von 3D Content für Visualisierungen, Simulationen und Spiele, sowie die Fähigkeiten diese einzusetzen, sowie selbst zu entwickeln. 
+Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse über verschiedene Techniken der prozeduralen Generierung zur Erstellung von 3D Content für Visualisierungen, Simulationen und Spiele, sowie die Fähigkeiten diese einzusetzen, sowie selbst zu entwickeln.
 
 ## Inhalt
 
@@ -144,13 +144,13 @@ Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse übe
 - Lichttechnik und Beleuchtung
 
 ### Computergrafik und Animation
-- Graphikhardware, 
+- Graphikhardware,
 - OpenGL
-- Transformationen und homogene Koordinaten 
+- Transformationen und homogene Koordinaten
 - Interpolation
-- Kameramodelle 
-- Clipping 
-- Shaderprogrammierung 
+- Kameramodelle
+- Clipping
+- Shaderprogrammierung
 - Animation
 - Texturierung
 - Fortgeschrittene Algorithmen (Schatten, Reflexionen, Bump-, Normal-, Parallax-, Relief-Mapping, Globale Beleuchtung, Deferred Shading)
@@ -269,4 +269,4 @@ Die erfolgreiche Teilnahme am Abschlussprojekt (eigenständiges Projekt, auch in
 - Carsten Seifert, “Spiele entwickeln mit Unity 5”, Hanser
 - Noor Shaker, Julian Togelius, Mark J. Nelson, "Procedural Content Generation in Games (Computational Synthesis and Creative Systems)",  Springer
 - Ryan Watkins, "Procedural Content Generation for Unity Game Development", Packt Publishing
-- Dale Green, "Procedural Content Generation for C++ Game Development", Packt Publishing 
+- Dale Green, "Procedural Content Generation for C++ Game Development", Packt Publishing

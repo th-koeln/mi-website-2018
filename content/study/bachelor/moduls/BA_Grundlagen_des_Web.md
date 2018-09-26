@@ -1,18 +1,18 @@
----
-title: Grundlagen des Web
-modulverantwortlich: kf
-modulniveau:
-kuerzel: GW
-untertitel:
-studiensemester: 3
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
-published: true
-type: pm
----
++++
+title = "Grundlagen des Web"
+modulverantwortlich = "kf"
+modulniveau = ""
+kuerzel = "GW"
+untertitel = ""
+studiensemester = 3
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik, Algorithmen und Programmierung"
+published = true
+type = "pm"
++++
 
 ## Kurzbeschreibung
 In der Veranstaltung werden wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen eingeführt, die das Web als Medium konstituieren.
@@ -21,15 +21,15 @@ In der Veranstaltung werden wesentliche Grundideen, Interaktionsprinzipien, Cont
 4 SWS: Vorlesung 2 SWS; Seminar 2 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
-- 36h Vorlesung 
+- 36h Vorlesung
 - 36h Seminar
-- 78h Selbststudium 
+- 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Die Studierenden 
-- kennen wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen, die das Web als Medium konstituieren und 
+Die Studierenden
+- kennen wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen, die das Web als Medium konstituieren und
 - können moderne Webanwendungen auf der Basis von Fachbegriffen analysieren und einordnen
 
 um kompetent am fachlichen Diskurs über Eigenschaften, Auswirkungen und Gestaltungsalternativen von Web Anwendungen teilnehmen zu können.
@@ -38,11 +38,11 @@ um kompetent am fachlichen Diskurs über Eigenschaften, Auswirkungen und Gestalt
 - Web Architektur des W3C
 - Offfenheit und Verwendung von Standards als Prinzip
 - Interaktionsformen: Synchrone Interaktion auf der Basis von REST, asynchrone Interaktion mit Publish/Subscribe
-- Fallstudien: Cloudservices für verteilte Anwendungen - z.B. Amazon Web Services, Google Firebase 
+- Fallstudien: Cloudservices für verteilte Anwendungen - z.B. Amazon Web Services, Google Firebase
 - Ausgewählte Sicherheitsmechanismen im Web
 - Inhaltsarchitekturen: XML, JSON, Microformate, RDFa
 
-Die Inhalte werden als Vorlesung vermittelt. In dem begleitenden Seminar werden die Konzepte mittels Fallstudien anwendungsbezogen analysiert und diskutiert. 
+Die Inhalte werden als Vorlesung vermittelt. In dem begleitenden Seminar werden die Konzepte mittels Fallstudien anwendungsbezogen analysiert und diskutiert.
 
 ## Studien-/Prüfungsleistungen
 Mündliche Prüfung

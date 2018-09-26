@@ -1,18 +1,18 @@
----
-title: Kommunikationstechnik und Netze
-modulverantwortlich: hls
-modulniveau:
-kuerzel: KTN
-untertitel:
-studiensemester: 3
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Kommunikationstechnik und Netze"
+modulverantwortlich = "hls"
+modulniveau = ""
+kuerzel = "KTN"
+untertitel = ""
+studiensemester = 3
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 Vorlesung, Praktikum
@@ -39,4 +39,3 @@ Grundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Pr
 
 ## Literatur
 * Wird in der Veranstaltung bekannt gegeben
-

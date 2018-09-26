@@ -1,18 +1,18 @@
----
-title: Betriebssysteme und verteilte Systeme
-modulverantwortlich: mb, lk
-modulniveau:
-kuerzel: BS1
-untertitel:
-studiensemester: 4
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
-published: true
-type: pm
----
++++
+title = "Betriebssysteme und verteilte Systeme"
+modulverantwortlich = "mb, lk"
+modulniveau = ""
+kuerzel = "BS1"
+untertitel = ""
+studiensemester = 4
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik, Algorithmen und Programmierung"
+published = true
+type = "pm"
++++
 
 ## Kurzbeschreibung
 Systemprogrammierung am Beispiel von UNIX.
@@ -21,11 +21,11 @@ Systemprogrammierung am Beispiel von UNIX.
 4 SWS: Vorlesung 2 SWS; Praktikum 2 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
-- 36h Vorlesung 
+- 36h Vorlesung
 - 36h Praktikum
-- 78h Selbststudium 
+- 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
 
@@ -57,7 +57,7 @@ um später Auswirkungen von Betriebssystemvorgängen auf eigene Programme zu erk
 
 ## Inhalt
 
-Systemprogrammierung am Beispiel von UNIX: 
+Systemprogrammierung am Beispiel von UNIX:
 - Shell-Programmierung
 - Prozess-Modelle
 - Prozess-Erzeugung und Synchronisation
@@ -85,4 +85,3 @@ Foliensammlung, ausformuliertes Skript, Beispiellösungen
 + Brown, C.: „Programmieren verteilter UNIX-Anwendungen“
 + Kernighan, B. W., Pike, R.: „Der UNIX-Werkzeugkasten“
 + Ehses, E., Köhler, L., Stenzel, H., Victor, F. „Betriebssysteme: Ein Lehrbuch mit Übungen zur Systemprogrammierung in UNIX/Linux“
-

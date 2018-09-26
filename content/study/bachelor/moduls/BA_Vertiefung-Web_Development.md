@@ -1,18 +1,18 @@
----
-title: Web Development 
-modulverantwortlich: kf
-modulniveau:
-kuerzel: WD
-untertitel:
-studiensemester: 4
-kategorie:
-sprache: deutsch
-kreditpunkte: 20
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Web Architekturen, Algorithmen und Programmierung, Paradigmen der Programmierung, MCI, Screendesign, Betriebssysteme und verteilte Systeme
-published: true
-type: vpm
----
++++
+title = "Web Development"
+modulverantwortlich = "kf"
+modulniveau = ""
+kuerzel = "WD"
+untertitel =""
+studiensemester = 4
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 20
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik, Web Architekturen, Algorithmen und Programmierung, Paradigmen der Programmierung, MCI, Screendesign, Betriebssysteme und verteilte Systeme"
+published = true
+type = "vpm"
++++
 
 ## Kurzbeschreibung
 Einführungen in Konzepte, Techniken und Arbeitsweisen der Web Entwicklung.
@@ -60,9 +60,9 @@ Die Studierenden kennen das Zusammenspiel von server- und clientseitigen Kompone
 
 ### Serverseitige Frameworks und Dienste
 
-Die Studentinnen und Studenten kennen 
+Die Studentinnen und Studenten kennen
 - wesentliche Frameworks, Dienste und Werkzeuge für die serverseitige Entwicklung von Web Anwendungen
-- können ausgewählte Frameworks, Dienste und Tools in einem Projektkontext anwenden. 
+- können ausgewählte Frameworks, Dienste und Tools in einem Projektkontext anwenden.
 
 Die Kompetenz zur systematischen Entwicklung von Systemen in einem arbeitsteiligen Team wird eingeübt und vertieft. Kenntnisse aus den anderen Modulen der Vertiefung werden vertieft und verknüpft und im Rahmen eines konkreten Projektauftrags angewendet.
 
@@ -70,7 +70,7 @@ Die Studierenden sind in der Lage ein Projektbriefing zu durchdringen und daraus
 
 Den Teilnehmern steht eine Auswahl an Techniken und Frameworks zur Verfügung, aus dem sie die passenden Ansätze begründet auswählen und anwenden können.
 
-Die StudentenInnen sind in der Lage eine komplexe Anwendung im Web über mehrere Endgeräte hinweg zu planen, zu realisieren und zu dokumentieren. 
+Die StudentenInnen sind in der Lage eine komplexe Anwendung im Web über mehrere Endgeräte hinweg zu planen, zu realisieren und zu dokumentieren.
 
 ### Internet of Things
 
@@ -91,7 +91,7 @@ Studierende können nach diesem Modul selbstständig Anwendungen für das Intern
 - CSS: Komplexe Layouts & Responsivität
 - Javascript: Dynamische Anwendungen
 - Media Types
-- CSS Frameworks 
+- CSS Frameworks
 - CSS Preprozessoren
 - Javascript Frameworks
 - Performance

@@ -1,18 +1,18 @@
----
-title: Einführung in Betriebssysteme und Rechnerarchitektur
-modulverantwortlich: sk
-modulniveau:
-kuerzel: EBR
-untertitel:
-studiensemester: 1
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
-published: true
-type: pm
----
++++
+title = "Einführung in Betriebssysteme und Rechnerarchitektur"
+modulverantwortlich = "sk"
+modulniveau = ""
+kuerzel = "EBR"
+untertitel = ""
+studiensemester = 1
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = ""
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 
@@ -20,11 +20,11 @@ type: pm
 
 ## Arbeitsaufwand
 
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
-- 36h Vorlesung 
+- 36h Vorlesung
 - 36h Übung
-- 78h Selbststudium 
+- 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
 Die Studierenden sollen die Basiskonzepte und Grundlagen der Betriebssysteme und der Rechnerarchitektur kennen und verstehen, sowie ein einheitliches konsistentes Begriffsgebäude zu, teilweise aus der persönlichen Praxis bekannten, Sachverhalten der IT aufbauen und anwenden können.
@@ -40,4 +40,3 @@ Schriftliche Prüfung.
 - Vorlesungsunterlagen: kommentierte Foliensammlung
 - Tanenbaum: „Rechnerarchitektur“
 - Tanenbaum: „Modern Operating Systems“
-

@@ -1,18 +1,18 @@
----
-title: Informatik, Recht und Gesellschaft
-modulverantwortlich: mw
-modulniveau:
-kuerzel: IRG
-untertitel:
-studiensemester: 5
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Grundlagen der BWL
-published: true
-type: pm
----
++++
+title = "Informatik, Recht und Gesellschaft"
+modulverantwortlich = "mw"
+modulniveau = ""
+kuerzel = "IRG"
+untertitel = ""
+studiensemester = 5
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Einführung in die Medieninformatik, Grundlagen der BWL"
+published = true
+type = "pm"
++++
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Übung 2 SWS
@@ -25,13 +25,13 @@ Gesamtaufwand: 150h, davon
 * 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Informatikerinnen und Informatiker analysieren und konstruieren sozio-technische Systeme und entwickeln dabei semiotische Artefakte wie z.B. Spezifikationen, Programme und Handbücher. Die entwickelten Systeme bilden einerseits soziale Wirklichkeit in vielfältiger Form ab und ändern andererseits diese Wirklichkeit durch ihren Einsatz. 
+Informatikerinnen und Informatiker analysieren und konstruieren sozio-technische Systeme und entwickeln dabei semiotische Artefakte wie z.B. Spezifikationen, Programme und Handbücher. Die entwickelten Systeme bilden einerseits soziale Wirklichkeit in vielfältiger Form ab und ändern andererseits diese Wirklichkeit durch ihren Einsatz.
 
 Die Studierenden sollen befähigt werden
 
-* ethische und rechtliche Aspekte des Einsatzes von Informatik-Systemen zu charakterisieren und 
-* ein kritisches Bewusstsein für die aktuellen Fragen des wechselseitigen Einflusses von Informatik und Gesellschaft zu entwickeln sowie 
-* die Grundbegriffe des deutschen Privatrechts zu verstehen und sich im dazugehörigen Gesetzeswerk zu orientieren, 
+* ethische und rechtliche Aspekte des Einsatzes von Informatik-Systemen zu charakterisieren und
+* ein kritisches Bewusstsein für die aktuellen Fragen des wechselseitigen Einflusses von Informatik und Gesellschaft zu entwickeln sowie
+* die Grundbegriffe des deutschen Privatrechts zu verstehen und sich im dazugehörigen Gesetzeswerk zu orientieren,
 * um die unterschiedlichen Wechselwirkungen zwischen Informatik-Systemen und ihrem Einsatzumfeld erkennen und bewerten und insbesondere im Bereich des Vertragsrechts selbständige Lösungsvorschläge erarbeiten zu können.
 
 ## Inhalt
@@ -44,7 +44,7 @@ Die Wechselwirkungen zwischen den von Informatikern entwickelten Systemen und ih
 - Komplexität und Sicherheit in sozio-technischenen Systemen
 - Systemgestaltung und Verantwortung der Informatik.
 
-Beispielhafte Inhalte: 
+Beispielhafte Inhalte:
 - Geschichte der Informatik
 - Bildung und Wissenschaft
 - Wissenschaften und Gesellschaft
@@ -59,9 +59,9 @@ Beispielhafte Inhalte:
 
 ### Recht
 
-* Einführung in das deutsche Privatrecht, insbesondere in das BGB. 
-* Schwerpunkt im Schuldrecht, hier insbesondere im Vertragsrecht. 
-* Besondere Aspekte des Verbraucherschutzes und der inhaltlichen Gestaltung von Verträgen. 
+* Einführung in das deutsche Privatrecht, insbesondere in das BGB.
+* Schwerpunkt im Schuldrecht, hier insbesondere im Vertragsrecht.
+* Besondere Aspekte des Verbraucherschutzes und der inhaltlichen Gestaltung von Verträgen.
 * Im Allgemeinen Teil des BGB wird auf den Vertragsschluss, die Willenerklärung als rechtsgeschäftliches Gestaltungsmittel und die allgemeinen Anforderungen an die Vertragspartner eingegangen.
 
 

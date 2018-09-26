@@ -1,18 +1,18 @@
----
-title: Projektmanagement
-modulverantwortlich: hg, mw
-modulniveau: Bachelor
-kuerzel: PM
-untertitel:
-studiensemester: 5
-kategorie:
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Es werden keine über die allgemeinen Zulassungsvoraussetzungen hinausgehende fachlichen Voraussetzungen gefordert, jedoch sollten Engagement, Motivation, Toleranz, Bereitschaft zur Teamarbeit mitgebracht werden.
-published: true
-type: pm
----
++++
+title = "Projektmanagement"
+modulverantwortlich = "hg, mw"
+modulniveau = "Bachelor"
+kuerzel = "PM"
+untertitel = ""
+studiensemester = 5
+kategorie = ""
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Es werden keine über die allgemeinen Zulassungsvoraussetzungen hinausgehende fachlichen Voraussetzungen gefordert, jedoch sollten Engagement, Motivation, Toleranz, Bereitschaft zur Teamarbeit mitgebracht werden."
+published = true
+type = "pm"
++++
 
 ## Kurzbeschreibung
 Managementaspekte der professionellen Entwicklung großer Softwaresysteme
@@ -21,7 +21,7 @@ Managementaspekte der professionellen Entwicklung großer Softwaresysteme
 4 SWS: Vorlesung 2 SWS, Übung 1 SWS, Praktikum 1 SWS; max. 6 Studierende pro Praktikumsteam;
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
 * 36h Vorlesung
 * 18h Übung
@@ -29,7 +29,7 @@ Gesamtaufwand 150h, davon
 * 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Die Studierenden sollen befähigt werden, 
+Die Studierenden sollen befähigt werden,
 
 - die grundlegenden Aufgaben des Projektmanagements, insbesondere in IT-Projekten, zu charakterisieren und durchzuführen
 - die Projektmanagement-Methoden, -Techniken und -Werkzeuge zielgerichtet einzusetzen
@@ -37,8 +37,8 @@ Die Studierenden sollen befähigt werden,
 
 
 ## Inhalt
-Das Modul befasst sich mit den Managementaspekten der professionellen Entwicklung großer Softwaresysteme. 
-Der Vorlesungsteil des Moduls gliedert sich in folgende Kapitel: 
+Das Modul befasst sich mit den Managementaspekten der professionellen Entwicklung großer Softwaresysteme.
+Der Vorlesungsteil des Moduls gliedert sich in folgende Kapitel:
 
 - Überblick – Warum Projektmanagement?
 - Teamarbeit und Menschenführung (Kommunikation und Führung)
@@ -73,4 +73,3 @@ Damit die Studierenden die vorgestellten Methoden und Techniken zum Management v
 - A. Henrich: Management von Softwareprojekten. Oldenbourg Verlag, München, 2002
 - H. Kerzner: Projektmanagement – Ein systemorientierter Ansatz. mitp-Verlag, Bonn, 2003
 - T. DeMarco: Der Termin. Hanser, München, 1998
-

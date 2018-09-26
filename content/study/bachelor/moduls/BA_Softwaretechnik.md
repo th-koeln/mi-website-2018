@@ -1,18 +1,18 @@
----
-title: Softwaretechnik
-modulverantwortlich: mw
-modulniveau: Bachelor
-kuerzel: ST1
-untertitel:
-studiensemester: 4
-kategorie: Winter
-sprache: deutsch
-kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
-published: true
-type: pm
----
++++
+title = "Softwaretechnik"
+modulverantwortlich = "mw"
+modulniveau = "Bachelor"
+kuerzel = "ST1"
+untertitel = ""
+studiensemester = 4
+kategorie = "Winter"
+sprache = "deutsch"
+kreditpunkte = 5
+voraussetzungen-nach-pruefungsordnung = "keine"
+empfohlene-voraussetzungen = "Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung"
+published = true
+type = "pm"
++++
 
 ## Kurzbeschreibung
 Prinzipien, Methoden und Techniken der modellbasierten methodischen objektorientierten Softwareentwicklung
@@ -23,24 +23,24 @@ Prinzipien, Methoden und Techniken der modellbasierten methodischen objektorient
 max. 15 Studierende/Praktikumsgruppe;
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 150h, davon
 
-- 36h Vorlesung 
+- 36h Vorlesung
 - 36h Praktikum
-- 78h Selbststudium 
+- 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Die Studierenden sollen befähigt werden, 
-- zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie 
-- gegebene Modelle zu interpretieren, zu analysieren und zu bewerten, 
+Die Studierenden sollen befähigt werden,
+- zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie
+- gegebene Modelle zu interpretieren, zu analysieren und zu bewerten,
 - um komplexe Systeme zu analysieren, im Team zu entwerfen und dabei im Rahmen methodischer Vorgehensweisen Techniken und Werkzeuge der objektorientierten Modellierung und Softwareentwicklung in den Aktivitäten Anforderungsermittlung, Softwarespezifizierung und Entwurf einzusetzen.
 
 ## Inhalt
 
 Die Vorlesung skizziert zunächst das Gesamtgebiet Softwaretechnik und behandelt dann ausschließlich grundlegende „Informatikaspekte” der objektorientierten Softwareentwicklung. Als wesentliche Grundlage werden die wichtigsten Elemente der Unified Modelling Language (UML) vorgestellt und anhand kleinerer Beispiele erläutert. Danach werden typische Aktivitäten der Softwareentwicklung besprochen, wobei die UML als Modellierungssprache benutzt wird. Im Praktikum werden die Anwendung der Modellierungselemente und die Durchführung der Aktivitäten in Gruppenarbeit vertieft.  
 
-Das Modul gliedert sich in folgende Inhalte: 
-- (10%) Softwareentwicklung im Überblick (Komplexität großer Software, Kernaktivitäten und unterstützende Aktivitäten); 
+Das Modul gliedert sich in folgende Inhalte:
+- (10%) Softwareentwicklung im Überblick (Komplexität großer Software, Kernaktivitäten und unterstützende Aktivitäten);
 - (30%) Die Modellierungssprache UML (Strukturmodellierung mit Objekt- und Klassendiagrammen, Funktionsmodellierung mit Anwendungsfalldiagrammen, Verhaltensmodellierung mit Sequenz-, Kommunikations- und Zustandsdiagrammen);
 - (50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung und Architekturkonzeption, Entwurfskonzepte und Grobentwurf, Feinentwurf);
 - (10%) Zusammenfassung und Ausblick (Modellgetriebene Softwareentwicklung);
@@ -65,4 +65,3 @@ Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvo
 - Winter, M.: Methodische objektorientierte Softwareentwicklung. dpunkt.verlag, Heidelberg, 2005;
 - Chris Rupp et al.: UML 2 Glasklar. 4. Aufl., Carl Hanser Verlag, München, 2012
 - Jochen Ludewig, Horst Lichter: Software Engineering – Grundlagen, Menschen, Prozesse, Techniken. 2. Aufl., dPunkt Verlag, Heidelberg, 2011
-
