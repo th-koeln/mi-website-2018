@@ -1,13 +1,19 @@
 {{$BaseURL := .BaseURL}}
 {{$globalParams := .globalParams}}
 {{ $globalParams.Scratch.Set "path" "" }}
-Fragments: {{.Fragments}}
 <div class="m-navHead">
     <button data-toggle="offCanvas" id="icon-main-menu" class="m-navHead--hamburger hamburger-cancel">
         <span class="icon"></span>
     </button>
     <div class="m-navHead--text">
-        <a href="{{.BaseURL}}">mi</a><!--
-		-->{{range .Fragments}}{{ $frag := (print . "/")}}{{ $globalParams.Scratch.Add "path" $frag}}<span class="m-navHead--logoSlash">/</span><span class="m-navHead--logoSlug"><a href="{{$BaseURL}}{{ $globalParams.Scratch.Get "path" }}">{{.}}</a></span>{{end}}
+        <a href="{{.BaseURL}}">mi</a>
+        {{range .Fragments}}
+          {{ $frag := (print . "/")}}
+          {{ $globalParams.Scratch.Add "path" $frag}}
+          <span class="m-navHead--logoSlash">/</span>
+          <span class="m-navHead--logoSlug">
+            <a href="{{$BaseURL}}{{ $globalParams.Scratch.Get "path" }}">{{.}}</a>
+          </span>
+        {{end}}
     </div>
 </div>
