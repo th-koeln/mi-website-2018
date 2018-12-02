@@ -1,13 +1,12 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "Wie funktioniert Kommunikation in der Medieninformatik?"
+title = "Medieninformatik in Kurzform"
 +++
 
-Auf dieser kleinen Website werden einige Grundsätze und Ausprägungen bezogen auf die Kommunikation des Lehr- und Forschungsgebiets Medieninformatik am Campus Gummersbach dargelegt. Dies ist eine offener, iterativer Prozess, an dem sich Studierende, Mitarbeiter und Ehemalige gerne beteiligen können. Für Ideen und Fragen bitte die des zugehörigen GitHub Repos benutzen. 
+Medieninformatik ist ein Anwendungsgebiet in der Informatik. In ihrer Entstehung Anfang der 1990er Jahre, ging es vor allem um die Digitalisierung von Text-, Bild-, Video- und Audio-Material. Dies sind auch heute noch relevante Themen in der Medieninformatik, jedoch sind eine ganze Reihe von weiteren Anwendungsfeldern hinzugekommen: Mobile Computing, Web-Technologien, Computergrafik, User Experience Design, Social Computing und vieles mehr.
 
-## [Basics](basics)
-Hier werden Themen besprochen, die für viele oder alle Kanäle relevant und sinnvoll sind. Dazu gehören die Beschreibung der Zielgruppen sowie die Erläuterung der einzelnen Kanäle und Formate. 
+Die Medieninformatik ist sehr interdisziplinär ausgerichtet und Medieninformatiker agieren in Projektteams häufig in einer Schnittstellenfunktion zwischen verschiedenen Fachdisziplinen. Prägen für die Medieninformatik ist oftmals eine sehr nutzernahe und nutzerzentrierte Perspektive bei der Entwicklung und Gestaltung von digitalen Systemen und Produkten.
 
-## [Website](website)
-In dieser Sektion werden die verschiedenen Aspekte der Medieninformatik Website erklärt. Dazu gehören die Gestaltungsziele, Struktur, Inhaltstypen, usw.
+Medieninformatiker sind Fachleute für IT-Prozesse und Systeme, mit denen man medienbasierte Informationen gestalten, produzieren, bearbeiten, verteilen und nutzen kann. Wer Medieninformatik studieren will, sollte möglichst kommunikationsfreudig und kreativ sein, gerne im Team arbeiten und Freude an analytischem und logischem Denken und Handeln haben.
 
+Die TH Köln bietet zwei Medieninformatik Studiengänge an:
