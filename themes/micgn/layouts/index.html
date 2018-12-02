@@ -2,11 +2,11 @@
 <main aria-role="main">
     <div class="grid-x grid-margin-x">
         <article class="cell large-8">
-            <h1>{{.Title}}a</h1>
+            <h1>{{.Title}}</h1>
             {{ with .Params.subtitle }}
             <span class="subtitle">{{.}}</span> {{ end }}
             <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-           
+
             {{.Content}}
         </article>
     </div>
