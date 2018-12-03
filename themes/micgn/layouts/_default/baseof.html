@@ -15,10 +15,6 @@
             <main class="grid-container fluid">
                 <div class="grid-x grid-margin-x">
                     <div class="large-12 cell">
-                        {{.Pages}}
-                        {{.Data.Pages}}
-
-                        Kind: {{.Page.Kind}} // Type: {{.Page.Type}} // Dir: {{.Dir}}
                         {{ $fragments := split .Dir "/" }}
                         {{ $fragment := index ($fragments) 0 }}
                         {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
@@ -33,7 +29,7 @@
             </main>
 {{$globalParams }}
             {{ partial "system/footer/footer.html" $globalParams }}
- 
+
         </div>
     </div>
 
