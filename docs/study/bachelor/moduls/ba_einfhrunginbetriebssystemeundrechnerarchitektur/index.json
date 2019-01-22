@@ -1,0 +1,14 @@
+{
+    "title":"Einführung in Betriebssysteme und Rechnerarchitektur",
+	"modulverantwortlich": "sk",
+	"modulniveau": "<no value>",
+	"kuerzel": "EBR",
+	"studiensemester": "1",
+	"sprache": "deutsch",
+	"kreditpunkte": "5",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\n\n4 SWS: Vorlesung 2 SWS; Übung 2 SWS\n\n## Arbeitsaufwand\n\nGesamtaufwand 150h, davon \n\n- 36h Vorlesung \n- 36h Übung\n- 78h Selbststudium \n\n## Angestrebte Lernergebnisse\nDie Studierenden sollen die Basiskonzepte und Grundlagen der Betriebssysteme und der Rechnerarchitektur kennen und verstehen, sowie ein einheitliches konsistentes Begriffsgebäude zu, teilweise aus der persönlichen Praxis bekannten, Sachverhalten der IT aufbauen und anwenden können.\n\n## Inhalt\n* Betriebssysteme aus Nutzersicht: Dateisysteme, Parallele Prozesse, Sicherheit in Betriebssystemen\n* bei Rechnerkomponenten: grundlegende Architekturen, Darstellung von Daten, interne Bussysteme, Prozessoren, Festplatten, Peripherieschnittstellen, Parallelrechner\n\n## Studien-/Prüfungsleistungen\nSchriftliche Prüfung.\n\n## Literatur\n- Vorlesungsunterlagen: kommentierte Foliensammlung\n- Tanenbaum: „Rechnerarchitektur“\n- Tanenbaum: „Modern Operating Systems“\n\n"",
+}

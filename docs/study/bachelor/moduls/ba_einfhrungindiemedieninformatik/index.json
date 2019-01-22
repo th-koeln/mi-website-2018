@@ -1,0 +1,14 @@
+{
+    "title":"Einführung in die Medieninformatik",
+	"modulverantwortlich": "mi",
+	"modulniveau": "<no value>",
+	"kuerzel": "EMI",
+	"studiensemester": "1",
+	"sprache": "deutsch",
+	"kreditpunkte": "5",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\n4 SWS: Seminar 3 SWS; Übung 1 SWS \n\nSeminar mit eingebetteten Übungselementen und Projektarbeit.\n\n## Arbeitsaufwand\nGesamtaufwand 150h, davon\n\n- 30h Seminar\n- 10h Übung\n- 40h Projekt\n- 70h Selbststudium\n\n## Angestrebte Lernergebnisse\nDie Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen. \n\nDie Studierenden kennen Grundkonzepte der Informatik (z.B. Anforderungen) sowie audiovisueller und interaktiver Medientechnologien, kennen architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte und können diese Kenntnisse auf eine gegebene Problemstellung anwenden. \n\nDie Studierenden sind sensibilisiert für Modellierungs- und Entwicklungsaufgaben von medienbasierten Software-Systemen zur Unterstützung menschlichen Handelns in betrieblichen und privaten Kontexten.\n\nSie kennen grundlegende Konzepte, Prozesse/Verfahren und Modelle der Medieninformatik und haben erste Projekterfahrungen gesammelt. Sie können Systemkonzeptionen, zugehörige Modellierungen, Abwägungen und Artefakte für ein Fachpublikum angemessen dokumentieren und mittels verschiedener medialer Formen kommunizieren.\n\n## Inhalt\nWorkshops zu grundlegenden projektrelevanten Themenfeldern (wie: Datenmodellierung, Pseudo-Code, Kommunikation in verteilen medialen Systeme, Visual Thinking, Storytelling, Anforderungen) und deren Anwendung, illustriert anhand von Fallstudien.\n\nTeambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere) Problemstellung(en) umreist, zu dem Lösungen konzipiert und prototypisch umgesetzt, dokumentiert und einem Fachpublikum präsentiert werden müssen.\n\n## Studien-/Prüfungsleistungen\nProjektpräsentation(30%) und schriftliche Ausarbeitung(70%).\n\n## Medienformen\n- Beamer-gestützte Vorlesungen (Folien in elektronischer Form)\n- Vorträge\n- verschiedene Präsentationsmaterialien (Whiteboard, Poster, etc.)\n- Einsatz von Bild- und Videobearbeitungssoftware\n- Umgang mit Kameras im Projektteil\n\n## Literatur\n* Michael Herczeg: Einführung in die Medieninformatik, Oldenbourg Verlag, 2006, ISBN: 3-486-581-031\n* Chris Rupp et al: Requirements-Engineering und -Management: Aus der Praxis von klassisch bis agil, Carl Hanser Verlag; 6-te Auflage, 2014, ISBN-10: 3446438939 \n\n"",
+}

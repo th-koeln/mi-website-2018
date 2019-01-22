@@ -1,0 +1,14 @@
+{
+    "title":"Theoretische Informatik 1",
+	"modulverantwortlich": "me",
+	"modulniveau": "<no value>",
+	"kuerzel": "TI1",
+	"studiensemester": "1",
+	"sprache": "deutsch",
+	"kreditpunkte": "5",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\n4 SWS: Vorlesung 2 SWS; Übung 2 SWS\n\n## Arbeitsaufwand\nGesamtaufwand 150h, davon\n- 36h Vorlesung\n- 36h Übung\n- 78h Selbstlernphase \n\n## Angestrebte Lernergebnisse\n\n- Grundsätzliches Ziel des Kurses ist eine Einführung in die Begriffe, Methoden, Modelle und Arbeitsweise der Theoretischen Informatik anhand der ausgewählten Teilgebiete.\n- Dabei lernen die Studierenden Probleme und Sachverhalte zu abstrahieren und zu modellieren (etwa logische und algebraische Kalküle, graphentheoretische Notationen, formale Sprachen und Automaten sowie spezielle Kalküle wie Petri-Netze)\n- Die Studierenden erwerben fundierte Kenntnisse der grundlegenden Themengebiete und eine wesentliche Basis und Vorbereitung für Veranstaltungen in höheren Semestern des Studiums.\n- In verschiedenen Grundlagengebieten der Informatik lernen die Studierenden Verfahrensweisen kennen, um den algorithmischen Kern eines Problems zu identifizieren und können passende Algorithmen entwerfen (Automaten, Turing Maschinen, Logik). Dabei können Sie bekannte Problemstellungen im Anwendungskontext erkennen und sind mit den zugehörigen Lösungsmustern vertraut (Modellierung mittels Automaten, Petri-Netzen, Boolescher Algebra, etc.).\n- Aufgaben zu den Lehrinhalten (s.u.) werden in kleinen Gruppen (Teamarbeit) selbständig gelöst. Die Lösungen sollen in den Übungsstunden vorgetragen und der Lösungsweg den Kommilitonen hierbei erläutert werden.\n\n## Inhalt\n- Mengen\n- Relationen\n- Graphen\n- Zahlensysteme\n- Zahlendarstellung\n- Numerische Aspekte\n- Codierung, Informationstheorie\n- Boolesche Algebra\n- Schaltnetze und Schaltwerke\n- Aussagenlogik\n- Prädikatenlogik\n\n## Studien-/Prüfungsleistungen\nSchriftliche Prüfung.\n\n## Literatur\n- Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage\n- Hedtstück, U. ( 2004 ): Einführung in die Theoretische Informatik. Oldenbourg, München.\n- Kelly, J. ( 2003 ): Logik. Pearson Studium, München.\n- Ehrig, H. et al. (1999): Mathematisch-strukturelle Grundlagen der Informatik. Springer,  Heidelberg.\n- Beuth, K. (1992): Digitaltechnik. 9.Aufl.Vogel, Würzburg.\n\n"",
+}

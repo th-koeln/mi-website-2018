@@ -1,0 +1,14 @@
+{
+    "title":"Mathematik 2",
+	"modulverantwortlich": "wk",
+	"modulniveau": "<no value>",
+	"kuerzel": "MA2",
+	"studiensemester": "2",
+	"sprache": "deutsch",
+	"kreditpunkte": "8",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\n6 SWS: Vorlesung  3 SWS; Praktikum 1 SWS; Übung 2 SWS\n\n## Arbeitsaufwand\n\nGesamtaufwand 240h, davon \n\n- 54h Vorlesung \n- 18h Praktikum\n- 36h Übung\n- 132h Selbststudium \n\n## Angestrebte Lernergebnisse\n\nDie Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Systeme entwickeln, indem sie praktische Aufgabenstellungen aus dem Informatik-Umfeld in mathematische Strukturen abstrahieren und lernen, selbstständig die Modellfindung und die Ergebnisbeurteilung vorzunehmen. Dabei sollen die Anwendungsbezüge der Mathematik deutlich werden, z.B. die Beziehungen diskreter Strukturen wie der Graphen zu vielfältigen grundlegenden Datenstrukturen, die Statistik zur Deskription und Beurteilung von Beobachtungen und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.\n\n## Inhalt\n* Mehrdimensionale Differenzialrechnung, \n* Graphentheorie, \n* Kombinatorik, Wahrscheinlichkeitsrechnung und Statistik, \n* Komplexe Zahlen, \n* Differentialgleichungen.\n\n## Studien-/Prüfungsleistungen\nSchriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.\n\n## Literatur\n* s. Literaturliste auf der Homepage [www.gm.fh-koeln.de/~konen](http://www.gm.fh-koeln.de/~konen)\n* Skript unter [www.gm.fh-koeln.de/~konen/Mathe2-SS](http://www.gm.fh-koeln.de/~konen/Mathe2-SS ) \n\n\n"",
+}

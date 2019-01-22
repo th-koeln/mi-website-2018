@@ -1,104 +1,123 @@
-.m-navHead{
+.m-navHead {
 
-    @media screen and #{breakpoint(medium)} {
-        margin-left: $from-left *-1;
-    }
-    
-    margin-top: $bfs * 2;
-    margin-bottom: $bfs * 5;
-    line-height: 64px;
-    font-size: 64px;
+  @media screen and #{breakpoint(medium)} {
+    margin-left: $from-left *-1;
+  }
 
-    a{
-        color: #000;
-    }
+  @media screen and #{breakpoint(small down)} {
+    line-height: 36px;
+    font-size: 36px;
+  }
 
-    a:hover{
-        color: $mi-pink;
-    }
+  margin-top: $bfs * 2;
+  margin-bottom: $bfs * 5;
+  line-height: 64px;
+  font-size: 64px;
 
-    &--logoSlash, &--logoSlug{
-        display: inline-block;
-    }
+  a {
+    color: #000;
+  }
 
-    &--logoSlash{
-        color: $mi-pink;
-    }
+  a:hover {
+    color: $mi-pink;
+  }
 
-    &--logoSlug{
-        font-weight: 400;
-    }
+  &--logoSlash,
+  &--logoSlug {
+    display: inline-block;
+  }
 
-    [data-toggle=offCanvas]{
-        margin-bottom: 20px;
-    }
+  &--logoSlash {
+    color: $mi-pink;
+  }
 
-    &--text{
-        display: inline-block;
-        font-family: $family-headlines;
-        font-weight: bold;
-        vertical-align: baseline;
-        margin-bottom: -5px;
-    }
+  &--logoSlug {
+    font-weight: 400;
+  }
 
-    &--hamburger{
-        font-size: 48px;
-        display: inline-block;
-        width: 80px;
-        height: 1em;
-        padding: 0;
-        cursor: pointer;
-        transition: transform .2s ease-in-out;
-        vertical-align: middle;
-        border: 0 none;
-        background: transparent;
-    }
+  [data-toggle=offCanvas] {
+    margin-bottom: 20px;
 
-    // Button height fix for Firefox
-    &--hamburger::-moz-focus-inner {
-        padding: 0;
-        border: 0 none;
+    @media screen and #{breakpoint(small down)} {
+      margin-bottom: 12px;
     }
+  }
 
-    // Focus fix for Chrome
-    &--hamburger:focus {
-        outline: 0;
-    }
+  &--text {
+    display: inline-block;
+    font-family: $family-headlines;
+    font-weight: bold;
+    vertical-align: baseline;
+    margin-bottom: -5px;
+  }
 
-    &--hamburger:before,
-    &--hamburger:after {
-        content: "";
-    }
+  &--hamburger {
+    font-size: 48px;
+    display: inline-block;
+    width: 80px;
+    height: 1em;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+    vertical-align: middle;
+    border: 0 none;
+    background: transparent;
 
-    &--hamburger:before,
-    &--hamburger .icon,
-    &--hamburger:after {
-        display: block;
-        width: 63px;
-        height: 10px;
-        margin: 0 0 .2em;
-        transition: transform .2s ease-in-out;
-        background: $mi-lila;
+    @media screen and #{breakpoint(small down)} {
+      font-size: 26px;
+      width: 44px;
     }
+  }
 
-    // Styles for the active `.hamburger` icon
-    &--hamburger[aria-expanded=true]:before,
-    &--hamburger[aria-expanded=true] .icon,
-    &--hamburger[aria-expanded=true]:after {
-        background: $mi-pink;
-    }
+  // Button height fix for Firefox
+  &--hamburger::-moz-focus-inner {
+    padding: 0;
+    border: 0 none;
+  }
 
-    // CLOSE/CANCEL/CROSS
-    &--hamburger.hamburger-cancel[aria-expanded=true] .icon {
-        transform: scale(0);
-    }
+  // Focus fix for Chrome
+  &--hamburger:focus {
+    outline: 0;
+  }
 
-    &--hamburger.hamburger-cancel[aria-expanded=true]:before {
-        transform: translateY(.4em) rotate(135deg);
-    }
+  &--hamburger:before,
+  &--hamburger:after {
+    content: "";
+  }
 
-    &--hamburger.hamburger-cancel[aria-expanded=true]:after {
-        transform: translateY(-.4em) rotate(-135deg);
+  &--hamburger:before,
+  &--hamburger .icon,
+  &--hamburger:after {
+    display: block;
+    width: 63px;
+    height: 10px;
+    margin: 0 0 .2em;
+    transition: transform .2s ease-in-out;
+    background: $mi-lila;
+
+    @media screen and #{breakpoint(small down)} {
+      width: 36px;
+      height: 6px;
     }
+  }
+
+  // Styles for the active `.hamburger` icon
+  &--hamburger[aria-expanded=true]:before,
+  &--hamburger[aria-expanded=true] .icon,
+  &--hamburger[aria-expanded=true]:after {
+    background: $mi-pink;
+  }
+
+  // CLOSE/CANCEL/CROSS
+  &--hamburger.hamburger-cancel[aria-expanded=true] .icon {
+    transform: scale(0);
+  }
+
+  &--hamburger.hamburger-cancel[aria-expanded=true]:before {
+    transform: translateY(.4em) rotate(135deg);
+  }
+
+  &--hamburger.hamburger-cancel[aria-expanded=true]:after {
+    transform: translateY(-.4em) rotate(-135deg);
+  }
 }
-

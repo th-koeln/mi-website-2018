@@ -1,16 +1,27 @@
 <!-- Menu -->
 <div class="m-sidebar">
 
-    <figure class="m-sidebar--logo">
-    	<img src="{{ "img/logo-th-koeln.png" | absURL }}" alt="Logo TH Köln">
-	</figure>
+  <figure class="m-sidebar--logo">
+    <img src="{{ "img/logo-th-koeln.png" | absURL }}" alt="Logo TH Köln">
+  </figure>
 
-    <ul class="m-sidebar--menu">
-		{{ $currentPage := . }} {{ range .Site.Sections }}
-		<li>
-			<a class="sidebar-nav-item" href="{{ .URL }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
-        </li>
-        {{ end }}
+  <ul class="m-sidebar--menu">
+    {{ $currentPage := . }} {{ range .Site.Sections }}
+    <!--li>
+      <a class="sidebar-nav-item" href="{{ .URL }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+    </li-->
+    {{ end }}
 
-    </ul>
+    <li><a class="sidebar-nav-item" href="https://www.th-koeln.de/studium/medieninformatik-bachelor_2379.php" title="MI Bachelor">MI
+        Bachelor</a></li>
+    <li><a class="sidebar-nav-item" href="https://www.th-koeln.de/studium/medieninformatik-master_3729.php" title="MI Master">MI
+        Master</a></li>
+    <li><a class="sidebar-nav-item" href="https://www.facebook.com/mikoeln/" title="MI Facebook">MI
+        Facebook</a></li>
+    <li><a class="sidebar-nav-item" href="https://www.youtube.com/mikoeln" title="MI Youtube">MI
+        Youtube</a></li>
+    <li><a class="sidebar-nav-item" href="https://www.medieninformatik.th-koeln.de/index-old.php" title="MI Old">alte
+        MI Website</a></li>
+
+  </ul>
 </div>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Dr. Kristian Fischer on Medieninformatik an der TH Köln</title>
+    <link>https://www.medieninformatik.th-koeln.de/betreuer/prof.-dr.-kristian-fischer/</link>
+    <description>Recent content in Prof. Dr. Kristian Fischer on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.medieninformatik.th-koeln.de/betreuer/prof.-dr.-kristian-fischer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Die Ermittlung von Sehenswürdigkeiten mittels Linked Open Data am Beispiel der Stadt Köln</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2016/die-ermittlung-von-sehenswuerdigkeiten-mittels-linked-open-data-am-beispiel-der-stadt-koeln/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2016/die-ermittlung-von-sehenswuerdigkeiten-mittels-linked-open-data-am-beispiel-der-stadt-koeln/</guid>
+      <description>Das Suchen ist eine der, wenn nicht die am häufigsten durchgeführte Tätigkeit im Internet. Täglich werden Suchmaschinen mit Problemen aus aller Welt und aller Domänen befragt, in der Hoffnung, dass das Internet eine Lösung bereitstellt. Neben dem Web der Dokumente, welches überwiegend die großen Suchmaschinenhersteller wie Google und Microsoft durchsuchen, existiert auch das weniger bekannte Web der Daten. In diesem Teil des Internets werden Daten, keine Dokumente, in einem festen Format kodiert.</description>
+    </item>
+    
+    <item>
+      <title>Metriken und Visualisierungen zur Verbesserung der Navigation in der kommunalen Open Data Landschaft Deutschlands</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2018/metriken-und-visualisierungen-zur-verbesserung-der-navigation-in-der-kommunalen-open-data-landschaft-deutschlands/</link>
+      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2018/metriken-und-visualisierungen-zur-verbesserung-der-navigation-in-der-kommunalen-open-data-landschaft-deutschlands/</guid>
+      <description>Diese Arbeit befasst sich mit der Frage, durch welche Metriken und Visualisierungen die Navigation in der kommunalen Open Data Landschaft Deutschlands verbessert werden kann.Ziel der Arbeit ist es, benutzerorientierte Metriken und Visualisierungen zu ermitteln, um anschließend einen Prototypen zu erschaffen, der als Werkzeug für die Navigation in der kommunalen Open Data Landschaft dient.
+Die Arbeit untersucht im ersten Teil die Domäne und analysiert Konkurrenzprodukte. Ebenso werden die Stakeholder ermittelt und die Erfordernisse der Benutzer festgehalten.</description>
+    </item>
+    
+  </channel>
+</rss>

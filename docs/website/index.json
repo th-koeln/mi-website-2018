@@ -1,0 +1,18 @@
+
+[	
+
+    
+    "title":"Kategorien",
+    "content": ""Inhalte der Website werden den folgenden Kategorien zugeordnet:\n\n## /home\n\nDie Startseite bildet den Einflugschneise für alle. Dementsprechend sollten hier wesentliche Ausschnitte aus allen anderen Kategorien gezeigt werden, um einen Überblick zu geben. In einer späteren Ausbaustufe könnte hier auch eine zielgruppenspezifische Ansprache, z.B. in Form eine Natural-language interface integriert werden.\n\n## /mission\n\n## /people\n\n## /projects\n\n## /pulse\n\n## /research\n\n## /study\n\n## /toolbox\n\n"",
+    
+    "title":"Inhaltstypen",
+    "content": ""Folgende Inhaltstypen werden unterschieden:\n\n## Announcement\n\n## Review\n\n## Background\n\n## Paper\n\n## Tutorial\n\n## Statement\n\n"",
+    
+    "title":"Gestaltungsziele",
+    "content": ""Mit der Gestaltung der Seite sollen folgende Wirkungen erzielt werden:\n\n- die MI ist Teil der Hochschule, aber wir befinden uns hier nicht auf der Hochschulwebsite, sondern auf eigenem Terrain\n- die MI ist technische orientiert\n- die MI hat eine ausgeprägte ästhetische Komponente\n- die MI ist eigenständig, prägnant und strukturiert\n- die MI bietet Platz\n- die MI ist freundlich, offen und zugewandt\n- hier gibt es was zu entdecken\n\nDas Design ist möglichst einfach, klar, reduziert und großzügig. Sie kommt ohne Effekte und mit möglichst wenigen Hilfselementen wie Rahmen oder Schatten aus. Statt dessen wird mit einer prägnenten und selbstbewussten Typographie und viel Weißraum gearbeitet.\n\n\n\n\n"",
+    
+    "title":"Struktur",
+    "content": ""Strukturell besteht die Site aus Artikeln, die jeweils einer Kategorie zugeordnet sind. Die Kategorien bestehen möglichst aus einem Wort und sind das erste Segment der URL. Über die jeweilige Kategorien-URL wird die Übersichtsseite der Kategorie aufgerufen, z.B.:\n\n\u003e medieninformatik.th-koeln.de/study\n\nEin weiteres Stukturierungselement bilden Tags. Einem Artikel können beliebig viele Tags zugeordnet werden. Jeder Tag bildet über eine eigene URL einen Einstiegspunkt in die Artikel zu diesem Tag, z.B.: \n\n\u003e medieninformatik.th-koeln.de/jobs\n\n\n\n\n"",
+    
+]
+

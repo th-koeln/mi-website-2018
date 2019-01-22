@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arbeiten on Medieninformatik an der TH Köln</title>
+    <link>https://www.medieninformatik.th-koeln.de/papers/</link>
+    <description>Recent content in Arbeiten on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.medieninformatik.th-koeln.de/papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2015</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2015/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2015</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2017/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2015</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2018/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2016</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2016/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2016/</guid>
+      <description>Blogg</description>
+    </item>
+    
+  </channel>
+</rss>

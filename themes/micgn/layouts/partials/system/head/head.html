@@ -1,13 +1,16 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> {{ with .Title }}
-<title>{{ . }}</title>{{ end }} {{ with .Site.Params.description }}
+<title>Medieninformatik Showcase 2018</title>{{ end }} {{ with .Site.Params.description }}
 <meta name="description" content="{{ . }}">{{ end }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto+Slab:400,700" rel="stylesheet">
 <link rel="stylesheet" href="{{.Site.BaseURL}}css/{{index .Site.Data.css.hash "mi.css"}}" />
+
+<link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
+
 
 <!-- Responsivity for older IE -->
 <!-- Just in case -->
@@ -18,7 +21,9 @@
     <![endif]-->
 ` | safeHTML }}
 
+<link rel="shortcut icon" type="image/x-icon" href="{{ "favicons/favicon.ico" | absURL }}">
 
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}"> {{ if .RSSLink }}
+{{ if .RSSLink }}
 <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }} {{ template "_internal/google_analytics_async.html" . }}
+<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+{{ template "_internal/google_analytics_async.html" . }}

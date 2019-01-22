@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Christian Alexander Poplawski on Medieninformatik an der TH Köln</title>
+    <link>https://www.medieninformatik.th-koeln.de/autoren/christian-alexander-poplawski/</link>
+    <description>Recent content in Christian Alexander Poplawski on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.medieninformatik.th-koeln.de/autoren/christian-alexander-poplawski/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>25knots – Ein Tool zur Verbesserung der gestalterischen Qualität von Artefakten im Hochschulkontext</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</guid>
+      <description>Die nachfolgende Arbeit beschäftigt sich mit der Entwicklung der Webanwendung 25Knots zu einem marktfähigen Produkt, basierend auf bereits im Praxisprojekt erarbeiteten Konzepten und einem Proof of Concept. Ziel ist dabei nicht nur, die Verwendung durch die Community nach Abschluss dieser Arbeit möglich zu machen, sondern diese auch aktiv an der Weiterentwicklung der Anwendung teilhaben zu lassen. Die Anwendung 25Knots zielt darauf ab, die gestalterische Qualität von Artefakten im Hochschulkontext zu verbessern.</description>
+    </item>
+    
+    <item>
+      <title>Ermittlung relevanter Themengebiete für die Entwicklung eines Tools zur Unterstützung beim Erstellen von Gestaltungslösungen im Hochschulkontext</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2016/ermittlung-relevanter-themengebiete-fuer-die-entwicklung-eines-tools-zur-unterstuetzung-beim-erstellen-von-gestaltungsloesungen-im-hochschulkontext/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2016/ermittlung-relevanter-themengebiete-fuer-die-entwicklung-eines-tools-zur-unterstuetzung-beim-erstellen-von-gestaltungsloesungen-im-hochschulkontext/</guid>
+      <description>Ziel des vorliegenden Praxisprojektes war es, relevante Themengebiete für die Konzeption eines Tools zu definieren, das Nutzern dabei hilft, Gestaltungslösungen im Hochschulkontext zu erstellen. Zu diesem Zweck wurden zunächst relevante Themengebiete auf Basis einer Fehleranalyse ermittelt. Anschließend wurde der Versuch unternommen, in den jeweiligen Themengebieten Regeln zu definieren, die bei einer späteren Umsetzung des Tool berücksichtigt werden können. Die Arbeit hält die theoretischen Ergebnisse fest und verweist auf einige praktische Ergebnisse wie etwa einen Proof of Concept oder Wireframes, die erstellt wurden.</description>
+    </item>
+    
+  </channel>
+</rss>

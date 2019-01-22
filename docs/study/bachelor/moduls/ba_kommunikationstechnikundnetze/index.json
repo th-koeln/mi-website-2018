@@ -1,0 +1,14 @@
+{
+    "title":"Kommunikationstechnik und Netze",
+	"modulverantwortlich": "hls",
+	"modulniveau": "<no value>",
+	"kuerzel": "KTN",
+	"studiensemester": "3",
+	"sprache": "deutsch",
+	"kreditpunkte": "5",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\nVorlesung, Praktikum\n\n## Arbeitsaufwand\n\n## Angestrebte Lernergebnisse\nDie Studierenden sollen  \n\n- Prinzipien und Grundlagen von technischen Kommunikations­vor­gängen kennen lernen,\n- Protokolle als wesentliche Grundlage der Kommunikationstechnik im Detail verstehen (Internet-Protokolle, Multimedia-Protokolle, TK-Protokolle, Dienste)\n- Einsatz und Nutzung von Kommunikations­tech­nik praxistypisch kennen lernen,\n- in der Lage sein, selbstständig Netzstrukturen zu bewerten, Netze zu analysieren und zu konzipieren (unter Anwendung von Netz­analyse­werkzeugen und -methoden).\n\n## Inhalt\nGrundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Protokolle, Schnittstellen, Dienste, Architekturmodelle (OSI-Referenzmodell, TCP/IP-Protokollfamilie), Standardisierung, TCP/IP-Protokollfamilie als Grundlage des Internet, Schichtenmodell und Protokolle im Detail, Adressierung, ausgewählte Anwendungen, Klassifizierung von Netzen / Topologien / Technologien, Wegewahl / Vermittlung / Routing, Vermittlungsprinzipien, Routing-Verfahren und  Protokolle, Internet-spezifische Verfahren, Multimedia-Netze, Dienstgüte, Internet-Telefonie, Realisierung von Multimedia-Netzen, Netzsicherheit, grundlegende Begriffe der „IT-Sicherheit“, typische Bedrohungen in Netzen, Beispielszenarien\n\n## Studien-/Prüfungsleistungen\n\n\n## Medienformen\n* Vorlesung im Hörsaal (PowerPoint und Beamer)  \n* Praktikum an Rechnern des KTDS-Labors; Ressourcen: Netzanalysesoftware,div. Netzüberwachungssoftware, E-Mail-Server und -Clients, DNS-Server, ggf. weitereServer-Implementierungen\n\n## Literatur\n* Wird in der Veranstaltung bekannt gegeben\n\n"",
+}

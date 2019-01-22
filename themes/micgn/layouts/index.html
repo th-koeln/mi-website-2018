@@ -1,56 +1,10 @@
 {{ define "main" }}
-<main aria-role="main">
-    <div class="grid-x grid-margin-x">
-        <article class="cell large-8">
-            <h1>{{.Title}}</h1>
-            {{.Content}}
-        </article>
-    </div>
-
-    <div class="grid-x grid-margin-x">
-      <div class="cell small-6">
-        <h2>Medieninformatik Bachelor</h2>
-        <p>
-          Der Medieninformatik Bachelor ist ein berufsqualifizierender, grundständiger
-          Studiengang, d.h. er führt Sie zu Ihrem ersten Hochschulabschluss. Nach dem
-          Abschluss können Sie sowohl ins Berufsleben einsteigen, als auch einen
-          konsekutiven Masterstudiengang belegen. Die Regelstudienzeit des Bachelor
-          Studiengangs beträgt 6 Semester. Die Einschreibung ist ausschließlich zum
-          Wintersemester möglich.
-        </p>
-        <p>
-          <a href="#">mehr zum Studiengang unter /bachelor</a>
-        </p>
-      </div>
-      <div class="cell small-6">
-        <h2>Medieninformatik Master</h2>
-        <p>
-          Im Masterstudium Medieninformatik vertiefen und erweitern AbsolventInnen
-          von Studiengängen der Informatik ihre Kompetenzen, um informationstechnische,
-          oft web-basierte Prozesse und Systeme zur Gestaltung, Produktion, Bearbeitung,
-          Distibution und nutzung medienbasierter Informationen analysieren, entwerfen,
-          realisieren, adaptieren, betreiben und evaluieren zu können.
-        </p>
-        <p>
-          <a href="#">mehr zum Studiengang unter /master</a>
-        </p>
-      </div>
-    </div>
-
-    <h2>Papers</h2>
-    <div class="papers-list">
-      <!-- Show the last 5 papers (or maybe news?)-->
-      {{ range first 5 (where .Pages "Section" "papers").ByDate.Reverse }}
-        <div class="papers-item">
-          <h3>{{ .Title }}</h3>
-        </div>
-        <p>
-          {{ range $index, $element := .Params.themen }}
-            <span class="divider">/</span>{{ $element }}
-          {{end }}
-        </p>
-      {{ end }}
-    </div>
+<main aria-role="main" class="mi-showcase">
+  <div class="grid-x grid-margin-x">
+    <article class="cell large-8">
+      {{ partial "showcase.html" }}
+    </article>
+  </div>
 
 </main>
 {{ end }}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Hans Kornacher on Medieninformatik an der TH Köln</title>
+    <link>https://www.medieninformatik.th-koeln.de/betreuer/prof.-hans-kornacher/</link>
+    <description>Recent content in Prof. Hans Kornacher on Medieninformatik an der TH Köln</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.medieninformatik.th-koeln.de/betreuer/prof.-hans-kornacher/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spielerische Verwendung des semantischen Differentials als Werkzeug zur Schaffung eines einheitlichen Zielbildes für eine Produktentwicklung</title>
+      <link>https://www.medieninformatik.th-koeln.de/papers/2017/spielerische-verwendung-des-semantischen-differentials-als-werkzeug-zur-schaffung-eines-einheitlichen-zielbildes-fuer-eine-produktentwicklung/</link>
+      <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
+      
+      <guid>https://www.medieninformatik.th-koeln.de/papers/2017/spielerische-verwendung-des-semantischen-differentials-als-werkzeug-zur-schaffung-eines-einheitlichen-zielbildes-fuer-eine-produktentwicklung/</guid>
+      <description>Der Titel diese Bachelorarbeitet lautet: &amp;ldquo;Spielerische Verwendung des semantischen Differentials als Werkzeug zur Schaffung eines einheitlichen Zielbildes in der Produktentwicklung&amp;rdquo;. Zunächst wurde in dieser Arbeit die Motivation erklärt und die Zielsetzung aufgestellt. Anschließend wurden die Grundlagen untersucht, die in dem Titel schon angedeutet wurden. Dazu zählt, dass die Methode des semantischen Differentials mit anderen Methoden verglichen wurde, der Arbeitsablauf in der Produktentwicklung betrachtet, das semantische Differential und dessen Vorgehensweise erklärt und die Gamification kurz betrachtet wurden.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+{
+    "title":"Algorithmen und Programmierung 1",
+	"modulverantwortlich": "fv",
+	"modulniveau": "<no value>",
+	"kuerzel": "AP1",
+	"studiensemester": "1",
+	"sprache": "deutsch",
+	"kreditpunkte": "8",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\n\n6 SWS: Vorlesung 3 SWS; Übung 1 SWS; Praktikum 2 SWS\n\n## Arbeitsaufwand\n\nGesamtaufwand 240h, davon \n\n- 54h Vorlesung \n- 36h Praktikum\n- 18h Übung\n- 132h Selbststudium \n\n## Angestrebte Lernergebnisse\n\nDie Studierenden sollen\n\n- formale und algorithmische Kompetenzen im Bereich der Software-Entwicklung erlangen. Hierzu gehören insbesondere die Prinzipien der Objektorientierung und die der prozeduralen Programmierung.\n- die Kompetenz erlangen, strukturierte und unstrukturierte Problemstellungen zu analysieren, Lösungen modellbasiert zu entwickeln sowie prozedural und objektorientiert umzusetzen.\n- Systementwürfe evaluieren und bewerten können, insbesondere sollen sie die Arbeitsweise, die Randbedingungen und den Komplexitätsgrad von einfachen Algorithmen verstehen.\n- die Fähigkeit erlernen, algorithmische Entwurfsmuster zu erkennen und anzuwenden\n\n## Inhalt\n* Prozedurale Programmierung am Beispiel von C.\n* Objektorientierte Programmierung am Beispiel von Java.\n* Kontroll- und Datenstrukturen.\n* Modularisierungskonzepte.\n* Typkonzepte.\n* Grundmuster der objektorientierten Programmierung.\n* Elementare Algorithmen und Aufwandsschätzung.\n* Entwicklungsumgebungen.\n\n## Studien-/Prüfungsleistungen\nSchriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.\n\n## Medienformen\n- Beamer-gestützte Vorlesungen (Folien in elektronischer Form) \n- Praktikum an Rechnern des Labors\n\n## Literatur\n\n* Vorlesungsunterlagen: Foliensammlung, ausformuliertes Skript, Beispiellösungen, Übungsklausuren mit Lösungen\n* Fachliteratur: Diverse C-Bücher, u.a.: Kernighan, B.W., Ritchie, D.M.: „Programmieren in C“\n* Diverse Java-Bücher, u.a.: Bishop, J.: „Java Lernen“\n* Sedgewick, R.: „Algorithmen in Java“\n\n"",
+}

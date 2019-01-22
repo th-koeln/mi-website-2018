@@ -1,0 +1,14 @@
+{
+    "title":"Algorithmen und Programmierung 2",
+	"modulverantwortlich": "ck",
+	"modulniveau": "<no value>",
+	"kuerzel": "AP2",
+	"studiensemester": "2",
+	"sprache": "deutsch",
+	"kreditpunkte": "7",
+	"voraussetzungen-nach-pruefungsordnung": "<no value>",
+	"empfohlene-voraussetzungen": "<no value>",
+	"published": "<no value>",
+	"type": "pm",
+    "content": ""## Lehrform/SWS\n\n6 SWS: Vorlesung 3 SWS; Übung 1 SWS; Praktikum 2 SWS\n\n## Arbeitsaufwand\n\nGesamtaufwand 210h, davon \n\n- 54h Vorlesung \n- 36h Praktikum\n- 18h Übung\n- 102h Selbststudium \n\n## Angestrebte Lernergebnisse\n\nDie Studierende sollen Objektorientierung, die Prinzipien der Algorithmenentwicklung und grundlegende Algorithmen verstehen und die Grundstrukturen der Java-Bibliothek anwenden können.\n\n## Inhalt\n* Basisalgorithmen: Suchen u. Sortieren\n* Datenstrukturen\n* Dictionaries\n* Methodik des objektorientierten Programmierens\n\n## Studien-/Prüfungsleistungen\n\nSchriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.\n\n## Medienformen\n\n* Beamer-gestützte Vorlesungen (Folien in elektronischer Form) \n* Praktikum an Rechnern des Labors\n\n## Literatur\n\n- Vorlesungsunterlagen: Foliensammlung, ausformuliertes Skript, Beispiellösungen\n- Fachliteratur: Bishop, J.: „Java Lernen“\n- Sedgewick, R.: „Algorithmen in Java“\n- Barnes, J., Kölling, M.: „Java Lernen mit BlueJ“, Verweise auf Onlinedokumente\n\n"",
+}

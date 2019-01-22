@@ -1,12 +1,26 @@
-.m-footer{  
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000;
+.mi-footer {
+  /* position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;*/
 
-    background: $mi-black;
-    color: #fff;
-    padding: $bfs/2 ($from-left + map-get($grid-container-padding, small)/2);
-    
+  font-size: $small-font-size;
+
+  background: $mi-black;
+  color: #fff;
+  padding-top: $bfs*2;
+  padding-bottom: $bfs *2;
+
+  .mi-linkliste {
+
+
+    >li+li {
+      margin-top: $bfs/2;
+      padding-top: $bfs/2;
+      border-top: solid 1px #666;
+
+    }
+  }
+
 }

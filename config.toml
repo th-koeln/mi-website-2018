@@ -1,4 +1,4 @@
-baseurl = "https://th-koeln.github.io/mi-website-2018/"
+baseurl = "https://www.medieninformatik.th-koeln.de/"
 title = "Medieninformatik an der TH Köln"
 theme = "micgn"
 languageCode = "de-de"
@@ -11,8 +11,11 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-  baseFragment = "/mi-website-2018"
+  baseFragment = "/"
   template = ""
+  copyright = "Medieninformatik an der TH Köln"
+  ansprechpartner = "Ansprechpartner <a href=\"https://www.th-koeln.de/personen/christian.noss/\">Christian Noss</a>"
+  impressum = "<a href=\"https://www.th-koeln.de/hochschule/impressum_8159.php\">Impressum</a>"
 
 [taxonomies]
   tag = "tags"
