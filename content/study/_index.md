@@ -8,4 +8,4 @@ Am Campus Gummersbach bieten wir zwei aufeinander aufbauende Studiengänge an: d
 
 
 
-
+{{< imgproc sunset Resize "300x" />}}
