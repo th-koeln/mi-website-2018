@@ -11,3 +11,25 @@
     margin-bottom: 0;
   }
 }
+
+.subheader {
+  line-height: 100%;
+  color: $mi-pink;
+}
+
+.lift-up {
+  margin-top: -$bfs;
+}
+
+.invers {
+  display: inline-block;
+  padding: $bfs/4 $bfs/2;
+  margin-top: $bfs;
+  margin-bottom: $bfs;
+  color: #fff;
+  background: #000;
+}
+
+.invers.gruen {
+  background: $mi-gruen;
+}

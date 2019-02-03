@@ -10,7 +10,7 @@
     {{range .Fragments}}
     {{ $frag := (print . "/")}}
     {{ $globalParams.Scratch.Add "path" $frag}}
-    <span class="m-navHead--logoSlash">/</span><span class="m-navHead--logoSlug">showcase
+    <span class="m-navHead--logoSlash">/</span><span class="m-navHead--logoSlug">events
       <!--a href="{{$BaseURL}}{{ $globalParams.Scratch.Get "path" }}">{{.}}</a-->
     </span>
     {{end}}
