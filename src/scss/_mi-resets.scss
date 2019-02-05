@@ -6,3 +6,39 @@
     box-shadow: none !important;
     outline: none;
 }
+
+// Accordion reset
+// ---------
+.accordion-item{
+  border-bottom: solid 1px $mi-blau;
+  margin-bottom: $bfs/2 !important;
+  padding-bottom: $bfs/2;
+}
+
+.accordion-title{
+  font-size: 1rem ;
+  color: #000;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  &:focus, &[aria-expanded=true]{
+    font-weight: bold;
+    color: #000;
+    background: none;
+  }
+
+  &:hover{
+    background: none;
+  }
+}
+
+.accordion-content{
+  border: none;
+  font-size: $bfs-s;
+}
+
+:last-child:not(.is-active)>.accordion-title {
+  border-bottom: none;
+  border-radius: 0 0 0 0;
+}

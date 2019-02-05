@@ -1,0 +1,7 @@
+<div class="m-mi-hero-image" style="background-image: url({{ .image.RelPermalink }})">
+
+  {{ if .image }}
+  {{ partial "atoms/mi-headline-invers/mi-headline-invers.html" (dict "headline" .headline) }}
+  {{ end }}
+
+</div>

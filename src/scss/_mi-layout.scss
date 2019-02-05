@@ -27,3 +27,8 @@
     /* Use 1 0 auto instead of just 1 for backwards compatibility with other browsers */
   }
 }
+
+.has-seperator{
+  border-bottom: solid 1px $mi-gruen;
+  margin-bottom: $bfs * 2;
+}

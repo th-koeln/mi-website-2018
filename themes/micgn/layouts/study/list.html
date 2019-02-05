@@ -1,53 +1,38 @@
 {{ define "main" }}
 {{ $params := . }}
-
-<span class="primary label">Study list-template</span>
-<span class="primary label">{{.Dir}}</span>
 <div class="grid-x grid-margin-x">
-    <div class="cell large-8">
-        <h1>{{.Title}}</h1>
-        {{.LinkTitle}} // {{.Params.Type}} // {{.Params.Kuerzel}}
-		{{ partial "molecules/mi-textblock/mi-textblock.html" $params }}
-    </div>
+  <div class="cell large-8 has-seperator">
+    {{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
+  </div>
 </div>
-{{ range .Pages }}
-<div class="grid-x grid-margin-x">
-    <div class="cell large-8">
-        
-        <article class="m-mi-content-wrap">
-            <h3>Page: {{.Title}}</h3>
-            <span class="primary label">{{.Dir}}</span>
-            {{ .Summary }}
-            <div style="color:grey; font-size:16px;">{{ if .Params.years }}<strong>Categories:</strong> {{range .Params.years}}<a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-            <a href="{{.URL}}">mehr lesen</a>
-        </article>
-    </div>
-</div>
-{{ end }}
 
-
-<div class="grid-x grid-margin-x">
-  <div class="cell large-8">
-    <div class="grid-x grid-margin-x">
+<div class="grid-x grid-margin-x ">
+  <div class="cell large-8 has-seperator">
+    <div class="grid-x grid-margin-x ">
     {{ range .Sections }}
     <div class="cell large-6">
         <article class="m-mi-content-wrap">
+            {{ $section := . }}
             {{ $teaser := .Resources.Match "teaser*" }}
-            {{ with $teaser }}
-            {{ range $original := . }}
-            {{ $thumb := $original.Fill "400x200 q92" }}
-            <img style="width: 100%; height: auto;" src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
-            {{ end }}
-            {{ end }}
-            <h3>Section: {{.Title}}</h3>
-            <div>a{{.Dir}}</div>
-            {{ .Summary }}
-            <div style="color:grey; font-size:16px;">{{ if .Params.years }}<strong>Categories:</strong> {{range .Params.years}}<a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-            <a href="{{.URL}}">mehr lesen</a>
+            {{ $image := index ($teaser) 0 }}
+            {{ $thumb := $image.Fill "800x400 q100 Linear" }}
+            {{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info" $section.Summary "url" $section.URL "linktext" "mehr lesen") }}
         </article>
     </div>
     {{ end }}
     </div>
   </div>
 </div>
+
+{{ range $page := .Pages }}
+<div class="grid-x grid-margin-x">
+    <div class="cell large-8">
+        <article class="m-mi-content-wrap">
+            <h3>{{$page.Title}}</h3>
+            {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
+        </article>
+    </div>
+</div>
+{{ end }}
+
 {{ end }}

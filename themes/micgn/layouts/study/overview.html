@@ -1,0 +1,60 @@
+
+{{ define "main" }}
+{{ $params := . }}
+<div class="grid-x grid-margin-x grid-padding-y">
+  <div class="cell medium-12 large-10 xlarge-8 has-seperator">
+    {{ $section := . }}
+    {{ $teaser := .Resources.Match "teaser*" }}
+    {{ $image := index ($teaser) 0 }}
+    {{ $hero := $image.Fill "1600x600 q100 Linear" }}
+    {{ partial "molecules/mi-hero-image/mi-hero-image.html" (dict "image" $hero "headline" .Title) }}
+    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params) }}
+  </div>
+</div>
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "dir" "study/" }}
+{{ $scratch.Add "dir" .Params.id }}
+{{ $scratch.Add "dir" "/moduls/" }}
+{{ $moduldir := $scratch.Get "dir" }}
+
+{{ $scratch.Set "path" "/study/" }}
+{{ $scratch.Add "path" .Params.id }}
+{{ $scratch.Add "path" "/moduls" }}
+{{ $modulpath := $scratch.Get "path" }}
+
+<div class="grid-x grid-margin-x">
+  {{ with .Site.GetPage "section" $modulpath }}
+  <div class="cell">
+    <h3>{{.Title}}</h3>
+  </div>
+  <div class="cell medium-4 large-4 xlarge-3 ">
+      <article class="m-mi-content-wrap">
+          {{ $params := . }}
+          {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "is-small") }}
+      </article>
+  </div>
+  {{ end }}
+  <div class="cell medium-8 large-6 xlarge-5 ">
+    <ul class="accordion" data-accordion data-multi-expand="true">
+
+      {{$semester := (slice 1 2 3 4 5 6)}}
+      {{ range $i := $semester }}
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">{{$i}}. Fachsemester</a>
+        <div class="accordion-content" data-tab-content>
+          <ul class="mi-linkliste">
+            {{ range $modul := where (where $.Site.Pages "Dir" "==" $moduldir) ".Params.studiensemester" "==" $i }}
+            <li><a href="{{$modul.URL}}">{{$modul.Title}}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </li>
+      {{ end }}
+
+    </ul>
+  </div>
+</div>
+
+
+{{ end }}

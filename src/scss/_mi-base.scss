@@ -16,11 +16,17 @@ html {
 
 h1 {
   font-weight: bold;
+  margin-bottom: $bfs *2;
   //font-size: rem-calc(25px);
 }
 
 h2 {
   margin-top: $bfs * 2;
+  //font-size: rem-calc(20px);
+}
+
+h3 {
+  margin-bottom: $bfs;
   //font-size: rem-calc(20px);
 }
 
@@ -50,6 +56,9 @@ li {
   margin-bottom: $bfs /2;
 }
 
+li.accordion-item{
+  margin-bottom: 0;
+}
 
 
 

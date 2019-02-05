@@ -1,17 +1,17 @@
 ---
 title: Theoretische Informatik 1
 modulverantwortlich: me
-modulniveau:
+modulniveau: BA
 kuerzel: TI1
 untertitel:
 studiensemester: 1
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
 published: true
-type: pm
+typ: pm
 ---
 
 ## Lehrform/SWS

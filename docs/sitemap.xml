@@ -179,7 +179,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_algorithmenundprogrammierung1/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_algorithmenundprogrammierung2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_algorithmenundprogrammierung2/</loc>
   </url>
   
   <url>
@@ -193,6 +201,10 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_avm/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/autoren/</loc>
     <lastmod>2018-06-02T13:49:31+02:00</lastmod>
     <priority>0</priority>
@@ -203,7 +215,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_bwl1/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_bachelorkolloquium/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_bachelorkolloquium/</loc>
   </url>
   
   <url>
@@ -217,6 +237,10 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_bachelorarbeit/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/betreuer/</loc>
     <lastmod>2018-06-06T11:56:33+00:00</lastmod>
     <priority>0</priority>
@@ -224,6 +248,10 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_betriebssysteme-und-verteile-systeme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_betriebssysteme-und-verteile-systeme/</loc>
   </url>
   
   <url>
@@ -245,6 +273,10 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_datenbanken1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_datenbanken1/</loc>
   </url>
   
   <url>
@@ -276,7 +308,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_einfhrunginbetriebssystemeundrechnerarchitektur/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_einfhrungindiemedieninformatik/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_einfhrungindiemedieninformatik/</loc>
   </url>
   
   <url>
@@ -284,11 +324,23 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_entwicklungsprojekt/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_grundlagen_des_web/</loc>
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_grundlagen_des_web/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_mug/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_mug/</loc>
   </url>
   
   <url>
@@ -313,6 +365,10 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_kommunikationstechnikundnetze/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/autoren/laura-maria-hermann/</loc>
     <lastmod>2018-06-06T11:56:33+00:00</lastmod>
     <priority>0</priority>
@@ -323,7 +379,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_mathematik1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_mathematik1/</loc>
   </url>
   
   <url>
@@ -331,7 +395,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_mathematik2/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_mensch-computer_interaktion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_mensch-computer_interaktion/</loc>
   </url>
   
   <url>
@@ -357,6 +429,10 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_paradigmen-der-programmierung/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/module/praxisprojekt/</loc>
     <lastmod>2018-06-06T11:56:33+00:00</lastmod>
     <priority>0</priority>
@@ -367,7 +443,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_praxisprojektarbeit/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_praxisprojektseminar/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_praxisprojektseminar/</loc>
   </url>
   
   <url>
@@ -411,7 +495,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_projektmanagement/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_screendesign/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_screendesign/</loc>
   </url>
   
   <url>
@@ -425,7 +517,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_vertiefung_socialcomputing/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_softwaretechnik/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_softwaretechnik/</loc>
   </url>
   
   <url>
@@ -450,7 +550,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_theoretischeinformatik1/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_theoretischeinformatik2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_theoretischeinformatik2/</loc>
   </url>
   
   <url>
@@ -470,6 +578,10 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_vertiefung-visual-computing/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/keywords/visualistik/</loc>
     <lastmod>2018-06-02T13:49:31+02:00</lastmod>
     <priority>0</priority>
@@ -486,7 +598,15 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_wpf/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_vertiefung-web_development/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_vertiefung-web_development/</loc>
   </url>
   
   <url>
