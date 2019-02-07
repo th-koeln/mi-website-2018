@@ -4,9 +4,7 @@
   border-radius: 50%;
   height: $bfs-max;
   width: $bfs-max;
-  img.avatar {
-    border-radius: 50%;
-    height: $bfs-max;
-    width: $bfs-max;
-  }
+
+  background-size: cover;
+  background-position: center;
 }

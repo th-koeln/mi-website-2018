@@ -158,6 +158,11 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/andere-studiengaenge/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/website/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -304,6 +309,10 @@
   </url>
   
   <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/einfuehrung/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_einfhrunginbetriebssystemeundrechnerarchitektur/</loc>
   </url>
   
@@ -328,15 +337,11 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_grundlagen_des_web/</loc>
+    <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_grundlagen-des-web/</loc>
   </url>
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_grundlagen_des_web/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_mug/</loc>
   </url>
   
   <url>
@@ -375,10 +380,6 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/</loc>
   </url>
   
@@ -396,6 +397,10 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ba_mathematik2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_mug/</loc>
   </url>
   
   <url>

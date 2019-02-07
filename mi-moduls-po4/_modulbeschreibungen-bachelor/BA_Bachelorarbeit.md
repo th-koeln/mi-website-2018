@@ -1,7 +1,7 @@
 ---
 title: Bachelorarbeit
 modulverantwortlich: all
-modulniveau:
+modulniveau: BA
 kuerzel: BA
 untertitel:
 studiensemester: 6
