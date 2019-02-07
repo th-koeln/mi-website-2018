@@ -1,71 +1,72 @@
+# cn: ja, haessliche Struktur, aber leider ist der doofe Hugo mit einer schönen Struktur nicht klar gekommen, der Penner!
 moe:
-  name: Prof. Dr. Monika Engelen
-
+    name: 'Prof. Dr. Monika Engelen'
 pb:
-  name: Paul Bagiu
-
+    name: 'Paul Bagiu'
 cn:
-  name: Prof. Christian Noss
-  avatar: https://pbs.twimg.com/profile_images/467245358968365057/ZkBvZKrO_400x400.jpeg
-  
+    id: cn
+    name: 'Prof. Christian Noss'
+    avatar: 'https://pbs.twimg.com/profile_images/467245358968365057/ZkBvZKrO_400x400.jpeg'
 kf:
-  name: Prof. Dr. Kristian Fischer
-  
+    id: kf
+    name: 'Prof. Dr. Kristian Fischer'
+    avatar: 'http://www.dr-fischer-koeln.com/Profil/Kontakt_files/DSCF0357.jpg'
 ck:
-  name: Prof. Dr. Christian Kohls
-  avatar: https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png
-  
+    id: ck
+    name: 'Prof. Dr. Christian Kohls'
+    avatar: 'https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png'
 gh:
-  name: Prof. Dr. Gerhard Hartmann
-  
+    id: gh
+    name: 'Prof. Dr. Gerhard Hartmann'
 hk:
-  name: Prof. Hans Kornacher
-  
+    id: hk
+    name: 'Prof. Hans Kornacher'
 mw:
-  name: Prof. Dr. Mario Winter
-  
+    id: mw
+    name: 'Prof. Dr. Mario Winter'
 me:
-  name: Prof. Dr. Martin Eisemann
-  avatar: https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png
-
+    id: me
+    name: 'Prof. Dr. Martin Eisemann'
+    avatar: 'https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png'
 fv:
-  name: Prof. Dr. Frank Victor
-
+    id: fv
+    name: 'Prof. Dr. Frank Victor'
 lk:
-  name: Prof. Dr. Lutz Köhler
-  
+    id: lk
+    name: 'Prof. Dr. Lutz Köhler'
 mb:
-  name: Prof. Dr. Matthias Böhmer
-  
+    id: mb
+    name: 'Prof. Dr. Matthias Böhmer'
 ab:
-  name: Prof. Dr. Arno Bitzer
-  
+    id: ab
+    name: 'Prof. Dr. Arno Bitzer'
 bb:
-  name: Prof. Dr. Birgit Bertelsmeier
-  
+    id: bb
+    name: 'Prof. Dr. Birgit Bertelsmeier'
 hfw:
-  name: Prof. Dr. Heide Faeskorn-Woyke
-  
+    id: hfw
+    name: 'Prof. Dr. Heide Faeskorn-Woyke'
 sk:
-  name: Prof. Dr. Stefan Karsch
-
+    id: sk
+    name: 'Prof. Dr. Stefan Karsch'
 hls:
-  name: Prof. Dr. Hans L. Stahl
-  
+    id: wls
+    name: 'Prof. Dr. Hans L. Stahl'
+    avatar: 'https://www.th-koeln.de/pseimg/0759033b27e627e31c585fdbae579e627cfae07c.png'
 wk:
-  name: Prof. Dr. Wolfgang Konen
-  
+    id: wk
+    name: 'Prof. Dr. Wolfgang Konen'
 hg:
-  name: Prof. Dr. Holger Günther
-  
+    id: hg
+    name: 'Prof. Dr. Holger Günther'
 db:
-  name: Dipl.-Inform. (FH) Dennis Buderus
-  
-bn: 
-  name: Prof. Dr. Boris Naujoks
-
+    id: db
+    name: 'Dipl.-Inform. (FH) Dennis Buderus'
+bn:
+    name: 'Prof. Dr. Boris Naujoks'
 mi:
-  name: Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter
-  
+    id: mi
+    name: 'Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
 all:
-  name: alle Informatik Professoren
+    id: all
+    name: 'alle Informatik Professoren'
