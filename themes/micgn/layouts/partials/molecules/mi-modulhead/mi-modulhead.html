@@ -1,0 +1,61 @@
+<div class="m-mi-modulhead">
+  
+  {{$verantwortlich := index .people .ele.Params.modulverantwortlich}}
+  {{ if $verantwortlich.avatar }}
+  
+  <div class="m-mi-modulhead--mit-bild">
+    {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $verantwortlich.avatar )}}
+    <header class="m-mi-modulhead-text">
+      <h1 class="m-mi-modulhead--title">{{.ele.Title}}</h1>
+      <h2 class="m-mi-modulhead--subtitle">{{$verantwortlich.name}}</h2>
+    </header>
+  </div>
+
+  <dl class="mi-dl-overview">
+  
+  {{else}}
+
+  <dl class="mi-dl-overview">
+    <dt>Modulverantwortlich</dt>
+    <dd>{{ partial "functions/verantwortlich.html" (dict "verantwortlich" .ele.Params.modulverantwortlich "people" .Site.Data.people) }}</dd>
+  
+  {{ end }}
+
+    {{if .ele.Params.modulniveau }}
+    <dt>Studiengang</dt>
+    <dd>{{ partial "functions/studiengaenge.html" (dict "studiengang" .ele.Params.modulniveau "studiengaenge" .studiengaenge) }}</dd>
+    {{ end }}
+
+    {{if .ele.Params.kreditpunkte }}
+    <dt>Kreditpunkte</dt>
+    <dd>{{.ele.Params.kreditpunkte}}</dd>
+    {{ end }}
+
+    {{if .ele.Params.studiensemester }}
+    <dt>Studiensemester</dt>
+    <dd>{{.ele.Params.studiensemester}}</dd>
+    {{ end }}
+
+    {{if .ele.Params.sprache }}
+    <dt>Sprache</dt>
+    <dd>{{.ele.Params.sprache}}</dd>
+    {{ end }}
+
+    {{if .ele.Params.kuerzel }}
+    <dt>Kürzel</dt>
+    <dd>{{.ele.Params.kuerzel}}</dd>
+    {{ end }}
+
+    {{if .ele.Params.voraussetzungenNachPruefungsordnung }}
+    <dt>Voraussetzungen nach Prüfungsordnung</dt>
+    <dd>{{.ele.Params.voraussetzungenNachPruefungsordnung}}</dd>
+    {{ end }} 
+
+  </dl>
+
+  <div class="mi-modulbeschreibung">
+    <h2>Empfohlene Voraussetzungen</h2>
+    <p>{{.ele.Params.empfohleneVoraussetzungen}}</p>
+  </div>
+
+</div>

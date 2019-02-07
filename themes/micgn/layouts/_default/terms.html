@@ -3,7 +3,7 @@
 Terms List
 <div class="grid-x grid-margin-x">
     <div class="cell large-8">
-		{{ partial "molecules/mi-textblock/mi-textblock.html" $params }}
+		{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
     </div>
 </div>
 {{ range .Pages }}

@@ -9,16 +9,16 @@
 
   background: $mi-black;
   color: #fff;
-  padding-top: $bfs*2;
-  padding-bottom: $bfs *2;
-  margin-top: $bfs*3;
+  padding-top: $bfs-xl;
+  padding-bottom: $bfs-xl;
+  margin-top: $bfs-xxl;
 
   .mi-linkliste {
 
 
     >li+li {
-      margin-top: $bfs/2;
-      padding-top: $bfs/2;
+      margin-top: $bfs-xs;
+      padding-top: $bfs-xs;
       border-top: solid 1px #666;
 
     }

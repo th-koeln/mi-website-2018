@@ -12,6 +12,9 @@
 /* MI Datenliste mit Trennlinien
 -----------------------------------------------------------------------------*/
 .mi-dl-overview {
+
+  margin-bottom: $bfs-xl;
+
   > dt{
     display: block;
     float: left;
@@ -40,5 +43,15 @@
     content: ":";
     display: inline-block;
     padding-right: 0.3rem;
+  }
+}
+
+
+/* MI Modulbeschreibung
+-----------------------------------------------------------------------------*/
+.mi-modulbeschreibung{
+  h2{
+    font-size: $bfs-l;
+    margin-top: $bfs-xxl;
   }
 }

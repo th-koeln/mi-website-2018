@@ -16,12 +16,12 @@ html {
 
 h1 {
   font-weight: bold;
-  margin-bottom: $bfs *2;
+  margin-bottom: $bfs-l;
   //font-size: rem-calc(25px);
 }
 
 h2 {
-  margin-top: $bfs * 2;
+  margin-top: $bfs-l;
   //font-size: rem-calc(20px);
 }
 
@@ -53,7 +53,7 @@ h4 {
 
 li {
   line-height: 140%;
-  margin-bottom: $bfs /2;
+  margin-bottom: $bfs-xs;
 }
 
 li.accordion-item{
@@ -68,7 +68,7 @@ li.accordion-item{
 
 blockquote {
   border-left: solid $mi-border-small $mi-pink;
-  padding: $bfs/2 $bfs;
+  padding: $bfs-xs $bfs;
 
   >p {
     margin-bottom: 0;

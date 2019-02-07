@@ -7,7 +7,7 @@
     <div class="cell large-8">
         <h1>{{.Title}}</h1>
         {{.LinkTitle}} // {{.Params.Type}} // {{.Params.Kuerzel}}
-		{{ partial "molecules/mi-textblock/mi-textblock.html" $params }}
+		{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
     </div>
 </div>
 {{ range .Pages }}

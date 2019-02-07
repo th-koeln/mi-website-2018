@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ $params := . }}
+<div class="grid-x grid-margin-x grid-padding-y">
+  <div class="cell medium-12 large-10 xlarge-8 has-seperator">
+
+  {{ partial "molecules/mi-modulhead/mi-modulhead.html" (dict "ele" $params "people" .Site.Data.people "studiengaenge" .Site.Data.studiengaenge)}}
+  {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "mi-modulbeschreibung") }}
+
+  </div>
+</div>
+
+{{ end }}
