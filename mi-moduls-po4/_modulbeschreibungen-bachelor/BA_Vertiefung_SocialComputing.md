@@ -1,5 +1,5 @@
 ---
-title: Social Computing
+title: Vertiefung – Social Computing
 modulverantwortlich: ck
 modulniveau:
 kuerzel: SC
