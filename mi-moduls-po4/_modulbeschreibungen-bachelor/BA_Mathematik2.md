@@ -8,8 +8,8 @@ studiensemester: 2
 kategorie:
 sprache: deutsch
 kreditpunkte: 8
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Mathematik I
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Mathematik I
 published: true
 layout: modulbeschreibung
 

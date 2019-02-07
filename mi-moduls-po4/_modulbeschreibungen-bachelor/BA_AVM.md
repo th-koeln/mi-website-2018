@@ -8,8 +8,8 @@ studiensemester: 3
 kategorie: null
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
 layout: modulbeschreibung
 

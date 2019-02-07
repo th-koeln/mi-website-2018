@@ -47,7 +47,7 @@
 {% if(modul.modulverantwortlich contains dozent[0]) %}
 
 {% comment %}  Liegt das Modul im Sommersemester oder Wintersemester? {% endcomment %} 
-{% assign value = modul.studiensemester-ws | modulo:2 %}
+{% assign value = modul.studiensemesterWs | modulo:2 %}
 
 {% if value == 0 %}
 

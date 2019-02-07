@@ -8,8 +8,8 @@ studiensemester: 5
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Grundlagen der BWL
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen der BWL
 published: true
 layout: modulbeschreibung
 

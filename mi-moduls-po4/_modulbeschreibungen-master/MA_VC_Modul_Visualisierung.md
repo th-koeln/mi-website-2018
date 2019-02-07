@@ -2,13 +2,13 @@
 title: Visualisierung
 modulverantwortlich: me
 kuerzel: VI
-studiensemester-ws: 2
+studiensemesterWs: 2
 studiensemester-ss: 3
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: Web Architekturen (Bachelor) bzw. Kenntnisse in HTML
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: Web Architekturen (Bachelor) bzw. Kenntnisse in HTML
 published: true
 layout: modulbeschreibung
 

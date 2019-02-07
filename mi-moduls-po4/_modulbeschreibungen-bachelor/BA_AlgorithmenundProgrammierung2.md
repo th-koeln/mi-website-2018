@@ -8,8 +8,8 @@ studiensemester: 2
 kategorie:
 sprache: deutsch
 kreditpunkte: 7
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Algorithmen und Programmierung 1
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Algorithmen und Programmierung 1
 published: true
 layout: modulbeschreibung
 

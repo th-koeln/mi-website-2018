@@ -8,8 +8,8 @@ studiensemester: 2
 kategorie:
 sprache: deutsch
 kreditpunkte: 10
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
 layout: modulbeschreibung
 
