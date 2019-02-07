@@ -11,7 +11,6 @@ voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen
 empfohlene-voraussetzungen: keine
 published: true
 layout: modulbeschreibung
-
 typ: pm
 ---
 
@@ -30,8 +29,7 @@ Gesamtaufwand 180 Stunden, davon
 ## Angestrebte Lernergebnisse
 
 Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Beantwortung empirischer Problem- oder Fragestellungen zu benennen, kritisch einzuordnen und für ihre konkreten Projekte (Zielsetzungen, Rahmenbedingungen, etc.) eine rational begründete Wahl eines (oder einer Kombination aus verschiedenen) methodischen Rahmen zu treffen und zu kommunizieren.
-Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und 
-kritisch zu diskutieren.
+Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und kritisch zu diskutieren.
 
 ## Inhalt
 - Forschungsdesign und -planung
