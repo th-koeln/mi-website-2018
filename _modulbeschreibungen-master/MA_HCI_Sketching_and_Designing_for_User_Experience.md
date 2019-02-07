@@ -2,13 +2,13 @@
 title: Sketching and Designing for User Experience
 modulverantwortlich: gh
 kuerzel: SUE
-studiensemester-ws: 1
+studiensemesterWs: 1
 studiensemester-ss: 2
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: keine
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: keine
 layout: modulbeschreibung
 
 typ: wpm

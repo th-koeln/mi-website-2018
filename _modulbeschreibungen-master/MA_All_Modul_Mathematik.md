@@ -2,14 +2,14 @@
 title: Spezielle Gebiete der Mathematik
 modulverantwortlich: wk, bn
 kuerzel: SGM-D
-studiensemester-ws: 1
+studiensemesterWs: 1
 studiensemester-ss: 2
 informatik-master: ws
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: keine
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung
 

@@ -8,8 +8,8 @@ studiensemester: 5
 kategorie:
 sprache: deutsch
 kreditpunkte: 10
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Algorithmen und Programmierung, Theoretische Informatik, Audiovisuelles Medienprojekt, Kommunikationstechnik und Netze, Mensch Computer Interaktion, Grundlagen des Web, Betriebssysteme und verteilte Systeme, Screendesign, abgeschlossenes Schwerpunktmodul
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Algorithmen und Programmierung, Theoretische Informatik, Audiovisuelles Medienprojekt, Kommunikationstechnik und Netze, Mensch Computer Interaktion, Grundlagen des Web, Betriebssysteme und verteilte Systeme, Screendesign, abgeschlossenes Schwerpunktmodul
 published: true
 layout: modulbeschreibung
 

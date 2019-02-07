@@ -8,8 +8,8 @@ studiensemester: 3
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, MCI
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einführung in die Medieninformatik, MCI
 published: true
 layout: modulbeschreibung
 

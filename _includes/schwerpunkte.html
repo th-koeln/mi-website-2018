@@ -43,10 +43,10 @@
 			<ul>
 	        {% for startsemester in alle_startsemester %}
 	        
-				{% assign semester_id = "studiensemester-ws" %}
+				{% assign semester_id = "studiensemesterWs" %}
 				{% assign semester_name = "Wintersemester" %}        					
 				{% if startsemester == "ss" %}
-					{% assign semester_id = "studiensemester-ss" %}
+					{% assign semester_id = "studiensemesterSs" %}
 					{% assign semester_name = "Sommersemester" %}
 				{% endif %}
 				
@@ -59,10 +59,10 @@
 		<div class="content is-tab-wrap">	        
 	        {% for startsemester in alle_startsemester %}
 	        
-				{% assign semester_id = "studiensemester-ws" %}
+				{% assign semester_id = "studiensemesterWs" %}
 				{% assign semester_name = "Wintersemester" %}        					
 				{% if startsemester == "ss" %}
-					{% assign semester_id = "studiensemester-ss" %}
+					{% assign semester_id = "studiensemesterSs" %}
 					{% assign semester_name = "Sommersemester" %}
 				{% endif %}
 			

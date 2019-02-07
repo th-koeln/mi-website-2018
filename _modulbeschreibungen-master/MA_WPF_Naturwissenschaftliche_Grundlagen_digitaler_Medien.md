@@ -2,13 +2,13 @@
 title: Naturwissenschaftliche Grundlagen Digitaler Medien
 modulverantwortlich: gh
 kuerzel: NWGDM
-studiensemester-ws: 3
+studiensemesterWs: 3
 studiensemester-ss: 2
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: Human-Computer-Interaction
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: Human-Computer-Interaction
 published: true
 layout: modulbeschreibung
 

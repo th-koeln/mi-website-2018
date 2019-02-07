@@ -8,8 +8,8 @@ studiensemester: 6
 kategorie:
 sprache: deutsch
 kreditpunkte: 3
-voraussetzungen-nach-pruefungsordnung: alle Modulprüfungen außer Bachelor Kolloquium bestanden
-empfohlene-voraussetzungen: 
+voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelor Kolloquium bestanden
+empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
 

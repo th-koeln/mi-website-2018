@@ -8,8 +8,8 @@ studiensemester: 4
 kategorie: Winter
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
 published: true
 layout: modulbeschreibung
 

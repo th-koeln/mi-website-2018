@@ -2,13 +2,13 @@
 title: Research Methods
 modulverantwortlich: gh
 kuerzel: RM
-studiensemester-ws: 2
+studiensemesterWs: 2
 studiensemester-ss: 1
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: keine
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung
 

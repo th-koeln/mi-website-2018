@@ -2,12 +2,12 @@
 title: Storytelling und Narrative Strukturen 
 modulverantwortlich: hk
 kuerzel: SNS
-studiensemester-ws: 1
+studiensemesterWs: 1
 studiensemester-ss: 2
 sprache: deutsch
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: Audiovisuelles Medienprojekt (Bachelor)
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: Audiovisuelles Medienprojekt (Bachelor)
 published: true
 layout: modulbeschreibung
 

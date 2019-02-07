@@ -2,13 +2,13 @@
 title: Qualitätssicherung und Qualitätsmanagement 
 modulverantwortlich: mw
 kuerzel: QSQM
-studiensemester-ws: 2
+studiensemesterWs: 2
 studiensemester-ss: 1
 informatik-master: ss
 sprache: deutsch, Seminar-Basisliteratur i.d.R. in englischer Sprache
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: Grundkenntnisse Softwaretechnik und Projektmanagement
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: Grundkenntnisse Softwaretechnik und Projektmanagement
 published: true
 layout: modulbeschreibung
 
