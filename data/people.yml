@@ -3,14 +3,17 @@ moe:
 
 pb:
   name: Paul Bagiu
+
 cn:
   name: Prof. Christian Noss
+  avatar: https://pbs.twimg.com/profile_images/467245358968365057/ZkBvZKrO_400x400.jpeg
   
 kf:
   name: Prof. Dr. Kristian Fischer
   
 ck:
   name: Prof. Dr. Christian Kohls
+  avatar: https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png
   
 gh:
   name: Prof. Dr. Gerhard Hartmann
@@ -24,10 +27,10 @@ mw:
 me:
   name: Prof. Dr. Martin Eisemann
   avatar: https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png
-  
+
 fv:
   name: Prof. Dr. Frank Victor
-  
+
 lk:
   name: Prof. Dr. Lutz Köhler
   

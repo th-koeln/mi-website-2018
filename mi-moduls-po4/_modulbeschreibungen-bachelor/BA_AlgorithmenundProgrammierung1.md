@@ -1,7 +1,7 @@
 ---
 title: Algorithmen und Programmierung 1
 modulverantwortlich: fv
-modulniveau:
+modulniveau: BA
 kuerzel: AP1
 untertitel:
 studiensemester: 1

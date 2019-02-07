@@ -1,7 +1,7 @@
 <div class="m-mi-modulhead">
   
   {{$verantwortlich := index .people .ele.Params.modulverantwortlich}}
-  {{ if $verantwortlich.avatar }}
+  {{ if isset $verantwortlich "avatar" }}
   
   <div class="m-mi-modulhead--mit-bild">
     {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $verantwortlich.avatar )}}
@@ -17,7 +17,7 @@
 
   <dl class="mi-dl-overview">
     <dt>Modulverantwortlich</dt>
-    <dd>{{ partial "functions/verantwortlich.html" (dict "verantwortlich" .ele.Params.modulverantwortlich "people" .Site.Data.people) }}</dd>
+    <dd>{{ $verantwortlich.name }}</dd>
   
   {{ end }}
 
