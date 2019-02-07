@@ -8,8 +8,8 @@ studiensemester: 1
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
 

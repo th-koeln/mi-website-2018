@@ -8,8 +8,8 @@ studiensemester: 3
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
-empfohlene-voraussetzungen: 
+voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
+empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
 

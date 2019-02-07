@@ -9,8 +9,8 @@ jedes-semester: true
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungen-nach-pruefungsordnung: erreichte 140 Leistungspunkte
-empfohlene-voraussetzungen: 
+voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte
+empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
 

@@ -2,13 +2,13 @@
 title: Photorealistische Bildsynthese
 modulverantwortlich: me
 kuerzel: PB
-studiensemester-ws: 3
+studiensemesterWs: 3
 studiensemester-ss: 2
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
 published: true
 layout: modulbeschreibung
 

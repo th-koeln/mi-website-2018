@@ -2,12 +2,12 @@
 title: Wahlpflichtmodul 1
 modulverantwortlich: all
 kuerzel: WPM
-studiensemester-ws: 3
+studiensemesterWs: 3
 studiensemester-ss: 3
 sprache: deutsch
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: keine
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: keine
 published: true
 zielmedium: web
 layout: modulbeschreibung

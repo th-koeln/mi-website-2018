@@ -2,13 +2,13 @@
 title: Projektarbeit - Entwicklung im Kontext des Studienschwerpunkts
 modulverantwortlich: kf, mw, hk, me, ck, gh
 kuerzel: MIMP-E
-studiensemester-ws: 2
+studiensemesterWs: 2
 studiensemester-ss: 3
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor)
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor)
 published: true
 layout: modulbeschreibung
 

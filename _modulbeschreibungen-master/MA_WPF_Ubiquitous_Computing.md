@@ -2,13 +2,13 @@
 title: Ubiquitous Computing
 modulverantwortlich: Matthias Böhmer
 kuerzel: UC
-studiensemester-ws: 3
+studiensemesterWs: 3
 studiensemester-ss: 2
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungen-nach-pruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohlene-voraussetzungen: keine
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung
 

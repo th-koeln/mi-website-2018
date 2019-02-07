@@ -8,8 +8,8 @@ studiensemester: 4
 kategorie:
 sprache: deutsch
 kreditpunkte: 20
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Grundlagen des Web, Algorithmen und Programmierung, Paradigmen der Programmierung, MCI, Screendesign, Betriebssysteme und verteilte Systeme
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen des Web, Algorithmen und Programmierung, Paradigmen der Programmierung, MCI, Screendesign, Betriebssysteme und verteilte Systeme
 published: true
 layout: modulbeschreibung
 

@@ -7,8 +7,8 @@ untertitel:
 studiensemester: 1
 kategorie:
 sprache: deutsch
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: 
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: 
 kreditpunkte: 7
 layout: modulbeschreibung
 

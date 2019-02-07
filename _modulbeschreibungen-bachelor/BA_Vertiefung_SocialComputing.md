@@ -8,8 +8,8 @@ studiensemester: 4
 kategorie:
 sprache: deutsch
 kreditpunkte: 20
-voraussetzungen-nach-pruefungsordnung: keine
-empfohlene-voraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt
 published: true
 layout: modulbeschreibung
 

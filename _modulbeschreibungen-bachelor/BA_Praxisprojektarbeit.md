@@ -8,8 +8,8 @@ studiensemester: 6
 kategorie:
 sprache: deutsch
 kreditpunkte: 10
-voraussetzungen-nach-pruefungsordnung: erreichte 140 Leistungspunkte (CP)
-empfohlene-voraussetzungen: 
+voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte (CP)
+empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
 
