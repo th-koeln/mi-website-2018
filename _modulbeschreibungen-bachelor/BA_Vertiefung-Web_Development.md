@@ -1,5 +1,5 @@
 ---
-title: Web Development 
+title: Vertiefung – Web Development 
 modulverantwortlich: kf, cn
 modulniveau:
 kuerzel: WD
