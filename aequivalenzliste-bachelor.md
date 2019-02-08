@@ -107,6 +107,11 @@ date: 2018-09-20
         <td>2310</td>
       </tr>
       <tr>
+        <td>Medienrecht, Medien & Gesellschaft (5CP)</td>
+        <td>Medieninformatik und Gesellschaft (5CP)</td>
+        <td></td>
+        </tr>
+      <tr>
         <td>Projektmanagement (5CP)</td>
         <td>Projektmanagement (5CP)</td>
         <td>3200</td>
