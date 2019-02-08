@@ -39,7 +39,7 @@ date: 2018-09-20
       <tr>
         <td>Theoretische Informatik 1 (5CP)<br>Theoretische Informatik 2 (5CP)</td>
         <td>Theoretische Informatik 1+2 (10CP)</td>
-        <td>1094<br>1096</td>
+        <td>1072<br>1074</td>
       </tr>
       <tr>
         <td>Algorithmen und Programmierung 2 (7CP)</td>
@@ -109,7 +109,7 @@ date: 2018-09-20
       <tr>
         <td>Medienrecht, Medien & Gesellschaft (5CP)</td>
         <td>Medieninformatik und Gesellschaft (5CP)</td>
-        <td></td>
+        <td>2400</td>
         </tr>
       <tr>
         <td>Projektmanagement (5CP)</td>
