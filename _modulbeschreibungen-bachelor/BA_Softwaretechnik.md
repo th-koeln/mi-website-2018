@@ -1,7 +1,7 @@
 ---
 title: Softwaretechnik
 modulverantwortlich: mw
-modulniveau: Bachelor
+modulniveau: bachelor
 kuerzel: ST1
 untertitel:
 studiensemester: 4

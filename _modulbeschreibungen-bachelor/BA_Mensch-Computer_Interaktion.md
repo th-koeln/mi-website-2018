@@ -1,7 +1,7 @@
 ---
 title: Mensch-Computer Interaktion
 modulverantwortlich: gh
-modulniveau:
+modulniveau: bachelor
 kuerzel: MCI
 untertitel:
 studiensemester: 2

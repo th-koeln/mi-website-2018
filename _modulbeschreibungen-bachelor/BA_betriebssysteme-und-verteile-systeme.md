@@ -1,7 +1,7 @@
 ---
 title: Betriebssysteme und verteilte Systeme
 modulverantwortlich: mb, lk
-modulniveau:
+modulniveau: bachelor
 kuerzel: BS1
 untertitel:
 studiensemester: 4

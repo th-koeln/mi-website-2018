@@ -1,7 +1,7 @@
 ---
 title: Praxisprojekt
 modulverantwortlich: all
-modulniveau:
+modulniveau: bachelor
 kuerzel: PP
 untertitel:
 studiensemester: 6

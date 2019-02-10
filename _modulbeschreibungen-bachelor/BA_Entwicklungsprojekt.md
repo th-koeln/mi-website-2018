@@ -1,7 +1,7 @@
 ---
 title: Entwicklungsprojekt
 modulverantwortlich: mi
-modulniveau:
+modulniveau: bachelor
 kuerzel: EPM
 untertitel:
 studiensemester: 5

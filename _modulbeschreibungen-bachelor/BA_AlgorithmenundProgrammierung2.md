@@ -1,7 +1,7 @@
 ---
 title: Algorithmen und Programmierung 2
 modulverantwortlich: ck
-modulniveau:
+modulniveau: bachelor
 kuerzel: AP2
 untertitel:
 studiensemester: 2

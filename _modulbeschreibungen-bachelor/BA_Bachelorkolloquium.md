@@ -1,7 +1,7 @@
 ---
 title: Bachelor Kolloquium
 modulverantwortlich: all
-modulniveau:
+modulniveau: bachelor
 kuerzel: BK
 untertitel:
 studiensemester: 6

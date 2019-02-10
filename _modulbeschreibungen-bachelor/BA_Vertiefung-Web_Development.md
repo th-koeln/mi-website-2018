@@ -1,7 +1,7 @@
 ---
 title: Vertiefung – Web Development 
 modulverantwortlich: kf, cn
-modulniveau:
+modulniveau: bachelor
 kuerzel: WD
 untertitel:
 studiensemester: 4

@@ -1,7 +1,7 @@
 ---
 title: Kommunikationstechnik und Netze
 modulverantwortlich: hls
-modulniveau:
+modulniveau: bachelor
 kuerzel: KTN
 untertitel:
 studiensemester: 3

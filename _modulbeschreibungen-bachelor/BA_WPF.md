@@ -1,7 +1,7 @@
 ---
 title: Wahlpflichtmodul
 modulverantwortlich: all
-modulniveau: 
+modulniveau: bachelor
 kuerzel: WPF
 untertitel: 
 studiensemester: 5
@@ -12,7 +12,6 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
-
 typ: pm
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Einführung in die Medieninformatik
 modulverantwortlich: mi
-modulniveau:
+modulniveau: bachelor
 kuerzel: EMI
 untertitel:
 studiensemester: 1

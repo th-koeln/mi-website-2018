@@ -1,7 +1,7 @@
 ---
 title: Mathematik 2
 modulverantwortlich: wk
-modulniveau:
+modulniveau: bachelor
 kuerzel: MA2
 untertitel:
 studiensemester: 2

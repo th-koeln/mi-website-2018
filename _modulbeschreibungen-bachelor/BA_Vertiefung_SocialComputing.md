@@ -1,7 +1,7 @@
 ---
 title: Vertiefung – Social Computing
 modulverantwortlich: ck
-modulniveau:
+modulniveau: bachelor
 kuerzel: SC
 untertitel:
 studiensemester: 4

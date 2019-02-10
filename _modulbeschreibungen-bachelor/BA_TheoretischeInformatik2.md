@@ -1,7 +1,7 @@
 ---
 title: Theoretische Informatik 2
 modulverantwortlich: me
-modulniveau:
+modulniveau: bachelor
 kuerzel: TI2
 untertitel:
 studiensemester: 2

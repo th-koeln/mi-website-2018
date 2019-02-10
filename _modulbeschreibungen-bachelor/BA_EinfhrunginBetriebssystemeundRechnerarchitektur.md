@@ -1,7 +1,7 @@
 ---
 title: Einführung in Betriebssysteme und Rechnerarchitektur
 modulverantwortlich: sk
-modulniveau:
+modulniveau: bachelor
 kuerzel: EBR
 untertitel:
 studiensemester: 1

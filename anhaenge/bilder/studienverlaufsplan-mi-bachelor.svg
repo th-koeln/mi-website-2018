@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="655px" viewBox="0 0 1697 1822" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-    <title>studienverlaufsplan-mi-bachelor</title>
+<svg width="1697px" height="1863px" viewBox="0 0 1697 1863" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>studienverlaufsplan-mi-bachelor@1x</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="690" height="80"></rect>
@@ -29,9 +29,10 @@
         <rect id="path-45" x="0" y="0" width="690" height="80"></rect>
         <rect id="path-47" x="0" y="0" width="690" height="80"></rect>
         <rect id="path-49" x="0" y="0" width="690" height="80"></rect>
-        <rect id="path-51" x="0" y="0" width="50" height="50"></rect>
-        <rect id="path-53" x="0" y="0" width="50" height="50"></rect>
-        <rect id="path-55" x="0" y="0" width="50" height="50"></rect>
+        <rect id="path-51" x="0" y="0" width="690" height="80"></rect>
+        <polygon id="path-53" points="0 0 50 0 50 50 0 50"></polygon>
+        <polygon id="path-55" points="0 0 50 0 50 50 0 50"></polygon>
+        <polygon id="path-57" points="0 0 50 0 50 50 0 50"></polygon>
     </defs>
     <g id="studienverlaufsplan-mi-bachelor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Semester" transform="translate(0.000000, 5.000000)">
@@ -655,13 +656,37 @@
                 <tspan x="20" y="79">.</tspan>
             </text>
         </g>
-        <g id="legende" transform="translate(304.000000, 1540.000000)">
+        <g id="block/medium" transform="translate(304.000000, 1480.000000)">
             <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
                 <mask id="mask-52" fill="white">
                     <use xlink:href="#path-51"></use>
                 </mask>
                 <use id="Mask" fill="#D8D8D8" xlink:href="#path-51"></use>
                 <g mask="url(#mask-52)" fill="#4952E1" id="Rectangle">
+                    <g transform="translate(-10.000000, -16.000000)">
+                        <rect x="0" y="0" width="710" height="112"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Stacked-Group" stroke-width="1" fill-rule="evenodd" transform="translate(20.000000, 28.000000)" fill="#FFFFFF" font-size="28">
+                <text id="Master-Thesis" font-family="MyriadPro-Semibold, Myriad Pro" font-weight="500">
+                    <tspan x="0" y="21">Theoretische Informatik 1</tspan>
+                </text>
+                <text id="3CP" font-family="MyriadPro-Light, Myriad Pro" font-weight="300">
+                    <tspan x="311" y="21">, 5 CP</tspan>
+                </text>
+            </g>
+            <text id="." font-family="MyriadPro-Light, Myriad Pro" font-size="28" font-weight="300" line-spacing="32" fill="#FFFFFF">
+                <tspan x="20" y="79">.</tspan>
+            </text>
+        </g>
+        <g id="legende" transform="translate(304.000000, 1620.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-54" fill="white">
+                    <use xlink:href="#path-53"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-53"></use>
+                <g mask="url(#mask-54)" fill="#4952E1" id="Rectangle">
                     <g transform="translate(-1.000000, -10.526316)">
                         <rect x="0" y="0" width="51" height="70"></rect>
                     </g>
@@ -671,13 +696,13 @@
                 <tspan x="62" y="26">Module für alle Informatik Bachelor Studiengänge</tspan>
             </text>
         </g>
-        <g id="legende" transform="translate(304.000000, 1600.000000)">
+        <g id="legende" transform="translate(304.000000, 1680.000000)">
             <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
-                <mask id="mask-54" fill="white">
-                    <use xlink:href="#path-53"></use>
+                <mask id="mask-56" fill="white">
+                    <use xlink:href="#path-55"></use>
                 </mask>
-                <use id="Mask" fill="#D8D8D8" xlink:href="#path-53"></use>
-                <g id="farben/pink" mask="url(#mask-54)" fill="#DD1166">
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-55"></use>
+                <g id="farben/pink" mask="url(#mask-56)" fill="#DD1166">
                     <g transform="translate(-1.000000, -10.526316)" id="Rectangle-Copy">
                         <rect x="0" y="0" width="51" height="70"></rect>
                     </g>
@@ -687,13 +712,13 @@
                 <tspan x="62" y="26">Medieninformatik-spezifische Module</tspan>
             </text>
         </g>
-        <g id="legende" transform="translate(304.000000, 1660.000000)">
+        <g id="legende" transform="translate(304.000000, 1740.000000)">
             <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
-                <mask id="mask-56" fill="white">
-                    <use xlink:href="#path-55"></use>
+                <mask id="mask-58" fill="white">
+                    <use xlink:href="#path-57"></use>
                 </mask>
-                <use id="Mask" fill="#D8D8D8" xlink:href="#path-55"></use>
-                <g id="farben/schwarz" mask="url(#mask-56)" fill="#231F20">
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-57"></use>
+                <g id="farben/schwarz" mask="url(#mask-58)" fill="#231F20">
                     <g transform="translate(-1.000000, -10.526316)" id="Rectangle-Copy-4">
                         <rect x="0" y="0" width="51" height="70"></rect>
                     </g>

@@ -1,7 +1,7 @@
 ---
 title: Vertiefung – Visual Computing
 modulverantwortlich: hk, me
-modulniveau:
+modulniveau: bachelor
 kuerzel: VC
 untertitel:
 studiensemester: 4

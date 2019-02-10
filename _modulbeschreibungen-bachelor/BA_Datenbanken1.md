@@ -1,7 +1,7 @@
 ---
 title: Datenbanken 1
 modulverantwortlich: bb, hfw
-modulniveau:
+modulniveau: bachelor
 kuerzel: DB1
 untertitel:
 studiensemester: 3

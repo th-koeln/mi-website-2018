@@ -1,7 +1,7 @@
 ---
 title: Grundlagen des Web
 modulverantwortlich: kf
-modulniveau:
+modulniveau: bachelor
 kuerzel: GW
 untertitel:
 studiensemester: 3

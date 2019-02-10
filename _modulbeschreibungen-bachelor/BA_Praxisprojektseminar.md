@@ -1,7 +1,7 @@
 ---
 title: Praxisprojektseminar
 modulverantwortlich: cn
-modulniveau:
+modulniveau: bachelor
 kuerzel: PPS
 untertitel:
 studiensemester: 6

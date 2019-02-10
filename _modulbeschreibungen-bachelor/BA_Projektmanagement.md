@@ -1,7 +1,7 @@
 ---
 title: Projektmanagement
 modulverantwortlich: hg, mw
-modulniveau: Bachelor
+modulniveau: bachelor
 kuerzel: PM
 untertitel:
 studiensemester: 5

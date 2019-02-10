@@ -1,7 +1,7 @@
 ---
 title: BWL I - Grundlagen
 modulverantwortlich: moe
-modulniveau:
+modulniveau: bachelor
 kuerzel: BWL1
 untertitel:
 studiensemester: 5

@@ -1,7 +1,7 @@
 ---
 title: Audiovisuelles Medienprojekt
 modulverantwortlich: hk
-modulniveau: BA
+modulniveau: bachelor
 kuerzel: AVM
 untertitel: null
 studiensemester: 3

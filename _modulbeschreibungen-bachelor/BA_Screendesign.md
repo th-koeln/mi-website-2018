@@ -1,7 +1,7 @@
 ---
 title: Screendesign
 modulverantwortlich: cn
-modulniveau:
+modulniveau: bachelor
 kuerzel: SD
 untertitel:
 studiensemester: 3

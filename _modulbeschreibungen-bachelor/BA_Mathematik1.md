@@ -1,7 +1,7 @@
 ---
 title: Mathematik 1
 modulverantwortlich: wk
-modulniveau:
+modulniveau: bachelor
 kuerzel: MA1
 untertitel:
 studiensemester: 1
