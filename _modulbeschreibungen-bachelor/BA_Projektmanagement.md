@@ -1,7 +1,7 @@
 ---
 title: Projektmanagement
 modulverantwortlich: hg, mw
-modulniveau: Bachelor
+modulniveau: bachelor
 kuerzel: PM
 untertitel:
 studiensemester: 5
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Es werden keine über die allgemeinen Zulassungsvoraussetzungen hinausgehende fachlichen Voraussetzungen gefordert, jedoch sollten Engagement, Motivation, Toleranz, Bereitschaft zur Teamarbeit mitgebracht werden.
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

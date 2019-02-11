@@ -1,7 +1,7 @@
 ---
 title: Datenbanken 1
 modulverantwortlich: bb, hfw
-modulniveau:
+modulniveau: bachelor
 kuerzel: DB1
 untertitel:
 studiensemester: 3
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

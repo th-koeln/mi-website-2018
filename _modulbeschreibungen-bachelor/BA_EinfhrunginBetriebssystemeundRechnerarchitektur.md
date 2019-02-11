@@ -1,7 +1,7 @@
 ---
 title: Einführung in Betriebssysteme und Rechnerarchitektur
 modulverantwortlich: sk
-modulniveau:
+modulniveau: bachelor
 kuerzel: EBR
 untertitel:
 studiensemester: 1
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

@@ -1,7 +1,7 @@
 ---
 title: Betriebssysteme und verteilte Systeme
 modulverantwortlich: mb, lk
-modulniveau:
+modulniveau: bachelor
 kuerzel: BS1
 untertitel:
 studiensemester: 4
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
 published: true
+ilias: 
 layout: modulbeschreibung
 
 typ: pm

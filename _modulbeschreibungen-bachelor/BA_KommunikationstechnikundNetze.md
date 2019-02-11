@@ -1,7 +1,7 @@
 ---
 title: Kommunikationstechnik und Netze
 modulverantwortlich: hls
-modulniveau:
+modulniveau: bachelor
 kuerzel: KTN
 untertitel:
 studiensemester: 3
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

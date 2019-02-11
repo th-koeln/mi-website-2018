@@ -1,7 +1,7 @@
 ---
 title: Mathematik 1
 modulverantwortlich: wk
-modulniveau:
+modulniveau: bachelor
 kuerzel: MA1
 untertitel:
 studiensemester: 1
@@ -10,6 +10,7 @@ sprache: deutsch
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 kreditpunkte: 7
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

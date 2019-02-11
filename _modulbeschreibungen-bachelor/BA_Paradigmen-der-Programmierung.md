@@ -1,7 +1,7 @@
 ---
 title: Paradigmen der Programmierung
 modulverantwortlich: ck
-modulniveau:
+modulniveau: bachelor
 kuerzel: PP
 untertitel:
 studiensemester: 3
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung I, Algorithmen und Programmierung II
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

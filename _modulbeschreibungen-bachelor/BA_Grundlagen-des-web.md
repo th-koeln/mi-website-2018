@@ -1,7 +1,7 @@
 ---
 title: Grundlagen des Web
 modulverantwortlich: kf
-modulniveau:
+modulniveau: bachelor
 kuerzel: GW
 untertitel:
 studiensemester: 3
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

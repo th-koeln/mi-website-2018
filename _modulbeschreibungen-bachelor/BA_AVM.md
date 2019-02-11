@@ -1,7 +1,7 @@
 ---
 title: Audiovisuelles Medienprojekt
 modulverantwortlich: hk
-modulniveau: BA
+modulniveau: bachelor
 kuerzel: AVM
 untertitel: null
 studiensemester: 3
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

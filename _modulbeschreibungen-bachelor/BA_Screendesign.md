@@ -1,7 +1,7 @@
 ---
 title: Screendesign
 modulverantwortlich: cn
-modulniveau:
+modulniveau: bachelor
 kuerzel: SD
 untertitel:
 studiensemester: 3
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, MCI
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

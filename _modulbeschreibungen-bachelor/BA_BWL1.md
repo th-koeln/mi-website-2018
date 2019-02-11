@@ -1,7 +1,7 @@
 ---
 title: BWL I - Grundlagen
 modulverantwortlich: moe
-modulniveau:
+modulniveau: bachelor
 kuerzel: BWL1
 untertitel:
 studiensemester: 5
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

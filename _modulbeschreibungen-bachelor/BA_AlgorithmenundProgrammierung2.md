@@ -1,7 +1,7 @@
 ---
 title: Algorithmen und Programmierung 2
 modulverantwortlich: ck
-modulniveau: BA
+modulniveau: bachelor
 kuerzel: AP2
 untertitel:
 studiensemester: 2
@@ -11,6 +11,7 @@ kreditpunkte: 7
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

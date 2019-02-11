@@ -1,7 +1,7 @@
 ---
 title: Softwaretechnik
 modulverantwortlich: mw
-modulniveau: Bachelor
+modulniveau: bachelor
 kuerzel: ST1
 untertitel:
 studiensemester: 4
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm
