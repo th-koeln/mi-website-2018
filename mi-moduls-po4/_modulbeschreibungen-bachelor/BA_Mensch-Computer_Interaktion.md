@@ -1,7 +1,7 @@
 ---
 title: Mensch-Computer Interaktion
 modulverantwortlich: gh
-modulniveau:
+modulniveau: bachelor
 kuerzel: MCI
 untertitel:
 studiensemester: 2
@@ -11,6 +11,7 @@ kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

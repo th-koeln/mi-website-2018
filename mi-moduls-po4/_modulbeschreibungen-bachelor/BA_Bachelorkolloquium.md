@@ -1,7 +1,7 @@
 ---
 title: Bachelor Kolloquium
 modulverantwortlich: all
-modulniveau: BA
+modulniveau: bachelor
 kuerzel: BK
 untertitel:
 studiensemester: 6
@@ -10,6 +10,7 @@ sprache: deutsch
 kreditpunkte: 3
 voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelor Kolloquium bestanden
 empfohleneVoraussetzungen: 
+infourl: 
 published: true
 layout: modulbeschreibung
 

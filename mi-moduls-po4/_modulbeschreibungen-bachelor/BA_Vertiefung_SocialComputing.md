@@ -1,7 +1,7 @@
 ---
 title: Vertiefung – Social Computing
 modulverantwortlich: ck
-modulniveau:
+modulniveau: bachelor
 kuerzel: SC
 untertitel:
 studiensemester: 4
@@ -11,6 +11,7 @@ kreditpunkte: 20
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: vpm

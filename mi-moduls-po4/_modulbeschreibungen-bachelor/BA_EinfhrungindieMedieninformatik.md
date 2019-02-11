@@ -1,7 +1,7 @@
 ---
 title: Einführung in die Medieninformatik
 modulverantwortlich: mi
-modulniveau:
+modulniveau: bachelor
 kuerzel: EMI
 untertitel:
 studiensemester: 1
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

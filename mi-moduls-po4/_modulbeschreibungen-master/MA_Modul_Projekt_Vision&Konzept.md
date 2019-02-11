@@ -10,6 +10,7 @@ kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Einführung in die Medieninformatik (Bachelor), Mensch-Computer Interaktion (Bachelor)
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: spp

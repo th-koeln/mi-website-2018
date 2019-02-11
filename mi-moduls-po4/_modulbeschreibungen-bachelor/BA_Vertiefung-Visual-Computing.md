@@ -1,7 +1,7 @@
 ---
 title: Vertiefung – Visual Computing
 modulverantwortlich: hk, me
-modulniveau:
+modulniveau: bachelor
 kuerzel: VC
 untertitel:
 studiensemester: 4
@@ -12,6 +12,7 @@ kreditpunkte: 20
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: vpm

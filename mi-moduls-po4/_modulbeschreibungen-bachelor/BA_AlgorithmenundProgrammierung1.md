@@ -1,7 +1,7 @@
 ---
 title: Algorithmen und Programmierung 1
 modulverantwortlich: fv
-modulniveau: BA
+modulniveau: bachelor
 kuerzel: AP1
 untertitel:
 studiensemester: 1
@@ -11,6 +11,7 @@ kreditpunkte: 8
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

@@ -1,7 +1,7 @@
 ---
 title: Praxisprojektseminar
 modulverantwortlich: cn
-modulniveau:
+modulniveau: bachelor
 kuerzel: PPS
 untertitel:
 studiensemester: 6
@@ -12,6 +12,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

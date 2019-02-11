@@ -1,7 +1,7 @@
 ---
 title: Medienrecht, Medien & Gesellschaft
 modulverantwortlich: mw
-modulniveau:
+modulniveau: bachelor
 kuerzel: IRG
 untertitel:
 studiensemester: 5
@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen der BWL
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

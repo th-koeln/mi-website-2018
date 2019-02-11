@@ -9,6 +9,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
+infourl: 
 zielmedium: web
 layout: modulbeschreibung
 

@@ -1,7 +1,7 @@
 ---
 title: Vertiefung – Web Development 
 modulverantwortlich: kf, cn
-modulniveau:
+modulniveau: bachelor
 kuerzel: WD
 untertitel:
 studiensemester: 4
@@ -11,6 +11,7 @@ kreditpunkte: 20
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen des Web, Algorithmen und Programmierung, Paradigmen der Programmierung, MCI, Screendesign, Betriebssysteme und verteilte Systeme
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: vpm

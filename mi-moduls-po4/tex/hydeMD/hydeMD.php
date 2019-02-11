@@ -249,16 +249,16 @@ class Document {
       switch( $this->getSimpleDocumentName() ) {
 
         case 'modulbeschreibungen-bachelor':
-          if( isset( $page->infos[ 'type' ] ) &&
-              $page->infos[ 'type' ] === 'tm' ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+              $page->infos[ 'typ' ] === 'tm' ) {
 
             unset( $this->files[ $path ] );
           }
           break;
 
         case 'modulbeschreibungen-master':
-          if( isset( $page->infos[ 'type' ] ) &&
-              $page->infos[ 'type' ] === 'spmw' ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+              $page->infos[ 'typ' ] === 'spmw' ) {
 
             unset( $this->files[ $path ] );
           }
@@ -468,16 +468,16 @@ class Document {
           /* Insert metadata table */
 
           /* No metadata table for "Schwerpunkte" */
-          if( isset( $page->infos[ 'type' ] ) &&
-            $page->infos[ 'type' ] === 'sp'    ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+            $page->infos[ 'typ' ] === 'sp'    ) {
             $page->content = preg_replace("=\n# =", "\n# Schwerpunkt: ", $page->content);
 
             break;
           }
 
           /* No metadata table for "intros" */
-          if( isset( $page->infos[ 'type' ] ) &&
-            $page->infos[ 'type' ] === 'intro'    ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+            $page->infos[ 'typ' ] === 'intro'    ) {
 
             break;
           }
@@ -505,7 +505,7 @@ class Document {
             'kreditpunkte'                          => 'Kreditpunkte',
             'voraussetzungen-nach-pruefungsordnung' => 'Voraussetzungen nach Prüfungsordnung',
             'empfohlene-voraussetzungen'            => 'Empfohlene Voraussetzungen',
-            'type'                                  => 'Typ',
+            'typ'                                  => 'Typ',
             'schwerpunkt'                           => 'Schwerpunkt'
           );
 
@@ -565,8 +565,8 @@ class Document {
           $tableData[ 'modulverantwortlich' ][ 'value' ] = implode( ', ', $modulverantwortlich );
 
           /* Module type shorthand symbol mapping */
-          if( isset( $typeMap[ $tableData[ 'type' ][ 'value' ] ] ) ) {
-            $tableData[ 'type' ][ 'value' ] = $typeMap[ $tableData[ 'type' ][ 'value' ] ];
+          if( isset( $typeMap[ $tableData[ 'typ' ][ 'value' ] ] ) ) {
+            $tableData[ 'typ' ][ 'value' ] = $typeMap[ $tableData[ 'typ' ][ 'value' ] ];
           }
 
           $tableMarkdown = "\n";
@@ -659,8 +659,8 @@ class Document {
 
         $introFiles = array();
         foreach( $this->files as $path => $page ) {
-          if( isset( $page->infos[ 'type' ] ) &&
-              $page->infos[ 'type' ] === 'intro'    ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+              $page->infos[ 'typ' ] === 'intro'    ) {
             $introFiles[ $path ] = $page;
             unset( $this->files[ $path ] );
           }
@@ -672,8 +672,8 @@ class Document {
 
         $introFiles = array();
         foreach( $this->files as $path => $page ) {
-          if( isset( $page->infos[ 'type' ] ) &&
-              $page->infos[ 'type' ] === 'intro'    ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+              $page->infos[ 'typ' ] === 'intro'    ) {
             $introFiles[ $path ] = $page;
             unset( $this->files[ $path ] );
           }
@@ -681,8 +681,8 @@ class Document {
 
         $scherpunkteFiles = array();
         foreach( $this->files as $path => $page ) {
-          if( isset( $page->infos[ 'type' ] ) &&
-              $page->infos[ 'type' ] === 'sp'    ) {
+          if( isset( $page->infos[ 'typ' ] ) &&
+              $page->infos[ 'typ' ] === 'sp'    ) {
             $scherpunkteFiles[ $path ] = $page;
             unset( $this->files[ $path ] );
           }

@@ -1,7 +1,7 @@
 ---
 title: Mathematik 2
 modulverantwortlich: wk
-modulniveau:
+modulniveau: bachelor
 kuerzel: MA2
 untertitel:
 studiensemester: 2
@@ -11,6 +11,7 @@ kreditpunkte: 8
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Mathematik I
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm
