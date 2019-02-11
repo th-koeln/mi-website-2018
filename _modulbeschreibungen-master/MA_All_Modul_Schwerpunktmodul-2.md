@@ -3,7 +3,7 @@ title: Schwerpunktmodul 2
 modulverantwortlich: all
 kuerzel: SPM2
 studiensemesterWs: 1
-studiensemester-ss: 2
+studiensemesterSs: 2
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6

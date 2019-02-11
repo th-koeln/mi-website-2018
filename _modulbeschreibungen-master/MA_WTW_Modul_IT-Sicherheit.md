@@ -3,7 +3,7 @@ title: Sicherheit, Privatsphäre und Vertrauen
 modulverantwortlich: sk
 kuerzel: ITS
 studiensemesterWs: 1
-studiensemester-ss: 2
+studiensemesterSs: 2
 informatik-master: ws
 sprache: deutsch
 kreditpunkte: 6

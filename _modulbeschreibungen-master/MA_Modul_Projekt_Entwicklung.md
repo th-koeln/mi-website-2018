@@ -3,7 +3,7 @@ title: Projektarbeit - Entwicklung im Kontext des Studienschwerpunkts
 modulverantwortlich: kf, mw, hk, me, ck, gh
 kuerzel: MIMP-E
 studiensemesterWs: 2
-studiensemester-ss: 3
+studiensemesterSs: 3
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12

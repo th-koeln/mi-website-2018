@@ -3,7 +3,7 @@ title: Photorealistische Bildsynthese
 modulverantwortlich: me
 kuerzel: PB
 studiensemesterWs: 3
-studiensemester-ss: 2
+studiensemesterSs: 2
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

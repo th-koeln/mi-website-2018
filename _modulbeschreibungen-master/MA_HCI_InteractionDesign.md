@@ -3,7 +3,7 @@ title: Interaction Design
 modulverantwortlich: gh
 kuerzel: ID
 studiensemesterWs: 1
-studiensemester-ss: 2
+studiensemesterSs: 2
 informatik-master: ws
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master, Software-Engineering Master

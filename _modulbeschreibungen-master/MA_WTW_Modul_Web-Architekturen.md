@@ -3,7 +3,7 @@ title: Web Architekturen
 modulverantwortlich: kf
 kuerzel: WTW-WBA
 studiensemesterWs: 1
-studiensemester-ss: 2
+studiensemesterSs: 2
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6

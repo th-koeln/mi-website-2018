@@ -3,7 +3,7 @@ title: Research Methods
 modulverantwortlich: gh
 kuerzel: RM
 studiensemesterWs: 2
-studiensemester-ss: 1
+studiensemesterSs: 1
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

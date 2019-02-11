@@ -3,7 +3,7 @@ title: Logik und semantische Modellierung
 modulverantwortlich: kf
 kuerzel: WTW-LSM
 studiensemesterWs: 2
-studiensemester-ss: 3
+studiensemesterSs: 3
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
