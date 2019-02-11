@@ -1,7 +1,10 @@
 # cn: ja, haessliche Struktur, aber leider ist der doofe Hugo mit einer schönen Struktur nicht klar gekommen, der Penner!
 moe:
+    id: moe
     name: 'Prof. Dr. Monika Engelen'
+    avatar: 'https://www.th-koeln.de/pseimg/c25b6f6f6f2f2f69e98dd361b2bb08880918e163.png'
 pb:
+    id: pb
     name: 'Paul Bagiu'
 cn:
     id: cn
@@ -21,9 +24,11 @@ gh:
 hk:
     id: hk
     name: 'Prof. Hans Kornacher'
+    avatar: 'https://www.th-koeln.de/pseimg/5c8fc301d0dd483a146b14086113bdf0faaa406d.png'
 mw:
     id: mw
     name: 'Prof. Dr. Mario Winter'
+    avatar: 'https://www.th-koeln.de/pseimg/c5bff77954375a20b019ae362b6e253fb6a5c153.png'
 me:
     id: me
     name: 'Prof. Dr. Martin Eisemann'
@@ -31,21 +36,25 @@ me:
 fv:
     id: fv
     name: 'Prof. Dr. Frank Victor'
+    avatar: 'https://www.th-koeln.de/pseimg/c63ff50c1c9ccabe4fff15dfcd575add217a43e7.png'
 lk:
     id: lk
     name: 'Prof. Dr. Lutz Köhler'
 mb:
     id: mb
     name: 'Prof. Dr. Matthias Böhmer'
+    avatar: 'https://www.th-koeln.de/pseimg/52a2eb43cc2e446704c03256088f979dc8ec2af0.png'
 ab:
     id: ab
     name: 'Prof. Dr. Arno Bitzer'
 bb:
     id: bb
     name: 'Prof. Dr. Birgit Bertelsmeier'
+    avatar: 'https://www.th-koeln.de/pseimg/1e549b4b56593dc6b98c6013b9b44d15e91e607a.png'
 hfw:
     id: hfw
     name: 'Prof. Dr. Heide Faeskorn-Woyke'
+    avatar: 'https://www.th-koeln.de/pseimg/5fadb9d1d40150b3c0b12cda210d334865affb1b.png'
 sk:
     id: sk
     name: 'Prof. Dr. Stefan Karsch'
@@ -56,12 +65,14 @@ hls:
 wk:
     id: wk
     name: 'Prof. Dr. Wolfgang Konen'
+    avatar: 'https://www.th-koeln.de/pseimg/0f3bbf6cf67d2e0b898a6f520e0927e5c564526d.png'
 hg:
     id: hg
     name: 'Prof. Dr. Holger Günther'
 db:
     id: db
     name: 'Dipl.-Inform. (FH) Dennis Buderus'
+    avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
 bn:
     name: 'Prof. Dr. Boris Naujoks'
 mi:

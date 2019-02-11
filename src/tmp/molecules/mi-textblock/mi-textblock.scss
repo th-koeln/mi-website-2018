@@ -1,12 +1,9 @@
 .m-mi-textblock{
-    
     h1{
 	    margin-bottom: $bfs-xl;
     }
 
-    &.is-small{
-      font-size: $bfs-s;
-
-
+    p + figure{
+      padding-top: $bfs-xl;
     }
 }

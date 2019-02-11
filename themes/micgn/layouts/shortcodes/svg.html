@@ -1,0 +1,4 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+<figure class="mi-svg">
+<img style="width: 100%; height: auto;" src="{{$original.Permalink}}">
+</figure>

@@ -13,3 +13,19 @@ Website der Medieninformatik Studiengänge am Campus Gummersbach.
 {{< imgproc sunset Resize "300x" />}}
 
 https://google.github.io/material-design-icons/
+
+
+{{ with .Site.GetPage "/blog" }}
+{{ with .GetPage "my-post.md" }}{{ .Title }}{{ end }}
+{{ end }}
+
+
++++
+series: golang
++++
+{{ range where .Site.Pages "Params.series" "golang" }}
+   {{ .Content }}
+{{ end }}
+
+
+{{ $teaser := string .Params.teaser_image }}

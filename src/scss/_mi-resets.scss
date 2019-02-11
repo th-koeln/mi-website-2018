@@ -13,6 +13,10 @@
   border-bottom: solid 1px $mi-blau;
   margin-bottom: $bfs-xs !important;
   padding-bottom: $bfs-xs;
+
+  &:last-child{
+    border-bottom: none;
+  }
 }
 
 .accordion-title{

@@ -5,3 +5,9 @@
   border-bottom: solid 1px $mi-gruen;
   margin-bottom: $bfs-xl;
 }
+
+.is-vertically-centered {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }

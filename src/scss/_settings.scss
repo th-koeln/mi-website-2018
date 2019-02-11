@@ -101,7 +101,7 @@ $print-transparent-backgrounds: true;
 // --------------
 $breakpoints: (small: 0, medium: 640px, large: 1024px, xlarge: 1200px, xxlarge: 1440px, );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large xlarge);
+$breakpoint-classes: (small medium large xlarge xxlarge);
 // 3. The Grid
 // -----------
 $grid-row-width: $global-width;
@@ -191,7 +191,7 @@ $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
 $accordion-content-background: $white;
-$accordion-content-border: 1px solid $light-gray;
+$accordion-content-border: none;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
 // 8. Accordion Menu
@@ -233,7 +233,7 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // 11. Button
 // ----------
 $button-font-family: inherit;
-$button-padding: 0.85em 1em;
+$button-padding: 0.6em 0.9em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -652,7 +652,7 @@ $topbar-unstack-breakpoint: medium;
 $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
-$grid-margin-gutters: (small: 20px, medium: 30px);
+$grid-margin-gutters: (small: 0.5em, medium: 1em);
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;

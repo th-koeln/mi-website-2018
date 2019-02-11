@@ -13,10 +13,12 @@
     <div class="cell large-6">
         <article class="m-mi-content-wrap">
             {{ $section := . }}
-            {{ $teaser := .Resources.Match "teaser*" }}
+            {{ $teaser := .Resources.Match "teaser*jpg" }}
+            {{ if $teaser }}
             {{ $image := index ($teaser) 0 }}
-            {{ $thumb := $image.Fill "800x400 q100 Linear" }}
+            {{ $thumb := $image.Fill "800x400 q90 Linear" }}
             {{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info" $section.Summary "url" $section.URL "linktext" "mehr lesen") }}
+            {{ end }}
         </article>
     </div>
     {{ end }}

@@ -10,55 +10,30 @@ exports.purge = purge;
 exports.renderSassFiles = renderSassFiles;
 
 var _gulp = require('gulp');
-
 var _gulp2 = _interopRequireDefault(_gulp);
-
 var _gulpSass = require('gulp-sass');
-
 var _gulpSass2 = _interopRequireDefault(_gulpSass);
-
 var _gulpPostcss = require('gulp-postcss');
-
 var _gulpPostcss2 = _interopRequireDefault(_gulpPostcss);
-
 var _autoprefixer = require('autoprefixer');
-
 var _autoprefixer2 = _interopRequireDefault(_autoprefixer);
-
 var _gulpHash = require('gulp-hash');
-
 var _gulpHash2 = _interopRequireDefault(_gulpHash);
-
 var _gulpConcat = require('gulp-concat');
-
 var _gulpConcat2 = _interopRequireDefault(_gulpConcat);
-
 var _gulpPurgecss = require('gulp-purgecss');
-
 var _gulpPurgecss2 = _interopRequireDefault(_gulpPurgecss);
-
 var _gulpSourcemaps = require('gulp-sourcemaps');
-
 var _gulpSourcemaps2 = _interopRequireDefault(_gulpSourcemaps);
-
 var _gulpNotify = require('gulp-notify');
-
 var _gulpNotify2 = _interopRequireDefault(_gulpNotify);
-
 var _gulpPlumber = require('gulp-plumber');
-
 var _gulpPlumber2 = _interopRequireDefault(_gulpPlumber);
-
 var _postcssPresetEnv = require('postcss-preset-env');
-
 var _postcssPresetEnv2 = _interopRequireDefault(_postcssPresetEnv);
-
 var _vinylPaths = require('vinyl-paths');
-
 var _vinylPaths2 = _interopRequireDefault(_vinylPaths);
-
 var _del = require('del');
-
 var _del2 = _interopRequireDefault(_del);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

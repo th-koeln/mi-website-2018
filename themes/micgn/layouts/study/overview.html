@@ -3,7 +3,7 @@
 {{ $params := . }}
 
 <div class="grid-x grid-margin-x grid-padding-y">
-  <div class="cell medium-12 large-10 xlarge-8 has-seperator">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
     {{ $section := . }}
     {{ $teaser := .Resources.Match "teaser*" }}
     {{ $image := index ($teaser) 0 }}
@@ -13,57 +13,55 @@
   </div>
 </div>
 
+{{ range $additionalcontent := .Params.additionalcontent }}
 {{ $scratch := newScratch }}
-{{ $scratch.Set "dir" "study/" }}
-{{ $scratch.Add "dir" .Params.id }}
-{{ $scratch.Add "dir" "/moduls/" }}
-{{ $moduldir := $scratch.Get "dir" }}
-{{ $semester :=  split .Params.semester "," }}
+{{ $scratch.Set "additionalcontentPath" "/"}}
+{{ $scratch.Add "additionalcontentPath" $.Dir }}
+{{ $scratch.Add "additionalcontentPath" $additionalcontent }}
+{{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
 
-{{ $scratch := newScratch }}
-{{ $scratch.Set "key" ".Params." }}
-{{ $scratch.Add "key" .Params.selectKey }}
-{{ $scratch.Get "key"}}
-
-<div class="grid-x grid-margin-x">
-  
-  <div class="cell">
-    <h3>Module</h3>
-  </div>
-  <div class="cell medium-4 large-4 xlarge-3 ">
-      <article class="m-mi-content-wrap">
-        <div class="m-mi-textblock is-small">
-          <p>Wie alle anderen Studiengänge im Bachelor-Master-System besteht auch der Medieninformatik Bachelor aus Modulen. Sie sind die zentrale Organisationseinheit des Studiengangs. Module bestehen aus verschiedenen Elementen wie Vorlesungen, Seminaren, Praktika und Workshops. Sie fassen die Elemente zu einem übergeordneten Thema zusammen und schließen mit einer Modulprüfung oder mehreren Teilprüfungen ab.</p>
-              
-          </div>
-      </article>
-  </div>
-  
-  <div class="cell medium-8 large-6 xlarge-5 ">
-    <ul class="accordion" data-accordion data-multi-expand="true">
-
-      {{ range $i := $semester }}
-      {{ $i := int $i }}
-      {{ $key := $scratch.Get "key" }}
-
-      {{ $key }}
-      {{ $moduldir }}
-      <li class="accordion-item" data-accordion-item>
-        <a href="#" class="accordion-title">{{$i}}. Fachsemester</a>
-        <div class="accordion-content" data-tab-content>
-          <ul class="mi-linkliste">
-            {{ range $modul := (where $.Site.Pages "Dir" "==" $moduldir)}}
-            {{$modul.Params}}
-            <li><a href="{{$modul.URL}}">{{$modul.Title}}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </li>
-      {{ end }}
-
-    </ul>
+<div class="grid-x grid-margin-x grid-padding-y">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
+    {{ with $.Site.GetPage $additionalcontentPath }}
+    {{ .Render .Params.view }}
+    {{end}}
   </div>
 </div>
+{{ end }}
 
+<div class="grid-x grid-margin-x grid-padding-y">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }}'>
+   
+    <div class="grid-x grid-margin-x">
+      <div class="cell medium-6">
+        <h2 class="h4">Weiterführende Informationen</h2>
+        {{ with .GetPage "weiterfuehrende-links" }}
+        {{ $params := . }}
+        {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "is-small") }}
+        {{ end }}
+      </div>
+      <div class="cell medium-6">
+        
+        <div class="grid-x grid-margin-x">
+          {{ with .GetPage "studiengangsleiter" }}
+          <div class="cell shrink">
+            {{ $teaser := .Resources.Match "teaser*" }}
+            {{ $image := index ($teaser) 0 }}
+            {{ $avatar := $image.Fill "300x300 q90 Linear" }}
+            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar.RelPermalink) }}
+          </div>
+          <div class="cell auto">
+            <h2 class="h4">Fragen?</h2>
+            <p class="is-small">
+            Bei Fragen zum Studiengang wenden Sie sich bitte an den <a href="{{.Params.personenseite}}">Studiengangsleiter {{.Params.name}}</a>.
+            </p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+   
+  </div>
+</div>
 
 {{ end }}
