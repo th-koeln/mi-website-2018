@@ -10,6 +10,7 @@ sprache: deutsch
 kreditpunkte: 3
 voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelor Kolloquium bestanden
 empfohleneVoraussetzungen: 
+infourl: 
 published: true
 layout: modulbeschreibung
 

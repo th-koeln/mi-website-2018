@@ -11,6 +11,7 @@ kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung, Theoretische Informatik, Audiovisuelles Medienprojekt, Kommunikationstechnik und Netze, Mensch Computer Interaktion, Grundlagen des Web, Betriebssysteme und verteilte Systeme, Screendesign, abgeschlossenes Schwerpunktmodul
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

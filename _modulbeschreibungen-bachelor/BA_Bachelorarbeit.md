@@ -11,6 +11,7 @@ kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelorarbeit und Kolloquium bestanden
 empfohleneVoraussetzungen: 
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

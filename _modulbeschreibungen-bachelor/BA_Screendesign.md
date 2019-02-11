@@ -11,6 +11,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, MCI
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

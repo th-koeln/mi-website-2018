@@ -10,6 +10,7 @@ sprache: deutsch
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 kreditpunkte: 7
+infourl: 
 layout: modulbeschreibung
 
 typ: pm

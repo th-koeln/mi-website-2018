@@ -11,6 +11,7 @@ kreditpunkte: 8
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Mathematik I
 published: true
+infourl: 
 layout: modulbeschreibung
 
 typ: pm
