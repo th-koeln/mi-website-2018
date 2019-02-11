@@ -4,7 +4,7 @@ title: "Studienverlaufsplan"
 view: "views/content-12-12"
 ---
 
-Der Studienverlaufsplan zeigt den Aufbau des Studiums, sprich: welches Modul kommt wann und wie bauen die einzelnen Elemente aufeinander auf. Der Studienverlaufsplan ist als Konzept und Empfehlung zu verstehen. Er zeigt auch welche Module im Sommer- und welche im Wintersemester angeboten werden. Alle Module der ungeraden Fachsemester werden im Wintersemester abgeboten, alle anderen im Sommersemester.
+Der Studienverlaufsplan zeigt den Aufbau des Studiums, sprich: welches Modul kommt wann und wie bauen die einzelnen Elemente aufeinander auf. Der Studienverlaufsplan ist als Konzept und Empfehlung zu verstehen. Er zeigt auch welche Module im Sommer- und welche im Wintersemester angeboten werden. Alle Module der ungeraden Fachsemester werden im Wintersemester abgeboten, alle anderen im Sommersemester. Die Bewerbung ist nur zum Wintersemester möglich.
 
 <!--more-->
 

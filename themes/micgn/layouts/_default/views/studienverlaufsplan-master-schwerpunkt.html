@@ -1,0 +1,160 @@
+{{ $schwerpunkt := .Params.schwerpunktkuerzel }}
+{{ $alle_fachsemester := slice 1 2 3 4 }}
+{{ $alle_startsemester := slice "ws" "ss" }}
+{{ $people := .Site.Data.people }}
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "dir" .Parent.Dir }}
+{{ $moduldir := $scratch.Get "dir" }}
+
+{{ $module := where (where $.Site.Pages "Dir" "==" .Params.modulDir) "Params.zielmedium" "!=" "print"}}
+{{ $schwerpunkte := where $module "Params.typ" "sp" }}
+{{ $pflichtmodule := where $module "Params.typ" "pm" }}
+{{ $teilmodule := where $module "Params.typ" "tm" }}
+{{ $wahlpflichtmodule := where $module "Params.typ" "wpm" }}
+{{ $schwerpunktmodule := where $module "Params.typ" "spm" }}
+{{ $schwerpunktmodulwraps := where $module "Params.typ" "spmw" }}
+{{ $schwerpunktprojekte := where $module "Params.typ" "schwerpunktprojekte" }}
+
+{{ $scratch.Set "schwerpunktprojekte" $schwerpunktprojekte }}
+{{ range $schwerpunktprojekt := $schwerpunktprojekte }}
+{{ $scratch.Add "schwerpunktprojekte" $schwerpunktprojekt }}
+{{ end }}
+{{ $schwerpunktprojekte := $scratch.Get "schwerpunktprojekte" }}
+
+{{ $scratch.Set "pflichtmodule" $pflichtmodule }}
+{{ range $schwerpunktmodulwrap := $schwerpunktmodulwraps }}
+{{ $scratch.Add "pflichtmodule" $schwerpunktmodulwrap }}
+{{ end }}
+{{ $pflichtmodule := $scratch.Get "pflichtmodule" }}
+
+<h2>{{.Title}} {{.Parent.Title}}</h2>
+{{.Content}}
+
+
+<div class="mi-studienverlaufsplan-master">
+  <ul class="tabs" data-tabs id="startsemester">
+    {{ $scratch.Set "semester_id" "studiensemesterws" }}
+    {{ $scratch.Set "semester_name" "Wintersemester" }}
+    {{ $scratch.Set "state" "is-active" }}
+
+    {{ range $startsemester := $alle_startsemester }}
+    {{ if eq $startsemester "ss" }}
+      {{ $scratch.Set "semester_id" "studiensemesterss" }}
+      {{ $scratch.Set "semester_name" "Sommersemester" }}
+      {{ $scratch.Set "state" "" }}
+    {{ end }}
+    <li class='tabs-title {{ $scratch.Get "state" }}'><a href='#{{ $scratch.Get "semester_id" }}' aria-selected="true">Start im {{ $scratch.Get "semester_name" }}</a></li>
+    {{ end }}
+  </ul>
+
+  <div class="tabs-content" data-tabs-content="startsemester">
+    {{ $scratch.Set "semester_id" "studiensemesterws" }}
+    {{ $scratch.Set "semester_name" "Wintersemester" }}
+    {{ $scratch.Set "state" "is-active" }}
+    {{ range $startsemester := $alle_startsemester }}
+      {{ if eq $startsemester "ss" }}
+        {{ $scratch.Set "semester_id" "studiensemesterss" }}
+        {{ $scratch.Set "semester_name" "Sommersemester" }}
+        {{ $scratch.Set "state" "" }}
+      {{ end }}
+      <div class='tabs-panel {{ $scratch.Get "state" }}' id='{{ $scratch.Get "semester_id" }}'>
+        <table class="unstriped">
+          <thead>
+            <tr>
+              <th width="5px"></th>
+              <th width="50%">Modulname</th>
+              <th width="10%">Kürzel</th>
+              <th>CP</th>
+              <th>Modulverantwortlicher</th>
+            </tr>
+          </thead>
+
+          {{ range $fachsemester := $alle_fachsemester }}
+            {{ $value := mod $fachsemester 2 }}
+            {{ $scratch.Set "aktuelles_semester" "Wintersemester" }}
+            {{ if eq $startsemester "ss" }}
+              {{ $scratch.Set "aktuelles_semester" "Sommersemester" }}
+            {{ end }}
+
+            {{ if eq $value 0 }}
+              {{ $scratch.Set "aktuelles_semester" "Sommersemester" }}
+              {{ if eq $startsemester "ss" }}
+                {{ $scratch.Set "aktuelles_semester" "Wintersemester" }}
+              {{ end }}
+            {{ end }}
+
+            <tr class="no-border">
+              <th colspan="4">{{$fachsemester}}. Fachsemester ({{$scratch.Get "aktuelles_semester"}})</th>
+            </tr>
+
+            {{ $scratch.Set "cps" 0 }}
+            {{ $scratch.Set "is_shown" "as" }}
+            {{ $scratch.Set "Params.semester_id" "Params." }}
+            {{ $scratch.Add "Params.semester_id" ($scratch.Get "semester_id") }}
+            {{ $semesterId := $scratch.Get "Params.semester_id" }}
+            {{ $sorted_pages := where $module $semesterId $fachsemester }}
+            {{ range $modulbeschreibung := $sorted_pages }}
+              {{ $scratch.Set "show" false }}
+              {{ if eq $modulbeschreibung.Params.typ "pm" }}{{ $scratch.Set "show" true }}{{ end }}
+              {{ if eq $modulbeschreibung.Params.typ "spmw" }}{{ $scratch.Set "show" true }}{{ end }}
+              {{ if eq $modulbeschreibung.Params.typ "spp" }}
+                {{ $scratch.Set "show" true }}
+              {{ end }}
+
+              {{ $show := $scratch.Get "show" }}
+              {{ if $show }}
+                {{ $scratch.Set "cps" (add ($scratch.Get "cps") 1) }}
+                {{ $modulverantwortlich := $modulbeschreibung.Params.modulverantwortlich }}
+                <tr>
+                  {{ $kennung := $modulbeschreibung.Params.typ }}
+                    {{ if eq $modulbeschreibung.Params.title "Wahlpflichtmodul" }}
+                    {{ $kennung := "pm-grau" }}
+                    {{ end }}
+                    <td class="kennung {{$kennung}}"></td>
+                    <td>
+                      {{ if eq $modulbeschreibung.Params.typ "spmw" }}
+                        {{ $modulbeschreibung.Params.title }}:
+                        {{ range $schwerpunktmodul := $schwerpunktmodule }}
+                          {{ if eq $schwerpunktmodul.Params.parent $modulbeschreibung.Params.kuerzel }}
+                            {{.Title}}
+                          {{ end }}
+                        {{ end }}
+                      {{ else }}
+                        {{ $scratch.Add "is_shown" $modulbeschreibung.Params.kuerzel }}
+                      <a href="{{$modulbeschreibung.RelPermalink}}">{{$modulbeschreibung.Params.title}}</a>
+                        {{ if $modulbeschreibung.Params.informatikmaster }}
+                        (InfMa: {{$modulbeschreibung.Params.informatikmaster}})
+                        {{ end }}
+                      {{ end }}
+                    </td>
+                    <td>{{$modulbeschreibung.Params.kuerzel}}</td>
+                    <td>{{$modulbeschreibung.Params.kreditpunkte}}</td>
+                    <td>
+                      {{ $scratch.Set "verantwortlich" "" }}
+                      {{ $modulverantwortliche := split $modulbeschreibung.Params.modulverantwortlich ", " }}
+                      {{ range $modulverantwortlich := $modulverantwortliche }}
+                        {{ range $item := $people}}
+                          {{ if eq $item.id $modulverantwortlich }}
+                            {{ $scratch.Add "verantwortlich" ", " }}
+                            {{ $scratch.Add "verantwortlich" $item.name }}
+                          {{ end }}
+                        {{ end }}
+                      {{ end }}
+                      {{ $verantwortliche := $scratch.Get "verantwortlich" }}
+                      {{ $verantwortliche := replaceRE "^, " " " $verantwortliche }}
+                      {{ $verantwortliche }}
+                    </td>
+                  </tr>
+              {{ end }}
+
+            {{ end }}
+                
+          {{ end }}
+
+        </table>
+      </div>
+    {{ end }}
+
+  </div>
+</div>

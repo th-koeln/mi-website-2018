@@ -1,13 +1,12 @@
 
 {{ define "main" }}
 {{ $params := . }}
-
 <div class="grid-x grid-margin-x grid-padding-y">
   <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
     {{ $section := . }}
     {{ $teaser := .Resources.Match "teaser*" }}
     {{ $image := index ($teaser) 0 }}
-    {{ $hero := $image.Fill "1600x600 q100 Linear" }}
+    {{ $hero := $image.Fill "1600x600 Center q100 Linear" }}
     {{ partial "molecules/mi-hero-image/mi-hero-image.html" (dict "image" $hero "headline" .Title) }}
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params) }}
   </div>
@@ -19,7 +18,6 @@
 {{ $scratch.Add "additionalcontentPath" $.Dir }}
 {{ $scratch.Add "additionalcontentPath" $additionalcontent }}
 {{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
-
 <div class="grid-x grid-margin-x grid-padding-y">
   <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
     {{ with $.Site.GetPage $additionalcontentPath }}
@@ -30,12 +28,16 @@
 {{ end }}
 
 <div class="grid-x grid-margin-x grid-padding-y">
-  <div class='{{ partial "system/grid/mi-base-cell.html" }}'>
-   
+  <div class='{{ partial "system/grid/mi-base-cell.html" }}'>   
+  {{ $scratch := newScratch }}
     <div class="grid-x grid-margin-x">
       <div class="cell medium-6">
         <h2 class="h4">Weiterführende Informationen</h2>
-        {{ with .GetPage "weiterfuehrende-links" }}
+        {{ $scratch.Set "path" "/" }}
+        {{ $scratch.Add "path" .Dir }}
+        {{ $scratch.Add "path" "weiterfuehrende-links" }}
+        {{ $path:= $scratch.Get "path" }}
+        {{ with .GetPage $path }}
         {{ $params := . }}
         {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "is-small") }}
         {{ end }}
@@ -43,7 +45,11 @@
       <div class="cell medium-6">
         
         <div class="grid-x grid-margin-x">
-          {{ with .GetPage "studiengangsleiter" }}
+          {{ $scratch.Set "path" "/" }}
+          {{ $scratch.Add "path" .Dir }}
+          {{ $scratch.Add "path" "studiengangsleiter" }}
+          {{ $path:= $scratch.Get "path" }}
+          {{ with .GetPage $path }}
           <div class="cell shrink">
             {{ $teaser := .Resources.Match "teaser*" }}
             {{ $image := index ($teaser) 0 }}
@@ -56,8 +62,8 @@
             Bei Fragen zum Studiengang wenden Sie sich bitte an den <a href="{{.Params.personenseite}}">Studiengangsleiter {{.Params.name}}</a>.
             </p>
           </div>
+          {{ end }}
         </div>
-        {{ end }}
       </div>
     </div>
    

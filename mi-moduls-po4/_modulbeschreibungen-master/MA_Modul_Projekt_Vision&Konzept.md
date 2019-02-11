@@ -3,7 +3,7 @@ title: Projektarbeit - Vision und Konzept im Kontext des Studienschwerpunkts
 modulverantwortlich: kf, mw, hc, me, ck, gh
 kuerzel: MIMP-K
 studiensemesterWs: 1
-studiensemester-ss: 2
+studiensemesterSs: 2
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12

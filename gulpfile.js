@@ -38,20 +38,21 @@ var _del2 = _interopRequireDefault(_del);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var theme = "themes/micgn/layouts/partials/";
+var partials = "themes/micgn/layouts/partials/";
+var views    = "themes/micgn/layouts/_default/views/";
 
 // import cleanCSS from 'gulp-clean-css';
 
 var docs = "docs/";
 var paths = {
 		styles: {
-				src: ["src/scss/*.scss", theme + "**/*.scss"],
+				src: ["src/scss/*.scss", partials + "**/*.scss", views + "**/*.scss"],
 				tmp: 'src/tmp/',
 				stat: 'static/css/',
 				dest: 'data/css/'
 		},
 		js: {
-				src: ["src/js/**/*.js", theme + "**/*.js"],
+				src: ["src/js/**/*.js", partials + "**/*.js", views  + "**/*.js"],
 				stat: 'static/js/',
 				dest: 'data/js/'
 		},

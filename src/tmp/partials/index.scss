@@ -1,0 +1,49 @@
+.mi-showcase {
+  .mi-fs-img {
+    margin-bottom: $bfs;
+  }
+
+  .mi-block {
+    padding-bottom: $bfs-xl;
+    border-top: solid 1px $mi-lila;
+
+    h2 {
+      margin-bottom: $bfs-xl;
+    }
+
+    h3 {
+
+
+      strong {
+        color: $mi-gruen;
+      }
+    }
+  }
+
+  figure {
+    figcaption {
+
+
+      h3,
+      h4 {
+        font-family: $family-primary;
+      }
+
+      h3 {
+        font-weight: 700;
+      }
+
+      h4 {
+        color: $mi-pink;
+      }
+
+      .subtitle {
+        margin-top: $bfs * -0.3;
+      }
+
+      header {
+        margin-bottom: $bfs;
+      }
+    }
+  }
+}

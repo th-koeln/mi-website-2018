@@ -3,7 +3,7 @@ title: Projektarbeit - Assessment/Evaluation, Forschung und Verwertung im Kontex
 modulverantwortlich: kf, mw, hc, me, ck, gh
 kuerzel: MIMP-V
 studiensemesterWs: 3
-studiensemester-ss: 1
+studiensemesterSs: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12

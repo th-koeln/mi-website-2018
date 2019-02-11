@@ -3,7 +3,7 @@ title: Visualisierung
 modulverantwortlich: me
 kuerzel: VI
 studiensemesterWs: 2
-studiensemester-ss: 3
+studiensemesterSs: 3
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

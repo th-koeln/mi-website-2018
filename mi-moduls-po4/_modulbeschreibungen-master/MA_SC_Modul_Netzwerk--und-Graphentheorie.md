@@ -3,7 +3,7 @@ title: Netzwerk-und Graphentheorie
 modulverantwortlich: kf
 kuerzel: NGT
 studiensemesterWs: 2
-studiensemester-ss: 1
+studiensemesterSs: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6

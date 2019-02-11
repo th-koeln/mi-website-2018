@@ -3,7 +3,7 @@ title: Storytelling und Narrative Strukturen
 modulverantwortlich: hk
 kuerzel: SNS
 studiensemesterWs: 1
-studiensemester-ss: 2
+studiensemesterSs: 2
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

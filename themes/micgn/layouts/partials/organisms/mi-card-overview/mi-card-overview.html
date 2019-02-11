@@ -8,7 +8,13 @@
         <div class="card-section">
           <h3 class="h4">{{.Title}}</h3>
           <p class="is-small">{{.Params.teasertext}}</p>
-          {{ partial "atoms/mi-button/mi-button.html" (dict "text" "mehr lesen" "url" .Permalink "class" "small")}}
+          {{ $scratch := newScratch }}
+          {{ $scratch.Set "url" .RelPermalink }}
+          {{ if .Params.mehrinfosurl }}
+          {{ $scratch.Set "url" .Params.mehrinfosurl }}
+          {{ end }}
+          {{ $url := $scratch.Get "url" }}
+          {{ partial "atoms/mi-button/mi-button.html" (dict "text" "mehr lesen" "url" $url "class" "small")}}
         </div>
       </div>
     </div>  

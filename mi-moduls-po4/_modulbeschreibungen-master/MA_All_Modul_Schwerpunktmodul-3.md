@@ -3,7 +3,7 @@ title: Schwerpunktmodul 3
 modulverantwortlich: all
 kuerzel: SPM3
 studiensemesterWs: 2
-studiensemester-ss: 1
+studiensemesterSs: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6

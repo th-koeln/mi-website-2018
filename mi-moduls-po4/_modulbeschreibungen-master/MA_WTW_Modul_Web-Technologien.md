@@ -3,7 +3,7 @@ title: Web Technologien
 modulverantwortlich: cn
 kuerzel: WTW-WD
 studiensemesterWs: 2
-studiensemester-ss: 3
+studiensemesterSs: 3
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
