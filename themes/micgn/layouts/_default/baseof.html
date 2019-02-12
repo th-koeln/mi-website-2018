@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 {{ $globalParams := . }}
-
+{{ $scratch := newScratch }}
 <head>
   {{ partial "system/head/head.html" $globalParams }}
 </head>
@@ -15,7 +15,6 @@
       <div class="grid-container fluid">
         <div class="grid-x grid-margin-x">
           <div class="large-12 cell">
-            {{ $scratch := newScratch }}
             
             {{ $fragments := split .Dir "/" }}
             {{ $iFragments := sub (len $fragments) 2 }}
@@ -26,7 +25,13 @@
             {{ if lt ($iFragments) 1 }}
               {{ $scratch.Set "iFragments" 1 }}
             {{ end }}
-            {{ $fragments := first ($scratch.Get "iFragments") (split .Dir "/") }}
+            {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (split .Dir "/")) }}
+
+            {{ if .IsHome }}
+              
+            {{ end }}
+            {{ $fragments :=  $scratch.Get "fragments" }}
+            
             {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
           </div>
         </div>
