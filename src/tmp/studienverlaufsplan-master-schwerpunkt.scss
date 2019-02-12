@@ -12,6 +12,10 @@
     background-color: $mi-blau;
   }
 
+  .m-mi-textblock + .mi-studienverlaufsplan{
+    margin-top: $bfs-xxl;
+  }
+
   .tabs{
     border-bottom: solid 1px $mi-pink;
 

@@ -3,6 +3,7 @@ date: "2016-11-05T21:05:33+05:30"
 title: "Human-Computer Interaction"
 teasertext: "Absolventen dieses Schwerpunktes arbeiten als UX-Architects, Interaction Designer oder in Positionen mit ähnlichen Rollenbezeichnungen."
 layout: "overview"
+heroClass: "do-contain"
 additionalContent: 
   - "studienverlaufsplan"
 ---
@@ -27,10 +28,6 @@ Usability Engineers arbeiten entweder direkt im Unternehmen oder in der Beratung
 Interaction Designer konzipieren und gestalten die vielfältigen Beziehungen zwischen Menschen und Technologien. Diese Beziehungen sind unter anderem ökonomischer, sozialer, ökologischer, kulturell/ethischer aber auch ästhetischer Art. Anders als bei der eher ingenieurswissenschaftlichen Herangehensweise der Usability Engineers denken und handeln Interaction Designer wie Designer. Dies bedeutet, dass Interaction Designer in ähnlichen Projekten tätig sind, aber mit einer ausgeprägten kreativen Problemlösungskompetenz auf methodischer Ebene sowie einer reflektierten und eigenverantwortlichen Entscheidungskompetenz ausgestattet sind. Sie können sicherstellen, dass sich Technologie nach gewünschten Wertmaßstäben nahtlos und positiv in den Lebensalltag von Menschen eingliedert. Damit geht Interaction Design weit über die reine Konzeption und Gestaltung von Eingaben und Ausgabe an der Benutzungsschnittstelle (User Interface Designer).
 
 ## Schwerpunktspezifische Pflichtmodule
-- [Interaction Design](/mi-2017/modulbeschreibungen-master/MA_HCI_InteractionDesign)
-- [Design Methodologies](/mi-2017/modulbeschreibungen-master/MA_HCI_Design_Methodologies)
-- [Angewandte Statistik für die Mensch-Computer Interaktion](/mi-2017/modulbeschreibungen-master/MA_HCI_Modul_Statistical_Methods_for_HCI)
-
-
-
-
+- [Interaction Design](/study/master/moduls/ma_hci_interactiondesign)
+- [Design Methodologies](/study/master/moduls/ma_hci_design_methodologies)
+- [Angewandte Statistik für die Mensch-Computer Interaktion](/study/master/moduls/ma_hci_modul_statistical_methods_for_hci)

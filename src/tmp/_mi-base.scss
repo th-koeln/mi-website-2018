@@ -37,7 +37,7 @@ h4 {
   line-height: 110% !important;
 }
 
-p + h2{
+p + h2, ul + h2{
   margin-top: $bfs-xxl;
 }
 

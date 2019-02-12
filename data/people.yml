@@ -10,21 +10,27 @@ cn:
     id: cn
     name: 'Prof. Christian Noss'
     avatar: 'https://pbs.twimg.com/profile_images/467245358968365057/ZkBvZKrO_400x400.jpeg'
+    personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
 kf:
     id: kf
     name: 'Prof. Dr. Kristian Fischer'
     avatar: 'http://www.dr-fischer-koeln.com/Profil/Kontakt_files/DSCF0357.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
 ck:
     id: ck
     name: 'Prof. Dr. Christian Kohls'
     avatar: 'https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png'
+    personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
 gh:
     id: gh
     name: 'Prof. Dr. Gerhard Hartmann'
+    personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
+    avatar: 'https://www.th-koeln.de/pseimg/baeb6ae11953fdf72188255bc7ed51d162d30a78.png'
 hk:
     id: hk
     name: 'Prof. Hans Kornacher'
     avatar: 'https://www.th-koeln.de/pseimg/5c8fc301d0dd483a146b14086113bdf0faaa406d.png'
+    personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
 mw:
     id: mw
     name: 'Prof. Dr. Mario Winter'
@@ -33,6 +39,7 @@ me:
     id: me
     name: 'Prof. Dr. Martin Eisemann'
     avatar: 'https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png'
+    personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
 fv:
     id: fv
     name: 'Prof. Dr. Frank Victor'

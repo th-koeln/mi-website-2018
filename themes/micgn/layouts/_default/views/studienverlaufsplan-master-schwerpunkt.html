@@ -28,12 +28,12 @@
 {{ end }}
 {{ $pflichtmodule := $scratch.Get "pflichtmodule" }}
 
-<h2>{{.Title}} {{.Parent.Title}}</h2>
-{{.Content}}
-
-
 <div class="mi-studienverlaufsplan-master">
-  <ul class="tabs" data-tabs id="startsemester">
+  
+  <h2>{{.Title}} {{.Parent.Title}}</h2>
+  {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" .) }}
+
+  <ul class="mi-studienverlaufsplan tabs" data-tabs id="startsemester">
     {{ $scratch.Set "semester_id" "studiensemesterws" }}
     {{ $scratch.Set "semester_name" "Wintersemester" }}
     {{ $scratch.Set "state" "is-active" }}
@@ -62,11 +62,11 @@
         <table class="unstriped">
           <thead>
             <tr>
-              <th width="5px"></th>
-              <th width="50%">Modulname</th>
-              <th width="10%">Kürzel</th>
-              <th>CP</th>
-              <th>Modulverantwortlicher</th>
+              <th width="5px" class="is-small"></th>
+              <th width="50%" class="is-small">Modulname</th>
+              <th width="10%" class="is-small">Kürzel</th>
+              <th class="is-small">CP</th>
+              <th class="is-small">Modulverantwortlicher</th>
             </tr>
           </thead>
 
@@ -85,11 +85,11 @@
             {{ end }}
 
             <tr class="no-border">
-              <th colspan="4">{{$fachsemester}}. Fachsemester ({{$scratch.Get "aktuelles_semester"}})</th>
+              <th colspan="4" class="is-small">{{$fachsemester}}. Fachsemester ({{$scratch.Get "aktuelles_semester"}})</th>
             </tr>
 
             {{ $scratch.Set "cps" 0 }}
-            {{ $scratch.Set "is_shown" "as" }}
+            {{ $scratch.Set "is_shown" "" }}
             {{ $scratch.Set "Params.semester_id" "Params." }}
             {{ $scratch.Add "Params.semester_id" ($scratch.Get "semester_id") }}
             {{ $semesterId := $scratch.Get "Params.semester_id" }}
@@ -112,12 +112,20 @@
                     {{ $kennung := "pm-grau" }}
                     {{ end }}
                     <td class="kennung {{$kennung}}"></td>
-                    <td>
+                    <td class="is-small">
                       {{ if eq $modulbeschreibung.Params.typ "spmw" }}
                         {{ $modulbeschreibung.Params.title }}:
                         {{ range $schwerpunktmodul := $schwerpunktmodule }}
                           {{ if eq $schwerpunktmodul.Params.parent $modulbeschreibung.Params.kuerzel }}
-                            {{.Title}}
+                            {{ if in $schwerpunktmodul.Params.schwerpunkt $schwerpunkt }}
+                              {{ $modulverantwortlich := $schwerpunktmodul.Params.modulverantwortlich }}
+                              {{ $scratch.Add "is_shown" $schwerpunktmodul.Params.kuerzel }}
+                              <a href="{{$schwerpunktmodul.RelPermalink}}">{{$schwerpunktmodul.Params.title}}</a>
+                              {{ if $modulbeschreibung.Params.informatikmaster }}
+                                (InfMa: {{$modulbeschreibung.Params.informatikmaster}})
+                              {{ end }}
+                              <br>
+                            {{ end }}
                           {{ end }}
                         {{ end }}
                       {{ else }}
@@ -128,9 +136,9 @@
                         {{ end }}
                       {{ end }}
                     </td>
-                    <td>{{$modulbeschreibung.Params.kuerzel}}</td>
-                    <td>{{$modulbeschreibung.Params.kreditpunkte}}</td>
-                    <td>
+                    <td class="is-small">{{$modulbeschreibung.Params.kuerzel}}</td>
+                    <td class="is-small">{{$modulbeschreibung.Params.kreditpunkte}}</td>
+                    <td class="is-small">
                       {{ $scratch.Set "verantwortlich" "" }}
                       {{ $modulverantwortliche := split $modulbeschreibung.Params.modulverantwortlich ", " }}
                       {{ range $modulverantwortlich := $modulverantwortliche }}

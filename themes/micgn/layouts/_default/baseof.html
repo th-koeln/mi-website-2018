@@ -15,10 +15,18 @@
       <div class="grid-container fluid">
         <div class="grid-x grid-margin-x">
           <div class="large-12 cell">
+            {{ $scratch := newScratch }}
+            
             {{ $fragments := split .Dir "/" }}
+            {{ $iFragments := sub (len $fragments) 2 }}
+            {{ $scratch.Set "iFragments" $iFragments }}
             {{ $fragment := index ($fragments) 0 }}
             {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
             {{ $fragments := split .Page.Type "/" }}
+            {{ if lt ($iFragments) 1 }}
+              {{ $scratch.Set "iFragments" 1 }}
+            {{ end }}
+            {{ $fragments := first ($scratch.Get "iFragments") (split .Dir "/") }}
             {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
           </div>
         </div>

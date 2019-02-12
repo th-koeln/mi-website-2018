@@ -1,19 +1,24 @@
 
 {{ define "main" }}
 {{ $params := . }}
+{{ $scratch := newScratch }}
 <div class="grid-x grid-margin-x grid-padding-y">
   <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
     {{ $section := . }}
     {{ $teaser := .Resources.Match "teaser*" }}
     {{ $image := index ($teaser) 0 }}
-    {{ $hero := $image.Fill "1600x600 Center q100 Linear" }}
-    {{ partial "molecules/mi-hero-image/mi-hero-image.html" (dict "image" $hero "headline" .Title) }}
+    {{ $hero := $image.Resize "1600x Center q100 Linear" }}
+    {{ $scratch.Set "heroClass" "" }}
+    {{ if .Params.heroClass }}
+    {{ $scratch.Set "heroClass" .Params.heroClass }}
+    {{end}}
+    {{ $heroClass := $scratch.Get "heroClass" }}
+    {{ partial "molecules/mi-hero-image/mi-hero-image.html" (dict "image" $hero "headline" .Title "class" $heroClass) }}
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params) }}
   </div>
 </div>
 
 {{ range $additionalcontent := .Params.additionalcontent }}
-{{ $scratch := newScratch }}
 {{ $scratch.Set "additionalcontentPath" "/"}}
 {{ $scratch.Add "additionalcontentPath" $.Dir }}
 {{ $scratch.Add "additionalcontentPath" $additionalcontent }}
@@ -31,40 +36,69 @@
   <div class='{{ partial "system/grid/mi-base-cell.html" }}'>   
   {{ $scratch := newScratch }}
     <div class="grid-x grid-margin-x">
+      {{ $scratch.Set "path" "/" }}
+      {{ $scratch.Add "path" .Dir }}
+      {{ $scratch.Add "path" "weiterfuehrende-links" }}
+      {{ $path:= $scratch.Get "path" }}
+      {{ with .GetPage $path }}
       <div class="cell medium-6">
         <h2 class="h4">Weiterführende Informationen</h2>
-        {{ $scratch.Set "path" "/" }}
-        {{ $scratch.Add "path" .Dir }}
-        {{ $scratch.Add "path" "weiterfuehrende-links" }}
-        {{ $path:= $scratch.Get "path" }}
-        {{ with .GetPage $path }}
         {{ $params := . }}
         {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "is-small") }}
-        {{ end }}
       </div>
+      {{ end }}
+
+      {{ $scratch.Set "path" "/" }}
+      {{ $scratch.Add "path" .Dir }}
+      {{ $scratch.Add "path" "verantwortlich" }}
+      {{ $path:= $scratch.Get "path" }}
+      {{ with .GetPage $path }}
       <div class="cell medium-6">
         
         <div class="grid-x grid-margin-x">
-          {{ $scratch.Set "path" "/" }}
-          {{ $scratch.Add "path" .Dir }}
-          {{ $scratch.Add "path" "studiengangsleiter" }}
-          {{ $path:= $scratch.Get "path" }}
-          {{ with .GetPage $path }}
+          {{ $people := .Site.Data.people }}
+          {{ $verantwortlicheRaw := split .Params.kennung ", " }}
+          {{ $scratch := newScratch }}
+          {{ $scratch.Set "avatar" false }}
+          {{ range $verantwortlich := $verantwortlicheRaw }}
+            {{ range $item := $people}}
+              {{ if eq $item.id $verantwortlich }}
+                {{ $scratch.SetInMap "verantwortlich" $item.id $item.id}}
+                {{ if $item.avatar}}
+                  {{ $scratch.Set "avatar" true }}
+                  {{ $scratch.SetInMap "avatare" $item.id $item.avatar}}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+
+          {{ if $scratch.Get "avatar" }}
+          {{ if gt (len ($scratch.Get "avatare")) 0 }}
+          {{ range $avatar:= ($scratch.GetSortedMapValues "avatare")}}
           <div class="cell shrink">
-            {{ $teaser := .Resources.Match "teaser*" }}
-            {{ $image := index ($teaser) 0 }}
-            {{ $avatar := $image.Fill "300x300 q90 Linear" }}
-            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar.RelPermalink) }}
-          </div>
-          <div class="cell auto">
-            <h2 class="h4">Fragen?</h2>
-            <p class="is-small">
-            Bei Fragen zum Studiengang wenden Sie sich bitte an den <a href="{{.Params.personenseite}}">Studiengangsleiter {{.Params.name}}</a>.
-            </p>
+            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar )}}
           </div>
           {{ end }}
+          {{ end }}
+          {{ end }}
+          <div class="cell auto">
+            <h2 class="h4">Fragen?</h2>
+            <div class="m-mi-textblock is-small">
+              {{.RawContent}}
+              {{ $scratch.Set "verantwortlicheCount" 0 }}
+              {{ range $verantwortlich := ($scratch.GetSortedMapValues "verantwortlich")}}
+               {{ $scratch.Set "verantwortlicheCount" (add ($scratch.Get "verantwortlicheCount") 1) }}
+                {{ $verantwortlich := index $people $verantwortlich }}
+                <a href="{{ $verantwortlich.personenseite }}">{{ $verantwortlich.name }}</a>
+                {{ if lt ($scratch.Get "verantwortlicheCount") (len ($scratch.Get "verantwortlich")) }}
+                oder
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
         </div>
       </div>
+      {{ end }}
     </div>
    
   </div>

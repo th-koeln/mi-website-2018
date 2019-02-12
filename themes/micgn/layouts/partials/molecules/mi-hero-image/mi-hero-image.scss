@@ -1,6 +1,12 @@
 .m-mi-hero-image{
+  background-color: #efefef;
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   margin-bottom: $bfs-xl;
   border-top: solid 5px $mi-blau;
+
+  &.do-contain{
+    background-size: contain;
+  }
 }
