@@ -1,4 +1,10 @@
 .m-sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
   padding: map-get($grid-container-padding, small);
 
   &--menu {
@@ -15,5 +21,17 @@
 
   &--logo {
     margin-bottom: $bfs * 6;
+  }
+
+  .is-second{
+
+    position: absolute;
+    bottom: $bfs;
+    right: map-get($grid-container-padding, small);
+    >li {
+      font-family: $family-primary;
+      font-size: $bfs-s;
+      display: block;
+    }
   }
 }

@@ -41,10 +41,11 @@
       {{ $scratch.Add "path" "weiterfuehrende-links" }}
       {{ $path:= $scratch.Get "path" }}
       {{ with .GetPage $path }}
-      <div class="cell medium-6">
+      <div class="cell medium-12 large-6">
         <h2 class="h4">Weiterführende Informationen</h2>
         {{ $params := . }}
         {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "is-small") }}
+        <br>
       </div>
       {{ end }}
 
@@ -53,7 +54,7 @@
       {{ $scratch.Add "path" "verantwortlich" }}
       {{ $path:= $scratch.Get "path" }}
       {{ with .GetPage $path }}
-      <div class="cell medium-6">
+      <div class="cell medium-12 large-6">
         
         <div class="grid-x grid-margin-x">
           {{ $people := .Site.Data.people }}
@@ -77,11 +78,12 @@
           {{ range $avatar:= ($scratch.GetSortedMapValues "avatare")}}
           <div class="cell shrink">
             {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar )}}
+            <br>
           </div>
           {{ end }}
           {{ end }}
           {{ end }}
-          <div class="cell auto">
+          <div class="cell medium-auto">
             <h2 class="h4">Fragen?</h2>
             <div class="m-mi-textblock is-small">
               {{.RawContent}}

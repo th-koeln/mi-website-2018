@@ -1,6 +1,19 @@
 /* MI Layout
 -----------------------------------------------------------------------------*/
 
+body{
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50%;
+}
+
+@media screen and #{breakpoint(xxlarge)} {
+  body{
+    background-size: 40%;
+  }
+}
+
 @media screen and #{breakpoint(medium)} {
   .grid-container.fluid {
     margin-left: $from-left;
