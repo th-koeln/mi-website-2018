@@ -28,7 +28,7 @@
             {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (split .Dir "/")) }}
 
             {{ if .IsHome }}
-              
+            {{ $scratch.Set "fragments" false }}
             {{ end }}
             {{ $fragments :=  $scratch.Get "fragments" }}
             

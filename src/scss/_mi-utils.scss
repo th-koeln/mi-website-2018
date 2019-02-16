@@ -13,3 +13,22 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+.arrow-up{
+
+  margin-top: 5px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 36px;
+    width: 0; 
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 13px solid $mi-grau;
+  }
+}
+
+

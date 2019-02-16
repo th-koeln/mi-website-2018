@@ -1,0 +1,11 @@
+<div class="m-mi-human-card">
+  
+<figure class="m-mi-human-card--holder">
+  <img src="{{.imageSrc}}">
+</figure>
+
+{{ if .headline }} <h2 class="h4 m-mi-human-card--headline">{{ .headline }}</h2> {{ end }}
+{{ if .info }} <p class="m-mi-teaser--info">{{ .info }}</p> {{ end }}
+{{ if .linktext }} <p class="m-mi-teaser--footer"><a href="{{.url}}">{{.linktext}}</a></p> {{ end }}
+
+</div>

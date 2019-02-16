@@ -1,0 +1,17 @@
+.m-mi-human-card{
+    
+    &--holder{
+      background-color: $mi-hellgrau;
+      text-align: center;
+      margin-bottom: $bfs-s;
+
+      img{
+        height: $bfs-max *2;
+        object-fit: cover;
+      }
+    }
+
+    &--headline{
+      
+    }
+}

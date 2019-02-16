@@ -41,3 +41,9 @@ body{
     /* Use 1 0 auto instead of just 1 for backwards compatibility with other browsers */
   }
 }
+
+.mi-stack{
+  > * {
+    margin-bottom: $bfs;
+  }
+}

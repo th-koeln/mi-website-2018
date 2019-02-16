@@ -7,12 +7,17 @@
   </button>
   <div class="m-navHead--text">
     <a href="{{.BaseURL}}">mi</a>
+    {{ if .Fragments}}
     {{range .Fragments}}
     {{ $frag := (print . "/")}}
     {{ $globalParams.Scratch.Add "path" $frag}}
     <span class="m-navHead--logoSlash">/</span><span class="m-navHead--logoSlug">
-      <a href="{{$BaseURL}}{{ $globalParams.Scratch.Get "path" }}">{{.}}</a>
+      <a href="{{$BaseURL}}{{ $globalParams.Scratch.Get "path" }}">&nbsp;{{.}}</a>
     </span>
     {{end}}
+    {{else}}
+    <span class="m-navHead--logoSlash">/</span><span class="m-navHead--logoSlug">&nbsp;<a href="{{.BaseURL}}">home</a></span>
+    {{ end }}
+  
   </div>
 </div>
