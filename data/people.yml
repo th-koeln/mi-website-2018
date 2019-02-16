@@ -4,6 +4,7 @@ moe:
     name: 'Prof. Dr. Monika Engelen'
     avatar: 'https://www.th-koeln.de/pseimg/c25b6f6f6f2f2f69e98dd361b2bb08880918e163.png'
     mi: true
+    funname: Marketing Queen
 pb:
     id: pb
     name: 'Paul Bagiu'
@@ -14,41 +15,48 @@ cn:
     avatar: 'https://pbs.twimg.com/profile_images/467245358968365057/ZkBvZKrO_400x400.jpeg'
     personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
     mi: true
+    funname: Designfuzzie
 kf:
     id: kf
     name: 'Prof. Dr. Kristian Fischer'
     avatar: 'http://www.dr-fischer-koeln.com/Profil/Kontakt_files/DSCF0357.jpg'
     personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
     mi: true
+    funname: Webworker
 ck:
     id: ck
     name: 'Prof. Dr. Christian Kohls'
     avatar: 'https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
     mi: true
+    funname: Allroundtalent
 gh:
     id: gh
     name: 'Prof. Dr. Gerhard Hartmann'
     personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
     avatar: 'https://www.th-koeln.de/pseimg/baeb6ae11953fdf72188255bc7ed51d162d30a78.png'
     mi: true
+    funname: Menschenkenner
 hk:
     id: hk
     name: 'Prof. Hans Kornacher'
     avatar: 'https://www.th-koeln.de/pseimg/5c8fc301d0dd483a146b14086113bdf0faaa406d.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
     mi: true
+    funname: Filmemacher
 mw:
     id: mw
     name: 'Prof. Dr. Mario Winter'
     avatar: 'https://www.th-koeln.de/pseimg/c5bff77954375a20b019ae362b6e253fb6a5c153.png'
     mi: true
+    funname: Systematiker
 me:
     id: me
     name: 'Prof. Dr. Martin Eisemann'
     avatar: 'https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png'
     personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
     mi: true
+    funname: Grafikgenie
 fv:
     id: fv
     name: 'Prof. Dr. Frank Victor'
@@ -62,6 +70,7 @@ mb:
     name: 'Prof. Dr. Matthias Böhmer'
     avatar: 'https://www.th-koeln.de/pseimg/52a2eb43cc2e446704c03256088f979dc8ec2af0.png'
     mi: true
+    funname: 
 ab:
     id: ab
     name: 'Prof. Dr. Arno Bitzer'
@@ -70,25 +79,30 @@ bb:
     name: 'Prof. Dr. Birgit Bertelsmeier'
     avatar: 'https://www.th-koeln.de/pseimg/1e549b4b56593dc6b98c6013b9b44d15e91e607a.png'
     mi: true
+    funname: Datenjongleurin
 hfw:
     id: hfw
     name: 'Prof. Dr. Heide Faeskorn-Woyke'
     avatar: 'https://www.th-koeln.de/pseimg/5fadb9d1d40150b3c0b12cda210d334865affb1b.png'
     mi: true
+    funname: Datenjongleurin
 sk:
     id: sk
     name: 'Prof. Dr. Stefan Karsch'
     mi: true
+    funname: Security Freak
 hls:
     id: wls
     name: 'Prof. Dr. Hans L. Stahl'
     avatar: 'https://www.th-koeln.de/pseimg/0759033b27e627e31c585fdbae579e627cfae07c.png'
     mi: true
+    funname: Netzwerk-Checker
 wk:
     id: wk
     name: 'Prof. Dr. Wolfgang Konen'
     avatar: 'https://www.th-koeln.de/pseimg/0f3bbf6cf67d2e0b898a6f520e0927e5c564526d.png'
     mi: true
+    funname: Mathe Ass
 hg:
     id: hg
     name: 'Prof. Dr. Holger Günther'

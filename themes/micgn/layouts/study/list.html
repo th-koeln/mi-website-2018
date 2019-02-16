@@ -2,7 +2,7 @@
 {{ $params := . }}
 
 <div class="grid-x grid-margin-x">
-  <div class="cell large-8 has-seperator">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
       {{ $level := split .Dir "/" }}
       {{ if gt (len $level) 2}}
       <h1>{{.Title}}</h1>
@@ -13,7 +13,7 @@
 </div>
 
 <div class="grid-x grid-margin-x ">
-  <div class="cell large-8 has-seperator">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
     <div class="grid-x grid-margin-x ">
     {{ range .Sections }}
     <div class="cell large-6">
