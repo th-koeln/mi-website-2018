@@ -9,6 +9,11 @@ pb:
     id: pb
     name: 'Paul Bagiu'
     mi: false
+alh:
+    id: alh
+    name: 'Albert Hamidullin'
+    avatar: 'https://www.th-koeln.de/pseimg/37112da67e779928c205975420d7f0174a3b459d.png'
+    mi: false
 cn:
     id: cn
     name: 'Prof. Christian Noss'
@@ -16,6 +21,10 @@ cn:
     personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
     mi: true
     funname: Designfuzzie
+vos:
+    id: vos
+    name: 'Volker Schaefer'
+    mi: true
 kf:
     id: kf
     name: 'Prof. Dr. Kristian Fischer'
@@ -23,6 +32,30 @@ kf:
     personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
     mi: true
     funname: Webworker
+nag:
+    id: nag
+    name: 'Ngoc-Anh Gabriel'
+    mi: true
+rog:
+    id: rog
+    name: 'Robert Gabriel'
+    mi: true
+cok:
+    id: cok
+    name: 'Corinna Sofie Klein'
+    mi: true
+sal:
+    id: sal
+    name: 'Sascha Lemke'
+    mi: true
+maa:
+    id: maa
+    name: 'Markus Alterauge'
+    mi: true
+lew:
+    id: lew
+    name: 'Lena Wirtz'
+    mi: true
 ck:
     id: ck
     name: 'Prof. Dr. Christian Kohls'
@@ -30,6 +63,14 @@ ck:
     personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
     mi: true
     funname: Allroundtalent
+mak:
+    id: mak
+    name: 'Manuel André Krischer'
+    mi: true
+ald:
+    id: ald
+    name: 'Alexander Dobrynin'
+    mi: true
 gh:
     id: gh
     name: 'Prof. Dr. Gerhard Hartmann'
@@ -37,6 +78,14 @@ gh:
     avatar: 'https://www.th-koeln.de/pseimg/baeb6ae11953fdf72188255bc7ed51d162d30a78.png'
     mi: true
     funname: Menschenkenner
+dar:
+    id: dar
+    name: 'Daniela Reschke'
+    mi: true
+shs:
+    id: shs
+    name: 'Sheree Saßmannshausen'
+    mi: true
 hk:
     id: hk
     name: 'Prof. Hans Kornacher'
@@ -44,12 +93,20 @@ hk:
     personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
     mi: true
     funname: Filmemacher
+erw:
+    id: erw
+    name: 'Ernestine Wassermann'
+    mi: true
 mw:
     id: mw
     name: 'Prof. Dr. Mario Winter'
     avatar: 'https://www.th-koeln.de/pseimg/c5bff77954375a20b019ae362b6e253fb6a5c153.png'
     mi: true
     funname: Systematiker
+alm:
+    id: alm
+    name: 'Alex Maier'
+    mi: true
 me:
     id: me
     name: 'Prof. Dr. Martin Eisemann'
@@ -57,10 +114,38 @@ me:
     personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
     mi: true
     funname: Grafikgenie
+bem:
+    id: bem
+    name: 'Dr. Benjamin Meyer'
+    mi: true
+uwm:
+    id: uwm
+    name: 'Uwe Müsse'
+    avatar: 'https://www.th-koeln.de/pseimg/241916e718c79e4f5839e3b6aa56cb21d6189b68.png'
+    mi: true
+mag:
+    id: mag
+    name: 'Matthias Groß'
+    avatar: 'https://www.th-koeln.de/pseimg/38cbc61901158f675046f4020ec2b6cec863c12b.png'
+    mi: true
+ded:
+    id: ded
+    name: 'Dennis Dubbert'
+    avatar: 'https://www.th-koeln.de/pseimg/3534fac559ac168011e615ed6b68718eea60df39.png'
+    mi: true
+chh:
+    id: chh
+    name: 'Christian Hahn'
+    avatar: 'https://www.th-koeln.de/pseimg/91dc1a78351336bdd58bb06aba518965bafcf350.png'
+    mi: true
 fv:
     id: fv
     name: 'Prof. Dr. Frank Victor'
     avatar: 'https://www.th-koeln.de/pseimg/c63ff50c1c9ccabe4fff15dfcd575add217a43e7.png'
+    mi: true
+dcw:
+    id: dcw
+    name: 'Dennis Christian Wilk'
     mi: true
 lk:
     id: lk
@@ -71,6 +156,14 @@ mb:
     avatar: 'https://www.th-koeln.de/pseimg/52a2eb43cc2e446704c03256088f979dc8ec2af0.png'
     mi: true
     funname: Herr aller Dinge
+edg:
+    id: edg
+    name: 'Edgar Gellert'
+    mi: true
+mph:
+    id: mph
+    name: 'Marco Paolo Heßland'
+    mi: true
 ab:
     id: ab
     name: 'Prof. Dr. Arno Bitzer'
@@ -86,6 +179,14 @@ hfw:
     avatar: 'https://www.th-koeln.de/pseimg/5fadb9d1d40150b3c0b12cda210d334865affb1b.png'
     mi: true
     funname: Datenjongleurin
+dag:
+    id: dag
+    name: 'Damian Gawenda'
+    mi: true
+kod:
+    id: kod
+    name: 'Konstantinos Dimitriou'
+    mi: true
 sk:
     id: sk
     name: 'Prof. Dr. Stefan Karsch'
@@ -97,15 +198,39 @@ hls:
     avatar: 'https://www.th-koeln.de/pseimg/0759033b27e627e31c585fdbae579e627cfae07c.png'
     mi: true
     funname: Netzwerk-Checker
+jjb:
+    id: jjb
+    name: 'Johannes-Josef Bungart'
+    mi: true
+rab:
+    id: rab
+    name: 'Raphaela Butz'
+    mi: true
+dej:
+    id: dej
+    name: 'Dennis Jaeger'
+    mi: true
 wk:
     id: wk
     name: 'Prof. Dr. Wolfgang Konen'
     avatar: 'https://www.th-koeln.de/pseimg/0f3bbf6cf67d2e0b898a6f520e0927e5c564526d.png'
     mi: true
     funname: Mathe Ass
+as:
+    id: as
+    name: 'Dr. Ane Schmitter'
+    mi: true
+pew:
+    id: pew
+    name: 'Peter Wagner'
+    mi: true
 hg:
     id: hg
     name: 'Prof. Dr. Holger Günther'
+    mi: true
+mas:
+    id: mas
+    name: 'Marc Schwede'
     mi: true
 db:
     id: db
