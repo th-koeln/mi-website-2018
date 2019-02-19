@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{ $params := . }}
-
 <div class="grid-x grid-margin-x">
   <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
       {{ $level := split .Dir "/" }}
@@ -20,7 +19,7 @@
       {{ if $human.mi }}
       <div class="cell small-12 large-6">
         <div class="mi-stack">
-          <div class="grid-x grid-margin-x">
+          <div class="grid-x grid-margin-x" data-toggle="{{ anchorize $human.name }}">
             <div class="cell shrink">
               {{ if ne $human.avatar ""}}
               {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $human.avatar )}}
@@ -28,7 +27,7 @@
             </div>
             <div class="cell auto">
               <header class="is-vertically-centered">
-                <h3><a data-toggle="{{ anchorize $human.name }}">{{ $human.name }}</a></h3>
+                <h3><a>{{ $human.name }}</a></h3>
                 <h4 class="lift-up">{{$human.funname}}</h4>
               </header>
             </div>
@@ -36,6 +35,7 @@
 
           <div id="{{ anchorize $human.name }}" class="callout is-hidden arrow-up" data-closable data-toggler="is-hidden">
             <button class="close-button" data-close>&times;</button>
+            
             <h4>Module</h4>
             <ul class="is-small">
              {{ range $modul := $.Site.Pages }}
@@ -47,6 +47,11 @@
              {{ end }}
             {{ end }}
             </ul>
+            {{ with $human.personenseite }}
+            <p class="is-small">
+              <a href="{{ . }}" target="_blank"><i class="material-icons">open_in_new</i> zur Personendetailseite</a>
+            </p>
+            {{ end }}
           </div>
 
         </div>
@@ -56,5 +61,13 @@
     </div>
   </div>
 </div>
+
+{{ range $page := .Pages }}
+<div class="grid-x grid-margin-x grid-padding-y">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }}'>
+  {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
+  </div>
+</div>
+{{ end }}
 
 {{ end }}
