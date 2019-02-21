@@ -1,7 +1,8 @@
-+++
-date = "2016-11-05T21:05:33+05:30"
-title = "Medieninformatik in Kurzform"
-+++
+---
+date: "2016-11-05T21:05:33+05:30"
+title: "Medieninformatik an der TH Köln"
+linkTitle: "Home"
+---
 
 Medieninformatik ist ein Anwendungsgebiet in der Informatik. In ihrer Entstehung Anfang der 1990er Jahre, ging es vor allem um die Digitalisierung von Text-, Bild-, Video- und Audio-Material. Dies sind auch heute noch relevante Themen in der Medieninformatik, jedoch sind eine ganze Reihe von weiteren Anwendungsfeldern hinzugekommen: Mobile Computing, Web-Technologien, Computergrafik, User Experience Design, Social Computing und vieles mehr.
 

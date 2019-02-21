@@ -1,10 +1,33 @@
 {{ define "main" }}
-<main aria-role="main" class="mi-showcase">
-  <div class="grid-x grid-margin-x">
-    <article class="cell large-8">
-      {{ partial "index.html" }}
-    </article>
-  </div>
+{{ $params := . }}
+<div class="grid-x grid-margin-x">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
+      {{ $level := split .Dir "/" }}
+      {{ if gt (len $level) 2}}
+      <h1>{{.Title}}</h1>
+      {{end}}
 
-</main>
+    {{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
+  </div>
+</div>
+
+{{ with .Site.GetPage "/pulse" }}
+<div class="grid-x grid-margin-x grid-padding-y">
+  <div class='{{ partial "system/grid/mi-base-cell.html" }}'>
+    <h2>{{ .Title }}</h2>
+    {{ $params := . }}
+    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
+  </div>
+</div>
+
+<div class="grid-x grid-margin-x grid-padding-y">
+  {{ range $items := .Sections }}
+  <div class="cell medium-4">
+    {{ $date := .Date }}
+    {{ partial "molecules/mi-pulse-teaser/mi-pulse-teaser.html" (dict "ele" . "date" $date) }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+
 {{ end }}

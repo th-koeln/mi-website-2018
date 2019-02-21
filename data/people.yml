@@ -1,12 +1,14 @@
 # cn: ja, haessliche Struktur, aber leider ist der doofe Hugo mit einer schönen Struktur nicht klar gekommen, der Penner!
 moe:
     id: moe
+    status: prof
     name: 'Prof. Dr. Monika Engelen'
     avatar: 'https://www.th-koeln.de/pseimg/c25b6f6f6f2f2f69e98dd361b2bb08880918e163.png'
     mi: true
     funname: Marketing Queen
 pb:
     id: pb
+    status: wma
     name: 'Paul Bagiu'
     mi: false
 alh:
