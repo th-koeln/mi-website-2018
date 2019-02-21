@@ -4,17 +4,20 @@ moe:
     status: prof
     name: 'Prof. Dr. Monika Engelen'
     avatar: 'https://www.th-koeln.de/pseimg/c25b6f6f6f2f2f69e98dd361b2bb08880918e163.png'
+    personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
     mi: true
     funname: Marketing Queen
 pb:
     id: pb
     status: wma
     name: 'Paul Bagiu'
+    personenseite: 'https://www.th-koeln.de/personen/paul.bagiu/'
     mi: false
 alh:
     id: alh
     name: 'Albert Hamidullin'
     avatar: 'https://www.th-koeln.de/pseimg/37112da67e779928c205975420d7f0174a3b459d.png'
+    personenseite: 'https://www.th-koeln.de/personen/albert.hamidullin/'
     mi: false
 cn:
     id: cn
@@ -26,6 +29,8 @@ cn:
 vos:
     id: vos
     name: 'Volker Schaefer'
+    avatar: 'https://www.th-koeln.de/pseimg/968345007305db8e1992c660d36eac653a459623.png'
+    personenseite: 'https://www.th-koeln.de/personen/volker.schaefer/'
     mi: true
 kf:
     id: kf
@@ -37,18 +42,22 @@ kf:
 nag:
     id: nag
     name: 'Ngoc-Anh Gabriel'
+    personenseite: 'https://www.th-koeln.de/personen/ngoc.gabriel/'
     mi: true
 rog:
     id: rog
     name: 'Robert Gabriel'
+    personenseite: 'https://www.th-koeln.de/personen/robert.gabriel/'
     mi: true
 cok:
     id: cok
     name: 'Corinna Sofie Klein'
+    personenseite: 'https://www.th-koeln.de/personen/corinna_sofie.klein/'
     mi: true
 sal:
     id: sal
     name: 'Sascha Lemke'
+    personenseite: 'https://www.th-koeln.de/personen/sascha.lemke/'
     mi: true
 maa:
     id: maa
@@ -68,10 +77,12 @@ ck:
 mak:
     id: mak
     name: 'Manuel André Krischer'
+    personenseite: 'https://www.th-koeln.de/personen/manuel.krischer/'
     mi: true
 ald:
     id: ald
     name: 'Alexander Dobrynin'
+    personenseite: 'https://www.th-koeln.de/personen/alexander.dobrynin/'
     mi: true
 gh:
     id: gh
@@ -83,6 +94,7 @@ gh:
 dar:
     id: dar
     name: 'Daniela Reschke'
+    personenseite: 'https://www.th-koeln.de/personen/daniela.rescke/'
     mi: true
 shs:
     id: shs
@@ -98,16 +110,19 @@ hk:
 erw:
     id: erw
     name: 'Ernestine Wassermann'
+    personenseite: 'https://www.th-koeln.de/personen/ernestine.wassermann/'
     mi: true
 mw:
     id: mw
     name: 'Prof. Dr. Mario Winter'
     avatar: 'https://www.th-koeln.de/pseimg/c5bff77954375a20b019ae362b6e253fb6a5c153.png'
+    personenseite: 'https://www.th-koeln.de/personen/mario.winter/'
     mi: true
     funname: Systematiker
 alm:
     id: alm
     name: 'Alex Maier'
+    personenseite: 'https://www.th-koeln.de/personen/alex.maier/'
     mi: true
 me:
     id: me
@@ -119,127 +134,155 @@ me:
 bem:
     id: bem
     name: 'Dr. Benjamin Meyer'
+    personenseite: 'https://www.th-koeln.de/personen/benjamin.meyer/'
     mi: true
 uwm:
     id: uwm
     name: 'Uwe Müsse'
     avatar: 'https://www.th-koeln.de/pseimg/241916e718c79e4f5839e3b6aa56cb21d6189b68.png'
+    personenseite: 'https://www.th-koeln.de/personen/uwe.muesse/'
     mi: true
 mag:
     id: mag
     name: 'Matthias Groß'
     avatar: 'https://www.th-koeln.de/pseimg/38cbc61901158f675046f4020ec2b6cec863c12b.png'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.gross2/'
     mi: true
 ded:
     id: ded
     name: 'Dennis Dubbert'
     avatar: 'https://www.th-koeln.de/pseimg/3534fac559ac168011e615ed6b68718eea60df39.png'
+    personenseite: 'https://www.th-koeln.de/personen/dennis.dubbert/'
     mi: true
 chh:
     id: chh
     name: 'Christian Hahn'
     avatar: 'https://www.th-koeln.de/pseimg/91dc1a78351336bdd58bb06aba518965bafcf350.png'
+    personenseite: 'https://www.th-koeln.de/personen/christian.hahn1/'
     mi: true
 fv:
     id: fv
     name: 'Prof. Dr. Frank Victor'
     avatar: 'https://www.th-koeln.de/pseimg/c63ff50c1c9ccabe4fff15dfcd575add217a43e7.png'
+    personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
     mi: true
 dcw:
     id: dcw
     name: 'Dennis Christian Wilk'
+    personenseite: 'https://www.th-koeln.de/personen/dennis.wilk/'
     mi: true
 lk:
     id: lk
     name: 'Prof. Dr. Lutz Köhler'
+    personenseite: 'https://www.th-koeln.de/personen/lutz.koehler/'
 mb:
     id: mb
     name: 'Prof. Dr. Matthias Böhmer'
     avatar: 'https://www.th-koeln.de/pseimg/52a2eb43cc2e446704c03256088f979dc8ec2af0.png'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
     mi: true
     funname: Herr aller Dinge
 edg:
     id: edg
     name: 'Edgar Gellert'
+    personenseite: 'https://www.th-koeln.de/personen/edgar.gellert/'
     mi: true
 mph:
     id: mph
     name: 'Marco Paolo Heßland'
+    personenseite: 'https://www.th-koeln.de/personen/marco.hessland/'
     mi: true
 ab:
     id: ab
     name: 'Prof. Dr. Arno Bitzer'
+    personenseite: 'https://www.th-koeln.de/personen/arno.bitzer/'
 bb:
     id: bb
     name: 'Prof. Dr. Birgit Bertelsmeier'
     avatar: 'https://www.th-koeln.de/pseimg/1e549b4b56593dc6b98c6013b9b44d15e91e607a.png'
+    personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
     funname: Datenjongleurin
 hfw:
     id: hfw
     name: 'Prof. Dr. Heide Faeskorn-Woyke'
     avatar: 'https://www.th-koeln.de/pseimg/5fadb9d1d40150b3c0b12cda210d334865affb1b.png'
+    personenseite: 'https://www.th-koeln.de/personen/heide.faeskorn-woyke/'
     mi: true
     funname: Datenjongleurin
 dag:
     id: dag
     name: 'Damian Gawenda'
+    personenseite: 'https://www.th-koeln.de/personen/damian.gawenda/'
     mi: true
 kod:
     id: kod
     name: 'Konstantinos Dimitriou'
+    personenseite: 'https://www.th-koeln.de/personen/konstantinos.dimitriou/'
     mi: true
 sk:
     id: sk
     name: 'Prof. Dr. Stefan Karsch'
+    personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
     mi: true
     funname: Security Freak
 hls:
     id: wls
     name: 'Prof. Dr. Hans L. Stahl'
     avatar: 'https://www.th-koeln.de/pseimg/0759033b27e627e31c585fdbae579e627cfae07c.png'
+    personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
     mi: true
     funname: Netzwerk-Checker
 jjb:
     id: jjb
     name: 'Johannes-Josef Bungart'
+    personenseite: 'https://www.th-koeln.de/personen/johannes-josef.bungart/'
     mi: true
 rab:
     id: rab
     name: 'Raphaela Butz'
+    personenseite: 'https://www.th-koeln.de/personen/raphaela.butz/'
     mi: true
 dej:
     id: dej
     name: 'Dennis Jaeger'
+    personenseite: 'https://www.th-koeln.de/personen/dennis.jaeger/'
     mi: true
 wk:
     id: wk
     name: 'Prof. Dr. Wolfgang Konen'
     avatar: 'https://www.th-koeln.de/pseimg/0f3bbf6cf67d2e0b898a6f520e0927e5c564526d.png'
+    personenseite: 'https://www.th-koeln.de/personen/wolfgang.konen/'
     mi: true
     funname: Mathe Ass
 as:
     id: as
     name: 'Dr. Ane Schmitter'
+    personenseite: 'https://www.th-koeln.de/personen/ane.schmitter/'
     mi: true
 pew:
     id: pew
     name: 'Peter Wagner'
+    personenseite: 'https://www.th-koeln.de/personen/peter.wagner/'
     mi: true
 hg:
     id: hg
     name: 'Prof. Dr. Holger Günther'
+    personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
     mi: true
 mas:
     id: mas
     name: 'Marc Schwede'
+    personenseite: 'https://www.th-koeln.de/personen/marc.schwede/'
     mi: true
 db:
     id: db
     name: 'Dipl.-Inform. (FH) Dennis Buderus'
     avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
+    personenseite: 'https://www.th-koeln.de/personen/dennis.buderus/'
 bn:
     name: 'Prof. Dr. Boris Naujoks'
+    personenseite: 'https://www.th-koeln.de/personen/boris.naujoks/'
 mi:
     id: mi
     name: 'Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
