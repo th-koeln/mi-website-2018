@@ -1,11 +1,13 @@
-<div class="m-mi-pulse-teaser" {{ with .imageSrc }}style="background-image: url({{.imageSrc}})"{{ end }}>
+<div class="m-mi-pulse-teaser" {{ with .imageSrc }}style="background-image: url({{.}})"{{ end }}>
 
-<h2 class="m-mi-pulse-teaser--headline">{{ .ele.Title }}</h2>
+<div class="m-mi-pulse-teaser--content">
+  <h2 class="title">{{ .ele.Title }}</h2>
+    
+</div>
+
+{{ with .ele.Params.termin}}
 <p class="m-mi-pulse-teaser--footer">
-
-  {{ if ne .date nil }}
-    {{ dateFormat "02.01.2006" .date }}
-  {{ end }}
+  {{.}}
 </p>
-
+{{ end }}
 </div>

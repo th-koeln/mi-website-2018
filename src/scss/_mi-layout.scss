@@ -15,7 +15,7 @@ body{
 }
 
 @media screen and #{breakpoint(medium)} {
-  .grid-container.fluid {
+  .grid-container.fluid.has-gap {
     margin-left: $from-left;
   }
 
@@ -27,7 +27,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    max-width: 1800px;
   }
 
   header,

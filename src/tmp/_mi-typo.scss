@@ -37,3 +37,11 @@
 .is-small{
   font-size: $bfs-s;
 }
+
+.mi-chapter-title{
+  font-size: $bfs-xxl;
+
+  &.is-colorful{
+    color: $mi-lila;
+  }
+}

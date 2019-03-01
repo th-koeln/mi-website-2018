@@ -54,7 +54,7 @@
   &--hamburger {
     font-size: 48px;
     display: inline-block;
-    width: 80px;
+    width: 72px;
     height: 1em;
     padding: 0;
     cursor: pointer;
@@ -62,6 +62,7 @@
     vertical-align: middle;
     border: 0 none;
     background: transparent;
+    margin-left: 8px;
 
     @media screen and #{breakpoint(small down)} {
       font-size: 26px;

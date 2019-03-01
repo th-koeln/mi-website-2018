@@ -1,7 +1,14 @@
 .a-headline-invers{
-  background-color: $mi-lila;
+  background-color:$mi-gruen;
   color: #fff;
   padding: $bfs-xs;
   display: inline-block;
-  margin-top: $bfs *16;
+  margin-bottom: 0;
+}
+
+.a-subtitle-invers{
+  background-color: $mi-black;
+  color: #fff;
+  padding: $bfs-xs;
+  display: inline-block;
 }

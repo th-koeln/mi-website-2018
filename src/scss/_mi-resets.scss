@@ -1,6 +1,10 @@
 /* MI Resets
 -----------------------------------------------------------------------------*/
 
+a.label:hover{
+  cursor: pointer;
+}
+
 /* Keine Umrandung bei aktiven Links */
 .menu li a:focus {
     box-shadow: none !important;
