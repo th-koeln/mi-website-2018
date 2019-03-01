@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/pulse/showcase-2017/</loc>
-    <lastmod>2018-06-26T09:22:18+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</loc>
     <lastmod>2018-06-06T11:56:33+00:00</lastmod>
   </url>
@@ -88,16 +83,6 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/website/categories/</loc>
-    <lastmod>2018-02-24T13:08:26+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/website/content-types/</loc>
-    <lastmod>2018-02-24T08:10:57+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/papers/2015/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -123,7 +108,7 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/website/gestaltungsziele/</loc>
+    <loc>https://www.medieninformatik.th-koeln.de/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
@@ -143,12 +128,12 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/</loc>
+    <loc>https://www.medieninformatik.th-koeln.de/study/master/schwerpunkte/multiperspective-product-development/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/schwerpunkte/multiperspective-product-development/</loc>
+    <loc>https://www.medieninformatik.th-koeln.de/people/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
@@ -204,11 +189,6 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/vertiefungsmodule/social-computing/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/website/structure/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
   
@@ -283,11 +263,6 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/website/</loc>
-    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/weiterfuehrende-links/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
   </url>
@@ -295,6 +270,36 @@
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/weiterfuehrende-links/</loc>
     <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/people/alle-leute/</loc>
+    <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/pulse/2019-02-13-pp-abschluss/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/pulse/2019-01-31-infoveranstaltung-vertiefungsmodule/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/pulse/2019-01-31-kontaktboerse/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/pulse/2018-12-12-medieninformatik-showcase/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.medieninformatik.th-koeln.de/pulse/2018-11-12-vorlesetag/</loc>
+    <lastmod>2016-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -393,10 +398,6 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_hci_modul_contextualdesign/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/autoren/daniel-r%C3%B6ger/</loc>
     <lastmod>2018-05-05T21:05:33+05:30</lastmod>
     <priority>0</priority>
@@ -460,10 +461,6 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/bachelor/moduls/ba_grundlagen-des-web/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/schwerpunkt-human-computer-interaction/</loc>
   </url>
   
   <url>
@@ -545,10 +542,6 @@
     <loc>https://www.medieninformatik.th-koeln.de/module/</loc>
     <lastmod>2018-06-06T11:56:33+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/schwerpunkt-multiperspective-product-development/</loc>
   </url>
   
   <url>
@@ -638,10 +631,6 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_hci_project_assessment/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ma_modul_projekt_verwertung/</loc>
   </url>
   
@@ -650,51 +639,7 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_hci_project_design/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_mpd_modul_projekt_entwicklung/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_sc_modul_projekt_entwicklung/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_vc_modul_projekt_entwicklung/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_vc_modul_projekt_forschung/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_mpd_modul_projekt_verwertung/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_sc_modul_projekt_verwertung/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_vc_modul_projekt_visionkonzept/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ma_modul_projekt_visionkonzept/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_hci_projekt_visionconcept/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_mpd_modul_projekt_visionkonzept/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/ma_sc_modul_projekt_visionkonzept/</loc>
   </url>
   
   <url>
@@ -737,10 +682,6 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ma_hci_sketching_and_designing_for_user_experience/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/schwerpunkt-soziotechnische-systeme/</loc>
   </url>
   
   <url>
@@ -817,10 +758,6 @@
   </url>
   
   <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/schwerpunkt-visual-computing/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/schwerpunkt-visual-computing/</loc>
   </url>
   
@@ -858,10 +795,6 @@
   
   <url>
     <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/ma_all_modul_wahlpflichtmodule/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.medieninformatik.th-koeln.de/study/master/moduls/_archiv/schwerpunkt-weaving-the-web/</loc>
   </url>
   
   <url>
