@@ -301,7 +301,7 @@ wk:
     funname: Mathe Ass
 as:
     id: as
-    status: prof
+    status: wma
     name: 'Dr. Ane Schmitter'
     personenseite: 'https://www.th-koeln.de/personen/ane.schmitter/'
     mi: true

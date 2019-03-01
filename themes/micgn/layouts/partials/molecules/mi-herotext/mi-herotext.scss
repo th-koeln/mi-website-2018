@@ -1,4 +1,11 @@
 .m-mi-herotext{
   font-size: $bfs-xl;
   line-height: 110%;
+  padding-bottom: $bfs-xl;
+  
+  @media screen and #{breakpoint(xlarge)} {
+    p {
+      max-width: #{map-get($breakpoints, xlarge)};
+    }
+  }
 }
