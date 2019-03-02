@@ -53,6 +53,7 @@ Aus den folgenden Wahlkatalogen sind zwei weitere Kurse zu jeweils 5CP zu belege
 ### Wahlkatalog Game Development
 - Crossplatform Game Development mit Unity3D
 - Prozedurale Generierung virtueller Welten
+- 3D-Modellieren, -Scannen und -Drucken
 
 ## Arbeitsaufwand
 600h Gesamtaufwand
@@ -74,6 +75,9 @@ Aus den folgenden Wahlkatalogen sind zwei weitere Kurse zu jeweils 5CP zu belege
 
 ### Prozedurale Generierung virtueller Welten
 36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 
+
+### 3D-Modellieren, -Scannen und -Drucken
+36h Vorlesung; 18h Übung; 18h Projekt; 78h Selbstlernphase 
 
 ## Angestrebte Lernergebnisse
 Je nach gewählten Vertiefungskursen entwickeln die Studierenden Fähigkeiten zur selbstverantwortlichen Durchführung von Projekten im Bereich Gamedevelopment, dreidimensionaler Darstellung virtueller Szenen, Film- und Fernsehtechnik, sowie Visueller Effekte.
@@ -135,6 +139,12 @@ Das Modul ist daher geeignet das Wissen aus den Modulen „Computergrafik und An
 Konzepte aus der 3D-Computergrafik und der prozeduralen Generierung werden in diesem sehr praktisch ausgelegten Kurs implementiert und die relevanten Grundlagen vermittelt, die es den Studierenden ermöglichen eigenständig Anforderungen für Projekte mit prozeduralen Techniken zu entwickeln und diese praktisch umzusetzen und kritisch zu evaluieren. 
 
 Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse über verschiedene Techniken der prozeduralen Generierung zur Erstellung von 3D Content für Visualisierungen, Simulationen und Spiele, sowie die Fähigkeiten diese einzusetzen, sowie selbst zu entwickeln. 
+
+### 3D-Modellieren, -Scannen und -Drucken
+Die Studierenden sollen
+- die Grundlagen und unterschiedliche Verfahren zur Erstellung von 3D-Modellen kennenlernen.
+- anwendungsorientiert modellieren. Dazu gehört es Anforderungen zu ermitteln und die Einschränkungen des angestrebten Verwendungszwecks zu verstehen und korrekt zu nutzen. Ein Beispiel ist das 3D-Druck-gerechte Modellieren.
+- Unterschiedliche Druck- wie auch Scanverfahren verstehen und anwenden können.
 
 ## Inhalt
 
@@ -203,6 +213,16 @@ Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse übe
 - Grundlagen 3D-Geometrie
 - Erweiterung des Unity-Editors
 
+### 3D-Modellieren, -Scannen und -Drucken
+- 3D-Modellierungstechniken
+- 3D-Modell-Arten
+- Dateiformate für 3D-Daten
+- 3D-Scanverfahren
+- Softwarelösungen### 3D-Modellieren, -Scannen und -Drucken
+- Kontextorientiertes Modellieren und Anwendungsbeschränkungen
+- 3D-Druckarten und Architekturen
+
+
 ## Studien-/Prüfungsleistungen
 Teilprüfungen in den jeweiligen Kursen. Die Benotung ergibt sich als Mittel aus den jeweiligen Teilnoten.
 
@@ -224,11 +244,20 @@ Präsentation und Dokumentation eines eigenständig entwickelten Projekts
 ### Prozedurale Generierung virtueller Welten
 Die erfolgreiche Teilnahme am Abschlussprojekt (eigenständiges Projekt, auch in Kleingruppen möglich) und Fachgespräch
 
+### 3D-Modellieren, -Scannen und -Drucken
+Die Note bildet sich aus dem Ergebnis des 3D-Modellierungsprojektes, der dazugehörigen Projektdokumentation und eines Tests. Das 3D-Modellierungsprojekt basiert auf einer Kombination von zweien der nachfolgenden Themen:
+- Scan
+- Drucken
+- Modellieren
+- Rendervideo
+
 ## Medienformen
 - Beamer-gestützte Vorlesungen
 - Rechnergestützte Workshops
 - Beispiele aus verschiedenen Medien in elektronischer Form: Filmbeispiele, Webvideos
 - Audiovisuelle Aufnahme- und Wiedergabegeräte
+- Interaktive Projektionsfläche
+- Lehrfilme
 
 ## Literatur
 
@@ -278,3 +307,7 @@ Die erfolgreiche Teilnahme am Abschlussprojekt (eigenständiges Projekt, auch in
 - Noor Shaker, Julian Togelius, Mark J. Nelson, "Procedural Content Generation in Games (Computational Synthesis and Creative Systems)",  Springer
 - Ryan Watkins, "Procedural Content Generation for Unity Game Development", Packt Publishing
 - Dale Green, "Procedural Content Generation for C++ Game Development", Packt Publishing 
+
+### 3D-Modellieren, -Scannen und -Drucken
+- Thomas Beck, "Blender 2.7: Das umfassende Handbuch für die Praxis – mit allen Werkzeugen, Funktionen und Techniken", Rheinwerk Design
+- Ben Redwood, Filemon Schöffer, Brian Garret, "The 3D Printing Handbook: Technologies, design and applications"
