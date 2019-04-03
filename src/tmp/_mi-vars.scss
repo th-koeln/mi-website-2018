@@ -24,9 +24,21 @@ $mi-hellgrau: #efefef;
 
 // MI Fonts
 // ---------
-$family-primary: "PT Sans";
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+}
 $family-headlines: "Roboto Slab";
 
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/PT_Sans/PT_Sans-Web-Regular.ttf');
+}
+$family-primary: "PT Sans";
 
 // MI Magic Numbers
 // ---------
