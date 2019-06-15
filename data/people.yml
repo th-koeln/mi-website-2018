@@ -147,7 +147,7 @@ alm:
     mi: true
 me:
     id: me
-    status: wma
+    status: prof
     name: 'Prof. Dr. Martin Eisemann'
     avatar: 'https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png'
     personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'

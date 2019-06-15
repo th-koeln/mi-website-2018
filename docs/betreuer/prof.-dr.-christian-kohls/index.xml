@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prof. Dr. Christian Kohls on Medieninformatik an der TH Köln</title>
-    <link>https://www.medieninformatik.th-koeln.de/betreuer/prof.-dr.-christian-kohls/</link>
+    <link>http://localhost:1313/betreuer/prof.-dr.-christian-kohls/</link>
     <description>Recent content in Prof. Dr. Christian Kohls on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
     
-	<atom:link href="https://www.medieninformatik.th-koeln.de/betreuer/prof.-dr.-christian-kohls/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/betreuer/prof.-dr.-christian-kohls/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Entwicklung einer webbasierten Auftragsbearbeitung für ein Kleinunternehmen in der Lohnfertigung</title>
-      <link>https://www.medieninformatik.th-koeln.de/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</link>
+      <link>http://localhost:1313/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</guid>
+      <guid>http://localhost:1313/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</guid>
       <description>In dieser Bachelorarbeit wird die Auftragsbearbeitung eines kleinen Unternehmens analysiert und auf Grundlage dessen eine Webanwendung entwickelt, welche diese digitalisieren und optimieren soll. Dabei wird eine genaue Betrachtung der Ausgangssituation vorgenommen und eine Stakeholderbetrachtung durchgeführt. Aus den daraus resultierenden Anforderungen an die Webanwendung wird in der Konzeption ein Lösungsansatz entwickelt, welcher die Anforderungen an diese erfüllt. Anschließend wird eine Technologieunabhängige Systemarchitektur entwickelt. Anhand der in der Konzeption erarbeiteten Ergebnisse werden Anforderungen an das System ermittelt.</description>
     </item>
     
     <item>
       <title>Möglichkeiten und Grenzen von Google Cast</title>
-      <link>https://www.medieninformatik.th-koeln.de/papers/2015/moeglichkeiten-und-grenzen-von-google-cast/</link>
+      <link>http://localhost:1313/papers/2015/moeglichkeiten-und-grenzen-von-google-cast/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/papers/2015/moeglichkeiten-und-grenzen-von-google-cast/</guid>
+      <guid>http://localhost:1313/papers/2015/moeglichkeiten-und-grenzen-von-google-cast/</guid>
       <description>Diese Arbeit beschäftigt sich mit den Möglichkeiten und Grenzen der Plattform Google Cast. Der Nutzungskontext der Plattform beschränkt sich weitestgehend auf kleine Benutzergruppen. Dabei wird der Anwendungsfall der Medienwiedergabe fokussiert. Da die Plattform es ermöglicht HTML5-Anwendungen zu entwickeln, eröffnen sich weitere Anwendungsbereiche. Eine tiefergehende Auseinandersetzung mit der Architektur von Google Cast, sowie das Anfertigen einer Beispielimplementierung bestätigt, dass der Nutzungkontext von Google Cast weitreichender gefasst werden kann. Die Medienwiedergabe wird stark von der Plattform fokussiert, jedoch sind diverse weitere Anwendungsfälle denkbar.</description>
     </item>
     

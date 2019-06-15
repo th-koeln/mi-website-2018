@@ -1,0 +1,10 @@
+{{ define "response" }}
+[	
+    {{ range $index, $element := .Data.Pages }}
+    "title":"{{$element.Title}}",
+    "termin":"{{$element.Params.termin}}",
+    "date":{{$element.Params.date}},
+    "content": "{{$element.RawContent  | jsonify }}",
+    {{ end }}
+]
+{{ end }}

@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autoren on Medieninformatik an der TH Köln</title>
-    <link>https://www.medieninformatik.th-koeln.de/autoren/</link>
+    <link>http://localhost:1313/autoren/</link>
     <description>Recent content in Autoren on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sat, 02 Jun 2018 13:49:31 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
     
-	<atom:link href="https://www.medieninformatik.th-koeln.de/autoren/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/autoren/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Alexander Miske</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/alexander-miske/</link>
-      <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
-      
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/alexander-miske/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Anja Sivakumar</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/anja-sivakumar/</link>
+      <link>http://localhost:1313/autoren/anja-sivakumar/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/anja-sivakumar/</guid>
+      <guid>http://localhost:1313/autoren/anja-sivakumar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Christian Alexander Poplawski</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/christian-alexander-poplawski/</link>
+      <link>http://localhost:1313/autoren/christian-alexander-poplawski/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/christian-alexander-poplawski/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daniel Röger</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/daniel-r%C3%B6ger/</link>
-      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
-      
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/daniel-r%C3%B6ger/</guid>
+      <guid>http://localhost:1313/autoren/christian-alexander-poplawski/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David F. Petersen</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/david-f.-petersen/</link>
+      <link>http://localhost:1313/autoren/david-f.-petersen/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/david-f.-petersen/</guid>
+      <guid>http://localhost:1313/autoren/david-f.-petersen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eduard König</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/eduard-k%C3%B6nig/</link>
+      <link>http://localhost:1313/autoren/eduard-k%C3%B6nig/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/eduard-k%C3%B6nig/</guid>
+      <guid>http://localhost:1313/autoren/eduard-k%C3%B6nig/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Johannes Kimmeyer</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/johannes-kimmeyer/</link>
-      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
-      
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/johannes-kimmeyer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laura Maria Hermann</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/laura-maria-hermann/</link>
+      <title>Laura-Maria Hermann</title>
+      <link>http://localhost:1313/autoren/laura-maria-hermann/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/laura-maria-hermann/</guid>
+      <guid>http://localhost:1313/autoren/laura-maria-hermann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sebastian Leuer</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/sebastian-leuer/</link>
+      <link>http://localhost:1313/autoren/sebastian-leuer/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/sebastian-leuer/</guid>
+      <guid>http://localhost:1313/autoren/sebastian-leuer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sophie Marleen Stelzer</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/sophie-marleen-stelzer/</link>
+      <link>http://localhost:1313/autoren/sophie-marleen-stelzer/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/sophie-marleen-stelzer/</guid>
+      <guid>http://localhost:1313/autoren/sophie-marleen-stelzer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sven Hendrik Schebitz</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/sven-hendrik-schebitz/</link>
+      <link>http://localhost:1313/autoren/sven-hendrik-schebitz/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/sven-hendrik-schebitz/</guid>
+      <guid>http://localhost:1313/autoren/sven-hendrik-schebitz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thomas Friesen</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/thomas-friesen/</link>
+      <link>http://localhost:1313/autoren/thomas-friesen/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/thomas-friesen/</guid>
+      <guid>http://localhost:1313/autoren/thomas-friesen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vsevolod Küppers</title>
-      <link>https://www.medieninformatik.th-koeln.de/autoren/vsevolod-k%C3%BCppers/</link>
+      <link>http://localhost:1313/autoren/vsevolod-k%C3%BCppers/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/autoren/vsevolod-k%C3%BCppers/</guid>
+      <guid>http://localhost:1313/autoren/vsevolod-k%C3%BCppers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexander Miske</title>
+      <link>http://localhost:1313/autoren/alexander-miske/</link>
+      <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
+      
+      <guid>http://localhost:1313/autoren/alexander-miske/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Röger</title>
+      <link>http://localhost:1313/autoren/daniel-r%C3%B6ger/</link>
+      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
+      
+      <guid>http://localhost:1313/autoren/daniel-r%C3%B6ger/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Johannes Kimmeyer</title>
+      <link>http://localhost:1313/autoren/johannes-kimmeyer/</link>
+      <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
+      
+      <guid>http://localhost:1313/autoren/johannes-kimmeyer/</guid>
       <description></description>
     </item>
     

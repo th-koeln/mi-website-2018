@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2015 on Medieninformatik an der TH Köln</title>
-    <link>https://www.medieninformatik.th-koeln.de/papers/2018/</link>
+    <link>http://localhost:1313/papers/2018/</link>
     <description>Recent content in 2015 on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
     
-	<atom:link href="https://www.medieninformatik.th-koeln.de/papers/2018/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/papers/2018/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Generierung Von Wortwolken Im Svg Format Mittels Webstandards</title>
-      <link>https://www.medieninformatik.th-koeln.de/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</link>
+      <link>http://localhost:1313/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</link>
       <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</guid>
+      <guid>http://localhost:1313/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</guid>
       <description>Bei der Visualisierung von Informationen geht es vor allem darum Daten oder Zusammenhänge graphisch darzustellen. Für die graphische Darstellung können verschiedene Mittel verwendet werden, wie z.B. Tabellen, Diagramme oder Bilder. Das Kriterium zur Auswahl der Mittel hängt mit dem Kontext der Information und einer oder mehreren Fragen, die es mit der Visualisierung zu beantworten gilt, zusammen [1, p. 18f]. Wenn die Information z.B. unmittelbar mit Zahlen zusammenhängt, eignet sich für die Visualisierung oft ein Diagramm, da hier geometrische Formen verwendet werden können und die Größe der Formen im Bezug zur zählbaren Information steht.</description>
     </item>
     
     <item>
       <title>Metriken und Visualisierungen zur Verbesserung der Navigation in der kommunalen Open Data Landschaft Deutschlands</title>
-      <link>https://www.medieninformatik.th-koeln.de/papers/2018/metriken-und-visualisierungen-zur-verbesserung-der-navigation-in-der-kommunalen-open-data-landschaft-deutschlands/</link>
+      <link>http://localhost:1313/papers/2018/metriken-und-visualisierungen-zur-verbesserung-der-navigation-in-der-kommunalen-open-data-landschaft-deutschlands/</link>
       <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
       
-      <guid>https://www.medieninformatik.th-koeln.de/papers/2018/metriken-und-visualisierungen-zur-verbesserung-der-navigation-in-der-kommunalen-open-data-landschaft-deutschlands/</guid>
+      <guid>http://localhost:1313/papers/2018/metriken-und-visualisierungen-zur-verbesserung-der-navigation-in-der-kommunalen-open-data-landschaft-deutschlands/</guid>
       <description>Diese Arbeit befasst sich mit der Frage, durch welche Metriken und Visualisierungen die Navigation in der kommunalen Open Data Landschaft Deutschlands verbessert werden kann.Ziel der Arbeit ist es, benutzerorientierte Metriken und Visualisierungen zu ermitteln, um anschließend einen Prototypen zu erschaffen, der als Werkzeug für die Navigation in der kommunalen Open Data Landschaft dient.
 Die Arbeit untersucht im ersten Teil die Domäne und analysiert Konkurrenzprodukte. Ebenso werden die Stakeholder ermittelt und die Erfordernisse der Benutzer festgehalten.</description>
     </item>
