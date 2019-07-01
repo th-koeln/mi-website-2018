@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "hugo": "hugo server --disableFastRender --ignoreCache --renderToDisk",
     "mgulp": "npx babel gulpfile.babel.js --out-file gulpfile.js",
-    "static": "hugo --cleanDestinationDir && gulp all"
+    "static": "hugo --cleanDestinationDir && gulp all",
+    "ghpages": "hugo --environment staging --cleanDestinationDir && gulp all"
   },
   "keywords": [],
   "author": "",

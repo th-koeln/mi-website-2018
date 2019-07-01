@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eduard König on Medieninformatik an der TH Köln</title>
-    <link>http://localhost:1313/autoren/eduard-k%C3%B6nig/</link>
+    <link>/mi-master-wtw-pagespeed/autoren/eduard-k%C3%B6nig/</link>
     <description>Recent content in Eduard König on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/autoren/eduard-k%C3%B6nig/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/mi-master-wtw-pagespeed/autoren/eduard-k%C3%B6nig/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Internationalisierung und Lokalisierung von Webanwendungen unter Zuhilfenahme von AngularJS</title>
-      <link>http://localhost:1313/papers/2015/internationalisierung-und-lokalisierung-von-webanwendungen-unter-zuhilfenahme-von-angularjs/</link>
+      <link>/mi-master-wtw-pagespeed/papers/2015/internationalisierung-und-lokalisierung-von-webanwendungen-unter-zuhilfenahme-von-angularjs/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>http://localhost:1313/papers/2015/internationalisierung-und-lokalisierung-von-webanwendungen-unter-zuhilfenahme-von-angularjs/</guid>
+      <guid>/mi-master-wtw-pagespeed/papers/2015/internationalisierung-und-lokalisierung-von-webanwendungen-unter-zuhilfenahme-von-angularjs/</guid>
       <description>Das folgende Dokument beschreibt die Internationalisierung und Lokalisierung von Webanwendungen. Anhand der bereits aufgezeigten Aspekte im Praxisprojekt, werden diese in der praktischen Umsetzung erfolgen. Dabei wird auf das AngularJS Framework zurückgegriffen, welches einige Möglichkeiten zur Implementierung von mehrsprachigen Webanwendungen bietet. Leider sind die vordefinierten Möglichkeiten limitiert, deshalb werden zusätzliche Module von Drittanbietern in Betracht gezogen. Dabei werden die dortigen Lösungen und Ergänzungen beschrieben und gegeneinander abgewogen. Anschließend werden die einzelnen Funktionen der Module für eine Bewertung ermittelt, die daraus resultierenden Ergebnisse in Abwägung gegenüber gestellt und zu einem Vergleich zusammengefasst.</description>
     </item>
     

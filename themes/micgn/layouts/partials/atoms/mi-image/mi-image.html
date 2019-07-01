@@ -12,5 +12,5 @@
 {{ end }}
 
 <figure class="{{.class}}">
-<img style="width: 100%; height: auto;" src='{{ $scratch.Get "src" }}' {{ $scratch.Get "width" }} {{ $scratch.Get "height" }} class="{{.class}}">
+<img style="width: 100%; height: auto;" src='{{ $scratch.Get "src" | absURL}}' {{ $scratch.Get "width" }} {{ $scratch.Get "height" }} class="{{.class}}">
 </figure>

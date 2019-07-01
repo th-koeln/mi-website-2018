@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anja Sivakumar on Medieninformatik an der TH Köln</title>
-    <link>http://localhost:1313/autoren/anja-sivakumar/</link>
+    <link>/mi-master-wtw-pagespeed/autoren/anja-sivakumar/</link>
     <description>Recent content in Anja Sivakumar on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/autoren/anja-sivakumar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/mi-master-wtw-pagespeed/autoren/anja-sivakumar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ableitung von berührungslosen Gesten aus Multi-Touch Gesten für die Steuerung von Multimedia im Automobil</title>
-      <link>http://localhost:1313/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</link>
+      <link>/mi-master-wtw-pagespeed/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>http://localhost:1313/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</guid>
+      <guid>/mi-master-wtw-pagespeed/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</guid>
       <description>Die Multimedia in einem Auto wird durch die steigende Entwicklungen der Technologie immer beliebter. Von einfachen CD-Player und Radioempfänger sind mittlerweile Navigationssysteme, Telefonieren oder auch das Internet in einem Auto zu finden. Um die Interaktion mit diesen Entertainmentsystemen zu vereinfachen wurde aus einem einfachen LCD-Bildschirm, Touch-Oberflächen integriert. Die &amp;ldquo;Intuitivität&amp;rdquo; der Interaktionsmöglichkeiten soll durch die Einführung von berührungslosen Gesten erreicht werden. Der Nutzer soll schnell und intuitiv mit dem System interagieren können, doch was bedeutet dies für den Nutzer?</description>
     </item>
     
