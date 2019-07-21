@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prof. Dr. Martin Eisemann on Medieninformatik an der TH Köln</title>
-    <link>/mi-master-wtw-pagespeed/betreuer/prof.-dr.-martin-eisemann/</link>
+    <link>http://localhost:1313/betreuer/prof.-dr.-martin-eisemann/</link>
     <description>Recent content in Prof. Dr. Martin Eisemann on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sat, 02 Jun 2018 13:49:31 +0200</lastBuildDate>
     
-	<atom:link href="/mi-master-wtw-pagespeed/betreuer/prof.-dr.-martin-eisemann/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/betreuer/prof.-dr.-martin-eisemann/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Generierung Von Wortwolken Im Svg Format Mittels Webstandards</title>
-      <link>/mi-master-wtw-pagespeed/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</link>
+      <link>http://localhost:1313/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</link>
       <pubDate>Sat, 02 Jun 2018 13:49:31 +0200</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</guid>
+      <guid>http://localhost:1313/papers/2018/generierung-von-wortwolken-im-svg-format-mittels-webstandards/</guid>
       <description>Bei der Visualisierung von Informationen geht es vor allem darum Daten oder Zusammenhänge graphisch darzustellen. Für die graphische Darstellung können verschiedene Mittel verwendet werden, wie z.B. Tabellen, Diagramme oder Bilder. Das Kriterium zur Auswahl der Mittel hängt mit dem Kontext der Information und einer oder mehreren Fragen, die es mit der Visualisierung zu beantworten gilt, zusammen [1, p. 18f]. Wenn die Information z.B. unmittelbar mit Zahlen zusammenhängt, eignet sich für die Visualisierung oft ein Diagramm, da hier geometrische Formen verwendet werden können und die Größe der Formen im Bezug zur zählbaren Information steht.</description>
     </item>
     
     <item>
       <title>Ermittlung und prototypische Integration einer visuellen Programmierumgebung zur Programmierung von Arduino-Uno-Mikrocontrollern im Projekt Jugend hackt - Hello World</title>
-      <link>/mi-master-wtw-pagespeed/papers/2017/ermittlung-und-prototypische-integration-einer-visuellen-programmierumgebung-zur-programmierung-von-arduino-uno-mikrocontrollern-im-projekt-jugend-hackt-hello-world/</link>
+      <link>http://localhost:1313/papers/2017/ermittlung-und-prototypische-integration-einer-visuellen-programmierumgebung-zur-programmierung-von-arduino-uno-mikrocontrollern-im-projekt-jugend-hackt-hello-world/</link>
       <pubDate>Sat, 05 May 2018 21:05:33 +0530</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2017/ermittlung-und-prototypische-integration-einer-visuellen-programmierumgebung-zur-programmierung-von-arduino-uno-mikrocontrollern-im-projekt-jugend-hackt-hello-world/</guid>
+      <guid>http://localhost:1313/papers/2017/ermittlung-und-prototypische-integration-einer-visuellen-programmierumgebung-zur-programmierung-von-arduino-uno-mikrocontrollern-im-projekt-jugend-hackt-hello-world/</guid>
       <description>Diese Arbeit baut auf dem Praxisprojekt SS17 mit dem Titel Konzeption eines Tages” workshops zur Vermittlung kreativer Probleml¨osekompetenzen anhand von Technik mit Fokus auf Programmierung - an Jugendliche zwischen 10 und 16 Jahren“ auf. Die Arbeit dient der Erlangung des akademischen Grades Bachelor of Science.
 Ziel der Arbeit ist eine Auswahl einer visuellen Programmierumgebung f¨ur ArduinoUno-Mikrocontroller f¨ur das Projekt Jugend hackt - Hello World“. Die Program” mierumgebung soll dazu dienen, Kindern und Jugendlichen, die Programmieren lernen m¨ochten, die Programmierung der Arduino-Uno-Mikrocontroller zu erleichtern.</description>
     </item>

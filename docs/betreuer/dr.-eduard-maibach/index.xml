@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr. Eduard Maibach on Medieninformatik an der TH Köln</title>
-    <link>/mi-master-wtw-pagespeed/betreuer/dr.-eduard-maibach/</link>
+    <link>http://localhost:1313/betreuer/dr.-eduard-maibach/</link>
     <description>Recent content in Dr. Eduard Maibach on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
     
-	<atom:link href="/mi-master-wtw-pagespeed/betreuer/dr.-eduard-maibach/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/betreuer/dr.-eduard-maibach/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>User Tracking via Browser Fingerprinting</title>
-      <link>/mi-master-wtw-pagespeed/papers/2017/user-tracking-via-browser-fingerprinting/</link>
+      <link>http://localhost:1313/papers/2017/user-tracking-via-browser-fingerprinting/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2017/user-tracking-via-browser-fingerprinting/</guid>
+      <guid>http://localhost:1313/papers/2017/user-tracking-via-browser-fingerprinting/</guid>
       <description>In days that we can do almost anything online, it is crucial for web developers to receive information about the users&amp;rsquo; behavior and devices in order to improve the web service. We make use of cookies to identify / recognize a user and store the required information about them. In this thesis, however, I present a modern, sophisticated way to track users without using cookies as it has become very easy to block them.</description>
     </item>
     

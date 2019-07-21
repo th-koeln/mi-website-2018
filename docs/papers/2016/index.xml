@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2016 on Medieninformatik an der TH Köln</title>
-    <link>/mi-master-wtw-pagespeed/papers/2016/</link>
+    <link>http://localhost:1313/papers/2016/</link>
     <description>Recent content in 2016 on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
     
-	<atom:link href="/mi-master-wtw-pagespeed/papers/2016/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/papers/2016/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>25knots – Ein Tool zur Verbesserung der gestalterischen Qualität von Artefakten im Hochschulkontext</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</link>
+      <link>http://localhost:1313/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</guid>
+      <guid>http://localhost:1313/papers/2016/25knots-ein-tool-zur-verbesserung-der-gestalterischen-qualitaet-von-artefakten-im-hochschulkontext/</guid>
       <description>Die nachfolgende Arbeit beschäftigt sich mit der Entwicklung der Webanwendung 25Knots zu einem marktfähigen Produkt, basierend auf bereits im Praxisprojekt erarbeiteten Konzepten und einem Proof of Concept. Ziel ist dabei nicht nur, die Verwendung durch die Community nach Abschluss dieser Arbeit möglich zu machen, sondern diese auch aktiv an der Weiterentwicklung der Anwendung teilhaben zu lassen. Die Anwendung 25Knots zielt darauf ab, die gestalterische Qualität von Artefakten im Hochschulkontext zu verbessern.</description>
     </item>
     
     <item>
       <title>Ableitung von berührungslosen Gesten aus Multi-Touch Gesten für die Steuerung von Multimedia im Automobil</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</link>
+      <link>http://localhost:1313/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</guid>
+      <guid>http://localhost:1313/papers/2016/ableitung-von-beruehrungslosen-gesten-aus-multi-touch-gesten-fuer-die-steuerung-von-multimedia-im-automobil/</guid>
       <description>Die Multimedia in einem Auto wird durch die steigende Entwicklungen der Technologie immer beliebter. Von einfachen CD-Player und Radioempfänger sind mittlerweile Navigationssysteme, Telefonieren oder auch das Internet in einem Auto zu finden. Um die Interaktion mit diesen Entertainmentsystemen zu vereinfachen wurde aus einem einfachen LCD-Bildschirm, Touch-Oberflächen integriert. Die &amp;ldquo;Intuitivität&amp;rdquo; der Interaktionsmöglichkeiten soll durch die Einführung von berührungslosen Gesten erreicht werden. Der Nutzer soll schnell und intuitiv mit dem System interagieren können, doch was bedeutet dies für den Nutzer?</description>
     </item>
     
     <item>
       <title>Atomic Responsive Design Workflow Kombination des Responsive Design Workflows mit dem Atomic Design zu einem neuen Vorgehensmodell</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/atomic-responsive-design-workflow-kombination-des-responsive-design-workflows-mit-dem-atomic-design-zu-einem-neuen-vorgehensmodell/</link>
+      <link>http://localhost:1313/papers/2016/atomic-responsive-design-workflow-kombination-des-responsive-design-workflows-mit-dem-atomic-design-zu-einem-neuen-vorgehensmodell/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/atomic-responsive-design-workflow-kombination-des-responsive-design-workflows-mit-dem-atomic-design-zu-einem-neuen-vorgehensmodell/</guid>
+      <guid>http://localhost:1313/papers/2016/atomic-responsive-design-workflow-kombination-des-responsive-design-workflows-mit-dem-atomic-design-zu-einem-neuen-vorgehensmodell/</guid>
       <description>Die Gestaltung und Optimierung von Webseiten auf die unterschiedlichsten Geräte, Bildschirmgrößen und -Auflösungen rückt durch das ständige Wachstum der Anzahl mobiler Internetnutzer immer mehr in den Fokus der Webdesigner und -entwickler und sollte daher bei der Entwicklung von Webseiten berücksichtigt werden. Die vorliegende Arbeit befasst sich damit den Entwurf eines Vorgehensmodells zu vermitteln, welcher in seinen Grundzügen die Aspekte der reaktionsfähigen Webentwicklung sowie der atomaren Gestaltung kombiniert. Basis für das Vorgehensmodell ist der von Stephen Hay und Brad Frost erarbeitete Responsive Design Workflow (kurz RDW) sowie der Atomic Design (kurz AD) Ansatz, da diese bereits die wesentlichen Aspekte, sowie die Grundlagen zur gestalterischen und technischen Umsetzung von Webseiten und die wichtigen Prinzipien der Inhaltsgestaltung beinhalten.</description>
     </item>
     
     <item>
       <title>Die Ermittlung von Sehenswürdigkeiten mittels Linked Open Data am Beispiel der Stadt Köln</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/die-ermittlung-von-sehenswuerdigkeiten-mittels-linked-open-data-am-beispiel-der-stadt-koeln/</link>
+      <link>http://localhost:1313/papers/2016/die-ermittlung-von-sehenswuerdigkeiten-mittels-linked-open-data-am-beispiel-der-stadt-koeln/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/die-ermittlung-von-sehenswuerdigkeiten-mittels-linked-open-data-am-beispiel-der-stadt-koeln/</guid>
+      <guid>http://localhost:1313/papers/2016/die-ermittlung-von-sehenswuerdigkeiten-mittels-linked-open-data-am-beispiel-der-stadt-koeln/</guid>
       <description>Das Suchen ist eine der, wenn nicht die am häufigsten durchgeführte Tätigkeit im Internet. Täglich werden Suchmaschinen mit Problemen aus aller Welt und aller Domänen befragt, in der Hoffnung, dass das Internet eine Lösung bereitstellt. Neben dem Web der Dokumente, welches überwiegend die großen Suchmaschinenhersteller wie Google und Microsoft durchsuchen, existiert auch das weniger bekannte Web der Daten. In diesem Teil des Internets werden Daten, keine Dokumente, in einem festen Format kodiert.</description>
     </item>
     
     <item>
       <title>Entwicklung einer webbasierten Auftragsbearbeitung für ein Kleinunternehmen in der Lohnfertigung</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</link>
+      <link>http://localhost:1313/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</guid>
+      <guid>http://localhost:1313/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</guid>
       <description>In dieser Bachelorarbeit wird die Auftragsbearbeitung eines kleinen Unternehmens analysiert und auf Grundlage dessen eine Webanwendung entwickelt, welche diese digitalisieren und optimieren soll. Dabei wird eine genaue Betrachtung der Ausgangssituation vorgenommen und eine Stakeholderbetrachtung durchgeführt. Aus den daraus resultierenden Anforderungen an die Webanwendung wird in der Konzeption ein Lösungsansatz entwickelt, welcher die Anforderungen an diese erfüllt. Anschließend wird eine Technologieunabhängige Systemarchitektur entwickelt. Anhand der in der Konzeption erarbeiteten Ergebnisse werden Anforderungen an das System ermittelt.</description>
     </item>
     
     <item>
       <title>Ermittlung relevanter Themengebiete für die Entwicklung eines Tools zur Unterstützung beim Erstellen von Gestaltungslösungen im Hochschulkontext</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/ermittlung-relevanter-themengebiete-fuer-die-entwicklung-eines-tools-zur-unterstuetzung-beim-erstellen-von-gestaltungsloesungen-im-hochschulkontext/</link>
+      <link>http://localhost:1313/papers/2016/ermittlung-relevanter-themengebiete-fuer-die-entwicklung-eines-tools-zur-unterstuetzung-beim-erstellen-von-gestaltungsloesungen-im-hochschulkontext/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/ermittlung-relevanter-themengebiete-fuer-die-entwicklung-eines-tools-zur-unterstuetzung-beim-erstellen-von-gestaltungsloesungen-im-hochschulkontext/</guid>
+      <guid>http://localhost:1313/papers/2016/ermittlung-relevanter-themengebiete-fuer-die-entwicklung-eines-tools-zur-unterstuetzung-beim-erstellen-von-gestaltungsloesungen-im-hochschulkontext/</guid>
       <description>Ziel des vorliegenden Praxisprojektes war es, relevante Themengebiete für die Konzeption eines Tools zu definieren, das Nutzern dabei hilft, Gestaltungslösungen im Hochschulkontext zu erstellen. Zu diesem Zweck wurden zunächst relevante Themengebiete auf Basis einer Fehleranalyse ermittelt. Anschließend wurde der Versuch unternommen, in den jeweiligen Themengebieten Regeln zu definieren, die bei einer späteren Umsetzung des Tool berücksichtigt werden können. Die Arbeit hält die theoretischen Ergebnisse fest und verweist auf einige praktische Ergebnisse wie etwa einen Proof of Concept oder Wireframes, die erstellt wurden.</description>
     </item>
     
     <item>
       <title>Implementierung und Optimierung des Atomic Design-Ansatzes in den Workflow der JAR Media GmbH</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/implementierung-und-optimierung-des-atomic-design-ansatzes-in-den-workflow-der-jar-media-gmbh/</link>
+      <link>http://localhost:1313/papers/2016/implementierung-und-optimierung-des-atomic-design-ansatzes-in-den-workflow-der-jar-media-gmbh/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/implementierung-und-optimierung-des-atomic-design-ansatzes-in-den-workflow-der-jar-media-gmbh/</guid>
+      <guid>http://localhost:1313/papers/2016/implementierung-und-optimierung-des-atomic-design-ansatzes-in-den-workflow-der-jar-media-gmbh/</guid>
       <description>Die vorliegende Bachelor-Thesis beschaftigt sich mit der Optimierung der zur Zeit der Ausarbeitung aktuellen Arbeitsweisen und eingesetzten Technologien bei der Firma JAR Media GmbH im Frontend-Editor. Diese werden von dem Autor kritisch uberpruft und auf Grundlage des Atomic Design-Ansatzes optimiert. Dabei werden die angesagten und ausgereiften Werkzeuge auf dem Markt auf eine mogliche Verwendung im besagten Unternehmen evaluiert. Anschlieend ndet die Entwicklung eines eigenen speziell auf die Firma JAR Media GmbH zugeschnittenen Work ows, unter Berucksichtigung vieler fur die Firma wichtigen Faktoren statt, welches kritisch auf die Optimierungsfaktoren Ezienz, Qualitat und Zuganglichkeit uberpruft wird.</description>
     </item>
     

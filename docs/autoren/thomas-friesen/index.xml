@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thomas Friesen on Medieninformatik an der TH Köln</title>
-    <link>/mi-master-wtw-pagespeed/autoren/thomas-friesen/</link>
+    <link>http://localhost:1313/autoren/thomas-friesen/</link>
     <description>Recent content in Thomas Friesen on Medieninformatik an der TH Köln</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 06 Jun 2018 11:56:33 +0000</lastBuildDate>
     
-	<atom:link href="/mi-master-wtw-pagespeed/autoren/thomas-friesen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/autoren/thomas-friesen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Entwicklung einer webbasierten Auftragsbearbeitung für ein Kleinunternehmen in der Lohnfertigung</title>
-      <link>/mi-master-wtw-pagespeed/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</link>
+      <link>http://localhost:1313/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</link>
       <pubDate>Wed, 06 Jun 2018 11:56:33 +0000</pubDate>
       
-      <guid>/mi-master-wtw-pagespeed/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</guid>
+      <guid>http://localhost:1313/papers/2016/entwicklung-einer-webbasierten-auftragsbearbeitung-fuer-ein-kleinunternehmen-in-der-lohnfertigung/</guid>
       <description>In dieser Bachelorarbeit wird die Auftragsbearbeitung eines kleinen Unternehmens analysiert und auf Grundlage dessen eine Webanwendung entwickelt, welche diese digitalisieren und optimieren soll. Dabei wird eine genaue Betrachtung der Ausgangssituation vorgenommen und eine Stakeholderbetrachtung durchgeführt. Aus den daraus resultierenden Anforderungen an die Webanwendung wird in der Konzeption ein Lösungsansatz entwickelt, welcher die Anforderungen an diese erfüllt. Anschließend wird eine Technologieunabhängige Systemarchitektur entwickelt. Anhand der in der Konzeption erarbeiteten Ergebnisse werden Anforderungen an das System ermittelt.</description>
     </item>
     

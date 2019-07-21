@@ -1,30 +1,50 @@
 
-[	
+[	 
     
+    
+    {
     "title":"Abschlusspräsentationen Praxisprojekt",
     "termin":"13. Februar 2019, 09:00 Uhr, Raum 3.216",
-    "date":2016-11-05 00:00:00 +0000 UTC,
-    "content": ""Im Rahmen des Praxisprojektes finden am 13.02.2019 ab 09:00 Uhr in Raum 3.216 Abschlusspräsentationen u. a. zu folgenden Themen statt:\n\n- Automatisierte Generierung von Testcases für RESTful APIs auf Basis einer API Spezifikation\n- Kategorisierung von Code zur Unterstützung des Reviewprozesses\n- Design Patterns in Reise-Blogs"",
+    "date":"2016-11-05 00:00:00 +0000 UTC",
+    "content": "Im Rahmen des Praxisprojektes finden am 13.02.2019 ab 09:00 Uhr in Raum 3.216 Abschlusspräsentationen u. a. zu folgenden Themen statt:\n\n- Automatisierte Generierung von Testcases für RESTful APIs auf Basis einer API Spezifikation\n- Kategorisierung von Code zur Unterstützung des Reviewprozesses\n- Design Patterns in Reise-Blogs"
+    }
     
+    
+    , 
+    {
     "title":"Infoveranstaltung zu den Vertiefungsmodulen in der MI",
     "termin":"31. Januar 2019, 09:00 Uhr // Raum 3.102",
-    "date":2016-11-05 00:00:00 +0000 UTC,
-    "content": ""Heute stellen wir das Konzept der Vertiefungsmodule und die Module als solches vor. Die Vertiefungsmodule können nur vor Studierenden der BPO4 gewählt werden. Im Rahmen der Veranstaltung werden die einzelnen Vertiefungsmodule vorgestellt und erklärt was in den Modulen inhaltlich und organisatorisch passiert.\n\n## Wahlmöglichkeiten:\n- [Social Computing](/study/bachelor/moduls/ba_vertiefung_socialcomputing/)\n- [Visual Computing](/study/bachelor/moduls/ba_vertiefung-visual-computing/)\n- [Web Development](/study/bachelor/moduls/ba_vertiefung-web_development/)\n"",
+    "date":"2016-11-05 00:00:00 +0000 UTC",
+    "content": "Heute stellen wir das Konzept der Vertiefungsmodule und die Module als solches vor. Die Vertiefungsmodule können nur vor Studierenden der BPO4 gewählt werden. Im Rahmen der Veranstaltung werden die einzelnen Vertiefungsmodule vorgestellt und erklärt was in den Modulen inhaltlich und organisatorisch passiert.\n\n## Wahlmöglichkeiten:\n- [Social Computing](/study/bachelor/moduls/ba_vertiefung_socialcomputing/)\n- [Visual Computing](/study/bachelor/moduls/ba_vertiefung-visual-computing/)\n- [Web Development](/study/bachelor/moduls/ba_vertiefung-web_development/)\n"
+    }
     
+    
+    , 
+    {
     "title":"Medieninformatik Kontaktbörse 2019",
     "termin":"31. Januar 2019, 10:30 Uhr // Raum 3.216",
-    "date":2016-11-05 00:00:00 +0000 UTC,
-    "content": ""Was könnte ich den als Praxisprojekt machen? Und als Bachelorarbeit oder Masterthesis? Vielleicht mal mit einem externen Partner? Hm Ö um Antworten auf diese oder ähnliche Fragen zu bekommen, findet auch in diesem Jahr wieder die Medieninformatik Kontaktbörse statt.\n\nDie Veranstaltung richtet sich an Bachelor- und Masterstudierende auf der Suche nach einem Thema für ihr Abschlusssemester. Ziel dabei ist, dass sie sich möglichst früh in Richtung Praxisprojekt und Abschlussarbeit organisieren, sprich: mögliche Themenfelder abstecken, Kooperationspartner suchen, Betreuer suchen, etc.\n\nZu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die ihre Themen- und Problemfelder vorstellen, um so eine Brücke zwischen Studierenden und möglichen Kooperationspartnern zu schlagen und Diskus anzuregen.\n\n## Teilnehmer:\n- Cologne Broadcasting Center GmbH\n- ALDI International Services GmbH \u0026 Co. oHG\n- Herr Westermann\n- Universitätsklinikum Köln\n- außerdem Vorstellung diverser Forschungsprojekte"",
+    "date":"2016-11-05 00:00:00 +0000 UTC",
+    "content": "Was könnte ich den als Praxisprojekt machen? Und als Bachelorarbeit oder Masterthesis? Vielleicht mal mit einem externen Partner? Hm Ö um Antworten auf diese oder ähnliche Fragen zu bekommen, findet auch in diesem Jahr wieder die Medieninformatik Kontaktbörse statt.\n\nDie Veranstaltung richtet sich an Bachelor- und Masterstudierende auf der Suche nach einem Thema für ihr Abschlusssemester. Ziel dabei ist, dass sie sich möglichst früh in Richtung Praxisprojekt und Abschlussarbeit organisieren, sprich: mögliche Themenfelder abstecken, Kooperationspartner suchen, Betreuer suchen, etc.\n\nZu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die ihre Themen- und Problemfelder vorstellen, um so eine Brücke zwischen Studierenden und möglichen Kooperationspartnern zu schlagen und Diskus anzuregen.\n\n## Teilnehmer:\n- Cologne Broadcasting Center GmbH\n- ALDI International Services GmbH \u0026 Co. oHG\n- Herr Westermann\n- Universitätsklinikum Köln\n- außerdem Vorstellung diverser Forschungsprojekte"
+    }
     
+    
+    , 
+    {
     "title":"Showcase 2018",
     "termin":"11. Dezember 2018, 13:00 Uhr",
-    "date":2016-11-05 00:00:00 +0000 UTC,
-    "content": ""Auch in diesem Jahr veranstaltet das Lehr- und Forschungsgebiet Medieninformatik wieder einen Showcase. Hier gibt es ein vielfältiges Programm von Medieninformatikern für Medieninformatiker und alle, die sich für die Medieninformatik am Campus Gummersbach interessieren.\n\nFür alle, die noch auf der Suche nach möglichen Themen für ein Projekt oder eine Abschlussarbeit sind, sei der Showcase als Inspirationsquelle empfohlen. Hier bekommt man auf unterhaltsame Weise einen Überblick, was Andere schon gemacht haben und woran man selbst anknüpfen könnte.\n\n## Programm\n\n### 13:00 Uhr MI Talks // Raum 3.216\nRebecca Uebachs und Franz Jaspers berichten aus dem Berufsalltag eines Medieninformatikers.\n\n### 14:00-16:00 Uhr Ausstellung // Foyer des Hauptgebäudes\nIm Foyer des Hauptgebäudes werden ausgewählte Arbeiten und Projekte der letzten beiden Semestern aus den Medieninformatik Studiengängen vorgestellt.\n\n### 15:30-16:00 Uhr Vorführung Film-Projekte // Raum 3.216\nIm Studio werden einige ausgewählte Filmprojekte von Prof. Hans Kornacher vorgestellt.\n\n### 16:00 Uhr Siegerehrung // Foyer des Hauptgebäudes\nAuf dem Showcase können die Besucher traditionell ihr Best-of-Best Projekt wählen. Diesmal werden auch die Projekte unserer Erstsemester prämiert."",
+    "date":"2016-11-05 00:00:00 +0000 UTC",
+    "content": "Auch in diesem Jahr veranstaltet das Lehr- und Forschungsgebiet Medieninformatik wieder einen Showcase. Hier gibt es ein vielfältiges Programm von Medieninformatikern für Medieninformatiker und alle, die sich für die Medieninformatik am Campus Gummersbach interessieren.\n\nFür alle, die noch auf der Suche nach möglichen Themen für ein Projekt oder eine Abschlussarbeit sind, sei der Showcase als Inspirationsquelle empfohlen. Hier bekommt man auf unterhaltsame Weise einen Überblick, was Andere schon gemacht haben und woran man selbst anknüpfen könnte.\n\n## Programm\n\n### 13:00 Uhr MI Talks // Raum 3.216\nRebecca Uebachs und Franz Jaspers berichten aus dem Berufsalltag eines Medieninformatikers.\n\n### 14:00-16:00 Uhr Ausstellung // Foyer des Hauptgebäudes\nIm Foyer des Hauptgebäudes werden ausgewählte Arbeiten und Projekte der letzten beiden Semestern aus den Medieninformatik Studiengängen vorgestellt.\n\n### 15:30-16:00 Uhr Vorführung Film-Projekte // Raum 3.216\nIm Studio werden einige ausgewählte Filmprojekte von Prof. Hans Kornacher vorgestellt.\n\n### 16:00 Uhr Siegerehrung // Foyer des Hauptgebäudes\nAuf dem Showcase können die Besucher traditionell ihr Best-of-Best Projekt wählen. Diesmal werden auch die Projekte unserer Erstsemester prämiert."
+    }
     
+    
+    , 
+    {
     "title":"Oberbergischer Vorlesetag 2018",
     "termin":"16. November 2018, 10:00 Uhr",
-    "date":2016-11-05 00:00:00 +0000 UTC,
-    "content": ""Jährlich am dritten Freitag im November lesen zahlreiche Freiwillige an den verschiedensten Orten im oberbergischen Raum vor. Die Liveübertragung findet dieses Jahr von 10 Uhr bis 13 Uhr statt. Bundesweit gibt es inzwischen über 120.000 VorleserInnen, die groß und klein jedes Jahr aufs Neue begeistern. Die komplette technische Umsetzung der Live Veranstalung wird von der Medieninformatik durchgeführt."",
+    "date":"2016-11-05 00:00:00 +0000 UTC",
+    "content": "Jährlich am dritten Freitag im November lesen zahlreiche Freiwillige an den verschiedensten Orten im oberbergischen Raum vor. Die Liveübertragung findet dieses Jahr von 10 Uhr bis 13 Uhr statt. Bundesweit gibt es inzwischen über 120.000 VorleserInnen, die groß und klein jedes Jahr aufs Neue begeistern. Die komplette technische Umsetzung der Live Veranstalung wird von der Medieninformatik durchgeführt."
+    }
+    
     
 ]
 

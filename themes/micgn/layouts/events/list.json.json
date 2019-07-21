@@ -1,10 +1,14 @@
 {{ define "response" }}
-[	
+[	 
     {{ range $index, $element := .Data.Pages }}
+    {{ if $index }}, {{ end }}
+    {
     "title":"{{$element.Title}}",
     "termin":"{{$element.Params.termin}}",
-    "date":{{$element.Params.date}},
-    "content": "{{$element.RawContent  | jsonify }}",
+    "date":"{{$element.Params.date}}",
+    "content": {{$element.RawContent  | jsonify }}
+    }
+    
     {{ end }}
 ]
 {{ end }}
