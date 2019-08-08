@@ -14,7 +14,13 @@ document.onreadystatechange = function () {
 
 function createNews() {
   var newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
-  var target = document.querySelector(".js-eventblock-vanilla");
+  var schema = [{
+    "title": "string",
+    "termin": "string",
+    "date": "date",
+    "bild": "url"
+  }];
+  var target = document.querySelector("#eventblock");
   var promises = [];
   var data = [];
 
@@ -22,6 +28,10 @@ function createNews() {
     return new Promise(function (resolve, reject) {
       fetch(url).then(function (response) {
         return response.json();
+      }).then(function (json) {
+        json.forEach(function (item) {
+          console.log(item);
+        });
       }).then(function (json) {
         json.forEach(function (item) {
           data.push(item);
@@ -34,8 +44,8 @@ function createNews() {
 
   function sortItems() {
     data.sort(function (a, b) {
-      var aTime = new Date(a.datum).getTime();
-      var bTime = new Date(b.datum).getTime();
+      var aTime = new Date(a.date).getTime();
+      var bTime = new Date(b.date).getTime();
       return bTime - aTime;
     });
   }
@@ -49,7 +59,7 @@ function createNews() {
   }
 
   newsUrls.forEach(function (url) {
-    promises.push(getResource(url));
+    promises.push(getResource(url)); //promises.push(validateSchema());
   });
   Promise.all(promises).then(function () {
     return sortItems();
@@ -57,4 +67,4 @@ function createNews() {
     return displayItems();
   });
 }
-//# sourceMappingURL=mi-75a448cf.js.map
+//# sourceMappingURL=mi-b1771fe0.js.map
