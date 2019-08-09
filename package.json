@@ -1,18 +1,14 @@
 {
   "name": "mi-website-2018",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "hugo": "hugo server --disableFastRender --ignoreCache --renderToDisk",
-    "mgulp": "npx babel gulpfile.babel.js --out-file gulpfile.js",
-    "static": "hugo --cleanDestinationDir && gulp all",
-    "ghpages": "hugo --environment staging --cleanDestinationDir && gulp all"
+    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk",
+    "build": "hugo --cleanDestinationDir && gulp all",
+    "deploy": "hugo --environment staging --cleanDestinationDir && gulp all"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Advanced Media Institut - Cologne University of Applied Sciences",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:th-koeln/mi-website-2018.git"
