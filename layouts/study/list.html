@@ -1,9 +1,10 @@
 {{ define "main" }}
 	{{ $params := . }}
 
+    {{ if .File}}
 	<div class="grid-x grid-margin-x">
 		<div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
-			{{ $level := split .Dir "/" }}
+			{{ $level := split .File.Dir "/" }}
 
 			{{ if gt (len $level) 2 }}
 				<h1>{{ .Title }}</h1>
@@ -11,7 +12,8 @@
 
 			{{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
 		</div>
-	</div>
+    </div>
+    {{ end }}
 
 	<div class="grid-x grid-margin-x ">
 		<div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
@@ -26,7 +28,7 @@
 							{{ if $teaser }}
 								{{ $image := index ($teaser) 0 }}            
 								{{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
-								{{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info" $section.Summary "url" $section.URL "linktext" "mehr lesen") }}
+								{{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info" $section.Summary "url" $section.Permalink "linktext" "mehr lesen") }}
 							{{ end }}
 						</article>
 					</div>

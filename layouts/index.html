@@ -2,9 +2,11 @@
     {{ $params := . }}
     {{ $scratch := newScratch }}
     
+    {{ if .File }}
     <div class="grid-x grid-margin-x">
         <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
-            {{ $level := split .Dir "/" }}
+            
+            {{ $level := split .File.Dir "/" }}
 
             {{ if gt (len $level) 2}}
                 <h1>{{ .Title }}</h1>
@@ -13,6 +15,7 @@
             {{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
         </div>
     </div>
+    {{ end }}
 
     {{ with .Site.GetPage "/events" }}
         <div class="grid-x grid-margin-x grid-padding-y">

@@ -2,7 +2,9 @@
     {{ $params := . }}
     <span class="primary label">list-template</span>
     <span class="primary label">
-        {{ .Dir }}
+        {{ if .File }}
+            {{ .File.Dir }}
+        {{ end }}
     </span>
     <div class="grid-x grid-margin-x">
         <div class="cell large-8">
@@ -19,7 +21,9 @@
                     <h3>Page: {{ .Title }}</h3>
                     
                     <span class="primary label">
-                        {{ .Dir }}
+                        {{ if .File }}
+                            {{ .File.Dir }}
+                        {{ end }}
                     </span>
                     
                     {{ .Summary }}
@@ -34,7 +38,7 @@
                             {{ end }}
                         {{ end }}
                     </div>
-                    <a href="{{ .URL }}">mehr lesen</a>
+                    <a href="{{ .Permalink }}">mehr lesen</a>
                 </article>
             </div>
         </div>
@@ -46,7 +50,9 @@
                 <article class="m-mi-content-wrap">
                     <h3>Section: {{ .Title }}</h3>
                     
-                    <div>{{ .Dir }}</div>
+                    {{ if .File }}
+                        <div>{{ .File.Dir }}</div>
+                    {{ end }}
                     
                     {{ .Summary }}
                     <div style="color:grey; font-size:16px;">
@@ -59,7 +65,7 @@
                             {{ end }}
                         {{ end }}
                     </div>
-                    <a href="{{ .URL }}">mehr lesen</a>
+                    <a href="{{ .Permalink }}">mehr lesen</a>
                 </article>
             </div>
         </div>

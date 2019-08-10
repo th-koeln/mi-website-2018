@@ -44,7 +44,7 @@
 					<ul class="mi-linkliste">
 						{{ range $modul := where $.Site.Pages $key "==" $i }}
 							<li>
-								<a href="{{$modul.URL}}">
+								<a href="{{ $modul.Permalink }}">
 									{{ $modul.Title }}
 								</a>
 							</li>

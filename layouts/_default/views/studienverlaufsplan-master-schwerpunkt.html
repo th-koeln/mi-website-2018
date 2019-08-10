@@ -4,7 +4,9 @@
 {{ $people := .Site.Data.people }}
 
 {{ $scratch := newScratch }}
-{{ $scratch.Set "dir" .Parent.Dir }}
+{{ if .File }}
+    {{ $scratch.Set "dir" .File.Dir }}
+{{ end }}
 {{ $moduldir := $scratch.Get "dir" }}
 
 {{ $module := where $.Site.Pages "Params.zielmedium" "!=" "print" }}

@@ -1,10 +1,12 @@
 {{ define "main" }}
 	{{ $globalParams := . }}
 	
-	<!-- Papers List Template -->
+    <!-- Papers List Template -->
 	<div class="grid-x grid-margin-x">
 		<div class="cell large-8">
-			{{ .Dir }}
+            {{ if .File }}
+                {{ .File.Dir }}
+            {{ end }}
 			{{ .Content }}
 		</div>
 	</div>

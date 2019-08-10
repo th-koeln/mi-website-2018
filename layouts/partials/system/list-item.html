@@ -1,7 +1,9 @@
 {{ range . }}
 	{{ .Title }}
-	<br />
-	{{ .Dir }}
+    <br />
+    {{ if .File }}
+        {{ .File.Dir }}
+    {{ end }}
 	<br />
 {{ end }}
 <hr />

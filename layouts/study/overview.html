@@ -21,8 +21,10 @@
 	</div>
 
 	{{ range $additionalcontent := .Params.additionalcontent }}
-		{{ $scratch.Set "additionalcontentPath" "/" }}
-		{{ $scratch.Add "additionalcontentPath" $.Dir }}
+        {{ $scratch.Set "additionalcontentPath" "/" }}
+        {{ if $.File }}
+            {{ $scratch.Add "additionalcontentPath" $.File.Dir }}
+        {{ end }}
 		{{ $scratch.Add "additionalcontentPath" $additionalcontent }}
 		{{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
 
@@ -40,8 +42,10 @@
 			{{ $scratch := newScratch }}
 
 			<div class="grid-x grid-margin-x">
-				{{ $scratch.Set "path" "" }}
-				{{ $scratch.Add "path" .Dir }}
+                {{ $scratch.Set "path" "" }}
+                {{ if .File }}
+                    {{ $scratch.Add "path" .File.Dir }}
+                {{ end }}
 				{{ $scratch.Add "path" "weiterfuehrende-links" }}
 				{{ $path:= $scratch.Get "path" }}
 				{{ with $.Site.GetPage $path }}
@@ -53,8 +57,10 @@
 					</div>
 				{{ end }}
 
-				{{ $scratch.Set "path" "/" }}
-				{{ $scratch.Add "path" .Dir }}
+                {{ $scratch.Set "path" "/" }}
+                {{ if .File }}
+                    {{ $scratch.Add "path" .File.Dir }}
+                {{ end }}
 				{{ $scratch.Add "path" "verantwortlich" }}
 				{{ $path:= $scratch.Get "path" }}
 

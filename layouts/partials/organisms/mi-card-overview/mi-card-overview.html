@@ -3,9 +3,11 @@
 		{{ range .ele.Sections }}
 			<div class="cell">
 				<div class="card" data-equalizer-watch>
-					<img src="/{{ path.Dir .Dir }}/teaser.svg">
-					
-					<div class="card-section">
+                    {{ if .File }}
+					    <img src="/{{ path.Dir .File.Dir }}/teaser.svg">
+					{{ end }}
+                    
+                    <div class="card-section">
 						<h3 class="h4">
 							{{ .Title }}
 						</h3>

@@ -4,9 +4,13 @@
 	{{ $scratch := newScratch }}
 	<head>
   		{{ partial "system/head/head.html" $globalParams }}
-	</head>
-
-	<body data-kind="{{.Kind}}" data-baseref="{{ .Site.Params.BaseFragment }}/{{ path.Dir .Dir }}" data-permalink="{{ .RelPermalink }}">
+    </head>
+    
+    {{ if .File }}
+        <body data-kind="{{.Kind}}" data-baseref="{{ .Site.Params.BaseFragment }}/{{ path.Dir .File.Dir }}" data-permalink="{{ .RelPermalink }}">
+        {{ else }}
+        <body data-kind="{{.Kind}}" data-baseref="{{ .Site.Params.BaseFragment }}/" data-permalink="{{ .RelPermalink }}">
+    {{ end }}
   		<div class="off-canvas-wrapper">
     		<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
       			{{ partial "system/sidebar/sidebar.html" $globalParams }}
@@ -16,25 +20,28 @@
     			<div class="grid-container fluid has-gap">
         			<div class="grid-x grid-margin-x">
           				<div class="large-12 cell">
-            				{{ $fragments := cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\") }}
-            				{{ $iFragments := sub (len $fragments) 2 }}
-            				{{ $scratch.Set "iFragments" $iFragments }}
-            				{{ $fragment := index ($fragments) 0 }}
-            				{{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
-            				{{ $fragments := cond ( in .Dir "/") (split .Page.Type "/") (split .Page.Type "\\") }}
-			
-							{{ if lt ($iFragments) 1 }}
-              					{{ $scratch.Set "iFragments" 1 }}
-            				{{ end }}
-			
-							{{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\"))) }}
+                            {{ if .File}}
+                                {{ $fragments := cond ( in .File.Dir "/") (split .File.Dir "/") (split .File.Dir "\\") }}
+                                {{ $iFragments := sub (len $fragments) 2 }}
+                                {{ $scratch.Set "iFragments" $iFragments }}
+                                {{ $fragment := index ($fragments) 0 }}
+                                {{ $fragments := cond ( in .File.Dir "/") (split .Page.Type "/") (split .Page.Type "\\") }}
 
-            				{{ if .IsHome }}
-            					{{ $scratch.Set "fragments" false }}
-            				{{ end }}
-							
-							{{ $fragments :=  $scratch.Get "fragments" }}
-            				{{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
+                                {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
+                    
+                                {{ if lt ($iFragments) 1 }}
+                                    {{ $scratch.Set "iFragments" 1 }}
+                                {{ end }}
+                    
+                                {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (cond ( in .File.Dir "/") (split .File.Dir "/") (split .File.Dir "\\"))) }}
+                    
+                                {{ if .IsHome }}
+                                    {{ $scratch.Set "fragments" false }}
+                                {{ end }}
+                                
+                                {{ $fragments :=  $scratch.Get "fragments" }}
+                                {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
+                            {{ end }}
 						</div>
 					</div>
 					
