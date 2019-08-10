@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk",
-    "build": "hugo --cleanDestinationDir && gulp all",
-    "deploy": "hugo --environment staging --cleanDestinationDir && gulp all"
+    "build": "hugo --cleanDestinationDir && gulp",
+    "deploy": "hugo --environment staging --cleanDestinationDir && gulp"
   },
   "author": "Advanced Media Institut - Cologne University of Applied Sciences",
   "license": "MIT",
