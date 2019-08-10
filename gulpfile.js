@@ -80,7 +80,7 @@ task('clean', () => {
   	]);
 });
 
-task('default', series(['clean', 'js', 'styles']));
+task('default', series(['clean', 'js', 'styles', 'purge']));
 
 task('watch', () => {
 	watch(sources, (done) => {
