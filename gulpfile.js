@@ -14,7 +14,6 @@ const paths = {
 			'layouts/partials/**/*.scss',
 			'layouts/_default/views/**/*.scss'
 		],
-		tmp: 'src/tmp/',
 		stat: 'static/css/',
 		dest: 'data/css/'
 	},
@@ -24,7 +23,6 @@ const paths = {
 			'layouts/partials/**/*.js',
 			'layouts/_default/views/**/*.js'
 		],
-		tmp: 'src/tmp/',
 		stat: 'static/js/deploy',
 		dest: 'data/js/'
 	},
@@ -44,7 +42,6 @@ const sources = paths.styles.src.concat(paths.js.src);
 
 task('styles', () => {
 	return src(paths.styles.src)
-		.pipe(dest(paths.styles.tmp))
 		.pipe(concat('mi.scss'))
 		.pipe(sourcemaps.init())
 		.pipe(sass()
@@ -64,7 +61,6 @@ task('purge', () => {
 
 task('js', () => {
 	return src(paths.js.src)
-		.pipe(dest(paths.js.tmp))
 		.pipe(sourcemaps.init())
 		.pipe(concat('mi.js'))
 		.pipe(babel({ presets: ['@babel/env'] }))
@@ -77,10 +73,8 @@ task('js', () => {
 
 task('clean', () => {
   	return del([
-		paths.styles.tmp,
 		paths.styles.dest,
 		paths.styles.stat,
-		paths.js.tmp,
 		paths.js.dest,
 		paths.js.stat
   	]);

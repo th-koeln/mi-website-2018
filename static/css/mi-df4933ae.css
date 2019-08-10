@@ -7864,11 +7864,6 @@ a.label:hover {
   padding: 12.5px;
   display: inline-block; }
 
-.m-mi-content-block {
-  margin-bottom: 80px; }
-  .m-mi-content-block h1 {
-    margin-bottom: 40px; }
-
 .m-mi-avatar {
   display: block;
   background-color: #aaaaaa;
@@ -7878,6 +7873,11 @@ a.label:hover {
   background-size: cover;
   background-position: center;
   background-image: url("/img/avatar.png"); }
+
+.m-mi-content-block {
+  margin-bottom: 80px; }
+  .m-mi-content-block h1 {
+    margin-bottom: 40px; }
 
 .m-mi-hero-image {
   overflow: hidden;
@@ -7986,17 +7986,17 @@ a.label:hover {
     display: block;
     margin-bottom: 0; }
 
-.m-mi-textblock h1 {
-  margin-bottom: 31.5px; }
-
-.m-mi-textblock p + figure {
-  padding-top: 31.5px; }
-
 .m-mi-teaser h1 {
   margin-bottom: 31.5px; }
 
 .m-mi-teaser .mi-teaser-image {
   margin-bottom: 12.5px; }
+
+.m-mi-textblock h1 {
+  margin-bottom: 31.5px; }
+
+.m-mi-textblock p + figure {
+  padding-top: 31.5px; }
 
 .o-mi-card-overview {
   margin-bottom: 25px; }
@@ -8155,4 +8155,4 @@ a.label:hover {
   .mi-studienverlaufsplan-master thead th {
     font-family: "Roboto Slab"; }
 
-/*# sourceMappingURL=mi-ca6a7300.css.map */
+/*# sourceMappingURL=mi-df4933ae.css.map */
