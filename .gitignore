@@ -4,6 +4,7 @@
 # Ignore folder
 _archiv/
 public/
+resources/
 
 # Ignore vs.code files
 .vscode/*
