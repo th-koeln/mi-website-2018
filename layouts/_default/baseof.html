@@ -15,17 +15,17 @@
       <div class="grid-container fluid has-gap">
         <div class="grid-x grid-margin-x">
           <div class="large-12 cell">
-            
-            {{ $fragments := split .Dir "/" }}
+
+            {{ $fragments := cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\") }}
             {{ $iFragments := sub (len $fragments) 2 }}
             {{ $scratch.Set "iFragments" $iFragments }}
             {{ $fragment := index ($fragments) 0 }}
             {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
-            {{ $fragments := split .Page.Type "/" }}
+            {{ $fragments := cond ( in .Dir "/") (split .Page.Type "/") (split .Page.Type "\\") }}
             {{ if lt ($iFragments) 1 }}
               {{ $scratch.Set "iFragments" 1 }}
             {{ end }}
-            {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (split .Dir "/")) }}
+            {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\"))) }}
 
             {{ if .IsHome }}
             {{ $scratch.Set "fragments" false }}
