@@ -9,34 +9,50 @@
 {{ $scratch.Add "key" .Parent.Params.selectKey }}
 
 <div class="grid-x grid-margin-x">
-    <div class="cell">
-      <h2>Modulübersicht</h2>
-    </div>
-    <div class="cell medium-4">
-      <article class="m-mi-content-wrap">
-        <div class="m-mi-textblock is-small">
-          <p>Wie alle anderen Studiengänge im Bachelor-Master-System besteht auch der Medieninformatik Bachelor aus Modulen. Sie sind die zentrale Organisationseinheit des Studiengangs. Module bestehen aus verschiedenen Elementen wie Vorlesungen, Seminaren, Praktika und Workshops. Sie fassen die Elemente zu einem übergeordneten Thema zusammen und schließen mit einer Modulprüfung oder mehreren Teilprüfungen ab.</p>
-        </div>
-      </article>
-    </div>
 
-    <div class="cell medium-8">
-      <ul class="accordion" data-accordion data-multi-expand="true">
-        {{ $semester :=  split .Parent.Params.semester "," }}
-        {{ range $i := $semester }}
-        {{ $i := int $i }}
-        {{ $key := $scratch.Get "key" }}
-        <li class="accordion-item" data-accordion-item>
-          <a href="#" class="accordion-title">{{$i}}. Fachsemester</a>
-          <div class="accordion-content" data-tab-content>
-            <ul class="mi-linkliste">
-                {{ range $modul := where $.Site.Pages $key "==" $i }}
-              <li><a href="{{$modul.URL}}">{{$modul.Title}}</a></li>
-              {{ end }}
-            </ul>
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
+	<div class="cell">
+		<h2>Modulübersicht</h2>
+	</div>
+
+	<div class="cell medium-4">
+		<article class="m-mi-content-wrap">
+			<div class="m-mi-textblock is-small">
+				<p>
+					Wie alle anderen Studiengänge im Bachelor-Master-System besteht auch der Medieninformatik Bachelor
+					aus Modulen. Sie sind die zentrale Organisationseinheit des Studiengangs. Module bestehen aus
+					verschiedenen Elementen wie Vorlesungen, Seminaren, Praktika und Workshops. Sie fassen die Elemente
+					zu einem übergeordneten Thema zusammen und schließen mit einer Modulprüfung oder mehreren
+					Teilprüfungen ab.
+				</p>
+			</div>
+		</article>
+	</div>
+
+	<div class="cell medium-8">
+		<ul class="accordion" data-accordion data-multi-expand="true">
+			{{ $semester :=  split .Parent.Params.semester "," }}
+			{{ range $i := $semester }}
+			{{ $i := int $i }}
+			{{ $key := $scratch.Get "key" }}
+			<li class="accordion-item" data-accordion-item>
+				
+				<a href="#" class="accordion-title">
+					{{$i}}. Fachsemester
+				</a>
+				
+				<div class="accordion-content" data-tab-content>
+					<ul class="mi-linkliste">
+						{{ range $modul := where $.Site.Pages $key "==" $i }}
+							<li>
+								<a href="{{$modul.URL}}">
+									{{ $modul.Title }}
+								</a>
+							</li>
+						{{ end }}
+					</ul>
+				</div>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+</div>

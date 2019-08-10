@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-{{ $globalParams := . }}
-{{ $scratch := newScratch }}
-<head>
-  {{ partial "system/head/head.html" $globalParams }}
-</head>
+	{{ $globalParams := . }}
+	{{ $scratch := newScratch }}
+	<head>
+  		{{ partial "system/head/head.html" $globalParams }}
+	</head>
 
-<body data-kind="{{.Kind}}" data-baseref="{{.Site.Params.BaseFragment}}/{{path.Dir .Dir}}" data-permalink="{{.RelPermalink}}">
-  <div class="off-canvas-wrapper">
-    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-      {{ partial "system/sidebar/sidebar.html" $globalParams }}
-    </div>
-    <div class="off-canvas-content" data-off-canvas-content>
-      <div class="grid-container fluid has-gap">
-        <div class="grid-x grid-margin-x">
-          <div class="large-12 cell">
+	<body data-kind="{{.Kind}}" data-baseref="{{ .Site.Params.BaseFragment }}/{{ path.Dir .Dir }}" data-permalink="{{ .RelPermalink }}">
+  		<div class="off-canvas-wrapper">
+    		<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      			{{ partial "system/sidebar/sidebar.html" $globalParams }}
+    		</div>
+	
+			<div class="off-canvas-content" data-off-canvas-content>
+    			<div class="grid-container fluid has-gap">
+        			<div class="grid-x grid-margin-x">
+          				<div class="large-12 cell">
+            				{{ $fragments := cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\") }}
+            				{{ $iFragments := sub (len $fragments) 2 }}
+            				{{ $scratch.Set "iFragments" $iFragments }}
+            				{{ $fragment := index ($fragments) 0 }}
+            				{{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
+            				{{ $fragments := cond ( in .Dir "/") (split .Page.Type "/") (split .Page.Type "\\") }}
+			
+							{{ if lt ($iFragments) 1 }}
+              					{{ $scratch.Set "iFragments" 1 }}
+            				{{ end }}
+			
+							{{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\"))) }}
 
-            {{ $fragments := cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\") }}
-            {{ $iFragments := sub (len $fragments) 2 }}
-            {{ $scratch.Set "iFragments" $iFragments }}
-            {{ $fragment := index ($fragments) 0 }}
-            {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
-            {{ $fragments := cond ( in .Dir "/") (split .Page.Type "/") (split .Page.Type "\\") }}
-            {{ if lt ($iFragments) 1 }}
-              {{ $scratch.Set "iFragments" 1 }}
-            {{ end }}
-            {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (cond ( in .Dir "/") (split .Dir "/") (split .Dir "\\"))) }}
-
-            {{ if .IsHome }}
-            {{ $scratch.Set "fragments" false }}
-            {{ end }}
-            {{ $fragments :=  $scratch.Get "fragments" }}
-            
-            {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
-          </div>
-        </div>
-        {{ block "main" . }} {{ end }}
-      </div>
-      {{ partial "system/footer/footer.html" $globalParams }}
-    </div>
-  </div>
-</body>
-{{ partial "system/scripts/scripts.html" $globalParams }}
-
+            				{{ if .IsHome }}
+            					{{ $scratch.Set "fragments" false }}
+            				{{ end }}
+							
+							{{ $fragments :=  $scratch.Get "fragments" }}
+            				{{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
+						</div>
+					</div>
+					
+					{{ block "main" . }}{{ end }}
+      			</div>
+	  
+				{{ partial "system/footer/footer.html" $globalParams }}
+    		</div>
+  		</div>
+		{{ partial "system/scripts/scripts.html" $globalParams }}
+	</body>
 </html>

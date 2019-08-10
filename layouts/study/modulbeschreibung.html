@@ -1,40 +1,39 @@
 {{ define "main" }}
-<div class="grid-x grid-margin-x grid-padding-y">
-  <div class="cell medium-12 large-10 xlarge-8 has-seperator">
-    <!-- cn: mega häßlich, aber index famnd Hugo nur im Preview Modus gut -->
-    {{ $people := .Site.Data.people }}
-    {{ $modulverantwortliche := split .Params.modulverantwortlich ", " }}
-    {{ $scratch := newScratch }}
-    
-    {{ $scratch.Set "avatar" "" }}
-    {{ $scratch.Set "verantwortlich" "" }}
-    {{ $scratch.Set "avatarCount" 0 }}
+	<div class="grid-x grid-margin-x grid-padding-y">
+		<div class="cell medium-12 large-10 xlarge-8 has-seperator">
+			<!-- cn: mega häßlich, aber index fand Hugo nur im Preview Modus gut -->
+			{{ $people := .Site.Data.people }}
+			{{ $modulverantwortliche := split .Params.modulverantwortlich ", " }}
+			{{ $scratch := newScratch }}
+			{{ $scratch.Set "avatar" "" }}
+			{{ $scratch.Set "verantwortlich" "" }}
+			{{ $scratch.Set "avatarCount" 0 }}
 
-    {{ range $modulverantwortlich := $modulverantwortliche }}
-      {{ range $item := $people}}
-        {{ if eq $item.id $modulverantwortlich }}
-          {{ $scratch.Add "verantwortlich" ", " }}
-          {{ $scratch.Add "verantwortlich" $item.name }}
-          {{ if $item.avatar}}
-            {{ $scratch.Set "avatarCount" (add ($scratch.Get "avatarCount") 1) }}
-            {{ $scratch.Set "avatar" $item.avatar }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
+			{{ range $modulverantwortlich := $modulverantwortliche }}
+				{{ range $item := $people }}
+					{{ if eq $item.id $modulverantwortlich }}
+						{{ $scratch.Add "verantwortlich" ", " }}
+						{{ $scratch.Add "verantwortlich" $item.name }}
 
-    {{ $verantwortliche := $scratch.Get "verantwortlich" }}
-    {{ $verantwortliche := replaceRE "^, " " " $verantwortliche}}
-    
-    {{if ne ($scratch.Get "avatarCount") 1 }}
-    {{ $scratch.Set "avatar" "" }}
-    {{ end }}
+						{{ if $item.avatar }}
+							{{ $scratch.Set "avatarCount" (add ($scratch.Get "avatarCount") 1) }}
+							{{ $scratch.Set "avatar" $item.avatar }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
 
-    {{ $avatar := $scratch.Get "avatar" }}
+			{{ $verantwortliche := $scratch.Get "verantwortlich" }}
+			{{ $verantwortliche := replaceRE "^, " " " $verantwortliche }}
+			
+			{{ if ne ($scratch.Get "avatarCount") 1 }}
+				{{ $scratch.Set "avatar" "" }}
+			{{ end }}
 
-    {{ partial "molecules/mi-modulhead/mi-modulhead.html" (dict "ele" . "verantwortliche" $verantwortliche "avatar" $avatar "studiengaenge" .Site.Data.studiengaenge)}}
-    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . "class" "mi-modulbeschreibung") }}
-  </div>
-</div>
+			{{ $avatar := $scratch.Get "avatar" }}
 
+			{{ partial "molecules/mi-modulhead/mi-modulhead.html" (dict "ele" . "verantwortliche" $verantwortliche "avatar" $avatar "studiengaenge" .Site.Data.studiengaenge) }}
+			{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . "class" "mi-modulbeschreibung") }}
+		</div>
+	</div>
 {{ end }}

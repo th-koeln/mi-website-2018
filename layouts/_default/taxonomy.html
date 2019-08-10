@@ -1,17 +1,30 @@
 {{ define "main" }}
-{{ $params := . }}
-Taxonomie List
-<div class="grid-x grid-margin-x">
-    <div class="cell large-8">
-		<h1>{{.Title}}</h1>
+    {{ $params := . }}
+    Taxonomie List
+    <div class="grid-x grid-margin-x">
+        <div class="cell large-8">
+            <h1>{{ .Title }}</h1>
+        </div>
     </div>
-</div>
-{{ range .Pages }}
-<div class="grid-x grid-margin-x">
-    <div class="cell large-8">
-    	Child:
-        <a href="{{.URL}}">{{.Title}}</a>
-        <div style="color:grey; font-size:16px;">{{ if .Params.years }}<strong>Categories:</strong> {{range .Params.years}}<a href="{{ "/years/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
-    </div>
-</div>
-{{ end }} {{ end }}
+
+    {{ range .Pages }}
+        <div class="grid-x grid-margin-x">
+            <div class="cell large-8">
+                Child:
+                <a href="{{ .URL }}">
+                    {{ .Title }}
+                </a>
+                <div style="color:grey; font-size:16px;">
+                    {{ if .Params.years }}
+                        <strong>Categories:</strong>
+                        {{ range .Params.years }}
+                        <a href="{{ "/years/" | relLangURL }}{{ . | urlize }}">
+                            {{ . }}
+                        </a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}

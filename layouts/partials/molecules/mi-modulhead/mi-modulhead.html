@@ -1,53 +1,58 @@
 <div class="m-mi-modulhead">
+	<div class="m-mi-modulhead--mit-bild">
+		
+		{{ if ne .avatar ""}}
+			{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" .avatar )}}
+		{{ end }}
 
-    <div class="m-mi-modulhead--mit-bild">
-      {{ if ne .avatar ""}}
-      {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" .avatar )}}
-      {{ end }}
-      <header class="m-mi-modulhead-text">
-        <h1 class="m-mi-modulhead--title">{{.ele.Title}}</h1>
-        <h2 class="m-mi-modulhead--subtitle">{{.verantwortliche}}</h2>
-      </header>
+		<header class="m-mi-modulhead-text">
+			<h1 class="m-mi-modulhead--title">
+				{{ .ele.Title }}
+			</h1>
+			<h2 class="m-mi-modulhead--subtitle">
+				{{ .verantwortliche }}
+			</h2>
+		</header>
     </div>
   
     <dl class="mi-dl-overview">
 
       {{if .ele.Params.modulniveau }}
-      <dt>Studiengang</dt>
-      <dd>{{ partial "functions/studiengaenge.html" (dict "studiengang" .ele.Params.modulniveau "studiengaenge" .studiengaenge) }}</dd>
+		<dt>Studiengang</dt>
+		<dd>{{ partial "functions/studiengaenge.html" (dict "studiengang" .ele.Params.modulniveau "studiengaenge" .studiengaenge) }}</dd>
       {{ end }}
 
       {{if .ele.Params.kreditpunkte }}
-      <dt>Kreditpunkte</dt>
-      <dd>{{.ele.Params.kreditpunkte}}</dd>
+		<dt>Kreditpunkte</dt>
+		<dd>{{ .ele.Params.kreditpunkte }}</dd>
       {{ end }}
   
-      {{if .ele.Params.studiensemester }}
-      <dt>Studiensemester</dt>
-      <dd>{{.ele.Params.studiensemester}}</dd>
+      {{ if .ele.Params.studiensemester }}
+		<dt>Studiensemester</dt>
+		<dd>{{ .ele.Params.studiensemester }}</dd>
       {{ end }}
   
       {{if .ele.Params.sprache }}
-      <dt>Sprache</dt>
-      <dd>{{.ele.Params.sprache}}</dd>
+		<dt>Sprache</dt>
+		<dd>{{ .ele.Params.sprache }}</dd>
       {{ end }}
   
       {{if .ele.Params.kuerzel }}
-      <dt>Kürzel</dt>
-      <dd>{{.ele.Params.kuerzel}}</dd>
+		<dt>Kürzel</dt>
+		<dd>{{.ele.Params.kuerzel }}</dd>
       {{ end }}
   
       {{if .ele.Params.voraussetzungenNachPruefungsordnung }}
-      <dt>Voraussetzungen nach Prüfungsordnung</dt>
-      <dd>{{.ele.Params.voraussetzungenNachPruefungsordnung}}</dd>
+		<dt>Voraussetzungen nach Prüfungsordnung</dt>
+		<dd>{{ .ele.Params.voraussetzungenNachPruefungsordnung }}</dd>
       {{ end }} 
   
-    </dl>
+	</dl>
+	
     {{if .ele.Params.empfohleneVoraussetzungen }}
-    <div class="mi-modulbeschreibung">
-      <h2>Empfohlene Voraussetzungen</h2>
-      <p>{{.ele.Params.empfohleneVoraussetzungen}}</p>
-    </div>
+		<div class="mi-modulbeschreibung">
+			<h2>Empfohlene Voraussetzungen</h2>
+			<p>{{ .ele.Params.empfohleneVoraussetzungen }}</p>
+		</div>
     {{ end }}
-  
-  </div>
+</div>

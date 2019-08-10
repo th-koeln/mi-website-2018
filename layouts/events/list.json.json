@@ -1,22 +1,21 @@
 {{ define "response" }}
-{{ $scratch := newScratch }}
-[	 
-    {{ range $index, $element := .Data.Pages }}
-    {{ $teaser := $element.Resources.Match "teaser*" }}
-    {{ if $teaser }}
-    {{ $image := index ($teaser) 0 }}            
-    {{ $thumb := $image.Fill "400x400 Center q90 Linear" }}
-    {{ $scratch.Set "teaser" $thumb.RelPermalink }}
-    {{ end }}
-    {{ if $index }}, {{ end }}
-    {
-    "title":"{{$element.Title}}",
-    "termin":"{{$element.Params.termin}}",
-    "date":"{{$element.Params.date}}",
-    "bild": "{{$scratch.Get "teaser"}}",
-    "content": {{$element.RawContent  | jsonify }}
-    }
-    
-    {{ end }}
-]
+    {{ $scratch := newScratch }}
+    [	 
+        {{ range $index, $element := .Data.Pages }}
+            {{ $teaser := $element.Resources.Match "teaser*" }}
+            {{ if $teaser }}
+                {{ $image := index ($teaser) 0 }}            
+                {{ $thumb := $image.Fill "400x400 Center q90 Linear" }}
+                {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+            {{ end }}
+            {{ if $index }}, {{ end }}
+            {
+                "title":"{{ $element.Title }}",
+                "termin":"{{ $element.Params.termin }}",
+                "date":"{{ $element.Params.date }}",
+                "bild": "{{ $scratch.Get "teaser" }}",
+                "content": {{ $element.RawContent  | jsonify }}
+            }
+        {{ end }}
+    ]
 {{ end }}

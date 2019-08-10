@@ -1,5 +1,7 @@
 {{ $scratch := newScratch }}
 <div class="m-mi-kontext-footer">
-  {{ $scratch.Set "category" (index (split .ele.Dir "/") 0) }}
-  <a class="primary label" href='/{{ $scratch.Get "category" }}/'>{{ $scratch.Get "category" }}/</a>
+  	{{ $scratch.Set "category" (index (split .ele.Dir "/") 0) }}
+	<a class="primary label" href='/{{ $scratch.Get "category" }}/'>
+		{{ $scratch.Get "category" }}/
+	</a>
 </div>

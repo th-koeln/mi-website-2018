@@ -1,49 +1,48 @@
 {{ define "main" }}
-{{ $params := . }}
-{{ $scratch := newScratch }}
-<div class="grid-x grid-margin-x">
-  <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
-      {{ $level := split .Dir "/" }}
-      {{ if gt (len $level) 2}}
-      <h1>{{.Title}}</h1>
-      {{end}}
-
-    {{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
-  </div>
-</div>
-
-{{ with .Site.GetPage "/events" }}
-<div class="grid-x grid-margin-x grid-padding-y">
-  <div class='{{ partial "system/grid/mi-base-cell.html" }}'>
-    <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
     {{ $params := . }}
-    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
-  </div>
-</div>
+    {{ $scratch := newScratch }}
+    
+    <div class="grid-x grid-margin-x">
+        <div class='{{ partial "system/grid/mi-base-cell.html" }} has-seperator'>
+            {{ $level := split .Dir "/" }}
 
+            {{ if gt (len $level) 2}}
+                <h1>{{ .Title }}</h1>
+            {{end}}
 
-</div>
+            {{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
+        </div>
+    </div>
 
-<div class="grid-container fluid frameless">
-<div id="eventblock" class="grid-x grid-margin-x grid-padding-y">
-      {{ range $item := .Pages }}
-      <div class="cell medium-6 large-4 xxxlarge-3">
-        {{ $date := .Date }}
-        {{ $scratch.Set "teaser" "" }}
-        {{ $teaser := .Resources.Match "teaser*" }}
-        {{ if $teaser }}
-        {{ $image := index ($teaser) 0 }}            
-        {{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
-        {{ $scratch.Set "teaser" $thumb.RelPermalink }}
-        {{ end }}
-        
-        <a href="{{.RelPermalink}}">
-        {{ partial "molecules/mi-pulse-teaser/mi-pulse-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
-        </a>
-      </div>
-      {{ end }}
+    {{ with .Site.GetPage "/events" }}
+        <div class="grid-x grid-margin-x grid-padding-y">
+            <div class='{{ partial "system/grid/mi-base-cell.html" }}'>
+                <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
+                {{ $params := . }}
+                {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
+            </div>
+        </div>
 
-</div>
-{{ end }}
-
+        <div class="grid-container fluid frameless">
+            <div id="eventblock" class="grid-x grid-margin-x grid-padding-y">
+                {{ range $item := .Pages }}
+                    <div class="cell medium-6 large-4 xxxlarge-3">
+                        {{ $date := .Date }}
+                        {{ $scratch.Set "teaser" "" }}
+                        {{ $teaser := .Resources.Match "teaser*" }}
+                
+                        {{ if $teaser }}
+                            {{ $image := index ($teaser) 0 }}            
+                            {{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
+                            {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+                        {{ end }}
+                
+                        <a href="{{ .RelPermalink }}">
+                            {{ partial "molecules/mi-pulse-teaser/mi-pulse-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
+                        </a>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
 {{ end }}
