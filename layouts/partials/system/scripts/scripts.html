@@ -1,4 +1,9 @@
-<script src="{{ "js/jquery.min.js" | absURL }}"></script>
-<script src="{{ "js/foundation.min.js" | absURL }}"></script>
-{{ $js := index .Site.Data.js.hash "mi.js" }}
-<script src="{{ print "js/deploy/" $js  | absURL  }}"></script>
+{{ $main := resources.Get "js/main.js" }}
+{{ $foundation := resources.Get "js/lib/foundation.min.js" }}
+{{ $jquery := resources.Get "js/lib/jquery.min.js" }}
+{{ $cookie := resources.Get "js/lib/jquery.cookie.js" }}
+{{ $scroll := resources.Get "js/lib/jquery.scrollTo.min.js" }}
+{{ $news := resources.Get "js/news-aggregator.js" }}
+{{ $js :=  slice $jquery $foundation $cookie $scroll $news $main | resources.Concat "js/bundle.js" | resources.Fingerprint }}
+
+<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
