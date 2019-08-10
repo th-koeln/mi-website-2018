@@ -4,7 +4,7 @@
     {{ range .ele.Sections }}
     <div class="cell">
       <div class="card" data-equalizer-watch>
-        <img src="/{{.Dir}}teaser.svg">
+        <img src="/{{ path.Dir .Dir  }}/teaser.svg">
         <div class="card-section">
           <h3 class="h4">{{.Title}}</h3>
           <p class="is-small">{{.Params.teasertext}}</p>

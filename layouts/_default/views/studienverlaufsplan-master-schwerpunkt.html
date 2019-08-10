@@ -7,7 +7,7 @@
 {{ $scratch.Set "dir" .Parent.Dir }}
 {{ $moduldir := $scratch.Get "dir" }}
 
-{{ $module := where (where $.Site.Pages "Dir" "==" .Params.modulDir) "Params.zielmedium" "!=" "print"}}
+{{ $module := where $.Site.Pages "Params.zielmedium" "!=" "print"}}
 {{ $schwerpunkte := where $module "Params.typ" "sp" }}
 {{ $pflichtmodule := where $module "Params.typ" "pm" }}
 {{ $teilmodule := where $module "Params.typ" "tm" }}
@@ -93,7 +93,7 @@
             {{ $scratch.Set "Params.semester_id" "Params." }}
             {{ $scratch.Add "Params.semester_id" ($scratch.Get "semester_id") }}
             {{ $semesterId := $scratch.Get "Params.semester_id" }}
-            {{ $sorted_pages := where $module $semesterId $fachsemester }}
+            {{ $sorted_pages := where $module $semesterId "==" $fachsemester }}
             {{ range $modulbeschreibung := $sorted_pages }}
               {{ $scratch.Set "show" false }}
               {{ if eq $modulbeschreibung.Params.typ "pm" }}{{ $scratch.Set "show" true }}{{ end }}
