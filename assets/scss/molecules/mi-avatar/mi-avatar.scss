@@ -1,11 +1,11 @@
-.m-mi-avatar{
-  display: block;
-  background-color: $mi-grau;
-  border-radius: 50%;
-  height: $bfs-max;
-  width: $bfs-max;
+.m-mi-avatar {
+    display: block;
+    background-color: $mi-grau;
+    border-radius: 50%;
+    height: $bfs-max;
+    width: $bfs-max;
 
-  background-size: cover;
-  background-position: center;
-  background-image: url("/img/avatar.png");
+    background-size: cover;
+    background-position: center;
+    background-image: url("/img/avatar.png");
 }

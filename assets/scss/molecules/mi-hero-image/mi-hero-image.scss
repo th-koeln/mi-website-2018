@@ -1,22 +1,22 @@
-.m-mi-hero-image{
-  overflow: hidden;
-  height: 0;
-  padding-top: 56.25%;
-  background-color: #efefef;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  border-top: solid 5px $mi-blau;
-  margin-bottom: $bfs-xl;
+.m-mi-hero-image {
+    overflow: hidden;
+    height: 0;
+    padding-top: 56.25%;
+    background-color: #efefef;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: solid 5px $mi-blau;
+    margin-bottom: $bfs-xl;
 
-  &.do-contain{
-    background-size: contain;
-  }
+    &.do-contain{
+        background-size: contain;
+    }
 
-  .title{
-    position: absolute;
-    left: 0;
-    bottom: $bfs-xl;
-  }
+    .title{
+        position: absolute;
+        left: 0;
+        bottom: $bfs-xl;
+    }
 }

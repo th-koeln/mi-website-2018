@@ -1,5 +1,4 @@
-/* MI Vars
------------------------------------------------------------------------------*/
+/* MI Vars -----------------------------------------------------------------------------*/
 
 // Base Fontsize
 $bfs-xxs: 10px;
@@ -25,18 +24,18 @@ $mi-hellgrau: #efefef;
 // MI Fonts
 // ---------
 @font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
 }
 $family-headlines: "Roboto Slab";
 
 @font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/PT_Sans/PT_Sans-Web-Regular.ttf');
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/PT_Sans/PT_Sans-Web-Regular.ttf');
 }
 $family-primary: "PT Sans";
 

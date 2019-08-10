@@ -1,27 +1,17 @@
 .mi-footer {
-  /* position: sticky;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 10000;*/
+    font-size: $small-font-size;
 
-  font-size: $small-font-size;
+    background: $mi-black;
+    color: #fff;
+    padding-top: $bfs-xl;
+    padding-bottom: $bfs-xl;
+    margin-top: $bfs-xxl;
 
-  background: $mi-black;
-  color: #fff;
-  padding-top: $bfs-xl;
-  padding-bottom: $bfs-xl;
-  margin-top: $bfs-xxl;
-
-  .mi-linkliste {
-
-
-    >li+li {
-      margin-top: $bfs-xs;
-      padding-top: $bfs-xs;
-      border-top: solid 1px #666;
-
+    .mi-linkliste {
+        > li + li {
+            margin-top: $bfs-xs;
+            padding-top: $bfs-xs;
+            border-top: solid 1px #666;
+        }
     }
-  }
-
 }
