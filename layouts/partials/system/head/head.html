@@ -8,6 +8,7 @@
 {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.Permalink }}" />
 <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
+<link rel="stylesheet" href="{{ "fonts/iconfont/material-icons.css" | absURL }}" />
 
 
 <!-- Responsivity for older IE -->
