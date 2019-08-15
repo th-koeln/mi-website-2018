@@ -4,13 +4,8 @@
     line-height: 64px;
     font-size: 64px;
     
-    @media screen and #{breakpoint(medium)} {
+    @media screen and (min-width: 640px) {
         margin-left: $from-left *-1;
-    }
-
-    @media screen and #{breakpoint(small down)} {
-        line-height: 36px;
-        font-size: 36px;
     }
 
     a {
@@ -36,10 +31,6 @@
 
     [data-toggle=offCanvas] {
         margin-bottom: 20px;
-
-        @media screen and #{breakpoint(small down)} {
-            margin-bottom: 12px;
-        }
     }
 
     &--text {
@@ -62,11 +53,6 @@
         border: 0 none;
         background: transparent;
         margin-left: 8px;
-
-        @media screen and #{breakpoint(small down)} {
-            font-size: 26px;
-            width: 44px;
-        }
     }
 
     // Button height fix for Firefox
@@ -94,11 +80,6 @@
         margin: 0 0 .2em;
         transition: transform .2s ease-in-out;
         background: $mi-lila;
-
-        @media screen and #{breakpoint(small down)} {
-            width: 36px;
-            height: 6px;
-        }
     }
 
     // Styles for the active `.hamburger` icon

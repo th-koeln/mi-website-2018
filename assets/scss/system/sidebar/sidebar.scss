@@ -1,5 +1,5 @@
 .m-sidebar {
-    padding: map-get($grid-container-padding, small);
+    padding: 0.5em;
 
     &--menu {
         margin: 0;
@@ -21,7 +21,7 @@
     .is-second{
         position: absolute;
         bottom: $bfs;
-        right: map-get($grid-container-padding, small);
+        right: 0.5em;
         
         > li {
             font-family: $family-primary;

@@ -33,7 +33,7 @@ p + h2, ul + h2{
     margin-top: $bfs-xxl;
 }
 
-@media screen and #{breakpoint(medium down)} {
+@media screen and (max-width: 640px) {
   p {
     line-height: 130%;
   }
