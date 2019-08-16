@@ -3,10 +3,6 @@
     margin-bottom: $bfs * 5;
     line-height: 64px;
     font-size: 64px;
-    
-    @media screen and (min-width: 640px) {
-        margin-left: $from-left *-1;
-    }
 
     a {
         color: #000;
