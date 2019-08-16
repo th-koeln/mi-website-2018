@@ -342,15 +342,15 @@ tbody th, tbody td {
     grid-gap: 1rem;
 }
 
-@media(max-width: 639px) {
-    .events {
-        grid-template-columns: 1fr;
-    }
-}
-
 @media(max-width: 1023px) {
     .events {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 639px) {
+    .events {
+        grid-template-columns: 1fr;
     }
 }
 
