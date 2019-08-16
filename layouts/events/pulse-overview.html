@@ -6,67 +6,55 @@
         <span class="primary label">{{ .File.Dir }}</span>
     {{ end }}
 
-    <div class="grid-x grid-margin-x">
-        <div class="cell large-8">
-            <h1>{{ .Title }}</h1>
-            overview
-            {{ .LinkTitle }} // {{ .Params.Type }} // {{ .Params.Kuerzel }}
-            {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
-        </div>
-    </div>
+    <h1>{{ .Title }}</h1>
+    overview
+    {{ .LinkTitle }} // {{ .Params.Type }} // {{ .Params.Kuerzel }}
+    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
     
     {{ range .Pages }}
-        <div class="grid-x grid-margin-x">
-            <div class="cell large-8">
-                <article class="m-mi-content-wrap">
-                    <h3>Page: {{ .Title }}</h3>
+        <article class="m-mi-content-wrap">
+            <h3>Page: {{ .Title }}</h3>
 
-                    {{ if .File }}
-                        <span class="primary label">{{ .File.Dir }}</span>
+            {{ if .File }}
+                <span class="primary label">{{ .File.Dir }}</span>
+            {{ end }}
+
+            {{ .Summary }}
+            <div style="color:grey; font-size:16px;">
+                {{ if .Params.years }}
+                    <strong>Categories:</strong>
+                    {{ range .Params.years }}
+                        <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
+                            {{ . }}
+                        </a>
                     {{ end }}
-
-                    {{ .Summary }}
-                    <div style="color:grey; font-size:16px;">
-                        {{ if .Params.years }}
-                            <strong>Categories:</strong>
-                            {{ range .Params.years }}
-                                <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
-                                    {{ . }}
-                                </a>
-                            {{ end }}
-                        {{ end }}
-                    </div>
-                    <a href="{{ .Permalink }}">mehr lesen</a>
-                </article>
+                {{ end }}
             </div>
-        </div>
+            <a href="{{ .Permalink }}">mehr lesen</a>
+        </article>
     {{ end }}
 
     {{ range .Sections }}
-        <div class="grid-x grid-margin-x">
-            <div class="cell large-8">
-                <article class="m-mi-content-wrap">
-                    <h3>Section: {{ .Title }}</h3>
+        <article class="m-mi-content-wrap">
+            <h3>Section: {{ .Title }}</h3>
 
-                    {{ if .File }}
-                        <div>{{ .File.Dir }}</div>
+            {{ if .File }}
+                <div>{{ .File.Dir }}</div>
+            {{ end }}
+            
+            {{ .Summary }}
+            
+            <div style="color:grey; font-size:16px;">
+                {{ if .Params.years }}
+                    <strong>Categories:</strong>
+                    {{ range .Params.years }}
+                        <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
+                            {{ . }}
+                        </a>
                     {{ end }}
-                    
-                    {{ .Summary }}
-                    
-                    <div style="color:grey; font-size:16px;">
-                        {{ if .Params.years }}
-                            <strong>Categories:</strong>
-                            {{ range .Params.years }}
-                                <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
-                                    {{ . }}
-                                </a>
-                            {{ end }}
-                        {{ end }}
-                    </div>
-                    <a href="{{ .Permalink }}">mehr lesen</a>
-                </article>
+                {{ end }}
             </div>
-        </div>
+            <a href="{{ .Permalink }}">mehr lesen</a>
+        </article>
     {{ end }}
 {{ end }}

@@ -51,3 +51,270 @@
         margin-top: $bfs-xxl;
     }
 }
+
+.moduls {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-gap: 1rem;
+
+    > h2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    > .m-mi-content-wrap {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    > .accordion {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 640px) {
+    .moduls {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+
+        > h2 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+
+        > .m-mi-content-wrap {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+
+        > .accordion {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+    }
+}
+
+.accordion {
+    margin-left: 0;
+    list-style-type: none;
+    margin-bottom: 1rem;
+    list-style-position: outside;
+    line-height: 140%;
+
+    .accordion-item {
+        border-bottom: solid 1px #4952e1;
+        margin-bottom: 12.5px !important;
+        padding-bottom: 12.5px;
+    }
+
+    .accordion-title {
+        font-size: 1rem;
+        color: #000;
+        border: none;
+        position: relative;
+        display: block;
+        padding: 0 1rem;
+        line-height: 1;
+
+        &::before {
+            position: absolute;
+            top: 50%;
+            right: 1rem;
+            margin-top: -0.5rem;
+            content: '+';
+        }
+    }
+
+
+    &.is-active > .accordion-title::before {
+        content: '\2013';
+    }
+
+    .accordion-content {
+        padding: 1rem;
+        display: none;
+    }
+}
+
+.verantwortlich {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-gap: 1rem;
+
+    .extended-information {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .questions {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .verantwortlich {
+        grid-template-columns: 1fr;
+    }
+}
+
+.courses-teaser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+ul, ol, dl {
+    margin-bottom: 1rem;
+    list-style-position: outside;
+    line-height: 140%;
+}
+
+.tabs {
+    margin: 0;
+    background: #fefefe;
+    list-style-type: none;
+}
+
+.tabs::before, .tabs::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1;
+}
+
+.tabs::after {
+    clear: both;
+}
+.tabs::before, .tabs::after {
+    display: table;
+    content: ' ';
+    flex-basis: 0;
+    order: 1;
+}
+
+.tabs-panel.is-active {
+    display: block;
+}
+
+.tabs-panel {
+    display: none;
+    padding: 0;
+}
+
+.mi-studienverlaufsplan-master .m-mi-textblock+.mi-studienverlaufsplan {
+    margin-top: 40px;
+}
+
+.mi-studienverlaufsplan-master .tabs {
+    border-bottom: solid 1px #d16;
+}
+
+.mi-studienverlaufsplan-master .tabs .tabs-title {
+    margin-bottom: 0;
+}
+
+.tabs-title {
+    float: left;
+}
+
+
+.mi-studienverlaufsplan-master thead {
+    background: none;
+    background-color: none;
+    border-bottom: solid 1px #efefef;
+}
+
+
+.mi-studienverlaufsplan-master .tabs .tabs-title.is-active a {
+    background-color: #d16;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tabs-title>a:focus, .tabs-title>a[aria-selected='true'] {
+    background: #e6e6e6;
+    color: #d16;
+}
+
+.tabs-title>a {
+    display: block;
+    padding: 0.75rem 1rem;
+    font-size: .75rem;
+    line-height: 1;
+    color: #d16;
+}
+
+.tabs-content {
+    border: none;
+    border-top: 0;
+    background: #fefefe;
+    color: #0a0a0a;
+    transition: all 0.5s ease;
+}
+
+.mi-studienverlaufsplan-master thead th {
+    font-family: "Roboto Slab";
+}
+.mi-studienverlaufsplan-master th {
+    text-align: left;
+    padding-top: 31.5px;
+}
+
+.is-small {
+    font-size: 16px;
+}
+.is-small {
+    font-size: 16px;
+}
+thead th, thead td, tfoot th, tfoot td {
+    padding: .5rem .625rem .625rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+table.unstriped tbody tr {
+    border-bottom: 0;
+    border-bottom: none;
+    background-color: #fefefe;
+}
+
+.mi-studienverlaufsplan-master th {
+    text-align: left;
+    padding-top: 31.5px;
+}
+
+.is-small {
+    font-size: 16px;
+}
+.is-small {
+    font-size: 16px;
+}
+tbody th, tbody td {
+    padding: .5rem .625rem .625rem;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .mi-stack {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 1rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .people {
+        grid-template-columns: 1fr;
+    }
+}

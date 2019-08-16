@@ -1,3 +1,27 @@
 .o-mi-card-overview {
     margin-bottom: $bfs-l;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+
+    .card {
+        border: 1px solid #e6e6e6;
+        margin-bottom: 1rem;
+
+        .card-section { padding: 1rem; }
+
+        img { width: 100%; }
+    }
+}
+
+@media(max-width: 1023px) {
+    .o-mi-card-overview {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 640px) {
+    .o-mi-card-overview {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

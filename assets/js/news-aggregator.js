@@ -33,18 +33,16 @@ function createNews() {
         target.innerHTML = '';
         data.forEach(function(item) {
             target.innerHTML += `
-                <div class="cell medium-6 large-4 xxxlarge-3">
-                    <a href="${item.url}">
-                        <div class="m-mi-pulse-teaser has-image" style="background-image: url(${item.bild})">
-                            <div class="m-mi-pulse-teaser--content">
-                                <h2 class="title">${item.title}</h2>
-                            </div>
-                            <p class="m-mi-pulse-teaser--footer">
-                                ${item.termin}
-                            </p>
+                <a href="${item.url}">
+                    <div class="m-mi-pulse-teaser has-image" style="background-image: url(${item.bild})">
+                        <div class="m-mi-pulse-teaser--content">
+                            <h2 class="title">${item.title}</h2>
                         </div>
-                    </a>
-                </div>`;
+                        <p class="m-mi-pulse-teaser--footer">
+                            ${item.termin}
+                        </p>
+                    </div>
+                </a>`;
         });
     }
 

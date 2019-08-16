@@ -35,6 +35,7 @@
 
         .title {
             font-size: $bfs-l;
+            word-break: break-word;
             text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
         }
     }

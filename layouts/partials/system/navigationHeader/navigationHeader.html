@@ -14,7 +14,7 @@
 				{{ $globalParams.Scratch.Add "path" $frag }}
 				<span class="m-navHead--logoSlash">/</span>
 				<span class="m-navHead--logoSlug">
-					<a href="{{ $BaseURL }}{{ $globalParams.Scratch.Get "path" }}">&nbsp;{{ . }}</a>
+					<a href="{{ $BaseURL }}{{ $globalParams.Scratch.Get "path" }}">{{ . }}</a>
 				</span>
 			{{ end }}
 		{{ else }}

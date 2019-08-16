@@ -8,6 +8,12 @@ body{
     background-size: 50%;
 }
 
+.content-grid {
+    display: grid;
+    margin-right: 1rem;
+    max-width: 900px;
+}
+
 @media screen and (min-width: 1440px) {
     body {
         background-size: 40%;
@@ -15,7 +21,7 @@ body{
 }
 
 @media screen and (min-width: 640px) {
-    .grid-container.fluid.has-gap {
+    .has-gap {
         margin-left: $from-left;
     }
 
@@ -38,6 +44,12 @@ body{
     main {
         flex: 1 0 auto;
         /* Use 1 0 auto instead of just 1 for backwards compatibility with other browsers */
+    }
+}
+
+@media(max-width: 639px) {
+    .content-grid {
+        margin-left: 1rem;
     }
 }
 

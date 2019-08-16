@@ -19,7 +19,10 @@
 
       {{if .ele.Params.modulniveau }}
 		<dt>Studiengang</dt>
-		<dd>{{ partial "functions/studiengaenge.html" (dict "studiengang" .ele.Params.modulniveau "studiengaenge" .studiengaenge) }}</dd>
+		<dd>
+			{{ $studiengang := index .studiengaenge .ele.Params.modulniveau  }}
+			{{ $studiengang.name }}
+		</dd>
       {{ end }}
 
       {{if .ele.Params.kreditpunkte }}

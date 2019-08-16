@@ -1,0 +1,23 @@
+.a-mi-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 0.6em .9em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out,color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #d16;
+    color: #fefefe;
+    font-size: .75rem;
+
+    &:hover {
+        background-color: #bc0e57;
+        color: #fefefe;
+    }
+}

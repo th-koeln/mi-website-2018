@@ -13,8 +13,7 @@
     transform: translateY(-50%);
 }
 
-.arrow-up{
-
+.arrow-up {
     margin-top: 5px;
 
     &::before {
@@ -28,4 +27,8 @@
         border-right: 13px solid transparent;
         border-bottom: 13px solid $mi-grau;
     }
+}
+
+.is-hidden {
+    display: none;
 }
