@@ -25,7 +25,7 @@
         font-weight: 400;
     }
 
-    [data-toggle=offCanvas] {
+    #icon-main-menu {
         margin-bottom: 20px;
     }
 
@@ -96,5 +96,26 @@
 
     &--hamburger.hamburger-cancel[aria-expanded=true]:after {
         transform: translateY(-.4em) rotate(-135deg);
+    }
+}
+
+
+@media(max-width: 640px) {
+    .m-navHead--text,
+    .m-navHead--logoSlash,
+    .m-navHead--logoSlug {
+        font-size: 36px;
+    }
+
+    .m-navHead--hamburger {
+        font-size: 26px;
+        width: 44px;
+
+        &::before,
+        &::after,
+        .icon {
+            width: 36px;
+            height: 6px;
+        }
     }
 }
