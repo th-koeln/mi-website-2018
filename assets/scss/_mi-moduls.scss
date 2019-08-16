@@ -434,3 +434,102 @@ img {
     display: block;
     text-align: right;
 }
+
+.callout {
+    grid-column: 1 / 3;
+    position: relative;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    border: 1px solid rgba(10, 10, 10, 0.25);
+    border-radius: 0;
+    background-color: white;
+    color: #0a0a0a;
+
+    > :first-child { margin-top: 0; }
+    
+    > :last-child { margin-bottom: 0; }
+    
+    &.primary {
+        background-color: #fcd9e8;
+        color: #0a0a0a;
+    }
+    
+    &.secondary {
+        background-color: #f0d8fb;
+        color: #0a0a0a;
+    }
+    
+    &.success {
+        background-color: #ccffda;
+        color: #0a0a0a;
+    }
+    
+    &.warning {
+        background-color: #fff3d9;
+        color: #0a0a0a;
+    }
+    
+    &.alert {
+        background-color: #f7e4e1;
+        color: #0a0a0a;
+    }
+    
+    &.small {
+        padding-top: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    &.large {
+        padding-top: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.arrow-up {
+    margin-top: 5px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -13px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-bottom: 13px solid #aaaaaa;
+    }
+}
+
+.close-button {
+    position: absolute;
+    color: #8a8a8a;
+    background: transparent;
+    cursor: pointer; 
+    
+    &:hover, &:focus {
+        color: #0a0a0a;
+    }
+    
+    &.small {
+        right: 0.66rem;
+        top: 0.33em;
+        font-size: 1.5em;
+        line-height: 1;
+    }
+}
+
+.close-button, .close-button.medium {
+    right: 1rem;
+    top: 0.5rem;
+    font-size: 2em;
+    line-height: 1; 
+}
+
+[data-whatinput='mouse'] .close-button {
+    outline: 0;
+}
