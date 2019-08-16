@@ -200,6 +200,12 @@
     grid-gap: 1rem;
 }
 
+@media(max-width: 640px) {
+    .courses-teaser {
+        grid-template-columns: 1fr;
+    }
+}
+
 ul, ol, dl {
     margin-bottom: 1rem;
     list-style-position: outside;
