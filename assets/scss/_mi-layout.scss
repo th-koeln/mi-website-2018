@@ -1,7 +1,7 @@
 /* MI Layout
 -----------------------------------------------------------------------------*/
 
-body{
+body {
     background-position: bottom right;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,23 +20,25 @@ body{
     }
 }
 
+
+.off-canvas-content.is-open {
+    transform: translateX(250px);
+}
+
+.off-canvas-wrapper {
+    overflow: visible;
+}
+
+.off-canvas-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transition: transform .5s ease,-webkit-transform .5s ease;
+}
+
 @media screen and (min-width: 640px) {
     .has-gap {
         margin-left: $from-left;
-    }
-
-    .off-canvas-wrapper {
-        overflow: visible;
-    }
-
-    .off-canvas-content {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        transition: transform .5s ease,-webkit-transform .5s ease;
-        &.is-open {
-            transform: translateX(250px);
-        }
     }
 
     header,
