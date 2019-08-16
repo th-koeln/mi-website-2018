@@ -124,6 +124,10 @@
             margin-top: -0.5rem;
             content: '+';
         }
+
+        &.active {
+            font-weight: bold;
+        }
     }
 
 
@@ -134,8 +138,35 @@
     .accordion-content {
         padding: 1rem;
         display: none;
+        transition: ease .3s all;
+        animation-name: fadeIn;
+        animation-duration: .6s;
+        animation-fill-mode: both;
+        will-change: transform;
+
+        &.active {
+            display: block;
+        }
     }
 }
+
+
+.fade-in {
+    animation-name: fadeIn;
+    animation-duration: .6s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
 
 .verantwortlich {
     display: grid;

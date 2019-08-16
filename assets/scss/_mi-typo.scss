@@ -3,6 +3,7 @@
 /* Keine Umrandung bei aktiven Links */
 .mi-linkliste {
     margin-left: 0;
+    margin-bottom: 0;
 
     > li {
         display: block;
