@@ -33,6 +33,10 @@ body{
         display: flex;
         flex-direction: column;
         height: 100vh;
+        transition: transform .5s ease,-webkit-transform .5s ease;
+        &.is-open {
+            transform: translateX(250px);
+        }
     }
 
     header,
