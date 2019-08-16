@@ -142,15 +142,18 @@
     grid-template-columns: repeat(2, 6fr);
     grid-gap: 1rem;
 
-    .extended-information {
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-
     .questions {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        .m-mi-avatar {
+            margin-right: 1rem;
+        }
+
+        .m-mi-textblock {
+            flex: 1;
+        }
     }
 }
 
@@ -300,6 +303,18 @@ tbody th, tbody td {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+}
+
+@media(max-width: 639px) {
+    .events {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 1023px) {
+    .events {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .people {
