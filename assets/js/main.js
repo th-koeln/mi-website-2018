@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const mainMenu = document.getElementById('icon-main-menu');
 
-    const openSidebar = (event) => {
+    const openSidebar = () => {
         const sidebar = document.getElementById('offCanvas');
         const content = document.querySelectorAll('#offCanvas + .off-canvas-content')[0];
     
@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
     
-    mainMenu.addEventListener('click', openSidebar);
+    if(mainMenu) {
+        mainMenu.addEventListener('click', openSidebar);
+    }
     
     
     const accordionTitles = document.querySelectorAll('.accordion-title');
