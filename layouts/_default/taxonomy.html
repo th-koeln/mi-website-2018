@@ -1,22 +1,13 @@
 {{ define "main" }}
-    {{ $params := . }}
-    Taxonomie List
     <h1>{{ .Title }}</h1>
-
-    {{ range .Pages }}
-        Child:
-        <a href="{{ .Permalink }}">
-            {{ .Title }}
-        </a>
-        <div style="color:grey; font-size:16px;">
-            {{ if .Params.years }}
-                <strong>Categories:</strong>
-                {{ range .Params.years }}
-                <a href="{{ "/years/" | relLangURL }}{{ . | urlize }}">
-                    {{ . }}
+    <ul>
+        {{ range .Paginator.Pages }}
+            <li>
+                <a href="{{ .Permalink }}">
+                    {{ .Title }}
                 </a>
-                {{ end }}
-            {{ end }}
-        </div>
-    {{ end }}
+            </li>    
+        {{ end }}
+    </ul>
+    {{ template "_internal/pagination.html" . }}
 {{ end }}
