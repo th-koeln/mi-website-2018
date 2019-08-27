@@ -65,6 +65,8 @@
                     
                     {{ $fragments :=  $scratch.Get "fragments" }}
                     {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
+                {{ else }}
+                    {{ partial "system/navigationHeader/navigationHeader.html" (dict "BaseURL" .Site.BaseURL "globalParams" $globalParams) }}
                 {{ end }}
     			<div class="content-grid has-gap">
 					
