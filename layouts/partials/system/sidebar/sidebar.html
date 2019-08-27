@@ -6,19 +6,19 @@
 
 	<ul class="m-sidebar--menu">
 		{{ $currentPage := . }}
-		
-		{{ range .Site.Sections }}
-			<!--li>
-				<a class="sidebar-nav-item" href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
-			</li-->
-		{{ end }}
 
 		<li>
 			<a class="sidebar-nav-item" href="/study" title="Medieninformatik Studium">Study</a>
 		</li>
 		<li>
 			<a class="sidebar-nav-item" href="/people" title="Die Medieninformatik Macher">People</a>
-		</li>
+        </li>
+        <li>
+            <a class="sidebar-nav-item" href="/events" title="Unsere Events">Events</a>
+        </li>
+        <li>
+            <a class="sidebar-nav-item" href="/papers" title="Unsere Paper">Paper</a>
+        </li>
 	</ul>
 
 	<ul class="m-sidebar--menu is-second">
