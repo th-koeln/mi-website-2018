@@ -1,20 +1,19 @@
 {{ define "main" }}
     {{ $params := . }}
-    Terms List
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
 
     {{ range .Pages }}
-        Child:
-        {{ .Title }}
-        <div style="color:grey; font-size:16px;">
-            {{ if .Params.years }}
-                <strong>Categories:</strong>
-                {{ range .Params.years }}
-                    <a href="{{ "/years/" | relLangURL }}{{ . | urlize }}">
-                        {{ . }}
+        <h1>
+            <a href="/{{ .Data.Plural }}/{{ .Name | urlize }}">{{ .Name }}</a>
+        </h1>
+        <ul>
+            {{ range .Pages }}
+                <li hugo-nav="{{ .RelPermalink }}">
+                    <a href="{{ .Permalink }}">
+                        {{ .LinkTitle }}
                     </a>
-                {{ end }}
+                </li>
             {{ end }}
-        </div>
+        </ul>
     {{ end }}
 {{ end }}

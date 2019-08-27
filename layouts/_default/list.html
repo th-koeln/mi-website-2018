@@ -1,38 +1,15 @@
 {{ define "main" }}
     {{ $params := . }}
-    <span class="primary label">list-template</span>
-    <span class="primary label">
-        {{ if .File }}
-            {{ .File.Dir }}
-        {{ end }}
-    </span>
 
     <h1>{{ .Title }}</h1>
-    {{ .LinkTitle }} // {{ .Params.Type }} // {{ .Params.Kuerzel }}
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
 
     {{ range .Pages }}
         <article class="m-mi-content-wrap">
             <h3>Page: {{ .Title }}</h3>
             
-            <span class="primary label">
-                {{ if .File }}
-                    {{ .File.Dir }}
-                {{ end }}
-            </span>
-            
             {{ .Summary }}
             
-            <div style="color:grey; font-size:16px;">
-                {{ if .Params.years }}
-                    <strong>Categories:</strong>
-                    {{ range .Params.years }}
-                        <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
-                            {{ . }}
-                        </a>
-                    {{ end }}
-                {{ end }}
-            </div>
             <a href="{{ .Permalink }}">mehr lesen</a>
         </article>
     {{ end }}
@@ -41,21 +18,7 @@
         <article class="m-mi-content-wrap">
             <h3>Section: {{ .Title }}</h3>
             
-            {{ if .File }}
-                <div>{{ .File.Dir }}</div>
-            {{ end }}
-            
             {{ .Summary }}
-            <div style="color:grey; font-size:16px;">
-                {{ if .Params.years }}
-                    <strong>Categories:</strong>
-                    {{ range .Params.years }}
-                        <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
-                            {{ . }}
-                        </a>
-                    {{ end }}
-                {{ end }}
-            </div>
             <a href="{{ .Permalink }}">mehr lesen</a>
         </article>
     {{ end }}
