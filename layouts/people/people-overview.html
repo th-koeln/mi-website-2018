@@ -23,13 +23,13 @@
                     {{ end }}
                     <header class="is-vertically-centered">
                         <h3>
-                            <a>{{ $human.name }}</a>
+                            <a data-callout="{{ anchorize $human.name }}">{{ $human.name }}</a>
                         </h3>
                         <!--h4 class="lift-up">{{ $human.funname }}</h4-->
                     </header>
 
                     <div id="{{ anchorize $human.name }}" class="callout is-hidden arrow-up">
-                        <button class="close-button" data-close>&times;</button>
+                        <button class="close-button" data-close="{{ anchorize $human.name }}">&times;</button>
                         <h4>Module</h4>
                         
                         <ul class="is-small">

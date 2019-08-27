@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    /** Toogle Main Menu  */
     const mainMenu = document.getElementById('icon-main-menu');
 
     const openSidebar = () => {
@@ -19,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mainMenu.addEventListener('click', openSidebar);
     }
     
-    
+    /** Toggle Accordion */
     const accordionTitles = document.querySelectorAll('.accordion-title');
     
     const toggleAccordion = (event) => {
@@ -34,5 +35,34 @@ document.addEventListener('DOMContentLoaded', () => {
     
     for(let title of accordionTitles) {
         title.addEventListener('click', toggleAccordion);
+    }
+
+    /** Toggle Callout */
+    const calloutToggleList = document.querySelectorAll('[data-callout]');
+    const toggleCallout = (event) => {
+        event.preventDefault();
+        const target = event.currentTarget.dataset.callout;
+
+        const callout = document.getElementById(target);
+        callout.classList.toggle('is-hidden');
+    };
+
+    for(let toggle of calloutToggleList) {
+        toggle.addEventListener('click', toggleCallout);
+    }
+
+    /** Close Callout */
+    const closeCalloutList = document.querySelectorAll('[data-close]');
+    const closeCallout = (event) => {
+        event.preventDefault();
+        
+        const target = event.currentTarget.dataset.close;
+        
+        const callout = document.getElementById(target);
+        callout.classList.add('is-hidden');
+    };
+
+    for(let close of closeCalloutList) {
+        close.addEventListener('click', closeCallout);
     }
 });
