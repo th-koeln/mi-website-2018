@@ -14,7 +14,8 @@
                 "termin":"{{ $element.Params.termin }}",
                 "date":"{{ $element.Params.date }}",
                 "bild": "{{ $scratch.Get "teaser" }}",
-                "content": {{ $element.RawContent  | jsonify }}
+                "content": {{ $element.RawContent  | jsonify }},
+                "url": "{{ $element.Permalink }}"
             }
         {{ end }}
     ]
