@@ -6,6 +6,9 @@ languageCode = "de-de"
 
 sectionPagesMenu = "main"
 
+paginate = 5
+paginatePath = "page"
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 

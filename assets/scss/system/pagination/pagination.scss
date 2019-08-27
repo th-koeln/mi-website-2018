@@ -1,0 +1,21 @@
+.pagination {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    .page-item {
+        margin-right: 1rem;
+        margin-bottom: 0;
+        padding: 0.5rem;
+
+        &.disabled .page-link {
+            color: $mi-grau;
+        }
+
+        &.active .page-link {
+            color: $mi-blau;
+        }
+    }
+}

@@ -1,58 +1,21 @@
 {{ define "main" }}
     {{ $params := . }}
-
-    <span class="primary label">list-template</span>
-    {{ if .File }}
-        <span class="primary label">{{ .File.Dir }}</span>
-    {{ end }}
     
-    <h1>List {{ .Title }}</h1>
-    {{ .LinkTitle }} // {{ .Params.Type }} // {{ .Params.Kuerzel }}
+    <h1>{{ .Title }}</h1>
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
 
-    {{ range .Pages }}
+    {{ range .Paginator.Pages }}
         <article class="m-mi-content-wrap">
-            <h3>Page: {{ .Title }}</h3>
+            <h3>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h3>
 
-            {{ if .File }}
-                <span class="primary label">{{ .File.Dir }}</span>
-            {{ end }}
-
-            {{ .Summary }}
-            <div style="color:grey; font-size:16px;">
-                {{ if .Params.years }}
-                    <strong>Categories:</strong>
-                    {{ range .Params.years }}
-                        <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
-                            {{ . }}
-                        </a>
-                    {{ end }}
-                {{ end }}
-            </div>
+            <p>
+                {{ .Summary }}
+            </p>
             <a href="{{ .Permalink }}">mehr lesen</a>
         </article>
     {{ end }}
 
-    {{ range .Sections }}
-        <article class="m-mi-content-wrap">
-            <h3>Section: {{ .Title }}</h3>
-
-            {{ if .File }}
-                <div>{{ .File.Dir }}</div>
-            {{ end }}
-            
-            {{ .Summary }}
-            <div style="color:grey; font-size:16px;">
-                {{ if .Params.years }}
-                    <strong>Categories:</strong>
-                    {{ range .Params.years }}
-                        <a href="{{ " /years/ " | relLangURL }}{{ . | urlize }}">
-                            {{ . }}
-                        </a>
-                    {{ end }}
-                {{ end }}
-            </div>
-            <a href="{{ .Permalink }}">mehr lesen</a>
-        </article>
-    {{ end }}
+    {{ template "_internal/pagination.html" . }}
 {{ end }}

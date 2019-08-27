@@ -16,6 +16,8 @@
     
     {{ if $hero }}
         {{ partial "molecules/mi-hero-image/mi-hero-image.html" (dict "image" $hero "headline" .Title "class" $heroClass "subtitle" .Params.termin) }}
+    {{ else }}
+        <h1>{{ .Title }}</h1>
     {{ end }}
     
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params) }}
