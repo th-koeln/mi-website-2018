@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk",
-    "build": "hugo --cleanDestinationDir",
-    "deploy": "hugo --environment staging --cleanDestinationDir"
+    "start": "hugo --cleanDestinationDir",
+    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk  --cleanDestinationDir"
   },
   "author": "Advanced Media Institut - Cologne University of Applied Sciences",
   "license": "MIT",
