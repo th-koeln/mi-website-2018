@@ -1,12 +1,17 @@
 baseurl = "https://www.medieninformatik.th-koeln.de/"
+
 title = "Medieninformatik an der TH Köln"
-theme = "micgn"
+
 languageCode = "de-de"
+
 sectionPagesMenu = "main"
-publishDir = "docs"
+
+paginate = 5
+paginatePath = "page"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
+
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -18,14 +23,7 @@ googleAnalytics = ""
   impressum = "<a href=\"https://www.th-koeln.de/hochschule/impressum_8159.php\">Impressum</a>"
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  year = "years"
   paper = "papers"
-  keyword = "keywords"
-  betreuer = "betreuer"
-  autor = "autoren"
-  modul = "module"
 
 [outputs]
   page = ["HTML", "JSON"]
@@ -33,16 +31,6 @@ googleAnalytics = ""
   home = ["html", "JSON"]
 
 [imaging]
-# Default resample filter used for resizing. Default is Box,
-# a simple and fast averaging filter appropriate for downscaling.
-# See https://github.com/disintegration/imaging
-resampleFilter = "box"
-
-# Default JPEG quality setting. Default is 75.
-quality = 75
-
-# Anchor used when cropping pictures.
-# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
-# Smart Cropping is content aware and tries to find the best crop for each image.
-# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+  anchor = "smart"

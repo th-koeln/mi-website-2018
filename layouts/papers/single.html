@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <div class="single">
+        <h1>{{ .Title }}</h1>
+        <div class="single-content">
+            <div class="single-text">
+                {{ .Content }}
+            </div>
+            <div class="single-sidebar">
+                <h3>{{ range .Params.Module}}{{ . }}{{ end }}</h3>
+                <div class="has-seperator m-mi-content-wrap">
+                    <strong>Autor</strong>
+                    <br />
+                    <br />
+                    <ul class="mi-linkliste">
+                        {{ range .Params.Autoren}}
+                            <li>{{ . }}</li>
+                        {{ end}}
+                    </ul>
+                </div>
+            
+                <div class="has-seperator m-mi-content-wrap">
+                    <strong>Betreuer</strong>
+                    <br />
+                    <br />
+                    <ul class="mi-linkliste">
+                        {{ range .Params.Betreuer }}
+                            <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            
+                <div class="has-seperator m-mi-content-wrap">
+                    <strong>Jahr</strong>
+                    <br />
+                    <br />
+                    {{ range .Params.Papers}}{{ . }}{{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+{{ end }}

@@ -3,7 +3,7 @@ date = "2018-06-06T11:56:33+00:00"
 title = "Internationalisierung und Lokalisierung von Webanwendungen unter Zuhilfenahme von AngularJS"
 autoren = ["Eduard König"]
 module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss","Alexander Urbschat (B. Eng.)"]
+betreuer = ["Prof. Christian Noss","Alexander Urbschat"]
 themen = ["AngularJS","Webanwendungen"]
 papers = [2015]
 +++

@@ -1,0 +1,48 @@
+{{ $scratch := newScratch }}
+{{ $scratch.Set "dir" "study/" }}
+{{ $scratch.Add "dir" .Parent.Params.id }}
+{{ $scratch.Add "dir" "/moduls/" }}
+{{ $moduldir := $scratch.Get "dir" }}
+
+{{ $scratch := newScratch }}
+{{ $scratch.Set "key" ".Params." }}
+{{ $scratch.Add "key" .Parent.Params.selectKey }}
+
+<h2>Modulübersicht</h2>
+<article class="m-mi-content-wrap">
+	<div class="m-mi-textblock is-small">
+		<p>
+			Wie alle anderen Studiengänge im Bachelor-Master-System besteht auch der Medieninformatik Bachelor
+			aus Modulen. Sie sind die zentrale Organisationseinheit des Studiengangs. Module bestehen aus
+			verschiedenen Elementen wie Vorlesungen, Seminaren, Praktika und Workshops. Sie fassen die Elemente
+			zu einem übergeordneten Thema zusammen und schließen mit einer Modulprüfung oder mehreren
+			Teilprüfungen ab.
+		</p>
+	</div>
+</article>
+
+<ul class="accordion">
+	{{ $semester :=  split .Parent.Params.semester "," }}
+	{{ range $i := $semester }}
+	{{ $i := int $i }}
+	{{ $key := $scratch.Get "key" }}
+	<li class="accordion-item">
+		
+		<a href="#" class="accordion-title">
+			{{$i}}. Fachsemester
+		</a>
+		
+		<div class="accordion-content">
+			<ul class="mi-linkliste">
+				{{ range $modul := where $.Site.Pages $key "==" $i }}
+					<li>
+						<a href="{{ $modul.Permalink }}">
+							{{ $modul.Title }}
+						</a>
+					</li>
+				{{ end }}
+			</ul>
+		</div>
+	</li>
+	{{ end }}
+</ul>

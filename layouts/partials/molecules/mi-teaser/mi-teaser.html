@@ -1,0 +1,29 @@
+<div class="m-mi-teaser">
+	{{ if .image }}
+		{{ partial "atoms/mi-image/mi-image.html" (dict "image" .image "class" "mi-teaser-image") }}
+	{{ end }}
+
+	{{ if .imageSrc }}
+		{{ partial "atoms/mi-image/mi-image.html" (dict "imageSrc" .imageSrc "class" "mi-teaser-image") }}
+	{{ end }}
+
+	{{ if .headline }}
+		<h2 class="h3 m-mi-teaser--headline">
+			{{ .headline }}
+		</h2>
+	{{ end }}
+	
+	{{ if .info }}
+		<p class="m-mi-teaser--info">
+			{{ .info }}
+		</p>
+	{{ end }}
+	
+	{{ if .linktext }}
+		<p class="m-mi-teaser--footer">
+			<a href="{{ .url }}">
+				{{ .linktext }}
+			</a>
+		</p>
+	{{ end }}
+</div>

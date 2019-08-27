@@ -1,0 +1,66 @@
+{{ define "main" }}
+    {{ $params := . }}
+    
+    {{ if .File }}
+		<div class="has-seperator">
+			{{ $level := split .File.Dir "/" }}
+			{{ if gt (len $level) 2}}
+			    <h1>{{ .Title }}</h1>
+			{{ end }}
+
+			{{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
+		</div>
+    {{ end }}
+
+    <div class="people has-seperator">
+        {{ $scratch := newScratch }}
+        
+        {{ range $human := .Site.Data.people }}
+            {{ if and (eq $human.status "prof") ($human.mi) }}
+                <div class="mi-stack">
+                    {{ if ne $human.avatar ""}}
+                        {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $human.avatar )}}
+                    {{ end }}
+                    <header class="is-vertically-centered">
+                        <h3>
+                            <a data-callout="{{ anchorize $human.name }}">{{ $human.name }}</a>
+                        </h3>
+                        <!--h4 class="lift-up">{{ $human.funname }}</h4-->
+                    </header>
+
+                    <div id="{{ anchorize $human.name }}" class="callout is-hidden arrow-up">
+                        <button class="close-button" data-close="{{ anchorize $human.name }}">&times;</button>
+                        <h4>Module</h4>
+                        
+                        <ul class="is-small">
+                            {{ range $modul := $.Site.Pages }}
+                            {{ if eq $modul.Params.layout "modulbeschreibung" }}
+                                {{ $verantwortliche := split $modul.Params.modulverantwortlich ", " }}
+                                    {{ if in $verantwortliche $human.id }}
+                                        <li>
+                                            <a href="{{ $modul.RelPermalink }}">
+                                                {{ $modul.Title }}
+                                            </a>
+                                        </li>    
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+
+                        {{ with $human.personenseite }}
+                            <p class="is-small">
+                                <a href="{{ . }}" target="_blank">
+                                    <i class="material-icons">open_in_new</i>zur Personendetailseite
+                                </a>
+                            </p>
+                        {{ end }}
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+
+    {{ range $page := .Pages }}
+        {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
+    {{ end }}
+{{ end }}

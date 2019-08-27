@@ -1,0 +1,25 @@
+{{ define "main" }}
+    {{ $params := . }}
+
+    <h1>{{ .Title }}</h1>
+    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
+
+    {{ range .Pages }}
+        <article class="m-mi-content-wrap">
+            <h3>Page: {{ .Title }}</h3>
+            
+            {{ .Summary }}
+            
+            <a href="{{ .Permalink }}">mehr lesen</a>
+        </article>
+    {{ end }}
+
+    {{ range .Sections }}
+        <article class="m-mi-content-wrap">
+            <h3>Section: {{ .Title }}</h3>
+            
+            {{ .Summary }}
+            <a href="{{ .Permalink }}">mehr lesen</a>
+        </article>
+    {{ end }}
+{{ end }}

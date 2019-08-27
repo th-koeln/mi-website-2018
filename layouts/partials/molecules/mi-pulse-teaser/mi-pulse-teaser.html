@@ -1,0 +1,14 @@
+<div class="m-mi-pulse-teaser {{ if not .imageSrc }}is-text-only{{ else }}has-image{{ end }}" {{ if .imageSrc }}style="background-image: url({{ .imageSrc }})"{{ end }}>
+
+	<div class="m-mi-pulse-teaser--content">
+		<h2 class="title">
+			{{ .ele.Title }}
+		</h2>
+	</div>
+
+	{{ with .ele.Params.termin }}
+		<p class="m-mi-pulse-teaser--footer">
+			{{ . }}
+		</p>
+	{{ end }}
+</div>

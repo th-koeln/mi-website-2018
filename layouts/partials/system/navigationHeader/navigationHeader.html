@@ -1,0 +1,27 @@
+{{ $BaseURL := .BaseURL }}
+{{ $globalParams := .globalParams }}
+{{ $globalParams.Scratch.Set "path" "" }}
+
+<div class="m-navHead">
+	<button id="icon-main-menu" class="m-navHead--hamburger hamburger-cancel">
+		<span class="icon"></span>
+	</button>
+	<div class="m-navHead--text">
+    	<a href="{{ .BaseURL }}">mi</a>
+		{{ if .Fragments }}
+			{{ range .Fragments }}
+				{{ $frag := (print . "/") }}
+				{{ $globalParams.Scratch.Add "path" $frag }}
+				<span class="m-navHead--logoSlash">/</span>
+				<span class="m-navHead--logoSlug">
+					<a href="{{ $BaseURL }}{{ $globalParams.Scratch.Get "path" }}">{{ . }}</a>
+				</span>
+			{{ end }}
+		{{ else }}
+			<span class="m-navHead--logoSlash">/</span>
+			<span class="m-navHead--logoSlug">
+				<a href="{{.BaseURL}}">home</a>
+			</span>
+		{{ end }}
+  	</div>
+</div>

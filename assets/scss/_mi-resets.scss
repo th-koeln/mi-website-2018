@@ -1,0 +1,48 @@
+/* MI Resets -----------------------------------------------------------------------------*/
+
+a.label:hover {
+    cursor: pointer;
+}
+
+/* Keine Umrandung bei aktiven Links */
+.menu li a:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+// Accordion reset ---------
+.accordion-item {
+    border-bottom: solid 1px $mi-blau;
+    margin-bottom: $bfs-xs !important;
+    padding-bottom: $bfs-xs;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.accordion-title {
+    font-size: 1rem ;
+    color: #000;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    &:hover{
+        background: none;
+    }
+}
+
+.accordion-content {
+    border: none;
+    font-size: $bfs-s;
+}
+
+:last-child:not(.is-active) > .accordion-title {
+    border-bottom: none;
+    border-radius: 0 0 0 0;
+}
+
+.material-icons {
+    vertical-align: middle;
+}

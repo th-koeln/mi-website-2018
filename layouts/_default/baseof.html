@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+	{{ $globalParams := . }}
+	{{ $scratch := newScratch }}
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        {{ with .Title }}
+            <title>TH Köln // {{ . }}</title>
+        {{ end }} 
+        
+        {{ with .Site.Params.description }}
+            <meta name="description" content="{{ . }}">
+        {{ end }}
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="all, follow">
+        <meta name="googlebot" content="index, follow, snippet, archive">
+        
+        {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $css.Permalink }}" />
+        <link rel="stylesheet" href="{{ "fonts/iconfont/material-icons.css" | absURL }}" />
+        
+        <!-- Responsivity for older IE -->
+        <!-- Just in case -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        <link rel="shortcut icon" type="image/x-icon" href="{{ "favicons/favicon.ico" | absURL }}">
+        
+        {{ range .AlternativeOutputFormats -}}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
+        
+        {{ template "_internal/google_analytics_async.html" . }}            
+    </head>
+    <body>
+  		<div class="off-canvas-wrapper">
+    		<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      			{{ partial "system/sidebar/sidebar.html" $globalParams }}
+    		</div>
+	
+			<div class="off-canvas-content">
+                {{ if .File}}
+                    {{ $fragments := cond ( in .File.Dir "/") (split .File.Dir "/") (split .File.Dir "\\") }}
+                    {{ $iFragments := sub (len $fragments) 2 }}
+                    {{ $scratch.Set "iFragments" $iFragments }}
+                    {{ $fragment := index ($fragments) 0 }}
+                    {{ $fragments := cond ( in .File.Dir "/") (split .Page.Type "/") (split .Page.Type "\\") }}
+
+                    {{ $slug := cond (eq (len $fragments) 1) .Page.Data.Term $fragment }}
+        
+                    {{ if lt ($iFragments) 1 }}
+                        {{ $scratch.Set "iFragments" 1 }}
+                    {{ end }}
+        
+                    {{ $scratch.Set "fragments" (first ($scratch.Get "iFragments") (cond ( in .File.Dir "/") (split .File.Dir "/") (split .File.Dir "\\"))) }}
+        
+                    {{ if .IsHome }}
+                        {{ $scratch.Set "fragments" false }}
+                    {{ end }}
+                    
+                    {{ $fragments :=  $scratch.Get "fragments" }}
+                    {{ partial "system/navigationHeader/navigationHeader.html" (dict "slug" $slug "BaseURL" .Site.BaseURL "Fragments" $fragments "globalParams" $globalParams) }}
+                {{ else }}
+                    {{ partial "system/navigationHeader/navigationHeader.html" (dict "BaseURL" .Site.BaseURL "globalParams" $globalParams) }}
+                {{ end }}
+    			<div class="content-grid has-gap">
+					
+					{{ block "main" . }}{{ end }}
+      			</div>
+	  
+                <footer class="mi-footer">
+                    <div class="content-grid has-gap">
+                        <ul class="mi-linkliste">
+                            <li>
+                                &copy;{{ now.Format "2006" }}
+                                {{ with .Site.Params.copyright }}
+                                    {{ . | safeHTML }}
+                                {{ end }}
+                            </li>
+                            <li>
+                                {{ with .Site.Params.ansprechpartner }}
+                                    {{ . | safeHTML }}
+                                {{ end }}
+                            </li>
+                            <li>
+                                {{ with .Site.Params.impressum }}
+                                    {{ . | safeHTML }}
+                                {{ end }}
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+    		</div>
+        </div>
+        {{ $main := resources.Get "js/main.js" }}
+        {{ $news := resources.Get "js/news-aggregator.js" }}
+        {{ $js :=  slice $news $main | resources.Concat "js/bundle.js" | resources.Fingerprint }}
+
+        <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+	</body>
+</html>

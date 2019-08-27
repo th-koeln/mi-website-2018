@@ -1,0 +1,66 @@
+/* MI Layout
+-----------------------------------------------------------------------------*/
+
+body {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+}
+
+.content-grid {
+    display: grid;
+    margin-right: 1rem;
+    max-width: 900px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-size: 40%;
+    }
+}
+
+
+.off-canvas-content.is-open {
+    transform: translateX(250px);
+}
+
+.off-canvas-wrapper {
+    overflow: visible;
+}
+
+.off-canvas-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    transition: transform .5s ease,-webkit-transform .5s ease;
+}
+
+@media screen and (min-width: 640px) {
+    .has-gap {
+        margin-left: $from-left;
+    }
+
+    header,
+    nav,
+    footer {
+        flex-shrink: 0;
+    }
+
+    main {
+        flex: 1 0 auto;
+        /* Use 1 0 auto instead of just 1 for backwards compatibility with other browsers */
+    }
+}
+
+@media(max-width: 639px) {
+    .content-grid {
+        margin-left: 1rem;
+    }
+}
+
+.mi-stack{
+    > * {
+        margin-bottom: $bfs;
+    }
+}

@@ -1,0 +1,32 @@
+.m-sidebar {
+    padding: 0.5em;
+
+    &--menu {
+        margin: 0;
+        padding: 0;
+
+        > li {
+            font-family: $family-headlines;
+            font-size: rem-calc(25);
+            display: block;
+            text-align: right;
+        }
+    }
+
+    &--logo {
+        margin-top: 18px;
+        margin-bottom: 109px;
+    }
+
+    .is-second{
+        position: absolute;
+        bottom: $bfs;
+        right: 0.5em;
+        
+        > li {
+            font-family: $family-primary;
+            font-size: $bfs-s;
+            display: block;
+        }
+    }
+}

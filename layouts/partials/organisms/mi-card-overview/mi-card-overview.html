@@ -1,0 +1,28 @@
+<div class="o-mi-card-overview">
+	{{ range .ele.Sections }}
+		<div class="card" data-equalizer-watch>
+			{{ if .File }}
+				<img src="/{{ path.Dir .File.Dir }}/teaser.svg">
+			{{ end }}
+			
+			<div class="card-section">
+				<h3 class="h4">
+					{{ .Title }}
+				</h3>
+				<p class="is-small">
+					{{ .Params.teasertext }}
+				</p>
+			
+				{{ $scratch := newScratch }}
+				{{ $scratch.Set "url" .RelPermalink }}
+			
+				{{ if .Params.mehrinfosurl }}
+					{{ $scratch.Set "url" .Params.mehrinfosurl }}
+				{{ end }}
+			
+				{{ $url := $scratch.Get "url" }}
+				{{ partial "atoms/mi-button/mi-button.html" (dict "text" "mehr lesen" "url" $url "class" "small") }}
+			</div>
+		</div>
+	{{ end }}
+</div>

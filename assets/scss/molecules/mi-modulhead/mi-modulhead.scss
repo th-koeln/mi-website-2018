@@ -1,0 +1,22 @@
+.m-mi-modulhead {
+    .m-mi-modulhead--mit-bild {
+        position: relative;
+        margin-bottom: $bfs-xxl;
+
+        .m-mi-avatar {
+            float: left;
+            margin-right: $bfs;
+        }
+
+        .m-mi-modulhead-text {
+            .m-mi-modulhead--title {
+                margin-bottom: $bfs-xxs;
+            }
+
+            .m-mi-modulhead--subtitle {
+                font-size: $bfs-xl;
+                margin: 0;
+            }
+        }
+    }
+}

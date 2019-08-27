@@ -1,0 +1,9 @@
+{{ $scratch := newScratch }}
+{{ if .File }}
+    <div class="m-mi-kontext-footer">
+        {{ $scratch.Set "category" (index (split .File.Dir "/") 0) }}
+        <a class="primary label" href='/{{ $scratch.Get "category" }}/'>
+            {{ $scratch.Get "category" }}/
+        </a>
+    </div>
+{{ end }}

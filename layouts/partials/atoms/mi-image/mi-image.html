@@ -1,0 +1,17 @@
+{{ $scratch := newScratch }}
+
+{{ if .image }}
+	{{ $scratch.Set "src" .image.RelPermalink }}
+	{{ $scratch.Set "width" .image.Width }}
+	{{ $scratch.Set "height" .image.Height }}
+{{ end }}
+
+{{ if .imageSrc }}
+	{{ $scratch.Set "src" .imageSrc }}
+	{{ $scratch.Set "width" "" }}
+	{{ $scratch.Set "height" "" }}
+{{ end }}
+
+<figure class="{{ .class }}">
+	<img style="width: 100%; height: auto;" src='{{ $scratch.Get "src" | absURL }}' {{ $scratch.Get "width" }} {{ $scratch.Get "height" }} class="{{ .class }}" />
+</figure>

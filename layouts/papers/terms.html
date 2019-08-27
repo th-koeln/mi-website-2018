@@ -1,0 +1,18 @@
+{{ define "main" }}
+    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . )  }}
+
+    {{ range .Site.Taxonomies.papers.Alphabetical.Reverse }}
+        <div class="taxonomy has-seperator">
+            <h1>{{ .Name }}</h1>
+            <ul>
+                {{ range .Pages }}
+                    <li hugo-nav="{{ .RelPermalink }}">
+                        <a href="{{ .Permalink }}">
+                            {{ .LinkTitle }}
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    {{ end }}
+{{ end }}

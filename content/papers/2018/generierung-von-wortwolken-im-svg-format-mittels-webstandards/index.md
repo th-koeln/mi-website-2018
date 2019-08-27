@@ -1,6 +1,6 @@
 +++
 title = "Generierung Von Wortwolken Im Svg Format Mittels Webstandards"
-date = 2018-06-02T13:49:31+02:00
+date = "2018-06-02T13:49:31+02:00"
 autoren = ["Alexander Miske"]
 module = ["Bachelorarbeit"]
 betreuer = ["Prof. Christian Noss", "Prof. Dr. Martin Eisemann"]

@@ -1,0 +1,108 @@
+{{ define "main" }}
+	{{ $params := . }}
+	{{ $scratch := newScratch }}
+	
+	<div class="m-mi-hero-container has-seperator">
+		{{ $section := . }}
+		{{ $teaser := .Resources.Match "teaser*" }}
+		{{ $image := index ($teaser) 0 }}
+		{{ $hero := $image.Resize "1600x Center q100 Linear" }}
+		{{ $scratch.Set "heroClass" "" }}
+
+		{{ if .Params.heroClass }}
+			{{ $scratch.Set "heroClass" .Params.heroClass }}
+		{{end}}
+		
+		{{ $heroClass := $scratch.Get "heroClass" }}
+		{{ partial "molecules/mi-hero-image/mi-hero-image.html" (dict "image" $hero "headline" .Title "class" $heroClass) }}
+		{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params) }}
+	</div>
+
+	{{ range $additionalcontent := .Params.additionalcontent }}
+
+		<div class="{{ $additionalcontent }} has-seperator">
+			{{ $scratch.Set "additionalcontentPath" "/" }}
+			{{ if $.File }}
+				{{ $scratch.Add "additionalcontentPath" $.File.Dir }}
+			{{ end }}
+			{{ $scratch.Add "additionalcontentPath" $additionalcontent }}
+			{{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
+
+			{{ with $.Site.GetPage $additionalcontentPath }}
+				{{ .Render .Params.view }}
+			{{ end }}
+		</div>
+	{{ end }}
+
+	<div class="verantwortlich">
+		{{ $scratch := newScratch }}
+
+		{{ $scratch.Set "path" "" }}
+		{{ if .File }}
+			{{ $scratch.Add "path" .File.Dir }}
+		{{ end }}
+		{{ $scratch.Add "path" "weiterfuehrende-links" }}
+		{{ $path:= $scratch.Get "path" }}
+		{{ with $.Site.GetPage $path }}
+			<div class="extended-information">
+				<h2 class="h4">Weiterführende Informationen</h2>
+				{{ $params := . }}
+				{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params "class" "is-small") }}
+				<br />
+			</div>
+		{{ end }}
+
+		{{ $scratch.Set "path" "/" }}
+		{{ if .File }}
+			{{ $scratch.Add "path" .File.Dir }}
+		{{ end }}
+		{{ $scratch.Add "path" "verantwortlich" }}
+		{{ $path:= $scratch.Get "path" }}
+
+		{{ with $.Site.GetPage $path }}
+			{{ $people := .Site.Data.people }}
+			{{ $verantwortlicheRaw := split .Params.kennung ", " }}
+			{{ $scratch := newScratch }}
+			{{ $scratch.Set "avatar" false }}
+
+			{{ range $verantwortlich := $verantwortlicheRaw }}
+				{{ range $item := $people }}
+					{{ if eq $item.id $verantwortlich }}
+						{{ $scratch.SetInMap "verantwortlich" $item.id $item.id }}
+						{{ if $item.avatar }}
+							{{ $scratch.Set "avatar" true }}
+							{{ $scratch.SetInMap "avatare" $item.id $item.avatar }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
+
+			<div class="questions">
+				{{ if $scratch.Get "avatar" }}
+					{{ if gt (len ($scratch.Get "avatare")) 0 }}
+						{{ range $avatar:= ($scratch.GetSortedMapValues "avatare") }}
+							{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar ) }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+
+				<div class="m-mi-textblock is-small">
+					<h2 class="h4">Fragen?</h2>
+					{{ .RawContent }}
+					{{ $scratch.Set "verantwortlicheCount" 0 }}
+
+					{{ range $verantwortlich := ($scratch.GetSortedMapValues "verantwortlich") }}
+						{{ $scratch.Set "verantwortlicheCount" (add ($scratch.Get "verantwortlicheCount") 1) }}
+						{{ $verantwortlich := index $people $verantwortlich }}
+						
+						<a href="{{ $verantwortlich.personenseite }}">{{ $verantwortlich.name }}</a>
+						
+						{{ if lt ($scratch.Get "verantwortlicheCount") (len ($scratch.Get "verantwortlich")) }}
+							oder
+						{{ end }}
+					{{ end }}
+				</div>
+			</div>
+		{{ end }}
+	</div>
+{{ end }}

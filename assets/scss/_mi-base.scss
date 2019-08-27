@@ -1,0 +1,140 @@
+/* MI Base -----------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body,
+html {
+    font-size: $bfs;
+    hyphens: auto;
+}
+
+body {
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Headlines & Texts -----------------------------------------------------------------------------*/
+
+h1 {
+    font-weight: bold;
+    margin-bottom: $bfs-l;
+}
+
+h2 {
+    margin-bottom: $bfs;
+}
+
+h3 {
+    margin-bottom: $bfs;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 110% !important;
+    hyphens: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: normal;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+}
+
+h4, .h4 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+p + h2, ul + h2{
+    margin-top: $bfs-xxl;
+}
+
+@media screen and (max-width: 640px) {
+  p {
+    line-height: 130%;
+  }
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 130%;
+}
+
+/* Lists -----------------------------------------------------------------------------*/
+
+ul {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+
+ul, ol, dl {
+    margin-bottom: 1rem;
+    list-style-position: outside;
+    line-height: 140%;
+}
+
+li {
+    line-height: 130%;
+    margin-bottom: $bfs-xs;
+}
+
+li.accordion-item {
+    margin-bottom: 0;
+}
+
+
+.is-small li {
+    line-height: 110%;
+    margin-bottom: $bfs-xxs;
+}
+
+/* Other Elements -----------------------------------------------------------------------------*/
+
+blockquote {
+    border-left: solid $mi-border-small $mi-pink;
+    padding: $bfs-xs $bfs;
+
+    > p {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    line-height: inherit;
+    color: #d16;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    color: #be0f58;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0;
+}
+
+thead {
+    background: #f8f8f8;
+    color: #0a0a0a;
+}
+thead, tbody, tfoot {
+    border: none;
+    background-color: #fefefe;
+}
+thead tr, tfoot tr {
+    background: transparent;
+}

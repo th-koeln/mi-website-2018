@@ -4,7 +4,7 @@ title: "Events"
 linkTitle: "Events"
 ---
 
-Öfter mal was los in der Medieninformatik. Kommt vorbei, wenn euch ein Thema interessiert. Sagt Bescheid, wenn ihr ein Event habt, was hier plaziert werden soll.
+Öfter mal was los in der Medieninformatik. Kommt vorbei, wenn euch ein Thema interessiert. Sagt Bescheid, wenn ihr ein Event habt, was hier platziert werden soll.
 
 
 

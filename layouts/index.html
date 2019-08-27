@@ -1,0 +1,43 @@
+{{ define "main" }}
+    {{ $params := . }}
+    {{ $scratch := newScratch }}
+    
+    {{ if .File }}
+        <div class="has-seperator">
+            
+            {{ $level := split .File.Dir "/" }}
+
+            {{ if gt (len $level) 2}}
+                <h1>{{ .Title }}</h1>
+            {{end}}
+
+            {{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
+        </div>
+    {{ end }}
+
+    {{ with .Site.GetPage "/events" }}
+        <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
+        {{ $params := . }}
+        {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
+
+        <div id="eventblock" class="events">
+            {{ range $item := .Pages }}
+                <div class="event">
+                    {{ $date := .Date }}
+                    {{ $scratch.Set "teaser" "" }}
+                    {{ $teaser := .Resources.Match "teaser*" }}
+            
+                    {{ if $teaser }}
+                        {{ $image := index ($teaser) 0 }}            
+                        {{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
+                        {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+                    {{ end }}
+            
+                    <a href="{{ .RelPermalink }}">
+                        {{ partial "molecules/mi-pulse-teaser/mi-pulse-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    {{ end }}
+{{ end }}
