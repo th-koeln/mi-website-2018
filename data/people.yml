@@ -1,4 +1,3 @@
-# cn: ja, haessliche Struktur, aber leider ist der doofe Hugo mit einer schönen Struktur nicht klar gekommen, der Penner!
 moe:
     id: moe
     status: prof
@@ -6,7 +5,6 @@ moe:
     avatar: 'https://www.th-koeln.de/pseimg/c25b6f6f6f2f2f69e98dd361b2bb08880918e163.png'
     personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
     mi: true
-    funname: Marketing Queen
 pb:
     id: pb
     status: wma
@@ -27,11 +25,10 @@ cn:
     avatar: 'https://pbs.twimg.com/profile_images/467245358968365057/ZkBvZKrO_400x400.jpeg'
     personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
     mi: true
-    funname: Designfuzzie
 vos:
     id: vos
     status: wma
-    name: 'Volker Schaefer'
+    name: 'Volker Schäfer'
     avatar: 'https://www.th-koeln.de/pseimg/968345007305db8e1992c660d36eac653a459623.png'
     personenseite: 'https://www.th-koeln.de/personen/volker.schaefer/'
     mi: true
@@ -42,7 +39,6 @@ kf:
     avatar: 'http://www.dr-fischer-koeln.com/Profil/Kontakt_files/DSCF0357.jpg'
     personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
     mi: true
-    funname: Webworker
 nag:
     id: nag
     status: wma
@@ -70,12 +66,8 @@ sal:
 maa:
     id: maa
     status: wma
-    name: 'Markus Alterauge'
-    mi: true
-lew:
-    id: lew
-    status: wma
-    name: 'Lena Wirtz'
+    name: 'Markus Christopher Alterauge'
+    personenseite: 'https://www.th-koeln.de/personen/markus.alterauge/'
     mi: true
 ck:
     id: ck
@@ -84,7 +76,6 @@ ck:
     avatar: 'https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
     mi: true
-    funname: Allroundtalent
 mak:
     id: mak
     status: wma
@@ -105,18 +96,6 @@ gh:
     personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
     avatar: 'https://www.th-koeln.de/pseimg/baeb6ae11953fdf72188255bc7ed51d162d30a78.png'
     mi: true
-    funname: Menschenkenner
-dar:
-    id: dar
-    status: wma
-    name: 'Daniela Reschke'
-    personenseite: 'https://www.th-koeln.de/personen/daniela.rescke/'
-    mi: true
-shs:
-    id: shs
-    status: wma
-    name: 'Sheree Saßmannshausen'
-    mi: true
 hk:
     id: hk
     status: prof
@@ -124,7 +103,6 @@ hk:
     avatar: 'https://www.th-koeln.de/pseimg/5c8fc301d0dd483a146b14086113bdf0faaa406d.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
     mi: true
-    funname: Filmemacher
 erw:
     id: erw
     status: wma
@@ -138,7 +116,6 @@ mw:
     avatar: 'https://www.th-koeln.de/pseimg/c5bff77954375a20b019ae362b6e253fb6a5c153.png'
     personenseite: 'https://www.th-koeln.de/personen/mario.winter/'
     mi: true
-    funname: Systematiker
 alm:
     id: alm
     status: wma
@@ -152,7 +129,6 @@ me:
     avatar: 'https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png'
     personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
     mi: true
-    funname: Grafikgenie
 bem:
     id: bem
     status: wma
@@ -173,13 +149,6 @@ mag:
     avatar: 'https://www.th-koeln.de/pseimg/38cbc61901158f675046f4020ec2b6cec863c12b.png'
     personenseite: 'https://www.th-koeln.de/personen/matthias.gross2/'
     mi: true
-ded:
-    id: ded
-    status: wma
-    name: 'Dennis Dubbert'
-    avatar: 'https://www.th-koeln.de/pseimg/3534fac559ac168011e615ed6b68718eea60df39.png'
-    personenseite: 'https://www.th-koeln.de/personen/dennis.dubbert/'
-    mi: true
 chh:
     id: chh
     status: wma
@@ -194,12 +163,6 @@ fv:
     avatar: 'https://www.th-koeln.de/pseimg/c63ff50c1c9ccabe4fff15dfcd575add217a43e7.png'
     personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
     mi: true
-dcw:
-    id: dcw
-    status: wma
-    name: 'Dennis Christian Wilk'
-    personenseite: 'https://www.th-koeln.de/personen/dennis.wilk/'
-    mi: true
 lk:
     id: lk
     status: prof
@@ -212,24 +175,18 @@ mb:
     avatar: 'https://www.th-koeln.de/pseimg/52a2eb43cc2e446704c03256088f979dc8ec2af0.png'
     personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
     mi: true
-    funname: Herr aller Dinge
 edg:
     id: edg
     status: wma
     name: 'Edgar Gellert'
     personenseite: 'https://www.th-koeln.de/personen/edgar.gellert/'
     mi: true
-mph:
-    id: mph
-    status: wma
-    name: 'Marco Paolo Heßland'
-    personenseite: 'https://www.th-koeln.de/personen/marco.hessland/'
-    mi: true
 ab:
     id: ab
     status: prof
     name: 'Prof. Dr. Arno Bitzer'
     personenseite: 'https://www.th-koeln.de/personen/arno.bitzer/'
+    mi: false
 bb:
     id: bb
     status: prof
@@ -237,7 +194,6 @@ bb:
     avatar: 'https://www.th-koeln.de/pseimg/1e549b4b56593dc6b98c6013b9b44d15e91e607a.png'
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
-    funname: Datenjongleurin
 hfw:
     id: hfw
     status: prof
@@ -245,7 +201,6 @@ hfw:
     avatar: 'https://www.th-koeln.de/pseimg/5fadb9d1d40150b3c0b12cda210d334865affb1b.png'
     personenseite: 'https://www.th-koeln.de/personen/heide.faeskorn-woyke/'
     mi: true
-    funname: Datenjongleurin
 dag:
     id: dag
     status: wma
@@ -264,7 +219,6 @@ sk:
     name: 'Prof. Dr. Stefan Karsch'
     personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
     mi: true
-    funname: Security Freak
 hls:
     id: hls
     status: prof
@@ -272,7 +226,6 @@ hls:
     avatar: 'https://www.th-koeln.de/pseimg/0759033b27e627e31c585fdbae579e627cfae07c.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
     mi: true
-    funname: Netzwerk-Checker
 jjb:
     id: jjb
     status: wma
@@ -298,7 +251,6 @@ wk:
     avatar: 'https://www.th-koeln.de/pseimg/0f3bbf6cf67d2e0b898a6f520e0927e5c564526d.png'
     personenseite: 'https://www.th-koeln.de/personen/wolfgang.konen/'
     mi: true
-    funname: Mathe Ass
 as:
     id: as
     status: wma
