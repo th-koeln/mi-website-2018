@@ -4,7 +4,7 @@ title: "Arbeiten"
 linkTitle: "Arbeiten"
 ---
 
-Alle möglichen Arbeiten.
+In den Studiengängen der Medieninformatik entstehen regelmäßig neue spannende Abschlussarbeiten. Hier finden Sie eine Auflistung einiger Arbeiten der letzten Jahre.
 
 
 
