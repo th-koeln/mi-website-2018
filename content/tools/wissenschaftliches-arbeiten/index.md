@@ -4,7 +4,7 @@ title = "Wissenschafliches Arbeiten"
 layout = "single"
 +++
 
-<div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/writing.jpg)">
+<div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/wissenschaftliches-arbeiten/teaser.jpg)">
     <header class="title">
         <h1 class="a-headline-invers">
             Korrekt und sauber Arbeiten

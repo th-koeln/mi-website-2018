@@ -12,10 +12,9 @@ Hier findet ihr alle nötigen Informationen im Zusammenhang mit der Möglichkeit
 * Raum: 3.239
 
 ## Team
-| Name                 | Position                        |
-|----------------------|---------------------------------|
-| Ernestine Wassermann | Wissenschaftliche Mitarbeiterin |
-| Simon Porten         | Wissenschaftliche Hilfskraft    |
+
+* Ernestine Wassermann (Wissenschaftliche Mitarbeiterin)
+* Simon Porten (Wissenschaftliche Hilfskraft)
 
 ## Ausleihvorgang
 Bitte benutzt das [Verleihsystem](https://verleih.medieninformatik.th-koeln.de) um gewünschtes Equipment zu reservieren. Dort könnt Ihr auch den aktuellen Bestand einsehen. Bei Problemen meldet euch bitte mit einer möglichst genauen Beschreibung des Problems bei verleih@gm.fh-koeln.de.

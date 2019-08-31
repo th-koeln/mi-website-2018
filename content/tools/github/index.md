@@ -5,7 +5,7 @@ linkTitle = "Git und Github"
 layout = "single"
 +++
 
-<div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/versionierung.jpg)">
+<div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/github/teaser.jpg)">
     <header class="title">
         <h1 class="a-headline-invers">
             Software richtig versionieren

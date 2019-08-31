@@ -4,7 +4,7 @@ title = "Software"
 layout = "single"
 +++
 
-<div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/code.jpg)">
+<div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/software/teaser.jpg)">
     <header class="title">
         <h1 class="a-headline-invers">
             Automatisch ist immer schneller
