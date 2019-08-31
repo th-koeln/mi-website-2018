@@ -20,3 +20,17 @@
         bottom: $bfs-xl;
     }
 }
+
+
+@media screen and (max-width: 639px) {
+    .m-mi-hero-image {
+        padding-top: 90%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .m-mi-hero-image {
+        padding-top: 100%;
+    }
+}

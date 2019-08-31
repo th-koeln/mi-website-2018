@@ -36,10 +36,18 @@ body {
     transition: transform .5s ease,-webkit-transform .5s ease;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 768px) {
+    
     .has-gap {
         margin-left: $from-left;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .content-grid { margin-left: 1rem; }
+}
+
+@media screen and (min-width: 640px) {
 
     header,
     nav,
