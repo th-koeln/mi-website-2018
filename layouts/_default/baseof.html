@@ -98,8 +98,7 @@
     		</div>
         </div>
         {{ $main := resources.Get "js/main.js" }}
-        {{ $news := resources.Get "js/news-aggregator.js" }}
-        {{ $js :=  slice $news $main | resources.Concat "js/bundle.js" | resources.Fingerprint }}
+        {{ $js :=  slice $main | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
 
         <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 	</body>
