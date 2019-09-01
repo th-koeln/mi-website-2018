@@ -1,0 +1,17 @@
+matrix:
+  include:
+    - language: go
+      install:
+        - npm install
+        - wget -O https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.deb
+        - sudo dpkg -i /tmp/hugo.deb
+      script:
+        - hugo
+    - language: node_js
+      before_script:
+        - npm install
+        - npm install -g gulp-cli
+      script: gulp
+      after_success:
+        - gulp -deploy --user $FTP_USER --passowrd $FTP_PASSWORD
+      
