@@ -1,17 +1,17 @@
-matrix:
-  include:
-    - language: go
-      install:
-        - npm install
-        - wget -O https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.deb
-        - sudo dpkg -i /tmp/hugo.deb
-      script:
-        - hugo
-    - language: node_js
-      before_script:
-        - npm install
-        - npm install -g gulp-cli
-      script: gulp
-      after_success:
-        - gulp -deploy --user $FTP_USER --passowrd $FTP_PASSWORD
-      
+- language: go
+  
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_0.56.3_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public/
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
