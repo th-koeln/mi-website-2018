@@ -21,4 +21,4 @@ script:
   - hugo
 
 after_success:
-  - scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:$DEPLOYMENT_PATH
+  - scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH
