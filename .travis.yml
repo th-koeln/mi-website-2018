@@ -1,4 +1,9 @@
 language: go
+
+addons:
+  apt:
+    packages:
+      - sshpass
   
 install:
   - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.deb
@@ -7,11 +12,6 @@ install:
 script:
   - hugo
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: public/
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
+after_success:
+  - export SSHPASS=$DEPLOYMENT_PASSWORD
+  - sshpass -e scp -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH
