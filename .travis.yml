@@ -14,4 +14,4 @@ script:
 
 after_success:
   - export SSHPASS=$DEPLOYMENT_PASSWORD
-  - sshpass -e scp -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH
+  - sshpass -e scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH
