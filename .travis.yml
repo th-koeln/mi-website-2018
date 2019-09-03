@@ -1,10 +1,16 @@
 language: go
 
-addons:
-  apt:
-    packages:
-      - sshpass
-  
+before_install:
+- openssl aes-256-cbc -K $encrypted_a5ccc7f84a63_key -iv $encrypted_a5ccc7f84a63_iv
+  -in deploy_key.enc -out ./deploy_key -d
+  - ssh-add ./deploy_key
+  - eval "$(ssh-agent -s)"
+  - chmod 600 ./deploy_key
+  - echo -e "Host $SERVER_IP_ADDRESS\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - ssh-add ./deploy_key
+  - ssh -i ./deploy_key $DEPLOYMENT_USER@$DEPLOYMENT_HOST pwd
+
+
 install:
   - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.deb
   - sudo dpkg -i hugo_extended_0.56.3_Linux-64bit.deb
@@ -13,5 +19,4 @@ script:
   - hugo
 
 after_success:
-  - export SSHPASS=$DEPLOYMENT_PASSWORD
-  - sshpass -e scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH
+  - scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH

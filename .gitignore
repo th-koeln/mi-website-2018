@@ -171,3 +171,5 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+deploy_key
