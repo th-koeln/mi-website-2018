@@ -20,9 +20,5 @@ install:
 script:
   - hugo
 
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: rsync -r --delete-after --quiet ${TRAVIS_BUILD_DIR}/public/* ${DEPLOYMENT_USER}@${DEPLOYMENT_HOST}:${DEPLOYMENT_PATH}
-  on:
-    branch: master
+after_success:
+  provider: scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:$DEPLOYMENT_PATH
