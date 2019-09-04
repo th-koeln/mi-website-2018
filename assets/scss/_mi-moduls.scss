@@ -385,7 +385,7 @@ tbody th, tbody td {
 .position-left {
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     overflow-y: auto;
     width: 250px;
     -webkit-transform: translateX(-250px);
@@ -410,6 +410,7 @@ tbody th, tbody td {
     left: 0;
     bottom: 0;
     padding: .5em;
+    height: 100vh;
 }
 
 .m-sidebar--logo {
