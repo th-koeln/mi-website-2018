@@ -10,6 +10,7 @@ body,
 html {
     font-size: $bfs;
     hyphens: auto;
+    overflow-x: hidden;
 }
 
 body {
