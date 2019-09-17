@@ -12,7 +12,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
+infourl: https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/
 layout: modulbeschreibung
 
 typ: pm

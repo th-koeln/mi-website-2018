@@ -49,6 +49,11 @@
 		<dt>Voraussetzungen nach Prüfungsordnung</dt>
 		<dd>{{ .ele.Params.voraussetzungenNachPruefungsordnung }}</dd>
       {{ end }} 
+
+      {{if .ele.Params.infourl }}
+      <dt>Weitere Informationen zum Modul</dt>
+      <dd><a href="{{ .ele.Params.infourl }}">{{ .ele.Params.infourl }}</a></dd>
+    {{ end }} 
   
 	</dl>
 	

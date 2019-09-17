@@ -1,8 +1,12 @@
 .m-mi-herotext {
-    font-size: $bfs-xl;
+    font-size: $bfs;
     line-height: 110%;
     padding-bottom: $bfs-xl;
     
+    @media screen and (min-width: $mi-vp-tablet) {
+        font-size: $bfs-xl;
+    }
+
     @media screen and (min-width: 1200px) {
         p {
             max-width: 1200px;

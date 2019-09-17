@@ -44,6 +44,8 @@ Die Informatik, generell, aber besonders innovative und schnelllebige Felder wie
 
 Neben den Auswirkungen des Web auf die Geschäftsfelder von Unternehmen hat das Web auch weit reichende gesellschaftliche Wirkungen. Hier hat sich eine Szene gebildet, in der Menschen auf Basis ihrer Web Kompetenz öffentliche Präsenz erlangen, die für publizistische Tätigkeit und Beratung von öffentlichen Verwaltungen und Unternehmen genutzt wird. 
 
+**Weitere Informationen zum Schwerpunkt** finden Sie auf der [Website zum Weaving the Web Schwerpunkt](https://th-koeln.github.io/mi-master-wtw/).
+
 ## Schwerpunktspezifische Pflichtmodule
 - [Sicherheit, Privatsphäre und Vertrauen](/study/master/moduls/ma_wtw_modul_it-sicherheit)
 - [Web Architekturen](/study/master/moduls/ma_wtw_modul_web-architekturen) 

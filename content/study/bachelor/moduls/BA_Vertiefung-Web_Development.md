@@ -11,7 +11,7 @@ kreditpunkte: 20
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen des Web, Algorithmen und Programmierung, Paradigmen der Programmierung, MCI, Screendesign, Betriebssysteme und verteilte Systeme
 published: true
-infourl: 
+infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment
 layout: modulbeschreibung
 
 typ: vpm
