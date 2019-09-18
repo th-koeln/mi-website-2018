@@ -30,8 +30,8 @@ resources-skillset: dev
 
 ## Arbeitsaufwand
 Gesamtaufwand 300h, davon
-* 36h Seminar
-* 264h Selbststudium
+- 36h Seminar
+- 264h Selbststudium
 
 ## Angestrebte Lernergebnisse
 Die Studierenden sollen vertiefende Kenntnisse in die Methoden und Techniken aus zwei ausgewählten Modulen aus den ersten vier Fachsemestern des Studiums erlangen und diese in der Konzeption und prototypischen Realisierung eines interaktiven Systems oder Mediums anwenden. Dadurch sollen sie eigene Erfahrungen in der Projektabwicklung mit Medieninformatik-spezifischen Fragestellungen und in der Teamarbeit sammeln und eine reflektierend-kritische Haltung zu methodischen Ansätzen und Entwicklungsmodellen entwickeln. Ziel ist es eine, mit eigenen praktischen Erfahrungen fundierte Methodenkompetenz zu erlangen.

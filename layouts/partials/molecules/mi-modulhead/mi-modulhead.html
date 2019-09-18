@@ -17,14 +17,6 @@
   
     <dl class="mi-dl-overview">
 
-      {{if .ele.Params.modulniveau }}
-		<dt>Studiengang</dt>
-		<dd>
-			{{ $studiengang := index .studiengaenge .ele.Params.modulniveau  }}
-			{{ $studiengang.name }}
-		</dd>
-      {{ end }}
-
       {{if .ele.Params.kreditpunkte }}
 		<dt>Kreditpunkte</dt>
 		<dd>{{ .ele.Params.kreditpunkte }}</dd>
