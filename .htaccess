@@ -1,3 +1,4 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/$1 [R,L]
+RewriteCond %{HTTP_HOST} !^https://www.medieninformatik.th-koeln.de$ [NC]
+RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/$1 [L,R=301]
