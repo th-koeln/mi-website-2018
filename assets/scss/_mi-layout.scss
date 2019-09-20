@@ -8,8 +8,8 @@ body {
     background-size: 50%;
 }
 
-.content-grid {
-    display: grid;
+.content {
+    flex: 1 0 auto;
     margin-right: 1rem;
     max-width: 900px;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    .content-grid { margin-left: 1rem; }
+    .content { margin-left: 1rem; }
 }
 
 @media screen and (min-width: 640px) {
@@ -62,7 +62,7 @@ body {
 }
 
 @media(max-width: 639px) {
-    .content-grid {
+    .content {
         margin-left: 1rem;
     }
 }

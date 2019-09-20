@@ -68,13 +68,13 @@
                 {{ else }}
                     {{ partial "system/navigationHeader/navigationHeader.html" (dict "BaseURL" .Site.BaseURL "globalParams" $globalParams) }}
                 {{ end }}
-    			<div class="content-grid has-gap">
+    			<div class="content has-gap">
 					
 					{{ block "main" . }}{{ end }}
       			</div>
 	  
                 <footer class="mi-footer">
-                    <div class="content-grid has-gap">
+                    <div class="content has-gap">
                         <ul class="mi-linkliste">
                             <li>
                                 &copy;{{ now.Format "2006" }}
