@@ -65,4 +65,24 @@ document.addEventListener('DOMContentLoaded', () => {
     for(let close of closeCalloutList) {
         close.addEventListener('click', closeCallout);
     }
+
+    /** toggle tabs */
+    const tabs = document.querySelectorAll('[data-tabs] a');
+    const toggleTab = (event) => {
+        event.preventDefault();
+
+        const content = document.querySelectorAll('[data-tabs] + [data-tabs-content] .tabs-panel');
+
+        content.forEach((tabContent) => {
+            if(tabContent.id === event.target.hash.substring(1)) {
+                tabContent.classList.add('is-active');
+            } else {
+                tabContent.classList.remove('is-active');
+            }
+        });
+    };
+
+    for(let tab of tabs) {
+        tab.addEventListener('click', toggleTab);
+    }
 });
