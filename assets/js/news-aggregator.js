@@ -23,19 +23,31 @@ function createNews() {
 
     function sortItems() {
         data.sort(function(a, b) {
-            let aTime = new Date(a.date).getTime();
-            let bTime = new Date(b.date).getTime();
+            let aTime = new Date(a.date);
+            let bTime = new Date(b.date);
             return bTime - aTime;
         });
     }
 
+    function getCurrentUrl() {
+        if(window.location.href.startsWith('https')) {
+            return window.location.href.substring(5);
+        }
+        return window.location.href.substring(4);
+    }
+
     function displayItems() {
+        // only show 12 items
+        data = data.slice(0, 12);
+        
         target.innerHTML = '';
         data.forEach(function(item) {
+            let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
             target.innerHTML += `
                 <a href="${item.url}">
                     <div class="m-mi-pulse-teaser has-image" style="background-image: url(${item.bild})">
                         <div class="m-mi-pulse-teaser--content">
+                            ${external}
                             <h2 class="title">${item.title}</h2>
                         </div>
                         <p class="m-mi-pulse-teaser--footer">

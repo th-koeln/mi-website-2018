@@ -29,6 +29,10 @@
         z-index: 0;
     }
 
+    &--external {
+        float: right;
+    }
+
     &--content {
         position: relative;
         z-index: 1;
@@ -49,6 +53,7 @@
         z-index: 1;
         margin-bottom: 0;
         padding: $bfs-xxs $bfs-xs;
+        min-height: 52px;
     }
 
     &.is-text-only {

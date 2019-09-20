@@ -1,5 +1,5 @@
 ---
-date: 2016-11-05
+date: "2019-01-31T09:00:00"
 title: "Infoveranstaltung zu den Vertiefungsmodulen in der MI"
 linkTitle: "Infoveranstaltung zu den Vertiefungsmodulen in der MI"
 termin: 31. Januar 2019, 09:00 Uhr // Raum 3.102

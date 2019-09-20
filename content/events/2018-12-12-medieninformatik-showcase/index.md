@@ -1,5 +1,5 @@
 ---
-date: 2016-11-05
+date: "2018-12-11T13:00:00"
 title: "Showcase 2018"
 linkTitle: "Showcase 2018"
 termin: 11. Dezember 2018, 13:00 Uhr
