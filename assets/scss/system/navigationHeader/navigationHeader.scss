@@ -120,3 +120,18 @@
         }
     }
 }
+
+@media(max-width: 1440px) {
+    .m-navHead--text span {
+        display: none;
+    }
+
+    .m-navHead--logoSlug:first-child,
+    .m-navHead--logoSlash:nth-child(2) {
+        display: inline-block;
+    }
+
+    .m-navHead--logoSlug:last-child {
+        display: inline-block;
+    }
+}
