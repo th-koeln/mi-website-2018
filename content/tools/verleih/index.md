@@ -8,13 +8,14 @@ Hier findet ihr alle nötigen Informationen im Zusammenhang mit der Möglichkeit
 
 ## Kontakt
 
-* E-Mail: [verleih@gm.fh-koeln.de](mailto:verleih@gm.fh-koeln.de)
+* E-Mail: [miverleih@th-koeln.de](miverleih@th-koeln.de)
 * Raum: 3.239
 
 ## Team
 
 * Ernestine Wassermann (Wissenschaftliche Mitarbeiterin)
 * Simon Porten (Wissenschaftliche Hilfskraft)
+* Oliver Mertens (Studentische Hilfskraft)
 
 ## Ausleihvorgang
 Bitte benutzt das [Verleihsystem](https://verleih.medieninformatik.th-koeln.de) um gewünschtes Equipment zu reservieren. Dort könnt Ihr auch den aktuellen Bestand einsehen. Bei Problemen meldet euch bitte mit einer möglichst genauen Beschreibung des Problems bei verleih@gm.fh-koeln.de.
