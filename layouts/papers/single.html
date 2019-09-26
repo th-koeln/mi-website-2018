@@ -8,9 +8,7 @@
             <div class="single-sidebar">
                 <h3>{{ range .Params.Module}}{{ . }}{{ end }}</h3>
                 <div class="has-seperator m-mi-content-wrap">
-                    <strong>Autor</strong>
-                    <br />
-                    <br />
+                    <h4>Autor</h4>
                     <ul class="mi-linkliste">
                         {{ range .Params.Autoren}}
                             <li>{{ . }}</li>
@@ -19,9 +17,7 @@
                 </div>
             
                 <div class="has-seperator m-mi-content-wrap">
-                    <strong>Betreuer</strong>
-                    <br />
-                    <br />
+                    <h4>Betreuer</h4>
                     <ul class="mi-linkliste">
                         {{ range .Params.Betreuer }}
                             <li>{{ . }}</li>
@@ -30,9 +26,7 @@
                 </div>
             
                 <div class="has-seperator m-mi-content-wrap">
-                    <strong>Jahr</strong>
-                    <br />
-                    <br />
+                    <h4>Jahr</h4>
                     {{ range .Params.Papers}}{{ . }}{{ end }}
                 </div>
             </div>
