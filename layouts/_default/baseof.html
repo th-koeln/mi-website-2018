@@ -35,7 +35,10 @@
             {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
         {{ end -}}
         
-        {{ template "_internal/google_analytics_async.html" . }}            
+        {{ template "_internal/google_analytics_async.html" . }}
+
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        
     </head>
     <body>
   		<div class="off-canvas-wrapper">
