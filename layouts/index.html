@@ -15,13 +15,13 @@
         </div>
     {{ end }}
 
-    </div>
-    <div class="content has-gap is-fluid">
+
     {{ with .Site.GetPage "/events" }}
         <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
         {{ $params := . }}
         {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
-
+    </div>
+    <div class="content has-gap is-fluid">
         <div id="eventblock" class="events">
             
             {{ range $item := .Pages }}
