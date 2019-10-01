@@ -12,6 +12,10 @@ body {
     flex: 1 0 auto;
     margin-right: 1rem;
     max-width: 900px;
+
+    &.is-fluid{
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 1440px) {

@@ -40,7 +40,7 @@
 .mi-chapter-title {
     font-size: $bfs-xl;
 
-    @media screen and (min-width: $mi-vp-tablet) {
+    @media screen and (min-width: $mi-vp-m) {
         font-size: $bfs-xxl;
     }
 
