@@ -218,6 +218,7 @@ sk:
     status: prof
     name: 'Prof. Dr. Stefan Karsch'
     personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
+    avatar: 'https://blogs.gm.fh-koeln.de/ktds/files/2018/02/Stefan-Karsch-e1526378208178.jpg'
     mi: true
 hls:
     id: hls
@@ -268,6 +269,7 @@ hg:
     status: prof
     name: 'Prof. Dr. Holger Günther'
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
+    avatar: 'http://blogs.gm.fh-koeln.de/guenther/files/2018/04/IMAG3228-e1522846835116.jpg'
     mi: true
 mas:
     id: mas
@@ -286,6 +288,15 @@ bn:
     status: prof
     name: 'Prof. Dr. Boris Naujoks'
     personenseite: 'https://www.th-koeln.de/personen/boris.naujoks/'
+    avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
+mbl: 
+    id: mbl
+    status: prof
+    name: 'Prof. Dr. Mirjam Blümm'
+    personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
+    avatar: 'https://www.th-koeln.de/pseimg/c95ac9872de52962a9abca2210d3db881019fb51.png'
+    mi: true
+
 mi:
     id: mi
     name: 'Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
