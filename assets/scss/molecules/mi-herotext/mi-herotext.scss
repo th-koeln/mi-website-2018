@@ -7,9 +7,20 @@
         font-size: $bfs-xl;
     }
 
-    @media screen and (min-width: $mi-vp-l) {
+    @media screen and (min-width: $mi-vp-xl) {
         p {
-            max-width: $mi-vp-l;
+            max-width: $mi-vp-xl;
         }
+    }
+
+    &.has-box{
+        border-top: solid $mi-border-small $mi-pink;
+        border-bottom: solid $mi-border-small $mi-pink;
+        padding-top: $bfs-xl;
+        margin-bottom: $bfs-xl;
+    }
+
+    &.is-full-width{
+        width: 90vw;
     }
 }

@@ -1,7 +1,7 @@
 /* MI Utils -----------------------------------------------------------------------------*/
 
 .has-seperator {
-    border-bottom: solid 1px $mi-gruen;
+    border-bottom: solid $mi-border-small $mi-gruen;
     margin-bottom: $bfs-xl;
     background-color: rgba(255,255,255,0.6);
     backdrop-filter: blur(20px);

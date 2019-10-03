@@ -15,6 +15,17 @@ Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifiziere
 
 <!--more-->
 
+
+<div class="m-mi-herotext has-box is-full-width">
+<p>
+Absolventen der Medieninformatik <strong>analysieren</strong>, <strong>realisieren</strong>, <strong>betreiben</strong> und <strong>evaluieren informationstechnische Prozesse</strong> und <strong>Systeme</strong> zur Gestaltung, Produktion, Bearbeitung, Distribution und Nutzung <strong>medienbasierter Informationen</strong>.
+</p>
+
+<p>
+Das Studium der Medieninformatik zielt somit im Kern auf die Vermittlung entsprechender Methoden, Techniken und Denkweisen der Informatik. <strong>Absolvent\*innen </strong> der Medieninformatik <strong>arbeiten</strong> dabei vorwiegend in <strong>Teams</strong> und müssen dort ihre erworbenen Kompetenzen einbringen können – hier ist <strong>Interdisziplinarität</strong> gefragt, erwünscht und gefordert. Auch darauf bereitet das Studium der Medieninformatik vor: es <strong>vermittelt Sichtweisen</strong> und Techniken aus verschiedenen Fachgebieten, von <strong>Computergrafik</strong> über <strong>Mensch-Computer-Interaktion</strong> bis <strong>Videoproduktion</strong>, von <strong>Kommunikationsdesign</strong> über <strong>Programmentwicklung</strong> bis <strong>Marketing</strong>.
+</p>
+</div>
+
 Der Studiengang besteht im Kern aus zwei parallelen Strängen: einem Informatik und einem Medien-Strang. Die verschiedenen Module lassen sich mehr oder weniger gut diesen beiden Strängen zuordnen. Darüber hinaus gibt es eine Reihe von Modulen, die der Querschnittsqualifikation dienen, z.B. die Studierenden bei der Durchführung von Projekten oder im Umgang mit betriebswirtschaftlichen Frage- und Problemstellungen unterstützen. 
 
 Der zeitliche Ablauf des Studiums teilt sich in drei Abschnitte: Grundlagen, Vertiefung und Spezialisierung. In den ersten beiden Semestern überwiegen die Module aus dem Informatik Strang. Hier werden die mathematischen, theoretischen und technischen Grundlagen mit Lehrveranstaltungen wie Mathematik, Algorithmen und Programmierung, Theoretische Informatik und Einführung in Betriebssysteme und Rechnerarchitekturen vermittelt. Mit fortschreitender Fachsemesterzahl, nehmen die Module aus dem Medienstrang zunehmend mehr Raum ein. 
