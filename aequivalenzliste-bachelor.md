@@ -102,8 +102,8 @@ date: 2018-09-20
         <td>2010</td>
       </tr>
       <tr>
-        <td>Entwicklungsprojekt (5CP)</td>
-        <td>Entwicklungsprojekt interaktive Systeme (5CP)</td>
+        <td>Entwicklungsprojekt (10CP)</td>
+        <td>Entwicklungsprojekt interaktive Systeme (10CP)</td>
         <td>2310</td>
       </tr>
       <tr>
