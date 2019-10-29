@@ -20,18 +20,18 @@
 
 	{{ range $additionalcontent := .Params.additionalcontent }}
 
-		<div class="{{ $additionalcontent }} has-seperator">
-			{{ $scratch.Set "additionalcontentPath" "/" }}
-			{{ if $.File }}
-				{{ $scratch.Add "additionalcontentPath" $.File.Dir }}
-			{{ end }}
-			{{ $scratch.Add "additionalcontentPath" $additionalcontent }}
-			{{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
+    <div class="{{ $additionalcontent }} has-seperator">
+        {{ $scratch.Set "additionalcontentPath" "/" }}
+        {{ if $.File }}
+            {{ $scratch.Add "additionalcontentPath" $.File.Dir }}
+        {{ end }}
+        {{ $scratch.Add "additionalcontentPath" $additionalcontent }}
+        {{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
 
-			{{ with $.Site.GetPage $additionalcontentPath }}
-				{{ .Render .Params.view }}
-			{{ end }}
-		</div>
+        {{ with $.Site.GetPage $additionalcontentPath }}
+            {{ .Render .Params.view }}
+        {{ end }}
+    </div>
 	{{ end }}
 
 	<div class="verantwortlich">
