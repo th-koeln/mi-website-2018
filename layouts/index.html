@@ -25,7 +25,7 @@
         <div id="eventblock" class="events">
             
             {{ range $item := .Pages }}
-                <div class="event">
+                <div class="evnt">
                     {{ $date := .Date }}
                     {{ $scratch.Set "teaser" "" }}
                     {{ $teaser := .Resources.Match "teaser*" }}
