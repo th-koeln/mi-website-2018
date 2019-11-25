@@ -26,4 +26,4 @@ Eine wichtige Tätigkeit eines Medieninformatikers ist die Programmierung von So
 Die tägliche Arbeit mit Software kann manchmal echt anstrengend sein. Gerade zu Anfang stellt sich die Frage wie man möglichst effizient an sein Ziel kommt. Für diesen Zweck haben wir für Euch eine ganze Liste an [Software](/tools/software) zusammengestellt, welche sich beim Bestehen der diversen Module bewährt hat.
 
 ## Styleguide
-Im Studium müssen öfter mal Präsentationen, Poster oder Ähnliches erzeugt werden. Damit das etwas leichter von der Hand geht und dann auch noch nach [Medieninformatik am Campus Gummersbach](https://www.medieninformatik.th-koeln.de/) aussieht, gibt es hier den [Styleguide für die Medieninformatik](/tools/styleguide).
+Im Studium müssen öfter mal Präsentationen, Poster oder Ähnliches erzeugt werden. Damit das etwas leichter von der Hand geht und dann auch noch nach Medieninformatik am Campus Gummersbach aussieht, gibt es hier den [Styleguide für die Medieninformatik](/tools/styleguide).
