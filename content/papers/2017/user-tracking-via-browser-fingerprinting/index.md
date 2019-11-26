@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "User Tracking via Browser Fingerprinting"
-autoren = ["Sven Hendrik Schebitz"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss", "Dr. Eduard Maibach"]
-themen = ["User Tracking", "Fingerprinting", "Computer Science"]
-papers = [2017]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "User Tracking via Browser Fingerprinting"
+autoren: ["Sven Hendrik Schebitz"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss", "Dr. Eduard Maibach"]
+themen: ["User Tracking", "Fingerprinting", "Computer Science"]
+papers: [2017]
+---
 
 In days that we can do almost anything online, it is crucial for web developers to
 receive information about the users' behavior and devices in order to improve the web

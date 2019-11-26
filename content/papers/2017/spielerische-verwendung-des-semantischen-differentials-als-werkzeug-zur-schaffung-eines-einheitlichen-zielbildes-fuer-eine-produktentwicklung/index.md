@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Spielerische Verwendung des semantischen Differentials als Werkzeug zur Schaffung eines einheitlichen Zielbildes für eine Produktentwicklung"
-autoren = ["Sophie Marleen Stelzer"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss", "Prof. Hans Kornacher"]
-themen = ["Semantisches Differential"]
-papers = [2017]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Spielerische Verwendung des semantischen Differentials als Werkzeug zur Schaffung eines einheitlichen Zielbildes für eine Produktentwicklung"
+autoren: ["Sophie Marleen Stelzer"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss", "Prof. Hans Kornacher"]
+themen: ["Semantisches Differential"]
+papers: [2017]
+---
 
 Der Titel diese Bachelorarbeitet lautet: "Spielerische Verwendung des semantischen Differentials
 als Werkzeug zur Schaffung eines einheitlichen Zielbildes in der Produktentwicklung". Zunächst

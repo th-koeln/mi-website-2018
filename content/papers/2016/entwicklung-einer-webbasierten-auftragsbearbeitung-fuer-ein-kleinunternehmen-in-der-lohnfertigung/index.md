@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Entwicklung einer webbasierten Auftragsbearbeitung für ein Kleinunternehmen in der Lohnfertigung"
-autoren = ["Thomas Friesen"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss","Prof. Dr. Christian Kohls"]
-themen = ["Webanwendung"]
-papers = [2016]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Entwicklung einer webbasierten Auftragsbearbeitung für ein Kleinunternehmen in der Lohnfertigung"
+autoren: ["Thomas Friesen"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss","Prof. Dr. Christian Kohls"]
+themen: ["Webanwendung"]
+papers: [2016]
+---
 
 In dieser Bachelorarbeit wird die Auftragsbearbeitung eines kleinen Unternehmens analysiert
 und auf Grundlage dessen eine Webanwendung entwickelt, welche diese digitalisieren

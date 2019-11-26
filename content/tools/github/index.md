@@ -1,9 +1,9 @@
-+++
-date = "2019-08-31T19:33:33+05:30"
-title = "Git und Github"
-linkTitle = "Git und Github"
-layout = "single"
-+++
+---
+date: "2019-08-31T19:33:33+05:30"
+title: "Git und Github"
+linkTitle: "Git und Github"
+layout: "single"
+---
 
 <div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/github/teaser.jpg)">
     <header class="title">

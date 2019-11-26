@@ -1,8 +1,8 @@
-+++
-date = "2016-11-05T21:05:33+05:30"
-title = "Wissenschafliches Arbeiten"
-layout = "single"
-+++
+---
+date: "2016-11-05T21:05:33+05:30"
+title: "Wissenschafliches Arbeiten"
+layout: "single"
+---
 
 <div class="m-mi-hero-image {{ .class }}" style="background-image: url(/tools/wissenschaftliches-arbeiten/teaser.jpg)">
     <header class="title">

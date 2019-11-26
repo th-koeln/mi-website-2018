@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Ableitung von berührungslosen Gesten aus Multi-Touch Gesten für die Steuerung von Multimedia im Automobil"
-autoren = ["Anja Sivakumar"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss","Prof. Dr. Gerhard Hartmann"]
-themen = ["Gestensteuerung","user-centered-design"]
-papers = [2016]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Ableitung von berührungslosen Gesten aus Multi-Touch Gesten für die Steuerung von Multimedia im Automobil"
+autoren: ["Anja Sivakumar"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss","Prof. Dr. Gerhard Hartmann"]
+themen: ["Gestensteuerung","user-centered-design"]
+papers: [2016]
+---
 
 Die Multimedia in einem Auto wird durch die steigende Entwicklungen der Technologie
 immer beliebter. Von einfachen CD-Player und Radioempfänger sind mittlerweile

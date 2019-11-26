@@ -1,8 +1,8 @@
-+++
-date = "2016-11-05T21:05:33+05:30"
-title = "Verleih der Medieninformatik"
-layout = "single"
-+++
+---
+date: "2016-11-05T21:05:33+05:30"
+title: "Verleih der Medieninformatik"
+layout: "single"
+---
 
 Hier findet ihr alle nötigen Informationen im Zusammenhang mit der Möglichkeit Equipment für eure Projekte auszuleihen.
 

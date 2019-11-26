@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Atomic Responsive Design Workflow Kombination des Responsive Design Workflows mit dem Atomic Design zu einem neuen Vorgehensmodell"
-autoren = ["Vsevolod Küppers"]
-module = ["Praxisprojekt"]
-betreuer = ["Prof. Christian Noss"]
-themen = ["Atomic Design","Responsive Design"]
-papers = [2016]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Atomic Responsive Design Workflow Kombination des Responsive Design Workflows mit dem Atomic Design zu einem neuen Vorgehensmodell"
+autoren: ["Vsevolod Küppers"]
+module: ["Praxisprojekt"]
+betreuer: ["Prof. Christian Noss"]
+themen: ["Atomic Design","Responsive Design"]
+papers: [2016]
+---
 
 Die Gestaltung und Optimierung von Webseiten auf die unterschiedlichsten Geräte,
 Bildschirmgrößen und -Auflösungen rückt durch das ständige Wachstum der Anzahl

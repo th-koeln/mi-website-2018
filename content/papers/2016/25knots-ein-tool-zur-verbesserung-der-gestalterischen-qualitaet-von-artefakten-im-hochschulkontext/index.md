@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "25knots – Ein Tool zur Verbesserung der gestalterischen Qualität von Artefakten im Hochschulkontext"
-autoren = ["Christian Alexander Poplawski"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss","Dipl. Des. Liane Kirschner"]
-themen = ["Webanwendung"]
-papers = [2016]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "25knots – Ein Tool zur Verbesserung der gestalterischen Qualität von Artefakten im Hochschulkontext"
+autoren: ["Christian Alexander Poplawski"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss","Dipl. Des. Liane Kirschner"]
+themen: ["Webanwendung"]
+papers: [2016]
+---
 
 Die nachfolgende Arbeit beschäftigt sich mit der Entwicklung der Webanwendung 25Knots
 zu einem marktfähigen Produkt, basierend auf bereits im Praxisprojekt erarbeiteten Konzepten

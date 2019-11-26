@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Menschzentrierte Entwicklung einer Benutzungsschnittstelle am Beispiel einer android-basierten Smartwatch"
-autoren = ["Laura-Maria Hermann"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Dr. Gerhard Hartmann","Prof. Christian Noss"]
-themen = ["Android","Smartwatch","User Interface Design"]
-papers = [2015]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Menschzentrierte Entwicklung einer Benutzungsschnittstelle am Beispiel einer android-basierten Smartwatch"
+autoren: ["Laura-Maria Hermann"]
+modull: ["Bachelorarbeit"]
+betreuer: ["Prof. Dr. Gerhard Hartmann","Prof. Christian Noss"]
+themen: ["Android","Smartwatch","User Interface Design"]
+papers: [2015]
+---
 
 Diese Arbeit befasst sich mit der Analyse und Evaluation einer androidbasierten Smartwatch
 zum Zwecke der Untersuchung der Auswirkungen des User Interface Designs

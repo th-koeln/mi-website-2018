@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Implementierung und Optimierung des Atomic Design-Ansatzes in den Workflow der JAR Media GmbH"
-autoren = ["Vsevolod Küppers"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss","Julian Alexander Richter (B.Sc)"]
-themen = ["Atomic Design","CSS","HTML"]
-papers = [2016]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Implementierung und Optimierung des Atomic Design-Ansatzes in den Workflow der JAR Media GmbH"
+autoren: ["Vsevolod Küppers"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss","Julian Alexander Richter (B.Sc)"]
+themen: ["Atomic Design","CSS","HTML"]
+papers: [2016]
+---
 
 Die vorliegende Bachelor-Thesis beschaftigt sich mit der Optimierung der zur Zeit
 der Ausarbeitung aktuellen Arbeitsweisen und eingesetzten Technologien bei der Firma

@@ -1,12 +1,12 @@
-+++
-date = "2018-06-06T11:56:33+00:00"
-title = "Die Ermittlung von Sehenswürdigkeiten mittels Linked Open Data am Beispiel der Stadt Köln"
-autoren = ["Sebastian Leuer"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Christian Noss","Prof. Dr. Kristian Fischer"]
-themen = ["Linked Open Data","SPARQL"]
-papers = [2016]
-+++
+---
+date: "2018-06-06T11:56:33+00:00"
+title: "Die Ermittlung von Sehenswürdigkeiten mittels Linked Open Data am Beispiel der Stadt Köln"
+autoren: ["Sebastian Leuer"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Christian Noss","Prof. Dr. Kristian Fischer"]
+themen: ["Linked Open Data","SPARQL"]
+papers: [2016]
+---
 
 Das Suchen ist eine der, wenn nicht die am häufigsten durchgeführte Tätigkeit im Internet.
 Täglich werden Suchmaschinen mit Problemen aus aller Welt und aller Domänen

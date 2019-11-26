@@ -1,12 +1,12 @@
-+++
-date = "2018-05-05T21:05:33+05:30"
-title = "Metriken und Visualisierungen zur Verbesserung der Navigation in der kommunalen Open Data Landschaft Deutschlands"
-autoren = ["Johannes Kimmeyer"]
-module = ["Bachelorarbeit"]
-betreuer = ["Prof. Dr. Kristian Fischer", "Prof. Christian Noss"]
-keywords = ["Open Data"]
-papers = [2018]
-+++
+---
+date: "2018-05-05T21:05:33+05:30"
+title: "Metriken und Visualisierungen zur Verbesserung der Navigation in der kommunalen Open Data Landschaft Deutschlands"
+autoren: ["Johannes Kimmeyer"]
+module: ["Bachelorarbeit"]
+betreuer: ["Prof. Dr. Kristian Fischer", "Prof. Christian Noss"]
+keywords: ["Open Data"]
+papers: [2018]
+---
 
 Diese Arbeit befasst sich mit der Frage, durch welche Metriken und Visualisierungen die Navigation in der kommunalen Open Data Landschaft Deutschlands verbessert werden kann.Ziel der Arbeit ist es, benutzerorientierte Metriken und Visualisierungen zu ermitteln, um anschließend einen Prototypen zu erschaffen, der als Werkzeug für die Navigation in der kommunalen Open Data Landschaft dient.
 
