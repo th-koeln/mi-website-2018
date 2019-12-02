@@ -16,6 +16,6 @@ Für die Gestaltung von Poster und Plakaten gibt hier eine [Vorlage in Figma](ht
 {{< figure src="/tools/styleguide/slideguide-overview.jpg" alt="MI Slideguide">}}
 
 ## Präsentationen
-Für die Erstellung von Präsentationen gibt es hier ein [erläuterndes PDF](/download/AdvancedMediaInstitute-Slideguide-v0.1.pdf), sowie eine [Vorlage für Keynote](/download/AdvancedMediaInstitute-Slideguide-v0.1.key) und eine [Vorlage für Powerpoint](/download/AdvancedMediaInstitute-Slideguide-v0.1.pptx). Als Schriften kommen die [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) und die [PT Sans](https://fonts.google.com/specimen/PT+Sans) zum Einsatz. Beide stehen auf [Google Fonts](https://fonts.google.com/) zum Download zur Verfügung.
+Für die Erstellung von Präsentationen gibt es hier ein [erläuterndes PDF](/download/AdvancedMediaInstitute-Slideguide-v0.1.1.pdf), sowie eine [Vorlage für Keynote](/download/AdvancedMediaInstitute-Slideguide-v0.1.1.key) und eine [Vorlage für Powerpoint](/download/AdvancedMediaInstitute-Slideguide-v0.1.1.pptx). Als Schriften kommen die [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) und die [PT Sans](https://fonts.google.com/specimen/PT+Sans) zum Einsatz. Beide stehen auf [Google Fonts](https://fonts.google.com/) zum Download zur Verfügung.
 
 
