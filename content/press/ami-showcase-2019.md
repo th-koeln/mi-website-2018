@@ -29,7 +29,7 @@ Das Institut ist verantwortlich für die Studiengänge [Medieninformatik Bachelo
 ---
 
 ## Medieninformatik Showcase
-Den Showcase gibt es fast so lange wie die Medieninformatik. Die Idee wurde von einer Studierendengruppe 2005 im Rahmen des Wahlpflichtfachs Kommunikationsdesign entwickelt und hat immer nocht Bestand: Ergebnisse und Projekte transparent zu machen, Impulse zu setzen und die Vernetzung zwischen den Studierenden zu fördern.
+Den Showcase gibt es fast so lange wie die Medieninformatik. Die Idee wurde von einer Studierendengruppe 2005 im Rahmen des Wahlpflichtfachs Kommunikationsdesign entwickelt und hat immer noch Bestand: Ergebnisse und Projekte transparent zu machen, Impulse zu setzen und die Vernetzung zwischen den Studierenden zu fördern.
 
 Der Showcase richtet sich an die Studierenden der Medieninformatik, an den Campus und an Interessierte, indem er:
 - zeigt welche Projekte in welchen Modulen gemacht werden
@@ -43,10 +43,11 @@ Der Showcase richtet sich an die Studierenden der Medieninformatik, an den Campu
 
 #### Professor Dr. Matthias B. Hullin
 Matthias Hullin ist Leiter der Arbeitsgruppe «Digital Material Appearance» der Universität Bonn. 
-{{Vortragsthema fehlt}} 
+Matthias wird einen Vortrag zum Thema "Beyond Pretty Pictures:  Computer Graphics as a Tool  for Forward and Inverse Problems" halten.
 
 #### Florian Kronenberg
 Florian Kronenberg ist Head of Media Management Systems bei der Cologne Bradcasting Center GmbH in Köln, die für den kompletten Sendebetrieb der RTL-Gruppe verantwortlich ist. Florian hat 2004 seinen Bachelor in Medieninformatik hier am Campus gemacht.
+Florians Vortragsthema lautet "Digitalisierung der Medienproduktion - 2.Teil"
 
 ### Projekte
 
@@ -90,7 +91,7 @@ Smartphone Benachrichtigungen informieren den Benutzer über Ereignisse, welche 
 
 Benachrichtigungen haben positive Eigenschaften. Sie können als Gedächtnisstütze dienen und sie erlauben es, die Aufmerksamkeit auf andere Dinge zu lenken, ohne kontinuierlich das Smartphone überprüfen zu müssen. Jedoch haben sie ebenfalls das Potential den Benutzer, während des Alltags zu verärgern, Stress zu verursachen oder zu unterbrechen. Die Smartphone Benachrichtigungen von kommunikationsbasierten Apps machen 80% der erhaltenen Benachrichtigungen aus. 50% dieser Benachrichtigungen haben eine unterbrechende Wirkung auf den Benutzer, jedoch ist die Bereitschaft diese selbstständig auszuschalten gering. Eine Benachrichtigung wird ebenfalls damit in Verbindung gebracht, als Auslöser für die Interaktion mit dem Smartphone zu dienen. 
 
-Ein Beispiel für eine Situation, in der die genannten negativen Eigenschaften ein Problem darstellen können, ist beispielsweise ein Meeting während des Arbeitsalltags. So kann eine Benachrichtigung neben der Eigenschaft, dass sie eine unterbrechende Wirkung hat, durch die Funktion als Auslöser zur Interaktion mit dem Smartphone zusätzlich zu Phubbing führen. Der Begriﬀ "Phubbing" wird innerhalb der Arbeit wie folgt verwendet:
+Ein Beispiel für eine Situation, in der die genannten negativen Eigenschaften ein Problem darstellen können, ist beispielsweise ein Meeting während des Arbeitsalltags. So kann eine Benachrichtigung neben der Eigenschaft, dass sie eine unterbrechende Wirkung hat, durch die Funktion als Auslöser zur Interaktion mit dem Smartphone zusätzlich zu Phubbing führen. Der Begriﬀ "Phubbing" wird wie folgt verwendet:
 
 Das Wort *Phubbing* setzt sich zusammen aus den englischen Begriﬀen *Phone* und *snubbing* – wobei *to snub* übersetzt so viel bedeutet wie "jemanden abblitzen lassen" oder "vor den Kopf stoßen".
 
@@ -104,7 +105,7 @@ Das Ziel der Arbeit ist die Anzahl der Unterbrechungen, während Meetings oder v
 - Modul: Projekt 2 – Entwicklung // Medieninformatik Master
 - Fachsemester: 2
 
-«WahlGenial» ist ein Projekt im Studienschwerpunkt „Social Computing", das darauf abzielt durch digitale Medien Jugendliche und junge Erwachsene zur Teilnahme an politischen Wahlen zu motivieren. Nachdem eine erste Version unter der Projektförderung durch den Protypefund (https://prototypefund.de/project/wahl-daten-helfer/) von einem, mit uns verbundenen StartUp Unternehmen, entwickelt wurde, hat das studentische Team eine zweite Version fertig gestellt, die digitale Medien für den Politikunterricht auf einer Plattform bündelt und das als Open Source Projekt unter Beteiligung möglichst Vieler weitergeführt werden soll.
+«WahlGenial» ist ein Projekt im Studienschwerpunkt „Social Computing", das darauf abzielt durch digitale Medien Jugendliche und junge Erwachsene zur Teilnahme an politischen Wahlen zu motivieren. Nachdem eine erste Version unter der Projektförderung durch den Prototypefund (https://prototypefund.de/project/wahl-daten-helfer/) von einem, mit uns verbundenen StartUp Unternehmen, entwickelt wurde, hat das studentische Team eine zweite Version fertig gestellt, die digitale Medien für den Politikunterricht auf einer Plattform bündelt und das als Open Source Projekt unter Beteiligung möglichst Vieler weitergeführt werden soll.
 
 #### Cinestarter
 - Kerstin Dueckmann, David Kathmann
@@ -112,6 +113,7 @@ Das Ziel der Arbeit ist die Anzahl der Unterbrechungen, während Meetings oder v
 - Fachsemester: 5
 
 {{Beschreibung fehlt}} 
+
 
 #### Postersession
 - Alle Studierenden
