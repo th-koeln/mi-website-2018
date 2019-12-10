@@ -112,7 +112,7 @@ Das Ziel der Arbeit ist die Anzahl der Unterbrechungen, während Meetings oder v
 - Modul: Entwicklungsprojekt Interaktive Medien // Medieninformatik Bachelor
 - Fachsemester: 5
 
-{{Beschreibung fehlt}} 
+Filmeabende mit Freunden sind ein beliebter Anlass für ein Treffen. Der Planungsaufwand für gemeinsames Schauen audiovisueller Medien nimmt mit steigender Teilnehmerzahl exponentiell zu, da diverse Faktoren oft in mehreren Durchläufen abgestimmt werden müssen. Um diesen Aufwand zu reduzieren, wurde „Cinestarter“ konzipiert.
 
 
 #### Postersession
