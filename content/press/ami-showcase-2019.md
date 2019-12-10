@@ -114,8 +114,16 @@ Das Ziel der Arbeit ist die Anzahl der Unterbrechungen, während Meetings oder v
 
 Filmeabende mit Freunden sind ein beliebter Anlass für ein Treffen. Der Planungsaufwand für gemeinsames Schauen audiovisueller Medien nimmt mit steigender Teilnehmerzahl exponentiell zu, da diverse Faktoren oft in mehreren Durchläufen abgestimmt werden müssen. Um diesen Aufwand zu reduzieren, wurde „Cinestarter“ konzipiert.
 
+#### Die aktive Zuschauerperspektive im VR-Film am Beispiel Pulp Fiction (zugesagt)
+- Ali Mazlum
+- Schwerpunkt: Visual Computing
+- Modul: Bachelorarbeit // Medieninformatik Bachelor
+- Fachsemester: 6
 
-#### Postersession
+Diese Arbeit befasst sich mit der Untersuchung der autonomen Betrachtung einer als VR-Szene adaptierten klassischen Filmszene. Für die Analyse wurde eine Szene aus Quentin Tarantinos Film „Pulp Fiction“ für die VR-Betrachtung nachmodelliert, die eine unmittelbare Vergleichbarkeit von passiver Filmbetrachtung und aktiver VR-Erfahrung ermöglicht. Mittels zehn Probandinnen und Probanden wurde die VR-Szene evaluiert.
+
+
+### Postersession
 - Alle Studierenden
 - Modul: Einführung in die Medieninformatik
 - Fachsemester: 1
