@@ -136,3 +136,31 @@ Im Rahmen der Postersession wird ein Teil der Ergebnisse aus dem Modul «Einfüh
 Ein Element des Showcases sind auch immer die Filme, die überwiegend aus dem Modul «Audiovisuelles Medienprojekt» im 3. Fachsemester hervorgehen. Im Mittelpunkt dieses Moduls steht die digitale audiovisuelle Medienproduktion in den Formaten Porträt- und Dokumentarfilm.  Neben der Fachkompetenz und Methodenkompetenz stehen in diesem Modul gerade die sogenannten Softskills Teamfähigkeit und Kommunikationsfähigkeit im Fokus.
 
 Die Projektarbeit gliedert sich dabei in die selbstständige Entwicklung, Ausarbeitung und Präsentation eines Filmthemas, in die praktische Umsetzung in einem Filmprojekt und in die Nachbearbeitung und Montage in einer dramaturgischen Erzählform.
+
+## Bilder
+
+![Alt-Text](/download/presse/showcase/DSC00914.jpg)
+
+![Alt-Text](/download/presse/showcase/DSC00928.jpg)
+
+![Alt-Text](/download/presse/showcase/DSC00931.jpg)
+
+![Alt-Text](/download/presse/showcase/DSC00933.jpg)
+Prof. Dr. Martin Eisemann
+
+![Alt-Text](/download/presse/showcase/DSC00949.jpg)
+Prof. Dr. Martin Eisemann
+
+![Alt-Text](/download/presse/showcase/DSC00965.jpg)
+Prof. Dr. Martin Eisemann
+
+![Alt-Text](/download/presse/showcase/DSC01011.jpg)
+Prof. Dr. Matthias B. Hullin
+
+![Alt-Text](/download/presse/showcase/DSC01065.jpg)
+Prof. Dr. Kristian Fischer
+
+![Alt-Text](/download/presse/showcase/DSC01068.jpg)
+Florian Kronenberg
+
+[alle Bilder als Download](https://www.dropbox.com/s/7k2e7v3gh26gsea/showcase-presse.zip?dl=0)
