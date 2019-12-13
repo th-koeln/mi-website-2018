@@ -138,6 +138,7 @@ Ein Element des Showcases sind auch immer die Filme, die überwiegend aus dem Mo
 Die Projektarbeit gliedert sich dabei in die selbstständige Entwicklung, Ausarbeitung und Präsentation eines Filmthemas, in die praktische Umsetzung in einem Filmprojekt und in die Nachbearbeitung und Montage in einer dramaturgischen Erzählform.
 
 ## Bilder
+Fotograf Julian Dik 
 
 ![Alt-Text](/download/presse/showcase/DSC00914.jpg)
 
