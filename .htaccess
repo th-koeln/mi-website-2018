@@ -1,3 +1,5 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/%{REQUEST_URI} [R=301,L]
