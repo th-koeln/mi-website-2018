@@ -2,7 +2,7 @@ moe:
     id: moe
     status: prof
     name: 'Prof. Dr. Monika Engelen'
-    avatar: 'https://www.th-koeln.de/pseimg/c25b6f6f6f2f2f69e98dd361b2bb08880918e163.png'
+    avatar: '/img/professoren/engelen.png'
     personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
     mi: true
 pb:
@@ -22,7 +22,7 @@ cn:
     id: cn
     status: prof
     name: 'Prof. Christian Noss'
-    avatar: 'https://www.th-koeln.de/pseimg/1759c46f6650f88388c50abf50350864b5d2557b.png'
+    avatar: '/img/professoren/noss.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
     mi: true
 vos:
@@ -36,7 +36,7 @@ kf:
     id: kf
     status: prof
     name: 'Prof. Dr. Kristian Fischer'
-    avatar: 'http://www.dr-fischer-koeln.com/Profil/Kontakt_files/DSCF0357.jpg'
+    avatar: '/img/professoren/fischer.jpg'
     personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
     mi: true
 nag:
@@ -73,7 +73,7 @@ ck:
     id: ck
     status: prof
     name: 'Prof. Dr. Christian Kohls'
-    avatar: 'https://www.th-koeln.de/pseimg/907374836f69870bacde3d644c1a3a3898a29939.png'
+    avatar: '/img/professoren/kohls.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
     mi: true
 mak:
@@ -94,13 +94,13 @@ gh:
     status: prof
     name: 'Prof. Dr. Gerhard Hartmann'
     personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
-    avatar: 'https://www.th-koeln.de/pseimg/baeb6ae11953fdf72188255bc7ed51d162d30a78.png'
+    avatar: '/img/professoren/hartmann.png'
     mi: true
 hk:
     id: hk
     status: prof
     name: 'Prof. Hans Kornacher'
-    avatar: 'https://www.th-koeln.de/pseimg/5c8fc301d0dd483a146b14086113bdf0faaa406d.png'
+    avatar: '/img/professoren/kornacher.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
     mi: true
 erw:
@@ -113,7 +113,7 @@ mw:
     id: mw
     status: prof
     name: 'Prof. Dr. Mario Winter'
-    avatar: 'https://www.th-koeln.de/pseimg/c5bff77954375a20b019ae362b6e253fb6a5c153.png'
+    avatar: '/img/professoren/winter.png'
     personenseite: 'https://www.th-koeln.de/personen/mario.winter/'
     mi: true
 alm:
@@ -126,7 +126,7 @@ me:
     id: me
     status: prof
     name: 'Prof. Dr. Martin Eisemann'
-    avatar: 'https://www.th-koeln.de/pseimg/5a3f63671295b340a80c4095aae4aa39be6d5e49.png'
+    avatar: '/img/professoren/eisemann.png'
     personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
     mi: true
 bem:
@@ -160,7 +160,7 @@ fv:
     id: fv
     status: prof
     name: 'Prof. Dr. Frank Victor'
-    avatar: 'https://www.th-koeln.de/pseimg/c63ff50c1c9ccabe4fff15dfcd575add217a43e7.png'
+    avatar: '/img/professoren/victor.png'
     personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
     mi: true
 lk:
@@ -172,7 +172,7 @@ mb:
     id: mb
     status: prof
     name: 'Prof. Dr. Matthias Böhmer'
-    avatar: 'https://moxd.io/files/2017/09/matthiasboehmer.jpg'
+    avatar: '/img/professoren/boehmer.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
     mi: true
 edg:
@@ -191,14 +191,14 @@ bb:
     id: bb
     status: prof
     name: 'Prof. Dr. Birgit Bertelsmeier'
-    avatar: 'https://www.th-koeln.de/pseimg/1e549b4b56593dc6b98c6013b9b44d15e91e607a.png'
+    avatar: '/img/professoren/bertelsmeier.png'
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
 hfw:
     id: hfw
     status: prof
     name: 'Prof. Dr. Heide Faeskorn-Woyke'
-    avatar: 'https://www.th-koeln.de/pseimg/5fadb9d1d40150b3c0b12cda210d334865affb1b.png'
+    avatar: '/img/professoren/faeskorn.png'
     personenseite: 'https://www.th-koeln.de/personen/heide.faeskorn-woyke/'
     mi: true
 dag:
@@ -218,13 +218,13 @@ sk:
     status: prof
     name: 'Prof. Dr. Stefan Karsch'
     personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
-    avatar: 'https://blogs.gm.fh-koeln.de/ktds/files/2018/02/Stefan-Karsch-e1526378208178.jpg'
+    avatar: '/img/professoren/karsch.jpg'
     mi: true
 hls:
     id: hls
     status: prof
     name: 'Prof. Dr. Hans L. Stahl'
-    avatar: 'https://www.th-koeln.de/pseimg/0759033b27e627e31c585fdbae579e627cfae07c.png'
+    avatar: '/img/professoren/stahl.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
     mi: true
 jjb:
@@ -249,7 +249,7 @@ wk:
     id: wk
     status: prof
     name: 'Prof. Dr. Wolfgang Konen'
-    avatar: 'https://www.th-koeln.de/pseimg/0f3bbf6cf67d2e0b898a6f520e0927e5c564526d.png'
+    avatar: '/img/professoren/konen.png'
     personenseite: 'https://www.th-koeln.de/personen/wolfgang.konen/'
     mi: true
 as:
@@ -269,7 +269,7 @@ hg:
     status: prof
     name: 'Prof. Dr. Holger Günther'
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
-    avatar: 'http://blogs.gm.fh-koeln.de/guenther/files/2018/04/IMAG3228-e1522846835116.jpg'
+    avatar: '/img/professoren/guenther.jpg'
     mi: true
 mas:
     id: mas
@@ -294,7 +294,7 @@ mbl:
     status: prof
     name: 'Prof. Dr. Mirjam Blümm'
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
-    avatar: 'https://www.th-koeln.de/pseimg/c95ac9872de52962a9abca2210d3db881019fb51.png'
+    avatar: '/img/professoren/bluemm.png'
     mi: true
 
 mi:
