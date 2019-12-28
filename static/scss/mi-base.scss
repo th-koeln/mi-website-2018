@@ -139,3 +139,52 @@ thead, tbody, tfoot {
 thead tr, tfoot tr {
     background: transparent;
 }
+
+input {
+    border: 1px solid grey;
+    padding: .5rem;
+    width: calc(100% - 100px);
+}
+
+.search {
+    margin-top: 40px;
+    position: relative;
+}
+
+    .search__input {
+        border: 1px solid $mi-hellgrau;
+        border-radius: 5px;
+        color: $mi-pink;
+    }
+
+    .search__input::placeholder {
+        color: $mi-black;
+    }
+
+    .search__autocomplete {
+        position: absolute;
+        z-index: 999;
+        list-style: none;
+        background-color: #FFFFFF;
+        border: 1px solid $mi-hellgrau;
+        width: calc(100% - 100px);
+        padding: 0.5rem;
+        display:none;
+        border-top: 0;
+        border-radius: 5px;
+    }
+
+        .search__autocomplete.show {
+            display: block;
+        }
+
+        .search__item {
+            border-bottom: 1px solid $mi-hellgrau;
+            padding-bottom: 0.5rem;
+        }
+
+            .search__item:last-child {
+                border-bottom: 0;
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }

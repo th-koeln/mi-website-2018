@@ -1,9 +1,52 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const lunr = require('lunr');
     const createNews = require('./news.js');
     
     if (document.querySelector('#eventblock')) {  
         createNews();
     }
+
+    const search = document.getElementById('search');
+    const autocomplete = document.getElementById('autocomplete');
+    let documents = [];
+    let index;
+    
+    fetch('/index.json').then(function (res) {
+        return res.json();
+    }).then(function (res) {
+        index = lunr(function() {
+            this.ref('uri');
+            this.field('title');
+            //this.field('contentIndex');
+
+            res.forEach(function(doc) {
+                this.add(doc);
+                documents[doc.uri] = {
+                    'title': doc.title,
+                    'content': doc.contentIndex,
+                    'url': doc.uri
+                };
+            }, this);
+        });
+    });
+
+    search.addEventListener('input', (event) => {
+        const searchString = event.target.value;
+        const matches = index.search(searchString);
+        
+        autocomplete.classList.add('show');
+        
+        if(matches.length > 0) {
+            const output = matches.map((item) => {
+                return documents[item.ref];
+            }).reduce((acc, value) => {
+                return acc + `<li class="search__item">
+                                <a href="${value.url}">${value.title}</a>
+                                </li>`; 
+            }, '');
+            autocomplete.innerHTML = output;
+        }
+    });
     
     /** Toogle Main Menu  */
     const mainMenu = document.getElementById('icon-main-menu');

@@ -2,10 +2,16 @@
 {{ $globalParams := .globalParams }}
 {{ $globalParams.Scratch.Set "path" "" }}
 
+<div class="has-gap search">
+    <input type="text" id="search" class="search__input" placeholder="Suche..." />
+    <ol id="autocomplete" class="search__autocomplete">
+
+    </ol>
+</div>
 <div class="m-navHead">
 	<button id="icon-main-menu" class="m-navHead--hamburger hamburger-cancel">
-		<span class="icon"></span>
-	</button>
+        <span class="icon"></span>
+    </button>
 	<div class="m-navHead--text">
     	<a href="{{ .BaseURL }}">mi</a>
 		{{ if .Fragments }}
@@ -23,5 +29,5 @@
 				<a href="{{.BaseURL}}">home</a>
 			</span>
 		{{ end }}
-  	</div>
+      </div>
 </div>
