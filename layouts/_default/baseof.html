@@ -19,8 +19,8 @@
         <meta name="googlebot" content="index, follow, snippet, archive">
         
         {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ $css.Permalink }}" />
-        <link rel="stylesheet" href="{{ "fonts/iconfont/material-icons.css" | absURL }}" />
+        <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
+        <link rel="stylesheet" href="{{ "fonts/iconfont/material-icons.css" | relURL }}" />
         
         <!-- Responsivity for older IE -->
         <!-- Just in case -->
