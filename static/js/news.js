@@ -1,6 +1,9 @@
 function createNews() {
 
-    const newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
+    const newsUrls = [
+        'https://th-koeln.github.io/mi-master-wtw/pulse.json',
+        '/events/index.json'
+    ];
     
     const target = document.querySelector('#eventblock');
     let promises = [];
@@ -67,10 +70,4 @@ function createNews() {
         .then(() => displayItems());
 }
 
-document.onreadystatechange = function () {
-    if (document.readyState == 'complete') {
-        if (document.querySelector('#eventblock')) {
-            createNews();
-        }
-    }
-};
+module.exports = createNews;

@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+    const createNews = require('./news.js');
+    
+    if (document.querySelector('#eventblock')) {  
+        createNews();
+    }
+    
     /** Toogle Main Menu  */
     const mainMenu = document.getElementById('icon-main-menu');
 

@@ -6,6 +6,8 @@ _archiv/
 public/
 resources/
 static/search/index.json
+static/css/dist/mi.min.css
+static/js/dist/mi.min.js
 
 # Ignore vs.code files
 .vscode/*

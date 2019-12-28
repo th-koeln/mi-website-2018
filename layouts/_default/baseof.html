@@ -18,8 +18,7 @@
         <meta name="robots" content="all, follow">
         <meta name="googlebot" content="index, follow, snippet, archive">
         
-        {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
+        <link rel="stylesheet" href="{{ "css/dist/mi.min.css" | relURL }}?{{ now.Unix }}" />
         <link rel="stylesheet" href="{{ "fonts/iconfont/material-icons.css" | relURL }}" />
         
         <!-- Responsivity for older IE -->
@@ -97,10 +96,6 @@
                 </footer>
     		</div>
         </div>
-        {{ $main := resources.Get "js/main.js" }}
-        {{ $news := resources.Get "js/news-aggregator.js" }}
-        {{ $js :=  slice $main $news | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
-
-        <script src="{{ $js.Permalink }}"></script>
+        <script src="{{ "js/dist/mi.min.js" | relURL }}?{{ now.Unix }}"></script>
 	</body>
 </html>
