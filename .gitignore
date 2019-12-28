@@ -5,6 +5,7 @@
 _archiv/
 public/
 resources/
+static/search/index.json
 
 # Ignore vs.code files
 .vscode/*

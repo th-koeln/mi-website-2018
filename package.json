@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "hugo --cleanDestinationDir",
-    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk  --cleanDestinationDir"
+    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk --cleanDestinationDir",
+    "index": "node search.js > ./static/search/index.json"
   },
   "author": "Advanced Media Institut - Cologne University of Applied Sciences",
   "license": "MIT",
@@ -13,5 +14,8 @@
     "url": "git@github.com:th-koeln/mi-website-2018.git"
   },
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "front-matter": "3.0.2",
+    "lunr": "2.3.8"
+  }
 }
