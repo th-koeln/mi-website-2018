@@ -425,7 +425,7 @@ tbody th, tbody td {
     left: 0;
     bottom: 0;
     padding: .5em;
-    height: 100vh;
+    height: calc(100vh - 1em);
 }
 
 .m-sidebar--logo {
