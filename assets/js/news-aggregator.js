@@ -22,9 +22,11 @@ function createNews() {
     }
 
     function sortItems() {
+        console.log(data);
         data.sort(function(a, b) {
             let aTime = new Date(a.date);
             let bTime = new Date(b.date);
+            console.log(aTime + ' ' + bTime);
             return bTime - aTime;
         });
     }
@@ -37,8 +39,8 @@ function createNews() {
     }
 
     function displayItems() {
-        // only show 12 items
-        data = data.slice(0, 12);
+        // only show a couple items
+        data = data.slice(0, 116);
         
         target.innerHTML = '';
         data.forEach(function(item) {

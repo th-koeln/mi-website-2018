@@ -1,4 +1,5 @@
 {{ define "main" }}
+
     {{ $params := . }}
     {{ $scratch := newScratch }}
     
@@ -23,8 +24,8 @@
     </div>
     <div class="content has-gap is-fluid">
         <div id="eventblock" class="events">
-            
             {{ range $item := .Pages }}
+            
                 <div class="evnt">
                     {{ $date := .Date }}
                     {{ $scratch.Set "teaser" "" }}
