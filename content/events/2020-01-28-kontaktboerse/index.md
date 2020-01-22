@@ -8,10 +8,12 @@ Was könnte ich denn als Praxisprojekt machen? Und als Bachelorarbeit oder Maste
 
 Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die ihre Themen- und Problemfelder vorstellen und Untersützung aus der Medieninformatik gebrauchen könnten.
 
-## Lineup (Stand 13.01.):
+## Lineup:
 - Daniel von Kossak von [Rock my Trail](https://rockmytrail.de/ueber-uns/)
 - Jonathan Natzel von [Weltenmacher](https://www.weltenmacher.de/)
 - Linda Gasper und Philipp Frank von [Dreiform](https://dreiform.de/)
 - Rüdiger Kupke vom [CBC Cologne Broadcasting Center](https://www.cbc.de/)
 - Till Martensmeier von [Busch-Jaeger](https://www.busch-jaeger.de/)
 - Robert Gabriel von [Metamine](https://metamine.de/)
+- Denis Dammann von der [ABLE Management Services GmbH](https://www.able-group.de/de/de)
+- Steffen Tröster von der [inovex GmbH](https://www.inovex.de/)
