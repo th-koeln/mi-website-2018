@@ -16,6 +16,6 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
 - Till Martensmeier von [Busch-Jaeger](https://www.busch-jaeger.de/)
 - Robert Gabriel von [Metamine](https://metamine.de/)
 - Denis Dammann von der [ABLE Management Services GmbH](https://www.able-group.de/de/de)
-- Steffen Tröster von der [inovex GmbH](https://www.inovex.de/)
+- Björn Urban von der [inovex GmbH](https://www.inovex.de/)
 
 Direkt im Anschluss an die Veranstaltung, d.h. ca. um 15:30 Uhr, findet die **Einführungsveranstaltung für das Praxisprojektseminar** des nächsten Semesters statt.
