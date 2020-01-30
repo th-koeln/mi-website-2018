@@ -19,3 +19,5 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
 - Steffen Tröster von der [inovex GmbH](https://www.inovex.de/)
 
 Direkt im Anschluss an die Veranstaltung, d.h. ca. um 15:30 Uhr, findet die **Einführungsveranstaltung für das Praxisprojektseminar** des nächsten Semesters statt.
+
+{{< kontaktboerse2020 >}}

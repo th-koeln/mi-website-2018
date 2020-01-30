@@ -13,3 +13,6 @@ Im Rahmen der Infoveranstaltung stellen wir kurz vor, was Sie in welchem Vertief
 - [Social Computing](/study/bachelor/moduls/ba_vertiefung_socialcomputing/)
 - [Visual Computing](/study/bachelor/moduls/ba_vertiefung-visual-computing/)
 - [Web Development](/study/bachelor/moduls/ba_vertiefung-web_development/)
+
+## Material
+- [Foliensatz](/download/infoveranstaltung-vertiefungsmodule-2020.pdf)
