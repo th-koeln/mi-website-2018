@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let documents = [];
     let index;
     
-    fetch('/index.json').then(function (res) {
+    fetch('/index.json').then(function (es) {
         return res.json();
     }).then(function (res) {
         index = lunr(function() {
@@ -33,15 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchString = event.target.value;
         const matches = index.search(searchString);
         
-        autocomplete.classList.add('show');
-        
         if(matches.length > 0) {
+            autocomplete.classList.add('show');
             const output = matches.map((item) => {
                 return documents[item.ref];
             }).reduce((acc, value) => {
-                return acc + `<li class="search__item">
-                                <a href="${value.url}">${value.title}</a>
-                                </li>`; 
+                return acc + `
+                    <li class="search__item">
+                        <a href="${value.url}">${value.title}</a>
+                    </li>`; 
             }, '');
             autocomplete.innerHTML = output;
         }
