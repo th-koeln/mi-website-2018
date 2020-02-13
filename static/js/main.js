@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         index = lunr(function() {
             this.ref('uri');
             this.field('title');
-            //this.field('contentIndex');
 
             res.forEach(function(doc) {
                 this.add(doc);

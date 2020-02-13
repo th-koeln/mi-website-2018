@@ -25,11 +25,9 @@ function createNews() {
     }
 
     function sortItems() {
-        console.log(data);
         data.sort(function(a, b) {
             let aTime = new Date(a.date);
             let bTime = new Date(b.date);
-            console.log(aTime + ' ' + bTime);
             return bTime - aTime;
         });
     }
