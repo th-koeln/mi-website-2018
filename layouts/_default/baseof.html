@@ -30,6 +30,12 @@
         <![endif]-->
         
         <link rel="shortcut icon" type="image/x-icon" href="{{ "favicons/favicon.ico" | absURL }}">
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="MI TH Koeln" />
+        <meta name="theme-color" content="#9313CE" />
+        <link rel="apple-touch-icon" href="/img/icons/icon-152x152.png" />
         
         {{ range .AlternativeOutputFormats -}}
             {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

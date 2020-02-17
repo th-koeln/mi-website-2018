@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+
     /** Toogle Main Menu  */
     const mainMenu = document.getElementById('icon-main-menu');
 
