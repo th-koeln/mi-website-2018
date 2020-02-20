@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     search.addEventListener('input', (event) => {
-        const searchString = event.target.value;
+        const searchString = event.target.value + '*';
         const matches = index.search(searchString);
         
         if(matches.length > 0) {
