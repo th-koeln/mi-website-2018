@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let documents = [];
     let index;
     
-    fetch('/index.json').then(function (es) {
+    fetch('/index.json').then(function (res) {
         return res.json();
     }).then(function (res) {
         index = lunr(function() {
