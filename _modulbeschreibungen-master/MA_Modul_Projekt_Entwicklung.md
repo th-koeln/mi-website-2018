@@ -8,7 +8,7 @@ sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor)
+empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), einschlägige Entwicklungskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
 layout: modulbeschreibung
