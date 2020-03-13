@@ -76,11 +76,8 @@ Im Bereich [Backend Development](https://roadmap.sh/backend) sollten Sie mit fol
 - Architekturpattern
 - Webserver
 
-
 ## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Lernportfolio (70%)
-- mündliche/praktische Prüfung (30%)
+- Lernportfolio
 
 ## Medienformen
 Präsentationsmaterialien
