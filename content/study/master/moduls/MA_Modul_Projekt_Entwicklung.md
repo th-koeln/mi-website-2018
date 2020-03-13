@@ -8,7 +8,7 @@ sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor)
+empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), einschlägige Entwicklungskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
 layout: modulbeschreibung
@@ -24,7 +24,7 @@ schwerpunkt: wtw, sc, vc, mpd, hci
 ---
 
 ## Kurzbeschreibung
-In einem Projekt wird, basierend auf einem bereits erstellten Konzept, ein „minimal viable Prototype“ entwickelt oder weiterentwickelt.
+In einem Projekt wird, basierend auf einem bereits erstellten Konzept, ein „Minimum Viable Product“ entwickelt oder weiterentwickelt.
 
 ## Lehrform/SWS
 Projektarbeit

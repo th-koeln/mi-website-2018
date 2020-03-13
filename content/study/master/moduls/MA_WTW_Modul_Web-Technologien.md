@@ -58,14 +58,3 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 ## Medienformen
 Präsentationsmaterialien
 
-## Literatur
-
-### Paper
-- Brad Frost: Atomic Design; Smashing Magazine GmbH, 2009
-- [Stephen Hay: Responsive design workflow; New Riders, 2013](http://www.digibib.net/permalink/832/FHBK-x/HBZ:HT017780178)
-- [Olaf Berberich: Trusted Web 4.0 - Konzepte einer digitalen Gesellschaft; Springer Vieweg, 2016](http://www.digibib.net/permalink/832/FHBK-x/HBZ:HT019048164)
-
-### Web
-- [World Wide Web Consortium](https://www.w3.org/)
-- [Resources on JAMstack](https://jamstack.org/resources/)
-
