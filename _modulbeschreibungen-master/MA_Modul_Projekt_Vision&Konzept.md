@@ -8,7 +8,7 @@ sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: Einführung in die Medieninformatik (Bachelor), Mensch-Computer Interaktion (Bachelor)
+empfohleneVoraussetzungen: Einführung in die Medieninformatik (Bachelor), Mensch-Computer Interaktion (Bachelor), einschlägige Konzeptionskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
 layout: modulbeschreibung
