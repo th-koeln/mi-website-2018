@@ -568,3 +568,16 @@ img {
         }
     }
 }
+
+
+/* MI iFrame -----------------------------------------------------------------------------*/
+
+.mi-iframe{
+    margin-top: $bfs;
+    margin-bottom: $bfs-l;
+    padding-top: $bfs;
+    width: 100%; 
+    min-height: 200px; 
+    height: 500px;
+    border-top: solid 1px $mi-gruen;
+}

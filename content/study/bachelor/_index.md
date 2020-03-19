@@ -6,10 +6,10 @@ id: "bachelor"
 selectKey: "studiensemester"
 semester: 1,2,3,4,5,6
 additionalContent: 
+  - "specials"
   - "vertiefungsmodule"
   - "studienverlaufsplan"
   - "moduls"
-  - "pruefungsausschuss"
 ---
 
 Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifizierendes grundständiges Studium und führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs beträgt 6 Semester. Die Einschreibung ist ausschließlich zum Wintersemester möglich.

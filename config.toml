@@ -15,6 +15,9 @@ disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
   baseFragment = "/"
   template = ""

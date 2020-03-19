@@ -28,7 +28,7 @@
 		{{ end }}
 	</div>
 
-	{{ range $page := .Pages }}
+	{{ range $page := where .Pages "IsPage" true }}
 		<article class="m-mi-content-wrap">
 			<h3>{{ $page.Title }}</h3>
 			{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
