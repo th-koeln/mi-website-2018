@@ -43,14 +43,17 @@ Einführungen in Konzepte, Techniken und Arbeitsweisen der Web Entwicklung.
 ### Web-Frontend Entwicklung
 50h Vorlesung, Seminar; 100h Selbstlernphase
 
-### Serverseitige Frameworks und Dienste
+### Frameworks, Daten und Dienste
 50h Vorlesung, Seminar; 100h Selbstlernphase
 
 ### Internet of Things
 50h Vorlesung, Seminar; 100h Selbstlernphase
 
+### Praktische IT Sicherheit
+50h Vorlesung, Seminar; 100h Selbstlernphase
+
 ### Web Development Projekt
-150h Projekt
+100h Projekt
 
 ## Angestrebte Lernergebnisse
 Die Studierenden

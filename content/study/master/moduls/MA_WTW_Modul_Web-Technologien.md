@@ -11,7 +11,7 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: siehe Abschnitt «Voraussetzungen»
 published: true
 layout: modulbeschreibung
-
+infourl: https://th-koeln.github.io/mi-master-wtw/web-technologien/
 typ: spm
 parent: SPM3
 schwerpunkt: wtw
