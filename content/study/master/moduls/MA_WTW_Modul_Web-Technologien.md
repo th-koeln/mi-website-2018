@@ -51,7 +51,7 @@ Die Studierenden sind in der Lage, neue Technologien und Strömungen im Kontext 
 - Kommunikations- und Kollaborationswerkzeuge
 - Workflows
 
-## Empfohlene Voraussetzungen
+## Voraussetzungen
 Um an diesem Modul erfolgreich teilnehmen zu können sind einschlägige Kenntnisse, Fertigkeiten und Erfahrungen im Bereich Web-Technologien und Web-Development erforderlich. Eine Orientierung bietet hier die [Web Developer Roadmap von Kamran Ahmed](https://github.com/kamranahmedse/developer-roadmap). Enntsprechend der Empfehlung «Required for any path» sollten Sie gut Kenntnisse und Fähigkeiten haben in:
 - Versionskontrolle via GIT
 - SSH und Terminalnutzung
