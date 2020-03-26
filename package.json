@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "hugo --cleanDestinationDir",
-    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk  --cleanDestinationDir"
+    "dev": "hugo server --disableFastRender --ignoreCache --renderToDisk  --cleanDestinationDir",
+    "pull-moduls": "git subtree pull --prefix=mi-moduls-po4/ mi-2017-module master"
   },
   "author": "Advanced Media Institut - Cologne University of Applied Sciences",
   "license": "MIT",
