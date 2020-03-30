@@ -24,7 +24,7 @@ In der Vorlesungszeit benötigt das Ausleihteam eine Vorlaufzeit von **48 Stunde
 
 ## FAQ
 ### Video
-* Das Bild ist zu dunkel.
+* Das Bild ist zu dunkel
   * Blende sollte geöffnet werden.
   * ND Filter entfernen.
 
