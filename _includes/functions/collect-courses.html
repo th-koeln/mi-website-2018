@@ -2,8 +2,8 @@
 {% assign dozent = include.dozent %}
 
 {% comment %}  Leeres Array für Module deklarieren {% endcomment %} 
-{% assign module_ss = "" | split:"|"  %}
-{% assign module_ws = "" | split:"|"  %}
+{% assign module_ss = ""|split:"|"  %}
+{% assign module_ws = ""|split:"|"  %}
 
 {% comment %}  Modulbeschreibungen Bachelor auslesen und durch iterieren{% endcomment %} 
 {% assign module = (site.modulbeschreibungen-bachelor) %}
@@ -13,7 +13,7 @@
 {% if(modul.modulverantwortlich contains dozent[0]) %}
 
 {% comment %}  Liegt das Modul im Sommersemester oder Wintersemester? {% endcomment %} 
-{% assign value = modul.studiensemester | modulo:2 %}
+{% assign value = modul.studiensemester|modulo:2 %}
 
 {% if value == 0 %}
 
@@ -22,7 +22,7 @@
 {%if modul.typ == "spm" %} * {% endif %}
 {%if modul.typ == "pm" %} * {% endif %}
 {% endcapture %}
-{% assign module_ss = module_ss | push: item %}
+{% assign module_ss = module_ss|push: item %}
 
 {% else %}
 
@@ -31,7 +31,7 @@
 {%if modul.typ == "spm" %} * {% endif %}
 {%if modul.typ == "pm" %} * {% endif %}
 {% endcapture %}
-{% assign module_ws = module_ws | push: item %}
+{% assign module_ws = module_ws|push: item %}
 
 {% endif %}
 
@@ -47,7 +47,7 @@
 {% if(modul.modulverantwortlich contains dozent[0]) %}
 
 {% comment %}  Liegt das Modul im Sommersemester oder Wintersemester? {% endcomment %} 
-{% assign value = modul.studiensemesterWs | modulo:2 %}
+{% assign value = modul.studiensemesterWs|modulo:2 %}
 
 {% if value == 0 %}
 
@@ -57,7 +57,7 @@
 {%if modul.typ == "spp" %} * {% endif %}
 {%if modul.typ == "pm" %} * {% endif %}
 {% endcapture %}
-{% assign module_ss = module_ss | push: item %}
+{% assign module_ss = module_ss|push: item %}
 
 {% else %}
 
@@ -67,7 +67,7 @@
 {%if modul.typ == "spp" %} * {% endif %}
 {%if modul.typ == "pm" %} * {% endif %}
 {% endcapture %}
-{% assign module_ws = module_ws | push: item %}
+{% assign module_ws = module_ws|push: item %}
 
 {% endif %}
 
@@ -76,5 +76,5 @@
 
 
 {% comment %}  Ausgabe vorbereiten {% endcomment %} 
-{% assign module_ss = module_ss | join: '<br>' %}
-{% assign module_ws = module_ws | join: '<br>' %}
+{% assign module_ss = module_ss|join: '<br>' %}
+{% assign module_ws = module_ws|join: '<br>' %}

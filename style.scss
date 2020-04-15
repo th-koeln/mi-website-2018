@@ -111,17 +111,31 @@
 	}
 	
 	table{
+
 		a, a:not(.button){ border: none; }
 		th{ font-weight: 600; }
-		.no-border{
+		.border{
 			th, td{
 				border: none;
 			}
-		}
+    }
+    .no-wrap{
+      white-space: nowrap
+    }
+
+    &.is-naked{
+			th, td{
+				border: none;
+      }
+      .has-top-border{
+        border-top: solid 1px $border;
+      }
+    }
 	}
 	
 	table{
-		@extend .table;
+    @extend .table;
+    
 	}
 	
 	table.tab-schwerpunktmodule{

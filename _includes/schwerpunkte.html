@@ -1,30 +1,30 @@
-{% assign alle_fachsemester = "1,2,3,4" | split: "," %}
-{% assign alle_startsemester = "ws,ss" | split: "," %}
-{% assign is_shown = "" | split: "," %}
+{% assign alle_fachsemester = "1,2,3,4"|split: "," %}
+{% assign alle_startsemester = "ws,ss"|split: "," %}
+{% assign is_shown = ""|split: "," %}
 {% assign count_schwerpunkte = 0 %}
 {% assign cps = 0 %}
 
-{% assign schwerpunkte = (site.modulbeschreibungen-master | where:"typ","sp" | sort: "title") %}
-{% assign pflichtmodule = (site.modulbeschreibungen-master | where:"typ","pm" | where_exp: "item", "item.zielmedium != 'print'" ) %}
-{% assign teilmodule = (site.modulbeschreibungen-master | where:"typ","tm") %}
-{% assign wahlpflichtmodule = (site.modulbeschreibungen-master | where:"typ","wpm") %}
-{% assign schwerpunktmodule = (site.modulbeschreibungen-master | where:"typ","spm") %} 
-{% assign schwerpunktmodulwraps = (site.modulbeschreibungen-master | where:"typ","spmw") %} 
-{% assign schwerpunktprojekte = (site.modulbeschreibungen-master | where:"typ","spp") %}
+{% assign schwerpunkte = (site.modulbeschreibungen-master|where:"typ","sp" | sort: "title") %}
+{% assign pflichtmodule = (site.modulbeschreibungen-master|where:"typ","pm"|where_exp: "item", "item.zielmedium != 'print'" ) %}
+{% assign teilmodule = (site.modulbeschreibungen-master|where:"typ","tm") %}
+{% assign wahlpflichtmodule = (site.modulbeschreibungen-master|where:"typ","wpm") %}
+{% assign schwerpunktmodule = (site.modulbeschreibungen-master|where:"typ","spm") %} 
+{% assign schwerpunktmodulwraps = (site.modulbeschreibungen-master|where:"typ","spmw") %} 
+{% assign schwerpunktprojekte = (site.modulbeschreibungen-master|where:"typ","spp") %}
 
-{% assign wahlpflichtmodule = (wahlpflichtmodule | where: "zielmedium","web" | sort: 'title') %}
-{% assign schwerpunktmodule = (schwerpunktmodule | sort: 'title') %}
-{% assign pflichtmodule = (pflichtmodule | sort: 'title') %}
+{% assign wahlpflichtmodule = (wahlpflichtmodule|where: "zielmedium","web"|sort: 'title') %}
+{% assign schwerpunktmodule = (schwerpunktmodule|sort: 'title') %}
+{% assign pflichtmodule = (pflichtmodule|sort: 'title') %}
 
 {% for schwerpunktprojekt in schwerpunktprojekte %}
-{% assign pflichtmodule = pflichtmodule | push: schwerpunktprojekt %}
+{% assign pflichtmodule = pflichtmodule|push: schwerpunktprojekt %}
 {% endfor %}
 				
 {% for schwerpunktmodulwrap in schwerpunktmodulwraps %}
-{% assign pflichtmodule = pflichtmodule | push: schwerpunktmodulwrap %}
+{% assign pflichtmodule = pflichtmodule|push: schwerpunktmodulwrap %}
 {% endfor %}
 
-{% assign schwerpunkt = (site.modulbeschreibungen-master | where:"kuerzel",include.schwerpunkt_kuerzel | first) %}
+{% assign schwerpunkt = (site.modulbeschreibungen-master|where:"kuerzel",include.schwerpunkt_kuerzel|first) %}
 
 <section class="section">
 	<div class="container">
@@ -79,7 +79,7 @@
 					</tr>
 				</thead>
 				{% for fachsemester in alle_fachsemester%}
-					{% assign value = fachsemester | modulo:2 %}
+					{% assign value = fachsemester|modulo:2 %}
 
 					{% if startsemester == "ws" %}
 						{% assign aktuelles_semester = "Wintersemester" %}
@@ -98,7 +98,7 @@
 					<tr class="no-border">
 						<th colspan="4">{{fachsemester}}. Fachsemester ({{aktuelles_semester}})</th>
 					</tr>
-					{% assign sorted_pages = (pflichtmodule | where: semester_id,fachsemester) %}
+					{% assign sorted_pages = (pflichtmodule|where: semester_id,fachsemester) %}
 					{% for modulbeschreibung in sorted_pages %}
 					
 					
@@ -127,7 +127,7 @@
 								{% if schwerpunktmodul.parent == modulbeschreibung.kuerzel %}
 									{% if schwerpunktmodul.schwerpunkt contains schwerpunkt.kuerzel %}
 										{% assign modulverantwortlich = schwerpunktmodul.modulverantwortlich %}
-										{% assign is_shown = is_shown | push: schwerpunktmodul.kuerzel %} 
+										{% assign is_shown = is_shown|push: schwerpunktmodul.kuerzel %} 
 										<a href="{{site.baseurl}}{{schwerpunktmodul.url}}">{{schwerpunktmodul.title}}</a>
 											{% if schwerpunktmodul.informatik-master %}
 											(InfMa: {{schwerpunktmodul.informatik-master}})
@@ -139,7 +139,7 @@
 							{% endfor %}
 							
 							{% else %}
-							{% assign is_shown = is_shown | push: modulbeschreibung.kuerzel %}
+							{% assign is_shown = is_shown|push: modulbeschreibung.kuerzel %}
 							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
 								{% if modulbeschreibung.informatik-master %}
 								(InfMa: {{modulbeschreibung.informatik-master}})

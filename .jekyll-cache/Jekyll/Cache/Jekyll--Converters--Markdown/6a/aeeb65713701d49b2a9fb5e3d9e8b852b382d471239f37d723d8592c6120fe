@@ -1,0 +1,52 @@
+I"<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>Vorlesung, Praktikum</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die Studierenden sollen befähigt werden,</p>
+
+<ul>
+  <li>
+    <p>komplexe Systeme zu analysieren, im Team zu entwerfen und dabei im Rahmen methodischer Vorgehensweisen Techniken und Werkzeuge der objektorientierten Modellierung und Softwareentwicklung in den Aktivitäten Anforderungsermittlung, Softwarespezifizierung und Entwurf einzusetzen;</p>
+  </li>
+  <li>
+    <p>zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie gegebene Modelle zu interpretieren, zu analysieren und zu bewerten;</p>
+  </li>
+  <li>
+    <p>unterschiedliche Modellierungstechniken und Methoden der Softwareentwicklung hinsichtlich ihrer Tauglichkeit für spezifische Zielprodukte und Projektkontexte zu bewerten, auszuwählen und einzusetzen.</p>
+  </li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<p>Die Vorlesung gibt zunächst einen knappen Überblick über das Gesamtgebiet Softwaretechnik und behandelt dann ausschließlich grundlegende “Informatikaspekte” der objektorientierten Softwareentwicklung. Als wesentliche Grundlage werden die wichtigsten Elemente der Unified Modelling Language (UML) vorgestellt und anhand kleinerer Beispiele erläutert. Danach werden typische Aktivitäten der Softwareentwicklung besprochen, wobei die UML als Modellierungssprache benutzt wird. Im Praktikum werden die Anwendung der Modellierungselemente und die Durchführung der Aktivitäten in Gruppenarbeit vertieft.</p>
+
+<p>Das Modul gliedert sich in folgende Inhalte:</p>
+
+<ul>
+  <li>
+    <p>(10%) Softwareentwicklung im Überblick (Komplexität großer Software, Kernaktivitäten und unterstützende Aktivitäten);</p>
+  </li>
+  <li>
+    <p>(30%) Die Modellierungssprache UML (Strukturmodellierung mit Objekt- und Klassendiagrammen, Funktionsmodellierung mit Anwendungsfalldiagrammen, Verhaltensmodellierung mit Sequenz-, Kommunikations- und Zustandsdiagrammen);</p>
+  </li>
+  <li>
+    <p>(50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung und Architekturkonzeption, Entwurfskonzepte und Grobentwurf, Feinentwurf);</p>
+  </li>
+  <li>
+    <p>(10%) Qualitätssicherung; Zusammenfassung und Ausblick (Modellgetriebene Softwareentwicklung);</p>
+  </li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+
+<h2 id="medienformen">Medienformen:</h2>
+
+<h2 id="literatur">Literatur:</h2>
+<p>M. Winter: Methodische Entwicklung objektorientierter Software. dPunkt Verlag, Heidelberg, 2005</p>
+
+<p>M. Hitz, G. Kappel: UML@Work. 3. Aufl., dPunkt Verlag, Heidelberg, 2005</p>
+
+<p>Ian Sommerville: Software Engineering. 8. Aufl. (Deutsch), Addison Wesley, 2007</p>
+
+:ET

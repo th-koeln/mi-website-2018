@@ -1,8 +1,8 @@
-{% assign schwerpunkte = (site.modulbeschreibungen-master | where:"typ","sp" | sort: "title") %}
+{% assign schwerpunkte = (site.modulbeschreibungen-master|where:"typ","sp" | sort: "title") %}
 {% assign spm = include.spm %}
 
 <th>{{spm}}</th>
-{% assign  schwerpunktmodule = (site.modulbeschreibungen-master | where:"parent",spm | sort: "title") %}
+{% assign  schwerpunktmodule = (site.modulbeschreibungen-master|where:"parent",spm | sort: "title") %}
 
 {% for schwerpunkt in schwerpunkte %}
 <td>

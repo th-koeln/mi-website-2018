@@ -2,8 +2,7 @@
 layout: default
 ---
 
-{% assign sorted_people = (site.data.people | sort) %}
-
+{% assign sorted_people = site.data.people|sort %}
 
 <section class="section">
 	<div class="container">
@@ -33,13 +32,13 @@ layout: default
 						<td>{{ member[0] }}</td>
 						<td>{{ member[1].name}}</td>
 						<td>
-							{% assign m = (module_ws | size) %}
+							{% assign m = module_ws|size %}
 							{% if m > 0 %}
 							Wintersemester: <br>{{module_ws}}
 							{% assign ws = true %}
 							{% endif %}
 							
-							{% assign m = (module_ss | size) %}
+							{% assign m = module_ss|size %}
 							{% if m > 0 %}
 							
 							{% if ws == true %}

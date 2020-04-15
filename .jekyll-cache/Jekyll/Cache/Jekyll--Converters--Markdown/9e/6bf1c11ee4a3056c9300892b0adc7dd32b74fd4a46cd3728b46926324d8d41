@@ -1,0 +1,55 @@
+I"�<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Es werden Grundlagen für die Analyse und algorithmische Verarbeitung von Graph basierten Daten, insbesondere von Daten sozialer Netze eingeführt.</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Übung</li>
+  <li>102h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden</p>
+
+<ul>
+  <li>kennen die Bedeutung von formalen Modellen von heutigen technischen, Informations- und sozialen Netzen,</li>
+  <li>kennen wesentliche Konzepte, Kenngrößen und Algorithmen für Graphen und Netzwerke</li>
+  <li>können in abgegrenzten Beispielen bestehende Netze anhand der Kenngrößen und Algorithmen analysieren</li>
+</ul>
+
+<p>um Methoden und Techniken zur Analyse sozialer und ggfs. anderer Netze auswählen zu können.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Empirische Untersuchung von Netzwerken: technische Netze, Informationsnetze, soziale Netze</li>
+  <li>Psychologische Grundlagen Sozialer Netze</li>
+  <li>Graphentheorie: Grundlegende Konzepte, Kenngrößen, strukturelle Eigenschaften</li>
+  <li>Graph und Netzwerk Algorithmen</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>Mündliche Prüfung (100%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Präsentationsmaterialien</li>
+  <li>Arbeitsblätter</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>M.E.J. Newman: Networks - An Introduction, Oxford University Press 2010</li>
+  <li>S. Wassermann, K. Faust: Social Network Analysis - Methods and Applications, Cambridge University Press 1994</li>
+  <li>C. Kadushin: Understanding Social Networks: Theories, Concepts, and Findings, Oxford University Press 2011</li>
+  <li>D. Easley, J. Kleinberg: Networks, Crowds, and Markets: Reasoning About a Highly Connected World , Cambridge University Press 2010</li>
+  <li>J. Scott: Social Network Analysis, 3rd ed., Sage Pub 2012</li>
+</ul>
+
+:ET

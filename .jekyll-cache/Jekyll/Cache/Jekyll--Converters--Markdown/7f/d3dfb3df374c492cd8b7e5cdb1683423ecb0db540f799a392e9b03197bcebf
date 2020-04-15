@@ -1,0 +1,119 @@
+I" <h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Die Studierenden kennen die grundlegenden Konzepte der linearen Systemtheorie, kennen Eigenschaften linearer invarianter zeitdiskreter Systeme, können sie formal beschreiben und hinsichtlich medientechnischer Systeme (und auch bzgl. anderer Pragmatiken) interpretieren, anwenden und kritisch diskutieren. Sie sind in der Lage, Zielsetzungen einer Verarbeitung medienspezifischer Signale aus einer systemtheoretische Perspektive zu formulieren, unterschiedliche Ansätze sowie deren systemtheoretische Implikationen kritisch zu diskutieren und begründet gegeneinander abzuwägen. Die Studierenden kennen Beschreibungskonzepte von ein- und mehrdimensionalen Signalen, kennen Transformationen der Signale und können diese anwenden, (z.B. physikalisch) interpretieren und kritisch diskutieren. Die Studierenden können Diskretisierungen ein- und mehrdimensionaler Signale formal beschreiben, kennen Konzepte zur Beschreibung der Qualität der Diskretisierungen und können diese anwenden und kritisch diskutieren. Darüber hinaus kennen die Studierenden die Konzepte der Filterung von diskreten Signalen und kennen verschiedene Realisations-Ansätze sowie –Strukturen für Digitale Filter. Zudem sind sie in der Lage, diese formal zu beschreiben, anzuwenden, zu interpretieren und kritisch zu diskutieren. Die Studierenden kennen Konzepte der Verarbeitung (Transformationen, Modellierung und Extraktion von Merkmalsvektoren etc.) von diskreten medientechnischen Signalen, können sie formal beschreiben, bzgl. medientechnischer (oder anderer) Pragmatiken interpretieren und kritisch diskutieren.</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 4 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon</p>
+<ul>
+  <li>72h Vorlesung</li>
+  <li>108h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden kennen die grundlegenden Konzepte der linearen Systemtheorie, kennen Eigenschaften linearer invarianter zeitdiskreter Systeme, können sie formal beschreiben und hinsichtlich medientechnischer Systeme (und auch bzgl. anderer Pragmatiken) interpretieren, anwenden und kritisch diskutieren. Sie sind in der Lage, Zielsetzungen einer Verarbeitung medienspezifischer Signale aus einer systemtheoretische Perspektive zu formulieren, unterschiedliche Ansätze sowie deren systemtheoretische Implikationen kritisch zu diskutieren und begründet gegeneinander abzuwägen. Die Studierenden kennen Beschreibungskonzepte von ein- und mehrdimensionalen Signalen, kennen Transformationen der Signale und können diese anwenden, (z.B. physikalisch) interpretieren und kritisch diskutieren. Die Studierenden können Diskretisierungen ein- und mehrdimensionaler Signale formal beschreiben, kennen Konzepte zur Beschreibung der Qualität der Diskretisierungen und können sie diese anwenden und kritisch diskutieren. Darüber hinaus kennen die Studierenden die Konzepte der Filterung von diskreten Signalen und kennen verschiedene Realiations-Ansätze sowie –Strukturen für Digitale Filter. Zudem sind sie in der Lage, diese formal zu beschreiben, anzuwenden, zu interpretieren und kritisch zu diskutieren. Die Studierenden kennen Konzepte der Verarbeitung (Transformationen, Modellierung und Extraktion von Merkmalsvektoren etc.) von diskreten medientechnischen Signalen, können sie formal beschreiben, bzgl. medientechnischer (oder anderer) Pragmatiken zu interpretieren und kritisch zu diskutieren.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<p>Quasiperiodische dynamische Systeme, Phasenraum, Wellen und deren Kenngrößen
+Transformationen von Funktionen mit einer kontinuierlichen Variablen</p>
+<ul>
+  <li>Fourier-Analyse, Amplitudensprektrum, spektrale Eigenschaften periodischer und aperiodischer
+Signale</li>
+  <li>Fourier-Transformation</li>
+  <li>Laplace-Transformation</li>
+  <li>z-Transformation</li>
+  <li>Lineare Zeitdiskrete System und ihre Eigenschaften (Linearität, Kausalität, Stabilität,
+Homogenität)</li>
+  <li>Diskrete Fourier-Transformation</li>
+  <li>Fast Fourier Transformation</li>
+  <li>Diskrete Cosinus-Transformation
+Faltung und (Auto-)Korrelation, Impulsantwort, Übertra-gungsfunktion
+Digitale Filter</li>
+  <li>Transferfunktion</li>
+  <li>FIR-Systemse</li>
+  <li>Direct-Form Structure</li>
+  <li>Cascade-Form Structure</li>
+  <li>Lattice Structure</li>
+  <li>Forward Prediction</li>
+  <li>Backward Prediction</li>
+  <li>IIR-Systeme
+Direct-Form Structure</li>
+  <li>Digital Filter Design</li>
+  <li>Paley-Wiener Theorem</li>
+  <li>weitere Kausalitätsaspekte</li>
+  <li>Gibbs Phenomenon</li>
+  <li>Designansätze of FIR Filters</li>
+  <li>Symmetric and antisymmetric filters</li>
+  <li>Linear-phase FIR-Filter Design by windowing</li>
+  <li>Design of a linear phase FIR fillter by the frequency-sampling method
+Diskretisierung multidimensionaler Signale: Gitter-Konzept</li>
+  <li>Video Abtastung sampling mittels Grid-Konzept</li>
+  <li>Multidimensionale kontinuierliche Signale</li>
+  <li>Multidimensionale digitale Signale und ihre Transformationen (Fouriertransformationen)</li>
+  <li>Volumen der Einheits-Zelle und Sampling-Dichte</li>
+  <li>Sampling-Effizienz</li>
+  <li>Video-Abtastungen in Gitter-Darstellung</li>
+  <li>Abtast-Vorgang und die Fouriertransformierte des abgetasteten Raumes</li>
+  <li>Generalisiertes Nyquist Abtast-Theorem</li>
+  <li>Relation zwischen Fouriertransformationen von kontinuierlichen, diskreten und abgetasteten Räumen
+Transformationen: Diskrete, orthogonale und biorthogonale Transformationen
+Linear predictive coding Konzept, Allpole-Filter, Analyse- und Synthesefilter, Kompressionsrate),
+Anwendung auf Codierung von Sprachsignalen
+Cepstrum und Cepstralkoeffizienten
+Wavelets, Wavelet-Transformation</li>
+  <li>Ein- und zweidimensionale Wavelets</li>
+  <li>Daubechie-Filter
+Video Verarbeitung</li>
+  <li>Zwei-dimensionale Bewegungsschätzung</li>
+  <li>Optical flow</li>
+  <li>Optical flow equation und das Aperturproblem</li>
+  <li>Pixel-based motion estimation</li>
+  <li>Pel-recursive methods</li>
+  <li>Block-Matching algorithm</li>
+  <li>Exhaustive block-matching algorithm</li>
+  <li>Phase correlation methods</li>
+  <li>Deformable block-matching algorithms</li>
+  <li>Region-Based motion estimation</li>
+  <li>Motion-Based region segmentation</li>
+  <li>Region construction from borders</li>
+  <li>Automatic Color Image Segmentation by Wave-Propagation</li>
+  <li>Level Sets and Fast Marching</li>
+  <li>Region-based segmentation</li>
+  <li>Watershed segmentation</li>
+  <li>Region growing post-production
+Raum-zeitliche Gradienten</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>mündlche Modulprüfung (100%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Beamer-gestützte Vorlesungen (Folien in elektronischer Form)</li>
+  <li>Skript und Handouts</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>J. G. Proakis, D.G. Manolakis, Digital Signal Processing, 4th edition, Pearson Prentice Hall,
+2007, ISBN: 0-13-187374-1</li>
+  <li>A. V. Oppenheim, R.W. Schafer, Zeitdiskrete Signalverarbei-tung, Oldenburg Verlag, 3.te
+Auflage, 1999, ISBN: 3-486-24145-1</li>
+  <li>R. Unbehauen, Systemtheorie I, 8. Auflage, Oldenbourg, 2002, ISBN-10: 3-486-25999-7</li>
+  <li>R. Unbehauen, Systemtheorie II, Mehrdimensionale, adaptive und nichtlineare Systeme, 7.
+Auflage, Oldenbourg, 1998, ISBN-10: 3-486-24023-4</li>
+  <li>W. C. Chu, Speech Coding Algorithms, Wiley &amp; Sons, 2003, ISBN: 0-471-37312-5</li>
+  <li>S. K. Mitra, J.F. Kaiser, Handbook for Digital Signal Processing, Wiley &amp; Sons, 1993, ISBN:
+0-471-61995-7</li>
+  <li>M. Sonka, V. Hlavac, R. Boyle, Image Processing, Analysis, and Machine Vision, PWS
+publishing, 2-nd edition, 1999, ISBN: 0534-95393-X</li>
+  <li>A. M. Tekalp, Digital Video Processing, Prentice Hall Signal Processing Series, 1995, ISBN:
+0-13-190075-7</li>
+  <li>Y. Wang, J. Ostermann, Y. Zhang, Video Processing and Communications, Prentice Hall, 2002,
+ISBN: 0-13-017547-1</li>
+</ul>
+:ET

@@ -444,15 +444,15 @@ JSZip.prototype = (function () {
 
       dosTime = o.date.getHours();
       dosTime = dosTime << 6;
-      dosTime = dosTime | o.date.getMinutes();
+      dosTime = dosTime|o.date.getMinutes();
       dosTime = dosTime << 5;
-      dosTime = dosTime | o.date.getSeconds() / 2;
+      dosTime = dosTime|o.date.getSeconds() / 2;
 
       dosDate = o.date.getFullYear() - 1980;
       dosDate = dosDate << 4;
-      dosDate = dosDate | (o.date.getMonth() + 1);
+      dosDate = dosDate|(o.date.getMonth() + 1);
       dosDate = dosDate << 5;
-      dosDate = dosDate | o.date.getDate();
+      dosDate = dosDate|o.date.getDate();
 
 
       var header = "";
@@ -927,12 +927,12 @@ JSZip.prototype = (function () {
             if (c < 128) {
                result[resIndex++] = String.fromCharCode(c);
             } else if ((c > 127) && (c < 2048)) {
-               result[resIndex++] = String.fromCharCode((c >> 6) | 192);
-               result[resIndex++] = String.fromCharCode((c & 63) | 128);
+               result[resIndex++] = String.fromCharCode((c >> 6)|192);
+               result[resIndex++] = String.fromCharCode((c & 63)|128);
             } else {
-               result[resIndex++] = String.fromCharCode((c >> 12) | 224);
-               result[resIndex++] = String.fromCharCode(((c >> 6) & 63) | 128);
-               result[resIndex++] = String.fromCharCode((c & 63) | 128);
+               result[resIndex++] = String.fromCharCode((c >> 12)|224);
+               result[resIndex++] = String.fromCharCode(((c >> 6) & 63)|128);
+               result[resIndex++] = String.fromCharCode((c & 63)|128);
             }
 
          }
@@ -970,12 +970,12 @@ JSZip.prototype = (function () {
                i++;
             } else if ((c > 191) && (c < 224)) {
                c2 = isArray ? input[i+1] : input.charCodeAt(i+1);
-               result[resIndex++] = String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+               result[resIndex++] = String.fromCharCode(((c & 31) << 6)|(c2 & 63));
                i += 2;
             } else {
                c2 = isArray ? input[i+1] : input.charCodeAt(i+1);
                c3 = isArray ? input[i+2] : input.charCodeAt(i+2);
-               result[resIndex++] = String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+               result[resIndex++] = String.fromCharCode(((c & 15) << 12)|((c2 & 63) << 6)|(c3 & 63));
                i += 3;
             }
 
@@ -1407,8 +1407,8 @@ JSZip.base64 = (function() {
             chr3 = input.charCodeAt(i++);
 
             enc1 = chr1 >> 2;
-            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
-            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+            enc2 = ((chr1 & 3) << 4)|(chr2 >> 4);
+            enc3 = ((chr2 & 15) << 2)|(chr3 >> 6);
             enc4 = chr3 & 63;
 
             if (isNaN(chr2)) {
@@ -1442,9 +1442,9 @@ JSZip.base64 = (function() {
             enc3 = _keyStr.indexOf(input.charAt(i++));
             enc4 = _keyStr.indexOf(input.charAt(i++));
 
-            chr1 = (enc1 << 2) | (enc2 >> 4);
-            chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
-            chr3 = ((enc3 & 3) << 6) | enc4;
+            chr1 = (enc1 << 2)|(enc2 >> 4);
+            chr2 = ((enc2 & 15) << 4)|(enc3 >> 2);
+            chr3 = ((enc3 & 3) << 6)|enc4;
 
             output = output + String.fromCharCode(chr1);
 

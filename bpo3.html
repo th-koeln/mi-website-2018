@@ -6,9 +6,8 @@ layout: default
 	<div class="container">
 		<div class="content">
 	        <h1>Modulbeschreibungen aus der BPO3</h1>
-
 			<ul>
-			{% assign sorted_pages = (site.modulbeschreibungen-bpo3 | sort: 'title') %}
+			{% assign sorted_pages = site.modulbeschreibungen-bpo3|sort:'title'%}
 			{% for modulbeschreibung in sorted_pages %}
 				<li><a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</li></a>
 			{% endfor %}

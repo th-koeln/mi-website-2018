@@ -2,15 +2,17 @@
 layout: default
 ---
 
-{% assign alle_fachsemester = "1,2,3,4,5,6" | split: "," %}
+{% assign alle_fachsemester = "1,2,3,4,5,6"|split: "," %}
 {% assign cps = 0 %}
 
-{% assign pflichtmodule = (site.modulbeschreibungen-bachelor | where:"typ","pm") %}
-{% assign teilmodule = (site.modulbeschreibungen-bachelor | where:"typ","tm") %}
-{% assign wahlpflichtmodule = (site.modulbeschreibungen-bachelor | where:"typ","wpm") %}
-{% assign vertiefungsmodule = (site.modulbeschreibungen-bachelor | where:"typ","vpm") %} 
+{% assign pflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","pm" %}
+{% assign teilmodule = site.modulbeschreibungen-bachelor|where:"typ","tm" %}
+{% assign wahlpflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","wpm" %}
+{% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %} 
 
-{% assign sorted_teilmodule = (teilmodule | sort: 'title') %}
+{% assign sorted_teilmodule = teilmodule|sort:'title' %}
+
+
 
 <section class="section">
 	<div class="container">
@@ -25,14 +27,16 @@ layout: default
 						<th>Modulverantwortlicher</th>
 					</tr>
 				</thead>
-				{% for fachsemester in alle_fachsemester%}
+				{% for fachsemester in alle_fachsemester %} 
 				
 					<tr class="no-border">
 						<th colspan="4">{{fachsemester}}. Fachsemester </th>
 					</tr>
-					{% assign sorted_pages = (pflichtmodule | where:"studiensemester",fachsemester | sort: 'title') %}
+          {% assign fs = fachsemester | plus:0%}
+					{% assign sorted_pages = pflichtmodule|where_exp:"item","item.studiensemester == fs"|sort:'title' %}
+          
 					{% for modulbeschreibung in sorted_pages %}
-					{% assign cps = cps | plus: modulbeschreibung.kreditpunkte %}
+					{% assign cps = cps|plus: modulbeschreibung.kreditpunkte %}
 					<tr>
 						<td>
 							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
@@ -52,14 +56,14 @@ layout: default
 					{% endfor %}
 					
 					{% if fachsemester == "4" %}
-					{% assign cps = cps | plus: 20 %}
+					{% assign cps = cps|plus: 20 %}
 					<tr class="no-border">
 						<td>Vertiefungsmodule:</td>
 						<td>VPM</td>
 						<td colspan="2">20</td>
 					</tr>
 					
-					{% assign sorted_pages = (vertiefungsmodule | where:"studiensemester",fachsemester | sort: 'title') %}
+					{% assign sorted_pages = vertiefungsmodule|sort:'title' %}
 						{% for vertiefungsmodulbeschreibung in sorted_pages %}
 						
 						<tr class="no-border">
@@ -101,7 +105,7 @@ layout: default
 	        <h1>Modulbeschreibungen Bachelor</h1>
 
 			<ol>
-			{% assign sorted_pages = (site.modulbeschreibungen-bachelor | sort: 'title') %}
+			{% assign sorted_pages = site.modulbeschreibungen-bachelor|sort:'title' %}
 			{% for modulbeschreibung in sorted_pages %}
 				<li><a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</li></a>
 			{% endfor %}

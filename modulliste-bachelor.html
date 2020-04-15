@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+{% assign alle_fachsemester = "1,2,3,4,5,6"|split: "," %}
+{% assign cps = 0 %}
+
+{% assign pflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","pm" %}
+{% assign teilmodule = site.modulbeschreibungen-bachelor|where:"typ","tm"|sort:'title' %}
+{% assign wahlpflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","wpm" %}
+{% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %} 
+
+<section class="section">
+	<div class="container">
+		<div class="content">
+	    <h1>Modulliste Medieninformatik Bachelor</h1>
+			<table class="table is-naked">
+				<thead>
+					<tr>
+            <th title="Fachsemester">FS</th>
+						<th width="50%">Modulname</th>
+						<th>Kürzel</th>
+						<th>CP</th>
+						<th>Modulverantwortlicher</th>
+					</tr>
+				</thead>
+				{% for fachsemester in alle_fachsemester %} 
+          {% assign fs = fachsemester | plus:0%}
+					{% assign sorted_pages = pflichtmodule|where_exp:"item","item.studiensemester == fs"|sort:'title' %}
+          
+					{% for modulbeschreibung in sorted_pages %}
+					<tr class="has-top-border">
+           <td>{{fachsemester}}</td>
+						<td>
+							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
+							{% for teilmodulbeschreibung in sorted_teilmodule %}
+								{% if teilmodulbeschreibung.parent == modulbeschreibung.kuerzel %}
+								- <a class="is-small is-less-important" href="{{site.baseurl}}{{teilmodulbeschreibung.url}}">{{teilmodulbeschreibung.title}}</a><br> 
+								{% endif %}
+							{% endfor %}
+						</td>
+            <td>{{modulbeschreibung.kuerzel}}</td>
+						<td>{{modulbeschreibung.kreditpunkte}}</td>
+						<td>
+							{% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
+							{{modulverantwortliche}}
+						</td>
+					</tr>
+					{% endfor %}
+					
+					{% if fachsemester == "4" %}					
+					{% assign sorted_pages = vertiefungsmodule|sort:'title' %}
+						{% for vertiefungsmodulbeschreibung in sorted_pages %}
+						<tr class="has-top-border">
+              <td>4</td>
+							<td>
+								<a href="{{site.baseurl}}{{vertiefungsmodulbeschreibung.url}}">{{vertiefungsmodulbeschreibung.title}}</a><br>
+								{% for teilmodulbeschreibung in teilmodule %}
+									{% if teilmodulbeschreibung.parent == vertiefungsmodulbeschreibung.kuerzel %}
+									<!--a class="is-small is-less-important" href="{{site.baseurl}}{{teilmodulbeschreibung.url}}">{{teilmodulbeschreibung.title}}</a><br--> 
+									{% endif %}
+								{% endfor %}
+							</td>
+							<td class="no-wrap">VPM-{{vertiefungsmodulbeschreibung.kuerzel}}</td>
+							<td>20</td>
+							<td>
+								{% include /functions/resolve-names.html modulverantwortlich=vertiefungsmodulbeschreibung.modulverantwortlich %}
+								{{modulverantwortliche}}
+							</td>
+						</tr>
+            {% assign kurse = teilmodule|where:"parent",vertiefungsmodulbeschreibung.kuerzel|sort:'title' %}
+            {% for kurs in kurse %}
+            <tr>
+              <td></td>
+              <td>Teilmodul: <a href="{{site.baseurl}}{{kurs.url}}">{{kurs.title}}</a></td>
+              <td>{{kurs.kuerzel}}</td>
+              <td>{{kurs.kreditpunkte}}</td>
+              <td>{% include /functions/resolve-names.html modulverantwortlich=kurs.modulverantwortlich %}
+								{{modulverantwortliche}}</td>
+            </tr>  
+            {% endfor %}
+            
+						{% endfor %}
+  					{% endif %}
+	  			{% endfor %}
+  			
+  			</table>
+  			
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<div class="content">
+	        <h1>Modulbeschreibungen Bachelor</h1>
+
+			<ol>
+			{% assign sorted_pages = site.modulbeschreibungen-bachelor|sort:'title' %}
+			{% for modulbeschreibung in sorted_pages %}
+				<li><a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</li></a>
+			{% endfor %}
+			</ol>
+		</div>
+	</div>
+</section>
+

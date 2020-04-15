@@ -932,15 +932,15 @@ Toggle the overview mode. Do it a second time to exit the overview.
 #### Config Options
 You can edit the following options:
 
-| Property          | Default           | Description
+| Property         |Default          |Description
 | ----------------- |:-----------------:| :-------------
-| autoCenter        | true              | Center the pointer based on where you put your finger into the leap motions detection field.
-| gestureDelay      | 500               | How long to delay between gestures in milliseconds.
-| naturalSwipe      | true              | Swipe as though you were touching a touch screen. Set to false to invert.
-| pointerColor      | #00aaff           | The color of the pointer.
-| pointerOpacity    | 0.7               | The opacity of the pointer.
-| pointerSize       | 15                | The minimum height and width of the pointer.
-| pointerTolerance  | 120               | Bigger = slower pointer.
+| autoCenter       |true             |Center the pointer based on where you put your finger into the leap motions detection field.
+| gestureDelay     |500              |How long to delay between gestures in milliseconds.
+| naturalSwipe     |true             |Swipe as though you were touching a touch screen. Set to false to invert.
+| pointerColor     |#00aaff          |The color of the pointer.
+| pointerOpacity   |0.7              |The opacity of the pointer.
+| pointerSize      |15               |The minimum height and width of the pointer.
+| pointerTolerance |120              |Bigger = slower pointer.
 
 
 Example configuration:

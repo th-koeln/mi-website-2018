@@ -1,0 +1,55 @@
+I"l	<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>In der Veranstaltung werden zwei Felder eingeführt:</p>
+
+<ul>
+  <li>Grundkonzepte der Software Architektur bezogen auf Web basierte Anwendungen</li>
+  <li>Fragen der Internet Governance</li>
+</ul>
+
+<p>Basierend auf diesem Grundlagenwissen werden dann Lösungen aus fortschrittliche Anwendungsfelder im Web analysiert.</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS; Seminar 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Seminar</li>
+  <li>108h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studentinnen und Studenten</p>
+<ul>
+  <li>kennen wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur</li>
+  <li>kennen wesentliche Elemente der Internet Governance und können Problemfelder in diesem Bereich kritisch analysieren</li>
+  <li>können bestehende Web Anwendungen basierend auf den Konzepten der Software Architektur und der Internet Governance analysieren</li>
+</ul>
+
+<p>um in leitender Funktion zur Gestaltung der Architektur von Projekten für das Web beitragen zu können.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<p>Softwarearchitekturen: Designprozess, Kommunikationsmethoden (Connectoren), Sicherheit, Modellierung, Visualisierung, Analyse</p>
+
+<p>Internet Governance: Governance der Infrastruktur des Web, Politik und Werte bei der Wahl von Protokollen, Softwarelizensierung, Systeme des Urheberrechts, Ethische Fragen bei Web Anwendungen</p>
+
+<p>Fallstudien: Anwendungen beispielsweise aus den Bereichen Open Data, Internet of Things, Cloud Services</p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>mündliche Prüfung (100%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<p>Präsentationsmaterialien</p>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>R. Taylor et al.: Software Architecture - Foundations, Theory, and Practice, Wiley 2009</li>
+  <li>L. DeNardis: Protocol Politics, MIT Press 2009</li>
+  <li>F. Daniels et al.: Mashups: Concepts, Models, and Architectures, Springer 2014</li>
+  <li>M. Erder et al.: Continous Architecture - Sustainable Architecture in an Agile and Cloud Centric World, Morgan Kaufmann 2016</li>
+</ul>
+:ET
