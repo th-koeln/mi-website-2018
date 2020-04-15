@@ -1,0 +1,96 @@
+I"p<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>Vorlesung, Seminar, Projektarbeit in Gruppen.</p>
+
+<p>Der Kurs wird als BLOCKKURS angeboten in der Osterwoche vom 29.03.-01.04.</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die erweiterten Grundlagen der zwei- und insbesondere der dreidimensionalen Computergraphik und Animation stellen ein hervorragendes Paradigma zur Verstärkung zentraler Inhalte und Kompetenzen der Medieninformatik dar.</p>
+
+<p>Die Studierenden vertiefen Ihre Kenntnisse in fächerübergreifenden Kompetenzen wie Programmierung, Softwareentwicklung und Einarbeitung in mathematisch und programmiertechnisch anspruchsvolle Themengebiete und wissen diese im Medieninformatik-Kontext zu bewerten und einzuordnen.</p>
+
+<p>Nach Abschluss des Moduls besitzen die Studierenden tiefgehende Kenntnisse über Architektur und Programmierung moderner Graphikhardware. Das erlernte Wissen ermöglicht es erfolgreichen Teilnehmern, anschließend modernste und hochparallele Algorithmen auf der Graphikkarte zu entwerfen und auszuführen.</p>
+
+<p>Die Inhalte des Moduls befähigen die Studierenden fortgeschrittene Algorithmen und Datenstrukturen der Computergraphik zu beherrschen. Das erworbene Wissen kann zur Implementierung eigener grafischer Anwendungen eingesetzt werden und soll im Laufe des Semesters in einem eigens ausgewählten Projekt exemplarisch angewandt werden.</p>
+
+<h2 id="inhalt">Inhalt:</h2>
+<p>Das Modul befasst sich mit fundamentalen und fortgeschrittenen Methoden der Computergrafik und Bildsynthese. Der Fokus liegt auf der praktischen Anwendung und effizienten Implementierung.</p>
+
+<p>Mögliche Inhalte:</p>
+
+<ul>
+  <li>
+    <p>Auffrischung lineare Algebra und Rasterisierungspipeline</p>
+  </li>
+  <li>
+    <p>Grundlagen der Spieleprogrammierung</p>
+  </li>
+  <li>
+    <p>Bildverarbeitungsalgorithmen</p>
+  </li>
+  <li>
+    <p>Globale Beleuchtung</p>
+  </li>
+  <li>
+    <p>Screen-Space Techniken</p>
+  </li>
+  <li>
+    <p>Animation</p>
+  </li>
+  <li>
+    <p>Volume Rendering</p>
+  </li>
+  <li>
+    <p>Image-based Rendering</p>
+  </li>
+  <li>
+    <p>Spielephysik</p>
+  </li>
+</ul>
+
+<p>Das Wissen über die Inhalte aus dem Grundlagen Modul “Computergrafik und Animation” wird vorausgesetzt.</p>
+
+<p> </p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Ein Fachvortrag sowie eine abschließende Projektarbeit samt Dokumentation und Präsentation.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Vorlesung, Projekt und Dokumentation</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>Nguyen, Pharr, Fernando: GPU Gems 1-3, NVIDIA Corporation</p>
+  </li>
+  <li>
+    <p>Han: 3D Graphics for Game Programming, Chapman and Hall, 2011</p>
+  </li>
+  <li>
+    <p>Matt Pharr, Greg Humphreys: Physically Based Rendering from Theory to Implementation (3rd edition)</p>
+  </li>
+  <li>
+    <p>Peter Shirley, Fundamentals of Computer Graphics, Peters, Wellesley</p>
+  </li>
+  <li>
+    <p>Andrew Woo, et al., OpenGL Programming Guide, Version 4.3, Addison-Wesley,</p>
+  </li>
+  <li>
+    <p>Tomas Akenine-Möller, Eric Haines, und Naty Hoffman, Real-Time Rendering, 3. Ausgabe, Peters, Wellesley</p>
+  </li>
+  <li>
+    <p>Randi J. Rost, John M. Kessenich, Barthold Lichtenbelt, OpenGL Shading Language, 2. Ausgabe, Addison-Wesley</p>
+  </li>
+  <li>
+    <p>Alan Watt, 3D Computer Graphics, Addison-Wesley</p>
+  </li>
+  <li>
+    <p>Frank Nielsen, Visual Computing, Charles River Media, 2005</p>
+  </li>
+  <li>
+    <p>James Foley, Andries Van Dam, et al., Computer Graphics : Principles and Practice, 2. Ausgabe, Addison-Wesley</p>
+  </li>
+</ul>
+
+:ET

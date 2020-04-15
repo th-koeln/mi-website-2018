@@ -1,0 +1,59 @@
+I"�<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Die Studierenden erlernen aktuelle Techniken zur Erzeugung photorealistischer Computergrafik, wie Sie in Filmen mittels vorhanden Tools wie Blender, Maya, 3DS Max verwendet wird. Dabei liegt der Schwerpunkt nicht auf der praktischen Anwendung sondern vor allem auf den darunterliegenden Algorithmen. Ziel ist es diese zu verstehen, zu erweitern und sinnvoll anwenden zu können.</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS; Praktikum / Projekt 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Praktikum / Projekt</li>
+  <li>108h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<ul>
+  <li>Die Studierenden verstehen den Bildentstehungsprozess und die physikalischen Wechselwirkungen von Licht und Licht-Materie. Sie kennen Rendering-Equation, stochastische Methoden (Monte Carlo Raytracing) und Methoden der natürlichen Beleuchtung, und erarbeiten sich damit tiefgehende Fachkenntnisse im Gebiet der photorealistischen Bildsynthese und dringen dabei bis an die Grenze des heute vorhandenen Wissens und die Spitze der aktuellen Technologie vor, bspw. auf technischer Seite durch moderne CPU/GPU Programmierung, sowie auf theoretischer Seite durch neueste Algorithmen.</li>
+  <li>Dadurch erlangen Sie grundlegende Fähigkeiten im Bereich der Computergrafik. Sie können dieses Wissen einsetzen, sowohl um in einem praktischen 3D Modellierungstool gezielt geeignete Methoden zur Bildsynthese auszuwählen als auch vor allem, um einen eigenen Renderer selbst von Grund auf zu entwickeln.</li>
+  <li>Die Studierenden können wissenschaftlich arbeiten, kritisch reflektieren und methodische Alternativen begründet auswählen, um in der Lage zu sein auch wissenschaftliche Beiträge zur Weiterentwicklung des Gebietes der Bildsynthese zu leisten.</li>
+</ul>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Objekt- und Szenenmodellierung</li>
+  <li>Material- und Reflexionsmodelle</li>
+  <li>Licht-Materie-Wechselwirkung</li>
+  <li>globale Beleuchtung und Lichttransportphänomene</li>
+  <li>Path Tracing</li>
+  <li>Photon Mapping</li>
+  <li>Radiometrie</li>
+  <li>BRDFs</li>
+  <li>Radiosity</li>
+  <li>Monte Carlo Verfahren</li>
+  <li>Importance Sampling</li>
+  <li>Algorithmen der digitalen Bildverarbeitung zur Filterung von Monte Carlo Simulationen</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>Klausur (60 Minuten) oder mündliche Prüfung (15 Minuten) (60%)</li>
+  <li>Fachvortrag (15 Minuten) (40%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Beamergestützte Vorlesung</li>
+  <li>Praktika / Projekt in Kleingruppen, um die erlernten Methoden und Techniken einzuüben und zu vertiefen (Rechnerlabor)</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Matt Pharr, Greg Humphreys: Physically Based Rendering, 3rd Edition, Morgan Kaufmann 2016.</li>
+  <li>Peter Shirley: Realistic Ray Tracing, 3. Auflage, AK Peters 2003.</li>
+  <li>Peter Shirley: Fundamentals of Computer Graphics, 4. Auflage, AK Peters 2016.</li>
+  <li>Henrik Wann Jensen: Realistic Image Synthesis Using PhotonMapping, AK Peters 2001.</li>
+  <li>Philp Dutre, Phillippe Bekaert, Kavita Bala: Advanced Global Illumination, B&amp;T 2003</li>
+</ul>
+:ET

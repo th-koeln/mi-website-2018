@@ -13,7 +13,6 @@ empfohleneVoraussetzungen:
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: pm
 resources: true
 tutor:

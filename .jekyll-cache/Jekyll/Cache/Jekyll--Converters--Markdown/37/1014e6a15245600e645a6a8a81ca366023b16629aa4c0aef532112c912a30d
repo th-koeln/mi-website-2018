@@ -1,0 +1,48 @@
+I"�<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>4 SWS: Vorlesung 2 SWS; Praktikum 1 SWS; Übung 1 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+<p>Gesamtaufwand 150h, davon</p>
+
+<ul>
+  <li>36h Vorlesung</li>
+  <li>18h Praktikum</li>
+  <li>18h Übung</li>
+  <li>78h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die Studierenden sollen unterschiedliche Programmierparadigmen verstehen und anwenden können. Weiterhin sollen sie die Angemessenheit der verschiedenen Programmierparadigmen für eine Aufgabenstellung einordnen und bewerten können. Studierende sollen mithilfe von etablierten Paradigmen und Entwurfsmustern in der Lage sein, synchrone und asynchrone Programme zu konzipieren und ablaufsicher zu gestalten.</p>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>Grundlagen von Programmiersprachen</li>
+  <li>Vergleich imperativer und deklarativer Paradigmen</li>
+  <li>prozedurale und objektorientierte Programmierung</li>
+  <li>funktionale Programmierung</li>
+  <li>Logikprogrammierung</li>
+  <li>Nebenläufigkeit</li>
+  <li>Entwurfsmuster</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Klausur sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<ul>
+  <li>Foliensammlung</li>
+  <li>Screencasts</li>
+  <li>Skript</li>
+  <li>Beispiellösungen</li>
+</ul>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>Abelson, Sussman, Struktur und Interpretation von Computer Programmen,Springer-Verlag 2001</li>
+  <li>W.F. Clocksin, C.S. Mellish, Programming in Prolog, Springer-Verlag 2003</li>
+  <li>Gamma, E., Helm, R., Johnson, R., &amp; Vlissides, J. (2015). Design patterns: Entwurfsmuster als Elemente wiederverwendbarer objektorientierter Software. Frechen: Mitp.</li>
+  <li>Odersky, Spoon, Venners, Programming in Scala, Artima Press 2011</li>
+  <li>Goetz, B., Peierls, T., Bloch, J., Bowbeer, J., Holmes, D., Lea, D. (2006). Java-Concurrency in Practise. Addison Wesley.</li>
+  <li>Tate, B. A., &amp; Klicman, P. (2011). Sieben Wochen, sieben Sprachen: Verstehen Sie die modernen Sprachkonzepte. Sebastopol: O’Reilly.</li>
+</ul>
+:ET

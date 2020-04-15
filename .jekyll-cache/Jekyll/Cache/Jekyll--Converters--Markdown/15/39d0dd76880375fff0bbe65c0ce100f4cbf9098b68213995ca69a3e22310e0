@@ -1,0 +1,69 @@
+I"�<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>Entwurfsmuster für objektorientierte Softwareentwicklung</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<ul>
+  <li>
+    <p>Entwurfsmuster verstehen, bewerten und umsetzen können</p>
+  </li>
+  <li>
+    <p>Entwurfsmuster finden, auswählen und anpassen können</p>
+  </li>
+  <li>
+    <p>Designphilosophie des Entwurfsmusteransatzes verstehen</p>
+  </li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>
+    <p>Einführung in den Entwurfsmusteransatz</p>
+  </li>
+  <li>
+    <p>Ausgewählte Entwurfsmuster für objektorientierte Programmierung kennenlernen (“Gang of Four”-Patterns, Pattern Oriented Software Architecture)</p>
+  </li>
+  <li>
+    <p>Kontext, Einflussfaktoren und Designprobleme verstehen und mit Entwurfsmustern lösen</p>
+  </li>
+  <li>
+    <p>SW-Designentscheidungen begründen</p>
+  </li>
+  <li>
+    <p>Implementierung von Entwurfsmustern</p>
+  </li>
+  <li>
+    <p>Codeeleganz</p>
+  </li>
+  <li>
+    <p>Muster und Mustersprachen (Pattern Languages)</p>
+  </li>
+  <li>
+    <p>Entwurfsmuster in anderen Bereichen (User Interface Design, Interaktionsdesign, Web Design)</p>
+  </li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Softwareprojekt mit Implementierung von Entwurfsmustern; Bericht über die begründete Auswahl, Umsetzung und Anpassung von Entwurfsmustern</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Präsentation, Praktische Übungen und Aufgaben, Screencasts, Bücher</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>Gamma, E., Helm, R., Johnson, R., &amp; Vlissides, J. (2015). Design patterns: Entwurfsmuster als Elemente wiederverwendbarer objektorientierter Software. Frechen: mitp.</p>
+  </li>
+  <li>
+    <p>Freeman, E., Freeman, E., &amp; Sierra, K. (2006). Entwurfsmuster von Kopf bis Fuß. Beijing: O’Reilly.</p>
+  </li>
+  <li>
+    <p>Buschmann, F.; Meunier, R; Rohnert, H., Sommerlad, P. &amp; Stal, M. (1996). Pattern- Oriented Software Architecture – A System of Patterns. West Sussex, England: Wiley and Sons.</p>
+  </li>
+  <li>
+    <p>Alexander, C. (1979). The Timeless Way of Building. New York: Oxford University Press.</p>
+  </li>
+</ul>
+
+:ET

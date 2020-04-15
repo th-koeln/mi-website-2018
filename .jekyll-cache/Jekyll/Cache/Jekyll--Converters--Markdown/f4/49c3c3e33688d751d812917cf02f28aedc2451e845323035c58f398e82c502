@@ -1,0 +1,58 @@
+I"�<h2 id="lehrformsws">Lehrform/SWS:</h2>
+
+<p>6 SWS: Vorlesung 3 SWS; Übung 1 SWS; Praktikum 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<p>Gesamtaufwand 240h, davon</p>
+
+<ul>
+  <li>54h Vorlesung</li>
+  <li>36h Praktikum</li>
+  <li>18h Übung</li>
+  <li>132h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+
+<p>Die Studierenden sollen</p>
+
+<ul>
+  <li>formale und algorithmische Kompetenzen im Bereich der Software-Entwicklung erlangen. Hierzu gehören insbesondere die Prinzipien der Objektorientierung und die der prozeduralen Programmierung.</li>
+  <li>die Kompetenz erlangen, strukturierte und unstrukturierte Problemstellungen zu analysieren, Lösungen modellbasiert zu entwickeln sowie prozedural und objektorientiert umzusetzen.</li>
+  <li>Systementwürfe evaluieren und bewerten können, insbesondere sollen sie die Arbeitsweise, die Randbedingungen und den Komplexitätsgrad von einfachen Algorithmen verstehen.</li>
+  <li>die Fähigkeit erlernen, algorithmische Entwurfsmuster zu erkennen und anzuwenden</li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>Prozedurale Programmierung am Beispiel von C.</li>
+  <li>Objektorientierte Programmierung am Beispiel von Java.</li>
+  <li>Kontroll- und Datenstrukturen.</li>
+  <li>Modularisierungskonzepte.</li>
+  <li>Typkonzepte.</li>
+  <li>Grundmuster der objektorientierten Programmierung.</li>
+  <li>Elementare Algorithmen und Aufwandsschätzung.</li>
+  <li>Entwicklungsumgebungen.</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+
+<p>Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<ul>
+  <li>Beamer-gestützte Vorlesungen (Folien in elektronischer Form)</li>
+  <li>Praktikum an Rechnern des Labors</li>
+</ul>
+
+<h2 id="literatur">Literatur:</h2>
+
+<ul>
+  <li>Vorlesungsunterlagen: Foliensammlung, ausformuliertes Skript, Beispiellösungen, Übungsklausuren mit Lösungen</li>
+  <li>Fachliteratur: Diverse C-Bücher, u.a.: Kernighan, B.W., Ritchie, D.M.: „Programmieren in C“</li>
+  <li>Diverse Java-Bücher, u.a.: Bishop, J.: „Java Lernen“</li>
+  <li>Sedgewick, R.: „Algorithmen in Java“</li>
+</ul>
+
+:ET

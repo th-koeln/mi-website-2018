@@ -1,0 +1,72 @@
+I"=<h2 id="lehrformsws">Lehrform/SWS:</h2>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die Studierenden sollen in der Lage sein, alternative Architekturen für Informationssysteme im Web zu identifizieren, deren Eigenschaften zu benennen und sie gegeneinander abzugrenzen.</p>
+
+<p>Dazu sollen die Studierenden im Einzelnen:</p>
+
+<p>-        auf der Basis der Kenntnis wesentlicher klassischer Middelewaresysteme die grundlegenden Web Services Protokolle benennen, einordnen und diskutieren können,</p>
+
+<p>-        eine geeignete Vorgehensweise zum Entwurf eines Dienst orientierten Informationssystems im Web wählen können,</p>
+
+<p>-        die praktischen Herausforderungen einer Umsetzung anhand eines eigenen Miniprojekts meistern können,</p>
+
+<p>-        die Bedeutung der Modellierung von Daten in offenen Umgebungen benennen können und die Eigenschaften der Datenmodellierung in XML bzw. in RDF diskutieren können,</p>
+
+<p>die relevanten Standards und Architekturen für Stream orientierte interpersonale Kommunikation im Web kennen und abgrenzen können. </p>
+
+<h2 id="inhalt">Inhalt:</h2>
+<p>Modellierung von Daten für die Kommunikation im Web</p>
+
+<p>-        Datenkommunikation in offenen Umgebungen</p>
+
+<ul>
+  <li>       Prinzip von Auszeichnungssprachen</li>
+</ul>
+
+<p>-        Datenmodellierung mit XML und XML Schemasprachen</p>
+
+<p>-        Datenmodellierung mit RDF und RDFS</p>
+
+<p>Infrastruktur und Standards:</p>
+
+<p>-        klassische Middlewaresysteme: RPC,CORBA, nachrichtenorientierte Middleware</p>
+
+<p>-        Standards und Standardisierung im Internet; quelloffene vs. proprietäre Software</p>
+
+<p>Dienstorientierte Architektur</p>
+
+<p>-        Basisstandards: SOAP, WSDL, UDDI</p>
+
+<p>-        Dienstkomposition</p>
+
+<p>-        Transaktionen</p>
+
+<p>-        Entwurfsprinzipen: top-down vs. bottom-up, Kohäsion, Granularität</p>
+
+<p>Kommunikationsarchitekturen</p>
+
+<p>-        Streaming Protokolle: RTP, RSVP, RTCP</p>
+
+<p>-         Dienstgüte</p>
+
+<p>-        Signalisierungsprotokolle: SIP, H.323</p>
+
+<p>Präsenzarchitekturen</p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Mündliche Prüfung von 30 Minuten. (Fachgespräch)</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Bereitstellung der Präsentationsmaterialien und ergänzender Literatur; Moderation eines Forums zur Veranstaltung.</p>
+
+<h2 id="literatur">Literatur:</h2>
+<p>G. Alomso et al.: Web Services – Concepts, Architectures and Applications, Springer 2004</p>
+
+<p>A. Möller et al.: An Introduction to XML and Web Technologies, Addison Wesley 2006</p>
+
+<p>M. Papazoglou: Web Services – Principles and Technology, Prentice Hall 2008</p>
+
+:ET

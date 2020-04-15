@@ -1,0 +1,63 @@
+I"�<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Konstruktive und analytische Qualitätssicherung und Qualitätsmanagement für Web-Anwendungen</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung 1 SWS; Seminar 1 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>18h Übung</li>
+  <li>18h Seminar</li>
+  <li>108h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden werden befähigt,</p>
+<ul>
+  <li>Ziele, Methoden, Techniken und Werkzeuge sowie organisatorischen Maßnahmen zur begleitenden Qualitätssicherung (QS) und zum Qualitätsmanagement (QM) für Web- und Mobile Anwendungen beschreiben, diskutieren und anwenden zu können, sowie</li>
+  <li>Methoden und Techniken hinsichtlich ihrer theoretischen Fundierung und ihrer Eignung in einem Projektkontext analysieren und bewerten zu können, und</li>
+  <li>sich selbständig wissenschaftlich und fachlich weiter zu bilden, 
+um die Methoden, Techniken und Werkzeuge zur Qualitätssicherung und zum Qualitätsmanagement in eigenen, auch fachübergreifenden Projekten auswählen und anwenden zu können.</li>
+</ul>
+
+<h2 id="inhalt">Inhalt</h2>
+<p>Das Modul beschreibt Ziele, Methoden, Techniken und Werkzeuge sowie organisatorische Maßnahmen zur begleitenden Qualitätssicherung (QS) in der Entwicklung von Web-Anwendungen. Schwerpunkte liegen auf der QS in den frühen Phasen der Konzeption und Spezifikation sowie dem Qualitätsmanagement. Ausführungen zu einschlägigen Normen und Gesetzen runden das Modul ab.</p>
+
+<p>Inhalte im Einzelnen:</p>
+<ul>
+  <li>Qualitätssicherung im Entwicklungsprozess</li>
+  <li>Qualitätsmodelle und -Metriken</li>
+  <li>Analytic Hierarchy Process (AHP) und Quality Function Deployment (QFD)</li>
+  <li>Risikomanagement und Software-Failure Modes Effects Analysis (SW-FMEA)</li>
+  <li>QS-Planung mit QFD und FMEA, Fehler- und Problem-Meldungsbehandlung</li>
+  <li>Prozessverbesserungsmodelle (CMMI, SPICE)</li>
+  <li>QS-Werkzeuge, Normen und Gesetze.</li>
+</ul>
+
+<p>Aufbauend auf dem in der Vorlesung vermittelten Stoff erstellt jeder Teilnehmer im Seminar-Teil eine Ausarbeitung mit experimenteller Realisierung und eine Präsentation zu einem ausgewählten aktuellen Forschungsgebiet der Qualitätssicherung.</p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>Seminar-Facharbeit (30%)</li>
+  <li>Fachvortrag (30%)</li>
+  <li>Klausur 60 Minuten (40%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Beamer-gestützte Vorlesungen (Folien in elektronischer Form im Netz)</li>
+  <li>Materialien zum Selbststudium (Vorlagen, Software-Werkzeuge, Veröffentlichungen)</li>
+  <li>Fallbeispielgestützte Übungen in Gruppen, um die erlernten Modelle und Methoden einzuüben und zu vertiefen (Seminarraum, Rechnerlabor).</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>S. Wagner: Software Product Quality Control. Springer, Berlin, 2013</li>
+  <li>A. Spillner, T. Roßner, M. Winter, T. Linz: Praxiswissen Softwaretest – Testmanagement. 4., vollst. überarbeitete und akt. Auflage, dpunkt.verlag, Heidelberg, 2014</li>
+  <li>E. Wallmüller: Software Quality Engineering. Hanser, München, 2011.</li>
+  <li>E. Mendes, N. Mosley: Web Engineering. Springer, 2006</li>
+</ul>
+:ET
