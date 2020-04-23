@@ -15,6 +15,11 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM3
 schwerpunkt: mpd
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

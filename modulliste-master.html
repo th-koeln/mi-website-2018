@@ -10,6 +10,7 @@ layout: default
 {% assign wahlpflichtmodule = site.modulbeschreibungen-master|where:"typ","wpm" %}
 {% assign vertiefungsmodule = site.modulbeschreibungen-master|where:"typ","vpm" %} 
 {% assign schwerpunktmodule = site.modulbeschreibungen-master|where:"typ","spm" %} 
+{% assign schwerpunktprojekte = site.modulbeschreibungen-master|where:"typ","spp" %} 
 {% assign alle_module = site.modulbeschreibungen-master|sort:'title' %} 
 
 <section class="section">
@@ -21,14 +22,14 @@ layout: default
 					<tr>
             <th title="Fachsemester">FS</th>
 						<th width="50%">Modulname & Modulverantwortung</th>
-						<th>Kürzel</th>
+						<th class="no-wrap">Kürzel</th>
 						<th>CP</th>
 						<th>Studienleistungen</th>
 					</tr>
 				</thead>
 				{% for fachsemester in alle_fachsemester %} 
           {% assign fs = fachsemester | plus:0%}
-					{% assign sorted_pages = pflichtmodule|concat:schwerpunktmodule|where_exp:"item","item.studiensemesterWs == fs"|sort:'title' %}
+					{% assign sorted_pages = pflichtmodule|concat:schwerpunktmodule|concat:schwerpunktprojekte|where_exp:"item","item.studiensemesterWs == fs"|sort:'title' %}
 					{% for modulbeschreibung in sorted_pages %}
 					<tr class="has-top-border">
            <td>{{fachsemester}}</td>
@@ -42,7 +43,7 @@ layout: default
 								{% endif %}
 							{% endfor %}
 						</td>
-            <td class="is-small">{{modulbeschreibung.kuerzel}}</td>
+            <td class="is-small no-wrap">{{modulbeschreibung.kuerzel}}</td>
 						<td class="is-small">{{modulbeschreibung.kreditpunkte}}</td>
 						<td class="is-small">
               {% assign studienleistungen=modulbeschreibung.studienleistungen %}
@@ -50,25 +51,7 @@ layout: default
               {{studienleistungen_html}}
 						</td>
 					</tr>
-					{% endfor %}
-					
-					{% if fachsemester == "4" %}
-					{% assign sorted_pages = vertiefungsmodule|sort:'title' %}
-						{% for vertiefungsmodulbeschreibung in sorted_pages %}
-						<tr class="has-top-border">
-              <td>4</td>
-							<td>
-								<a href="{{site.baseurl}}{{vertiefungsmodulbeschreibung.url}}">{{vertiefungsmodulbeschreibung.title}}</a>
-                <p class="is-small">{% include /functions/resolve-names.html modulverantwortlich=vertiefungsmodulbeschreibung.modulverantwortlich %}
-								{{modulverantwortliche}}
-                </p>
-							</td>
-							<td class="no-wrap is-small">VPM-{{vertiefungsmodulbeschreibung.kuerzel}}</td>
-							<td class="is-small">20</td>
-							<td class="is-small">
-							</td>
-						</tr>
-            {% assign kurse = teilmodule|where:"parent",vertiefungsmodulbeschreibung.kuerzel|sort:'title' %}
+          {% assign kurse = teilmodule|where:"parent",modulbeschreibung.kuerzel|sort:'title' %}
             {% assign count = 1 %}
             {% for kurs in kurse %}
             <tr class="is-tight {% if count == kurse.size %}last-item{%endif%}">
@@ -87,11 +70,8 @@ layout: default
             </tr> 
             {% assign count = count |plus: 1 %}
             {% endfor %}
-            
-						{% endfor %}
-  					{% endif %}
-	  			{% endfor %}
-  			
+					{% endfor %}
+  			{% endfor %}
   			</table>
   			
 		</div>

@@ -10,11 +10,15 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Audiovisuelles Medienprojekt (Bachelor)
 published: true
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM1
 schwerpunkt: vc
-
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

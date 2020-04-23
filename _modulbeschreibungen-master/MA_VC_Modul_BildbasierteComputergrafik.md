@@ -11,15 +11,15 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
 published: true
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM2
-resources: true
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: dev 
 schwerpunkt: vc
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

@@ -11,6 +11,12 @@ empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -42,15 +48,8 @@ Die Studierenden sollen wesentliche Begriffe und Grundpositionen bezüglich ethi
 - Quantifizierung von persönlichen Informationen
 - Positive Computing
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Fachvortrag (50%)
-- schriftliche Ausarbeitung (50%)
-
 ## Medienformen
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
-
-
 - Fallstudien
 - Diskussionsrunden
 - Anonyme Abstimmungen und Kommentare (PINGO)

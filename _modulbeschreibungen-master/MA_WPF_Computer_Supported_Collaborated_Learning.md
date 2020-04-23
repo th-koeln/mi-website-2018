@@ -15,6 +15,11 @@ layout: modulbeschreibung
 typ: wpm
 parent: WPM
 schwerpunkt: sc
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

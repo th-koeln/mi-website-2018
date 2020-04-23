@@ -11,15 +11,15 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Web Architekturen (Bachelor) bzw. Kenntnisse in HTML
 published: true
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM3
-resources: true
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: dev 
 schwerpunkt: vc
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

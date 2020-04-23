@@ -1,23 +1,24 @@
 ---
-title: Projektarbeit - Vision und Konzept im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hc, me, ck, gh
-kuerzel: MIMP-K
+title: Projekt
+modulverantwortlich: me, gh, hk, kf, mbl, cn, ck
+kuerzel: P1
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
-kreditpunkte: 12
+kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Einführung in die Medieninformatik (Bachelor), Mensch-Computer Interaktion (Bachelor), einschlägige Konzeptionskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
 layout: modulbeschreibung
-typ: spp
+typ: tm
+parent: MIMP-K
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Projektarbeit und -dokumentation
+    erstpruefer: me, gh, hk, kf, mbl, cn, ck
     zweitpruefer: 
 ---
 

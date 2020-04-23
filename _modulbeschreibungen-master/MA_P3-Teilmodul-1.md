@@ -1,19 +1,19 @@
 ---
-title: Projektarbeit - Assessment/Evaluation, Forschung und Verwertung im Kontext des Studienschwerpunkts
+title: Projekt
 modulverantwortlich: kf, mw, hc, me, ck, gh
-kuerzel: MIMP-V
+kuerzel: P3
 studiensemesterWs: 3
 studiensemesterSs: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
-kreditpunkte: 12
+kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), BWL I - Grundlagen (Bachelor)
 published: true
 infourl: 
 layout: modulbeschreibung
-typ: spp
-parent: 
+typ: tm
+parent: MIMP-V
 infourl: 
 studienleistungen:
   Einzelleistung:

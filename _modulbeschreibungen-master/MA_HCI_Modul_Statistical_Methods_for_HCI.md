@@ -12,10 +12,15 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM3
 schwerpunkt: hci
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS

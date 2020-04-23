@@ -13,10 +13,15 @@ empfohleneVoraussetzungen: Basismodul Mensch-Computer Interaktion, so wie durch 
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM2
 schwerpunkt: hci, mpd
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS

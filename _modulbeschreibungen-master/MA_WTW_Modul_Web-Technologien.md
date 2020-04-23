@@ -15,6 +15,11 @@ infourl: https://th-koeln.github.io/mi-master-wtw/web-technologien/
 typ: spm
 parent: SPM3
 schwerpunkt: wtw
+studienleistungen:
+  Einzelleistung:
+    art: Lernportfolio
+    erstpruefer: cn
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -75,9 +80,6 @@ Im Bereich [Backend Development](https://roadmap.sh/backend) sollten Sie mit fol
 - Deployment
 - Architekturpattern
 - Webserver
-
-## Studien-/Prüfungsleistungen
-- Lernportfolio
 
 ## Medienformen
 Präsentationsmaterialien

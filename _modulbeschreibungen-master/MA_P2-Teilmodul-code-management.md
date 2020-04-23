@@ -1,19 +1,19 @@
 ---
-title: Projektarbeit - Entwicklung im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hk, me, ck, gh
-kuerzel: MIMP-E
+title: Code Management
+modulverantwortlich: ck
+kuerzel: CM
 studiensemesterWs: 2
 studiensemesterSs: 3
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
-kreditpunkte: 12
+kreditpunkte: 3
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), einschlägige Entwicklungskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
 layout: modulbeschreibung
-typ: spp
-parent:
+typ: tm
+parent: MIMP-E
 infourl: 
 studienleistungen:
   Einzelleistung:
