@@ -15,7 +15,11 @@ infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frontend-developm
 layout: modulbeschreibung
 typ: tm
 parent: WD
-
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung
+    erstpruefer: cn
+    zweitpruefer: vos, chh
 ---
 ## Aufwand
 60h Vorlesung/ Seminar; 90h Selbstlernphase

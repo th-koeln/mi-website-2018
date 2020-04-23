@@ -11,18 +11,14 @@ kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 0
-  sws: 0
-wma:
-  anzahl: 3
-  sws: 4
-resources-skillset: MCI  
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung
+    erstpruefer: gh
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -57,9 +53,6 @@ Gesamtaufwand 300h, davon
 - Design-Prinzipien, -Pattern, -Guidelines, -Styleguides
 - Prototyping und Sketching
 - Evaluation
-
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung.
 
 ## Medienformen
 * Beamergestützte Vorlesung

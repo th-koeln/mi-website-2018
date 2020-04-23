@@ -11,18 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 0 (wäre aber wünschenswert)
-  sws: 2
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: general  
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung
+    erstpruefer: me
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -54,9 +50,6 @@ Gesamtaufwand 150h, davon
 - Schaltnetze und Schaltwerke
 - Aussagenlogik
 - Prädikatenlogik
-
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung.
 
 ## Literatur
 - Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage

@@ -1,0 +1,33 @@
+I"<h2 id="aufwand">Aufwand</h2>
+<p>50h Vorlesung, Seminar; 100h Selbstlernphase</p>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+
+<p>In diesem Modul lernen die Teilnehmer das Gebiet Internet of Things kennen. Dabei liegt ein besonderer Fokus auf der Bedeutung des Web für Applikationen jenseits eines Browsers. Immer mehr Alltagsgegenstände werden mit Technologien angereichert, die eine Dienste-Bereitstellung oder Dienst-Nutzung über das Web ermöglichen (beispielsweise das Steuern von Gegenständen oder das Erfassen von Sensordaten). In diesem Modul werden relevante Konzepte und aktuelle Technologien für das Internet der Dinge diskutiert und in prototypischen Anwendungen erprobt.</p>
+
+<p>Studierende können nach diesem Modul selbstständig Anwendungen für das Internet of Things konzipieren und realisieren, indem Sie</p>
+<ul>
+  <li>hardware-nahe Aspekte im Design der Applikation berücksichtigen,</li>
+  <li>eine System-Architektur entwerfen,</li>
+  <li>kriterien-basiert geeignete Technologien zur Realisierung auswählen,</li>
+  <li>eine prototypische Anwendung implementieren,</li>
+  <li>inkrementell-iterativ vorgehen und Projektentscheidungen auf der Grundlage vorliegender Zwischenstände treffen.</li>
+</ul>
+
+<h3 id="internet-of-things">Internet of Things</h3>
+<ul>
+  <li>Physical Computing</li>
+  <li>Prototyping und Retrofitting</li>
+  <li>Hardware (bspw. RaspberryPi und Arduino)</li>
+  <li>Sensoren und Aktoren</li>
+  <li>Frameworks (bspw. NodeRed und Johnny Five)</li>
+  <li>Architekturen und Protokolle (bspw. event-basierte Architekturen und MQTT)</li>
+  <li>Mobile Web- und Smartphone-Sensoren (bspw. GPS, Beacons)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<p>Beamergestützte Vorträge, Rechnergestützte Workshops</p>
+
+<h2 id="literatur">Literatur</h2>
+
+:ET

@@ -1,0 +1,44 @@
+I"�<h2 id="lehrformsws">Lehrform/SWS</h2>
+
+<p>6 SWS: Vorlesung 3 SWS; Übung 1 SWS; Praktikum 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+
+<p>Gesamtaufwand 210h, davon</p>
+
+<ul>
+  <li>54h Vorlesung</li>
+  <li>36h Praktikum</li>
+  <li>18h Übung</li>
+  <li>102h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+
+<p>Die Studierende sollen Objektorientierung, die Prinzipien der Algorithmenentwicklung und grundlegende Algorithmen verstehen und die Grundstrukturen der Java-Bibliothek anwenden können.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Basisalgorithmen: Suchen u. Sortieren</li>
+  <li>Datenstrukturen</li>
+  <li>Dictionaries</li>
+  <li>Methodik des objektorientierten Programmierens</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+
+<ul>
+  <li>Beamer-gestützte Vorlesungen (Folien in elektronischer Form)</li>
+  <li>Praktikum an Rechnern des Labors</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+
+<ul>
+  <li>Vorlesungsunterlagen: Foliensammlung, ausformuliertes Skript, Beispiellösungen</li>
+  <li>Fachliteratur: Bishop, J.: „Java Lernen“</li>
+  <li>Sedgewick, R.: „Algorithmen in Java“</li>
+  <li>Barnes, J., Kölling, M.: „Java Lernen mit BlueJ“, Verweise auf Onlinedokumente</li>
+</ul>
+
+:ET

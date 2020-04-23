@@ -13,8 +13,12 @@ empfohleneVoraussetzungen:
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: pm
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
+    erstpruefer: all
+    zweitpruefer: all
 ---
 
 ## Lehrform/SWS
@@ -28,7 +32,4 @@ Die Bachelorarbeit soll zeigen, dass der Prüfling befähigt ist, innerhalb eine
 
 ## Inhalt
 Selbstständiges wissenschaftliches, fachpraktisches und gestalterisches Bearbeiten einer Aufgabenstellung.
-
-## Studien-/Prüfungsleistungen
-Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
 

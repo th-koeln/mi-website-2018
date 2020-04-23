@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Es werden keine über die allgemeinen Zulassungsvoraussetzungen hinausgehende fachlichen Voraussetzungen gefordert, jedoch sollten Engagement, Motivation, Toleranz, Bereitschaft zur Teamarbeit mitgebracht werden.
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Projekt-Ausarbeitung (30%), Vortrag (30%), Schriftliche Prüfung (40%)
+    erstpruefer: hg, mw
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -58,11 +62,6 @@ Damit die Studierenden die vorgestellten Methoden und Techniken zum Management v
 - Aufwandsschätzung (Function-Point-Analyse, COCOMO);
 - Risikomanagement
 - Ablauf- und Ressourcenplanung (Netzplantechnik, Einsatz von PM-Software wie z.B. MS-Project)
-
-## Studien-/Prüfungsleistungen
-* Projekt-Ausarbeitung (30%)
-* Vortrag (30%)
-* Schriftliche Prüfung (40%).
 
 ## Medienformen
 * Beamer-gestützte Vorlesungen (Folien in elektronischer Form im Netz);

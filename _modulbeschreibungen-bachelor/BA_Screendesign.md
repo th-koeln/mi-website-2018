@@ -11,18 +11,18 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, MCI
 published: true
-infourl: 
+infourl: https://th-koeln.github.io/mi-bachelor-screendesign/
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 1
-  sws: 8
-wma:
-  anzahl: 2
-  sws: 8
-resources-skillset: ux
+studienleistungen:
+  Einzelleistung:
+    art: Gestaltungsportfolio
+    erstpruefer: cn
+    zweitpruefer: vs, ch
+  Teamleistung:
+    art: Projekt- und Projektpräsentationsprüfung
+    erstpruefer: cn
+    zweitpruefer: vs, ch
 ---
 
 ## Lehrform/SWS

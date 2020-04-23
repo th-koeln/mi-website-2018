@@ -32,6 +32,7 @@ Ziel der Masterarbeit (Master Thesis) und des Kolloquiums ist die Befähigung, i
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
+
 - Masterarbeit (80%)
 - Kolloquium (20%)
 

@@ -11,18 +11,13 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
-infourl: 
 layout: modulbeschreibung
-
-typ: pm
-resources: true
-tutor:
-  anzahl: 2
-  sws: 8
-wma:
-  anzahl: 1
-  sws: 8
-resources-skillset: av  
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Projektarbeit
+    erstpruefer: hk
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -65,9 +60,6 @@ Begleitend zu der Produktion werden folgende fachspezifischen Inhalte thematisie
 - Dokumentarfilm und Interview
 - Dramaturgie
 - Schnitt und Montage
-
-## Studien-/Prüfungsleistungen
-Projektarbeit
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen

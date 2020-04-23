@@ -108,7 +108,16 @@
 		content: ":";
 		display: inline-block;
 		padding-right: $bfs /4;
-	}
+  }
+  
+  dt.long-item{
+    float: none;
+    padding-bottom: 0;
+  }
+
+  dd.long-item{
+    padding-top: 0;
+  }
 	
 	table{
 
@@ -121,6 +130,19 @@
     }
     .no-wrap{
       white-space: nowrap
+    }
+
+    & .is-tight{
+      td{
+        padding-top: $bfs / 4;
+        padding-bottom: $bfs / 4;
+      }
+    }
+
+    & .is-tight.last-item{
+      td{
+        padding-bottom: $bfs / 2;
+      }
     }
 
     &.is-naked{

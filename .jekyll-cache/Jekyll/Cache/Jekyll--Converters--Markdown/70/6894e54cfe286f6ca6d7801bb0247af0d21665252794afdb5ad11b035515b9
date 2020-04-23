@@ -1,0 +1,67 @@
+I"�<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Managementaspekte der professionellen Entwicklung großer Softwaresysteme</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS, Übung 1 SWS, Praktikum 1 SWS; max. 6 Studierende pro Praktikumsteam;</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 150h, davon</p>
+
+<ul>
+  <li>36h Vorlesung</li>
+  <li>18h Übung</li>
+  <li>18h Praktikum</li>
+  <li>78h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden sollen befähigt werden,</p>
+
+<ul>
+  <li>die grundlegenden Aufgaben des Projektmanagements, insbesondere in IT-Projekten, zu charakterisieren und durchzuführen</li>
+  <li>die Projektmanagement-Methoden, -Techniken und -Werkzeuge zielgerichtet einzusetzen</li>
+  <li>die erforderlichen soziologischen und kommunikativen Aspekte zu berücksichtigen, um, mit dem Ziel einer menschengerechten und soziologisch fundierten Menschenführung, eine wirkliche und optimale Produktivität bei komplexen Projekten erreichen zu können.</li>
+</ul>
+
+<h2 id="inhalt">Inhalt</h2>
+<p>Das Modul befasst sich mit den Managementaspekten der professionellen Entwicklung großer Softwaresysteme. 
+Der Vorlesungsteil des Moduls gliedert sich in folgende Kapitel:</p>
+
+<ul>
+  <li>Überblick – Warum Projektmanagement?</li>
+  <li>Teamarbeit und Menschenführung (Kommunikation und Führung)</li>
+  <li>Kosten/Nutzen-Analysen und Entscheidungstechniken</li>
+  <li>Projektorganisation und Projektplanung (Aufbauorganisation, Ablauforganisation, Prozessmodellierung, iterative und agile Vorgehensmodelle, Netzplantechnik)</li>
+  <li>detaillierte Aufwandsschätzung und Projektcontrolling (Function Point Analysis, COCOMO, Risikomanagement, Projektpräsentationen)</li>
+  <li>Inhalte von PM-BOK (Project Management - Body of Knowledge)</li>
+  <li>Zusammenfassung und Prüfungsvorbereitung;</li>
+</ul>
+
+<p>Damit die Studierenden die vorgestellten Methoden und Techniken zum Management von Softwareprojekten anwenden, sowie besser analysieren und bewerten können, werden in Projekt-Teams die in der Vorlesung vermittelten Inhalte anhand eines Fallbeispiels eingesetzt. Dazu bilden die Teilnehmenden Teams zu jeweils 6 Studierenden. Im Projekt werden folgende Bereiche vertieft:</p>
+
+<ul>
+  <li>Kosten- Nutzenrechnung, Entscheidungstechniken</li>
+  <li>Aufbauorganisation</li>
+  <li>Aufwandsschätzung (Function-Point-Analyse, COCOMO);</li>
+  <li>Risikomanagement</li>
+  <li>Ablauf- und Ressourcenplanung (Netzplantechnik, Einsatz von PM-Software wie z.B. MS-Project)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Beamer-gestützte Vorlesungen (Folien in elektronischer Form im Netz);</li>
+  <li>Vertiefende Unterlagen sowie aktuelle Artikel (in elektronischer Form im Netz);</li>
+  <li>Projektarbeit in Kleingruppen, um die erlernten Methoden und Techniken einzuüben und zu vertiefen (Seminarraum, Rechnerlabor);</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>A. Buhl: Grundkurs Projektmanagement. Carl Hanser Verlag, München, 2004</li>
+  <li>H.W. Wieczorrek, P. Mertens: Management von IT-Projekten Von der Planung zur Realisierung. 4. Aufl., Springer, Heidelberg, 2011</li>
+  <li>C. Aichele, M. Schönberger: IT-Projektmanagement. Springer Vieweg, 2014</li>
+  <li>A. Henrich: Management von Softwareprojekten. Oldenbourg Verlag, München, 2002</li>
+  <li>H. Kerzner: Projektmanagement – Ein systemorientierter Ansatz. mitp-Verlag, Bonn, 2003</li>
+  <li>T. DeMarco: Der Termin. Hanser, München, 1998</li>
+</ul>
+
+:ET

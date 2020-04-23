@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung
+    erstpruefer: moe
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -40,8 +44,6 @@ Die Studierenden verstehen die wichtigsten Entscheidungsbereiche wirtschaftliche
 * Produktion
 * Absatz und Marketing
 
-## Studien-/Prüfungsleistungen
-schriftliche Prüfung
 
 ## Literatur
 * Wöhe (2016): Einführung in die Allgemeine Betriebswirtschaftslehre, 26. Aufl.

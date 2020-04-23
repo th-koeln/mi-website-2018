@@ -11,18 +11,18 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 0
-  sws: 0
-wma:
-  anzahl: 4
-  sws: 2
-resources-skillset: dev  
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Mündliche Prüfung
+    erstpruefer: kf
+    zweitpruefer: 
+  Teamleistung:
+    art: Projektarbeit
+    erstpruefer: kf
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -54,10 +54,7 @@ Die Studierenden
 
 Die Inhalte werden als Vorlesung vermittelt. In dem begleitenden Seminar werden die Konzepte mittels Fallstudien anwendungsbezogen analysiert und diskutiert. 
 
-## Studien-/Prüfungsleistungen
-Zu je 50% wird die Modulnote bestimmt durch
-- Mündliche Prüfung zu den Inhalten des Seminars 
-- Projektarbeit für den Workshop
+
 
 ## Medienformen
 - Folienpräsentation

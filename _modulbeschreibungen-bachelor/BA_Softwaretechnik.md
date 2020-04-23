@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: mw
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -48,9 +52,6 @@ Das Modul gliedert sich in folgende Inhalte:
 - (50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung und Architekturkonzeption, Entwurfskonzepte und Grobentwurf, Feinentwurf);
 - (10%) Zusammenfassung und Ausblick (Modellgetriebene Softwareentwicklung);
 
-
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Medienformen
 - Flipped-Classroom mit Diskussion und Übungen als Einzel- und Kleinstgrupen

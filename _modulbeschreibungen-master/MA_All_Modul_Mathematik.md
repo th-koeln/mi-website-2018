@@ -36,6 +36,7 @@ Mathematische Abstraktion und Fertigkeiten sind unverzichtbare Grundlagen wissen
 
 ## Inhalt
 Exemplarische Fragestellungen der Mathematik in der Informatik mit beispielhaften Themen wie:
+
 - Deskriptive Statistik, Datenanalyse, Visualisierung
 - Schließende Statistik, Trendanalyse
 - Prädikatenlogik

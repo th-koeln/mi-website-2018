@@ -11,10 +11,20 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen der BWL
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  iug:
+    teilmodul: Informatik und Gesellschaft
+    art: Präsentation im OpenSpace, Klausur
+    erstpruefer: mw
+    zweitpruefer: 
+  recht:
+    teilmodul: Recht
+    art: Klausur
+    erstpruefer: jh
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -66,11 +76,6 @@ Beispielhafte Inhalte:
 * Schwerpunkt im Schuldrecht, hier insbesondere im Vertragsrecht. 
 * Besondere Aspekte des Verbraucherschutzes und der inhaltlichen Gestaltung von Verträgen. 
 * Im Allgemeinen Teil des BGB wird auf den Vertragsschluss, die Willenerklärung als rechtsgeschäftliches Gestaltungsmittel und die allgemeinen Anforderungen an die Vertragspartner eingegangen.
-
-
-## Studien-/Prüfungsleistungen
-### Informatik und Gesellschaft
-Präsentation im OpenSpace, Klausur (60 Min).
 
 ### Recht
 Klausur (60 Min.)

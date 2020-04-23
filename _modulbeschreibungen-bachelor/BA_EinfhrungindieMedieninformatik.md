@@ -11,15 +11,15 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-wma:
-  anzahl: 8
-  sws: 5
-resources-skillset: general  
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
+    erstpruefer: hk, gh, cn, me
+    zweitpruefer: 
+
 ---
 
 ## Lehrform/SWS
@@ -48,9 +48,6 @@ Sie kennen grundlegende Konzepte, Prozesse/Verfahren und Modelle der Medieninfor
 Workshops zu grundlegenden projektrelevanten Themenfeldern (wie: Datenmodellierung, Pseudo-Code, Kommunikation in verteilen medialen Systeme, Visual Thinking, Storytelling, Anforderungen) und deren Anwendung, illustriert anhand von Fallstudien.
 
 Teambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere) Problemstellung(en) umreist, zu dem Lösungen konzipiert und prototypisch umgesetzt, dokumentiert und einem Fachpublikum präsentiert werden müssen.
-
-## Studien-/Prüfungsleistungen
-Projektpräsentation(30%) und schriftliche Ausarbeitung(70%).
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)

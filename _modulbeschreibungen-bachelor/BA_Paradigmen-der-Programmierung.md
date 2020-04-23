@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung I, Algorithmen und Programmierung II
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -39,9 +43,6 @@ Die Studierenden sollen unterschiedliche Programmierparadigmen verstehen und anw
 * Logikprogrammierung
 * Nebenläufigkeit
 * Entwurfsmuster
-
-## Studien-/Prüfungsleistungen
-Klausur sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Medienformen
 * Foliensammlung

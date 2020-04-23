@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
 published: true
-ilias: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: mb, lk
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -76,9 +80,6 @@ Systemprogrammierung am Beispiel von UNIX:
 - Remote Procedure Call
 - Strategien zum Scheduling und zur Speicherverwaltung
 - Klassische Synchronisationsprobleme
-
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Medienformen
 Foliensammlung, ausformuliertes Skript, Beispiellösungen

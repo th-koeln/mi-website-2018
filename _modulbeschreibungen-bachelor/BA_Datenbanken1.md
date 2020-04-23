@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung. Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur
+    erstpruefer: bb, hfw
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -54,9 +58,6 @@ Die Studierenden sollen
 - Datenbanksprache SQL: DDL, DML, DAL, Integritätsbedingungen und Constraints unter dem jeweils aktuellen SQL-Standard, zur Zeit SQL2013
 - Transaktionskonzepte, Mehrbenutzersynchronisation, Fehlererholung und Datensicherheit
 
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
-Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur.
 
 ## Medienformen
 * Folien gestützer Vortrag - aber nur sehr selten  

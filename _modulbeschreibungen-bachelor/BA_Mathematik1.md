@@ -10,10 +10,14 @@ sprache: deutsch
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 kreditpunkte: 7
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: wk
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -41,8 +45,6 @@ Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Syste
 * Integralrechnung
 * Lineare Algebra
 
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Literatur
 * Skript unter [www.gm.fh-koeln.de/~konen](http://www.gm.fh-koeln.de/~konen)
