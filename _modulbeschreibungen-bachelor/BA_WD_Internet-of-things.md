@@ -7,7 +7,7 @@ untertitel:
 studiensemester: 4
 kategorie:
 sprache: deutsch
-kreditpunkte: 3
+kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, MCI, Screendesign, Grundlagen des Web, Kommunikationstechnik
 published: true
