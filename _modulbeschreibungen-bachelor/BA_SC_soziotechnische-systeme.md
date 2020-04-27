@@ -16,10 +16,14 @@ typ: tm
 parent: SC
 infourl: 
 studienleistungen:
-  Teamleistung:
-    art: Projektarbeit mit Projektpräsentationsprüfung und Fachgespräch, sowie schriftliche Ausarbeitung.
+  Einzelleistung:
+    art: Lernportfolio
     erstpruefer: ck
-    zweitpruefer:  
+    zweitpruefer: mbl, uwm
+  Teamleistung:
+    art: Projekt- und Projektpräsentationsprüfung
+    erstpruefer: ck
+    zweitpruefer: mbl, uwm 
 ---
 
 ## Lehrform/SWS
