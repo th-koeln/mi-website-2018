@@ -17,7 +17,7 @@ studienleistungen:
   Einzelleistung:
     art: Projektarbeit
     erstpruefer: hk
-    zweitpruefer: 
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung
