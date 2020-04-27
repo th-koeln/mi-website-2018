@@ -20,7 +20,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
     erstpruefer: hk
-    zweitpruefer: 
+    zweitpruefer: gh
 ---
 
 ## Lehrform/SWS
