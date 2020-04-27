@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Projekt und schriftliche Ausarbeitung
     erstpruefer: hk
-    zweitpruefer: 
+    zweitpruefer: me
 ---
 
 ## Lehrform/SWS
