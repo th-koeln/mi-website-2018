@@ -1,3 +1,10 @@
+il:
+    id: il
+    status: prof
+    name: 'Prof. Dr. Irma Lindt'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
+    mi: false
 tk:
     id: tk
     status: prof
@@ -5,7 +12,13 @@ tk:
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/torsten.klein/'
     mi: false
-
+sb:
+    id: sb
+    status: prof
+    name: 'Prof. Dr. Stefan Bente'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
+    mi: false
 dwilk:
     id: dwilk
     status: wma

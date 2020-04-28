@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
     erstpruefer: mb
-    zweitpruefer: 
+    zweitpruefer: il
 ---
 
 ## Aufwand
