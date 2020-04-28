@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Projektarbeit und -dokumentation
     erstpruefer: me, gh, hk, kf, mbl, cn, ck
-    zweitpruefer: 
+    zweitpruefer: me, gh, hk, kf, mbl, cn, ck
 ---
 
 ## Kurzbeschreibung
