@@ -18,7 +18,7 @@ parent: VC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung
+    art: Schriftliche Prüfung, in Ausnahmefällen mündliche Online-Prüfung
     erstpruefer: hk
     zweitpruefer: gh
 ---
@@ -49,12 +49,11 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern audiovisuell
 - Lichttechnik und Beleuchtung
 
 ## Medienformen
-- Beamer-gestützte Vorlesungen
-- Rechnergestützte Workshops
-- Beispiele aus verschiedenen Medien in elektronischer Form: Filmbeispiele, Webvideos
+- Vorlesungen mit Folienpräsentationen
+- Workshops zu Anwendungsprogrammen
+- Beispiele aus verschiedenen Medien: Filmbeispiele, Webvideos
 - Audiovisuelle Aufnahme- und Wiedergabegeräte
-- Interaktive Projektionsfläche
-- Lehrfilme
+- Lehrfilme und Video-Tutorials
 
 ## Literatur
 - Schmidt Ulrich, Professionelle Videotechnik, Springer-Verlag Berlin Heidelberg New York 2013, ISBN 978-3-642-38992-4
