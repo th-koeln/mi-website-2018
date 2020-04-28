@@ -23,7 +23,7 @@ Das Modul „Visual Computing” im Medieninformatik Bachelor beschäftigt sich 
 Ziel dieses Moduls ist es den Studierenden eine fachlich fundierte, praktische, sowie theoretische Grundlage im Umgang mit audiovisuellen Medien zu geben. Dabei wird sowohl auf die technische Seite (technischen Grundlagen der Video- und Fernsehtechnik) eingegangen als auch auf die algorithmische (computergenerierte Bildsynthese, Gameentwicklung).
 
 Das Modul ist aus vier Teilbereichen aufgebaut, von denen zwei verpflichtend sind und zwei weitere aus einem Wahlkatalog gewählt werden können.
-Die beiden Pflichtkurse schaffen ein Fundament, was es erlaubt innerhalb der beiden verbliebenen Kurse, im Gesamtumfang von 10 CP, tiefer in die jeweilige Spezialisierung einzutauchen. Dabei gibt es grundsätzlich die Möglichkeit sich in Richtung Fernseh- und Videoproduktion oder Gameentwicklung zu vertiefen.
+Die beiden Pflichtkurse, "Audiovisuelle Medientechnik" und "Computergrafik und Animation", schaffen ein Fundament, was es erlaubt innerhalb der beiden verbliebenen Kurse, im Gesamtumfang von 10 CP, tiefer in die jeweilige Spezialisierung einzutauchen. Dabei gibt es grundsätzlich die Möglichkeit sich in Richtung Fernseh- und Videoproduktion oder Gameentwicklung zu vertiefen.
 Die Kurse werden nach Verfügbarkeit angeboten.
 
 Die Kurse sind in der Regel projektbasiert aufgebaut, so dass sowohl theoretischer Hintergrund als auch praxisnahes Wissen vermittelt wird und zur Anwendung kommt.
