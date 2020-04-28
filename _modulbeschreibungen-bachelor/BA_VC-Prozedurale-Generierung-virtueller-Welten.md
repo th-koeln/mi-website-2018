@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt und Fachgespräch 
-    erstpruefer: me
-    zweitpruefer: 
+    erstpruefer: db
+    zweitpruefer: ss
 ---
 
 ## Lehrform/SWS
