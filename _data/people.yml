@@ -369,7 +369,14 @@ mbl:
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
     mi: true
-
+sb:
+    id: sb
+    status: prof
+    name: 'Prof. Dr. Stefan Bente'
+    avatar: '/img/professoren/bente.png'
+    personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
+    mi: false
+    
 mi:
     id: mi
     name: 'Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
