@@ -7,6 +7,7 @@ untertitel: null
 studiensemester: 3
 kategorie: null
 sprache: deutsch
+zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
