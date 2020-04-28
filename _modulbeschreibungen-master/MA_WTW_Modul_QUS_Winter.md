@@ -17,13 +17,25 @@ parent: SPM3
 schwerpunkt: mpd
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
----
+    art: Fachbeitrag
+    erstpruefer: mw
+    zweitpruefer: alm
+  Einzelleistung:
+    art: Reflektionsbericht
+    erstpruefer: mw
+    zweitpruefer: alm
+  Einzelleistung:
+    art: Wissenstest
+    erstpruefer: mw
+    zweitpruefer: alm
+  Teamleistung:
+    art: Projektportfolio
+    erstpruefer: mw
+    zweitpruefer: vos
+------
 
 ## Kurzbeschreibung
-Konstruktive und analytische Qualitätssicherung und Qualitätsmanagement für Web-Anwendungen
+Konstruktive und analytische Qualitätssicherung und Qualitätsmanagement für Mobile- und Web-Entwicklungsprojekte
 
 ## Lehrform/SWS 
 4 SWS: Vorlesung 2 SWS; Übung 1 SWS; Seminar 1 SWS
@@ -43,7 +55,7 @@ Die Studierenden werden befähigt,
 um die Methoden, Techniken und Werkzeuge zur Qualitätssicherung und zum Qualitätsmanagement in eigenen, auch fachübergreifenden Projekten auswählen und anwenden zu können.
 
 ## Inhalt
-Das Modul beschreibt Ziele, Methoden, Techniken und Werkzeuge sowie organisatorische Maßnahmen zur begleitenden Qualitätssicherung (QS) in der Entwicklung von Web-Anwendungen. Schwerpunkte liegen auf der QS in den frühen Phasen der Konzeption und Spezifikation sowie dem Qualitätsmanagement. Ausführungen zu einschlägigen Normen und Gesetzen runden das Modul ab.
+Das Modul beschreibt Ziele, Methoden, Techniken und Werkzeuge sowie organisatorische Maßnahmen zur begleitenden Qualitätssicherung (QS) bei der Entwicklung von Mobile- und Web-Anwendungen. Schwerpunkte liegen auf der QS in den frühen Phasen der Konzeption und Spezifikation sowie dem Qualitätsmanagement. Ausführungen zu einschlägigen Normen und Gesetzen runden das Modul ab.
 
 Inhalte im Einzelnen: 
 - Qualitätssicherung im Entwicklungsprozess
@@ -54,17 +66,18 @@ Inhalte im Einzelnen:
 - Prozessverbesserungsmodelle (CMMI, SPICE)
 - QS-Werkzeuge, Normen und Gesetze.
 
-Aufbauend auf dem in der Vorlesung vermittelten Stoff erstellt jeder Teilnehmer im Seminar-Teil eine Ausarbeitung mit experimenteller Realisierung und eine Präsentation zu einem ausgewählten aktuellen Forschungsgebiet der Qualitätssicherung.
+Die Studierenden erstellen einen Fachbeitrag zu einer ausgewählten Methode bzw. Technik der Qualitätssicherung und des Qualitätsmanagements. Aufbauend auf dem in der Vorlesung und den studentischen Fachbeiträgen vermittelten Stoff erstellen die Teilnehmer im Projekt-Teil eine Projektportfolio mit den Ergebnissen der Anwendung der vermittelten Methoden und Techniken auf einen selbst gewählten Projektgegenstand sowie tw. experimenteller Realisierung und Reflektion der Anwendung.
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-* Seminar-Facharbeit (30%) 
-* Fachvortrag (30%)
-* Klausur 60 Minuten (40%)
+* Fachbeitrag (30%) 
+* Projektportfolio (20%)
+* Klausur 60 Minuten (30%)
+* Individueller Reflektionsbericht (20%)
 
 ## Medienformen
 * Beamer-gestützte Vorlesungen (Folien in elektronischer Form im Netz)
-* Materialien zum Selbststudium (Vorlagen, Software-Werkzeuge, Veröffentlichungen)
+* Materialien zum Selbststudium (Lernvideos, Vorlagen, Software-Werkzeuge, Veröffentlichungen)
 * Fallbeispielgestützte Übungen in Gruppen, um die erlernten Modelle und Methoden einzuüben und zu vertiefen (Seminarraum, Rechnerlabor).
 
 ## Literatur
