@@ -14,7 +14,7 @@ published: true
 layout: modulbeschreibung
 infourl: 
 studienleistungen:
-  Einzelleistung:
+  Teamleistung:
     art: Projektarbeit
     erstpruefer: hk
     zweitpruefer: gh
@@ -59,13 +59,15 @@ Begleitend zu der Produktion werden folgende fachspezifischen Inhalte thematisie
 - Tonaufnahme
 - Dokumentarfilm und Interview
 - Dramaturgie
+- Inszenierung
 - Schnitt und Montage
 
 ## Medienformen
-- Beamer-gestützte Vorlesungen
-- Beispiele aus verschiedenen Medien in elektronischer Form: Filmbeispiele, Webvideos
+- Vorlesungen mit Folienpräsentationen
+- Workshops zu Anwendungsprogrammen
+- Beispiele aus verschiedenen Medien: Filmbeispiele, Webvideos
 - Audiovisuelle Aufnahme- und Wiedergabegeräte
-
+- Lehrfilme und Video-Tutorials
 
 ## Literatur
 - James Monaco, Film verstehen, Rowolth Taschenbuch Verlag Hamburg, 1980, ISBN 3-499-162717
