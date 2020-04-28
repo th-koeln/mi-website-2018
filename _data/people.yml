@@ -17,6 +17,12 @@ fg:
     name: 'Fotios Giannakopoulos'
     personenseite: 'https://www.th-koeln.de/personen/fotios.giannakopoulos/'
     mi: false
+hs:
+    id: hs
+    status: prof
+    name: 'Horst Stenzel'
+    personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
+    mi: false
 alh:
     id: alh
     status: wma
