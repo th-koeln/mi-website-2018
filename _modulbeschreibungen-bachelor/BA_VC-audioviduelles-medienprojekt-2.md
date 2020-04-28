@@ -15,10 +15,10 @@ typ: tm
 parent: VC
 infourl: 
 studienleistungen:
-  Einzelleistung:
-    art: Projektarbeit
+  Teamleistung:
+    art: Projektarbeit mit schriftlicher Ausarbeitung
     erstpruefer: hk
-    zweitpruefer: 
+    zweitpruefer: gh
 ---
 
 ## Lehrform/SWS
@@ -38,16 +38,14 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern digitaler au
 - Verschiedene Dramaturgiemodelle
 - Drehbuch, Auflösung, Storyboard
 - Schnitt und Montage
-- Liveproduktion im Studio
-- Medienproduktion in den Formaten Spielfilm, Imagefilm und Studioproduktion
+- Medienproduktion in den Formaten Werbefilm, Imagefilm und Studioproduktion
 
 ## Medienformen
-- Beamer-gestützte Vorlesungen
-- Rechnergestützte Workshops
-- Beispiele aus verschiedenen Medien in elektronischer Form: Filmbeispiele, Webvideos
+- Vorlesungen mit Folienpräsentationen
+- Workshops zu Anwendungsprogrammen
+- Beispiele aus verschiedenen Medien: Filmbeispiele, Webvideos
 - Audiovisuelle Aufnahme- und Wiedergabegeräte
-- Interaktive Projektionsfläche
-- Lehrfilme
+- Lehrfilme und Video-Tutorials
 
 ## Literatur
 - James Monaco, Film verstehen, Rowolth Taschenbuch Verlag Hamburg, 1980, ISBN 3-499-162717

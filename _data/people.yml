@@ -11,6 +11,18 @@ pb:
     name: 'Paul Bagiu'
     personenseite: 'https://www.th-koeln.de/personen/paul.bagiu/'
     mi: false
+fg:
+    id: fg
+    status: prof
+    name: 'Fotios Giannakopoulos'
+    personenseite: 'https://www.th-koeln.de/personen/fotios.giannakopoulos/'
+    mi: false
+hs:
+    id: hs
+    status: prof
+    name: 'Horst Stenzel'
+    personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
+    mi: false
 alh:
     id: alh
     status: wma
@@ -290,6 +302,11 @@ db:
     name: 'Dipl.-Inform. (FH) Dennis Buderus'
     avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
     personenseite: 'https://www.th-koeln.de/personen/dennis.buderus/'
+ss:
+    id: ss
+    status: wma
+    name: 'Dipl.-Inform. (FH) Sascha Schewe'
+    personenseite: 'https://www.th-koeln.de/personen/sascha.schewe/'
 bn:
     id: bn
     status: prof

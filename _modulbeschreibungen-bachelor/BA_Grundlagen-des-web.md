@@ -18,11 +18,11 @@ studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
     erstpruefer: kf
-    zweitpruefer: 
+    zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
     erstpruefer: kf
-    zweitpruefer: 
+    zweitpruefer: maa
 ---
 
 ## Kurzbeschreibung

@@ -1,7 +1,7 @@
 ---
-title: Code Management
+title: Beautiful Code
 modulverantwortlich: ck
-kuerzel: CM
+kuerzel: 
 studiensemesterWs: 2
 studiensemesterSs: 3
 sprache: deutsch

@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    erstpruefer: me, gh, hk, kf, mbl, cn, ck
+    zweitpruefer: me, gh, hk, kf, mbl, cn, ck
 ---
 
 ## Kurzbeschreibung
