@@ -28,6 +28,13 @@ Die Kurse werden nach Verfügbarkeit angeboten.
 
 Die Kurse sind in der Regel projektbasiert aufgebaut, so dass sowohl theoretischer Hintergrund als auch praxisnahes Wissen vermittelt wird und zur Anwendung kommt.
 
+Der Wahlkatalog umfasst momentan die Fächer:
+* 3D-Modellieren, -Scannen und -Drucken
+* Audiovisuelles Medienprojekt 2
+* Crossplatform Game Development mit Unity3D
+* Prozedurale Generierung virtueller Welten
+* Visuelle Effekte und Animation
+
 
 ## Arbeitsaufwand
 600h Gesamtaufwand
