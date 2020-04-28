@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
-    erstpruefer: mb, lk
-    zweitpruefer: 
+    erstpruefer: mb
+    zweitpruefer: lk
 ---
 
 ## Kurzbeschreibung

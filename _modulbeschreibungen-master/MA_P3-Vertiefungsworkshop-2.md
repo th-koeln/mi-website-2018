@@ -1,7 +1,7 @@
 ---
-title: Teilmodul 2
-modulverantwortlich: kf, mw, hc, me, ck, gh
-kuerzel: P3
+title: Vertiefungsworkshop 2
+modulverantwortlich: me
+kuerzel: VW2
 studiensemesterWs: 3
 studiensemesterSs: 1
 sprache: deutsch

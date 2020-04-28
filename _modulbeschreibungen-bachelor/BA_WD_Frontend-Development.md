@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
     erstpruefer: cn
-    zweitpruefer: vos, chh
+    zweitpruefer: vos
 ---
 ## Aufwand
 60h Vorlesung/ Seminar; 90h Selbstlernphase

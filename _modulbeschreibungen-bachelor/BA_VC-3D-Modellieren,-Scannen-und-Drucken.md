@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt und Projektdokumentation
-    erstpruefer: me
-    zweitpruefer: 
+    erstpruefer: dwilk
+    zweitpruefer: me
 ---
 
 ## Lehrform/SWS

@@ -1,3 +1,39 @@
+tk:
+    id: tk
+    status: prof
+    name: 'Prof. Dr. Torsten Klein'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/torsten.klein/'
+    mi: false
+
+dwilk:
+    id: dwilk
+    status: wma
+    name: 'Dennis Wilk'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/dennis.wilk/'
+    mi: true
+aschmitter:
+    id: aschmitter
+    status: wma
+    name: 'Dr. Ane Schmitter'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/ane.schmitter/'
+    mi: true
+nkuhn:
+    id: nkuhn
+    status: wma
+    name: 'Nathalie Kuhn'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/nathalie_michelle_severine.kuhn/'
+    mi: true
+mfaske:
+    id: mfaske
+    status: wma
+    name: 'Mario Faske'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/mario.faske/'
+    mi: true
 moe:
     id: moe
     status: prof

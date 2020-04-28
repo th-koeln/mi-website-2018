@@ -22,7 +22,7 @@ studienleistungen:
   Teamleistung:
     art: Projektarbeit
     erstpruefer: kf
-    zweitpruefer: maa
+    zweitpruefer: maa, nkuhn, mfaske
 ---
 
 ## Kurzbeschreibung

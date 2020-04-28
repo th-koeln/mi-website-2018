@@ -17,7 +17,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: wk
-    zweitpruefer: 
+    zweitpruefer: aschmitter
 ---
 
 ## Lehrform/SWS

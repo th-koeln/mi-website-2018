@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
     erstpruefer: sk
-    zweitpruefer: 
+    zweitpruefer: hls
 ---
 
 ## Aufwand

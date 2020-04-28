@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: abhängig vom jeweiligen WPF
     erstpruefer: all
-    zweitpruefer: 
+    zweitpruefer: all
 ---
 
 ## Arbeitsaufwand

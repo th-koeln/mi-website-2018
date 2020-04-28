@@ -12,6 +12,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
+typ: pm
 layout: modulbeschreibung
 infourl: 
 studienleistungen:

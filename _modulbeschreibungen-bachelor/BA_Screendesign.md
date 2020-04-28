@@ -18,11 +18,11 @@ studienleistungen:
   Einzelleistung:
     art: Gestaltungsportfolio
     erstpruefer: cn
-    zweitpruefer: vs, ch
+    zweitpruefer: vos
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: cn
-    zweitpruefer: vs, ch
+    zweitpruefer: vos
 ---
 
 ## Lehrform/SWS

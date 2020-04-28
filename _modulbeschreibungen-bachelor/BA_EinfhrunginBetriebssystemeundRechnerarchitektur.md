@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
     erstpruefer: sk
-    zweitpruefer: 
+    zweitpruefer: hls
 ---
 
 ## Lehrform/SWS
