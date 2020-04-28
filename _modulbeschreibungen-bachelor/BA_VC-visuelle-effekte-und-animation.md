@@ -15,7 +15,7 @@ typ: tm
 parent: VC
 infourl: 
 studienleistungen:
-  Einzelleistung:
+  Teamleistung:
     art: Projekt und schriftliche Ausarbeitung
     erstpruefer: hk
     zweitpruefer: me
@@ -42,15 +42,14 @@ Berufsbilder, die von diesem Modul angesprochen werden, sind zum einen in der Vi
 - Produktionabläufe
 - Keyverfahren mit Green- und Bluescreen
 - Compositing
-- Umgang mit Bild-/Videobearbeitungswerkzeugen
+- Umgang mit Bild-/Videobearbeitungssoftware
 
 ## Medienformen
-- Beamer-gestützte Vorlesungen
-- Rechnergestützte Workshops
-- Beispiele aus verschiedenen Medien in elektronischer Form: Filmbeispiele, Webvideos
+- Vorlesungen mit Folienpräsentationen
+- Workshops zu Anwendungsprogrammen
+- Beispiele aus verschiedenen Medien: Filmbeispiele, Webvideos
 - Audiovisuelle Aufnahme- und Wiedergabegeräte
-- Interaktive Projektionsfläche
-- Lehrfilme
+- Lehrfilme und Video-Tutorials
 
 ## Literatur
 - Flückiger Barbara, Visual Effects: Filmbilder aus dem Computer (Zürcher Filmstudien), Schüren Verlag GmbH, 2008, ISBN 978-3894725181
