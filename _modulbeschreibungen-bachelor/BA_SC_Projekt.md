@@ -1,6 +1,6 @@
 ---
 title: Social Computing Projekt
-modulverantwortlich: ck, bjm, uwm
+modulverantwortlich: ck, mbl, uwm
 modulniveau: bachelor
 kuerzel: SCP
 untertitel:
