@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und -präsentationsprüfung
-    erstpruefer: me
-    zweitpruefer: 
+    erstpruefer: ss
+    zweitpruefer: db
 ---
 
 ## Lehrform/SWS
