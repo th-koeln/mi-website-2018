@@ -18,8 +18,8 @@ schwerpunkt: hci
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Lernportfolio
+    erstpruefer: gh
     zweitpruefer: 
 ---
 
