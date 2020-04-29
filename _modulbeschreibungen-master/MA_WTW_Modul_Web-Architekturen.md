@@ -17,8 +17,8 @@ parent: SPM2
 schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Lernportfolio (50%), Projektarbeit (50%)
+    erstpruefer: kf
     zweitpruefer: 
 ---
 
