@@ -19,7 +19,7 @@ schwerpunkt: hci, mpd
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Projektarbeit
     erstpruefer: gh
     zweitpruefer: ck
 ---
