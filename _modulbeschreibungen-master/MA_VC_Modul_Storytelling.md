@@ -16,7 +16,7 @@ schwerpunkt: vc
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Fachvortrag mit Ausarbeitung (70%), Projektarbeit (30%)
     erstpruefer: hk
     zweitpruefer: 
 ---
