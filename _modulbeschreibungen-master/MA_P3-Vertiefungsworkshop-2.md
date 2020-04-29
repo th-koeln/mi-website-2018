@@ -30,7 +30,7 @@ Projektergebnisse in einem wissenschaftlichen Beitrag (z.B. für eine Konferenz,
 Projektarbeit
 
 ## Arbeitsaufwand 
-360 Stunden
+180 Stunden
 
 ## Angestrebte Lernergebnisse
 Ziel des Workshops ist die wissenschaftliche Verwertung des Projektes in Form von Artikeln, Förderanträgen uä. Dazu werden Kenntnisse vermittelt, die die Teilnehmenden in die Lage versetzen sollen,
