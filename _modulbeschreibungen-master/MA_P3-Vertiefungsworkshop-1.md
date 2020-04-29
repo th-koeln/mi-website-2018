@@ -17,7 +17,7 @@ parent: MIMP-V
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Fachvortrag (40%), schriftliche Ausarbeitung (60%)
     erstpruefer: moe
     zweitpruefer: 
 ---
@@ -47,12 +47,12 @@ präsentieren um Businesspläne für eine Gründung oder Produktinnovation im 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
 
-- Projektergebnis und -dokumentation (50%)
-- Begleitende Workshops / Seminare (50%)
+- Projektergebnis und -dokumentation (60%)
+- Fachvortrag (40%)
 
 
 ## Medienformen
-Entwicklungs- und Deployment-Umgebung mit Artefakt-Repository, Kollaborationssysteme
+Seminar
 
 ## Literatur
 Je nach Studienschwerpunkt und fachlicher Aufgabe
