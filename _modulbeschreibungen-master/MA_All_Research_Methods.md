@@ -16,9 +16,9 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    art: Lernportfolio (50%), Projektarbeit (50%)
+    erstpruefer: gh, mbl
+    zweitpruefer: gh, mbl
 ---
 
 ## Lehrform/SWS
