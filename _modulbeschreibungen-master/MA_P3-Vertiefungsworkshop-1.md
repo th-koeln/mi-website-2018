@@ -47,8 +47,8 @@ präsentieren um Businesspläne für eine Gründung oder Produktinnovation im 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
 
-- Projektergebnis und -dokumentation (60%)
 - Fachvortrag (40%)
+- schriftliche Ausarbeitung (60%)
 
 
 ## Medienformen
