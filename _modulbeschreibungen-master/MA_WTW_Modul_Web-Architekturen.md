@@ -56,11 +56,6 @@ Internet Governance: Governance der Infrastruktur des Web, Politik und Werte bei
 Fallstudien: Anwendungen beispielsweise aus den Bereichen Open Data, Internet of Things, Cloud Services
 
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Lernportfolio (50%)
-- Projektarbeit (50%)
-
 ## Medienformen
 Präsentationsmaterialien
 
