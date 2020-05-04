@@ -29,7 +29,7 @@ Grundlegende Aufgaben des Projektmanagements im Umfeld der Medienbranche und von
 Projektarbeit
 
 ## Arbeitsaufwand
-180 Stunden
+90 Stunden
 
 ## Angestrebte Lernergebnisse
 
