@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    erstpruefer: wk, dz
+    zweitpruefer: wk, dz
 ---
 
 ## Kurzbeschreibung
@@ -52,8 +52,8 @@ Exemplarische Fragestellungen der Mathematik in der Informatik mit beispielhafte
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Präsentation (50%)
-- Klausur (50%)
+- Fachvortrag (50%)
+- Schriftliche Ausarbeitung (50%)
 
 ## Medienformen
 Präsentationsmaterialien, Arbeitsblätter
