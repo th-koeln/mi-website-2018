@@ -5,6 +5,13 @@ il:
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
     mi: false
+hw:
+    id: hw
+    status: prof
+    name: 'Prof. Dr. Hartmut Westenberger'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/hartmut.westenberger/'
+    mi: false
 dz:
     id: dz
     status: prof
