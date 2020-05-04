@@ -30,7 +30,7 @@ Bei einem Projekt mit Forschungsschwerpunkt werden die Schritte Entwicklung, Qua
 Projektarbeit
 
 ## Arbeitsaufwand 
-360 Stunden
+180 Stunden
 
 ## Angestrebte Lernergebnisse
 Die Studentinnen und Studenten
