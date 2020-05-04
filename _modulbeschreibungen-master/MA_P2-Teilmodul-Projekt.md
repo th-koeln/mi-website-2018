@@ -29,7 +29,7 @@ In einem Projekt wird, basierend auf einem bereits erstellten Konzept, ein „Mi
 Projektarbeit
 
 ## Arbeitsaufwand
-360 Stunden
+180 Stunden
 
 ## Angestrebte Lernergebnisse
 
