@@ -51,7 +51,7 @@ Das Projekt gliedert sich in zwei Teile:
 
 ## Studien-/Prüfungsleistungen
 
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
+Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
 
 - Projektpräsentation und -dokumentation (50%)
 - Projektmanagement (25%)
