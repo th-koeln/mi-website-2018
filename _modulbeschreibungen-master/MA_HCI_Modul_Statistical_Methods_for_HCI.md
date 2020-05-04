@@ -49,7 +49,7 @@ Konfidenzintervalle, Fehlertypen, Effektstärken und Power, multivariate Verfahr
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Schriftliche Modulprüfung (100%)
+- Lernportfolio (100%)
 
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben
