@@ -16,7 +16,7 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: siehe Modulbeschreibung des gewählten Moduls
     erstpruefer: ck
     zweitpruefer: 
 ---
