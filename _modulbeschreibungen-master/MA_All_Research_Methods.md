@@ -45,11 +45,6 @@ Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwend
 - in-vivo vs. in-vitro Rahmenbedinungen bei empirischen Methoden
 - Datenweiterverarbeitung und Ergebnisinterpretation und -präsentation
 
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- schriftliche Modulprüfung (100%)
-
 ## Medienformen
 - beamergestützte Vorlesung
 - E-Books
