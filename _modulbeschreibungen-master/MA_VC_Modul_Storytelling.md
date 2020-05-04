@@ -49,8 +49,8 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern digitaler Me
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Projektarbeit (50%) 
-- Schriftliche Ausarbeitung (50%)
+- Fachvortrag mit Ausarbeitung (70%)
+- Projektarbeit (30%)
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
