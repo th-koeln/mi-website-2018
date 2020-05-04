@@ -17,7 +17,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
-    erstpruefer: ck
+    erstpruefer: 
     zweitpruefer: 
 ---
 
