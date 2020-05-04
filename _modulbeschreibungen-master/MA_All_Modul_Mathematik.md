@@ -49,12 +49,6 @@ Exemplarische Fragestellungen der Mathematik in der Informatik mit beispielhafte
 - Simulationsverfahren
 - Differentialgleichung und ihre numerische Lösung
 
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Fachvortrag (50%)
-- Schriftliche Ausarbeitung (50%)
-
 ## Medienformen
 Präsentationsmaterialien, Arbeitsblätter
 
