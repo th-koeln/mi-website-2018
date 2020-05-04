@@ -47,10 +47,6 @@ Diskrete und Stetige Zufallsvariablen, Population und Parameterschätzung, Hypot
 
 Konfidenzintervalle, Fehlertypen, Effektstärken und Power, multivariate Verfahren (ein- und mehrfaktorielle Varianzanalysen und entsprechendes Forschungsdesign).
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Lernportfolio (100%)
-
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben
 
