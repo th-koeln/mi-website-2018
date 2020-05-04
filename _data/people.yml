@@ -5,6 +5,13 @@ il:
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
     mi: false
+dz:
+    id: dz
+    status: prof
+    name: 'Prof. Dr. Dietlind Zühlke'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/dietlind.zühlke/'
+    mi: false
 tk:
     id: tk
     status: prof
