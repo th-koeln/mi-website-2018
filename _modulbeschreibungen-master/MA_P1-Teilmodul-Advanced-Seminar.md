@@ -29,7 +29,7 @@ Das Advanced Seminar ist Teil des Moduls Projekt I - Vision & Konzept. Die Studi
 Projektarbeit
 
 ## Arbeitsaufwand 
-360 Stunden
+180 Stunden
 
 ## Angestrebte Lernergebnisse
 Die Studentinnen und Studenten
@@ -39,10 +39,6 @@ Die Studentinnen und Studenten
 ## Inhalt
 Die Studierenden recherchieren und erschließen im Selbststudium die für den Projektgegenstand relevante Literatur zum Stand von Wissenschaft und Technik. Sie wenden auch Analysetechniken für die Bewertung vorhandener kommerziellen Lösungen an. Hierbei kann es sich sowohl um Konkurrenzprodukte handeln als auch um Dienste oder Frameworks, auf die der Projektgegenstand aufbauen könnte. Als Schwerpunkt dieses Teils identifizieren die Studierenden wissenschaftliche Felder, die für den Projektgegenstand relevant sind, recherchieren entsprechende Literatur und vermitteln und diskutieren diese in einem wissenschaftlichen Seminar.
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-
-- Projektarbeit (100%)
 
 ## Medienformen
 Artefakt-Repository, Kollaborationssysteme
