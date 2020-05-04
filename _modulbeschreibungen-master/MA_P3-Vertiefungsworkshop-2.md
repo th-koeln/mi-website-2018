@@ -40,12 +40,6 @@ Projektergebnisse in einem wissenschaftlichen Beitrag (z.B. für eine Konferenz,
 Ziel des Workshops ist die wissenschaftliche Verwertung des Projektes in Form von Artikeln, Förderanträgen uä. Dazu werden Kenntnisse vermittelt, die die Teilnehmenden in die Lage versetzen sollen,
 Projektergebnisse in einem wissenschaftlichen Beitrag (z.B. für eine Konferenz, Zeitschrift, …) darzustellen und zu refelektieren sowie auf dieser Grundlage einen Drittmittel-Antrag zu stellen.
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-
-- Projektergebnis und -dokumentation (50%)
-- Begleitende Workshops / Seminare (50%)
-
 
 ## Medienformen
 Entwicklungs- und Deployment-Umgebung mit Artefakt-Repository, Kollaborationssysteme
