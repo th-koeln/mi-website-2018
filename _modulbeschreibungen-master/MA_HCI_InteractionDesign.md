@@ -49,10 +49,6 @@ Die Studierenden haben konzeptionelles Design (Conceptual Design) verstanden, k�
 - Case Studies
 - Evaluationsmethoden und –techniken
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-Projektdokumentation und Designartefakte (100%)
-
 ## Medienformen
 - Beamer-gestützte Vorlesungen
 - Lehrfilme
