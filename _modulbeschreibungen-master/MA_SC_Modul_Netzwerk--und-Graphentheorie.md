@@ -52,11 +52,6 @@ um Methoden und Techniken zur Analyse sozialer und ggfs. anderer Netze auswähle
 - Graphentheorie: Grundlegende Konzepte, Kenngrößen, strukturelle Eigenschaften
 - Graph und Netzwerk Algorithmen
 
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Mündliche Prüfung (100%)
-
 ## Medienformen
 * Präsentationsmaterialien
 * Arbeitsblätter
