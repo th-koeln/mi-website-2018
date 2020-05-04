@@ -17,7 +17,7 @@ schwerpunkt: vc
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: 2 Fachvorträge (je 30%), Projektpräsentation und -dokumentation (40%)
     erstpruefer: chh
     zweitpruefer: me
 ---
@@ -64,10 +64,6 @@ Im speziellen, aber nicht ausschließlich, werden folgende Themen behandelt:
 - Kognition
 - Story Telling
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- 2 Fachvorträge (je 30%)
-- Projektpräsentation und -dokumentation (40%)
 
 ## Medienformen
 - Beamergestützte Vorlesung
