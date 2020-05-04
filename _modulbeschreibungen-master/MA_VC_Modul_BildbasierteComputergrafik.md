@@ -66,11 +66,6 @@ Nach erfolgreichem Abschluss
 - Python, C++, Cuda, OpenCL Programmierung
 
 
-## Studien-/Prüfungsleistungen 
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Fachvortrag (40%)
-- Projektumsetzung und Dokumentation (60%)
-
 ## Medienformen
 - Beamergestützte Vorlesung; 
 - Praktika / Projekt in Kleingruppen, um die erlernten Methoden und Techniken einzuüben und zu vertiefen (Rechnerlabor)
