@@ -18,7 +18,7 @@ schwerpunkt: sc
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: schriftliche Ausarbeitung (100%)
     erstpruefer: ck
     zweitpruefer: 
 ---
