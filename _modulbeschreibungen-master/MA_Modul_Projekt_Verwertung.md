@@ -17,7 +17,7 @@ parent:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Prüfungsform ist bei den jeweiligen Fächern angegeben
     erstpruefer: me, gh, hk, kf, mbl, cn, ck, hs
     zweitpruefer: me, gh, hk, kf, mbl, cn, ck, hs
 ---
@@ -49,10 +49,11 @@ Das Projekt gliedert sich in zwei Teile:
 - Zur Unterstützung werden Workshops/Seminare nach Verfügbarkeit in den Bereichen Forschung, Produkt Management, Qualitätssicherung und -Management sowie Medien- und Vertragsrecht angeboten.
 
 ## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
+Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
 
-- Projektergebnis und -dokumentation (50%)
-- Begleitende Workshops / Seminare (50%)
+- Projekt (50%)
+- Vertiefungsworkshop 1 (25%)
+- Vertiefungsworkshop 2 (25%)
 
 
 ## Medienformen
