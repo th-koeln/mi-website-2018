@@ -43,11 +43,6 @@ Die Studentinnen und Studenten
 ## Inhalt
 In der eigentlichen Projektarbeit wird ein Problemfeld analysiert und darauf mögliche Lösungsvarianten und Visionen entwickelt und diskutiert, Alleinstellungsmerkmale herausgearbeitet, Alternativen für Nutzungskonzept und Architektur evaluiert und ein Konzept inklusive eines Projektplans erstellt. Die Betreuer definieren zusammen mit den Studierenden die Zielsetzung und führen einen regelmäßigen Diskurs über den Fortgang des Projekts. Sie vereinbaren außerdem Meilensteine, deren Ergebnisse in geeigneter Form in die Endnote einfließen. Kommunikations- und Kooperationsformen werden vorab gemeinsam zwischen Betreuern und Studierenden festgelegt und in periodischen Abständen gemeinsam reflektiert.
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-
-- Projektergebnis und -dokumentation (100%)
-
 ## Medienformen
 Artefakt-Repository, Kollaborationssysteme
 
