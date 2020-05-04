@@ -59,10 +59,6 @@ Gesamtaufwand 180 Stunden, davon
 * Charakteristika vertrauenswürdiger Systeme. Wirkzusammenhang zwischen Vertrauen und Sicherheit
 * Kernbereich der privaten Lebensgestaltung, Privatsphäre, Datenschutz, Große Datensammlungen (Data Science) als Antagonist
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- mündliche Prüfung (50%) (im SoSe 2020 Klausur)
-- Fachvortrag und Projektdokumentation (50%)
 
 ## Medienformen
 *	Beamer-gestützte Vorlesungen
