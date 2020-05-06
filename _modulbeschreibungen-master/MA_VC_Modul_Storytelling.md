@@ -16,8 +16,8 @@ schwerpunkt: vc
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Fachvortrag mit Ausarbeitung (70%), Projektarbeit (30%)
+    erstpruefer: hk
     zweitpruefer: 
 ---
 
@@ -47,10 +47,6 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern digitaler Me
 - dramaturgische Erzähl-Muster: Plot-Point-Modell und Heldenreise
 - Anwendung in verschiedenen Kontexten wie Film, Computerspiel, Entwicklungsumgebung und Kommunikation
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Projektarbeit (50%) 
-- Schriftliche Ausarbeitung (50%)
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)

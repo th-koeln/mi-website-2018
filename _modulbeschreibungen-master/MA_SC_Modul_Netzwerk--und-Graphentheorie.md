@@ -18,8 +18,8 @@ schwerpunkt: sc
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Lernportfolio (50%), Projektarbeit (50%)
+    erstpruefer: kf
     zweitpruefer: 
 ---
 
@@ -51,11 +51,6 @@ um Methoden und Techniken zur Analyse sozialer und ggfs. anderer Netze auswähle
 - Psychologische Grundlagen Sozialer Netze
 - Graphentheorie: Grundlegende Konzepte, Kenngrößen, strukturelle Eigenschaften
 - Graph und Netzwerk Algorithmen
-
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Mündliche Prüfung (100%)
 
 ## Medienformen
 * Präsentationsmaterialien

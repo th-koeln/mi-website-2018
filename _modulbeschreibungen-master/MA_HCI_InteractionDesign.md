@@ -19,9 +19,9 @@ schwerpunkt: hci, mpd
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    art: Projektarbeit
+    erstpruefer: gh
+    zweitpruefer: ck
 ---
 
 ## Lehrform/SWS
@@ -48,10 +48,6 @@ Die Studierenden haben konzeptionelles Design (Conceptual Design) verstanden, k�
 - Sketching und Prototyping Techniken
 - Case Studies
 - Evaluationsmethoden und –techniken
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-Projektdokumentation und Designartefakte (100%)
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen

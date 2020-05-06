@@ -17,8 +17,8 @@ parent: SPM2
 schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Lernportfolio (50%), Projektarbeit (50%)
+    erstpruefer: kf
     zweitpruefer: 
 ---
 
@@ -55,10 +55,6 @@ Internet Governance: Governance der Infrastruktur des Web, Politik und Werte bei
 
 Fallstudien: Anwendungen beispielsweise aus den Bereichen Open Data, Internet of Things, Cloud Services
 
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- mündliche Prüfung (100%)
 
 ## Medienformen
 Präsentationsmaterialien

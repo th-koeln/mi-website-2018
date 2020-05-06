@@ -17,7 +17,7 @@ schwerpunkt: vc
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Fachvortrag (40%), schriftlicher Projektbericht (60%)
     erstpruefer: me
     zweitpruefer: hs
 ---
@@ -25,7 +25,7 @@ studienleistungen:
 ## Kurzbeschreibung
 Diese Vorlesung gibt eine Einführung in die grundlegenden Konzepte der bildbasierten Modellierung und der bildbasierten Synthese, Techniken, auf denen z.B. viele moderne Film-Spezialeffekte basieren. 
 
-Dabei werden verschiedenste Aspekte der Bild- und Videobe- und -verarbeitung,  wie sie in modernen Bearbeitungstools vorkommen, erarbeitet und selbst implementiert. Die Teilnehmer erlernen die grundlegenden Konzepte der Modellierung anhand von Fotos realer Objekte. Es werden Methoden zur Bildaufnahme, Bildverarbeitung und Bildsynthese erarbeitet. Die Studierenden sind bei erfolgreicher Teilnahme in der Lage, im Bereich Bild- und Videobearbeitung, sowie bildbasierter Modellierung, eigenständige Beiträge in Forschung und Wirtschaft leisten zu können.
+Dabei werden verschiedenste Aspekte der Bild- und Videobe- und -verarbeitung,  wie sie in modernen Bearbeitungstools vorkommen, erarbeitet und selbst implementiert. Die Teilnehmer erlernen die grundlegenden Konzepte der automatisierten Modellierung anhand von Fotos realer Objekte. Es werden Methoden zur Bildaufnahme, Bildverarbeitung und Bildsynthese erarbeitet. Die Studierenden sind bei erfolgreicher Teilnahme in der Lage, im Bereich Bild- und Videobearbeitung, sowie bildbasierter Modellierung, eigenständige Beiträge in Forschung und Wirtschaft leisten zu können.
 
 ## Lehrform/SWS 
 4 SWS: Vorlesung 2 SWS; Praktikum / Projekt 2 SWS
@@ -65,11 +65,6 @@ Nach erfolgreichem Abschluss
 - Panorama und 360° Panorama Stitching
 - Python, C++, Cuda, OpenCL Programmierung
 
-
-## Studien-/Prüfungsleistungen 
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Fachvortrag (40%)
-- Projektumsetzung und Dokumentation (60%)
 
 ## Medienformen
 - Beamergestützte Vorlesung; 

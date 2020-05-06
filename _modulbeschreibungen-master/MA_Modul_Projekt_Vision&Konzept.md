@@ -16,9 +16,9 @@ typ: spp
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: me, gh, hk, kf, mbl, cn, ck
-    zweitpruefer: me, gh, hk, kf, mbl, cn, ck
+    art: Die Prüfungsform ist bei den jeweiligen Fächern angegeben.
+    erstpruefer: me, gh, hk, kf, mbl, cn, ck, hs
+    zweitpruefer: me, gh, hk, kf, mbl, cn, ck, hs
 ---
 
 ## Kurzbeschreibung
@@ -46,10 +46,10 @@ Das Projekt gliedert sich in zwei Teile:
 - In dem Teil „Advanced Seminar“ recherchieren und erschließen die Studierenden im Selbststudium für den Projektgegenstand relevante Literatur zum Stand von Wissenschaft und Technik. Sie wenden auch Analysetechniken für die Bewertung vorhandener kommerziellen Lösungen an. Hierbei kann es sich sowohl um Konkurrenzprodukte handeln als auch um Dienste oder Frameworks, auf die der Projektgegenstand aufbauen könnte. Als Schwerpunkt dieses Teils identifizieren die Studierenden wissenschaftliche Felder, die für den Projektgegenstand relevant sind, recherchieren entsprechende Literatur und vermitteln und diskutieren diese in einem wissenschaftlichen Seminar.
 
 ## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
+Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
 
 - Advanced Seminar (50%)
-- Projektergebnis und -dokumentation (50%)
+- Projekt (50%)
 
 ## Medienformen
 Artefakt-Repository, Kollaborationssysteme

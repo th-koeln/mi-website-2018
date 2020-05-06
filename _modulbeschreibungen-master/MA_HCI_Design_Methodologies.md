@@ -19,8 +19,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: gh
-    zweitpruefer: ck
+    erstpruefer: gh, ck
+    zweitpruefer: ck, gh
 ---
 
 ## Lehrform/SWS
@@ -50,7 +50,7 @@ Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Gestalt
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-Mündliche Prüfung (100%)
+Fachvortrag (50%), schriftliche Ausarbeitung (50%)
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen
