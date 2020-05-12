@@ -57,12 +57,6 @@ cok:
     name: 'Corinna Sofie Klein'
     personenseite: 'https://www.th-koeln.de/personen/corinna_sofie.klein/'
     mi: true
-sal:
-    id: sal
-    status: wma
-    name: 'Sascha Lemke'
-    personenseite: 'https://www.th-koeln.de/personen/sascha.lemke/'
-    mi: true
 maa:
     id: maa
     status: wma
