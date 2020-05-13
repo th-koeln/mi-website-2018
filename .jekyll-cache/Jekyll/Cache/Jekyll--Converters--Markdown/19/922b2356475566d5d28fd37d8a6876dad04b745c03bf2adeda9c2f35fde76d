@@ -1,0 +1,53 @@
+I"�<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Die Studierenden werden in die Entwicklung von semantischen Modellen als Basis für den Datenaustausch in verteilten, offenen Web Anwendungen eingeführt. Neben der praktischen Modellierung wird auch die theoretische Fundierung in der Prädikaten- und Beschreibungslogik behandelt.</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung / Projekt 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon:</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Übung / Projekt</li>
+  <li>102h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Teilnehmerinnen und Teilnehmer sollen die</p>
+<ul>
+  <li>Grundgedanken, Potenziale und Grenzen von semantischer Modellierung und Semantic Web erfassen.</li>
+  <li>Sprachen des Semantic Web sowie deren Eigenschaften und Zusammenhänge verstehen,</li>
+  <li>wesentliche Aspekte der Fundierung der Sprachen in der mathematischen Logik verstehen und</li>
+  <li>ein semantisches Modell für eine Domäne in Ansätzen erstellen und diskutieren können</li>
+</ul>
+
+<p>um kompetent im Fachdiskurs die Eignung semantischer Modellierung für die Domänenmodellierung diskutieren zu können.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Prädikatenlogik</li>
+  <li>Die Sprachen Hierarchie: XML, RDF, RDFS</li>
+  <li>Beschreibungslogik</li>
+  <li>Ontologie- und Abfragesprachen</li>
+  <li>Entwicklung von Ontologien</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>Mündliche Prüfung (100%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Präsentationsmaterialien</li>
+  <li>Arbeitsblätter</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>D. Allemang, J. Hendler: Semantic Web for the Working Ontologist, Morgan Kaufman 2011</li>
+  <li>F. Baader (ed.): The description logic handbook: theory, implementation, and applications, Cambridge University Press 2010</li>
+  <li>M. Kreuzer, S. Kühling: Logik für Informatiker, Pearson 2006</li>
+</ul>
+:ET

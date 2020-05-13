@@ -1,0 +1,66 @@
+I"�<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Perspektiven, Methoden und Algorithmen zur Modellierung und Analyse von Systemen mit UML und SysML</p>
+
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 1 SWS; Seminar 3 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 180 Stunden, davon:</p>
+<ul>
+  <li>18h Vorlesung</li>
+  <li>54h Seminar</li>
+  <li>108h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden werden befähigt,</p>
+<ul>
+  <li>Ziele, Perspektiven, Methoden, Techniken und Werkzeuge sowie organisatorischen Maßnahmen zur Modellierung und Analyse 
+von Systemen beschreiben, diskutieren und anwenden zu können, sowie</li>
+  <li>Methoden und Techniken hinsichtlich ihrer theoretischen Fundierung und ihrer Eignung in einem Projektkontext analysieren 
+und bewerten zu können, und</li>
+  <li>sich selbständig wissenschaftlich und fachlich weiter zu bilden, um Methoden, Techniken und Werkzeuge zur Modellierung und 
+Analyse von Systemen in eigenen, auch fachübergreifenden Projekten auswählen und anwenden zu können.</li>
+</ul>
+
+<h2 id="inhalt">Inhalt</h2>
+<p>Das Modul beschreibt Ziele, Perspektiven, Methoden, Techniken und Werkzeuge sowie
+organisatorischen Maßnahmen zur Modellierung und Analyse im System-Engineering.
+Schwerpunkte liegen auf der Anwendung der Unified Modelling Language (UML) und darauf
+aufbauenden Profil Systems Modelling Language (SysML)in den frühen Phasen der Konzeption
+und Spezifikation sowie der Qualitätssicherung. Ausführungen zu Algorithmen und
+unterstützenden Werkzeugen runden das Modul ab.
+Inhalte im Einzelnen:</p>
+<ul>
+  <li>Was ist Systems Engineering?</li>
+  <li>Überblick UML</li>
+  <li>Einführung SysML</li>
+  <li>Modellierungspraktikum mit SysML</li>
+  <li>Metamodellierung und Modelltransformationen.
+Aufbauend auf dem in der Vorlesung vermittelten Stoff erstellt jeder Teilnehmer im Seminar-Teil
+eine Ausarbeitung mit experimenteller Realisierung und eine Präsentation zu einem ausgewählten
+aktuellen Forschungsgebiet des Systems Engineering.</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.</p>
+<ul>
+  <li>Seminar-Hausarbeit (40%)</li>
+  <li>Seminarvortrag (40%)</li>
+  <li>Reflektionsbericht (20%)</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Beamer-gestützte Vorlesungen (Folien in elektronischer Form im Netz)</li>
+  <li>Materialien zum Selbststudium (Vorlagen, Software-Werkzeuge, Veröffentlichungen)</li>
+  <li>Fallbeispielgestützte Übungen in Gruppen, um die erlernten Modelle und Methoden einzuüben und zu vertiefen (Seminarraum, Rechnerlabor).</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Weilkiens, T.: Systems Engineering mit SysML/UML. dpunkt.verlag, Heidelberg, 2014</li>
+  <li>Debbabi, M. et al.: Verification and Validation in Systems Engineering. Springer Nature,
+Heidelberg, 2010</li>
+</ul>
+:ET

@@ -1,0 +1,126 @@
+I"�<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>Vorlesung, Projektarbeit in 2er oder 3er Gruppen (keine Einzelabgaben!!!)</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<ul>
+  <li>
+    <p>Webanwendungen mit HTML5-Tags und CSS3 erstellen</p>
+  </li>
+  <li>
+    <p>PHP Klassen schreiben</p>
+  </li>
+  <li>
+    <p>Datenbankverbindung aufbauen und Statements ausführen (mindestens MySQLi, voraussichtlich auch SQLite3)</p>
+  </li>
+  <li>
+    <p>PHP-Caching</p>
+  </li>
+  <li>
+    <p>HTACCESS-Caching sowie Komprimierung durch Deflate und GZIP</p>
+  </li>
+  <li>
+    <p>Minimized CSS und JS</p>
+  </li>
+  <li>
+    <p>Responsive entwickeln</p>
+  </li>
+  <li>
+    <p>Webseiten für Suchmaschinen optimieren</p>
+  </li>
+  <li>
+    <p>JS-Funktionen sowie JS-Toolkits/-Framesworks</p>
+  </li>
+  <li>
+    <p>AJAX-Aufrufe via JS</p>
+  </li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<p>Das Internet ist mittlerweile nicht mehr wegzudenken. “googeln” gilt als Synonym für “suchen” und ist teilweise in einigen Wörterbüchern aufgenommen, Kurznachrichten werden mit einem Klick an die ganze Welt verschickt (Twitter) und Hobbyfotografen besitzen eh einen Flickr- und/oder Instagram-Account.</p>
+
+<p>Doch statische Webseiten ohne großartige Benutzerinteraktion sind längst out. Maßgeschneiderter, dynamischer Inhalt, der auf die Interaktion mit dem Benutzer reagiert, ist gefragt. Und selbst Arbeitsabläufe, für die man sonst Programme installieren musste, werden immer häufiger als Online-Service angeboten (Google Docs zum Schreiben von Dokumenten, alle möglichen Konvertierungsprogramme für Bilder, Musik oder sogar ganze Videos,…).</p>
+
+<p>Und die Anforderungen an solche Anwendungen steigen stetig! Responsive Webdesign gilt als “Quasi-Standard”, denn immer mehr Menschen greifen von unterwegs auf dem Smartphone auf das Internet zu. Und Webseiten, die weder responsive sind noch eine (extra) mobile Webseite anbieten, werden von Google schnell abgestraft und landen irgendwo im Sumpf der tausenden Treffer. Dementsprechend sollte sich das Design auf mobilen Geräten von selbst so anpassen, dass der Benutzer ohne Probleme Menüs, Buttons und Links klicken kann (und dabei nicht aus Versehen direkt 10 weitere Links mit anklickt, da die Schrift viel zu klein ist oder die Abstände nicht gut gewählt sind)!</p>
+
+<p>Und was nutzt das schönste Design, wenn die Webanwendung stetig zu viele Daten sendet und der Benutzer erstens zu lange warten muss und zweitens Mitte des Monats sein Datenvolumen aufgebraucht hat (wer kennt diese tolle Nachricht vom Netzbetreiber nicht: ihr Datenvolumen ist für diesen Monat aufgebraucht, sie surfen mit reduzierter Geschwindigkeit -.-)! Und ein Auftraggeber erwartet sowieso, dass seine neue Anwendung bei Google am liebsten direkt den ersten Platz einnimmt (Stichwort SEO - Search Engine Optimization/Suchmaschinen-Optimierung).</p>
+
+<p>Inhalte des WPFs:</p>
+
+<ul>
+  <li>
+    <p>Grundwissen (die ersten drei bis vier Termine als Einstieg)</p>
+  </li>
+  <li>
+    <p>HTML-Einstieg mit neuen HTML5-Tags</p>
+  </li>
+  <li>
+    <p>CSS inkl. CSS3-Erweiterungen (z. B. Animationen ohne JS)</p>
+  </li>
+  <li>
+    <p>PHP und MySQL, Caching in PHP, evtl. auch SQLite3</p>
+  </li>
+  <li>
+    <p>Einfache JavaScript Funktionen</p>
+  </li>
+  <li>
+    <p>Tieferer Einblick in die Webentwicklung</p>
+  </li>
+  <li>
+    <p>Caching über HTACCESS</p>
+  </li>
+  <li>
+    <p>Komprimierung mit Deflate und GZIP (dadurch werden CSS- und JS-Dateien schön klein, auch Bilder etc. können komprimiert werden)</p>
+  </li>
+  <li>
+    <p>Minimierte CSS- und JS-Dateien</p>
+  </li>
+  <li>
+    <p>Responsive Webdesign leicht gemacht (von Anfang an auf ein paar Dinge geachtet, ist die Webanwendung ohne großartige Mehrarbeit auch mobil nutzbar)</p>
+  </li>
+  <li>
+    <p>SEO - Suchmaschinen-Optimierung</p>
+  </li>
+  <li>
+    <p>JavaScript-Frameworks (jQuery, UIKit,…)</p>
+  </li>
+  <li>
+    <p>dynamische Inhalte via AJAX</p>
+  </li>
+</ul>
+
+<p>Die Reihenfolge kann variieren, je nach dem passt das eine oder andere Thema bereits vorher und wird dann eingebunden! </p>
+
+<p>Start: 05.04.2016</p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Aus der Projektarbeit in Gruppen (keine Einzelabgaben!) zur Erstellung einer Webseite, die die Lernziele umfasst, wird die Note ermittelt</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Unterlagen via Dropbox, Folien als PDF, Links zu Papers und andere Veröffentlichungen im Netz</p>
+
+<h2 id="literatur">Literatur:</h2>
+<p>Aufgrund der Aktualität der Inhalte sowie der rasanten Entwicklung im Webbereich sind gedruckte Bücher meist schon veraltet. Literatur hauptsächlich bestehend aus aktuellen Papers und Veröffentlichungen im Netz.</p>
+
+<p>Für den Einstieg in die Webentwicklung zu empfehlen:</p>
+
+<ul>
+  <li>
+    <p>Lee Babin, Nathan A. Good, Frank M. Kromann, Jon Stephens: PHP 5 Recipes - A Problem-Solution Approach; Apress 2005; ISBN: 1-59059-509-2</p>
+  </li>
+  <li>
+    <p>Christopher Schmitt, Jørgen W. Lang: CSS Kochbuch, 3. Auflage; O’Reilly 2012; ISBN 978-3-89721-324-1</p>
+  </li>
+  <li>
+    <p>Chuck Hudson, Tom Leadbetter: HTML5 Developer’s Cookbook; Addison-Wesley 2011; ISBN: 978-0321769381</p>
+  </li>
+  <li>
+    <p>Jennifer Smith, Jeremy Osborn: Web Design with HTML and CSS Digital Classroom; Wiley 2011; ISBN: 978-0470583609</p>
+  </li>
+  <li>
+    <p>David Sklar, Adam Trachtenberg: PHP Cookbook, 3rd Edition; O’Reilly 2014; ISBN:978-1-4493-6375-8</p>
+  </li>
+</ul>
+
+:ET

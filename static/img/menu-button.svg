@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="menu-button-wrap" width="225px" height="175px" viewBox="0 0 225 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu-button</title>
+    <g id="menu-button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="balken-1" fill="#9313CE" x="25" y="25" width="175" height="25"></rect>
+        <rect id="balken-2" fill="#9313CE" x="25" y="75" width="175" height="25"></rect>
+        <rect id="balken-3" fill="#9313CE" x="25" y="125" width="175" height="25"></rect>
+    </g>
+</svg>
