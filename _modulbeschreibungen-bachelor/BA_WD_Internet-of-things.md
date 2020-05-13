@@ -17,7 +17,11 @@ typ: tm
 parent: WD
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung
+    art: Seminarvortrag (30%)
+    erstpruefer: mb
+    zweitpruefer: il
+  Teamleistung:
+    art: Projektarbeit (70%)
     erstpruefer: mb
     zweitpruefer: il
 ---
