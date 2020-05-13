@@ -6,9 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const openSidebar = () => {
         const sidebar = document.getElementById('offCanvas');
         const content = document.querySelectorAll('#offCanvas + .off-canvas-content')[0];
-    
+        const button = document.getElementById('icon-main-menu');
+
         if(sidebar) {
             sidebar.classList.toggle('is-open');
+            button.classList.toggle('is-open');
         }
     
         if(content) {

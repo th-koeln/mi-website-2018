@@ -5,6 +5,7 @@
 _archiv/
 public/
 resources/
+node_modules/
 
 # Ignore vs.code files
 .vscode/*
