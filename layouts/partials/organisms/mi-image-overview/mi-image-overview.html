@@ -1,0 +1,19 @@
+</div>
+
+<div class="content has-gap is-fluid">
+
+  <div class="o-mi-image-overview">
+  {{ with .Resources.ByType "image" }}
+      {{ range . }}
+        {{ $thumb := .Fill "300x300 Center q90 Linear" }}
+        <div class="o-mi-image-overview__item">
+          <a href="{{.RelPermalink}}" class="[ js-slideshow ]"><img src="{{$thumb.RelPermalink}}"></a>
+        </div>
+      {{ end }}
+  {{ end }}
+  </div>
+
+  <p>{{.Params.bildhinweise}}</p>
+</div>
+
+<div class="content has-gap">
