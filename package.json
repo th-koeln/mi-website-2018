@@ -14,5 +14,7 @@
     "url": "git@github.com:th-koeln/mi-website-2018.git"
   },
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "photoswipe": "^4.1.3"
+  }
 }

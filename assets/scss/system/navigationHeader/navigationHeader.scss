@@ -26,7 +26,7 @@
     }
 
     #icon-main-menu {
-        margin-bottom: 20px;
+      margin-bottom: 2px;
     }
 
     &--text {
@@ -49,54 +49,44 @@
         border: 0 none;
         background: transparent;
         margin-left: 8px;
-    }
 
-    // Button height fix for Firefox
-    &--hamburger::-moz-focus-inner {
-        padding: 0;
-        border: 0 none;
-    }
+        & > img{
+          // height: 80px;
+        }
 
-    // Focus fix for Chrome
-    &--hamburger:focus {
-        outline: 0;
-    }
+        // Button height fix for Firefox
+        &::-moz-focus-inner {
+          padding: 0;
+          border: 0 none;
+        }
 
-    &--hamburger:before,
-    &--hamburger:after {
-        content: "";
-    }
+        // Focus fix for Chrome
+        &:focus {
+          outline: none;
+        }
+        
+        #balken-1, #balken-3{
+          transition: transform 0.6s, opacity 0.6s;
+          transform-origin: 50% 50%;
+        }
 
-    &--hamburger:before,
-    &--hamburger .icon,
-    &--hamburger:after {
-        display: block;
-        width: 63px;
-        height: 10px;
-        margin: 0 0 .2em;
-        transition: transform .2s ease-in-out;
-        background: $mi-lila;
-    }
+        &.is-open{
 
-    // Styles for the active `.hamburger` icon
-    &--hamburger[aria-expanded=true]:before,
-    &--hamburger[aria-expanded=true] .icon,
-    &--hamburger[aria-expanded=true]:after {
-        background: $mi-pink;
-    }
+          #balken-1{
+            transform: rotate(45deg) translateY(30%);
+          }
 
-    // CLOSE/CANCEL/CROSS
-    &--hamburger.hamburger-cancel[aria-expanded=true] .icon {
-        transform: scale(0);
-    }
+          #balken-2{
+            opacity: 0;
+          }
 
-    &--hamburger.hamburger-cancel[aria-expanded=true]:before {
-        transform: translateY(.4em) rotate(135deg);
-    }
+          #balken-3{
+            transform: rotate(-45deg) translateY(-30%);
 
-    &--hamburger.hamburger-cancel[aria-expanded=true]:after {
-        transform: translateY(-.4em) rotate(-135deg);
+          }
+        }
     }
+    
 }
 
 
