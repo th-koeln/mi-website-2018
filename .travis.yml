@@ -14,11 +14,17 @@ before_install:
 - ssh -i ./deploy_key -o "StrictHostKeyChecking=no" $DEPLOYMENT_USER@$DEPLOYMENT_HOST pwd
 
 install:
-  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.56.3/hugo_extended_0.56.3_Linux-64bit.deb
-  - sudo dpkg -i hugo_extended_0.56.3_Linux-64bit.deb
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb
+  - sudo dpkg -i hugo_extended_${HUGO_RELEASE}_Linux-64bit.deb
 
 script:
+  - hugo version
   - hugo
 
 after_success:
   - scp -o stricthostkeychecking=no -r public/* $DEPLOYMENT_USER@$DEPLOYMENT_HOST:~$DEPLOYMENT_PATH
+
+env:
+  global:
+    - PRODUCTION=true
+    - HUGO_RELEASE=0.60.1
