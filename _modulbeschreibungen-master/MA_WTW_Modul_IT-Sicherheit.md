@@ -17,7 +17,7 @@ parent: SPM1
 schwerpunkt: wtw, sc, mpd
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%) und mündliche Prüfung (50%) (im SoSe 2020 Klausur statt mündlicher Prüfung in der Juli Prüfungsphase)
+    art: Fachvortrag (1/3), schriftliche Ausarbeitung (1/3) und mündliche Prüfung (1/3) (im SoSe 2020 entfällt die mündliche Prüfung, welche auf Anfrage zur Notenverbesserung optional genutzt werden kann)
     erstpruefer: sk
     zweitpruefer: 
 ---
