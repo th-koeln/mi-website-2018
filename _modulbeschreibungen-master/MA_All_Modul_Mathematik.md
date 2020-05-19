@@ -1,6 +1,6 @@
 ---
 title: Spezielle Gebiete der Mathematik
-modulverantwortlich: wk, bn
+modulverantwortlich: wk, dz
 kuerzel: SGM-D
 studiensemesterWs: 1
 studiensemesterSs: 2
