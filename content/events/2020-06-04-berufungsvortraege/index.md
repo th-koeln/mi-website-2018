@@ -29,8 +29,7 @@ Der technische Ablauf ist wie folgt. Wir stellen für den Vortrag ein Zoom Meeti
 
 ### Workshop
 Der 60-minütige Workshop richtet sich an Master Studierende. Hier wählt der Bewerber\*in das Themengebiet aus dem Lehrbereich frei, um eine individuelle Positionierung im Lehr- und Forschungsgebiet zu ermöglichen und transparent zu machen. 
-Auch hier stellen wir ein Zoom Meeting bereit 
-Als Rück-/ Interaktionskanäle mit den Studierenden stehen Video-/Audiochat, Textchat, Umfragen und Breakoutrooms zur Verfügung.
+Auch hier stellen wir ein Zoom Meeting bereit. Als Rück-/ Interaktionskanäle mit den Studierenden stehen Video-/Audiochat, Textchat, Umfragen und Breakoutrooms zur Verfügung.
 
 ## Zeitplan
 
@@ -39,7 +38,7 @@ Als Rück-/ Interaktionskanäle mit den Studierenden stehen Video-/Audiochat, Te
 | Zeit | Aktivität |
 |:---|:----|
 | 10:00 | Probevorlesung Bachelor |
-| 10:30 | Pause & Übergang zum Workshop |
+| 10:30 | Pause & Übergang zum Workshop |
 | 10:45 | Workshop Master |
 
 ### Donnerstag, 04. Juni 2020, Kandidat 2
@@ -47,7 +46,7 @@ Als Rück-/ Interaktionskanäle mit den Studierenden stehen Video-/Audiochat, Te
 | Zeit | Aktivität |
 |:---|:----|
 | 14:00 | Probevorlesung Bachelor |
-| 14:30 | Pause & Übergang zum Workshop |
+| 14:30 | Pause & Übergang zum Workshop |
 | 14:45 | Workshop Master |
 
 
@@ -56,6 +55,6 @@ Als Rück-/ Interaktionskanäle mit den Studierenden stehen Video-/Audiochat, Te
 | Zeit | Aktivität |
 |:---|:----|
 | 10:00 | Probevorlesung Bachelor |
-| 10:30 | Pause & Übergang zum Workshop |
+| 10:30 | Pause & Übergang zum Workshop |
 | 10:45 | Workshop Master |
 
