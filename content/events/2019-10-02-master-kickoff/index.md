@@ -1,5 +1,5 @@
 ---
-date: "2019-09-12"
+datum: "2019-09-12"
 title: "Master KickOff"
 linkTitle: "Master KickOff für Erstsemester im Master Medieninformatik"
 termin: 02. Oktober 2019, 16:00 Uhr // Raum 3.216

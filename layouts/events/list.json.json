@@ -12,7 +12,7 @@
             {
                 "title":"{{ $element.Title }}",
                 "termin":"{{ $element.Params.termin }}",
-                "date":"{{ $element.Params.date }}",
+                "date":"{{ $element.Params.datum }}",
                 "bild": "{{ $scratch.Get "teaser" }}",
                 "content": {{ $element.RawContent  | jsonify }},
                 "url": "{{ $element.Permalink }}"

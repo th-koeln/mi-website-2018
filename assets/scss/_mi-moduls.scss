@@ -652,6 +652,14 @@ thead th, thead td, tfoot th, tfoot td {
     text-align: left;
 }
 
+table tr + tr > td{
+  border-top: solid 1px $mi-hellgrau;
+}
+
+table tr > th{
+  border-bottom: solid 1px $mi-grau;
+}
+
 table.unstriped tbody tr {
     border-bottom: 0;
     border-bottom: none;

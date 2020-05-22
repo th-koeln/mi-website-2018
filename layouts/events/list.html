@@ -4,7 +4,6 @@
     <h1 class="mi-chapter-title is-colorful">{{ .Title }}</h1>
     {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
     {{ $scratch := newScratch }}
-
     <div class="events">
         {{ range .Paginator.Pages }}
             <article class="event">

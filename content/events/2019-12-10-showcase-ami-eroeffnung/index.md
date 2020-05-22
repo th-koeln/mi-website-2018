@@ -1,5 +1,5 @@
 ---
-date: "2019-11-10T10:00:00"
+datum: "2019-11-10T10:00:00"
 title: "Eröffnungsparty Advanced Media Institute // Medieninformatik Showcase"
 linkTitle: "Eröffnungsparty des Advanced Media Institute & Medieninformatik Jubiläums-Showcase"
 termin: 10. Dezember 2019, 15:00 Uhr // Raum 3.216

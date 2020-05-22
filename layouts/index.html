@@ -17,6 +17,7 @@
     {{ end }}
 
 
+
     {{ with .Site.GetPage "/events" }}
         <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
         {{ $params := . }}
@@ -24,10 +25,11 @@
     </div>
     <div class="content has-gap is-fluid">
         <div id="eventblock" class="events">
-            {{ range $item := .Pages }}
+        
+            {{ range $item := (.Pages.ByParam "datum").Reverse }}
             
-                <div class="evnt">
-                    {{ $date := .Date }}
+                <div class="event">
+                    {{ $date := .Params.datum }}
                     {{ $scratch.Set "teaser" "" }}
                     {{ $teaser := .Resources.Match "teaser*" }}
             

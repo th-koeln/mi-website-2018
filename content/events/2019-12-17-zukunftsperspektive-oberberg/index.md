@@ -1,5 +1,5 @@
 ---
-date: "2019-11-12T10:00:00"
+datum: "2019-11-12T10:00:00"
 title: "Liveproduktion: Visionäre in Oberberg"
 linkTitle: "Eröffnungsparty des Advanced Media Institute & Medieninformatik Jubiläums-Showcase"
 termin: 17. Dezember 2019, 19:00 Uhr // Kino SEVEN Gummersbach

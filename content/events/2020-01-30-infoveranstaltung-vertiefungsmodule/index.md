@@ -1,5 +1,5 @@
 ---
-date: "2019-12-30T10:00:00"
+datum: "2019-12-30T10:00:00"
 title: "Infoveranstaltung Vertiefungsmodule"
 linkTitle: "Infoveranstaltung Vertiefungsmodule"
 termin: 30. Januar 2020, 10:00 Uhr // Raum 3.102

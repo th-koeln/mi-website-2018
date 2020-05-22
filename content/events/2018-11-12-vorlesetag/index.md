@@ -1,5 +1,5 @@
 ---
-date: "2018-11-16T10:00:00"
+datum: "2018-11-16T10:00:00"
 title: "Oberbergischer Vorlesetag 2018"
 linkTitle: "Vorlesetag 2018"
 termin: 16. November 2018, 10:00 Uhr

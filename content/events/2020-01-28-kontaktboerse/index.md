@@ -1,5 +1,5 @@
 ---
-date: "2019-12-28T13:00:00"
+datum: "2019-12-28T13:00:00"
 title: "Medieninformatik Kontaktbörse 2020"
 linkTitle: "Medieninformatik Kontaktbörse 2020"
 termin: 28. Januar 2020, 13:00 Uhr // Raum 3.216
