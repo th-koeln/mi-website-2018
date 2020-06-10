@@ -11,7 +11,12 @@ blockquote{
 
     > li {
         display: block;
-        margin-bottom: 0;
+
+      &:not(:last-child)::after{
+        content: "-";
+        display: block;
+        height: $bfs / 2;
+      }
     }
 }
 
