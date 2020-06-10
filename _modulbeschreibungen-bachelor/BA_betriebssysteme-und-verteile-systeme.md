@@ -1,6 +1,6 @@
 ---
 title: Betriebssysteme und verteilte Systeme
-modulverantwortlich: mb, lk
+modulverantwortlich: mboehmer, lk
 modulniveau: bachelor
 kuerzel: BS1
 untertitel:
@@ -17,7 +17,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
-    erstpruefer: mb
+    erstpruefer: mboehmer
     zweitpruefer: lk
 ---
 

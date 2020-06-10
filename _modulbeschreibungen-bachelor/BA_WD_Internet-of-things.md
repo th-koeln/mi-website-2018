@@ -1,6 +1,6 @@
 ---
 title: Internet of Things
-modulverantwortlich: mb
+modulverantwortlich: mboehmer
 modulniveau: bachelor
 kuerzel: IOT
 untertitel:
@@ -18,11 +18,11 @@ parent: WD
 studienleistungen:
   Einzelleistung:
     art: Seminarvortrag (30%)
-    erstpruefer: mb
+    erstpruefer: mboehmer
     zweitpruefer: il
   Teamleistung:
     art: Projektarbeit (70%)
-    erstpruefer: mb
+    erstpruefer: mboehmer
     zweitpruefer: il
 ---
 

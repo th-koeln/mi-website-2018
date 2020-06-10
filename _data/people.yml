@@ -243,15 +243,15 @@ lk:
     status: prof
     name: 'Prof. Dr. Lutz Köhler'
     personenseite: 'https://www.th-koeln.de/personen/lutz.koehler/'
-mb:
-    id: mb
+mboehmer:
+    id: mboehmer
     status: prof
     name: 'Prof. Dr. Matthias Böhmer'
     avatar: '/img/professoren/boehmer.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
     mi: true
 mbl:
-    id: mbl
+    id: mbluemm
     status: prof
     name: 'Prof. Dr. Mirjam Blümm'
     avatar: '/img/professoren/bluemm.png'
@@ -377,7 +377,7 @@ bn:
     personenseite: 'https://www.th-koeln.de/personen/boris.naujoks/'
     avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
 mbl: 
-    id: mbl
+    id: mbluemm
     status: prof
     name: 'Prof. Dr. Mirjam Blümm'
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'

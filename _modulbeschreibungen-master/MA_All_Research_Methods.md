@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (30%), Projektarbeit (70%)
-    erstpruefer: gh, mbl
-    zweitpruefer: gh, mbl
+    erstpruefer: gh, mbluemm
+    zweitpruefer: gh, mbluemm
 ---
 
 ## Lehrform/SWS

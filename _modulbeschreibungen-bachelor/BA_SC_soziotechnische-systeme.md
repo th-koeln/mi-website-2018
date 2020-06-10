@@ -19,11 +19,11 @@ studienleistungen:
   Einzelleistung:
     art: Lernportfolio
     erstpruefer: ck
-    zweitpruefer: mbl, uwm
+    zweitpruefer: mbluemm, uwm
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: ck
-    zweitpruefer: mbl, uwm 
+    zweitpruefer: mbluemm, uwm 
 ---
 
 ## Lehrform/SWS
