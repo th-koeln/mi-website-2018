@@ -44,17 +44,10 @@ Die Studierenden kennen geeignete Vorgehensmodelle, Dokumentationstechniken, sow
 Die Studierenden sind in der Lage, neue Technologien und Strömungen im Kontext des Webs zu erkennen, einzuordnen, zu bewerten und zu durchdringen, um die Zukunftsfähigkeit der eigenen Skills, des Teams und den Projekts sicher zu stellen.   
 
 ## Inhalt
-- Client-Server Kommunikation und Schnittstellen: z.B. REST, GraphQL, Nachrichtenbasierte Kommunikation, Web-Sockets, etc.
-- APIs
-- CSS: Komplexe Layouts & Responsivität
-- CSS Pre- und Postprozessoren
-- Frameworks
-- Performance
-- Namingkonventions und Methodologien (BEM, OOCSS, SMACSS, Atomic Design, MVC, etc.)
-- Dokumentation & Living Styleguides
-- Testing
-- Kommunikations- und Kollaborationswerkzeuge
-- Workflows
+- Technologiescouting und -Bewertung
+- Collaborative Development
+- Studentische Workshops zu verschiedenen Themen
+
 
 ## Voraussetzungen
 Um an diesem Modul erfolgreich teilnehmen zu können sind einschlägige Kenntnisse, Fertigkeiten und Erfahrungen im Bereich Web-Technologien und Web-Development erforderlich. Eine Orientierung bietet hier die [Web Developer Roadmap von Kamran Ahmed](https://github.com/kamranahmedse/developer-roadmap). Enntsprechend der Empfehlung «Required for any path» sollten Sie gut Kenntnisse und Fähigkeiten haben in:
