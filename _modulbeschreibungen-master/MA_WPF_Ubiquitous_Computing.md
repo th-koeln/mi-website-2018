@@ -1,6 +1,6 @@
 ---
 title: Ubiquitous Computing
-modulverantwortlich: Matthias Böhmer
+modulverantwortlich: mboehmer
 kuerzel: UC
 studiensemesterWs: 3
 studiensemesterSs: 2
