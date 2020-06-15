@@ -1,6 +1,6 @@
 ---
-title: Projekt
-modulverantwortlich: kf, mw, hk, me, ck, gh
+title: Projektanteil Projekt 2
+modulverantwortlich: kf, mw, hk, me, ck, gh, cn
 kuerzel: P2
 studiensemesterWs: 2
 studiensemesterSs: 3

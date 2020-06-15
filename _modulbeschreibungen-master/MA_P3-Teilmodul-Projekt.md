@@ -1,5 +1,5 @@
 ---
-title: Projekt
+title: Projektanteil Projekt 3
 modulverantwortlich: kf, mw, hc, me, ck, gh
 kuerzel: P3
 studiensemesterWs: 3

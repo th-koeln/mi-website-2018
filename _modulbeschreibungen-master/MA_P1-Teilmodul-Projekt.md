@@ -1,5 +1,5 @@
 ---
-title: Projekt
+title: Projektanteil Projekt 1
 modulverantwortlich: me, gh, hk, kf, mbluemm, cn, ck
 kuerzel: P1
 studiensemesterWs: 1
