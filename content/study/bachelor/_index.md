@@ -19,7 +19,7 @@ Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifiziere
 
 <div class="m-mi-herotext has-box is-full-width">
 <p>
-Absolventen der Medieninformatik <strong>analysieren</strong>, <strong>realisieren</strong>, <strong>betreiben</strong> und <strong>evaluieren informationstechnische Prozesse</strong> und <strong>Systeme</strong> zur Gestaltung, Produktion, Bearbeitung, Distribution und Nutzung <strong>medienbasierter Informationen</strong>.
+Absolventen der Medieninformatik <strong>analysieren</strong>, <strong>konzipieren</strong>, <strong>realisieren</strong>, <strong>betreiben</strong> und <strong>evaluieren informationstechnische Prozesse</strong> und <strong>Systeme</strong> zur Gestaltung, Produktion, Bearbeitung, Distribution und Nutzung <strong>medienbasierter Informationen</strong>.
 </p>
 
 <p>
