@@ -146,7 +146,7 @@ Das Vertiefungsmodul gab es in der BPO3 nicht. Es setzt sich in der BPO4 in der 
         <td>Visual Computing (20CP)</td>
         <td>
           <ul>
-            <li>Medientechnik und Produktion (5CP)</li>
+            <li>Medientechnik und Produktion, 5CP (BPO3) als Audiovisuelle Medientechnik AMT (BPO4)</li>
             <li>Computergrafik und Animation (5CP)</li>
             <li>WPF Visuelle Effekte und Animation (5CP)</li>
             <li>WPF Crossplatform Game Development mit Unity3D (5CP)</li>
