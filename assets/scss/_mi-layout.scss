@@ -76,3 +76,13 @@ body {
         margin-bottom: $bfs;
     }
 }
+
+
+.mi-grid{
+  display: grid;
+  gap: $bfs;
+  margin-bottom: $bfs-l;
+  &--2-cols{
+    grid-template-columns: 1fr 1fr;
+  }
+}
