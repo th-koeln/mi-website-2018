@@ -46,7 +46,7 @@ layout: default
 								{% endif %}
 							{% endfor %}
 						</td>
-						<td>{{modulbeschreibung.kuerzel}}</td>
+						<td class="no-wrap">{{modulbeschreibung.kuerzel}}</td>
 						<td>{{modulbeschreibung.kreditpunkte}}</td>
 						<td>
 							{% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
@@ -59,7 +59,7 @@ layout: default
 					{% assign cps = cps|plus: 20 %}
 					<tr class="no-border">
 						<td>Vertiefungsmodule:</td>
-						<td>VPM</td>
+						<td class="no-wrap">VPM</td>
 						<td colspan="2">20</td>
 					</tr>
 					
@@ -76,7 +76,7 @@ layout: default
 								{% endfor %}
 							
 							</td>
-							<td>VPM-{{vertiefungsmodulbeschreibung.kuerzel}}</td>
+							<td class="no-wrap">VPM-{{vertiefungsmodulbeschreibung.kuerzel}}</td>
 							<td></td>
 							<td>
 								{% include /functions/resolve-names.html modulverantwortlich=vertiefungsmodulbeschreibung.modulverantwortlich %}

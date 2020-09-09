@@ -15,6 +15,11 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM1
 schwerpunkt: wtw, sc, mpd
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (25%), schriftliche Ausarbeitung (25%) und mündliche Prüfung (50%) (im SoSe 2020 entfällt die mündliche Prüfung, welche auf Anfrage zur Notenverbesserung optional genutzt werden kann)
+    erstpruefer: sk
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung
@@ -54,10 +59,6 @@ Gesamtaufwand 180 Stunden, davon
 * Charakteristika vertrauenswürdiger Systeme. Wirkzusammenhang zwischen Vertrauen und Sicherheit
 * Kernbereich der privaten Lebensgestaltung, Privatsphäre, Datenschutz, Große Datensammlungen (Data Science) als Antagonist
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- mündliche Prüfung (50%) 
-- Fachvortrag und Projektdokumentation (50%)
 
 ## Medienformen
 *	Beamer-gestützte Vorlesungen

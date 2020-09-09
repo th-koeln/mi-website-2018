@@ -1,28 +1,25 @@
 ---
-title: Audiovisuelles Medienprojekt
+title: Audiovisuelles Medienprojekt 1
 modulverantwortlich: hk
 modulniveau: bachelor
-kuerzel: AVM
+kuerzel: AVM1
 untertitel: null
 studiensemester: 3
 kategorie: null
 sprache: deutsch
+zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
-infourl: 
-layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 2
-  sws: 8
-wma:
-  anzahl: 1
-  sws: 8
-resources-skillset: av  
+layout: modulbeschreibung
+infourl: 
+studienleistungen:
+  Teamleistung:
+    art: Projektarbeit
+    erstpruefer: hk
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung
@@ -64,16 +61,15 @@ Begleitend zu der Produktion werden folgende fachspezifischen Inhalte thematisie
 - Tonaufnahme
 - Dokumentarfilm und Interview
 - Dramaturgie
+- Inszenierung
 - Schnitt und Montage
 
-## Studien-/Prüfungsleistungen
-Projektarbeit
-
 ## Medienformen
-- Beamer-gestützte Vorlesungen
-- Beispiele aus verschiedenen Medien in elektronischer Form: Filmbeispiele, Webvideos
+- Vorlesungen mit Folienpräsentationen
+- Workshops zu Anwendungsprogrammen
+- Beispiele aus verschiedenen Medien: Filmbeispiele, Webvideos
 - Audiovisuelle Aufnahme- und Wiedergabegeräte
-
+- Lehrfilme und Video-Tutorials
 
 ## Literatur
 - James Monaco, Film verstehen, Rowolth Taschenbuch Verlag Hamburg, 1980, ISBN 3-499-162717

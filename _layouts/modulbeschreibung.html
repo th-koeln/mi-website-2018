@@ -30,11 +30,6 @@ layout: default
 				<dt>Verantwortlich</dt><dd>{{page.verantwortlich}}</dd>
 				{% endif %}
 				
-				{% assign check = page.modulniveau|strip_newlines %}
-				{% if check != ""  %}
-				<dt>Modulniveau</dt><dd>{{page.modulniveau}}</dd>
-				
-				{% endif %}
 				
 				{% assign check = page.kuerzel|strip_newlines %}
 				{% if check != ""  %}
@@ -54,11 +49,6 @@ layout: default
 				
 				{% endif %}
 				
-				{% assign check = page.kategorie|strip_newlines %}
-				{% if check != ""  %}
-				<dt>Kategorie</dt><dd>{{page.kategorie}}</dd>
-				
-				{% endif %}
 				
 				{% assign check = page.sprache|strip_newlines %}
 				{% if check != ""  %}
@@ -99,9 +89,22 @@ layout: default
 				{% assign check = page.empfohlene-voraussetzungen|strip_newlines %}
 				{% if check != ""  %}
 				<dt>Empfohlene Voraussetzungen</dt><dd>{{page.empfohlene-voraussetzungen}}</dd>
-				
 				{% endif %}
-				
+
+        {% assign check = page.infourl|strip_newlines %}
+				{% if check != ""  %}
+				<dt>Weitere Informationen zum Modul</dt><dd><a href="{{page.infourl}}">{{page.infourl}}</a></dd>
+				{% endif %}
+
+        {% assign check = page.studienleistungen|strip_newlines %}
+				{% if check != ""  %}
+				<dt class="long-item">Studienleistungen</dt>
+        <dd class="long-item">
+        {% include /functions/format-studienleistungen.html studienleistungen=page.studienleistungen %}
+        {{studienleistungen_html}}
+        </dd>
+				{% endif %}
+
 			</dl>
 		</div>
 	</div>

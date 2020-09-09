@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: hls
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -32,8 +36,6 @@ Die Studierenden sollen
 
 ## Inhalt
 Grundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Protokolle, Schnittstellen, Dienste, Architekturmodelle (OSI-Referenzmodell, TCP/IP-Protokollfamilie), Standardisierung, TCP/IP-Protokollfamilie als Grundlage des Internet, Schichtenmodell und Protokolle im Detail, Adressierung, ausgewählte Anwendungen, Klassifizierung von Netzen / Topologien / Technologien, Wegewahl / Vermittlung / Routing, Vermittlungsprinzipien, Routing-Verfahren und  Protokolle, Internet-spezifische Verfahren, Multimedia-Netze, Dienstgüte, Internet-Telefonie, Realisierung von Multimedia-Netzen, Netzsicherheit, grundlegende Begriffe der „IT-Sicherheit“, typische Bedrohungen in Netzen, Beispielszenarien
-
-## Studien-/Prüfungsleistungen
 
 
 ## Medienformen

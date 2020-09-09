@@ -11,18 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 0 (wäre aber wünschenswert)
-  sws: 2
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: general 
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung
+    erstpruefer: me
+    zweitpruefer: hls
 ---
 
 ## Lehrform/SWS
@@ -42,10 +38,6 @@ siehe Theoretische Informatik 1.
 - Modellierung sequentieller und paralleler (Ausgabe-) Prozesse: Endliche Maschinen / Automaten; Automatennetze, Petri-Netze, Zelluläre Automaten
 - Kontextfreie (Typ-2) Sprachen: Kontextfreie Grammatiken, Chomsky-Normalform; Kellerautomaten; Anwendungen (Ableitungs- und Syntaxbäume, Syntax von Programmiersprachen, Backus-Naur-Form)
 - Kontextsensitive (Typ-1) und rekursiv aufzählende (Typ-0) Sprachen: Grammatiken, Turingautomaten, Einführung in die Begriffe: Berechenbarkeit, Entscheidbarkeit und Komplexität
-
-
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung.
 
 ## Literatur
 - Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage

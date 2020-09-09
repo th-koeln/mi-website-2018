@@ -1,6 +1,6 @@
 ---
 title: Spezielle Gebiete der Mathematik
-modulverantwortlich: wk, bn
+modulverantwortlich: wk, dz
 kuerzel: SGM-D
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -13,8 +13,13 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: wk, dz
+    zweitpruefer: wk, dz
 ---
 
 ## Kurzbeschreibung
@@ -43,12 +48,6 @@ Exemplarische Fragestellungen der Mathematik in der Informatik mit beispielhafte
 - gemischt-ganzzahlige Optimierung
 - Simulationsverfahren
 - Differentialgleichung und ihre numerische Lösung
-
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Präsentation (50%)
-- Klausur (50%)
 
 ## Medienformen
 Präsentationsmaterialien, Arbeitsblätter

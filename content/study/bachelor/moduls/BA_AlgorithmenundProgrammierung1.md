@@ -11,17 +11,14 @@ kreditpunkte: 8
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
 layout: modulbeschreibung
 typ: pm
-resources: true
-tutor:
-  anzahl: 1
-  sws: 1
-wma:
-  anzahl: 1
-  sws: 1
-resources-skillset: dev
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: fv
+    zweitpruefer: ck
 ---
 
 ## Lehrform/SWS
@@ -56,8 +53,6 @@ Die Studierenden sollen
 * Elementare Algorithmen und Aufwandsschätzung.
 * Entwicklungsumgebungen.
 
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form) 

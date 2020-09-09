@@ -11,10 +11,14 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung
+    erstpruefer: sk
+    zweitpruefer: hls
 ---
 
 ## Lehrform/SWS
@@ -36,8 +40,6 @@ Die Studierenden sollen die Basiskonzepte und Grundlagen der Betriebssysteme und
 * Betriebssysteme aus Nutzersicht: Dateisysteme, Parallele Prozesse, Sicherheit in Betriebssystemen
 * bei Rechnerkomponenten: grundlegende Architekturen, Darstellung von Daten, interne Bussysteme, Prozessoren, Festplatten, Peripherieschnittstellen, Parallelrechner
 
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung.
 
 ## Literatur
 - Vorlesungsunterlagen: kommentierte Foliensammlung

@@ -11,18 +11,14 @@ kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung, Theoretische Informatik, Audiovisuelles Medienprojekt, Kommunikationstechnik und Netze, Mensch Computer Interaktion, Grundlagen des Web, Betriebssysteme und verteilte Systeme, Screendesign, abgeschlossenes Schwerpunktmodul
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 1
-  sws: 1
-wma:
-  anzahl: 1
-  sws: 1
-resources-skillset: dev  
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Projekt, Projektdokumentation und Meilensteinpräsentationen
+    erstpruefer: gh, hk, me, ck, kf, cn
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -44,7 +40,4 @@ Die Projekte werden in Teams durchgeführt. Zunächst werden von den Teams zwei 
 Aus dem Methoden- und Technikkatalog (siehe Vorlesungen zu den Lehrbereichen) wird in Absprache mit den Lehrenden eine Auswahl der einzusetzenden Entwicklungstechniken und -methoden sowie der einzuhaltenden Entwicklungsmodelle getroffen und Qualitätssicherungsmaßnahmen und das Prozessmanagement definiert. 
 
 Die Lehrenden bieten dann während der Projektdurchführung Beratung bzgl. des adäquaten Einsatzes der gewählten Methoden und Techniken. Zwischenstände des Projektes werden zu definierten Meilensteinen von den Projektteams präsentiert. Die Präsentation der Projektergebnisse findet in einem Plenum mit kritischer Diskussion der Methoden und Ergebnisse statt.
-
-## Studien-/Prüfungsleistungen
-Die Projektergebnis, bestehend aus Prototyp und Dokumentation, geht mit 80% in die Projektnote ein, die Kommunikation der Zwischenergebnisse und des Endergebnisses mit 20%.
 

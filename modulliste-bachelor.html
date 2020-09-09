@@ -9,6 +9,7 @@ layout: default
 {% assign teilmodule = site.modulbeschreibungen-bachelor|where:"typ","tm"|sort:'title' %}
 {% assign wahlpflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","wpm" %}
 {% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %} 
+{% assign alle_module = site.modulbeschreibungen-bachelor|sort:'title' %} 
 
 <section class="section">
 	<div class="container">
@@ -18,10 +19,10 @@ layout: default
 				<thead>
 					<tr>
             <th title="Fachsemester">FS</th>
-						<th width="50%">Modulname</th>
+						<th width="50%">Modulname & Modulverantwortung</th>
 						<th>Kürzel</th>
 						<th>CP</th>
-						<th>Modulverantwortlicher</th>
+						<th>Studienleistungen</th>
 					</tr>
 				</thead>
 				{% for fachsemester in alle_fachsemester %} 
@@ -33,51 +34,58 @@ layout: default
            <td>{{fachsemester}}</td>
 						<td>
 							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
+              {% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
+							<p class="is-small">{{modulverantwortliche}}</p>
 							{% for teilmodulbeschreibung in sorted_teilmodule %}
 								{% if teilmodulbeschreibung.parent == modulbeschreibung.kuerzel %}
 								- <a class="is-small is-less-important" href="{{site.baseurl}}{{teilmodulbeschreibung.url}}">{{teilmodulbeschreibung.title}}</a><br> 
 								{% endif %}
 							{% endfor %}
 						</td>
-            <td>{{modulbeschreibung.kuerzel}}</td>
-						<td>{{modulbeschreibung.kreditpunkte}}</td>
-						<td>
-							{% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
-							{{modulverantwortliche}}
+            <td class="is-small">{{modulbeschreibung.kuerzel}}</td>
+						<td class="is-small">{{modulbeschreibung.kreditpunkte}}</td>
+						<td class="is-small">
+              {% assign studienleistungen=modulbeschreibung.studienleistungen %}
+							{% include /functions/format-studienleistungen.html studienleistungen=studienleistungen %}
+              {{studienleistungen_html}}
 						</td>
 					</tr>
 					{% endfor %}
 					
-					{% if fachsemester == "4" %}					
+					{% if fachsemester == "4" %}
 					{% assign sorted_pages = vertiefungsmodule|sort:'title' %}
 						{% for vertiefungsmodulbeschreibung in sorted_pages %}
 						<tr class="has-top-border">
               <td>4</td>
 							<td>
-								<a href="{{site.baseurl}}{{vertiefungsmodulbeschreibung.url}}">{{vertiefungsmodulbeschreibung.title}}</a><br>
-								{% for teilmodulbeschreibung in teilmodule %}
-									{% if teilmodulbeschreibung.parent == vertiefungsmodulbeschreibung.kuerzel %}
-									<!--a class="is-small is-less-important" href="{{site.baseurl}}{{teilmodulbeschreibung.url}}">{{teilmodulbeschreibung.title}}</a><br--> 
-									{% endif %}
-								{% endfor %}
-							</td>
-							<td class="no-wrap">VPM-{{vertiefungsmodulbeschreibung.kuerzel}}</td>
-							<td>20</td>
-							<td>
-								{% include /functions/resolve-names.html modulverantwortlich=vertiefungsmodulbeschreibung.modulverantwortlich %}
+								<a href="{{site.baseurl}}{{vertiefungsmodulbeschreibung.url}}">{{vertiefungsmodulbeschreibung.title}}</a>
+                <p class="is-small">{% include /functions/resolve-names.html modulverantwortlich=vertiefungsmodulbeschreibung.modulverantwortlich %}
 								{{modulverantwortliche}}
+                </p>
+							</td>
+							<td class="no-wrap is-small">VPM-{{vertiefungsmodulbeschreibung.kuerzel}}</td>
+							<td class="is-small">20</td>
+							<td class="is-small">
 							</td>
 						</tr>
             {% assign kurse = teilmodule|where:"parent",vertiefungsmodulbeschreibung.kuerzel|sort:'title' %}
+            {% assign count = 1 %}
             {% for kurs in kurse %}
-            <tr>
+            <tr class="is-tight {% if count == kurse.size %}last-item{%endif%}">
               <td></td>
-              <td>Teilmodul: <a href="{{site.baseurl}}{{kurs.url}}">{{kurs.title}}</a></td>
-              <td>{{kurs.kuerzel}}</td>
-              <td>{{kurs.kreditpunkte}}</td>
-              <td>{% include /functions/resolve-names.html modulverantwortlich=kurs.modulverantwortlich %}
-								{{modulverantwortliche}}</td>
-            </tr>  
+              {% include /functions/resolve-names.html modulverantwortlich=kurs.modulverantwortlich %}
+              <td class="is-small"><a href="{{site.baseurl}}{{kurs.url}}">{{kurs.title}}</a>
+              <p>{{modulverantwortliche}}</p>
+              </td>
+              <td class="is-small">{{kurs.kuerzel}}</td>
+              <td class="is-small">{{kurs.kreditpunkte}}</td>
+              <td class="is-small">
+                {% assign studienleistungen=kurs.studienleistungen %}
+                {% include /functions/format-studienleistungen.html studienleistungen=studienleistungen %}
+                {{studienleistungen_html}}
+              </td>
+            </tr> 
+            {% assign count = count |plus: 1 %}
             {% endfor %}
             
 						{% endfor %}
@@ -105,3 +113,32 @@ layout: default
 	</div>
 </section>
 
+<section class="section">
+	<div class="container">
+Modulbezeichnung|
+Modulverantwortung|
+Kürzel|
+Studiensemester|
+CP|
+Studienleistungen|
+Erstprüfer*in|
+Zweitprüfer*in|
+Infos zur Prüfungsphase|
+URL zur Modulbeschreibung\n
+{% for modulbeschreibung in alle_module %}
+
+{% include /functions/format-studienleistungen.html studienleistungen=modulbeschreibung.studienleistungen %}
+{% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
+{{modulbeschreibung.title}}|
+{{modulverantwortliche}}|
+{{modulbeschreibung.kuerzel}}|
+{{modulbeschreibung.studiensemester}}|
+{{modulbeschreibung.kreditpunkte}}|
+{{ studienleistungen_art_text }}|
+{{ studienleistungen_erstpruefer_text }}|
+{{ studienleistungen_zweitpruefer_text }}|
+|
+https://th-koeln.github.io/mi-2017{{site.baseurl}}{{modulbeschreibung.url}}\n
+{% endfor %}
+</div>
+</section>

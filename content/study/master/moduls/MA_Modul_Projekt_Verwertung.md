@@ -1,6 +1,6 @@
 ---
-title: Projektarbeit - Assessment/Evaluation, Forschung und Verwertung im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hc, me, ck, gh
+title: Projektarbeit - Forschung, Evaluation/Assessment, Verwertung im Kontext des Studienschwerpunkts
+modulverantwortlich: kf, mw, hc, me, ck, gh, cn
 kuerzel: MIMP-V
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -12,15 +12,14 @@ empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), S
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spp
 parent: 
-resources: true
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: dev 
-schwerpunkt: wtw, sc, vc, mpd, hci
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Prüfungsform ist bei den jeweiligen Fächern angegeben
+    erstpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
+    zweitpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
 ---
 
 ## Kurzbeschreibung
@@ -50,10 +49,18 @@ Das Projekt gliedert sich in zwei Teile:
 - Zur Unterstützung werden Workshops/Seminare nach Verfügbarkeit in den Bereichen Forschung, Produkt Management, Qualitätssicherung und -Management sowie Medien- und Vertragsrecht angeboten.
 
 ## Studien-/Prüfungsleistungen
+<<<<<<< HEAD:content/study/master/moduls/MA_Modul_Projekt_Verwertung.md
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
 
 - Projektergebnis und -dokumentation (50%)
 - Begleitende Workshops / Seminare (50%)
+=======
+Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
+
+- Projekt (50%)
+- Vertiefungsworkshop 1 (25%)
+- Vertiefungsworkshop 2 (25%)
+>>>>>>> b889b40f9189fbe42669455936617e65c4edd0cc:_modulbeschreibungen-master/MA_Modul_Projekt_Verwertung.md
 
 
 ## Medienformen

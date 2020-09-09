@@ -1,0 +1,29 @@
+I"l<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase</p>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden kennen wesentliche Konzepte und Technologien des Game Developments mit Unity 3D und können diese anwenden, um eigenständig im Team Interaktive Applikationen zu konzipieren, realisieren und optimieren.</p>
+
+<p>Die Studierenden kennen die grundlegenden Möglichkeiten von Game Engine Frameworks und sind in der Lage diese kritisch zu beurteilen und auf Basis der Anforderungen eines konkreten Projekts die Umsetzungsmöglichkeiten und Vorgehen zu evaluieren und entsprechende Strategien zu entwickeln, sowie kritisch die benötigten Bibliotheken und Komponenten auszuwählen und diese Wahl zu begründen.</p>
+
+<p>Die Kursteilnehmer sammeln im Rahmen ihres eigenständig entwickelten Projektes Erfahrungen in der Entwicklung von Kleinprojekten bis mindestens zum Grad einer spielbaren Alphaversion oder eines Prototypen.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Aufbau einer Game Engine</li>
+  <li>Gameobjects</li>
+  <li>Game Physics</li>
+  <li>Interaktion</li>
+  <li>Spielmechaniken</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Unity 3D API (<a href="https://docs.unity3d.com/ScriptReference/">https://docs.unity3d.com/ScriptReference/</a>)</li>
+  <li>Unity 3D Manual (<a href="https://docs.unity3d.com/Manual/index.html">https://docs.unity3d.com/Manual/index.html</a>)</li>
+  <li>Unity Tutorials (<a href="https://unity3d.com/de/learn/tutorials">https://unity3d.com/de/learn/tutorials</a>)</li>
+  <li>Ian Millington, John Funge,  Artificial Intelligence For Games, Second Edition, CRC Press, 2009</li>
+  <li>Mat Buckland,  Programming Game AI by Example, Wordware Game Developers Library, 2004</li>
+  <li>Steve Rabin et al.,  AI Game Programming Wisdom 1-4, Cengage Learning</li>
+</ul>
+:ET

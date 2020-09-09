@@ -13,8 +13,12 @@ empfohleneVoraussetzungen:
 infourl: 
 published: true
 layout: modulbeschreibung
-
 typ: pm
+studienleistungen:
+  Einzelleistung:
+    art: Mündliche Prüfung, Vortrag, Fachgespräch
+    erstpruefer: all
+    zweitpruefer: all
 ---
 
 ## Lehrform/SWS
@@ -28,6 +32,3 @@ Das Kolloquium dient der Feststellung, ob der Prüfling befähigt ist, die Ergeb
 
 ## Inhalt
 Vortrag über das Thema der Bachelorarbeit, Fachdiskussion und mündliche Verteidigung der Arbeit im Kontext der Medieninformatik.
-
-## Studien-/Prüfungsleistungen
-mündliche Prüfung, Vortrag

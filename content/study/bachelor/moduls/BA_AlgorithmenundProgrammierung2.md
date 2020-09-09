@@ -11,18 +11,14 @@ kreditpunkte: 7
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1
 published: true
-infourl: 
-layout: modulbeschreibung
-
 typ: pm
-resources: true
-tutor:
-  anzahl: 1
-  sws: 1
-wma:
-  anzahl: 1
-  sws: 1
-resources-skillset: dev
+layout: modulbeschreibung
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS
@@ -48,9 +44,6 @@ Die Studierende sollen Objektorientierung, die Prinzipien der Algorithmenentwick
 * Dictionaries
 * Methodik des objektorientierten Programmierens
 
-## Studien-/Prüfungsleistungen
-
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Medienformen
 

@@ -12,7 +12,6 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spmw
 ---
 

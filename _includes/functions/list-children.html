@@ -1,0 +1,9 @@
+{% assign parent = include.parent %}
+{% assign teilmodule = site.modulbeschreibungen-bachelor|where:"typ","tm"|sort:'title' %}
+{% assign kurse = teilmodule|where:"parent",parent|sort:'title' %}
+{% assign count = 1 %}
+<ul>
+{% for kurs in kurse %}
+  <li><a href="{{site.baseurl}}{{kurs.url}}">{{kurs.title}}</a></li>
+{% endfor %}
+</ul>

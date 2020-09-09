@@ -11,10 +11,15 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 infourl: 
 layout: modulbeschreibung
-
 typ: wpm
 parent:
 schwerpunkt: hci
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS

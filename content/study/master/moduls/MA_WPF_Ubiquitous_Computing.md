@@ -1,6 +1,6 @@
 ---
 title: Ubiquitous Computing
-modulverantwortlich: Matthias Böhmer
+modulverantwortlich: mboehmer
 kuerzel: UC
 studiensemesterWs: 3
 studiensemesterSs: 2
@@ -14,6 +14,11 @@ layout: modulbeschreibung
 
 typ: wpm
 parent: WPM
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

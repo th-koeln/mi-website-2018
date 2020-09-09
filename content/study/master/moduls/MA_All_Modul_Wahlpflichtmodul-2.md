@@ -12,8 +12,13 @@ published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: siehe Modulbeschreibung des gewählten Moduls
+    erstpruefer: 
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

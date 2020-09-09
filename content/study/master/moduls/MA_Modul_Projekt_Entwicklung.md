@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Entwicklung im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hk, me, ck, gh
+modulverantwortlich: kf, mw, hk, me, ck, gh, cn
 kuerzel: MIMP-E
 studiensemesterWs: 2
 studiensemesterSs: 3
@@ -12,15 +12,14 @@ empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), S
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spp
 parent:
-resources: true
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: dev 
-schwerpunkt: wtw, sc, vc, mpd, hci
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Die Prüfungsform wird in den jeweiligen Fächern beschrieben (Projekt (50%), Projektmanagement (25%), Code Management (Beautiful Code) (25%)).
+    erstpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
+    zweitpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
 ---
 
 ## Kurzbeschreibung
@@ -42,6 +41,7 @@ Die Studierenden
 - können ihr Projekt so dokumentieren, dass es von einem anderen Team weitergeführt und -entwickelt werden kann.
 
 ## Inhalt
+<<<<<<< HEAD:content/study/master/moduls/MA_Modul_Projekt_Entwicklung.md
 
 Das Projekt gliedert sich in zwei Teile:
 
@@ -55,6 +55,14 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 - Projektpräsentation und -dokumentation (50%)
 - Projektmanagement (25%)
 - Code-Management (Beautiful Code) (25%)
+=======
+
+Das Projekt gliedert sich in drei Teile:
+
+- In der eigentlichen Projektarbeit wird ein Prototyp zu einer komplexeren Aufgabenstellung und einem gegebenen Konzepot im Rahmen eines betreuten Forschungs- und Entwicklungsprojekts entwickelt (ggf. auch in Kooperation mit externen Partnern). Die Betreuer definieren zusammen mit den Studierenden die Zielsetzung und führen mit den Studierenden einen regelmäßigen Diskurs über den Fortgang des Projekts. Sie vereinbaren außerdem Meilensteine, deren Ergebnisse in geeigneter Form in die Endnote einfließen. Kommunikations- und Kooperationsformen werden vorab gemeinsam zwischen Betreuern und Studierenden festgelegt und in periodischen Abständen gemeinsam reflektiert.
+- Projektmanagement 
+- Code-Management (Beautiful Code)
+>>>>>>> b889b40f9189fbe42669455936617e65c4edd0cc:_modulbeschreibungen-master/MA_Modul_Projekt_Entwicklung.md
 
 ## Medienformen
 Entwicklungsumgebung mit Artefakt-Repository, Kollaborationssysteme

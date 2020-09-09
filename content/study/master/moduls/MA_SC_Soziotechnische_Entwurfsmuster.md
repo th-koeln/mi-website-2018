@@ -12,10 +12,15 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM2
 schwerpunkt: sc
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: schriftliche Ausarbeitung (100%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS

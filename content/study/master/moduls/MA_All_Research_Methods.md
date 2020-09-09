@@ -13,6 +13,12 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Lernportfolio (30%), Projektarbeit (70%)
+    erstpruefer: gh, mbluemm
+    zweitpruefer: gh, mbluemm
 ---
 
 ## Lehrform/SWS
@@ -38,11 +44,6 @@ Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwend
 - empirische und analytische Ansätze
 - in-vivo vs. in-vitro Rahmenbedinungen bei empirischen Methoden
 - Datenweiterverarbeitung und Ergebnisinterpretation und -präsentation
-
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- schriftliche Modulprüfung (100%)
 
 ## Medienformen
 - beamergestützte Vorlesung

@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Vision und Konzept im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hc, me, ck, gh
+modulverantwortlich: kf, mw, hc, me, ck, gh, cn
 kuerzel: MIMP-K
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -12,15 +12,13 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik (Bachelor), Mensc
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spp
-parent: 
-resources: true
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: dev 
-schwerpunkt: wtw, sc, vc, mpd, hci
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Die Prüfungsform ist bei den jeweiligen Fächern angegeben.
+    erstpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
+    zweitpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
 ---
 
 ## Kurzbeschreibung
@@ -48,10 +46,14 @@ Das Projekt gliedert sich in zwei Teile:
 - In dem Teil „Advanced Seminar“ recherchieren und erschließen die Studierenden im Selbststudium für den Projektgegenstand relevante Literatur zum Stand von Wissenschaft und Technik. Sie wenden auch Analysetechniken für die Bewertung vorhandener kommerziellen Lösungen an. Hierbei kann es sich sowohl um Konkurrenzprodukte handeln als auch um Dienste oder Frameworks, auf die der Projektgegenstand aufbauen könnte. Als Schwerpunkt dieses Teils identifizieren die Studierenden wissenschaftliche Felder, die für den Projektgegenstand relevant sind, recherchieren entsprechende Literatur und vermitteln und diskutieren diese in einem wissenschaftlichen Seminar.
 
 ## Studien-/Prüfungsleistungen
+<<<<<<< HEAD:content/study/master/moduls/MA_Modul_Projekt_Vision&Konzept.md
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
+=======
+Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
+>>>>>>> b889b40f9189fbe42669455936617e65c4edd0cc:_modulbeschreibungen-master/MA_Modul_Projekt_Vision&Konzept.md
 
 - Advanced Seminar (50%)
-- Projektergebnis und -dokumentation (50%)
+- Projekt (50%)
 
 ## Medienformen
 Artefakt-Repository, Kollaborationssysteme

@@ -14,13 +14,12 @@ empfohleneVoraussetzungen:
 published: true
 infourl: https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/
 layout: modulbeschreibung
-
 typ: pm
-resources: true
-wma:
-  anzahl: 1
-  sws: 6
-resources-skillset: general
+studienleistungen:
+  Einzelleistung:
+    art: Seminarvortrag und Abstract zur Praxisprojektarbeit
+    erstpruefer: cn
+    zweitpruefer: all
 ---
 
 ## Lehrform/SWS
@@ -46,9 +45,6 @@ Das Praxisprojektseminar besteht aus
 - Veranstaltungen in denen Techniken wissenschaftlichen Arbeitens vermittelt werden,
 - Audits über den aktuellen Stand ihres Projektes,
 - Fachvorträgen von Studierenden über ihre Projektergebnisse.
-
-## Studien-/Prüfungsleistungen
-Seminarvortrag zur Praxisprojektarbeit
 
 ## Literatur
 - Rechenberg: Technisches Schreiben (nicht nur) für Informatiker, 2. Aufl, Hanser Verlag 2003

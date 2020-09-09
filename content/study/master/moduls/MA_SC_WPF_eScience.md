@@ -11,9 +11,15 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung
-
 typ: wpm
 parent: WPM
+schwerpunkt: sc
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Lehrform/SWS 

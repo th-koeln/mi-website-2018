@@ -1,0 +1,32 @@
+I"<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+<p>Gesamtaufwand 150h, davon</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Übung</li>
+  <li>78h Selbstlernphase</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>siehe Theoretische Informatik 1.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Reguläre (Typ-3) Sprachen: Endliche Automaten, Reguläre Ausdrücke; Typ3-Grammatiken, Zustandsübergangsdiagramme; Chomsky-Hierarchie</li>
+  <li>Modellierung sequentieller und paralleler (Ausgabe-) Prozesse: Endliche Maschinen / Automaten; Automatennetze, Petri-Netze, Zelluläre Automaten</li>
+  <li>Kontextfreie (Typ-2) Sprachen: Kontextfreie Grammatiken, Chomsky-Normalform; Kellerautomaten; Anwendungen (Ableitungs- und Syntaxbäume, Syntax von Programmiersprachen, Backus-Naur-Form)</li>
+  <li>Kontextsensitive (Typ-1) und rekursiv aufzählende (Typ-0) Sprachen: Grammatiken, Turingautomaten, Einführung in die Begriffe: Berechenbarkeit, Entscheidbarkeit und Komplexität</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage</li>
+  <li>Vossen, G., Witt K. (2004): Grundlagen der Theoretischen Informatik mit Anwendungen. 3. Aufl.  Vieweg &amp; Sohn, Braunschweig.</li>
+  <li>Hedtstück, U. ( 2004 ): Einführung in die Theoretische Informatik. Oldenbourg, München.</li>
+  <li>Asteroth, A., Baier, C. (2002) Theoretische Informatik. Pearson Studium München</li>
+  <li>Hopcroft, J. E.  et al. (2002): Einführung in die Automatentheorie, Formale Sprachen und Komplexitätstheorie. Pearson Studium, München.</li>
+  <li>Schöning, U. (1997): Theoretische Informatik - kurzgefaßt. 3. Aufl. Spektrum Akademischer Verlag, Heidelberg.</li>
+</ul>
+:ET

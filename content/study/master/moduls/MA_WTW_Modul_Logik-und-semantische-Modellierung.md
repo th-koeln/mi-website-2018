@@ -14,6 +14,11 @@ layout: modulbeschreibung
 typ: wpm
 parent: 
 schwerpunkt: mpd
+studienleistungen:
+  Einzelleistung:
+    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    erstpruefer: ck
+    zweitpruefer: 
 ---
 
 ## Kurzbeschreibung

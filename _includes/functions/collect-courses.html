@@ -10,7 +10,10 @@
 {% for modul in module %}
 
 {% comment %}  Wenn dies ein Modul des aktuellen Dozenten ist, dann selbiges speichern {% endcomment %} 
-{% if(modul.modulverantwortlich contains dozent[0]) %}
+
+{% assign modulverantwortliche = modul.modulverantwortlich|split:", " %}
+{% for modulverantwortlich in modulverantwortliche %}
+{% if(modulverantwortlich == dozent[0]) %}
 
 {% comment %}  Liegt das Modul im Sommersemester oder Wintersemester? {% endcomment %} 
 {% assign value = modul.studiensemester|modulo:2 %}
@@ -37,6 +40,7 @@
 
 {% endif %}
 {% endfor %}
+{% endfor %}
 
 
 {% comment %}  Modulbeschreibungen Master auslesen und durch iterieren{% endcomment %} 
@@ -44,7 +48,9 @@
 {% for modul in module_master %}
 
 {% comment %}  Wenn dies ein Modul des aktuellen Dozenten ist, dann selbiges speichern {% endcomment %} 
-{% if(modul.modulverantwortlich contains dozent[0]) %}
+{% assign modulverantwortliche = modul.modulverantwortlich|split:", " %}
+{% for modulverantwortlich in modulverantwortliche %}
+{% if(modulverantwortlich == dozent[0]) %}
 
 {% comment %}  Liegt das Modul im Sommersemester oder Wintersemester? {% endcomment %} 
 {% assign value = modul.studiensemesterWs|modulo:2 %}
@@ -72,6 +78,7 @@
 {% endif %}
 
 {% endif %}
+{% endfor %}
 {% endfor %}
 
 

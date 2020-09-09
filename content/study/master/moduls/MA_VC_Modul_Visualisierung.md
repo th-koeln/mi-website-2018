@@ -11,15 +11,15 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Web Architekturen (Bachelor) bzw. Kenntnisse in HTML
 published: true
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM3
-resources: true
-wma:
-  anzahl: 1
-  sws: 2
-resources-skillset: dev 
 schwerpunkt: vc
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: 2 Fachvorträge (je 30%), Projektpräsentation und -dokumentation (40%)
+    erstpruefer: chh
+    zweitpruefer: me
 ---
 
 ## Kurzbeschreibung
@@ -64,10 +64,6 @@ Im speziellen, aber nicht ausschließlich, werden folgende Themen behandelt:
 - Kognition
 - Story Telling
 
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- 2 Fachvorträge (je 30%)
-- Projektpräsentation und -dokumentation (40%)
 
 ## Medienformen
 - Beamergestützte Vorlesung

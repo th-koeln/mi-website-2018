@@ -1,0 +1,34 @@
+{% assign studienleistungen = include.studienleistungen %}
+{% capture studienleistungen_html %}
+
+{% for studienleistung in studienleistungen %}
+  <strong>{{studienleistung[1].art}}:</strong> 
+  {% assign erstpruefer = studienleistung[1].erstpruefer|downcase %}
+  {% include /functions/resolve-names.html verantwortlich=erstpruefer %}
+  Erstprüfer {{verantwortliche}} // 
+  {% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}
+  {% include /functions/resolve-names.html verantwortlich=zweitpruefer %}
+  Zweitprüfer bzw. Beisitzer {{verantwortliche}}<br>
+{% endfor %}
+
+{% endcapture %}
+
+{% capture studienleistungen_text %}{% for studienleistung in studienleistungen %}{{studienleistung[1].art}}:{% assign erstpruefer = studienleistung[1].erstpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=erstpruefer %} Erstprüfer {{verantwortliche}} {% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=zweitpruefer %}Zweitprüfer bzw. Beisitzer {{verantwortliche}}; {% endfor %}{% endcapture %}
+
+{% capture studienleistungen_art_text %}{% for studienleistung in studienleistungen %}{{studienleistung[1].art}}, {% endfor %}{% endcapture %}
+
+{% capture studienleistungen_erstpruefer_text %}{% for studienleistung in studienleistungen %}{% assign erstpruefer = studienleistung[1].erstpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=erstpruefer %}{{verantwortliche}}, {% endfor %}{% endcapture %}
+
+{% capture studienleistungen_zweitpruefer_text %}{% for studienleistung in studienleistungen %}{% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=zweitpruefer %}{{verantwortliche}}, {% endfor %}{% endcapture %}
+
+{% assign size = studienleistungen_art_text | size | minus: 2 %}
+{% assign studienleistungen_art_text = studienleistungen_art_text | slice: 0, size %}
+
+{% assign size = studienleistungen_erstpruefer_text | size | minus: 2 %}
+{% assign studienleistungen_erstpruefer_text = studienleistungen_erstpruefer_text | slice: 0, size %}
+
+{% assign size = studienleistungen_zweitpruefer_text | size | minus: 2 %}
+{% assign studienleistungen_zweitpruefer_text = studienleistungen_zweitpruefer_text | slice: 0, size %}
+
+
+

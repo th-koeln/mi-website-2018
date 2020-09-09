@@ -3,6 +3,7 @@
 
 {% assign verantwortliche = (verantwortliche | concat: moduleverantwortliche) %}
 {% assign ms = ""|split:"|"  %}
+
 {% for verantwortlich in verantwortliche %}
 {% assign verantwortlich_clean = verantwortlich|lstrip %}
 {% assign ms = ms|push: site.data.people[verantwortlich_clean].name %}

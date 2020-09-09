@@ -11,10 +11,14 @@ kreditpunkte: 8
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Mathematik I
 published: true
-infourl: 
 layout: modulbeschreibung
-
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: wk
+    zweitpruefer: aschmitter
 ---
 
 ## Lehrform/SWS
@@ -39,9 +43,6 @@ Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Syste
 * Kombinatorik, Wahrscheinlichkeitsrechnung und Statistik, 
 * Komplexe Zahlen, 
 * Differentialgleichungen.
-
-## Studien-/Prüfungsleistungen
-Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
 
 ## Literatur
 * s. Literaturliste auf der Homepage [www.gm.fh-koeln.de/~konen](http://www.gm.fh-koeln.de/~konen)

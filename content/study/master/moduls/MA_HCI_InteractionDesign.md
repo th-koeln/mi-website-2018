@@ -13,10 +13,15 @@ empfohleneVoraussetzungen: Basismodul Mensch-Computer Interaktion, so wie durch 
 published: true
 infourl: 
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM2
 schwerpunkt: hci, mpd
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: Projektarbeit
+    erstpruefer: gh
+    zweitpruefer: ck
 ---
 
 ## Lehrform/SWS
@@ -43,10 +48,6 @@ Die Studierenden haben konzeptionelles Design (Conceptual Design) verstanden, k�
 - Sketching und Prototyping Techniken
 - Case Studies
 - Evaluationsmethoden und –techniken
-
-## Studien-/Prüfungsleistungen
-Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-Projektdokumentation und Designartefakte (100%)
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen

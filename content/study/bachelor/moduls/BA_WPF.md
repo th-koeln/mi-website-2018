@@ -14,6 +14,12 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: pm
+infourl: 
+studienleistungen:
+  Einzelleistung:
+    art: abhängig vom jeweiligen WPF
+    erstpruefer: all
+    zweitpruefer: all
 ---
 
 ## Arbeitsaufwand

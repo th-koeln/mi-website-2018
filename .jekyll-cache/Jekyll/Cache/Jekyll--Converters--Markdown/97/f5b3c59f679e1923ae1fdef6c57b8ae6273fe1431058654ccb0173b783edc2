@@ -1,0 +1,63 @@
+I"j<h2 id="lehrformsws">Lehrform/SWS</h2>
+
+<p>4 SWS: Vorlesung 2 SWS; Übung 1 SWS; Praktikum 1 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+
+<p>Gesamtaufwand 150h, davon</p>
+
+<ul>
+  <li>36h Vorlesung</li>
+  <li>18h Praktikum</li>
+  <li>18h Übung</li>
+  <li>78h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+
+<p>Die Studierenden sollen</p>
+
+<ul>
+  <li>über ein einheitliches konsistentes Begriffsgebäude bezüglich der Datenbankthematik verfügen,</li>
+  <li>die theoretischen Grundlagen von Datenbanksystemen am Beispiel relationaler und objektrelationaler Datenbanksysteme verstanden haben, insbesondere die relationale Algebra, die Normalisierung sowie funktionale Abhängigkeiten</li>
+  <li>in der Lage sein, diese Erkenntnisse im Rahmen der Modellierung und Implementierung von Datenbankschemata praktisch anzuwenden,</li>
+  <li>komplexere Datenbankanfragen, Datendefinitionen und Datenänderungen über SQL programmieren  können</li>
+  <li>ein SQL-Statement tunen können</li>
+  <li>mit dem Transaktionsbegriff, der Mehrbenutzersynchronisation und Verfahren zur Fehlererholung sowie zur Sicherung der Datenintegrität vertraut sein</li>
+</ul>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Grundbegriffe und Architektur von Datenbanken</li>
+  <li>Ein Vorgehensmodell zur Erstellung eines Datenbanksystems</li>
+  <li>Grundlagen des relationalen Modells</li>
+  <li>Relationale Algebra</li>
+  <li>Anfrageoptimierung</li>
+  <li>Funktionale Abhängigkeiten</li>
+  <li>Datenintegrität</li>
+  <li>Normalisierung</li>
+  <li>Datenmodellierung (Entity Relationship Modell) und Implementierung am Beispiel eines relationalen Datenbanksystems</li>
+  <li>Datenbanksprache SQL: DDL, DML, DAL, Integritätsbedingungen und Constraints unter dem jeweils aktuellen SQL-Standard, zur Zeit SQL2013</li>
+  <li>Transaktionskonzepte, Mehrbenutzersynchronisation, Fehlererholung und Datensicherheit</li>
+</ul>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Folien gestützer Vortrag - aber nur sehr selten</li>
+  <li>I.d.R. erarbeiten der Theorie anhand von überschaubaren Problemstellungen und deren in der Veranstaltung entwickelten Lösungen - hauptsächliches Vorgehen</li>
+  <li>Fragen der Studierenden beantworten - sehr erwünscht!</li>
+  <li>Ilias zur Bereitstellung aller Informationen (Aktuelles, Links, Folien, Praktikums-/Übungsaufgaben, wie auch Lösungen)</li>
+  <li>edb, die DB-eLearning-Plattform der TH Köln</li>
+  <li>DB-Wiki, das Online Lexikon für Datenbank-Themen</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Elmasri, R.; Navathe, S. B.: Grundlagen von Datenbanksystemen. Pearson‐Studium. 2009</li>
+  <li>Faeskorn‐Woyke, H.; Bertelsmeier, B.; Riemer, P.; Bauer, E.: Datenbanksysteme ‐ Theorie und Praxis mit SQL2003, Oracle und MySQL. Pearson‐Studium. 2. Aufl. 2011</li>
+  <li>Kemper, A.; Eickler, A.: Datenbanksysteme – Eine Einführung. Oldenbourg‐Verlag, 2015</li>
+  <li>Saake, G., Sattler, K.‐U.; Heuer, A.: Datenbanken ‐ Konzepte und Sprachen. Mitp/bhv, 2013</li>
+  <li>Vossen, G.: Datenmodelle, Datenbanksprachen, Datenbankmanagementsysteme. Oldenbourg‐Verlag, 2008</li>
+</ul>
+
+:ET
