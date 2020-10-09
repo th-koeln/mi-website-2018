@@ -77,7 +77,7 @@ layout: default
 {% for modul in module %}
 
 <!-- Liegt das Modul im Sommersemester oder Wintersemester? -->
-{% assign value = modul.studiensemester-ws|modulo:2 %}
+{% assign value = modul.studiensemesterWs|modulo:2 %}
 
 {% if modul.title != "Wahlpflichtmodul" %}
 	{% if value == 0 %}
@@ -87,7 +87,6 @@ layout: default
 	{% endif %}
 {% endif %}
 {% endfor %}
-
 <hr>
 
 <section class="section">
