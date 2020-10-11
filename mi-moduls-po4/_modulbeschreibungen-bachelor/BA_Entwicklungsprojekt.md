@@ -13,11 +13,11 @@ empfohleneVoraussetzungen: Algorithmen und Programmierung, Theoretische Informat
 published: true
 layout: modulbeschreibung
 typ: pm
-infourl: 
+infourl: https://ilias.th-koeln.de/goto.php?target=crs_1328242&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und Meilensteinpräsentationen
-    erstpruefer: gh, hk, me, ck, kf, cn
+    erstpruefer: gh, hk, mbl, kf, cn
     zweitpruefer: 
 ---
 

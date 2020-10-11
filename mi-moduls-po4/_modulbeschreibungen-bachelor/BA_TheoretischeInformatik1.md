@@ -1,6 +1,6 @@
 ---
 title: Theoretische Informatik 1
-modulverantwortlich: me
+modulverantwortlich: il
 modulniveau: bachelor
 kuerzel: TI1
 untertitel:
@@ -17,7 +17,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
-    erstpruefer: me
+    erstpruefer: il
     zweitpruefer: hls
 ---
 

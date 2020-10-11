@@ -1,6 +1,6 @@
 ---
 title: Einführung in die Medieninformatik
-modulverantwortlich: cn, me, hk, gh
+modulverantwortlich: cn, mbl, il, hk, gh
 modulniveau: bachelor
 kuerzel: EMI
 untertitel:
@@ -13,11 +13,11 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
-infourl: 
+infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
-    erstpruefer: hk, gh, cn, me
+    erstpruefer: hk, gh, cn, kf, mbl
     zweitpruefer: uwm, vos, cok, erw
 
 ---
