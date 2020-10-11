@@ -1,0 +1,30 @@
+I"l<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>Vorlesung, Praktikum</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden sollen</p>
+
+<ul>
+  <li>Prinzipien und Grundlagen von technischen Kommunikations­vor­gängen kennen lernen,</li>
+  <li>Protokolle als wesentliche Grundlage der Kommunikationstechnik im Detail verstehen (Internet-Protokolle, Multimedia-Protokolle, TK-Protokolle, Dienste)</li>
+  <li>Einsatz und Nutzung von Kommunikations­tech­nik praxistypisch kennen lernen,</li>
+  <li>in der Lage sein, selbstständig Netzstrukturen zu bewerten, Netze zu analysieren und zu konzipieren (unter Anwendung von Netz­analyse­werkzeugen und -methoden).</li>
+</ul>
+
+<h2 id="inhalt">Inhalt</h2>
+<p>Grundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Protokolle, Schnittstellen, Dienste, Architekturmodelle (OSI-Referenzmodell, TCP/IP-Protokollfamilie), Standardisierung, TCP/IP-Protokollfamilie als Grundlage des Internet, Schichtenmodell und Protokolle im Detail, Adressierung, ausgewählte Anwendungen, Klassifizierung von Netzen / Topologien / Technologien, Wegewahl / Vermittlung / Routing, Vermittlungsprinzipien, Routing-Verfahren und  Protokolle, Internet-spezifische Verfahren, Multimedia-Netze, Dienstgüte, Internet-Telefonie, Realisierung von Multimedia-Netzen, Netzsicherheit, grundlegende Begriffe der „IT-Sicherheit“, typische Bedrohungen in Netzen, Beispielszenarien</p>
+
+<h2 id="medienformen">Medienformen</h2>
+<ul>
+  <li>Vorlesung im Hörsaal (PowerPoint und Beamer)</li>
+  <li>Praktikum an Rechnern des KTDS-Labors; Ressourcen: Netzanalysesoftware,div. Netzüberwachungssoftware, E-Mail-Server und -Clients, DNS-Server, ggf. weitereServer-Implementierungen</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Wird in der Veranstaltung bekannt gegeben</li>
+</ul>
+
+:ET

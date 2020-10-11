@@ -1,0 +1,74 @@
+I"'<h2 id="lehrformsws">Lehrform/SWS:</h2>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die Studierenden sollen befähigt werden,</p>
+
+<ul>
+  <li>
+    <p>Die Software-Qualitätssicherung als integralen Teil der Softwareentwicklung zur Wahrung und Darlegung der Qualität von Softwareprodukten zu verstehen;</p>
+  </li>
+  <li>
+    <p>Methoden, Techniken und Werkzeuge der SoftwareQualitätsicherung in den Teststufen Abnahmetest, Systemtest, Integrationstest und Komponententest einzusetzen.</p>
+  </li>
+  <li>
+    <p>Spezifikationen und Modelle zu interpretieren, zu analysieren, zu bewerten und hinsichtlich vorgegebener Teststrategien zur Ableitung von Testfällen auszuwerten.</p>
+  </li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>
+    <p>Grundlagen des Softwaretestens (Warum sind Softwaretests notwendig?  Was ist Softwaretesten? Allgemeine Prinzipien des Softwaretestens;  Fundamentaler Testprozess; Die Psychologie des Testens);</p>
+  </li>
+  <li>
+    <p>Testen im Softwarelebenszyklus (Softwareentwicklungsmodelle; Teststufen; Testziele  und Testarten);</p>
+  </li>
+  <li>
+    <p>Statischer Test (Reviews; Werkzeuggestützte statische Analyse);</p>
+  </li>
+  <li>
+    <p>Testfallentwurfsverfahren (Spezifikationsorientierte oder Blackbox  Verfahren; Strukturorientierte oder Whitebox Verfahren;  Erfahrungsbasierte Verfahren; Auswahl von Testverfahren);</p>
+  </li>
+  <li>
+    <p>Testmanagement (Testorganisation; Testplanung und –schätzung;  Testfortschrittsüberwachung und –steuerung; Konfigurationsmanagement;  Risiko und Testen; Abweichungsmanagement / Fehlermanagement);</p>
+  </li>
+  <li>
+    <p>Testwerkzeuge (Typen von Testwerkzeugen; Effektive Anwendung von Werkzeugen; Spezielle Betrachtungen zu einigen Werkzeugarten).</p>
+  </li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Klausur 120 Min.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<ul>
+  <li>
+    <p>Beamer-gestützte Vorlesungen (Folien in elektroni­scher Form im Netz);</p>
+  </li>
+  <li>
+    <p>Vertiefende Unterlagen sowie aktuelle Artikel (in elektronischer Form im Netz);</p>
+  </li>
+  <li>
+    <p>Übungen und Praktika in Kleingruppen, um die erlernten Methoden und Techniken einzuüben und zu vertiefen (Seminarraum, Rechnerlabor);</p>
+  </li>
+</ul>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>ISTQB® / TAV Standard Glossar der Testbegriffe. GTB, Erlangen, 2010</p>
+  </li>
+  <li>
+    <p>Linz, Tilo und Spillner, Andreas: Basiswissen Softwaretest, Aus- und Weiterbildung zum Certified Tester Foundation Level nach ISTQB® -Standard. 5., überarbeitete Auflage, dpunkt.Verlag, Heidelberg, 2012</p>
+  </li>
+  <li>
+    <p>Liggesmeyer, Peter: Software-Qualität. 2. Aufl., Spektrum Akademischer Verlag, Heidelberg, 2010</p>
+  </li>
+  <li>
+    <p>Spillner, Andreas; Roßner, Thomas; Winter, Mario; Linz, Tilo: Praxiswissen Softwaretest – Testmanagement Aus- und Weiterbildung zum Certified Tester, Advanced Level, nach ISTQB-Standard. 3. Aufl., dpunkt.verlag, Heidelberg, 2010</p>
+  </li>
+</ul>
+
+:ET

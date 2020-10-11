@@ -1,0 +1,74 @@
+I"�	<h2 id="lehrformsws">Lehrform/SWS:</h2>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+
+<h2 id="inhalt">Inhalt:</h2>
+<p>Geodatenbanken sind essentieller Bestandteil von Geoinformationssystemen (GIS) und eine Anwendung von objektrelationalen Datenbanken. Mit dem Erfolg von Google Maps, Google Earth und dem freien OpenStreetMap-Projekt finden GIS-Systeme ein weit verbreitetes Interesse und viele Anwendungsfelder. Im WPF GIS werden Grundlagen und Anwendungsgebiete dieser Systeme behandelt. Als GIS-System wird ARGGIS der Firma Esri vorgestellt und vertieft.</p>
+
+<p>Das Fach wird  gemeinsam mit Herrn Prof. Dr. Roehrig vom Institut für Tropentechnologie (  ITT  )angeboten und kann auch in englischer Sprache belegt werden.</p>
+
+<p>Inhalt:</p>
+
+<ul>
+  <li>
+    <p>Grundlagen von Geoinformationssystemen</p>
+  </li>
+  <li>
+    <p>Räumliche Datenmodelle</p>
+  </li>
+  <li>
+    <p>SQL/MM Spatial Räumliche</p>
+  </li>
+  <li>
+    <p>Bezugssysteme</p>
+  </li>
+  <li>
+    <p>Geometrische Algorithmen,</p>
+  </li>
+  <li>
+    <p>Indexierung von Geodaten</p>
+  </li>
+  <li>
+    <p>Geometrische Basisanfragen,</p>
+  </li>
+  <li>
+    <p>Geography Markup Language (GML)</p>
+  </li>
+  <li>
+    <p>OpenLayers: Javascript-Bibliothek für Geo-WEB-Anwendungen</p>
+  </li>
+  <li>
+    <p>Openstreetmap, ein offenes Projekt mit Geodaten.</p>
+  </li>
+  <li>
+    <p>ARCGIS mit Prigarmmierung in JAVA,. .NET oder python</p>
+  </li>
+  <li>
+    <p>web map-services mit flex API*</p>
+  </li>
+  <li>
+    <p>Google-Earth, google map und streetview Anbindung</p>
+  </li>
+</ul>
+
+<p>Prüfungsleistung: Referat und Ausarbeitung/Wiki-Eintrag</p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Referat/ Ausarbeitung/WIKI-Eintrag</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+
+<h2 id="literatur">Literatur:</h2>
+<p>Thomas Brinkhoff, “Geodatenbanksysteme in Theorie und Praxis: Einführung in objektrelationale Geodatenbanken unter besonderer Berücksichtigung von Oracle Spatial“, Wichmann, 2008</p>
+
+<p>Kudraß, Thomas, „Taschenbuch der Datenbanken“, Fachbuchverlag Leipzig, 2007, darin Kapitel 16, Geodatenbanken.</p>
+
+<p>Christian Strobl, „ Open Source GIS: Einführung und Übersicht“  , Wichmann Herbert, 2010</p>
+
+<p>Marc Jansen, Till Adams, OpenLayers. Webentwicklung mit dynamischen Karten und Geodaten, Open Source Press, 2010</p>
+
+<p>http://www.openstreetmap.de/</p>
+
+:ET

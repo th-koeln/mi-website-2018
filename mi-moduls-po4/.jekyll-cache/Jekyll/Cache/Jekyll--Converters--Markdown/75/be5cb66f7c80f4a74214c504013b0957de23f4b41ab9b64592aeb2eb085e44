@@ -1,0 +1,39 @@
+I"<h2 id="aufwand">Aufwand</h2>
+<p>60h Vorlesung/ Seminar; 90h Selbstlernphase</p>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+
+<p>Die Studierenden kennen wesentliche Konzepte und Technologien des Web-Frontend Developments und können diese anwenden, um eigenständig im Team Web-Frontends zu konzipieren, realisieren und optimieren.</p>
+
+<p>Die Studierenden sind in der Lage ein gegebenes Gestaltungskonzept zu verstehen und zu erweitern, um dies als Web-Frontend umzusetzen.</p>
+
+<p>Die Studierenden kennen Web-Frontend Frameworks und sind in der Lage diese kritisch zu beurteilen und auf Basis der Anforderungen eines konkreten Projekts das optimale Framework Set zu konfektionieren und die Auswahl zu begründen.</p>
+
+<p>Die Studierenden kennen das Zusammenspiel von server- und clientseitigen Komponenten im Bereich des Webs und können Web-Frontends konzipieren und realisieren, die mit serverseitigen Komponenten und Diensten möglichst optimal zusammen arbeiten. Sie können außerdem, bezogen auf eine konkrete Aufgabenstellung, abwägen, welche Funktionalitäten clientseitig und welche serverseitig gelöst werden sollten.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+
+<ul>
+  <li>Web Basics: HTML, CSS, Javascript</li>
+  <li>CSS: Komplexe Layouts &amp; Responsivität</li>
+  <li>Javascript: Dynamische Anwendungen</li>
+  <li>Media Types</li>
+  <li>CSS Frameworks</li>
+  <li>CSS Preprozessoren</li>
+  <li>Javascript Frameworks</li>
+  <li>Performance</li>
+  <li>Microdata, Internationalisierung, SEO, Barrierefreiheit</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen</h2>
+<p>Projektarbeit mit Projektpräsentationsprüfung und Fachgespräch.</p>
+
+<h2 id="medienformen">Medienformen</h2>
+<p>Beamergestützte Vorträge, Rechnergestützte Workshops</p>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Randy Connolly, Ricardo Hoar: Fundamentals of Web Development</li>
+</ul>
+
+:ET
