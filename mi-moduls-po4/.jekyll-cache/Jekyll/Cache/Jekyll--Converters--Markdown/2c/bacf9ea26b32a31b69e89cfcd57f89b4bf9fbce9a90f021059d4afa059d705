@@ -1,0 +1,73 @@
+I"�
+<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+<p>Gesamtaufwand 150 h, davon</p>
+<ul>
+  <li>36 h Vorlesung</li>
+  <li>36 h Übung</li>
+  <li>78 h Selbstlernphase</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+
+<ul>
+  <li>
+    <p>Grundsätzliches Ziel des Kurses ist eine Einführung in die Begriffe, Methoden, Modelle und Arbeitsweise der Theoretischen Informatik anhand der ausgewählten Teilgebiete.</p>
+  </li>
+  <li>
+    <p>Dabei lernen die Studierenden Probleme und Sachverhalte zu abstrahieren und zu modellieren (etwa logische und algebraische Kalküle, graphentheoretische Notationen, formale Sprachen und Automaten sowie spezielle Kalküle wie Petri-Netze)</p>
+  </li>
+  <li>
+    <p>Die Studierenden erwerben fundierte Kenntnisse der grundlegenden Themengebiete und eine wesentliche Basis und Vorbereitung für Veranstaltungen in höheren Semestern des Studiums.</p>
+  </li>
+  <li>
+    <p>In verschiedenen Grundlagengebieten der Informatik lernen die Studierenden Verfahrensweisen kennen, um den algorithmischen Kern eines Problems zu identifizieren und können passende Algorithmen entwerfen (Automaten, Turing Maschinen, Logik). Dabei können Sie bekannte Problemstellungen im Anwendungskontext erkennen und sind mit den zugehörigen Lösungsmustern vertraut (Modellierung mittels Automaten, Petri-Netzen, Boolescher Algebra, etc.).</p>
+  </li>
+  <li>
+    <p>Aufgaben zu den Lehrinhalten (s.u.) werden in kleinen Gruppen (Teamarbeit) selbständig gelöst. Die Lösungen sollen in den Übungsstunden vorgetragen und der Lösungsweg den Kommilitonen hierbei erläutert werden.</p>
+  </li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>Mengen</li>
+  <li>Relationen</li>
+  <li>Graphen</li>
+  <li>Zahlensysteme</li>
+  <li>Zahlendarstellung</li>
+  <li>Numerische Aspekte</li>
+  <li>Codierung, Informationstheorie</li>
+  <li>Boolesche Algebra</li>
+  <li>Schaltnetze und Schaltwerke</li>
+  <li>Aussagenlogik</li>
+  <li>Prädikatenlogik</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Schriftliche Prüfung.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Vorlesung mit Übung</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage</p>
+  </li>
+  <li>
+    <p>Hedtstück, U. ( 2004 ): Einführung in die Theoretische Informatik. Oldenbourg, München.</p>
+  </li>
+  <li>
+    <p>Kelly, J. ( 2003 ): Logik. Pearson Studium, München.</p>
+  </li>
+  <li>
+    <p>Ehrig, H. et al. (1999): Mathematisch-strukturelle Grundlagen der Informatik. Springer,  Heidelberg.</p>
+  </li>
+  <li>
+    <p>Beuth, K. (1992): Digitaltechnik. 9.Aufl.Vogel, Würzburg.</p>
+  </li>
+</ul>
+
+:ET

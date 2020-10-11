@@ -1,0 +1,61 @@
+I" <h2 id="kurzbeschreibung">Kurzbeschreibung:</h2>
+<p>Prinzipien, Methoden und Techniken der modellbasierten methodischen objektorientierten Softwareentwicklung</p>
+
+<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>4 SWS: Vorlesung 2 SWS; Praktikum 2 SWS</p>
+
+<p>max. 15 Studierende/Praktikumsgruppe;</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+<p>Gesamtaufwand 150h, davon</p>
+
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Praktikum</li>
+  <li>78h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die Studierenden sollen befähigt werden,</p>
+<ul>
+  <li>zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie</li>
+  <li>gegebene Modelle zu interpretieren, zu analysieren und zu bewerten,</li>
+  <li>um komplexe Systeme zu analysieren, im Team zu entwerfen und dabei im Rahmen methodischer Vorgehensweisen Techniken und Werkzeuge der objektorientierten Modellierung und Softwareentwicklung in den Aktivitäten Anforderungsermittlung, Softwarespezifizierung und Entwurf einzusetzen.</li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+
+<p>Die Vorlesung skizziert zunächst das Gesamtgebiet Softwaretechnik und behandelt dann ausschließlich grundlegende „Informatikaspekte” der objektorientierten Softwareentwicklung. Als wesentliche Grundlage werden die wichtigsten Elemente der Unified Modelling Language (UML) vorgestellt und anhand kleinerer Beispiele erläutert. Danach werden typische Aktivitäten der Softwareentwicklung besprochen, wobei die UML als Modellierungssprache benutzt wird. Im Praktikum werden die Anwendung der Modellierungselemente und die Durchführung der Aktivitäten in Gruppenarbeit vertieft.</p>
+
+<p>Das Modul gliedert sich in folgende Inhalte:</p>
+<ul>
+  <li>(10%) Softwareentwicklung im Überblick (Komplexität großer Software, Kernaktivitäten und unterstützende Aktivitäten);</li>
+  <li>(30%) Die Modellierungssprache UML (Strukturmodellierung mit Objekt- und Klassendiagrammen, Funktionsmodellierung mit Anwendungsfalldiagrammen, Verhaltensmodellierung mit Sequenz-, Kommunikations- und Zustandsdiagrammen);</li>
+  <li>(50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung und Architekturkonzeption, Entwurfskonzepte und Grobentwurf, Feinentwurf);</li>
+  <li>(10%) Zusammenfassung und Ausblick (Modellgetriebene Softwareentwicklung);</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<ul>
+  <li>Flipped-Classroom mit Diskussion und Übungen als Einzel- und Kleinstgrupen</li>
+  <li>e-Vorlesungen (Video-Clips und Folien in elektronischer Form zum Selbststudium);</li>
+  <li>Vertiefende Materialien in elektronischer Form (z.B. SWEBOK)</li>
+  <li>Praktika in Kleingruppen, um die erlernten Modelle und Methoden einzuüben und zu vertiefen (Seminarraum, Rechnerlabor); In den Praktika werden Modellierungs- und Entwicklungswerkzeuge eingesetzt.</li>
+</ul>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>Helmut Balzert: Lehrbuch der Software-Technik Bd. I: Basiskonzepte und Requirements Engineering; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2009</li>
+  <li>Helmut Balzert: Lehrbuch der Software-Technik Bd. II: Entwurf, Implementierung, Installation und Betrieb; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2012</li>
+  <li>Helmut Balzert: Lehrbuch der Software-Technik Bd. III: Software Management; Spektrum Akademischer Verlag, Heidelberg, 2. Aufl. 2008</li>
+  <li>Martina Seidl et al.: UML@Classroom; dpunkt.Verlag, Heidelberg, 2012
+Unterlagen/Videos: <a href="http://www.uml.ac.at/lernen">http://www.uml.ac.at/lernen</a></li>
+  <li>Winter, M.: Methodische objektorientierte Softwareentwicklung. dpunkt.verlag, Heidelberg, 2005;</li>
+  <li>Chris Rupp et al.: UML 2 Glasklar. 4. Aufl., Carl Hanser Verlag, München, 2012</li>
+  <li>Jochen Ludewig, Horst Lichter: Software Engineering – Grundlagen, Menschen, Prozesse, Techniken. 2. Aufl., dPunkt Verlag, Heidelberg, 2011</li>
+</ul>
+
+:ET

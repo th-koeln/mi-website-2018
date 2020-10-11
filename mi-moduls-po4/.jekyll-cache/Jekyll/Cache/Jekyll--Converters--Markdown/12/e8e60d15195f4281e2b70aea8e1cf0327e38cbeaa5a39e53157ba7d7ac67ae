@@ -1,0 +1,50 @@
+I"
+<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+<p>Gesamtaufwand 150h, davon</p>
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Übung</li>
+  <li>78h Selbstlernphase</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+
+<ul>
+  <li>Grundsätzliches Ziel des Kurses ist eine Einführung in die Begriffe, Methoden, Modelle und Arbeitsweise der Theoretischen Informatik anhand der ausgewählten Teilgebiete.</li>
+  <li>Dabei lernen die Studierenden Probleme und Sachverhalte zu abstrahieren und zu modellieren (etwa logische und algebraische Kalküle, graphentheoretische Notationen, formale Sprachen und Automaten sowie spezielle Kalküle wie Petri-Netze)</li>
+  <li>Die Studierenden erwerben fundierte Kenntnisse der grundlegenden Themengebiete und eine wesentliche Basis und Vorbereitung für Veranstaltungen in höheren Semestern des Studiums.</li>
+  <li>In verschiedenen Grundlagengebieten der Informatik lernen die Studierenden Verfahrensweisen kennen, um den algorithmischen Kern eines Problems zu identifizieren und können passende Algorithmen entwerfen (Automaten, Turing Maschinen, Logik). Dabei können Sie bekannte Problemstellungen im Anwendungskontext erkennen und sind mit den zugehörigen Lösungsmustern vertraut (Modellierung mittels Automaten, Petri-Netzen, Boolescher Algebra, etc.).</li>
+  <li>Aufgaben zu den Lehrinhalten (s.u.) werden in kleinen Gruppen (Teamarbeit) selbständig gelöst. Die Lösungen sollen in den Übungsstunden vorgetragen und der Lösungsweg den Kommilitonen hierbei erläutert werden.</li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>Mengen</li>
+  <li>Relationen</li>
+  <li>Graphen</li>
+  <li>Zahlensysteme</li>
+  <li>Zahlendarstellung</li>
+  <li>Numerische Aspekte</li>
+  <li>Codierung, Informationstheorie</li>
+  <li>Boolesche Algebra</li>
+  <li>Schaltnetze und Schaltwerke</li>
+  <li>Aussagenlogik</li>
+  <li>Prädikatenlogik</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Schriftliche Prüfung.</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage</li>
+  <li>Hedtstück, U. ( 2004 ): Einführung in die Theoretische Informatik. Oldenbourg, München.</li>
+  <li>Kelly, J. ( 2003 ): Logik. Pearson Studium, München.</li>
+  <li>Ehrig, H. et al. (1999): Mathematisch-strukturelle Grundlagen der Informatik. Springer,  Heidelberg.</li>
+  <li>Beuth, K. (1992): Digitaltechnik. 9.Aufl.Vogel, Würzburg.</li>
+</ul>
+
+:ET

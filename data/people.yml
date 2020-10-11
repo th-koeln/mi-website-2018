@@ -1,3 +1,10 @@
+il:
+    id: il
+    status: prof
+    name: 'Prof. Dr. Irma Lindt'
+    avatar: '/img/professoren/lindt.png'
+    personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
+    mi: false
 moe:
     id: moe
     status: prof
@@ -293,7 +300,7 @@ mbl:
 
 mi:
     id: mi
-    name: 'Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
+    name: 'Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
 all:
     id: all
     name: 'alle Informatik Professoren'

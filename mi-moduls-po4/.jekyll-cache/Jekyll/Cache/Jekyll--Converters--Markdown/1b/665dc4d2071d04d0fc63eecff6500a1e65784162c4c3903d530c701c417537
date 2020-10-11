@@ -1,0 +1,59 @@
+I"�<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>4 SWS: Vorlesung 2 SWS; Übung 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+<p>Gesamtaufwand 150 h, davon</p>
+<ul>
+  <li>36 h Vorlesung</li>
+  <li>36 h Übung</li>
+  <li>78 h Selbstlernphase</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>siehe Theoretische Informatik 1.</p>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>
+    <p>Reguläre (Typ-3) Sprachen: Endliche Automaten, Reguläre Ausdrücke; Typ3-Grammatiken, Syntaxdiagramme; Chomsky-Hierarchie</p>
+  </li>
+  <li>
+    <p>Modellierung sequentieller und paralleler (Ausgabe-) Prozesse: Endliche Maschinen, Berechnungen; Automatennetze, Petri-Netze, Zelluläre Automaten</p>
+  </li>
+  <li>
+    <p>Kontextfreie (Typ-2) Sprachen: Kontextfreie Grammatiken, Chomsky- und Greibach-Normalform; Kellerautomaten; Anwendungen (Ableitungs- und Syntaxbäume, Syntax von Programmiersprachen, Backus-Naur-Form)</p>
+  </li>
+  <li>
+    <p>Kontextsensitive (Typ-1) und rekursiv aufzählende (Typ-0) Sprachen: Grammatiken, Monotonie, Normalform; Turingautomaten; Einführung in die Begriffe: Berechenbarkeit, Entscheidbarkeit und Komplexität</p>
+  </li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Schriftliche Prüfung.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Vorlesung und praktische Übungen</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>Hoffmann, D. (2011): Theoretische Informatik, 2. Auflage</p>
+  </li>
+  <li>
+    <p>Vossen, G., Witt K. (2004): Grundlagen der Theoretischen Informatik mit Anwendungen. 3. Aufl.  Vieweg &amp; Sohn, Braunschweig.</p>
+  </li>
+  <li>
+    <p>Hedtstück, U. ( 2004 ): Einführung in die Theoretische Informatik. Oldenbourg, München.</p>
+  </li>
+  <li>
+    <p>Asteroth, A., Baier, C. (2002) Theoretische Informatik. Pearson Studium München</p>
+  </li>
+  <li>
+    <p>Hopcroft, J. E.  et al. (2002): Einführung in die Automatentheorie, Formale Sprachen und Komplexitätstheorie. Pearson Studium, München.</p>
+  </li>
+  <li>
+    <p>Schöning, U. (1997): Theoretische Informatik - kurzgefaßt. 3. Aufl. Spektrum Akademischer Verlag, Heidelberg.</p>
+  </li>
+</ul>
+
+:ET

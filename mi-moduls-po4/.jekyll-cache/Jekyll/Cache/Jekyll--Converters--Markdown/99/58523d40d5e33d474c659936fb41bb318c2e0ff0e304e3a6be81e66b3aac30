@@ -1,0 +1,39 @@
+I"�
+<h2 id="lehrformsws">Lehrform/SWS</h2>
+<p>36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase</p>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse</h2>
+<p>Die Studierenden haben die Möglichkeit ihr Wissen über 3D-Computergrafik, 3D-Geometrie und Programmierung zu vertiefen und praktisch anzuwenden. Durch den Einsatz von Unity als Crossplatform-Game-Development-Tool können die Studierenden ihre Erfahrung mit einer aktuellen Game-Engine und der dazugehörigen Entwicklungsumgebung vertiefen und werden befähigt diese um Funktionalitäten zu erweitern.</p>
+
+<p>Die Inhalte des Moduls befähigen die Studierenden die grundlegenden Algorithmen und Datenstrukturen der Echtzeit-Computergrafik mit der Game-Engine Unity zu beherrschen. Das Modul ist daher geeignet das Wissen aus den Modulen „Computergrafik und Animation“, sowie ”Cross-Platform Game Development mit Unity 3D” zu vertiefen und zu erweitern.</p>
+
+<p>Konzepte aus der 3D-Computergrafik und der prozeduralen Generierung werden in diesem sehr praktisch ausgelegten Kurs implementiert und die relevanten Grundlagen vermittelt, die es den Studierenden ermöglichen eigenständig Anforderungen für Projekte mit prozeduralen Techniken zu entwickeln und diese praktisch umzusetzen und kritisch zu evaluieren.</p>
+
+<p>Nach Abschluss des Moduls besitzen die Studierenden grundlegende Kenntnisse über verschiedene Techniken der prozeduralen Generierung zur Erstellung von 3D Content für Visualisierungen, Simulationen und Spiele, sowie die Fähigkeiten diese einzusetzen, sowie selbst zu entwickeln.</p>
+
+<h2 id="inhalt">Inhalt</h2>
+<ul>
+  <li>Einführung in die Game-Engine Unity</li>
+  <li>Primitive und Mesh-Datenstrukturen</li>
+  <li>UV-Mapping und Texturierungstechniken/Materialien</li>
+  <li>Prozedurale Texturgenerierung</li>
+  <li>Parametrisierung von 3D-Modellen</li>
+  <li>Kurven und Flächen</li>
+  <li>Height-Maps</li>
+  <li>L-Systeme und „Turtle“-Grafik-Renderer</li>
+  <li>Triangulations-Algorithmen für Polygone</li>
+  <li>Voxel-Terrain-Generierung</li>
+  <li>Grundlagen 3D-Geometrie</li>
+  <li>Erweiterung des Unity-Editors</li>
+</ul>
+
+<h2 id="literatur">Literatur</h2>
+<ul>
+  <li>Peter Shirley, Steve Marschner, “Fundamentals of Computer Graphics“, CRC Press</li>
+  <li>David Salomon, “Curves and Surfaces for Computer Graphics”, Springer</li>
+  <li>Carsten Seifert, “Spiele entwickeln mit Unity 5”, Hanser</li>
+  <li>Noor Shaker, Julian Togelius, Mark J. Nelson, “Procedural Content Generation in Games (Computational Synthesis and Creative Systems)”,  Springer</li>
+  <li>Ryan Watkins, “Procedural Content Generation for Unity Game Development”, Packt Publishing</li>
+  <li>Dale Green, “Procedural Content Generation for C++ Game Development”, Packt Publishing</li>
+</ul>
+:ET

@@ -1,0 +1,85 @@
+I"d<h2 id="kurzbeschreibung">Kurzbeschreibung</h2>
+<p>Systemprogrammierung am Beispiel von UNIX.</p>
+
+<h2 id="lehrformsws">Lehrform/SWS:</h2>
+<p>4 SWS: Vorlesung 2 SWS; Praktikum 2 SWS</p>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+<p>Gesamtaufwand 150h, davon</p>
+
+<ul>
+  <li>36h Vorlesung</li>
+  <li>36h Praktikum</li>
+  <li>78h Selbststudium</li>
+</ul>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+
+<p>Die Studierenden können den Aufbau von Betriebssystemen am Beispiel UNIX erläutern, indem sie</p>
+<ul>
+  <li>die Ziele der Entwicklung von UNIX nennen und beschreiben,</li>
+  <li>die Hauptaufgaben von Betriebssystemen nennen und beschreiben,</li>
+  <li>den Aufbau von Betriebssystemen darstellen und erklären,</li>
+</ul>
+
+<p>um die verschiedenen Bestandteile und Konzepte von Betriebssystemen nutzen zu können.</p>
+
+<p>Die Studierenden können eigene C-Programme für verteilte Systeme erstellen, indem sie</p>
+<ul>
+  <li>einen Computer über die Shell bedienen und dort eigene Programme ausführbar machen,</li>
+  <li>Daten mittels Systemschnittstellen in Dateien speichern, daraus lesen und diese verwalten,</li>
+  <li>Sockets für Client- und Serverprogramme nutzen und Daten darüber senden und empfangen,</li>
+  <li>Prozesse für nebenläufige Programmabläufe erzeugen,</li>
+  <li>Kommunikation zwischen Prozessen mit Shared Memory, Pipes und Message Queues realisieren,</li>
+  <li>Race Conditions erkennen, kritische Abschnitte festlegen und Prozesse synchronisieren,</li>
+  <li>die Lösungen klassischer Synchronisationsprobleme kennen und nutzen,</li>
+</ul>
+
+<p>um später hardware- oder systemnahe Software für verteilte Systeme zu entwickeln oder zu bewerten, bspw. im Bereich »Internet of Things«</p>
+
+<p>Die Studierenden können theoretische Grundlagen von Betriebssystemen erörtern, indem sie</p>
+<ul>
+  <li>Programme und Prozesse unterscheiden und letztere mit ihren Zuständen modellieren,</li>
+  <li>verschiedene Strategien für das Scheduling von Prozessen anwenden und bewerten,</li>
+  <li>die Organisation des Speichers auf einem Datenträger erklären und darstellen,</li>
+  <li>die Abbildung von Prozessen im Arbeitsspeicher erklären und verschiedene Ansätze zur Verwaltung erläutern,</li>
+</ul>
+
+<p>um später Auswirkungen von Betriebssystemvorgängen auf eigene Programme zu erkennen und darauf zu reagieren.</p>
+
+<h2 id="inhalt">Inhalt:</h2>
+
+<p>Systemprogrammierung am Beispiel von UNIX:</p>
+<ul>
+  <li>Shell-Programmierung</li>
+  <li>Prozess-Modelle</li>
+  <li>Prozess-Erzeugung und Synchronisation</li>
+  <li>UNIX-Prozesse und elementare Synchronisation</li>
+  <li>Pipes</li>
+  <li>Shared Memory</li>
+  <li>Synchronisationsprimitive für den wechselseitigen Ausschluss</li>
+  <li>Semaphoren</li>
+  <li>Nachrichtenwarteschlangen</li>
+  <li>Dateisysteme</li>
+  <li>TCP/IP</li>
+  <li>Sockets</li>
+  <li>Remote Procedure Call</li>
+  <li>Strategien zum Scheduling und zur Speicherverwaltung</li>
+  <li>Klassische Synchronisationsprobleme</li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Foliensammlung, ausformuliertes Skript, Beispiellösungen</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>Tanenbaum, A. S.: „Moderne Betriebssysteme“</li>
+  <li>Brown, C.: „Programmieren verteilter UNIX-Anwendungen“</li>
+  <li>Kernighan, B. W., Pike, R.: „Der UNIX-Werkzeugkasten“</li>
+  <li>Ehses, E., Köhler, L., Stenzel, H., Victor, F. „Betriebssysteme: Ein Lehrbuch mit Übungen zur Systemprogrammierung in UNIX/Linux“</li>
+</ul>
+
+:ET

@@ -1,0 +1,76 @@
+I"I<h2 id="lehrformsws">Lehrform/SWS:</h2>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Theoretische Grundlagen mobiler Datenbanksysteme verstehen und anwenden können.</p>
+
+<h2 id="inhalt">Inhalt:</h2>
+<p>Die Veranstaltung “Mobile Datenbanken” bietet Studierenden die Möglichkeit, ein noch junges und stetig an Bedeutung wachsendes Gebiet der Datenbanktechnologie kennen zu lernen. Heute reicht das Spektrum mobiler Geräte von Subnotebooks, PDAs, Smartphones und bis zu Chipkarten, die über drahtlose Netze miteinander kommunizieren. Mobile Geräte sind zudem mittlerweile so leistungsstark, dass sie immer mehr auch komplexe Dienste erbringen und selber Datenmengen speichern, die den Einsatz mobiler Datenbanken erfordern. Die mobile Informationsverarbeitung eröffnet nicht nur die Perspektive für eine Vielzahl spannender und nützlicher Anwendungen,  sondern  stellt auch neue Herausforderungen an die Forschung und Entwicklung zukünftiger Informationssysteme dar. Es  wird eine Einführung in dieses noch junge Gebiet der Datenbanktechnologie gegeben, Anwendungen aufgezeigt und erste Systeme vorgestellt.</p>
+
+<p>Inhalt:</p>
+
+<p>Theoretischer Teil:</p>
+
+<ul>
+  <li>
+    <p>Lokalisationsmanagement</p>
+  </li>
+  <li>
+    <p>Mobile Transaktionen</p>
+  </li>
+  <li>
+    <p>Semantisches Caching</p>
+  </li>
+  <li>
+    <p>Replikation und Synchronisation</p>
+  </li>
+  <li>
+    <p>Bewegliche Objekte in Datenbanken</p>
+  </li>
+</ul>
+
+<p>Praktischer Teil</p>
+
+<ul>
+  <li>
+    <p>Überblick verschiedener Vorgehensmodellen (Native Android- und IPhone-Entwicklung, Cross-Plattform-Entwicklung mit HTML5/JavaScript, Hybrid-Anwendungen)</p>
+  </li>
+  <li>
+    <p>Live-Tutorials mit Eclipse, xCode und verschiedenen HTML5-Frameworks (jQuery Mobile, Sencha Touch, Cordova ehem. Phonegap u.a.)</p>
+  </li>
+  <li>
+    <p>Entwicklung einer eigenen App mit verteilten Datenbanken</p>
+  </li>
+</ul>
+
+<p>Eigene Leistung:</p>
+
+<p>Praktisches mobiles Projekt mit Vortrag und mündlicher Prüfung</p>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Praktisches mobiles Projekt mit Vortrag und mündlicher Prüfung</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Unterlagen in ILIAS</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>Hagen Höpfner, Can Türker und Birgitta König-Ries: Mobile Datenbanken und Informationssysteme; dpunkt.verlag Heidelberg 2005</p>
+  </li>
+  <li>
+    <p>Bela Mutschler und Günther Specht: Mobile Datenbanksysteme; Springer Berlin, 2004</p>
+  </li>
+  <li>
+    <p>Veronique Brossier: Developing Android Applications with Adobe AIR, OReilly 2011</p>
+  </li>
+  <li>
+    <p>Zigurd Mednieks, Laird Dornin u.a. Programming Android, OReilly 2011</p>
+  </li>
+  <li>
+    <p>Wei-Meng Lee, Beginning iOS 4 Application Development, Wrox 2010</p>
+  </li>
+</ul>
+
+:ET

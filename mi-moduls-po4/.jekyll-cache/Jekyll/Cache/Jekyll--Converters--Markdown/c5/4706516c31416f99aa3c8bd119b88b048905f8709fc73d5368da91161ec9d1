@@ -1,0 +1,79 @@
+I"X
+<h2 id="lehrformsws">Lehrform/SWS:</h2>
+
+<h2 id="arbeitsaufwand">Arbeitsaufwand:</h2>
+
+<h2 id="angestrebte-lernergebnisse">Angestrebte Lernergebnisse:</h2>
+<p>Die Studierenden sollen</p>
+
+<ul>
+  <li>
+    <p>die grundsätzliche Problemstellungen bei Entwurf und Weiterentwicklung großer IT-Systeme erkennen und verstehen</p>
+  </li>
+  <li>
+    <p>in der Lage sein, mit Hilfe von Problem Frames und Entwurfsmustern (Patterns) die wesentlichen Architekturparadigmen eines IT-Systems festzulegen</p>
+  </li>
+  <li>
+    <p>Architekturen verschiedener Systeme vergleichen, verstehen und einordnen können</p>
+  </li>
+  <li>
+    <p>ein Verständnis der Granularitätsebenen „Komponente / IT-System / IT-Landschaft“ entwickeln</p>
+  </li>
+</ul>
+
+<h2 id="inhalt">Inhalt:</h2>
+<ul>
+  <li>
+    <p>Einordnung der „Architektur großer Systeme“ zwischen Komponenten-Design und Enterprise-Architektur</p>
+  </li>
+  <li>
+    <p>Domain-Driven Design: Auswahl des passenden Architekturparadigmas nach geschäftlichen Anforderungen und den Spezifika der Domäne</p>
+  </li>
+  <li>
+    <p>Die fünf „Problem Frames“ nach Michael Jackson und die dazu passenden Architektur-Paradigmen</p>
+  </li>
+  <li>
+    <p>Management des Architekturprozesses bei großen Systemen</p>
+  </li>
+</ul>
+
+<h2 id="studien-prüfungsleistungen">Studien-/Prüfungsleistungen:</h2>
+<p>Mündliche Prüfung sowie erfolgreiches Referat zu einem ausgewählten Thema</p>
+
+<h2 id="medienformen">Medienformen:</h2>
+<p>Beamer‐gestützte Vorlesungen (Folien in elektronischer Form), ggfs. Fallstudien, vertiefende Unterlagen, Seminarvortrag</p>
+
+<h2 id="literatur">Literatur:</h2>
+<ul>
+  <li>
+    <p>F. Buschmann et al. (2013): Pattern-Oriented Software Architecture, A System of Patterns: Volume 1</p>
+  </li>
+  <li>
+    <p>M. Jackson (2000): Problem Frames &amp; Methods: Analysing and Structuring Software Development Problems</p>
+  </li>
+  <li>
+    <p>E. Evans (2003): Domain-Driven Design: Tackling Complexity in the Heart of Software</p>
+  </li>
+  <li>
+    <p>D.L. Parnas (1972): On the criteria to be used in decomposing systems into modules</p>
+  </li>
+  <li>
+    <p>S. Toth (2013): Vorgehensmuster für Softwarearchitektur</p>
+  </li>
+  <li>
+    <p>L. Hohmann (2003): Beyond Software Architecture</p>
+  </li>
+  <li>
+    <p>F. P. Brooks (2010): The Design of Design: Essays from a Computer Scientist</p>
+  </li>
+  <li>
+    <p>R. Gabriel (1996): Patterns of Software: Tales from the Software Community</p>
+  </li>
+  <li>
+    <p>S. Brand (1995): How Buildings Learn: What Happens After They’re Built</p>
+  </li>
+</ul>
+
+<p>(sowie weitere Fachartikel der aktuellen Forschung)</p>
+
+:ET

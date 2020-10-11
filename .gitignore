@@ -1,12 +1,12 @@
 # Ignore files
 .DS_Store
-<<<<<<< HEAD
 
 # Ignore folder
 _archiv/
 public/
 resources/
 node_modules/
+.jekyll-cache/
 
 # Ignore vs.code files
 .vscode/*
@@ -175,15 +175,3 @@ typings/
 .dynamodb/
 
 deploy_key
-=======
-.jekyll
-.jekyll-metadata
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
-.jekyll-cache
-.jekyll-cache/
->>>>>>> b889b40f9189fbe42669455936617e65c4edd0cc
