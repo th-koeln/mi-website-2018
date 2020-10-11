@@ -1,3 +1,10 @@
+il:
+    id: il
+    status: prof
+    name: 'Prof. Dr. Irma Lindt'
+    avatar: '/img/professoren/lindt.png'
+    personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
+    mi: false
 moe:
     id: moe
     status: prof
