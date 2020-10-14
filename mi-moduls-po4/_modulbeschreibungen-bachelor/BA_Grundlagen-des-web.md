@@ -39,29 +39,39 @@ Gesamtaufwand 150h, davon
 - 78h Selbststudium 
 
 ## Angestrebte Lernergebnisse
-Die Studierenden 
-- können wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen, die das Web als Medium konstituieren erklären und 
-- können moderne Webanwendungen auf der Basis von Fachbegriffen analysieren und einordnen um kompetent am fachlichen Diskurs über Eigenschaften, Auswirkungen und Gestaltungsalternativen von Web Anwendungen teilnehmen zu können.
--  können verteilte Web Anwendungen ggfs. nach einer Einarbeitung in konkrete Technologien oder Rahmenwerke realisieren (programmieren)
+
+In dem Modul sollen die Teilnehmerinnen und Teilnehmer wesentliche Grundlagen des Web und aktuelle Entwicklungen im Web auf konzeptioneller Ebene erfassen und diskutieren können und einige davon auf Ebene der Programmierung umsetzen können. Das Ziel ist, dass die Studierenden 
+-  wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen, die das Web als Medium konstituieren erklären können und 
+- moderne Webanwendungen auf der Basis von Fachbegriffen analysieren und einordnen können, um kompetent am fachlichen Diskurs über Eigenschaften, Auswirkungen und Gestaltungsalternativen von Web Anwendungen teilnehmen zu können.
+-  verteilte Web Anwendungen ggfs. nach einer Einarbeitung in konkrete Technologien oder Rahmenwerke als Proof-of-Concept realisieren (programmieren) können.
 
 ## Inhalt
+Im Grundlagenteil der Veranstaltung werden wesentliche Konzepte vermittelt, die zur Konzeption, Diskussion und Realisierung von Diensten im Web benötigt werden. Die Konzepte sind wichtig um als Medieninformatiker bzw. Medieninformatikerin kompetent Aufgaben des Berufsalltags lösen zu können und an Fachdiskussionen teilnehmen zu können. Themen sind u.a.:
 - Web Architektur des W3C
 - Offfenheit und Verwendung von Standards als Prinzip
 - Interaktionsformen: Synchrone Interaktion auf der Basis von REST, asynchrone Interaktion mit Publish/Subscribe
-- Fallstudien: Cloudservices für verteilte Anwendungen - z.B. Amazon Web Services, Google Firebase 
+- Fallstudien: Open Data, Social Coding
 - Ausgewählte Sicherheitsmechanismen im Web
 - Inhaltsarchitekturen: XML, JSON, Microformate, RDFa
 
-Die Inhalte werden als Vorlesung vermittelt. In dem begleitenden Seminar werden die Konzepte mittels Fallstudien anwendungsbezogen analysiert und diskutiert. 
+Die Grundlagen werden nur zu einem geringen Teil durch Seminarveranstaltungen vermittelt. Im Wesentlichen sollen sie durch
+- das Erarbeiten von Lehrbuch Texten,
+- die Bearbeitung von Fragen und Aufgaben und
+- die Diskussion von Fragen und Lösungen sowohl in Kleingruppen als auch im Plenum
 
+Das Ziel des Workshop ist die Entwicklung und das Deploynent eines Webservice für ein selbstgewältes Problemszenario, der eine signifikante Abnwendungslogik realisiert und seinerseits anwendungsbezogen einen externen Web Service einbindet. Es soll keine Nutzerschnittstelle entwickekt werden sondern ausschließlich ein REST oder/und PubSub API.
 
+Im Kontext des Projektes sollen die zentralen Konzepte ''Datenmodellierung'', ''synchrone Interaktion'' und - soweit zeitlich möglich - ''asynchrone Interaktion'' aus dem Grundlagenteil durch praktische Umsetzung mit aktuellen Werkzeugen vertieft werden.
 
 ## Medienformen
 - Folienpräsentation
 - Auschnitte aus der Literatur als Leseaufgaben und Fallstudien
 
 
-## Literatur
+## LiteraturDas vom W3C herausgegebene Dokument über die Architektur des Web
+
+- Tilkov et al.: REST und HTTP, dpunkt.verlag 2015
+- Tanenbaum et al.: Distributed Systems, Pearson 2007
 - Randy Conolly, Richard Hoar: Fundamentals of Web Development, Pearson Publishing 2015
 - Hugh Taylor et al.: Event-Driven Architecture - How SOA Enables the Real-Time Enterprise, Addison-Wesley 2009
 - Webber: REST in Practice, OReilly 2011
