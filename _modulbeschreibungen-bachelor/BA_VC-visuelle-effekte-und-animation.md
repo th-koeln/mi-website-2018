@@ -18,7 +18,7 @@ studienleistungen:
   Teamleistung:
     art: Projekt und schriftliche Ausarbeitung
     erstpruefer: hk
-    zweitpruefer: me
+    zweitpruefer: gh
 ---
 
 ## Lehrform/SWS
