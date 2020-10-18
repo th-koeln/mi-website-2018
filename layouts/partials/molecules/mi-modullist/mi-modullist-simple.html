@@ -1,0 +1,33 @@
+{{ $scratch := newScratch }}
+{{ $schwerpunktkuerzel := .schwerpunktkuerzel }}
+{{ $title := .title }}
+<div class="has-extra-foot-space">
+  <h3>{{$title}}</h3>
+  <ul class="m-mi-modullist-simple">
+    {{ range $modul := .module }}
+      {{ if (isset $modul.Params "typ")}}
+        <li class="m-mi-modullist-simple__entry">
+          <a href="{{ $modul.RelPermalink }}">
+            <span class="m-mi-modullist-simple__entry-title">
+              {{$modul.Params.title}}
+            </span>
+            {{ $scratch.Set "schwerpunkteDesModuls" (slice "as")}}
+            {{ $schwerpunkte := split $modul.Params.schwerpunkt ", " }}
+            {{ range $schwerpunkt := $schwerpunkte }}
+              {{ $gehoertZu := index $schwerpunktkuerzel $schwerpunkt }}
+              {{ if isset $gehoertZu  "name" }}
+                {{ $scratch.Add "schwerpunkteDesModuls" (slice $gehoertZu.name) }}
+              {{ end }}
+            {{ end }}
+            {{ $schwerpunkteDesModuls := after 1 ($scratch.Get "schwerpunkteDesModuls") }}
+            {{ if ne "" ($schwerpunkteDesModuls)}}
+              <span class="m-mi-modullist-simple__entry-comment">
+              {{ delimit $schwerpunkteDesModuls ", " }}
+              </span>
+            {{ end }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>

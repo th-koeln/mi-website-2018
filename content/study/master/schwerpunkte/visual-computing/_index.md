@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T21:05:33+05:30"
-title: "Schwerpunkt Visual Computing"
+title: "Visual Computing"
 teasertext: "Ausrichtung auf Industriezweige wie maschinelles Sehen, der optischen Industrie, medizinische Bildverarbeitung, Automobilindustrie, Computerspiele und Mediendesign."
 layout: "overview"
 heroClass: "do-contain"

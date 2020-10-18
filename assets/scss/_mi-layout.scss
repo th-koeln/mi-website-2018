@@ -86,3 +86,16 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.has-3-columns{
+  @media screen and (min-width: $mi-vp-xl) {
+    display: grid;
+    gap: $bfs;
+    grid-template-columns: 
+    minmax($mi-vp-l/3, $mi-vp-xl/3)
+    minmax($mi-vp-l/3, $mi-vp-xl/3)
+    minmax($mi-vp-l/3, $mi-vp-xl/3)
+  };
+  
+
+}

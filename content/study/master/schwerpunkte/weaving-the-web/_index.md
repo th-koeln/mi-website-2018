@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T21:05:33+05:30"
-title: "Schwerpunkt Weaving the Web"
+title: "Weaving the Web"
 teasertext: "Qualifikation für Web-Development, Web-Architect, Web-Enthusiast, Tech-Lead und Berater*in für die Integration von Prozessen via Webtechnologien."
 layout: "overview"
 heroClass: "do-contain"

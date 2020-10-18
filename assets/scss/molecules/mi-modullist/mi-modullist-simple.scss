@@ -1,0 +1,20 @@
+.m-mi-modullist-simple {
+
+  margin-left: 0;
+  margin-bottom: $bfs-xl;
+
+  &__entry{
+    display: block;
+    line-height: 110%;
+    margin-bottom: $bfs-xxs;
+  }
+
+  &__entry-title{
+    display: block;
+  }
+
+  &__entry-comment{
+    font-size: $bfs-s;
+    color: $mi-black;
+  }
+}

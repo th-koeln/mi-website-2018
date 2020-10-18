@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T21:05:33+05:30"
-title: "Schwerpunkt Social Computing"
+title: "Social Computing"
 teasertext: "Hier werden sowohl etablierte als auch neu entstehende Berufsfelder bedient: Service Designer, Community Designer, Social Media Expert, Collaboration Architekt, Innovationsmanagerroduct, IT Aktivist, etc."
 layout: "overview"
 heroClass: "do-contain"
