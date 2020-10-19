@@ -35,11 +35,13 @@
 		<div class="accordion-content">
 			<ul class="mi-linkliste">
 				{{ range $modul := where $.Site.Pages $key "==" $i }}
+        {{ if ne $modul.Params.typ "tm" }}
 					<li>
 						<a href="{{ $modul.Permalink }}">
 							{{ $modul.Title }}
 						</a>
 					</li>
+        {{ end }}
 				{{ end }}
 			</ul>
 		</div>
