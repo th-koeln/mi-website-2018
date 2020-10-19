@@ -1,6 +1,6 @@
 ---
 title: Projektanteil Projekt 3
-modulverantwortlich: kf, mw, hc, me, ck, gh
+modulverantwortlich: kf, mw, hc, ck, gh
 kuerzel: P3
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit und -dokumentation (100%)
-    erstpruefer: me, gh, hk, kf, mbluemm, cn, ck
-    zweitpruefer: me, gh, hk, kf, mbluemm, cn, ck
+    erstpruefer: gh, hk, kf, mbluemm, cn, ck
+    zweitpruefer: gh, hk, kf, mbluemm, cn, ck
 ---
 
 ## Kurzbeschreibung
