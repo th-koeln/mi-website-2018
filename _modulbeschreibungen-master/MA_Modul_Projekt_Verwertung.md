@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Forschung, Evaluation/Assessment, Verwertung im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hc, me, ck, gh, cn
+modulverantwortlich: kf, mw, hc, ck, gh, cn
 kuerzel: MIMP-V
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Prüfungsform ist bei den jeweiligen Fächern angegeben
-    erstpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
-    zweitpruefer: me, gh, hk, kf, mbluemm, cn, ck, hs
+    erstpruefer: gh, hk, kf, mbluemm, cn, ck, hs
+    zweitpruefer: gh, hk, kf, mbluemm, cn, ck, hs
 ---
 
 ## Kurzbeschreibung
