@@ -27,6 +27,3 @@ Das Modul verbindet daher Theorien, Modelle und Methodik der Human- und Sozialwi
 ## Angestrebte Lernergebnisse
 Studierende sollen in der Lage sein, computergestützte Systeme nach ethischen, politischen, sozialen und psychologischen Kriterien zu bewerten, zu planen und umsetzen zu können. 
 Ziel ist es, soziale Innovation durch digitale Anwendungen entstehen zu lassen. Neben den empirischen Methoden werden Designmethoden vermittelt, sowohl auf der konzeptionellen als auch auf der softwaretechnischen Implementierungsebene, um robuste, sichere und flexible Systeme zu gestalten. 
-
-## Lehrveranstaltungen
-{% include /functions/list-children.html parent="SC" %}

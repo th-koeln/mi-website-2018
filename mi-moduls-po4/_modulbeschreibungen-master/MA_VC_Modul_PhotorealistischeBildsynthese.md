@@ -1,6 +1,6 @@
 ---
 title: Photorealistische Bildsynthese
-modulverantwortlich: me
+modulverantwortlich: gh
 kuerzel: PB
 studiensemesterWs: 3
 studiensemesterSs: 2
@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
-    zweitpruefer: 
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung

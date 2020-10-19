@@ -1,6 +1,6 @@
 ---
 title: Visual Computing
-verantwortlich: hk, me
+verantwortlich: hk
 layout: modulbeschreibung
 
 typ: sp

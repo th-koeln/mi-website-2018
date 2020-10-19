@@ -30,5 +30,3 @@ Die Studierenden
 - können die erzielten Ergebnisse fachlich, kritisch einordnen und diskutieren,
 - um kompetent in Web Entwicklungs Teams mitwirken zu können.
 
-## Lehrveranstaltungen
-{% include /functions/list-children.html parent="WD" %}

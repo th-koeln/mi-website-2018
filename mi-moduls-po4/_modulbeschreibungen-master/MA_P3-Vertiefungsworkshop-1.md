@@ -1,6 +1,6 @@
 ---
 title: Vertiefungsworkshop 1
-modulverantwortlich: me
+modulverantwortlich: gh
 kuerzel: VW1
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (40%), schriftliche Ausarbeitung (60%)
-    erstpruefer: moe
+    erstpruefer: gh
     zweitpruefer: 
 ---
 
@@ -37,12 +37,12 @@ Ziel dieses Workshops ist es Fähigkeiten zu erwerben, um selbständig eine Idee
 ## Inhalt
 Ziel ist es selbständig eine Idee oder Produkt betriebswirtschaftlich holistisch zu beschreiben, zu analysieren und zu bewerten indem sie z.B.
 (Inhalte können je nach Semester variieren)
-• Marktrecherchen durchführen
-• ein Geschäftsmodel für eine Idee entwerfen
+• Marktrecherchen durchführen
+• ein Geschäftsmodel für eine Idee entwerfen
 • Elemente einer Markteintrittsstrategie ableiten
 • eine Finanzplanung entwerfen
 • diese Elemente in einem Businessplan zusammenfassen und
-präsentieren um Businesspläne für eine Gründung oder Produktinnovation im Unternehmen selbst zu verfassen und bewerten zu können.
+präsentieren um Businesspläne für eine Gründung oder Produktinnovation im Unternehmen selbst zu verfassen und bewerten zu können.
 
 
 ## Medienformen
