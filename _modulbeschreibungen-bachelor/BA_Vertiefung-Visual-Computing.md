@@ -42,5 +42,3 @@ Der Wahlkatalog umfasst momentan die Fächer:
 ## Angestrebte Lernergebnisse
 Je nach gewählten Vertiefungskursen entwickeln die Studierenden Fähigkeiten zur selbstverantwortlichen Durchführung von Projekten im Bereich Gamedevelopment, dreidimensionaler Darstellung virtueller Szenen, Film- und Fernsehtechnik, sowie Visueller Effekte.
 
-## Lehrveranstaltungen
-{% include /functions/list-children.html parent="VC" %}
