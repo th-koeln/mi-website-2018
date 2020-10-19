@@ -1,6 +1,6 @@
 ---
 title: Bildbasierte Computergrafik
-modulverantwortlich: me
+modulverantwortlich: gh
 kuerzel: BCG
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (40%), schriftlicher Projektbericht (60%)
-    erstpruefer: me
+    erstpruefer: gh
     zweitpruefer: hs
 ---
 
