@@ -54,7 +54,7 @@ Die Studentinnen und Studenten
 * Arbeitsblätter
 
 ## Literatur
-- M.E.J. Newman: Networks - An Introduction, Oxford University Press 2010
+- M.E.J. Newman: Networks - An Introduction 2nd ed., Oxford University Press 2018
 - A. Barabási: Network Science, Cambridge University Press 2016
 - S. Wassermann, K. Faust: Social Network Analysis - Methods and Applications, Cambridge University Press 1994
 - C. Kadushin: Understanding Social Networks: Theories, Concepts, and Findings, Oxford University Press 2011
