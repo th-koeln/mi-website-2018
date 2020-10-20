@@ -4,7 +4,7 @@
 <div class="has-extra-foot-space">
   <h3>{{$title}}</h3>
   <ul class="m-mi-modullist-simple">
-    {{ range $modul := .module }}
+    {{ range $modul := .module.ByTitle }}
       {{ if (isset $modul.Params "typ")}}
         <li class="m-mi-modullist-simple__entry">
           <a href="{{ $modul.RelPermalink }}">

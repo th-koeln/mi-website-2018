@@ -17,13 +17,9 @@
 {{ $wahlpflichtmodule := where $moduleMaster "Params.typ" "wpm" }}
 {{ $schwerpunktmodule := where $moduleMaster "Params.typ" "spm" }}
 {{ $schwerpunktmodulwraps := where $moduleMaster "Params.typ" "spmw" }}
-{{ $schwerpunktprojekte := where $moduleMaster "Params.typ" "schwerpunktprojekte" }}
+{{ $schwerpunktprojekte := where $moduleMaster "Params.typ" "spp" }}
 
-{{ $scratch.Set "schwerpunktprojekte" $schwerpunktprojekte }}
-{{ range $schwerpunktprojekt := $schwerpunktprojekte }}
-	{{ $scratch.Add "schwerpunktprojekte" $schwerpunktprojekt }}
-{{ end }}
-{{ $schwerpunktprojekte := $scratch.Get "schwerpunktprojekte" }}
+
 
 {{ $scratch.Set "pflichtmodule" $pflichtmodule }}
 {{ range $schwerpunktmodulwrap := $schwerpunktmodulwraps }}
@@ -31,6 +27,9 @@
 {{ end }}
 {{ range $schwerpunktmodul := $schwerpunktmodule }}
 	{{ $scratch.Add "pflichtmodule" $schwerpunktmodul }}
+{{ end }}
+{{ range $schwerpunktprojekt := $schwerpunktprojekte }}
+	{{ $scratch.Add "pflichtmodule" $schwerpunktprojekt }}
 {{ end }}
 {{ $pflichtmodule := $scratch.Get "pflichtmodule" }}
 
