@@ -19,12 +19,7 @@
 {{ $schwerpunktmodulwraps := where $moduleMaster "Params.typ" "spmw" }}
 {{ $schwerpunktprojekte := where $moduleMaster "Params.typ" "spp" }}
 
-
-
 {{ $scratch.Set "pflichtmodule" $pflichtmodule }}
-{{ range $schwerpunktmodulwrap := $schwerpunktmodulwraps }}
-	{{ $scratch.Add "pflichtmodule" $schwerpunktmodulwrap }}
-{{ end }}
 {{ range $schwerpunktmodul := $schwerpunktmodule }}
 	{{ $scratch.Add "pflichtmodule" $schwerpunktmodul }}
 {{ end }}
