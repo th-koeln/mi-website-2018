@@ -40,11 +40,10 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 Die Studentinnen und Studenten
-- können wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur
-- kennen wesentliche Elemente der Internet Governance und können Problemfelder in diesem Bereich kritisch analysieren
-- können bestehende Web Anwendungen basierend auf den Konzepten der Software Architektur und der Internet Governance analysieren
-
-um in leitender Funktion zur Gestaltung der Architektur von Projekten für das Web beitragen zu können.
+- können wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur im Kontext von eigenen Erfahrungen einordnen und erklären,
+- können Problemfelder im Bereich der Internet Governance kritisch analysieren und 
+- können bestehende Web Anwendungen basierend auf den Konzepten der Software Architektur und der Internet Governance analysieren.
+Diese Kommpetenzen sollen die Studentinnen und Studenten befähigen in leitender Funktion zur Gestaltung der Architektur von Projekten für das Web beizutragen. 
 
 ## Inhalt
 Softwarearchitekturen: Designprozess, Kommunikationsmethoden (Connectoren), Sicherheit, Modellierung, Visualisierung, Analyse
@@ -58,6 +57,7 @@ Fallstudien: Anwendungen beispielsweise aus den Bereichen Open Data, Internet of
 Präsentationsmaterialien
 
 ## Literatur
+- Ali Sunyaev: Internet Computing - Principles of Distributed Systems and Emerging Internet-Based Technologies, Springer 2020
 - R. Taylor et al.: Software Architecture - Foundations, Theory, and Practice, Wiley 2009
 - L. DeNardis: Protocol Politics, MIT Press 2009
 - F. Daniels et al.: Mashups: Concepts, Models, and Architectures, Springer 2014
