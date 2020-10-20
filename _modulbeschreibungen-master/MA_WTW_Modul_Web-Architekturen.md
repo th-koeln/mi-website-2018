@@ -23,12 +23,10 @@ studienleistungen:
 ---
 
 ## Kurzbeschreibung
-In der Veranstaltung werden zwei Felder eingeführt:
+Im Grundlagenteil der Veranstaltung sollen wesentliche Konzepte des Gebietes ''Web Architekturen'' erarbeitet werden. Insbesondere geht um Fragen der Grundkonzepte der Software Architektur bezogen auf Web basierte Anwendungen und um Fragen der Internet Governance. Durch ein Kennenlernen der Breite des Gebietes soll den Teilnehmerinnen und Teilnehmern auch die Chance geboten werden Interesse für spezielle Aspekte zu entdecken, die dann im Vertiefungsteil vertieft werden können.
+Der Grundlagenteil wird in einer kombinierten Vorlesungs- und Seminarform durchgeführt.
 
-- Grundkonzepte der Software Architektur bezogen auf Web basierte Anwendungen
-- Fragen der Internet Governance
-
-Basierend auf diesem Grundlagenwissen werden dann Lösungen aus fortschrittliche Anwendungsfelder im Web analysiert.
+Im Vertiefungsteil sollen die Teinehmerinnen und Teilnehmer auf Basis des im Grundlagenteils gewonnen Überblicks über das Gebiet ein Thema identifizieren, das durch weitergehendes Durchdringen der vorgeschlagenen Materialien und durch eigene Recherche und ggfs. die Entwicklung von Proof-of-Concept Impleentierungen vertieft wird. Als Mittel der Erarbeitung kann es sinnvoll sein einen lauffähigen Prototypen zu erstellen. 
 
 ## Lehrform/SWS 
 4 SWS: Vorlesung 2 SWS; Seminar 2 SWS
@@ -42,7 +40,7 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 Die Studentinnen und Studenten
-- kennen wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur
+- können wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur
 - kennen wesentliche Elemente der Internet Governance und können Problemfelder in diesem Bereich kritisch analysieren
 - können bestehende Web Anwendungen basierend auf den Konzepten der Software Architektur und der Internet Governance analysieren
 
