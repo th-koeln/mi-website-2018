@@ -60,5 +60,6 @@ Präsentationsmaterialien
 - Ali Sunyaev: Internet Computing - Principles of Distributed Systems and Emerging Internet-Based Technologies, Springer 2020
 - R. Taylor et al.: Software Architecture - Foundations, Theory, and Practice, Wiley 2009
 - L. DeNardis: Protocol Politics, MIT Press 2009
+- L. DeNardis et al. (eds.): Researching Internet Governance - Methods, Franeworks, Futures, MIT Press 2020
 - F. Daniels et al.: Mashups: Concepts, Models, and Architectures, Springer 2014
 - M. Erder et al.: Continous Architecture - Sustainable Architecture in an Agile and Cloud Centric World, Morgan Kaufmann 2016 
