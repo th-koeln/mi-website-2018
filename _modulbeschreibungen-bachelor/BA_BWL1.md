@@ -36,14 +36,13 @@ Die Studierenden verstehen die wichtigsten Entscheidungsbereiche wirtschaftliche
 
 
 ## Inhalt
-* Grundlagen
-* Unternehmensführung 1: Ziele, Planung und Entscheidung
-* Investition und Finanzierung
-* Unternehmensführung 2: Ausführung und Kontrolle
-* Konstitutive Entscheidungen
-* Produktion
-* Absatz und Marketing
-
+• Grundlagen
+• Unternehmensführung 1: Ziele, Planung und Entscheidung
+• Unternehmensführung 2: Ausführung und Kontrolle
+• Investition und Finanzierung
+• Konstitutive Entscheidungen
+• Produktion
+• Absatz und Marketing
 
 ## Literatur
 * Wöhe (2016): Einführung in die Allgemeine Betriebswirtschaftslehre, 26. Aufl.
