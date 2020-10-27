@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit und -dokumentation
-    erstpruefer: gh, hk, kf, mbluemm, cn, ck
-    zweitpruefer: gh, hk, kf, mbluemm, cn, ck
+    erstpruefer: gh, hk, kf, mbl, cn, ck
+    zweitpruefer: gh, hk, kf, mbl, cn, ck
 ---
 
 ## Kurzbeschreibung
