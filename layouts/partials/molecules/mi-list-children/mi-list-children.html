@@ -4,11 +4,13 @@
 {{ $module := where $pages "Params.zielmedium" "!=" "print" }}
 {{ $teilmodule := where $module "Params.typ" "tm" }}
 {{ $kurse := where $teilmodule "Params.parent" $parent }}
-{{ $count := 1 }}
 
 <div class="m-mi-list-children">
+{{ if gt (len $kurse) 0 }}
 <h3>Lehrveranstaltungen innerhalb des Moduls</h3>
+{{ end }}
 <ul>
+
 {{ range $kurs := $kurse }}
   <li><a href="{{ $kurs.RelPermalink }}">{{$kurs.Params.title}}</a></li>
 {{ end }}
