@@ -1,6 +1,6 @@
 ---
 title: Empirische Forschungsmethoden
-modulverantwortlich: mbluemm
+modulverantwortlich: mbl
 modulniveau: bachelor
 kuerzel: EF
 untertitel:
@@ -18,11 +18,11 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio
-    erstpruefer: mbluemm
+    erstpruefer: mbl
     zweitpruefer: ck, uwm
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
-    erstpruefer: mbluemm
+    erstpruefer: mbl
     zweitpruefer: ck, uwm 
 ---
 

@@ -37,14 +37,11 @@ Gesamtaufwand 180 Stunden, davon
 - 102h Selbststudium 
 
 ## Angestrebte Lernergebnisse
-Die Studierenden
-
-- kennen die Bedeutung von formalen Modellen von heutigen technischen, Informations- und sozialen Netzen,
-- kennen wesentliche Konzepte, Kenngrößen und Algorithmen für Graphen und Netzwerke
-- können in abgegrenzten Beispielen bestehende Netze anhand der Kenngrößen und Algorithmen analysieren 
-
-um Methoden und Techniken zur Analyse sozialer und ggfs. anderer Netze auswählen zu können.
-
+Die Studentinnen und Studenten
+- können die Relevanz der Netzwerk- und GRaphentheorie im Kontext eigener Erfahrungen erklären,
+- können wesentliche Konzepte aus dem Bereich Netzwerktheorie erklären,
+- können de Fachterminologie der Domäne auf Beispiele anwenden ud
+- können mit üblichen Werkzeugen und ggfs. Datensätzen Netze Modellieren und analysieren
 
 ## Inhalt
 - Empirische Untersuchung von Netzwerken: technische Netze, Informationsnetze, soziale Netze
@@ -57,7 +54,8 @@ um Methoden und Techniken zur Analyse sozialer und ggfs. anderer Netze auswähle
 * Arbeitsblätter
 
 ## Literatur
-- M.E.J. Newman: Networks - An Introduction, Oxford University Press 2010
+- M.E.J. Newman: Networks - An Introduction 2nd ed., Oxford University Press 2018
+- A. Barabási: Network Science, Cambridge University Press 2016
 - S. Wassermann, K. Faust: Social Network Analysis - Methods and Applications, Cambridge University Press 1994
 - C. Kadushin: Understanding Social Networks: Theories, Concepts, and Findings, Oxford University Press 2011
 - D. Easley, J. Kleinberg: Networks, Crowds, and Markets: Reasoning About a Highly Connected World , Cambridge University Press 2010

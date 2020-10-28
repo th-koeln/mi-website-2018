@@ -1,6 +1,6 @@
 ---
 title: Social Computing Projekt
-modulverantwortlich: ck, mbluemm, uwm
+modulverantwortlich: ck, mbl, uwm
 modulniveau: bachelor
 kuerzel: SCP
 untertitel:
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Teamleistung:
     art: Projektarbeit mit Projektpräsentationsprüfung und Fachgespräch, sowie schriftliche Ausarbeitung.
-    erstpruefer: ck, mbluemm, uwm
-    zweitpruefer: ck, mbluemm, uwm
+    erstpruefer: ck, mbl, uwm
+    zweitpruefer: ck, mbl, uwm
 ---
 
 ## Arbeitsaufwand

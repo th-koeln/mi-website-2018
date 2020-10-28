@@ -1,6 +1,6 @@
 ---
 title: Vertiefung – Social Computing
-modulverantwortlich: ck
+modulverantwortlich: ck, mbl
 modulniveau: bachelor
 kuerzel: SC
 untertitel:

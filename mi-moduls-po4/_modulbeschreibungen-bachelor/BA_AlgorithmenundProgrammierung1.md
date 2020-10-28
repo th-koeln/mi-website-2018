@@ -13,7 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
-infourl: 
+infourl: https://ilias.th-koeln.de/ilias.php?ref_id=19830&cmdClass=ilrepositorygui&cmdNode=w4&baseClass=ilrepositorygui
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
