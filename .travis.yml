@@ -1,4 +1,6 @@
 language: go
+os": linux
+dist": xenial
 
 branches:
   only:
