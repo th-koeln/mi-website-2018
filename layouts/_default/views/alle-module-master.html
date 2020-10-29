@@ -29,7 +29,7 @@
 {{ $pflichtmodule := $scratch.Get "pflichtmodule" }}
 
 <div class="is-full-width">
-	<h2>{{ .Title }} {{ .Parent.Title }}</h2>
+	<h2 id="{{.Title | urlize}}">{{ .Title }} {{ .Parent.Title }}</h2>
 
   <div class=" has-3-columns">
 	{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" .) }}

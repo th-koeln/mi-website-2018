@@ -30,7 +30,7 @@
 
 	{{ range $page := where .Pages "IsPage" true }}
 		<article class="m-mi-content-wrap">
-			<h3>{{ $page.Title }}</h3>
+			<h3 id="{{$page.Title | urlize}}">{{ $page.Title }}</h3>
 			{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
 		</article>
 	{{ end }}

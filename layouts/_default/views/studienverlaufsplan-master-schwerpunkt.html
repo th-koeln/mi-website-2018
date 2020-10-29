@@ -31,7 +31,7 @@
 {{ $pflichtmodule := $scratch.Get "pflichtmodule" }}
 
 <div class="mi-studienverlaufsplan-master">
-	<h2>{{ .Title }} {{ .Parent.Title }}</h2>
+	<h2 id="{{.Title | urlize}}">{{ .Title }} {{ .Parent.Title }}</h2>
 	{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" .) }}
 
 	<ul class="mi-studienverlaufsplan tabs" data-tabs id="startsemester">

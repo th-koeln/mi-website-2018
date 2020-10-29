@@ -42,6 +42,19 @@
 		<dd>{{ .ele.Params.voraussetzungenNachPruefungsordnung }}</dd>
       {{ end }} 
 
+      {{if .ele.Params.studienleistungen }}
+		<dt>Prüfungsform</dt>
+      <dd>
+        {{ if .ele.Params.studienleistungen.einzelleistung}}
+		    {{ .ele.Params.studienleistungen.einzelleistung.art }}
+        {{ else }}
+          {{ range $studienleistung := .ele.Params.studienleistungen }}
+          <br>{{$studienleistung.teilmodul}}: {{$studienleistung.art}}
+          {{ end }}
+        {{ end }}
+        </dd>
+      {{ end }} 
+
       {{if .ele.Params.infourl }}
       <dt>Weitere Informationen zum Modul</dt>
       <dd><a href="{{ .ele.Params.infourl }}">{{ .ele.Params.infourl }}</a></dd>

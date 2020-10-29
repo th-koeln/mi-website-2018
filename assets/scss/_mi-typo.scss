@@ -57,3 +57,16 @@ blockquote{
         color: $mi-lila;
     }
 }
+
+
+.title + .subtitle{
+  margin-top: -$bfs;
+}
+
+.subtitle{
+  color: $mi-lila;
+  border-bottom: solid 1px $mi-gruen;
+  padding-bottom: $bfs;
+}
+
+

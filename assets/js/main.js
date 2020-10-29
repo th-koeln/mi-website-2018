@@ -87,4 +87,13 @@ document.addEventListener('DOMContentLoaded', () => {
     for(let tab of tabs) {
         tab.addEventListener('click', toggleTab);
     }
+  
+  /** Get data-href **/
+  document.querySelectorAll('[data-href]').forEach((ele) => {
+    let href = ele.dataset.href;
+  
+    ele.addEventListener('click', () => {
+      location.href = href;
+    });
+  });
 });

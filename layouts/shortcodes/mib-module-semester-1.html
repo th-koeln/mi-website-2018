@@ -1,0 +1,18 @@
+
+{{ $module := where $.Site.Pages "Params.zielmedium" "!=" "print" }}
+{{ $moduleBachelor := where $module ".Dir" "==" "study/bachelor/moduls/" }}
+{{ $fs1 := where $moduleBachelor "Params.studiensemester" 1 }}
+
+<p>
+	Wie alle anderen Studiengänge im Bachelor-Master-System besteht auch der Medieninformatik Bachelor
+	aus Modulen. Sie sind die zentrale Organisationseinheit des Studiengangs. Module bestehen aus
+	verschiedenen Elementen wie Vorlesungen, Seminaren, Praktika und Workshops. Sie fassen die Elemente
+	zu einem übergeordneten Thema zusammen und schließen mit einer Modulprüfung oder mehreren
+	Teilprüfungen ab. 
+</p>
+
+<p>
+  Hier finden Sie die Module des ersten Fachsemesters des Medieninformatik Bachelor Studiengangs. Via Hyperlink kommen Sie auf die jeweilige Modulbeschreibung, einschließlich der Eckdaten zum Modul. Dort finden Sie auch einen Link zur Ilias Seite des jeweiligen Moduls, wo Sie alle relevanten organisatorischen Informationen zur Moduldurchführung in diesem Semester finden sollten.
+</p>
+
+{{ partial "molecules/mi-modullist/mi-modullist-with-lecturer.html" (dict "module" $fs1 "title" "Module im ersten Fachsemester")}}

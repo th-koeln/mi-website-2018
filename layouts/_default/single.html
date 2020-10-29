@@ -1,5 +1,7 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
+    <h1 class="title">{{ .Title }}</h1>
+     {{ if (isset .Params "subtitle")}}
+      <h2 class="subtitle">{{.Params.subtitle}}</h2>
+     {{ end }}
     {{ .Content }}
-    {{ template "_internal/disqus.html" . }}
 {{ end }}
