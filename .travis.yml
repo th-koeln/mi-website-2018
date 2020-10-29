@@ -27,4 +27,4 @@ after_success:
 env:
   global:
     - PRODUCTION=true
-    - HUGO_RELEASE=0.60.1
+    - HUGO_RELEASE=0.76.5

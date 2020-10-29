@@ -36,7 +36,7 @@
           {{ if ne $avatar ""}}
             {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar )}}
           {{ else }}
-            <div></div>
+            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" "/img/avatar.png")}}
           {{ end }}
           <header class="m-mi-modullist-with-lecturer__entry-head">
             <h3 class="m-mi-modullist-with-lecturer__entry-title">

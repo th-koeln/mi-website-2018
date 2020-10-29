@@ -1,5 +1,6 @@
 # Ignore files
 .DS_Store
+manual-deploy.sh 
 
 # Ignore folder
 _archiv/
