@@ -2,7 +2,7 @@
 title: Paradigmen der Programmierung
 modulverantwortlich: ck
 modulniveau: bachelor
-kuerzel: PP
+kuerzel: PDP
 untertitel:
 studiensemester: 3
 kategorie:

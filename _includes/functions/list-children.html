@@ -3,9 +3,11 @@
 {% assign kurse = teilmodule|where:"parent",parent|sort:'title' %}
 {% assign count = 1 %}
 
+{% if kurse.size > 0 %}
 <h3>Lehrveranstaltungen innerhalb des Moduls</h3>
 <ul>
 {% for kurs in kurse %}
   <li><a href="{{site.baseurl}}{{kurs.url}}">{{kurs.title}}</a></li>
 {% endfor %}
 </ul>
+{% endif %}
