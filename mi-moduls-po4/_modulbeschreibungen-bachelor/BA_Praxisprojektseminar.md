@@ -1,5 +1,5 @@
 ---
-title: Praxisprojektseminar
+title: Praxisprojekt, Seminarteil
 modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: PPS
@@ -8,13 +8,14 @@ studiensemester: 6
 jedes-semester: true
 kategorie:
 sprache: deutsch
-kreditpunkte: 5
+kreditpunkte: 4.5
 voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte
 empfohleneVoraussetzungen: 
 published: true
 infourl: https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/
 layout: modulbeschreibung
-typ: pm
+typ: tm
+parent: PP
 studienleistungen:
   Einzelleistung:
     art: Seminarvortrag und Abstract zur Praxisprojektarbeit

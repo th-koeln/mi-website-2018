@@ -119,6 +119,16 @@ layout: default
     {% if check != ""  %}
     {% include /functions/list-children.html parent=check %}
     {% endif %}
+
+    {% assign check = page.parent|strip_newlines %}
+    {% if check != ""  %}
+    {% assign parentModules = site.modulbeschreibungen-bachelor|where:"kuerzel",check|sort:'title' %}
+    {% assign parentModul = parentModules|first %}
+    <hr>
+    <p>Dies ist ein Teilmodul des Moduls <a href="{{site.baseurl}}{{parentModul.url}}">{{parentModul.title}}</a>.</p>
+    
+    {% endif %}
+
   	</div>
 	</div>
 </section>

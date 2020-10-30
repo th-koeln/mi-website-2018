@@ -1,19 +1,18 @@
 ---
-title: Praxisprojekt, praktischer Teil
+title: Praxisprojekt
 modulverantwortlich: all
 modulniveau: bachelor
-kuerzel: PPA
+kuerzel: PP
 untertitel:
 studiensemester: 6
 kategorie:
 sprache: deutsch
-kreditpunkte: 10.5
+kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte (CP)
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
-typ: tm
-parent: PP
+typ: pm
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung, Projektdokumentation
