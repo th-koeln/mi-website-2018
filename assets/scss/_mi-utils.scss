@@ -13,6 +13,10 @@
     transform: translateY(-50%);
 }
 
+.has-extra-head-space {
+  margin-top: $bfs-xxl;
+}
+
 .has-extra-foot-space {
   margin-bottom: $bfs-xxl;
 }
@@ -39,4 +43,8 @@
 
 .is-full-width{
     width: 90vw !important;
+}
+
+.has-mouseover:hover{
+  cursor: pointer;
 }

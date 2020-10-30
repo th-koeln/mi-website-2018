@@ -16,6 +16,12 @@ Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifiziere
 
 <!--more-->
 
+<div class="has-extra-foot-space has-mouseover has-extra-head-space " data-href="/study/bachelor/erstsemester/">
+<h2><span class="material-icons">face</span> Informationen für Erststemster</h2>
+<p>
+Auf der Seite für <a href="/study/bachelor/erstsemester/">Erststemster</a> haben wir versucht einige wesentliche Fragen zum Studienstart in der Medieninformatik zu klären und Ihnen ein paar hilfreiche Erklärungen und Links bereit zu stellen. Wir wünschen einen guten Start.
+</p>
+</div>
 
 <div class="m-mi-herotext has-box is-full-width">
 <p>
