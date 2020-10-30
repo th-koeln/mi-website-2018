@@ -1,0 +1,10 @@
+{{ $scratch := newScratch }}
+{{ $kuerzel := .kuerzel }}
+{{ $pages := .pages }}
+{{ $module := where $pages "Params.kuerzel" $kuerzel }}
+{{ $modul := index ($module) 0 }}
+
+{{ if gt (len $module) 0 }}
+<hr class="has-seperator">
+<p>Dies ist ein Teilmodul des Moduls <a href="{{ $modul.RelPermalink }}">{{$modul.Params.title}}</a>.</p>
+{{ end }}
