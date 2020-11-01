@@ -11,6 +11,9 @@ html {
     font-size: $bfs;
     hyphens: auto;
     overflow-x: hidden;
+    @media screen and (max-width: 640px) {
+      font-size: $bfs-s;
+    }
 }
 
 body {
@@ -22,11 +25,18 @@ body {
 
 h1 {
     font-weight: bold;
-    margin-bottom: $bfs-l;
+    margin-bottom: $bfs-xl;
+    hyphens: none;
+    @media screen and (max-width: 640px) {
+      font-size: $bfs-l;
+    }
 }
 
 h2 {
     margin-bottom: $bfs;
+    @media screen and (max-width: 640px) {
+      font-size: $bfs;
+    }
 }
 
 h3 {
@@ -60,15 +70,13 @@ p + h2, ul + h2{
     margin-top: $bfs-xxl;
 }
 
-@media screen and (max-width: 640px) {
-  p {
-    line-height: 130%;
-  }
-}
 
 p {
     margin-bottom: 1rem;
     line-height: 130%;
+    @media screen and (max-width: 640px) {
+      line-height: 120%;
+    }
 }
 
 /* Lists -----------------------------------------------------------------------------*/

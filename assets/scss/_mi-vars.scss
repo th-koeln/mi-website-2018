@@ -1,14 +1,16 @@
 /* MI Vars -----------------------------------------------------------------------------*/
 
+$scale: 1.2;
+
 // Base Fontsize
-$bfs-xxs: 10px;
-$bfs-xs: 12.5px;
-$bfs-s: 16px;
-$bfs: 20px;
-$bfs-l: 25px;
-$bfs-xl: 31.5px;
-$bfs-xxl: 40px;
-$bfs-max: 100px;
+$bfs-xxs: 10px * $scale;
+$bfs-xs: 12.5px * $scale;
+$bfs-s: 16px * $scale;
+$bfs: 20px * $scale;
+$bfs-l: 25px * $scale;
+$bfs-xl: 31.5px * $scale;
+$bfs-xxl: 40px * $scale;
+$bfs-max: 100px * $scale;
 
 
 // MI Colors
@@ -28,6 +30,7 @@ $mi-hellgrau: #efefef;
     font-style: normal;
     font-weight: 400;
     src: url('/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+    font-display: swap;
 }
 $family-headlines: "Roboto Slab";
 
@@ -36,6 +39,7 @@ $family-headlines: "Roboto Slab";
     font-style: normal;
     font-weight: 400;
     src: url('/fonts/PT_Sans/PT_Sans-Web-Regular.ttf');
+    font-display: swap;
 }
 $family-primary: "PT Sans";
 

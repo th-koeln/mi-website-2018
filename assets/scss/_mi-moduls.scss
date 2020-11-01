@@ -119,7 +119,7 @@
     }
 
     .accordion-title {
-        font-size: $bfs;
+
         color: #000;
         border: none;
         position: relative;
@@ -161,7 +161,6 @@
         animation-duration: .6s;
         animation-fill-mode: both;
         will-change: transform;
-        font-size: $bfs;
 
         &.active {
             display: block;

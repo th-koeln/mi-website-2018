@@ -22,11 +22,9 @@ function createNews() {
     }
 
     function sortItems() {
-        console.log(data);
         data.sort(function(a, b) {
             let aTime = new Date(a.date);
             let bTime = new Date(b.date);
-            console.log(aTime + ' ' + bTime);
             return bTime - aTime;
         });
     }
@@ -43,20 +41,25 @@ function createNews() {
         data = data.slice(0, 116);
         
         target.innerHTML = '';
-        data.forEach(function(item) {
-            let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
-            target.innerHTML += `
-                <a href="${item.url}">
-                    <div class="m-mi-pulse-teaser has-image" style="background-image: url(${item.bild})">
-                        <div class="m-mi-pulse-teaser--content">
-                            ${external}
-                            <h2 class="title">${item.title}</h2>
-                        </div>
-                        <p class="m-mi-pulse-teaser--footer">
-                            ${item.termin}
-                        </p>
-                    </div>
-                </a>`;
+      data.forEach(function (item) {
+        
+        let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
+        let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + item.bild + '"></div>';
+        let teaserImage = (item.bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
+        
+        target.innerHTML += `
+        <a href="${item.url}">
+            <div class="m-mi-pulse-teaser has-image">
+              ${teaserImage}
+              <div class="m-mi-pulse-teaser--content">
+                  ${external}
+                  <h2 class="title">${item.title}</h2>
+              </div>
+              <p class="m-mi-pulse-teaser--footer">
+                  ${item.termin}
+              </p>
+            </div>
+        </a>`;
         });
     }
 
