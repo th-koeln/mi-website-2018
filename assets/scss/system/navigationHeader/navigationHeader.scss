@@ -94,8 +94,10 @@
 @media(max-width: 640px) {
 
   .m-navHead{
-    margin-top: $bfs-l;
-    margin-bottom: $bfs-xxl;
+    margin-top: $bfs-xl;
+    padding-bottom: $bfs-xl;
+    border-bottom: solid 3px $mi-gruen;
+    margin-bottom: $bfs-xl;
   }
 
     .m-navHead--text,
