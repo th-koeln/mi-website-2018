@@ -94,8 +94,8 @@
 @media(max-width: 640px) {
 
   .m-navHead{
-    margin-top: 0;
-    margin-bottom: $bfs;
+    margin-top: $bfs;
+    margin-bottom: $bfs-l;
   }
 
     .m-navHead--text,

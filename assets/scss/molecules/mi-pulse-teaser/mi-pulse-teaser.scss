@@ -53,6 +53,9 @@
 
         .title {
             font-size: $bfs-l;
+            @media screen and (max-width: 640px) {
+              font-size: $bfs;
+            }
             word-break: break-word;
             text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
         }
