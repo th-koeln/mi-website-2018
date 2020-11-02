@@ -1,6 +1,6 @@
 ---
 title: Research Methods
-modulverantwortlich: gh
+modulverantwortlich: gh, mbluemm
 kuerzel: RM
 studiensemesterWs: 2
 studiensemesterSs: 1
