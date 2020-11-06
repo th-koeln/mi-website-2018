@@ -1,6 +1,6 @@
 ---
 title: Vertiefungsworkshop 2
-modulverantwortlich: me
+modulverantwortlich: mbluemm
 kuerzel: VW2
 studiensemesterWs: 3
 studiensemesterSs: 1
