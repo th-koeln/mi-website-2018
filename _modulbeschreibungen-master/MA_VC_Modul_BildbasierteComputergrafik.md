@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (40%), schriftlicher Projektbericht (60%)
-    erstpruefer: gh
+    erstpruefer: Andreas Karge
     zweitpruefer: hs
 ---
 
