@@ -44,6 +44,7 @@ Projektergebnisse in einem wissenschaftlichen Beitrag (z.B. für eine Konferenz,
 ## Medienformen
 Entwicklungs- und Deployment-Umgebung mit Artefakt-Repository, Kollaborationssysteme
 
+
 ## Literatur
 Je nach Studienschwerpunkt und fachlicher Aufgabe
 
