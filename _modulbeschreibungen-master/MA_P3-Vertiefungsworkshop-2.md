@@ -1,6 +1,6 @@
 ---
 title: Vertiefungsworkshop 2
-modulverantwortlich: Prof. Dr. Mirjam Blümm
+modulverantwortlich: mbj
 kuerzel: VW2
 studiensemesterWs: 3
 studiensemesterSs: 1
