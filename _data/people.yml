@@ -1,3 +1,10 @@
+nn:
+    id: nn
+    status: prof
+    name: 'derzeit nicht besetzt'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/'
+    mi: false
 il:
     id: il
     status: prof
