@@ -11,7 +11,7 @@ body {
 .content {
     flex: 1 0 auto;
     margin-right: 1rem;
-    max-width: 900px;
+    max-width: $mi-vp-l;
 
     &.is-fluid{
         max-width: 100%;
