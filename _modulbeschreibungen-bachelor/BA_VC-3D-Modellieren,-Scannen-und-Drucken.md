@@ -1,6 +1,6 @@
 ---
 title: 3D-Modellieren, -Scannen und -Drucken
-modulverantwortlich: me
+modulverantwortlich: nn
 kuerzel: 3DM
 untertitel:
 studiensemester: 4
@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt und Projektdokumentation
-    erstpruefer: dwilk
-    zweitpruefer: me
+    erstpruefer: nn
+    zweitpruefer: nn
 ---
 
 ## Lehrform/SWS
