@@ -1,6 +1,6 @@
 ---
 title: Vertiefungsworkshop 2
-modulverantwortlich: mbl
+modulverantwortlich: mbluemm
 kuerzel: VW2
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: mbl
+    erstpruefer: mbluemm
     zweitpruefer: 
 ---
 
