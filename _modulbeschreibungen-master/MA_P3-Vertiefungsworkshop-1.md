@@ -1,6 +1,6 @@
 ---
 title: Vertiefungsworkshop 1
-modulverantwortlich: gh
+modulverantwortlich: Monika Engelen
 kuerzel: VW1
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (40%), schriftliche Ausarbeitung (60%)
-    erstpruefer: gh
+    erstpruefer: Monika Engelen
     zweitpruefer: 
 ---
 
