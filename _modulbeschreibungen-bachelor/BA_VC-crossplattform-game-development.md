@@ -1,6 +1,6 @@
 ---
 title: Crossplatform Game Development mit Unity3D
-modulverantwortlich: me
+modulverantwortlich: nn
 kuerzel: CGD
 untertitel:
 studiensemester: 4
