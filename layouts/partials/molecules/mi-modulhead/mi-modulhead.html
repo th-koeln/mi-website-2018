@@ -1,18 +1,25 @@
 <div class="m-mi-modulhead">
 	<div class="m-mi-modulhead--mit-bild">
-		
-		{{ if ne .avatar ""}}
-			{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" .avatar )}}
+		{{ if eq .avatarCount 1}}
+			{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" .avatar)}}
 		{{ end }}
-
 		<header class="m-mi-modulhead-text">
 			<h1 class="m-mi-modulhead--title">
 				{{ .ele.Title }}
 			</h1>
+      <div class="m-mi-modulhead--avatar-box">
+        {{ range $ava:= .avatar }}
+          {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $ava)}}
+        {{ end }}
+      </div>
 			<h2 class="m-mi-modulhead--subtitle">
 				{{ .verantwortliche }}
 			</h2>
+      {{ if gt .avatarCount 1}}
+
+		  {{ end }}
 		</header>
+
     </div>
   
     <dl class="mi-dl-overview">

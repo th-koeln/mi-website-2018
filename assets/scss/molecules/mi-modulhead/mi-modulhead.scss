@@ -1,22 +1,31 @@
 .m-mi-modulhead {
-    .m-mi-modulhead--mit-bild {
-        position: relative;
-        margin-bottom: $bfs-xxl;
+  &--avatar-box {
+    display: block;
+    padding-top: $bfs;
+    margin-bottom: $bfs;
 
-        .m-mi-avatar {
-            float: left;
-            margin-right: $bfs;
-        }
-
-        .m-mi-modulhead-text {
-            .m-mi-modulhead--title {
-                margin-bottom: $bfs-xxs;
-            }
-
-            .m-mi-modulhead--subtitle {
-                font-size: $bfs-xl;
-                margin: 0;
-            }
-        }
+    &::after{
+      content: "";
+      height: 0;
+      display: block;
+      clear: both;
     }
+  }
+  &--mit-bild {
+    position: relative;
+    margin-bottom: $bfs-xxl;
+    .m-mi-avatar {
+      float: left;
+      margin-right: $bfs;
+    }
+    .m-mi-modulhead-text {
+      .m-mi-modulhead--title {
+        margin-bottom: $bfs-xxs;
+      }
+      .m-mi-modulhead--subtitle {
+        font-size: $bfs-xl;
+        margin: 0;
+      }
+    }
+  }
 }
