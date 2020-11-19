@@ -1,0 +1,28 @@
+{{ define "main" }}
+	{{ $params := . }}
+
+    {{ if .File}}
+	<div class="has-seperator">
+		{{ $level := split .File.Dir "/" }}
+
+		{{ if gt (len $level) 2 }}
+			<h1 class="title">{{ .Title }}</h1>
+      <h2 class="subtitle">{{.Params.subtitle}}</h2>
+		{{ end }}
+
+    {{.Content}}
+	</div>
+    {{ end }}
+
+
+  <ul class="accordion">
+	{{ range $page := where .Pages "IsPage" true }}
+		<li class="m-mi-content-wrap accordion-item">
+			<h3 id="{{$page.Title | urlize}}" class="accordion-title">{{ $page.Title }}</h3>
+      <div class="accordion-content">
+			  {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
+      </div>
+		</li>
+	{{ end }}
+  </ul>
+{{ end }}

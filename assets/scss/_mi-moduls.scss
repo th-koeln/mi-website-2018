@@ -116,6 +116,9 @@
         border-bottom: solid $mi-border-small $mi-hellgrau; 
         margin-bottom: $bfs !important;
         padding-bottom: $bfs;
+        &:hover{
+          cursor: pointer;
+        }
     }
 
     .accordion-title {
@@ -125,6 +128,7 @@
         position: relative;
         display: block;
         padding: 0 $bfs;
+        padding-right: $bfs *3;
         line-height: 1;
 
         &::before {
