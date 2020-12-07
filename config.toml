@@ -5,7 +5,7 @@ title = "Medieninformatik an der TH Köln"
 languageCode = "de-de"
 
 sectionPagesMenu = "main"
-
+summaryLength = 20
 paginate = 5
 paginatePath = "page"
 

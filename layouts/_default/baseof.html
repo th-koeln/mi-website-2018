@@ -21,7 +21,17 @@
         {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
         
-        
+        {{ with .Title }}
+        <meta property="og:title" content="TH Köln // Medieninformatik // {{.}}" />
+        {{ end }} 
+        <meta property="og:description" content="{{$.Summary | safeHTML}}" />
+        <meta property="og:url" content="{{.Permalink}}" />
+        {{ $teaser := .Resources.Match "teaser*" }}
+        {{ if $teaser }}
+        {{ $image := index ($teaser) 0 }}
+        <meta property="og:image" content="{{$image.Permalink}}" />
+        {{end}}
+
         <!-- Responsivity for older IE -->
         <!-- Just in case -->
         <!--[if lt IE 9]>
@@ -35,7 +45,6 @@
             {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
         {{ end -}}
         
-        {{ template "_internal/google_analytics_async.html" . }}            
     </head>
     <body>
   		<div class="off-canvas-wrapper">
