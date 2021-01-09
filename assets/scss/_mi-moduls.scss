@@ -110,7 +110,7 @@
     list-style-type: none;
     margin-bottom: $bfs;
     list-style-position: outside;
-    line-height: 140%;
+    line-height: $lh-loose;
 
     .accordion-item {
         border-bottom: solid $mi-border-small $mi-hellgrau; 
@@ -129,7 +129,7 @@
         display: block;
         padding: 0 $bfs;
         padding-right: $bfs *3;
-        line-height: 1;
+        line-height: $lh-tight;
 
         &::before {
             position: absolute;
@@ -241,7 +241,7 @@
 ul, ol, dl {
     margin-bottom: $bfs;
     list-style-position: outside;
-    line-height: 140%;
+    line-height: $lh-loose;
 }
 
 
@@ -294,7 +294,7 @@ ul, ol, dl {
     display: block;
     padding: 0.75rem $bfs;
     font-size: .75rem;
-    line-height: 1;
+    line-height: $lh-tight;
     color: #d16;
 }
 
@@ -344,29 +344,29 @@ ul, ol, dl {
 }
 
 
-/* events
+/* events & video-overview
 ---------------------------------------------------------------------------- */
 
-.events {
+.events, .video-overview {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: $bfs;
 }
 
 @media(max-width: $mi-vp-xl) {
-    .events {
+    .events, .video-overview {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media(max-width: $mi-vp-l) {
-    .events {
+    .events, .video-overview{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media(max-width: $mi-vp-s) {
-    .events {
+    .events, .video-overview {
         grid-template-columns: 1fr;
     }
 }
@@ -572,7 +572,7 @@ ul, ol, dl {
         right: 0.66rem;
         top: 0.33em;
         font-size: 1.5em;
-        line-height: 1;
+        line-height: $lh-tight;
     }
 }
 
@@ -580,7 +580,7 @@ ul, ol, dl {
     right: $bfs;
     top: 0.5rem;
     font-size: 2em;
-    line-height: 1; 
+    line-height: $lh-tight; 
 }
 
 [data-whatinput='mouse'] .close-button {

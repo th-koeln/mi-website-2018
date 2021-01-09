@@ -37,45 +37,45 @@
     <g id="studienverlaufsplan-mi-bachelor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Semester" transform="translate(0.000000, 5.000000)">
             <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
-            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+            <text id="4.-Fachsemester" font-family="PT Sans, Arial, Helvetica" font-size="36" font-weight="normal" fill="#000000">
                 <tspan x="2" y="68">6. Fachsemester</tspan>
             </text>
-            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+            <text id="Erklärung" font-family="PT Sans, Arial, Helvetica" font-size="24" font-weight="normal"></text>
         </g>
         <g id="Semester" transform="translate(0.000000, 214.000000)">
             <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
-            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+            <text id="4.-Fachsemester" font-family="PT Sans, Arial, Helvetica" font-size="36" font-weight="normal" fill="#000000">
                 <tspan x="2" y="68">5. Fachsemester</tspan>
             </text>
-            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+            <text id="Erklärung" font-family="PT Sans, Arial, Helvetica" font-size="24" font-weight="normal"></text>
         </g>
         <g id="Semester" transform="translate(0.000000, 533.000000)">
             <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
-            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+            <text id="4.-Fachsemester" font-family="PT Sans, Arial, Helvetica" font-size="36" font-weight="normal" fill="#000000">
                 <tspan x="2" y="68">4. Fachsemester</tspan>
             </text>
-            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+            <text id="Erklärung" font-family="PT Sans, Arial, Helvetica" font-size="24" font-weight="normal"></text>
         </g>
         <g id="Semester" transform="translate(0.000000, 752.000000)">
             <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
-            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+            <text id="4.-Fachsemester" font-family="PT Sans, Arial, Helvetica" font-size="36" font-weight="normal" fill="#000000">
                 <tspan x="2" y="68">3. Fachsemester</tspan>
             </text>
-            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+            <text id="Erklärung" font-family="PT Sans, Arial, Helvetica" font-size="24" font-weight="normal"></text>
         </g>
         <g id="Semester" transform="translate(0.000000, 1071.000000)">
             <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
-            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+            <text id="4.-Fachsemester" font-family="PT Sans, Arial, Helvetica" font-size="36" font-weight="normal" fill="#000000">
                 <tspan x="2" y="68">2. Fachsemester</tspan>
             </text>
-            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+            <text id="Erklärung" font-family="PT Sans, Arial, Helvetica" font-size="24" font-weight="normal"></text>
         </g>
         <g id="Semester" transform="translate(0.000000, 1280.000000)">
             <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
-            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+            <text id="4.-Fachsemester" font-family="PT Sans, Arial, Helvetica" font-size="36" font-weight="normal" fill="#000000">
                 <tspan x="2" y="68">1. Fachsemester</tspan>
             </text>
-            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+            <text id="Erklärung" font-family="PT Sans, Arial, Helvetica" font-size="24" font-weight="normal"></text>
         </g>
         <g id="block/medium" transform="translate(304.000000, 1300.000000)">
             <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
@@ -692,7 +692,7 @@
                     </g>
                 </g>
             </g>
-            <text id="Beschreibung" font-family="MyriadPro-Regular, Myriad Pro" font-size="28" font-weight="normal" line-spacing="32" fill="#000000">
+            <text id="Beschreibung" font-family="PT Sans, Arial, Helvetica" font-size="28" font-weight="normal" line-spacing="32" fill="#000000">
                 <tspan x="62" y="26">Module für alle Informatik Bachelor Studiengänge</tspan>
             </text>
         </g>
@@ -708,7 +708,7 @@
                     </g>
                 </g>
             </g>
-            <text id="Beschreibung" font-family="MyriadPro-Regular, Myriad Pro" font-size="28" font-weight="normal" line-spacing="32" fill="#000000">
+            <text id="Beschreibung" font-family="PT Sans, Arial, Helvetica" font-size="28" font-weight="normal" line-spacing="32" fill="#000000">
                 <tspan x="62" y="26">Medieninformatik-spezifische Module</tspan>
             </text>
         </g>
@@ -724,7 +724,7 @@
                     </g>
                 </g>
             </g>
-            <text id="Beschreibung" font-family="MyriadPro-Regular, Myriad Pro" font-size="28" font-weight="normal" line-spacing="32" fill="#000000">
+            <text id="Beschreibung" font-family="PT Sans, Arial, Helvetica" font-size="28" font-weight="normal" line-spacing="32" fill="#000000">
                 <tspan x="62" y="26">Module zur individuellen Vertiefung</tspan>
             </text>
         </g>

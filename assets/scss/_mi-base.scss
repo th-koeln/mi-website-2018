@@ -48,7 +48,7 @@ h1,
 h2,
 h3,
 h4 {
-    line-height: 110% !important;
+    line-height: $lh-tight !important;
     word-break: break-word;
 }
 
@@ -62,7 +62,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 h4, .h4 {
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: $lh-loose;
     margin-top: 0;
     margin-bottom: .5rem;
 }
@@ -74,10 +74,7 @@ p + h2, ul + h2{
 
 p {
     margin-bottom: 1rem;
-    line-height: 130%;
-    @media screen and (max-width: 640px) {
-      line-height: 120%;
-    }
+    line-height: $lh-medium;
 }
 
 /* Lists -----------------------------------------------------------------------------*/
@@ -90,11 +87,11 @@ ul {
 ul, ol, dl {
     margin-bottom: 1rem;
     list-style-position: outside;
-    line-height: 140%;
+    line-height: $lh-loose;
 }
 
 li {
-    line-height: 130%;
+    line-height: $lh-medium;
     margin-bottom: $bfs-xs;
 }
 
@@ -104,7 +101,7 @@ li.accordion-item {
 
 
 .is-small li {
-    line-height: 110%;
+    line-height: $lh-tight;
     margin-bottom: $bfs-xxs;
 }
 

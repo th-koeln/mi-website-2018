@@ -1,0 +1,25 @@
+.m-mi-avatar-mit-text {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  &__text {
+    display: block;
+    padding-top: $bfs;
+    margin-bottom: $bfs;
+
+    &::after{
+      content: "";
+      height: 0;
+      display: block;
+      clear: both;
+    }
+  }
+
+  &__title{
+    margin-bottom: 0;
+  }
+
+  &__subtitle{
+    font-size: $bfs-s;
+  }
+
+}

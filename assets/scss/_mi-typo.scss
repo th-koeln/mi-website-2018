@@ -13,7 +13,7 @@ blockquote{
         display: block;
 
       &:not(:last-child)::after{
-        content: "-";
+        content: "";
         display: block;
         height: $bfs / 2;
       }
@@ -21,7 +21,7 @@ blockquote{
 }
 
 .subheader {
-    line-height: 100%;
+    line-height: $lh-tight;
     color: $mi-pink;
 }
 

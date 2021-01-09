@@ -4,8 +4,6 @@ subtitle: Fragen und Antworten zur auslaufenden BPO3
 layout: faq
 ---
 
-
-
 <div class="verantwortlich">
   <div><p>Die Prüfungsordnung BPO3 läuft zum Ende des Wintersemesters 2020/21 aus. In Kombination mit Covid 19 und den daraus resultierenden geänderten Prüfungsformen, -zeiträumen, Freiversuchen und Sonderregelungen entstehen einige Fragen und Probleme, von denen ich die häufigsten hier in meiner Rolle als Prüfungsausschussvorsitzender für den Medieninformatik Bachelor beantworten möchte.</p></div>
   <div class="questions">

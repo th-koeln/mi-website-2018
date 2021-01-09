@@ -82,9 +82,30 @@ body {
   display: grid;
   gap: $bfs;
   margin-bottom: $bfs-l;
-  &--2-cols{
-    grid-template-columns: 1fr 1fr;
+
+  @media screen and (min-width: $mi-vp-m) {
+    &--2-cols{
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    &--3-cols{
+      grid-template-columns: 1fr 1fr;
+    }
   }
+
+  @media screen and (min-width: $mi-vp-l) {
+    &--2-cols{
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &--3-cols{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+
+.span-2-columns{
+  grid-column: 1 / span 2;
 }
 
 .has-3-columns{

@@ -9,7 +9,7 @@
     border-radius: 0;
     transition: background-color 0.25s ease-out,color 0.25s ease-out;
     font-size: 0.9rem;
-    line-height: 1;
+    line-height: $lh-tight;
     text-align: center;
     cursor: pointer;
     background-color: #d16;
