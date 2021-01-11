@@ -31,8 +31,16 @@ layout: faq
       <figcaption class="m-mi-video-teaser__footer"><strong>Sophie</strong>Product Owner bei TV Now</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
+      {{< youtube 0tO-rivdwH4 >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>Sebastian</strong>User Experience Concepter bei UX&I</figcaption>
+    </figure>    
+    <figure class="m-mi-video-teaser">
       {{< youtube dceKBe-ZWRE >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Lena</strong>User Experience Desginerin & SCRUM Master bei intratech</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
+      {{< youtube apn-w938RoE >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>John Marc Sangermann</strong>Team Leader Software Engineering, LANdata IT-Solutions</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube rEfzheXyRA4 >}}
