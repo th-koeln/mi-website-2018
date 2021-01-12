@@ -31,6 +31,14 @@ layout: faq
       <figcaption class="m-mi-video-teaser__footer"><strong>Sophie</strong>Product Owner bei TV Now</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
+      {{< youtube wIB6yd3BDD4 >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>Julia</strong>User Experience Desginerin bei LeanIX</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
+      {{< youtube j3uD2t2_shM >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>Renée</strong>User experience Architect of Digital Innovation LAB (Japan)</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
       {{< youtube 0tO-rivdwH4 >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Sebastian</strong>User Experience Concepter bei UX&I</figcaption>
     </figure>    
