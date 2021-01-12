@@ -41,7 +41,7 @@ layout: faq
     <figure class="m-mi-video-teaser">
       {{< youtube 0tO-rivdwH4 >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Sebastian</strong>User Experience Concepter bei UX&I</figcaption>
-    </figure>    
+    </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube dceKBe-ZWRE >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Lena</strong>User Experience Desginerin & SCRUM Master bei intratech</figcaption>
