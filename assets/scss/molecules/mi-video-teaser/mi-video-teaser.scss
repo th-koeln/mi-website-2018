@@ -18,14 +18,14 @@
         color: $mi-hellgrau;
         z-index: 1;
         margin-bottom: 0;
-        padding: $bfs-xxs $bfs-xs $bfs-s $bfs-xs;
+        padding: $bfs-xs $bfs-xs $bfs-s $bfs-xs;
         font-size: $bfs-s;
         line-height: $lh-tight;
         strong{
           font-size: $bfs;
           display: block;
           color: #fff;
-          margin-bottom: $bfs-xxs;
+          line-height: $lh-medium;
         }
     }
 
