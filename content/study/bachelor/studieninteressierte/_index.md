@@ -35,6 +35,10 @@ layout: faq
       <figcaption class="m-mi-video-teaser__footer"><strong>Julia</strong>User Experience Desginerin bei LeanIX</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
+      {{< youtube BSV3eVBo4-A >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>Sahrah</strong>Dozentin und Freelancerin</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
       {{< youtube j3uD2t2_shM >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Renée</strong>User experience Architect of Digital Innovation LAB (Japan)</figcaption>
     </figure>
