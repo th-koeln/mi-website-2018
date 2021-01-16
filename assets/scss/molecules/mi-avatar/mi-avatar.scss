@@ -8,4 +8,9 @@
     background-size: cover;
     background-position: center;
     background-image: url("/img/avatar.png");
+
+    &--inline{
+      display: inline-block;
+      margin-right: $bfs-xs;
+    }
 }
