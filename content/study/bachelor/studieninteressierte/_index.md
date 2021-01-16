@@ -24,7 +24,7 @@ layout: faq
     </div>
     <figure class="m-mi-video-teaser">
       {{< youtube zcehLk0zNXs >}}
-      <figcaption class="m-mi-video-teaser__footer"><strong>Christopher</strong>User Experience Desginer bei meinestadt.de</figcaption>
+      <figcaption class="m-mi-video-teaser__footer"><strong>Christopher</strong>User Experience Desiginer bei meinestadt.de</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube Gsj2hoiO6_k >}}
@@ -32,7 +32,7 @@ layout: faq
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube wIB6yd3BDD4 >}}
-      <figcaption class="m-mi-video-teaser__footer"><strong>Julia</strong>User Experience Desginerin bei LeanIX</figcaption>
+      <figcaption class="m-mi-video-teaser__footer"><strong>Julia</strong>User Experience Desiginerin bei LeanIX</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube BSV3eVBo4-A >}}
@@ -47,8 +47,12 @@ layout: faq
       <figcaption class="m-mi-video-teaser__footer"><strong>Sebastian</strong>User Experience Concepter bei UX&I</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
+      {{< youtube J9qUHimlwhI >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>Sarah</strong>Frontend Designerin & Developerin beim Fraunhofer-Institut für Angewandte Informationstechnik FIT</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
       {{< youtube dceKBe-ZWRE >}}
-      <figcaption class="m-mi-video-teaser__footer"><strong>Lena</strong>User Experience Desginerin & SCRUM Master bei intratech</figcaption>
+      <figcaption class="m-mi-video-teaser__footer"><strong>Lena</strong>User Experience Desiginerin & SCRUM Master bei intratech</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube apn-w938RoE >}}
@@ -56,7 +60,7 @@ layout: faq
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube rEfzheXyRA4 >}}
-      <figcaption class="m-mi-video-teaser__footer"><strong>Holger</strong>User Experience Consultant bei eresult</figcaption>
+      <figcaption class="m-mi-video-teaser__footer"><strong>Holger</strong>Teamlead UX bei eresult</figcaption>
     </figure>
   </div>
 
