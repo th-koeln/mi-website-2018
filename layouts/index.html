@@ -16,7 +16,15 @@
         </div>
     {{ end }}
 
-
+        
+    {{ with .Site.GetPage "/home" }}
+      <div class="has-seperator">
+        {{ range $block := .Pages }}
+        <h2 class="mi-chapter-title is-colorful">{{ $block.Title }}</h2>
+          {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $block ) }}
+        {{ end }}
+      </div>
+    {{ end }}
 
     {{ with .Site.GetPage "/events" }}
         <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
