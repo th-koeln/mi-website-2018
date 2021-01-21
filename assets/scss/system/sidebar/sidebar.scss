@@ -1,32 +1,48 @@
 .m-sidebar {
-    padding: 0.5em;
+  padding: .5em;
 
-    &--menu {
-        margin: 0;
-        padding: 0;
+  &--menu {
+    margin: 0;
+    padding: 0;
 
-        > li {
-            font-family: $family-headlines;
-            font-size: rem-calc(25);
-            display: block;
-            text-align: right;
-        }
+    > li {
+      font-family: $family-headlines;
+      font-size: rem-calc(25);
+
+      display: block;
+
+      text-align: right;
+    }
+  }
+
+  &--logo {
+    margin-top: 18px;
+    margin-bottom: 109px;
+  }
+
+  .is-second {
+    position: absolute;
+    right: .5em;
+    bottom: 0;
+
+    > li {
+      font-family: $family-primary;
+      font-size: $bfs-s;
+
+      display: block;
+    }
+  }
+
+  .social-media-bar{
+    &--stack > .social-media-icon{
+      margin-right: $bfs;
+
+      @media screen and (min-width: 768px) {
+        display: block;
+        margin-right: $bfs-xxs;
+      }
     }
 
-    &--logo {
-        margin-top: 18px;
-        margin-bottom: 109px;
-    }
+  }
 
-    .is-second{
-        position: absolute;
-        bottom: 0;
-        right: 0.5em;
-        
-        > li {
-            font-family: $family-primary;
-            font-size: $bfs-s;
-            display: block;
-        }
-    }
 }

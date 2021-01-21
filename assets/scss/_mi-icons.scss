@@ -1,44 +1,90 @@
 /* MI Icons -----------------------------------------------------------------------------*/
 
 @font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(/fonts/iconfont/MaterialIcons-Regular.eot); 
-    src: local('Material Icons'),
-        local('MaterialIcons-Regular'),
-        url(/fonts/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
-        url(/fonts/iconfont/MaterialIcons-Regular.woff) format('woff'),
-        url(/fonts/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+  font-family: 'Material Icons';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url(/fonts/iconfont/MaterialIcons-Regular.eot);
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url(/fonts/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+  url(/fonts/iconfont/MaterialIcons-Regular.woff) format('woff'),
+  url(/fonts/iconfont/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
+  font-family: 'Material Icons';
+  font-size: 24px;  /* Preferred icon size */
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
 
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
+  display: inline-block;
 
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
+  white-space: nowrap;
+  letter-spacing: normal;
+  text-transform: none;
+  word-wrap: normal;
 
-    /* Support for IE. */
-    font-feature-settings: 'liga';
-
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
 
-h2 .material-icons{
-  color: $mi-blau !important;
+h2 .material-icons {
   padding-bottom: $bfs /3;
+
+  color: $mi-blau !important;
+}
+
+.social-media-icon {
+  display: inline-block;
+  overflow: hidden;
+
+  $icon-size: $bfs-xxl;
+  $icon-scale: 2;
+  width: $icon-size;
+  height: $icon-size;
+
+  background-image: url('../img/svg/MI-social-media-icons.svg');
+  background-position-y: $icon-size*-2.5;
+  background-size: 5*$icon-size*$icon-scale auto;
+  background-repeat: no-repeat;
+
+  transition: all 0.3s;
+
+  &:hover{
+    background-position-y: $icon-size*-4.5;
+  }
+
+  & a {
+    color: rgba(0,0,0,0);
+  }
+
+  &--instagram {
+    background-position-x: $icon-size*-.5;
+  }
+
+  &--twitter {
+    background-position-x: $icon-size*-2.5;
+  }
+
+  &--mastodon {
+    background-position-x: $icon-size*-4.5;
+  }
+
+  &--youtube {
+    background-position-x: $icon-size*-6.5;
+  }
+
+  &--facebook {
+    background-position-x: $icon-size*-8.5;
+  }
 }
