@@ -52,7 +52,8 @@ h2 .material-icons {
   $icon-scale: 2;
   width: $icon-size;
   height: $icon-size;
-
+  opacity: 0.8;
+  transform: scale(0.8);
   background-image: url('../img/svg/MI-social-media-icons.svg');
   background-position-y: $icon-size*-2.5;
   background-size: 5*$icon-size*$icon-scale auto;
