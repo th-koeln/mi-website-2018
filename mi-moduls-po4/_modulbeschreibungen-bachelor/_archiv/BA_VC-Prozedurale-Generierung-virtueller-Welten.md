@@ -1,6 +1,6 @@
 ---
 title: Prozedurale Generierung virtueller Welten
-modulverantwortlich: me
+modulverantwortlich: nn
 kuerzel: PGVW
 untertitel:
 studiensemester: 4
@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt und Fachgespräch 
-    erstpruefer: db
-    zweitpruefer: ss
+    erstpruefer: nn
+    zweitpruefer: nn
 ---
 
 ## Lehrform/SWS

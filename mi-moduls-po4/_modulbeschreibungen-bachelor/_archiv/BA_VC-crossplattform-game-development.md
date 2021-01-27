@@ -1,6 +1,6 @@
 ---
 title: Crossplatform Game Development mit Unity3D
-modulverantwortlich: me
+modulverantwortlich: nn
 kuerzel: CGD
 untertitel:
 studiensemester: 4
@@ -17,8 +17,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und -präsentationsprüfung
-    erstpruefer: ss
-    zweitpruefer: db
+    erstpruefer: nn
+    zweitpruefer: nn
 ---
 
 ## Lehrform/SWS

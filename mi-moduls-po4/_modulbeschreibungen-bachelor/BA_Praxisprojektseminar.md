@@ -27,10 +27,10 @@ studienleistungen:
 4 SWS: Seminar
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
+Gesamtaufwand 135 h, davon 
 
-* 32h Seminar
-* 118h Selbststudium
+* 32 h Seminar
+* 103 h Selbststudium
 
 ## Angestrebte Lernergebnisse
 Die Studierenden  
@@ -48,6 +48,5 @@ Das Praxisprojektseminar besteht aus
 - Fachvorträgen von Studierenden über ihre Projektergebnisse.
 
 ## Literatur
-- Rechenberg: Technisches Schreiben (nicht nur) für Informatiker, 2. Aufl, Hanser Verlag 2003
 - M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 2. Auflage WUV 2007
 

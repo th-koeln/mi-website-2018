@@ -25,7 +25,7 @@ studienleistungen:
 Angeleitetes, eigenverantwortliches Arbeiten
 
 ## Arbeitsaufwand
-300 h Projektarbeit
+315 h Projektarbeit
 
 ## Angestrebte Lernergebnisse
 Die Studierenden 

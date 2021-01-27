@@ -35,13 +35,9 @@ Gesamtaufwand 180 Stunden, davon
 - 108h Selbststudium 
 
 ## Angestrebte Lernergebnisse
-Die Studierenden sind in der Lage auf Basis eines dokumentierten Konzepts ein Entwicklungsprojekt für eine Web-basierte Anwendung zu strukturieren, das Konzept ggf. zu erweitern, um Entwicklungsprojekte im oder für ein Team aufsetzen zu können.
+Die Studierenden können aus verschiedenen Technologien, Implementierungskonzepten und -methoden, sowie Frameworks und Best-Practices sowohl auswählen, als auch die getroffene Auswahl fachlich begründen und dokumentieren, indem sie in einem mit laufenden Projekt auf Featurerequests reagieren, um eine Web-basierte Anwendung möglichst nachhaltig und umsichtig entwickeln zu können.
 
-Die Studierenden kennen verschiedene Implementierungskonzepte und -methoden, also auch Frameworks und Best-Practices und können, bezogen auf die Projektanforderungen, die geeigneten auswählen und andere darin anleiten, um eine Web-basierte Anwendung möglichst nachhaltig entwickeln zu können.
-
-Die Studierenden kennen geeignete Vorgehensmodelle, Dokumentationstechniken, sowie Entwicklungswerkzeuge und können diese im Projektkontext sinnvoll einsetzen, um möglichst professionell im Team entwickeln und dokumentieren zu können.
-
-Die Studierenden sind in der Lage, neue Technologien und Strömungen im Kontext des Webs zu erkennen, einzuordnen, zu bewerten und zu durchdringen, um die Zukunftsfähigkeit der eigenen Skills, des Teams und den Projekts sicher zu stellen.   
+Die Studierenden sind in der Lage, neue Technologien und Strömungen im Kontext des Webs zu erkennen und anderen diese näher zu bringen, indem sie Drafts, Proposals und Reviews im Gegenstandsbereich recherchieren, durchdringen, bewerten und einordnen und einen Workshop dazu entwickeln und diesen durchführen, um die Zukunftsfähigkeit der eigenen Skills, des Teams und des Projekts sicher zu stellen. 
 
 ## Inhalt
 - Technologiescouting und -Bewertung

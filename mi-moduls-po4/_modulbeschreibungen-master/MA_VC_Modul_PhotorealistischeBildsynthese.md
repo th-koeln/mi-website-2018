@@ -1,6 +1,6 @@
 ---
 title: Photorealistische Bildsynthese
-modulverantwortlich: gh
+modulverantwortlich: all
 kuerzel: PB
 studiensemesterWs: 3
 studiensemesterSs: 2

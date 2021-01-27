@@ -1,6 +1,6 @@
 ---
 title: Vertiefungsworkshop 2
-modulverantwortlich: me
+modulverantwortlich: mbluemm
 kuerzel: VW2
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -44,5 +44,7 @@ Projektergebnisse in einem wissenschaftlichen Beitrag (z.B. für eine Konferenz,
 ## Medienformen
 Entwicklungs- und Deployment-Umgebung mit Artefakt-Repository, Kollaborationssysteme
 
+
 ## Literatur
 Je nach Studienschwerpunkt und fachlicher Aufgabe
+

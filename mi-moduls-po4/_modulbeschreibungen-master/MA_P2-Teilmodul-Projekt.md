@@ -1,6 +1,6 @@
 ---
 title: Projektanteil Projekt 2
-modulverantwortlich: kf, mw, hk, ck, gh, cn, mbl
+modulverantwortlich: kf, mw, hk, ck, gh, cn, mbluemm
 kuerzel: P2
 studiensemesterWs: 2
 studiensemesterSs: 3
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit und -dokumentation
-    erstpruefer: gh, hk, kf, mbl, cn, ck
-    zweitpruefer: gh, hk, kf, mbl, cn, ck
+    erstpruefer: gh, hk, kf, mbluemm, cn, ck
+    zweitpruefer: gh, hk, kf, mbluemm, cn, ck
 ---
 
 ## Kurzbeschreibung
