@@ -11,7 +11,7 @@ layout: faq
   </p>
 </div>
 
-<div class="has-seperator has-seperator--lila">
+<!--div class="has-seperator has-seperator--lila">
   <div class="m-mi-avatar m-mi-avatar--inline" style="background-image:url(/img/mentoren/mario-faske.jpg)"></div>
   <div class="m-mi-avatar m-mi-avatar--inline" style="background-image:url(/img/mentoren/nathalie-kuhn.jpg)"></div>
   <p>
@@ -20,7 +20,7 @@ layout: faq
 
   Hier ist der <a href="https://th-koeln.zoom.us/j/2898308876">Link zur Zoom Session</a>. Der Kenncode ist *4711*
   </p>
-</div>
+</div-->
 
 <div class="has-seperator">{{< youtube 1WpT-o9Smlc >}}</div>
 

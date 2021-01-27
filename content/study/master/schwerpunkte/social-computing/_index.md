@@ -59,4 +59,4 @@ Der Schwerpunkt Social Computing spricht sowohl etablierte als auch neu entstehe
 ## Schwerpunktspezifische Pflichtmodule
 - [Sicherheit, Privatsphäre und Vertrauen](/study/master/moduls/ma_wtw_modul_it-sicherheit)
 - [Soziotechnische Entwurfsmuster](/study/master/moduls/ma_sc_soziotechnische_entwurfsmuster)
-- [Netzwerk-und Graphentheorie](/study/master/moduls/ma_sc_modul_netzwerk--und-graphentheorie)
+- [Netzwerk-und Graphentheorie](/study/master/moduls/ma_sc_modul_netzwerk-und-graphentheorie)
