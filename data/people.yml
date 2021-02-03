@@ -169,8 +169,8 @@ lk:
     status: prof
     name: 'Prof. Dr. Lutz Köhler'
     personenseite: 'https://www.th-koeln.de/personen/lutz.koehler/'
-mb:
-    id: mb
+mboehmer:
+    id: mboehmer
     status: prof
     name: 'Prof. Dr. Matthias Böhmer'
     avatar: '/img/professoren/boehmer.jpg'
