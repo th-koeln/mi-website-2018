@@ -1,6 +1,6 @@
 ---
 title: Betriebssysteme und verteilte Systeme
-modulverantwortlich: mboehmer, lk
+modulverantwortlich: mboehmer
 modulniveau: bachelor
 kuerzel: BS1
 untertitel:
