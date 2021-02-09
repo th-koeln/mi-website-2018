@@ -104,8 +104,12 @@ body {
   }
 }
 
-.span-2-columns{
-  grid-column: 1 / span 2;
+.span-first-2-columns{
+  grid-column: 1 / 3;
+}
+
+.span-second-2-columns{
+  grid-column: 2 / 4;
 }
 
 .has-3-columns{

@@ -3,7 +3,7 @@
 <div class="content has-gap is-fluid">
 
   <div class="o-mi-image-overview [ js-slideshow ]">
-  {{ with .Resources.ByType "image" }}
+  {{ with .Resources.Match "image-overview/*" }}
       {{ range . }}
         {{ if not (in . "teaser-") }}
           {{ $thumb := .Fill "400x400 Center q100 Linear" | images.Filter (images.UnsharpMask 0.2 0.2 0.02) }}
