@@ -47,6 +47,10 @@ layout: faq
       <figcaption class="m-mi-video-teaser__footer"><strong>Julia</strong>User Experience Desiginerin bei LeanIX</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
+      {{< youtube AExfv7OXnzc >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>David</strong>Doktorand</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
       {{< youtube BSV3eVBo4-A >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Sahrah</strong>Dozentin und Freelancerin</figcaption>
     </figure>
