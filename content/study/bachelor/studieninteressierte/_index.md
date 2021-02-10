@@ -48,7 +48,7 @@ layout: faq
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube AExfv7OXnzc >}}
-      <figcaption class="m-mi-video-teaser__footer"><strong>David</strong>Doktorand</figcaption>
+      <figcaption class="m-mi-video-teaser__footer"><strong>David</strong>Doktorand & Wissenschaftlicher Mitarbeiter</figcaption>
     </figure>
     <figure class="m-mi-video-teaser">
       {{< youtube BSV3eVBo4-A >}}
