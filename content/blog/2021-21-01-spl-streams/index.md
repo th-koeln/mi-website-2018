@@ -48,7 +48,7 @@ Bei der Konzeptidee „Bachelor of Gaming“ werden in einer Gameshow zwei Kandi
 ### Ratebakel
  
 ![alt text](spl-ratebakel.png "ratebakel")
-Bei der Konzeptidee „Ratebakel“ werden zwei Kontrahenten zufällig ausgewählte Youtube-Videos anschauen und die Anzahl der Aufrufe erraten. Je nach Art des Erfolgs, werden dann Punkte verteilt. Der Verlierer muss eine  ganze Chili – "ohne Beilage" – esssen.
+Bei der Konzeptidee „Ratebakel“ werden zwei Kontrahenten zufällig ausgewählte Youtube-Videos anschauen und die Anzahl der Aufrufe erraten. Je nach Art des Erfolgs, werden dann Punkte verteilt. Der Verlierer muss eine  ganze Chili – "ohne Beilage" – essen.
 
 {{< youtube q_y_gN86HkE >}} Ratebakel von Thilo Schenkelberg und  Christopher Schmitz
 
