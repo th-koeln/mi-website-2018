@@ -16,7 +16,7 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung
+    art: individuelles Lernportfolio
     erstpruefer: gh
     zweitpruefer: ck
 ---
@@ -32,7 +32,7 @@ Gesamtaufwand 300h, davon
 * 170h Selbststudium
 
 ## Angestrebte Lernergebnisse
-* Die Studierenden erwerben Grundkenntnisse in kognitions-, arbeits- und organisations-psychologischen Grundkonzepten und können diese auf Problemstellungen, im Kontext der Mensch-Computer Interaktion, anwenden. 
+* Die Studierenden erwerben Grundkenntnisse in kognitions-, arbeits- und organisations-psychologischen Grundkonzepten und können diese auf Problemstellungen im Kontext der Mensch-Computer Interaktion anwenden. 
 * Die Studierenden kennen Modelle, Methoden, Arbeits- und Dokumentationstechniken der Mensch-Computer Interaktion, können sie anwenden, kritisch diskutieren und für konkrete Aktivitäten in Entwicklungsprojekten unter Abwägung der Alternativen auswählen. 
 * Sie kennen relevante internationale Normen und Standards, können sie anwenden und erarbeitete Ergebnisse kritisch diskutieren und einordnen.
 * Sie kennen methodische Ansätze benutzer- oder benutzungsorientierter Entwicklungsprozesse und können diese systematisch und iterativ auf die Konzeption, Realisation, Evaluation und das Redesign von interaktiven Systemen anwenden. 
