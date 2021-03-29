@@ -48,5 +48,5 @@ Das Praxisprojektseminar besteht aus
 - Fachvorträgen von Studierenden über ihre Projektergebnisse.
 
 ## Literatur
-- M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 2. Auflage WUV 2007
+- M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 10. überarbeitete und aktualisierte Auflage. - Wien: Facultas: 2019
 
