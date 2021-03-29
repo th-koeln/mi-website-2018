@@ -1,6 +1,6 @@
 ---
 title: Frameworks, Daten und Dienste im Web
-modulverantwortlich: kf
+modulverantwortlich: dbreuer
 modulniveau: bachelor
 kuerzel: FDDW
 untertitel:

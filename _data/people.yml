@@ -232,6 +232,13 @@ fv:
     avatar: '/img/professoren/victor.png'
     personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
     mi: true
+dbreuer:
+    id: dbreuer
+    status: lehrauftrag
+    name: 'Dirk Breuer'
+    avatar: '/img/lehrbeauftragte/dirk-breuer.png'
+    personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
+    mi: true
 jh:
     id: jh
     status: lehrauftrag
