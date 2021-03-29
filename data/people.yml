@@ -157,6 +157,13 @@ chh:
     avatar: 'https://www.th-koeln.de/pseimg/91dc1a78351336bdd58bb06aba518965bafcf350.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.hahn1/'
     mi: true
+dbreuer:
+    id: dbreuer
+    status: lehrauftrag
+    name: 'Dirk Breuer'
+    avatar: '/img/lehrbeauftragte/dirk-breuer.png'
+    personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
+    mi: true
 fv:
     id: fv
     status: prof
