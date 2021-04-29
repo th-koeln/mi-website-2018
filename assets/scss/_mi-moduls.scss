@@ -377,12 +377,10 @@ ul, ol, dl {
 
 .blog-items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
     grid-gap: $bfs;
 
-    @media(max-width: $mi-vp-l) {
-        grid-template-columns: 1fr;
-    }
+
 
 }
 

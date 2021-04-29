@@ -20,22 +20,37 @@ dokumentiert und kritisch reflektiert.
 
 Eine kleine Auswahl an Projekten:
 
-    
+<hr class="has-seperator">
+
 ### Putzrobotermensch 
  
  
-{{< youtube tIPH_T7-Lj8 >}} Werbespot von Dustin Barth, Nico Brenner, Daniel Rogowski
+{{< youtube tIPH_T7-Lj8 >}} 
+
+Werbespot von Dustin Barth, Nico Brenner, Daniel Rogowski
+
+<hr class="has-seperator has-seperator--lila">
 
 ### Safari im Schrank
  
-{{< youtube 8hyrsTGyMGg >}} Werbespot TAL Airlines von Oya Aydin
+{{< youtube 8hyrsTGyMGg >}} 
+
+Werbespot TAL Airlines von Oya Aydin
+
+<hr class="has-seperator">
 
 ### Echse – 3D-Modellierung mit Blender 3D
  
-  {{< youtube syN0cS4IS5E >}} 3D Modellierung einer Echse   von Markus Mohr-Dama & Sophia Johannsen
+  {{< youtube syN0cS4IS5E >}} 
   
+  3D Modellierung einer Echse   von Markus Mohr-Dama & Sophia Johannsen
+
+<hr class="has-seperator has-seperator--lila">
+
 ### Amazin' Prime
  
-{{< youtube m1OM4tHCELM >}} Werbespot von Oliver Mertens & Daniel Weyand
+{{< youtube m1OM4tHCELM >}} 
+
+Werbespot von Oliver Mertens & Daniel Weyand
 
  
