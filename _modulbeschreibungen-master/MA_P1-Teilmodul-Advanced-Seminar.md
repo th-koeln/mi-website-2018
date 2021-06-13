@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit
-    erstpruefer: kf
-    zweitpruefer: 
+    erstpruefer: mbluemm
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung
