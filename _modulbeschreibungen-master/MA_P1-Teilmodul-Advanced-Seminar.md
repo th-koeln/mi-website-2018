@@ -1,6 +1,6 @@
 ---
 title: Advanced Seminar
-modulverantwortlich: kf
+modulverantwortlich: mbluemm
 kuerzel: AS
 studiensemesterWs: 1
 studiensemesterSs: 2
