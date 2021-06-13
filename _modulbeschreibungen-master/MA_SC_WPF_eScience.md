@@ -1,6 +1,6 @@
 ---
 title: e-Science
-modulverantwortlich: ck
+modulverantwortlich: mbluemm, ck
 kuerzel: mbluemm, ck
 studiensemesterWs: 1
 studiensemesterSs: 2
