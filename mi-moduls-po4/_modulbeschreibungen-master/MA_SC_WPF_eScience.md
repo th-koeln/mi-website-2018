@@ -11,8 +11,8 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung
-typ: wpm
-parent: WPM
+@@ typ: wpm 
+@@ parent: WPM
 schwerpunkt: sc
 infourl: 
 studienleistungen:
@@ -56,11 +56,11 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 
 
 ## Literatur
-- Döring, N. & Bortz, J. (2015). Forschungsmethoden und Evaluation: Für Human- und Sozialwissenschaftler. Berlin [u.a.]: Springer.
-- Flick, U. (2011). Qualitative Sozialforschung: Eine Einführung. Reinbek bei Hamburg: Rowohlt-Taschenbuch-Verl. 
+- Döring, N. & Bortz, J. (2015). Forschungsmethoden und Evaluation: Für Human- und Sozialwissenschaftler. Berlin [u.a.]: Springer.
+- Flick, U. (2011). Qualitative Sozialforschung: Eine Einführung. Reinbek bei Hamburg: Rowohlt-Taschenbuch-Verl. 
 - Popper, K. R. (1972). The logic of scientific discovery. London: Hutchinson.
-- Schnädelbach, H. (2002). Erkenntnistheorie zur Einführung. Zur Einführung, 268. Hamburg: Junius.
-- Westermann, R. (2000). Wissenschaftstheorie und Experimentalmethodik: Ein Lehrbuch zur psychologischen Methodenlehre. Göttingen [u.a.]: Hogrefe, Verl. für Psychologie.
+- Schnädelbach, H. (2002). Erkenntnistheorie zur Einführung. Zur Einführung, 268. Hamburg: Junius.
+- Westermann, R. (2000). Wissenschaftstheorie und Experimentalmethodik: Ein Lehrbuch zur psychologischen Methodenlehre. Göttingen [u.a.]: Hogrefe, Verl. für Psychologie.
 
 
 
