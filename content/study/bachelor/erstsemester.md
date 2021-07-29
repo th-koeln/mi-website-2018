@@ -33,6 +33,23 @@ Für die Erstsemester steht eigens ein [Mentorenteam](https://www.th-koeln.de/in
 ### Ordnungen und Formulare
 Hier finden Sie unter anderem die [Prüfungsordnung](https://www.th-koeln.de/studium/medieninformatik-bachelor--ordnungen-und-formulare_3963.php). Diese Ordnung bildet die rechtliche Grundlage für Ihr Studium. In ihr finden Sie alle relevanten Regelungen und mehr Antworten, als Sie vielleicht vermuten. 
 
+### First Steps @TH Köln: Zoom Session for International First-Year Students
+
+You are an international applicant and have recently received an admission letter to TH Köln? Congratulations! Join the Team International Degree-Seeking Students in the Zoom Session for international first-year students at TH Köln to learn about the next steps and use the opportunity to ask any open questions you may have.
+Contents of the event:
+
+• Enrollment: what to consider?
+• Responsibilities: Who do I contact with what kind of questions?
+• Necessary IT tools for your studies
+• Information about the start of studies
+• Q&A Session
+
+Duration: 90-120 minutes
+
+For further details:
+https://www.th-koeln.de/en/first-steps-th-koeln_85882.php
+
+
 ###  Weitere Informationsquellen
 - [Zentrale Informationen der Hochschule zur Corona Pandemie](https://www.th-koeln.de/hochschule/coronavirus_73114.php#sprungmarke_1_118)
 - [Studienbüro Campus Gummersbach](https://www.th-koeln.de/studium/studienbuero-campus-gummersbach_5313.php)
