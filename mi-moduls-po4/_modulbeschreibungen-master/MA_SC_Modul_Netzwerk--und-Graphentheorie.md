@@ -1,6 +1,6 @@
 ---
 title: Netzwerk-und Graphentheorie
-modulverantwortlich: kf
+modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
 kuerzel: NGT
 studiensemesterWs: 2
 studiensemesterSs: 1
@@ -19,8 +19,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: kf
-    zweitpruefer: 
+    erstpruefer: Dr. Petru Nicolaescu
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung

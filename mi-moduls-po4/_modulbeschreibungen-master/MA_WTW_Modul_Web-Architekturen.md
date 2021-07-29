@@ -1,6 +1,6 @@
 ---
 title: Web Architekturen 
-modulverantwortlich: kf
+modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
 kuerzel: WTW-WBA
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,8 +18,8 @@ schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: kf
-    zweitpruefer: 
+    erstpruefer: cn
+    zweitpruefer: ck
 ---
 
 ## Kurzbeschreibung

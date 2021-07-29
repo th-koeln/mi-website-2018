@@ -1,6 +1,6 @@
 ---
 title: Logik und semantische Modellierung
-modulverantwortlich: kf
+modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
 kuerzel: WTW-LSM
 studiensemesterWs: 2
 studiensemesterSs: 3
@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
-    zweitpruefer: 
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung

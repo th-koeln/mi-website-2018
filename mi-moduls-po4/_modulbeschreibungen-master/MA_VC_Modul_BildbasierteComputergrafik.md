@@ -1,7 +1,7 @@
 ---
 title: Bildbasierte Computergrafik
 modulverantwortlich: all
-kuerzel: BCG
+kuerzel: N.N. (Nachfolge Kristian Fischer)
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: wahlweise deutsch oder englisch

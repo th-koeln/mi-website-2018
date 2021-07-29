@@ -1,6 +1,6 @@
 ---
 title: Grundlagen des Web
-modulverantwortlich: kf
+modulverantwortlich: nn
 modulniveau: bachelor
 kuerzel: GW
 untertitel:
@@ -17,11 +17,11 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: kf
+    erstpruefer: nn
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: kf
+    erstpruefer: nn
     zweitpruefer: maa, nkuhn, mfaske
 ---
 

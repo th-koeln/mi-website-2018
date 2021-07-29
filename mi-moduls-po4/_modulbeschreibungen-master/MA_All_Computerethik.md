@@ -1,7 +1,7 @@
 ---
 title: Computerethik
-modulverantwortlich: ck
-kuerzel: CE
+modulverantwortlich: mbluemm
+kuerzel: mbluemm
 studiensemesterWs: 2
 studiensemesterSs: 1
 sprache: deutsch
@@ -15,8 +15,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    erstpruefer: mbluemm
+    zweitpruefer: ck
 ---
 
 ## Lehrform/SWS
