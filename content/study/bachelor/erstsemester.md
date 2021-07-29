@@ -5,7 +5,7 @@ subtitle: Es geht loooooos!
 
 Liebe Erstsemester, endlich geht es los. Schön, dass Sie an Bord sind! Aufgrund des [Coronavirus (Covid-19)](https://www.th-koeln.de/hochschule/coronavirus_73114.php) und der damit einhergehenden Einschränkungen sieht der Studienbeginn und fast alle Module (oder gar alle?) in diesem Semester ganz anders aus als sonst. Wir hoffen, dass dies nur eine kurze Phase ist, denn uns allen fehlt die direkte Interaktion, der kurze Schnack auf dem Flur und die direkte Auseinandersetzung im Gespräch inkl. Mimik, Gestik und allem was dazu noch gehört. 
 
-Die Lehrveranstaltungen werden überwiegend online stattfinden. Anbei finden Sie Antworten und Links zu einigen elementaren Fragen.
+Die Lehrveranstaltungen werden überwiegend online stattfinden. Vorrangig in Präsenz stattfinden werden solche Lehrveranstaltungen, bei denen die Nutzung von Vor-Ort-Ressourcen (z.B. Labore, Computerräume) oder die didaktischen Ziele die Präsenz erfordern. Keine Präsenz wird es im Normalfall für Vorlesungen oder andere Lehrveranstaltungen mit vielen Teilnehmer*innen geben. Diese haben sich als besonders geeignet für die digitale Durchführung erwiesen haben. 
 
 ## <span class="material-icons">line_style</span> Welche Module muss ich besuchen?
 
