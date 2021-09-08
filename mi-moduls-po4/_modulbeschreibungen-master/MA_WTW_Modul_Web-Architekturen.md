@@ -1,6 +1,6 @@
 ---
 title: Web Architekturen 
-modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
+modulverantwortlich: perasmus
 kuerzel: WTW-WBA
 studiensemesterWs: 1
 studiensemesterSs: 2

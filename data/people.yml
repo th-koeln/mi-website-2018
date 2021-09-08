@@ -70,6 +70,20 @@ maa:
     name: 'Markus Christopher Alterauge'
     personenseite: 'https://www.th-koeln.de/personen/markus.alterauge/'
     mi: true
+jk:
+    id: jk
+    status: lehrauftrag
+    name: 'Jan Kus'
+    avatar: '/img/lehrbeauftragte/jan-kus.jpeg'
+    personenseite: 'https://www.th-koeln.de/personen/jan.kus/'
+    mi: true
+perasmus:
+    id: perasmus
+    status: lehrauftrag
+    name: 'Patrick Erasmus'
+    avatar: '/img/lehrbeauftragte/patrick-erasmus.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/patrick.erasmus/'
+    mi: true
 ck:
     id: ck
     status: prof
