@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: Remote, teils hybrid
 infourl: 
 studienleistungen:
   Einzelleistung:

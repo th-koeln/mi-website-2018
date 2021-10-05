@@ -13,6 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:

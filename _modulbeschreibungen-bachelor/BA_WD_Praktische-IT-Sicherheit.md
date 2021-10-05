@@ -14,6 +14,7 @@ published: true
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_772146&client_id=ILIAS_FH_Koeln
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: WD
 studienleistungen:
   Einzelleistung:

@@ -14,6 +14,7 @@ published: true
 infourl: https://moxd.io/iot2020
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: WD
 studienleistungen:
   Einzelleistung:

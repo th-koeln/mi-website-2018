@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Grundlagen der B
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   iug:

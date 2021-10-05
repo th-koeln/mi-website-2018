@@ -14,6 +14,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: vpm
+veranstaltungsform: 
 infourl: 
 ---
 

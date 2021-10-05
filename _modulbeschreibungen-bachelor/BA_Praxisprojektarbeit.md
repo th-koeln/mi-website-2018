@@ -13,6 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: PP
 studienleistungen:
   Einzelleistung:

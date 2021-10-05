@@ -12,6 +12,7 @@ empfohleneVoraussetzungen:
 kreditpunkte: 7
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=1664123&cmdClass=ilobjcoursegui&cmdNode=w4:l5&baseClass=ilrepositorygui&redirectSource=ilcourseregistrationgui&cmdMode=
 studienleistungen:
   Einzelleistung:

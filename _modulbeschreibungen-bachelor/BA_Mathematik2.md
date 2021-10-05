@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Mathematik I
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:

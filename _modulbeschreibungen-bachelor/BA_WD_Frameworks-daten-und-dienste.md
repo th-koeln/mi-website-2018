@@ -14,6 +14,7 @@ published: true
 infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frameworks-dienste-und-daten/
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: WD
 studienleistungen:
   Einzelleistung:

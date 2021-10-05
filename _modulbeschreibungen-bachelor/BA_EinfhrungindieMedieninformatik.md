@@ -13,6 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: Remote, Projektwoche vor Ort
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:

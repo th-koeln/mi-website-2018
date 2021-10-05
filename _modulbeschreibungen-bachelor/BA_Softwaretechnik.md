@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektor
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:
