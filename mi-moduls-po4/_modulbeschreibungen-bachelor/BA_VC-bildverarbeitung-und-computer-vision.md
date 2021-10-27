@@ -9,7 +9,7 @@ zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mathematik 1 & 2
-published: true
+published: false
 layout: modulbeschreibung
 typ: tm
 veranstaltungsform: 
