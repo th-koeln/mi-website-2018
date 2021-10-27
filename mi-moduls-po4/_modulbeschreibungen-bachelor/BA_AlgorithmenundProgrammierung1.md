@@ -12,6 +12,7 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
+veranstaltungsform: 
 typ: pm
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=19830&cmdClass=ilrepositorygui&cmdNode=w4&baseClass=ilrepositorygui
 studienleistungen:

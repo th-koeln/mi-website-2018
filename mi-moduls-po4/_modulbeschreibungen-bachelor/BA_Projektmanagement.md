@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Es werden keine über die allgemeinen Zulassungsvorau
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:

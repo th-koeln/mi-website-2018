@@ -11,6 +11,7 @@ kreditpunkte: 7
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1
 published: true
+veranstaltungsform: 
 typ: pm
 layout: modulbeschreibung
 infourl: 

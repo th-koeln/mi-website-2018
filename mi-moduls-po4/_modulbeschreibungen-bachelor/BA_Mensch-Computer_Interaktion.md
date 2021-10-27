@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:

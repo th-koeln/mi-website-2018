@@ -15,6 +15,7 @@ published: true
 infourl: https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: Remote
 parent: PP
 studienleistungen:
   Einzelleistung:

@@ -14,6 +14,7 @@ published: true
 infourl: https://th-koeln.github.io/mi-bachelor-screendesign/
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: Vor Ort und Remote
 studienleistungen:
   Einzelleistung:
     art: Gestaltungsportfolio

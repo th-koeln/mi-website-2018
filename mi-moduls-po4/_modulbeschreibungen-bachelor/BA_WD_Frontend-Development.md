@@ -14,6 +14,7 @@ published: true
 infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frontend-development/
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: WD
 studienleistungen:
   Einzelleistung:

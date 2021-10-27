@@ -12,6 +12,7 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
 published: true
 layout: modulbeschreibung
+veranstaltungsform: 
 typ: pm
 infourl: 
 studienleistungen:

@@ -13,6 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung, Projektdokumentation
