@@ -239,6 +239,13 @@ dbreuer:
     avatar: '/img/lehrbeauftragte/dirk-breuer.png'
     personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
     mi: true
+perasmus:
+    id: perasmus
+    status: lehrauftrag
+    name: 'Patrick Erasmus'
+    avatar: '/img/lehrbeauftragte/patrick-erasmus.png'
+    personenseite: 'https://www.th-koeln.de/personen/patrick.erasmus/'
+    mi: true
 jh:
     id: jh
     status: lehrauftrag
@@ -390,7 +397,13 @@ sb:
     avatar: '/img/professoren/bente.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
     mi: false
-    
+jkus:
+    id: jkus
+    status: lehrauftrag
+    name: 'Jan Kus'
+    avatar: '/img/lehrbeauftragte/jan-kus.png'
+    personenseite: 'https://www.th-koeln.de/en/person/jan.kus/'
+    mi: true
 mi:
     id: mi
     name: 'Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'

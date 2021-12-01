@@ -1,6 +1,6 @@
 ---
 title: Grundlagen des Web
-modulverantwortlich: jk
+modulverantwortlich: jkus
 modulniveau: bachelor
 kuerzel: GW
 untertitel:
@@ -18,11 +18,11 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: jk
+    erstpruefer: jkus
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: jk
+    erstpruefer: jkus
     zweitpruefer: maa, nkuhn, mfaske
 ---
 
