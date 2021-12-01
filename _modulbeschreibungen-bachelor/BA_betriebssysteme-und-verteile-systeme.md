@@ -17,7 +17,7 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Hausarbeit, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: mboehmer
     zweitpruefer: lk
 ---
