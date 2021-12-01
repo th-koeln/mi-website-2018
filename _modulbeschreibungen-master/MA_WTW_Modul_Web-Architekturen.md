@@ -1,6 +1,6 @@
 ---
 title: Web Architekturen 
-modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
+modulverantwortlich: perasmus
 kuerzel: WTW-WBA
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,8 +18,8 @@ schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: cn
-    zweitpruefer: ck
+    erstpruefer: perasmus
+    zweitpruefer: cn
 ---
 
 ## Kurzbeschreibung
