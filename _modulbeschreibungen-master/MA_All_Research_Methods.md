@@ -16,7 +16,7 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio (30%), Projektarbeit (70%)
+    art: Präsentation (30%), Projektarbeit (70%)
     erstpruefer: gh, mbluemm
     zweitpruefer: gh, mbluemm
 ---
