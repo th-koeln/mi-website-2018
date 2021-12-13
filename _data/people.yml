@@ -397,6 +397,13 @@ sb:
     avatar: '/img/professoren/bente.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
     mi: false
+mzapp:
+    id: mzapp
+    status: prof
+    name: 'Prof. Dr. Matthias Zapp'
+    avatar: '/img/professoren/mzapp.png'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
+    mi: false
 jkus:
     id: jkus
     status: lehrauftrag

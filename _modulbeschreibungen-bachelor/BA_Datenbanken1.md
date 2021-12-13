@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung. Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur
-    erstpruefer: bb, hfw
-    zweitpruefer: bb, hfw
+    erstpruefer: bb
+    zweitpruefer: mzapp
 ---
 
 ## Lehrform/SWS

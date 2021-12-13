@@ -1,6 +1,6 @@
 ---
 title: Netzwerk-und Graphentheorie
-modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
+modulverantwortlich: Lehrbeauftragter
 kuerzel: NGT
 studiensemesterWs: 2
 studiensemesterSs: 1

@@ -1,6 +1,6 @@
 ---
 title: Entwicklungsprojekt interaktive Systeme
-modulverantwortlich: kf, gh
+modulverantwortlich: gh
 modulniveau:
 kuezel: EIS
 untertitel:
