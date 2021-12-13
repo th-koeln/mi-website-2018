@@ -2,7 +2,7 @@
 title: Praktische IT Sicherheit
 modulverantwortlich: sk
 modulniveau: bachelor
-kuerzel: PIT
+kuerzel: PITS
 untertitel:
 studiensemester: 4
 kategorie:
@@ -18,7 +18,7 @@ veranstaltungsform:
 parent: WD
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung
+    art: Seminarvortrag
     erstpruefer: sk
     zweitpruefer: hls
 ---
