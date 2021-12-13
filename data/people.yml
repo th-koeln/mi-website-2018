@@ -70,8 +70,8 @@ maa:
     name: 'Markus Christopher Alterauge'
     personenseite: 'https://www.th-koeln.de/personen/markus.alterauge/'
     mi: true
-jk:
-    id: jk
+jkus:
+    id: jkus
     status: lehrauftrag
     name: 'Jan Kus'
     avatar: '/img/lehrbeauftragte/jan-kus.jpeg'
