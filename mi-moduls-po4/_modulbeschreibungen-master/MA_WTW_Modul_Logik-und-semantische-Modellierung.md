@@ -1,6 +1,6 @@
 ---
 title: Logik und semantische Modellierung
-modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
+modulverantwortlich: Lehrbeauftragter
 kuerzel: WTW-LSM
 studiensemesterWs: 2
 studiensemesterSs: 3

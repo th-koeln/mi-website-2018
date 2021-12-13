@@ -19,11 +19,11 @@ parent: WD
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: kf
+    erstpruefer: dbreuer
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: kf
+    erstpruefer: dbreuer
     zweitpruefer: maa
 ---
 

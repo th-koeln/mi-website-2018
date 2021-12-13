@@ -18,7 +18,7 @@ infourl: https://ilias.th-koeln.de/goto.php?target=crs_1328242&client_id=ILIAS_F
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und Meilensteinpräsentationen
-    erstpruefer: gh, hk, mbluemm, kf, cn, ck
+    erstpruefer: gh, hk, mbluemm, cn, ck
     zweitpruefer: 
 ---
 

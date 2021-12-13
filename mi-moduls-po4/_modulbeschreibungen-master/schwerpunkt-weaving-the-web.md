@@ -1,6 +1,6 @@
 ---
 title: Weaving the Web
-verantwortlich: CN, N.N. (Nachfolge Kristian Fischer)
+verantwortlich: CN, Lehrbeauftragter
 layout: modulbeschreibung
 
 typ: sp

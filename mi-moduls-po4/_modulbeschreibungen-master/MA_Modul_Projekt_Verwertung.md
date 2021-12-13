@@ -52,8 +52,8 @@ Das Projekt gliedert sich in zwei Teile:
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
 
 - Projekt (50%)
-- Vertiefungsworkshop 1 (25%)
-- Vertiefungsworkshop 2 (25%)
+- Vertiefungsworkshop 1 (50%) oder
+- Vertiefungsworkshop 2 (50%)
 
 
 ## Medienformen

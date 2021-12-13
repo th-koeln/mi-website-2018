@@ -1,7 +1,7 @@
 ---
 title: Bildbasierte Computergrafik
 modulverantwortlich: all
-kuerzel: N.N. (Nachfolge Kristian Fischer)
+kuerzel: Lehrbeauftragter
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: wahlweise deutsch oder englisch

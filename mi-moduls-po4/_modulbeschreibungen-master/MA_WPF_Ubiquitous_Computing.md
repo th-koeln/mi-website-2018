@@ -17,7 +17,7 @@ parent: WPM
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    erstpruefer: mboehmer
     zweitpruefer: 
 ---
 

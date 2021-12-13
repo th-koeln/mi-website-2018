@@ -17,7 +17,7 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Schriftliche Prüfung
     erstpruefer: ck
     zweitpruefer: 
 ---

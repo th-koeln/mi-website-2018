@@ -1,6 +1,6 @@
 ---
 title: Web Development Projekt
-modulverantwortlich: kf, sk, mb, cn
+modulverantwortlich: sk, mb, cn
 modulniveau: bachelor
 kuerzel: WDP
 untertitel:
@@ -18,7 +18,7 @@ parent: WD
 studienleistungen:
   Einzelleistung:
     art: Projekt mit Projektpräsentation
-    erstpruefer: kf, sk, mb, cn
+    erstpruefer: sk, mb, cn
     zweitpruefer: 
 ---
 

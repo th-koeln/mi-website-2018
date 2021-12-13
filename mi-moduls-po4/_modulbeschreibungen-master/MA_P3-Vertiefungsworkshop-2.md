@@ -17,7 +17,7 @@ parent: MIMP-V
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: schriftliche Ausarbeitung (100%)
     erstpruefer: mbluemm
     zweitpruefer: 
 ---
@@ -42,7 +42,7 @@ Projektergebnisse in einem wissenschaftlichen Beitrag (z.B. für eine Konferenz,
 
 
 ## Medienformen
-Entwicklungs- und Deployment-Umgebung mit Artefakt-Repository, Kollaborationssysteme
+Seminar
 
 
 ## Literatur

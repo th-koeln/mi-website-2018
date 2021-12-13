@@ -1,6 +1,6 @@
 ---
 title: Open Data - Technik und Anwendungen
-modulverantwortlich: N.N. (Nachfolge Kristian Fischer)
+modulverantwortlich: Lehrbeauftragter
 kuerzel: ODT&A
 studiensemesterWs: 3
 studiensemesterSs: 2
