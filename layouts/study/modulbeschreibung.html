@@ -36,6 +36,7 @@
   {{ partial "molecules/mi-list-children/mi-list-children.html" (dict "parent" .Params.kuerzel "pages" .Site.Pages ) }}
 
   {{ if isset .Params "parent"}}
+
   {{ partial "molecules/mi-show-parent/mi-show-parent.html" (dict "kuerzel" .Params.parent "pages" .Site.Pages ) }}
   {{ end }}
   
