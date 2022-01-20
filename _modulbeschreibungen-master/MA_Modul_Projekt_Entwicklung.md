@@ -13,7 +13,7 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: spp
-parent:
+parent: false
 infourl: 
 studienleistungen:
   Einzelleistung:
