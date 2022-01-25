@@ -12,6 +12,13 @@ il:
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
     mi: false
+dgaida:
+    id: dgaida
+    status: prof
+    name: 'Prof. Dr. Daniel Gaida'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
+    mi: false
 hw:
     id: hw
     status: prof

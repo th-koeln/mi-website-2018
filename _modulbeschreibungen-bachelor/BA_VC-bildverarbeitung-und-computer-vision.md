@@ -1,6 +1,6 @@
 ---
 title: Bildverarbeitung und Computer Vision
-modulverantwortlich: wk
+modulverantwortlich: dgaida
 kuerzel: BV
 untertitel:
 studiensemester: 4
@@ -9,7 +9,7 @@ zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mathematik 1 & 2
-published: false
+published: true
 layout: modulbeschreibung
 typ: tm
 veranstaltungsform: 
@@ -18,8 +18,24 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Ausarbeitung
-    erstpruefer: wk
+    erstpruefer: dgaida
     zweitpruefer: 
 ---
 
-Alle Informationen zum Modul finden Sie im [Ilias Kurs zum Modul](https://ilias.th-koeln.de/ilias.php?ref_id=1849487&cmdClass=ilobjcoursegui&cmd=view&cmdNode=wb:l6&baseClass=ilrepositorygui)
+
+## Aufwand
+60h Vorlesung/ Seminar; 90h Selbstlernphase
+
+## Angestrebte Lernergebnisse
+
+
+## Inhalt
+
+
+## Studien-/Prüfungsleistungen
+
+
+## Medienformen
+
+
+## Literatur
