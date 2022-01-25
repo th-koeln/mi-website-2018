@@ -32,8 +32,9 @@ Die Kurse sind in der Regel projektbasiert aufgebaut, so dass sowohl theoretisch
 Der Wahlkatalog umfasst momentan die Fächer:
 * 3D-Modellieren, -Scannen und -Drucken
 * Audiovisuelles Medienprojekt 2
-* Visuelle Effekte und Animation
-* Bildverarbeitung und Computer Vision
+* WPF VEA - Visuelle Effekte und Animation
+* WPF BV - Bildverarbeitung und Computer Vision
+
 
 ## Arbeitsaufwand
 600h Gesamtaufwand
