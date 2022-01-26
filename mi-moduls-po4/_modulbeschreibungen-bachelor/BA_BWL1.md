@@ -17,7 +17,7 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung
+    art: Schriftliche Prüfung via ILIAS eAssessment
     erstpruefer: moe
     zweitpruefer: tk
 ---
