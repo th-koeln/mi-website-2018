@@ -17,7 +17,7 @@ parent: VC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Ausarbeitung
+    art: mündlicher Beitrag (Präsentation)
     erstpruefer: dgaida
     zweitpruefer: 
 ---
@@ -63,6 +63,7 @@ um später zuverlässige Anwendungen im Bereich der Bildverarbeitung realisieren
 
 ## Studien-/Prüfungsleistungen
 
+- mündlicher Beitrag, d.h. Präsentation inkl. Übung, Handout und Diskussion
 
 ## Medienformen
 
