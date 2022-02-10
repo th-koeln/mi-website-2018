@@ -1,6 +1,6 @@
 ---
 title: Mensch-Computer Interaktion
-modulverantwortlich: gh
+modulverantwortlich: rog
 modulniveau: bachelor
 kuerzel: MCI
 untertitel:
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: individuelles Lernportfolio
-    erstpruefer: gh
+    erstpruefer: rog
     zweitpruefer: ck
 ---
 
