@@ -1,6 +1,6 @@
 ---
 title: Logik und semantische Modellierung
-modulverantwortlich: Lehrbeauftragter
+modulverantwortlich: petru
 kuerzel: WTW-LSM
 studiensemesterWs: 2
 studiensemesterSs: 3
@@ -8,7 +8,7 @@ sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
-published: true
+published: false
 layout: modulbeschreibung
 
 typ: wpm

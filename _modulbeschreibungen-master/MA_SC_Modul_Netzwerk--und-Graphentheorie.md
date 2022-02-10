@@ -1,6 +1,6 @@
 ---
 title: Netzwerk-und Graphentheorie
-modulverantwortlich: Lehrbeauftragter
+modulverantwortlich: petru
 kuerzel: NGT
 studiensemesterWs: 2
 studiensemesterSs: 1
@@ -19,7 +19,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: Dr. Petru Nicolaescu
+    erstpruefer: petru
     zweitpruefer: gh
 ---
 
