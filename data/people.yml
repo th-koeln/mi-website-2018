@@ -318,7 +318,40 @@ mbl:
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
     mi: true
-
+akarge:
+    id: akarge
+    status: lehrauftrag
+    name: 'Andreas Karge'
+    avatar: '/img/lehrbeauftragte/andreas-karge.png'
+    personenseite: 'https://www.th-koeln.de/en/person/andreas.karge/'
+    mi: true
+petru:
+    id: petru
+    status: lehrauftrag
+    name: 'Dr. Petru Nicolaescu'
+    personenseite: 'https://www.th-koeln.de/personen/petru.nicolaescu/'
+    mi: true
+sheree:
+    id: sheree
+    status: lehrauftrag
+    name: 'Sheree Saßmannshausen'
+    avatar: '/img/lehrbeauftragte/sheree.png'
+    personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
+    mi: true
+dgaida:
+    id: dgaida
+    status: prof
+    name: 'Prof. Dr. Daniel Gaida'
+    avatar: '/img/professoren/gaida.png'
+    personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
+    mi: false
+hs:
+    id: hs
+    status: prof
+    name: 'Prof. Dr. Horst Stenzel'
+    avatar: '/img/lehrbeauftragte/horststenzel.png'
+    personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
+    mi: false
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
