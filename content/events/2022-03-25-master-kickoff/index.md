@@ -2,10 +2,10 @@
 datum: "2022-03-25"
 title: "Master KickOff"
 linkTitle: "Master KickOff für Erstsemester im Master Medieninformatik"
-termin: 25. März 2022, 09:00 Uhr // Raum 3.216
+termin: 25. März 2022, 09:00 Uhr // Online via Zoom
 ---
 
-Die Medieninformatik Master (MIM) Kick-Off Veranstaltung zum Sommersemester 2022 findet am 25.03.2022 ab 09:00 Uhr rein online via Zoom statt. Herzlich eingeladen sind alle Student\*innen im MIM, insbesondere aber die Erstsemester-Student\*innen. Die Folien zum Kickoff werden via Ilias bereitgestellt.
+Die Medieninformatik Master (MIM) Kick-Off Veranstaltung zum Sommersemester 2022 findet am 25.03.2022 ab 09:00 Uhr rein online via Zoom statt. Die Zugangsdaten gibt es im [Ilias](https://ilias.th-koeln.de/goto.php?target=crs_1666974&client_id=ILIAS_FH_Koeln). Herzlich eingeladen sind alle Student\*innen im MIM, insbesondere aber die Erstsemester-Student\*innen. Die Folien zum Kickoff werden via [Ilias](https://ilias.th-koeln.de/goto.php?target=crs_1666974&client_id=ILIAS_FH_Koeln) bereitgestellt.
 
 Die Kick-Off Veranstaltung beginnt mit einer Begrüßung und einem kurzen Überblick über den MIM. Danach folgen die Projektabschlusspräsentationen aus dem WiSe 2021/2022. Alle Student\*innen können sich hier zu möglichen Einstiegs- und Folgeprojekten informieren. Im Anschluss daran werden aktuelle Informationen zum Modulangebot im Sommersemester 2022 bekannt gegeben und Fragen zum MIM-Studium beantwortet.
 
