@@ -1,7 +1,7 @@
 ---
 title: Computerethik
 modulverantwortlich: mbluemm
-kuerzel: mbluemm
+kuerzel: CE
 studiensemesterWs: 2
 studiensemesterSs: 1
 sprache: deutsch
