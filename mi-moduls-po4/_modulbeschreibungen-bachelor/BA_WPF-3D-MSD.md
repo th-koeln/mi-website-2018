@@ -12,9 +12,9 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
-typ: wm
+typ: tm
 veranstaltungsform: 
-parent: 
+parent: VC 
 infourl: 
 studienleistungen:
   Einzelleistung:

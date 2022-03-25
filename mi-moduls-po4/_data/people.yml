@@ -436,7 +436,7 @@ sheree:
     id: sheree
     status: lehrauftrag
     name: 'Sheree Saßmannshausen'
-    avatar: '/img/lehrbeauftragte/sheree.png'
+    avatar: '/img/lehrbeauftragte/sheree.jpg'
     personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
     mi: true
 mi:
