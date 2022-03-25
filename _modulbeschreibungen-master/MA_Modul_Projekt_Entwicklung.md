@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Entwicklung im Kontext des Studienschwerpunkts
-modulverantwortlich: mw, hk,ck, cn, mbluemm, sheree, hs
+modulverantwortlich: mw, hk, ck, cn, mbluemm, sheree, hs
 kuerzel: MIMP-E
 studiensemesterWs: 2
 studiensemesterSs: 3
