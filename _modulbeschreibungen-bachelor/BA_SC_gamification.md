@@ -2,7 +2,7 @@
 title: Gamification
 modulverantwortlich: uwm
 modulniveau: bachelor
-kuerzel: GAME
+kuerzel: GAM
 untertitel:
 studiensemester: 4
 kategorie:
@@ -18,20 +18,18 @@ parent: SC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio
-    erstpruefer: ck
-    zweitpruefer: mbluemm, uwm
+    art: Projektarbeit (mit Präsentation)
+    erstpruefer: uwm
+    zweitpruefer: mbluemm, ck
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
-    erstpruefer: ck
-    zweitpruefer: mbluemm, uwm  
+    erstpruefer: uwm
+    zweitpruefer: mbluemm, ck  
 ---
 
 ## Lehrform/SWS
 50h Vorlesung, Seminar; 100h Selbstlernphase
 
-### Social Computing Projekt
-150h Projekt
 
 ## Angestrebte Lernergebnisse
 Die Studierenden sollen in der Lage sein, die Möglichkeiten und Grenzen des Gamification-Ansatzes, sowohl für die analoge als auch die digitale Welt, einordnen zu können. Die verschiedenen Stufen der Gamification sollen verstanden und die Maßnahmen in Gestaltungsprozessen eingesetzt werden. Die Studierenden sollen die psychologischen Grundlagen verstehen und die gesellschaftlichen Implikationen bewerten können. Die Analyse von Regeln und Prozessen und daraus abgeleitete Gamification-Maßnahmen sowie die Entwicklung von Serious Games sollen praktisch umgesetzt werden, z.B. für Lernanwendungen, Online-Communities oder soziale Dienste.
