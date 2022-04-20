@@ -439,6 +439,20 @@ sheree:
     avatar: '/img/lehrbeauftragte/sheree.jpg'
     personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
     mi: true
+simonschulte:
+    id: simonschulte
+    status: wma
+    name: 'Simon Schulte'
+    avatar: 'https://media-exp1.licdn.com/dms/image/C4D03AQHY9XGDLRG9aQ/profile-displayphoto-shrink_200_200/0/1536308408079?e=1655942400&v=beta&t=6QA3hzL1bFeKWKzYsyYVrcWZXXbLnfZvy9hOjIeEyqI'
+    personenseite: 'https://www.th-koeln.de/personen/simon_ludwig.schulte/'
+    mi: true
+simonporten:
+    id: simonporten
+    status: wma
+    name: 'Simon Porten'
+    avatar: 'https://i.pravatar.cc/300'
+    personenseite: 'https://www.th-koeln.de/personen/simon.porten/'
+    mi: true
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'

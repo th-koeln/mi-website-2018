@@ -19,7 +19,7 @@ studienleistungen:
   Teamleistung:
     art: Projektarbeit mit schriftlicher Ausarbeitung
     erstpruefer: hk
-    zweitpruefer: gh
+    zweitpruefer: simonporten
 ---
 
 ## Lehrform/SWS

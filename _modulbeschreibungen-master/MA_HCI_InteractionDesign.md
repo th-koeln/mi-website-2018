@@ -21,7 +21,7 @@ studienleistungen:
   Einzelleistung:
     art: Projektarbeit
     erstpruefer: rog
-    zweitpruefer: ck
+    zweitpruefer: nkuhn
 ---
 
 ## Lehrform/SWS

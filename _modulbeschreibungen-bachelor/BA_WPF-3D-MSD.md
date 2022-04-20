@@ -20,6 +20,7 @@ studienleistungen:
   Einzelleistung:
     art: Projekt u. Lernportfolio
     erstpruefer: hs
+    zweitpruefer: simonschulte
 ---
 
 ## Lehrform/SWS

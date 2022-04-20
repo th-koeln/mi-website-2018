@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Lernportfolio
     erstpruefer: cn
-    zweitpruefer: 
+    zweitpruefer: sb
 ---
 
 ## Kurzbeschreibung
