@@ -15,6 +15,7 @@ typ: wpm
 parent:
 schwerpunkt: hci
 infourl: 
+published: false
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
