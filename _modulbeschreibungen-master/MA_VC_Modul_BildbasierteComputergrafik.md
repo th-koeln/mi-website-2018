@@ -1,7 +1,7 @@
 ---
 title: Bildbasierte Computergrafik
-modulverantwortlich: all
-kuerzel: akarge
+modulverantwortlich: akarge
+kuerzel: bc
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: wahlweise deutsch oder englisch
