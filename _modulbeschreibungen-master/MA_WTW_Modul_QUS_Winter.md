@@ -22,7 +22,7 @@ studienleistungen:
   Teamleistung:
     art: Projektportfolio
     erstpruefer: mw
-    zweitpruefer: vos
+    zweitpruefer: alm
 ---
 
 ## Kurzbeschreibung
