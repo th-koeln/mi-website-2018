@@ -16,15 +16,7 @@ parent: SPM3
 schwerpunkt: mpd
 studienleistungen:
   Einzelleistung:
-    art: Fachbeitrag
-    erstpruefer: mw
-    zweitpruefer: alm
-  Einzelleistung:
-    art: Reflektionsbericht
-    erstpruefer: mw
-    zweitpruefer: alm
-  Einzelleistung:
-    art: Wissenstest
+    art: Fachbeitrag, Wissenstest, Reflektionsbericht 
     erstpruefer: mw
     zweitpruefer: alm
   Teamleistung:
