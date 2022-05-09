@@ -20,7 +20,7 @@ studienleistungen:
   Teamleistung:
     art: Projektarbeit mit Projektpräsentationsprüfung und Fachgespräch, sowie schriftliche Ausarbeitung.
     erstpruefer: ck, mbluemm, uwm
-    zweitpruefer: ck, mbluemm, uwm
+    zweitpruefer: ck, mbluemm, uwm, simonschulte
 ---
 
 ## Arbeitsaufwand
