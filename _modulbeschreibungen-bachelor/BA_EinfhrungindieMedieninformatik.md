@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
     erstpruefer: hk, gh, cn, mbl
-    zweitpruefer: uwm, vos, nag, erw
+    zweitpruefer: uwm, vos, erw, simonschulte
 
 ---
 
