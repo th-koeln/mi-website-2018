@@ -35,16 +35,16 @@ Projektarbeit
 Ziel dieses Workshops ist es Fähigkeiten zu erwerben, um selbständig eine Idee oder Produkt betriebswirtschaftlich holistisch zu beschreiben, zu analysieren und zu bewerten indem sie z.B. (Inhalte können je nach Semester variieren) Marktrecherchen durchführen ein Geschäftsmodel für eine Idee entwerfen Elemente einer Markteintrittsstrategie ableiten eine Finanzplanung entwerfen diese Elemente in einem Businessplan zusammenfassen und präsentieren, um Businesspläne für eine Gründung oder Produktinnovation im Unternehmen selbst zu verfassen und bewerten zu können.
 
 ## Inhalt
-• Geschäftsmodell für eine eine Technologie/Idee entwerfen (Business Model Canvas)
-• Geschäftsmodell strukturiert und ökonomisch durchleuchten und bewerten (Businessplan mit Finanzplanung)
-• Überzeugend und prägnant eine Geschäftsidee vorstellen (Pitch)
+- Geschäftsmodell für eine eine Technologie/Idee entwerfen (Business Model Canvas)
+- Geschäftsmodell strukturiert und ökonomisch durchleuchten und bewerten (Businessplan mit Finanzplanung)
+- Überzeugend und prägnant eine Geschäftsidee vorstellen (Pitch)
 
 
 ## Medienformen
 Seminar
 
 ## Literatur
-NUK (2021): Handbuch zum Businessplan-Wettbewerb
-Nagl A. (2014): Der Businessplan
-Osterwalder et al. (2010): Business Model Generation
-Osterwalder et al. (2013): Value Proposition Desing
+- NUK (2021): Handbuch zum Businessplan-Wettbewerb
+- Nagl A. (2014): Der Businessplan
+- Osterwalder et al. (2010): Business Model Generation
+- Osterwalder et al. (2013): Value Proposition Desing
