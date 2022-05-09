@@ -52,8 +52,6 @@ Die Studierenden sollen wesentliche Begriffe und Grundpositionen bezüglich ethi
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
 - Fallstudien
 - Diskussionsrunden
-- Anonyme Abstimmungen und Kommentare (PINGO)
-
 
 ## Literatur
 - Calvo, R. A., & Peters, D. (2014). Positive computing: Technology for wellbeing and human potential.
