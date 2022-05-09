@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Die Prüfungsform wird in den jeweiligen Fächern beschrieben (Projekt (50%), Projektmanagement (25%), Code Management (Beautiful Code) (25%)).
-    erstpruefer: gh, hk, hs, mbluemm, cn, ck, hs
-    zweitpruefer: gh, hk, hs, mbluemm, cn, ck, hs
+    erstpruefer: gh, hk, hs, mbluemm, cn, ck, hs, sheree
+    zweitpruefer: gh, hk, hs, mbluemm, cn, ck, hs, sheree
 ---
 
 ## Kurzbeschreibung

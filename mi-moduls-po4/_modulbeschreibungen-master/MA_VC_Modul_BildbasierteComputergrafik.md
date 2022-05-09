@@ -1,7 +1,7 @@
 ---
 title: Bildbasierte Computergrafik
-modulverantwortlich: all
-kuerzel: Lehrbeauftragter
+modulverantwortlich: akarge
+kuerzel: bc
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: wahlweise deutsch oder englisch
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (40%), schriftlicher Projektbericht (60%)
-    erstpruefer: Andreas Karge
+    erstpruefer: akarge
     zweitpruefer: hs
 ---
 

@@ -439,6 +439,27 @@ sheree:
     avatar: '/img/lehrbeauftragte/sheree.jpg'
     personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
     mi: true
+simonschulte:
+    id: simonschulte
+    status: wma
+    name: 'Simon Schulte'
+    avatar: 'https://media-exp1.licdn.com/dms/image/C4D03AQHY9XGDLRG9aQ/profile-displayphoto-shrink_200_200/0/1536308408079?e=1655942400&v=beta&t=6QA3hzL1bFeKWKzYsyYVrcWZXXbLnfZvy9hOjIeEyqI'
+    personenseite: 'https://www.th-koeln.de/personen/simon_ludwig.schulte/'
+    mi: true
+simonporten:
+    id: simonporten
+    status: wma
+    name: 'Simon Porten'
+    avatar: 'https://i.pravatar.cc/300'
+    personenseite: 'https://www.th-koeln.de/personen/simon.porten/'
+    mi: true
+christinawerner:
+    id: christinawerner
+    status: prof
+    name: 'Prof. Dr. Christina Werner'
+    avatar: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.th-koeln.de%2Fhochschule%2Fneuberufen-2016-prof-dr-christina-werner_35254.php&psig=AOvVaw3QzBHd0iROw9bWx1ESjrkd&ust=1652174126105000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKi1jbGK0vcCFQAAAAAdAAAAABAD'
+    personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
+    mi: false
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'

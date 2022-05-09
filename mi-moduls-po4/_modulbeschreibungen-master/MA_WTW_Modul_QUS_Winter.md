@@ -11,28 +11,19 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Grundkenntnisse Softwaretechnik und Projektmanagement
 published: true
 layout: modulbeschreibung
-
 typ: spm
 parent: SPM3
 schwerpunkt: mpd
 studienleistungen:
   Einzelleistung:
-    art: Fachbeitrag
-    erstpruefer: mw
-    zweitpruefer: alm
-  Einzelleistung:
-    art: Reflektionsbericht
-    erstpruefer: mw
-    zweitpruefer: alm
-  Einzelleistung:
-    art: Wissenstest
+    art: Fachbeitrag, Wissenstest, Reflektionsbericht 
     erstpruefer: mw
     zweitpruefer: alm
   Teamleistung:
     art: Projektportfolio
     erstpruefer: mw
-    zweitpruefer: vos
-------
+    zweitpruefer: alm
+---
 
 ## Kurzbeschreibung
 Konstruktive und analytische Qualitätssicherung und Qualitätsmanagement für Mobile- und Web-Entwicklungsprojekte
@@ -52,7 +43,7 @@ Die Studierenden werden befähigt,
 - Ziele, Methoden, Techniken und Werkzeuge sowie organisatorischen Maßnahmen zur begleitenden Qualitätssicherung (QS) und zum Qualitätsmanagement (QM) für Web- und Mobile Anwendungen beschreiben, diskutieren und anwenden zu können, sowie
 - Methoden und Techniken hinsichtlich ihrer theoretischen Fundierung und ihrer Eignung in einem Projektkontext analysieren und bewerten zu können, und 
 - sich selbständig wissenschaftlich und fachlich weiter zu bilden, 
-um die Methoden, Techniken und Werkzeuge zur Qualitätssicherung und zum Qualitätsmanagement in eigenen, auch fachübergreifenden Projekten auswählen und anwenden zu können.
+- um die Methoden, Techniken und Werkzeuge zur Qualitätssicherung und zum Qualitätsmanagement in eigenen, auch fachübergreifenden Projekten auswählen und anwenden zu können.
 
 ## Inhalt
 Das Modul beschreibt Ziele, Methoden, Techniken und Werkzeuge sowie organisatorische Maßnahmen zur begleitenden Qualitätssicherung (QS) bei der Entwicklung von Mobile- und Web-Anwendungen. Schwerpunkte liegen auf der QS in den frühen Phasen der Konzeption und Spezifikation sowie dem Qualitätsmanagement. Ausführungen zu einschlägigen Normen und Gesetzen runden das Modul ab.
@@ -72,7 +63,7 @@ Die Studierenden erstellen einen Fachbeitrag zu einer ausgewählten Methode bzw.
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
 * Fachbeitrag (30%) 
 * Projektportfolio (20%)
-* Klausur 60 Minuten (30%)
+* Wissenstest 60 Minuten (30%)
 * Individueller Reflektionsbericht (20%)
 
 ## Medienformen
