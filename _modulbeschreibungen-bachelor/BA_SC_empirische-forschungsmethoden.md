@@ -20,11 +20,11 @@ studienleistungen:
   Einzelleistung:
     art: Lernportfolio
     erstpruefer: mbluemm
-    zweitpruefer: ck, uwm
+    zweitpruefer: ck, uwm, simonschulte
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: mbluemm
-    zweitpruefer: ck, uwm 
+    zweitpruefer: ck, uwm, simonschulte 
 ---
 
 ## Lehrform/SWS
@@ -35,13 +35,12 @@ Die Studierenden sollen die unterschiedlichen Herangehensweisen quantitativer un
 
 ## Inhalt
 * Wissenschaftstheoretische Grundlagen
-* Induktion, Deduktion, Abduktion
+* Induktion, Deduktion
 * Unterschied zwischen quantitativer und qualitativer Forschung
 * Interviews gestalten, durchführen und auswerten
 * Beobachtungsmethoden
 * Ethnographische Methoden
 * Hypothesengewinnung und Theoriebildung
-* Experimental-Designs
 * Statistische Verfahren für quantitative Forschung
 * Aussagekraft der Ergebnisse (statistische Signifikanz, interne und externe Valididät)
 
@@ -49,8 +48,6 @@ Die Studierenden sollen die unterschiedlichen Herangehensweisen quantitativer un
 *	Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
 *	Screencasts und Handouts
 * Beispielmedien
-* Arbeit im Innovationsraum mit digitalen Whiteboards, Spiel-Arcarde, Tablets und Gestaltungsmaterialien
-
 
 ## Literatur
 * DeKoven, B., & MIT Press. (2013). The well-played game: A player's philosophy. Cambridge: The MIT Press. 
