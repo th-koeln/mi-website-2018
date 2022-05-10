@@ -8,7 +8,9 @@ linkTitle: "Actor Replacement"
 In ihrem Praxisprojekt haben Oliver Mertens und Daniel Weyand das "Actor Replacement" 
 praktisch untersucht.
 
-{{< youtube MXBhzWPe-GA >}}
+[Hier geht's zum fertigen Video](https://www.youtube.com/watch?v=MXBhzWPe-GA&t=4s)
+
+ 
 
 
 ## Abstract

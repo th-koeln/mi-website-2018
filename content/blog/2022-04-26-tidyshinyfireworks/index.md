@@ -45,7 +45,7 @@ privaten Veranstaltung genutzt werden, z.B. im Stadtzentrum am
 Silvesterabend im Form einer Stadtfeier, die von der Stadt organisiert wird.
 
 {{< youtube We8S8Z0OOxI >}}
-
+<br>
 
 ## Die Architektur
 
