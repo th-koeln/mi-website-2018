@@ -24,7 +24,7 @@ studienleistungen:
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: uwm
-    zweitpruefer: mbluemm, ck  
+    zweitpruefer: mbluemm, ck, simonschulte
 ---
 
 ## Lehrform/SWS
