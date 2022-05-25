@@ -9,8 +9,7 @@
 {{ end }}
 {{ $moduldir := $scratch.Get "dir" }}
 
-{{ $module := where $.Site.Pages "Params.zielmedium" "!=" "print" }}
-{{ $moduleMaster := where $module ".Dir" "==" "study/master/moduls/" }}
+{{ $moduleMaster := .Pages }}
 {{ $schwerpunkte := where $moduleMaster "Params.typ" "sp" }}
 {{ $pflichtmodule := where $moduleMaster "Params.typ" "pm" }}
 {{ $teilmodule := where $moduleMaster "Params.typ" "tm" }}

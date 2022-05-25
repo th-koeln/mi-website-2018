@@ -1,10 +1,4 @@
 {{ $scratch := newScratch }}
-{{ $scratch.Set "dir" "study/" }}
-{{ $scratch.Add "dir" .Parent.Params.id }}
-{{ $scratch.Add "dir" "/moduls/" }}
-{{ $moduldir := $scratch.Get "dir" }}
-
-{{ $scratch := newScratch }}
 {{ $scratch.Set "key" ".Params." }}
 {{ $scratch.Add "key" .Parent.Params.selectKey }}
 
