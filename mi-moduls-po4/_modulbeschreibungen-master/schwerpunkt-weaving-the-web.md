@@ -1,6 +1,6 @@
 ---
 title: Weaving the Web
-verantwortlich: kf
+verantwortlich: CN, Lehrbeauftragter
 layout: modulbeschreibung
 
 typ: sp

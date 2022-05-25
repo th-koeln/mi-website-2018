@@ -13,12 +13,13 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Schriftliche Prüfung
     erstpruefer: ck
-    zweitpruefer: 
+    zweitpruefer: ald
 ---
 
 ## Lehrform/SWS

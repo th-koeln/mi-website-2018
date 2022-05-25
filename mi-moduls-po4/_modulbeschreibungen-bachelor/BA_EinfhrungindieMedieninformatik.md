@@ -13,12 +13,13 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: Remote, Projektwoche vor Ort
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
-    erstpruefer: hk, gh, cn, kf, mbl
-    zweitpruefer: uwm, vos, cok, erw
+    erstpruefer: hk, gh, cn, mbl
+    zweitpruefer: uwm, vos, erw, simonschulte
 
 ---
 
@@ -47,7 +48,7 @@ Sie kennen grundlegende Konzepte, Prozesse/Verfahren und Modelle der Medieninfor
 ## Inhalt
 Workshops zu grundlegenden projektrelevanten Themenfeldern (wie: Datenmodellierung, Pseudo-Code, Kommunikation in verteilen medialen Systeme, Visual Thinking, Storytelling, Anforderungen) und deren Anwendung, illustriert anhand von Fallstudien.
 
-Teambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere) Problemstellung(en) umreist, zu dem Lösungen konzipiert und prototypisch umgesetzt, dokumentiert und einem Fachpublikum präsentiert werden müssen.
+Teambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere) Problemstellung(en) umreißt, zu dem Lösungen konzipiert und prototypisch umgesetzt, dokumentiert und einem Fachpublikum präsentiert werden müssen.
 
 ## Medienformen
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)

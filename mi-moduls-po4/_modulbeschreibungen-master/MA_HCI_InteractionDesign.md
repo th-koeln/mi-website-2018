@@ -1,6 +1,6 @@
 ---
 title: Interaction Design
-modulverantwortlich: gh
+modulverantwortlich: rog
 kuerzel: ID
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -20,8 +20,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit
-    erstpruefer: gh
-    zweitpruefer: ck
+    erstpruefer: rog
+    zweitpruefer: nkuhn
 ---
 
 ## Lehrform/SWS

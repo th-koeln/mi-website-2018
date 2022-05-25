@@ -1,6 +1,6 @@
 ---
 title: Advanced Seminar
-modulverantwortlich: kf
+modulverantwortlich: mbluemm
 kuerzel: AS
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit
-    erstpruefer: kf
-    zweitpruefer: 
+    erstpruefer: mbluemm
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung

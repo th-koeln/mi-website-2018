@@ -1,6 +1,6 @@
 ---
 title: Design Methodologies
-modulverantwortlich: gh, ck
+modulverantwortlich: ck
 kuerzel: DM
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -19,8 +19,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: gh, ck
-    zweitpruefer: ck, gh
+    erstpruefer: ck
+    zweitpruefer: sheree
 ---
 
 ## Lehrform/SWS

@@ -16,9 +16,9 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio (30%), Projektarbeit (70%)
+    art: Präsentation (30%), Projektarbeit (70%)
     erstpruefer: gh, mbluemm
-    zweitpruefer: gh, mbluemm
+    zweitpruefer: gh, mbluemm, mag
 ---
 
 ## Lehrform/SWS
@@ -52,5 +52,5 @@ Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwend
 ## Literatur
 - Bortz, J.; Döring, N.: „Forschungsmethoden und Evaluation für Human- und Sozialwissenschaftler“, Springer Heidelberg, Berlin, 2006
 - Lazar, J. Feng, J., Hochheiser, H.: “Research Methods in Human-Computer Interaction”, Wiley, 2009
-- May, G., Mruck, K.: “Handbuch Qualitative Forschung in der Psychologie", Springer, 2010
+- Mey, G., Mruck, K.: “Handbuch Qualitative Forschung in der Psychologie", Springer, 2010
 

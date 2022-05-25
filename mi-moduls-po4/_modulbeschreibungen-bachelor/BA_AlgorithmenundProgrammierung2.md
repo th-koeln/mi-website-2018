@@ -11,6 +11,7 @@ kreditpunkte: 7
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1
 published: true
+veranstaltungsform: 
 typ: pm
 layout: modulbeschreibung
 infourl: 
@@ -18,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: ck
-    zweitpruefer: 
+    zweitpruefer: ald
 ---
 
 ## Lehrform/SWS

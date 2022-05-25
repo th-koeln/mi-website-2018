@@ -1,6 +1,6 @@
 ---
 title: Web Architekturen 
-modulverantwortlich: kf
+modulverantwortlich: perasmus
 kuerzel: WTW-WBA
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,8 +18,8 @@ schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: kf
-    zweitpruefer: 
+    erstpruefer: perasmus
+    zweitpruefer: cn
 ---
 
 ## Kurzbeschreibung
@@ -29,7 +29,7 @@ Der Grundlagenteil wird in einer kombinierten Vorlesungs- und Seminarform durchg
 Im Vertiefungsteil sollen die Teinehmerinnen und Teilnehmer auf Basis des im Grundlagenteils gewonnen Überblicks über das Gebiet ein Thema identifizieren, das durch weitergehendes Durchdringen der vorgeschlagenen Materialien und durch eigene Recherche und ggfs. die Entwicklung von Proof-of-Concept Impleentierungen vertieft wird. Als Mittel der Erarbeitung kann es sinnvoll sein einen lauffähigen Prototypen zu erstellen. 
 
 ## Lehrform/SWS 
-4 SWS: Vorlesung 2 SWS; Seminar 2 SWS
+4 SWS: Seminar 2 SWS; Projekt 2 SWS
 
 ## Arbeitsaufwand 
 Gesamtaufwand 180 Stunden, davon 

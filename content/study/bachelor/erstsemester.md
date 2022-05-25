@@ -5,7 +5,7 @@ subtitle: Es geht loooooos!
 
 Liebe Erstsemester, endlich geht es los. Schön, dass Sie an Bord sind! Aufgrund des [Coronavirus (Covid-19)](https://www.th-koeln.de/hochschule/coronavirus_73114.php) und der damit einhergehenden Einschränkungen sieht der Studienbeginn und fast alle Module (oder gar alle?) in diesem Semester ganz anders aus als sonst. Wir hoffen, dass dies nur eine kurze Phase ist, denn uns allen fehlt die direkte Interaktion, der kurze Schnack auf dem Flur und die direkte Auseinandersetzung im Gespräch inkl. Mimik, Gestik und allem was dazu noch gehört. 
 
-Die Lehrveranstaltungen werden überwiegend online stattfinden. Anbei finden Sie Antworten und Links zu einigen elementaren Fragen.
+Die Lehrveranstaltungen werden überwiegend online stattfinden. Vorrangig in Präsenz stattfinden werden solche Lehrveranstaltungen, bei denen die Nutzung von Vor-Ort-Ressourcen (z.B. Labore, Computerräume) oder die didaktischen Ziele die Präsenz erfordern. Keine Präsenz wird es im Normalfall für Vorlesungen oder andere Lehrveranstaltungen mit vielen Teilnehmer*innen geben. Diese haben sich als besonders geeignet für die digitale Durchführung erwiesen haben. 
 
 ## <span class="material-icons">line_style</span> Welche Module muss ich besuchen?
 
@@ -32,6 +32,23 @@ Für die Erstsemester steht eigens ein [Mentorenteam](https://www.th-koeln.de/in
 
 ### Ordnungen und Formulare
 Hier finden Sie unter anderem die [Prüfungsordnung](https://www.th-koeln.de/studium/medieninformatik-bachelor--ordnungen-und-formulare_3963.php). Diese Ordnung bildet die rechtliche Grundlage für Ihr Studium. In ihr finden Sie alle relevanten Regelungen und mehr Antworten, als Sie vielleicht vermuten. 
+
+### First Steps @TH Köln: Zoom Session for International First-Year Students
+
+You are an international applicant and have recently received an admission letter to TH Köln? Congratulations! Join the Team International Degree-Seeking Students in the Zoom Session for international first-year students at TH Köln to learn about the next steps and use the opportunity to ask any open questions you may have.
+Contents of the event:
+
+• Enrollment: what to consider?
+• Responsibilities: Who do I contact with what kind of questions?
+• Necessary IT tools for your studies
+• Information about the start of studies
+• Q&A Session
+
+Duration: 90-120 minutes
+
+For further details:
+https://www.th-koeln.de/en/first-steps-th-koeln_85882.php
+
 
 ###  Weitere Informationsquellen
 - [Zentrale Informationen der Hochschule zur Corona Pandemie](https://www.th-koeln.de/hochschule/coronavirus_73114.php#sprungmarke_1_118)

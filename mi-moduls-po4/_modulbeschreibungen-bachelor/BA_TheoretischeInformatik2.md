@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie i
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:

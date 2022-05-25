@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Entwicklung im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hk,ck, gh, cn, mbl
+modulverantwortlich: mw, hk, ck, cn, mbluemm, sheree, hs
 kuerzel: MIMP-E
 studiensemesterWs: 2
 studiensemesterSs: 3
@@ -13,13 +13,13 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: spp
-parent:
+parent: false
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Die Prüfungsform wird in den jeweiligen Fächern beschrieben (Projekt (50%), Projektmanagement (25%), Code Management (Beautiful Code) (25%)).
-    erstpruefer: gh, hk, kf, mbluemm, cn, ck, hs
-    zweitpruefer: gh, hk, kf, mbluemm, cn, ck, hs
+    erstpruefer: gh, hk, hs, mbluemm, cn, ck, hs, sheree
+    zweitpruefer: gh, hk, hs, mbluemm, cn, ck, hs, sheree
 ---
 
 ## Kurzbeschreibung

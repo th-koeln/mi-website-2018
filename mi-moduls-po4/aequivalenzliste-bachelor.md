@@ -158,8 +158,8 @@ Das Vertiefungsmodul gab es in der BPO3 nicht. Es setzt sich in der BPO4 in der 
         <td>Web Development (20CP)</td>
         <td>
           <ul>
-            <li>Web-basierte Anwendungen 1: WWW Technologien (5CP)</li>
-            <li>WPF Internet of Things (5CP)</li>
+            <li>Web-basierte Anwendungen 1: WWW Technologien (5CP) als Frontend Development</li>
+            <li>WPF Internet of Things (5CP) als Internet of Things</li>
             <li>WPF Mobile Computing (5CP)</li>
             <li>WPF Moderne Webanwendungen mit HTML5, CSS3 und JavaScript (5CP)</li>
           </ul>

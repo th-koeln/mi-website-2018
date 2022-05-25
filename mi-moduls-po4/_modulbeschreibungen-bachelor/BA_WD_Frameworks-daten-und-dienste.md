@@ -1,6 +1,6 @@
 ---
 title: Frameworks, Daten und Dienste im Web
-modulverantwortlich: kf
+modulverantwortlich: dbreuer
 modulniveau: bachelor
 kuerzel: FDDW
 untertitel:
@@ -14,15 +14,16 @@ published: true
 infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frameworks-dienste-und-daten/
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: WD
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: kf
+    erstpruefer: dbreuer
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: kf
+    erstpruefer: dbreuer
     zweitpruefer: maa
 ---
 

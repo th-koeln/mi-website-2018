@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Forschung, Evaluation/Assessment, Verwertung im Kontext des Studienschwerpunkts
-modulverantwortlich: kf, mw, hk, mbluemm, ck, gh, cn
+modulverantwortlich: hk, mbluemm, ck, gh, cn, sheree
 kuerzel: MIMP-V
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -13,13 +13,13 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: spp
-parent: 
+parent: false
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Prüfungsform ist bei den jeweiligen Fächern angegeben
-    erstpruefer: gh, hk, kf, mbluemm, cn, ck, hs
-    zweitpruefer: gh, hk, kf, mbluemm, cn, ck, hs
+    erstpruefer: gh, hk, mbluemm, cn, ck, hs
+    zweitpruefer: gh, hk, mbluemm, cn, ck, hs
 ---
 
 ## Kurzbeschreibung
@@ -52,8 +52,8 @@ Das Projekt gliedert sich in zwei Teile:
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben. Bitte beachten Sie die Detailinformationen zu den jeweiligen Fächern, da diese Prüfungen wiederum aus Teilprüfungen bestehen könnten.
 
 - Projekt (50%)
-- Vertiefungsworkshop 1 (25%)
-- Vertiefungsworkshop 2 (25%)
+- Vertiefungsworkshop 1 (50%) oder
+- Vertiefungsworkshop 2 (50%)
 
 
 ## Medienformen

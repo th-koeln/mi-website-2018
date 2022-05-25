@@ -12,6 +12,13 @@ il:
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
     mi: false
+dgaida:
+    id: dgaida
+    status: prof
+    name: 'Prof. Dr. Daniel Gaida'
+    avatar: ''
+    personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
+    mi: false
 hw:
     id: hw
     status: prof
@@ -83,7 +90,7 @@ fg:
 hs:
     id: hs
     status: prof
-    name: 'Horst Stenzel'
+    name: 'Prof. Dr. Horst Stenzel'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
     mi: false
 alh:
@@ -231,6 +238,20 @@ fv:
     name: 'Prof. Dr. Frank Victor'
     avatar: '/img/professoren/victor.png'
     personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
+    mi: true
+dbreuer:
+    id: dbreuer
+    status: lehrauftrag
+    name: 'Dirk Breuer'
+    avatar: '/img/lehrbeauftragte/dirk-breuer.png'
+    personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
+    mi: true
+perasmus:
+    id: perasmus
+    status: lehrauftrag
+    name: 'Patrick Erasmus'
+    avatar: '/img/lehrbeauftragte/patrick-erasmus.png'
+    personenseite: 'https://www.th-koeln.de/personen/patrick.erasmus/'
     mi: true
 jh:
     id: jh
@@ -383,10 +404,65 @@ sb:
     avatar: '/img/professoren/bente.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
     mi: false
-    
+mzapp:
+    id: mzapp
+    status: prof
+    name: 'Prof. Dr. Matthias Zapp'
+    avatar: '/img/professoren/mzapp.png'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
+    mi: false
+jkus:
+    id: jkus
+    status: lehrauftrag
+    name: 'Jan Kus'
+    avatar: '/img/lehrbeauftragte/jan-kus.png'
+    personenseite: 'https://www.th-koeln.de/en/person/jan.kus/'
+    mi: true
+akarge:
+    id: akarge
+    status: lehrauftrag
+    name: 'Andreas Karge'
+    avatar: '/img/lehrbeauftragte/andreas-karge.png'
+    personenseite: 'https://www.th-koeln.de/en/person/andreas.karge/'
+    mi: true
+petru:
+    id: petru
+    status: lehrauftrag
+    name: 'Dr. Petru Nicolaescu'
+    avatar: '/img/lehrbeauftragte/petru.png'
+    personenseite: 'https://www.th-koeln.de/personen/petru.nicolaescu/'
+    mi: true
+sheree:
+    id: sheree
+    status: lehrauftrag
+    name: 'Sheree Saßmannshausen'
+    avatar: '/img/lehrbeauftragte/sheree.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
+    mi: true
+simonschulte:
+    id: simonschulte
+    status: wma
+    name: 'Simon Schulte'
+    avatar: 'https://media-exp1.licdn.com/dms/image/C4D03AQHY9XGDLRG9aQ/profile-displayphoto-shrink_200_200/0/1536308408079?e=1655942400&v=beta&t=6QA3hzL1bFeKWKzYsyYVrcWZXXbLnfZvy9hOjIeEyqI'
+    personenseite: 'https://www.th-koeln.de/personen/simon_ludwig.schulte/'
+    mi: true
+simonporten:
+    id: simonporten
+    status: wma
+    name: 'Simon Porten'
+    avatar: 'https://i.pravatar.cc/300'
+    personenseite: 'https://www.th-koeln.de/personen/simon.porten/'
+    mi: true
+christinawerner:
+    id: christinawerner
+    status: prof
+    name: 'Prof. Dr. Christina Werner'
+    avatar: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.th-koeln.de%2Fhochschule%2Fneuberufen-2016-prof-dr-christina-werner_35254.php&psig=AOvVaw3QzBHd0iROw9bWx1ESjrkd&ust=1652174126105000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKi1jbGK0vcCFQAAAAAdAAAAABAD'
+    personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
+    mi: false
 mi:
     id: mi
-    name: 'Prof. Dr. Martin Eisemann, Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
+    name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
 all:
     id: all
-    name: 'alle Informatik Professoren'
+    name: 'alle Professor:innen der F10'

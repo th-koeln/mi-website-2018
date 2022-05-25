@@ -12,11 +12,12 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
 published: true
 layout: modulbeschreibung
+veranstaltungsform: 
 typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Hausarbeit über Ilias E-Assessment, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: mboehmer
     zweitpruefer: lk
 ---

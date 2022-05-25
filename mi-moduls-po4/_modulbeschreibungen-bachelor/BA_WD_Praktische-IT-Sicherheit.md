@@ -2,7 +2,7 @@
 title: Praktische IT Sicherheit
 modulverantwortlich: sk
 modulniveau: bachelor
-kuerzel: PIT
+kuerzel: PITS
 untertitel:
 studiensemester: 4
 kategorie:
@@ -14,10 +14,11 @@ published: true
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_772146&client_id=ILIAS_FH_Koeln
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: WD
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung
+    art: Seminarvortrag
     erstpruefer: sk
     zweitpruefer: hls
 ---

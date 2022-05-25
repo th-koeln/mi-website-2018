@@ -14,13 +14,14 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: VC
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, in Ausnahmefällen mündliche Online-Prüfung
     erstpruefer: hk
-    zweitpruefer: gh
+    zweitpruefer: simonporten
 ---
 
 ## Lehrform/SWS

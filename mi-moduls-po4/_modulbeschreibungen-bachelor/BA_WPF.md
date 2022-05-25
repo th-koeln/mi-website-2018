@@ -14,6 +14,7 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:

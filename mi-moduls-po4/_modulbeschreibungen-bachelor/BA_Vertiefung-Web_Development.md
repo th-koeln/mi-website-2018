@@ -1,6 +1,6 @@
 ---
 title: Vertiefung – Web Development 
-modulverantwortlich: kf, cn
+modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: WD
 untertitel:
@@ -14,6 +14,7 @@ published: true
 infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment
 layout: modulbeschreibung
 typ: vpm
+veranstaltungsform: 
 ---
 
 ## Kurzbeschreibung

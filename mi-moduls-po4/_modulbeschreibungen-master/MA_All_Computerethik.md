@@ -1,6 +1,6 @@
 ---
 title: Computerethik
-modulverantwortlich: ck
+modulverantwortlich: mbluemm
 kuerzel: CE
 studiensemesterWs: 2
 studiensemesterSs: 1
@@ -15,8 +15,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    erstpruefer: mbluemm
+    zweitpruefer: ck
 ---
 
 ## Lehrform/SWS
@@ -52,8 +52,6 @@ Die Studierenden sollen wesentliche Begriffe und Grundpositionen bezüglich ethi
 - Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
 - Fallstudien
 - Diskussionsrunden
-- Anonyme Abstimmungen und Kommentare (PINGO)
-
 
 ## Literatur
 - Calvo, R. A., & Peters, D. (2014). Positive computing: Technology for wellbeing and human potential.

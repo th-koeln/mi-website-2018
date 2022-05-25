@@ -1,6 +1,6 @@
 ---
 title: Computergrafik und Animation
-modulverantwortlich: me
+modulverantwortlich: hs
 kuerzel: CGA
 untertitel:
 studiensemester: 4
@@ -12,12 +12,13 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: VC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
-    erstpruefer: me
+    art: Durchführung eines Projektes, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    erstpruefer: hs
     zweitpruefer: fg
 ---
 

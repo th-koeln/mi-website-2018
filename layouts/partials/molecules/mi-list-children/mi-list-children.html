@@ -10,9 +10,11 @@
 <h3>Lehrveranstaltungen innerhalb des Moduls</h3>
 {{ end }}
 <ul>
-
 {{ range $kurs := $kurse }}
-  <li><a href="{{ $kurs.RelPermalink }}">{{$kurs.Params.title}}</a></li>
+  {{ if in $kurs.Path "_archiv" }}
+  {{else}}
+    <li><a href="{{ $kurs.RelPermalink }}">{{$kurs.Params.title}}</a></li>
+  {{ end }}
 {{ end }}
 
 </ul>	

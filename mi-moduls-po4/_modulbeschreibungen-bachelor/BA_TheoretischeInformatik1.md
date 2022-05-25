@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie i
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=692123&cmdClass=ilrepositorygui&cmdNode=w4&baseClass=ilrepositorygui
 studienleistungen:
   Einzelleistung:

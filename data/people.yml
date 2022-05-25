@@ -70,6 +70,20 @@ maa:
     name: 'Markus Christopher Alterauge'
     personenseite: 'https://www.th-koeln.de/personen/markus.alterauge/'
     mi: true
+jkus:
+    id: jkus
+    status: lehrauftrag
+    name: 'Jan Kus'
+    avatar: '/img/lehrbeauftragte/jan-kus.jpeg'
+    personenseite: 'https://www.th-koeln.de/personen/jan.kus/'
+    mi: true
+perasmus:
+    id: perasmus
+    status: lehrauftrag
+    name: 'Patrick Erasmus'
+    avatar: '/img/lehrbeauftragte/patrick-erasmus.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/patrick.erasmus/'
+    mi: true
 ck:
     id: ck
     status: prof
@@ -156,6 +170,13 @@ chh:
     name: 'Christian Hahn'
     avatar: 'https://www.th-koeln.de/pseimg/91dc1a78351336bdd58bb06aba518965bafcf350.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.hahn1/'
+    mi: true
+dbreuer:
+    id: dbreuer
+    status: lehrauftrag
+    name: 'Dirk Breuer'
+    avatar: '/img/lehrbeauftragte/dirk-breuer.png'
+    personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
     mi: true
 fv:
     id: fv
@@ -297,10 +318,43 @@ mbl:
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
     mi: true
-
+akarge:
+    id: akarge
+    status: lehrauftrag
+    name: 'Andreas Karge'
+    avatar: '/img/lehrbeauftragte/andreas-karge.png'
+    personenseite: 'https://www.th-koeln.de/en/person/andreas.karge/'
+    mi: true
+petru:
+    id: petru
+    status: lehrauftrag
+    name: 'Dr. Petru Nicolaescu'
+    personenseite: 'https://www.th-koeln.de/personen/petru.nicolaescu/'
+    mi: true
+sheree:
+    id: sheree
+    status: lehrauftrag
+    name: 'Sheree Saßmannshausen'
+    avatar: '/img/lehrbeauftragte/sheree.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
+    mi: true
+dgaida:
+    id: dgaida
+    status: prof
+    name: 'Prof. Dr. Daniel Gaida'
+    avatar: '/img/professoren/gaida.png'
+    personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
+    mi: false
+hs:
+    id: hs
+    status: prof
+    name: 'Prof. Dr. Horst Stenzel'
+    avatar: '/img/lehrbeauftragte/horststenzel.png'
+    personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
+    mi: false
 mi:
     id: mi
-    name: 'Prof. Dr. Kristian Fischer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
+    name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
 all:
     id: all
-    name: 'alle Informatik Professoren'
+    name: 'alle Professor:innen der TH Köln'

@@ -35,6 +35,10 @@ layout: faq
 **Studium ist das eine, aber was kommt danach?** Wir haben eine Reihe von Absolvent:innen gebeten uns einen kurzen Einblick in ihren beruflichen Alltag und ihren Werdegang zu geben. Sie berichten, in welchen Berufsfeldern sie gelandet sind, was sie dort gerade beschäftigt und wie sie das Studium erlebt haben. 
     </div>
     <figure class="m-mi-video-teaser">
+      {{< youtube yTFBJf5oUQk >}}
+      <figcaption class="m-mi-video-teaser__footer"><strong>Patric</strong>Senior Expert Responsibility Strategy & Standards Deutsche Post DHL Group</figcaption>
+    </figure>
+    <figure class="m-mi-video-teaser">
       {{< youtube zcehLk0zNXs >}}
       <figcaption class="m-mi-video-teaser__footer"><strong>Christopher</strong>User Experience Desiginer bei meinestadt.de</figcaption>
     </figure>

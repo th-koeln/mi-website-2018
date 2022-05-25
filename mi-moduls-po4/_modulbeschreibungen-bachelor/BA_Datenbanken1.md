@@ -1,6 +1,6 @@
 ---
 title: Datenbanken 1
-modulverantwortlich: bb, hfw
+modulverantwortlich: bb
 modulniveau: bachelor
 kuerzel: DB1
 untertitel:
@@ -13,12 +13,13 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung. Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur
-    erstpruefer: bb, hfw
-    zweitpruefer: bb, hfw
+    erstpruefer: bb
+    zweitpruefer: mzapp
 ---
 
 ## Lehrform/SWS
@@ -68,9 +69,12 @@ Die Studierenden sollen
 * DB-Wiki, das Online Lexikon für Datenbank-Themen
 
 ## Literatur
-- Elmasri, R.; Navathe, S. B.: Grundlagen von Datenbanksystemen. Pearson‐Studium. 2009
-- Faeskorn‐Woyke, H.; Bertelsmeier, B.; Riemer, P.; Bauer, E.: Datenbanksysteme ‐ Theorie und Praxis mit SQL2003, Oracle und MySQL. Pearson‐Studium. 2. Aufl. 2011
-- Kemper, A.; Eickler, A.: Datenbanksysteme – Eine Einführung. Oldenbourg‐Verlag, 2015
-- Saake, G., Sattler, K.‐U.; Heuer, A.: Datenbanken ‐ Konzepte und Sprachen. Mitp/bhv, 2013
-- Vossen, G.: Datenmodelle, Datenbanksprachen, Datenbankmanagementsysteme. Oldenbourg‐Verlag, 2008
+- Date, C.J.: "E. F. Codd and Relational Theory", Technics Publications LLC, 2021 (engl.)
+- Elmasri, R., Navathe, S.B.: "Fundamentals of Database Systems". Addison Wesley, 2016 (2009 auch auf deutsch)
+- Jens Dittrich, Uni Saarland, Datenbank-Vorlesung, Unterlagen: http://datenbankenlernen.de
+- mehr als 70 Videos: https://www.youtube.com/user/jensdit
+- Faeskorn-Woyke, H., Bertelsmeier, B., Riemer, P., Bauer, E.: „Datenbanksysteme: Theorie und Praxis mit Oracle und MySQL“, Pearson, 2007 – als pdf in ILIAS hochgeladen
+- Heuer, A., Saake, G., Sattler, K.-U., Grunert, H. …: „ Datenbanken Kompaktkurs“, MITP, 2020
+- Kemper, A., Eickler, A.: “Datenbanksysteme – Eine Einführung“. De Gruyter, 2015 mit Übungsbuch
+- Saake, G.; Sattler, K.-U.; Heuer, A.: „Datenbanken – Konzepte und Sprachen“, mitp/bhv, 2018
 

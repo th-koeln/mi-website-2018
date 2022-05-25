@@ -12,13 +12,14 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: tm
+veranstaltungsform: 
 parent: VC
 infourl: 
 studienleistungen:
   Teamleistung:
     art: Projekt und schriftliche Ausarbeitung
     erstpruefer: hk
-    zweitpruefer: gh
+    zweitpruefer: simonporten
 ---
 
 ## Lehrform/SWS

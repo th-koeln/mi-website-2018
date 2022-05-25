@@ -1,6 +1,6 @@
 ---
 title: Netzwerk-und Graphentheorie
-modulverantwortlich: kf
+modulverantwortlich: petru
 kuerzel: NGT
 studiensemesterWs: 2
 studiensemesterSs: 1
@@ -19,15 +19,15 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: kf
-    zweitpruefer: 
+    erstpruefer: petru
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung
 Es werden Grundlagen für die Analyse und algorithmische Verarbeitung von Graph basierten Daten, insbesondere von Daten sozialer Netze eingeführt. 
 
 ## Lehrform/SWS 
-4 SWS: Vorlesung 2 SWS; Übung 2 SWS
+4 SWS: Seminar 2 SWS; Projekt 2 SWS
 
 
 ## Arbeitsaufwand 

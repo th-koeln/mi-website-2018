@@ -1,6 +1,6 @@
 ---
 title: Vertiefung – Social Computing
-modulverantwortlich: ck, mbl
+modulverantwortlich: ck, mbluemm
 modulniveau: bachelor
 kuerzel: SC
 untertitel:
@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: vpm
+veranstaltungsform: 
 infourl: 
 ---
 

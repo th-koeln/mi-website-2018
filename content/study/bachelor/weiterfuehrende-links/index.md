@@ -17,6 +17,8 @@ Für Studierende, die von der BPO3 in die BPO4 wechseln wollen, gibt es unter fo
 
 - [Äquivalenzliste Medieninformatik Bachelor](https://th-koeln.github.io/mi-2017/aequivalenzliste-bachelor/)
 
+Hier finden Sie den [Antrag auf Zulassung zur Bachelorarbeit und zum Kolloquium](https://www.th-koeln.de/mam/downloads/deutsch/studium/studiengaenge/f10/antraege_formulare/f10_ba_informatik_antrag_auf_zul._bachelorarbeit_u._koll.pdf).
+
 Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wollen, gibt es hier ein:
 
 - [Merkblatt für die  Anerkennung von Studienleistungen in den Medieninformatik Studiengängen der TH Köln](/download/merkblatt-anerkennung-von-studienleistungen.pdf)

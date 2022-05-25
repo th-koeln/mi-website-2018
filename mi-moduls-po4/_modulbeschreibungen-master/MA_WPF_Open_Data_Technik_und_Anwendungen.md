@@ -1,6 +1,6 @@
 ---
 title: Open Data - Technik und Anwendungen
-modulverantwortlich: kf
+modulverantwortlich: Lehrbeauftragter
 kuerzel: ODT&A
 studiensemesterWs: 3
 studiensemesterSs: 2
@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
-    zweitpruefer: 
+    zweitpruefer: gh
 ---
 
 ## Kurzbeschreibung
@@ -70,7 +70,7 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 - Hausarbeit (100%)
 
 ## Medienformen
-mündliche Vorträge mit Beamer-/Whiteboard-Unterstützung
+mündliche Vorträge mit Beamer-/Whiteboard-Unterstützung
 
 ## Literatur
 - M. Lee et al.: Open Data and Civic Apps: First-Generation Failures, Second-Generation

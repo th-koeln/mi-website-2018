@@ -1,6 +1,6 @@
 ---
 title: Visualisierung
-modulverantwortlich: all
+modulverantwortlich: chh
 kuerzel: VI
 studiensemesterWs: 2
 studiensemesterSs: 3

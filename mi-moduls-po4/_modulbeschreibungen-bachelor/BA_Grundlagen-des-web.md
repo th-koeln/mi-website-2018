@@ -1,6 +1,6 @@
 ---
 title: Grundlagen des Web
-modulverantwortlich: kf
+modulverantwortlich: jkus
 modulniveau: bachelor
 kuerzel: GW
 untertitel:
@@ -13,15 +13,16 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 typ: pm
+veranstaltungsform: Remote, teils hybrid
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: kf
+    erstpruefer: jkus
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: kf
+    erstpruefer: jkus
     zweitpruefer: maa, nkuhn, mfaske
 ---
 
