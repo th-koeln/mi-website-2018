@@ -1,6 +1,6 @@
 ---
 title: Informations- ud Prozessmanagement
-modulverantwortlich: Friedrich Knittel
+modulverantwortlich: N.N.
 kuerzel: IPM
 studiensemesterWs: 3
 studiensemesterSs: 2
@@ -9,7 +9,7 @@ zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
-published: false
+published: true
 layout: modulbeschreibung
 
 typ: wpm
