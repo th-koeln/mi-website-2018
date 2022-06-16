@@ -14,7 +14,7 @@
 
                   {{ if $teaser }}
                       {{ $image := index ($teaser) 0 }}            
-                      {{ $thumb := $image.Fill "500x250 Center q90 Linear" }}
+                      {{ $thumb := $image.Fill "500x500 Center q90 Linear" }}
                       {{ $scratch.Set "teaser" $thumb.RelPermalink }}
                   {{ end }}
 

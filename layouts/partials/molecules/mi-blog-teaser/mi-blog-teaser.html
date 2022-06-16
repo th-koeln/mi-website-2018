@@ -1,6 +1,9 @@
-<div class="m-mi-blog-teaser {{ if not .imageSrc }}is-text-only{{ else }}has-image{{ end }}" {{ if .imageSrc }}style="background-image: url({{ .imageSrc }})" {{ end }}>
+<figure class="m-mi-blog-teaser">
+  {{ if .imageSrc }}
+  <img src="{{ .imageSrc }}" alt="{{ .ele.Title }}">
+  {{ end }}
 
-  <div class="m-mi-blog-teaser--content">
+  <figcaption class="m-mi-blog-teaser--content">
     <h2 class="title">
       {{ .ele.Title }}
     </h2>
@@ -10,11 +13,11 @@
     <p class="date">
       {{ dateFormat "Monday, 2 January 2006" .ele.Params.date  }}
     </p>
-  </div>
+  </figcaption>
 
   {{ with .ele.Params.termin }}
   <p class="m-mi-blog-teaser--footer">
     {{ . }}
   </p>
   {{ end }}
-</div>
+</figure>

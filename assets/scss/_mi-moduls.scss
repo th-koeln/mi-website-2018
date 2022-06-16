@@ -377,11 +377,8 @@ ul, ol, dl {
 
 .blog-items {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
-    grid-gap: $bfs;
-
-
-
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr) );
+    gap: $bfs;
 }
 
 

@@ -16,8 +16,6 @@ Das Projektziel von Verena Heissbach und Anne Germund  ist:
 ### Es soll ein System zur Überwachung von Aquaponikanlagen entstehen, welches den Betrieb, die Kontrolle und Wartung erleichtert und somit die Gesamtsicherheit erhöht.
 
 
-
-
 Der Begriff Aquaponik setzt sich zusammen aus „Aquakultur“ – die vom Menschen betriebene Fischzucht – und „Hydroponik“, dem Anbau von Pflanzen in erdlosen Kulturen.<sup>1</sup> Es handelt sich um eine Kombination von Fisch- und Pflanzenzucht, die sich aufgrund des gemeinsamen Wasserkreislaufs durch einen deutlich verringerten Wasserverbrauch auszeichnet und eine zusätzliche Düngung überflüssig macht.<sup>2</sup> Im Rahmen eines Lehrprojekts des Instituts für Biologiedidaktik der Universität zu Köln entstand im Jahr 2017 eine kleine Aquaponikanlage, welche jedoch infolge des zeitlichen und organisatorischen Aufwands für die täglichen Kontrollen außer Betrieb genommen wurde.
 
 ### Zielsetzung
