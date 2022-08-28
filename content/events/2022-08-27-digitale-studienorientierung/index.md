@@ -11,3 +11,4 @@ Am 26.08.22 und 31.08.22 finden die digitalen Studienorientierungstage des Rhein
 
 - [weitere Infos zu den digitalen Studienorientierungstagen](https://www.rbk-direkt.de/digitale-studienorientierung-zoom.aspx)
 - [weitere Infos für Studieninteressierte](http://localhost:1313/study/bachelor/studieninteressierte/)
+
