@@ -4,6 +4,7 @@ nn:
     name: 'derzeit nicht besetzt'
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/'
+    email: ''
     mi: false
 il:
     id: il
@@ -11,6 +12,7 @@ il:
     name: 'Prof. Dr. Irma Lindt'
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
+    email: 'irma.lindt@th-koeln.de'
     mi: false
 dgaida:
     id: dgaida
@@ -18,6 +20,7 @@ dgaida:
     name: 'Prof. Dr. Daniel Gaida'
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
+    email: 'daniel.gaida@th-koeln.de'
     mi: false
 hw:
     id: hw
@@ -25,6 +28,7 @@ hw:
     name: 'Prof. Dr. Hartmut Westenberger'
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/hartmut.westenberger/'
+    email: 'hartmut.westenberger@th-koeln.de'
     mi: false
 dz:
     id: dz
@@ -32,6 +36,7 @@ dz:
     name: 'Prof. Dr. Dietlind Zühlke'
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/dietlind.zühlke/'
+    email: 'dietlind.zuehlke@th-koeln.de'
     mi: false
 tk:
     id: tk
@@ -39,6 +44,7 @@ tk:
     name: 'Prof. Dr. Torsten Klein'
     avatar: ''
     personenseite: 'https://www.th-koeln.de/personen/torsten.klein/'
+    email: 'torsten.klein@th-koeln.de'
     mi: false
 dwilk:
     id: dwilk
@@ -92,6 +98,7 @@ hs:
     status: prof
     name: 'Prof. Dr. Horst Stenzel'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
+    email: 'horst.stenzel@th-koeln.de'
     mi: false
 alh:
     id: alh
@@ -106,6 +113,7 @@ cn:
     name: 'Prof. Christian Noss'
     avatar: '/img/professoren/noss.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
+    email: 'christian.noss@th-koeln.de'
     mi: true
 vos:
     id: vos
@@ -132,6 +140,7 @@ rog:
     status: wma
     name: 'Robert Gabriel'
     personenseite: 'https://www.th-koeln.de/personen/robert.gabriel/'
+    email: 'robert.gabriel@th-koeln.de'
     mi: true
 cok:
     id: cok
@@ -151,6 +160,7 @@ ck:
     name: 'Prof. Dr. Christian Kohls'
     avatar: '/img/professoren/kohls.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
+    email: 'christian.kohls@th-koeln.de'
     mi: true
 mak:
     id: mak
@@ -164,6 +174,7 @@ ald:
     name: 'Alexander Dobrynin'
     personenseite: 'https://www.th-koeln.de/personen/alexander.dobrynin/'
     avatar: 'https://www.th-koeln.de/pseimg/e1676cb0ca4b76df2d2c5205d8901190f067fe99.png'
+    email: 'alexander.dobrynin@th-koeln.de'
     mi: true
 gh:
     id: gh
@@ -171,6 +182,7 @@ gh:
     name: 'Prof. Dr. Gerhard Hartmann'
     personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
     avatar: '/img/professoren/hartmann.png'
+    email: 'gerhard.hartmann@th-koeln.de'
     mi: true
 hk:
     id: hk
@@ -178,6 +190,7 @@ hk:
     name: 'Prof. Hans Kornacher'
     avatar: '/img/professoren/kornacher.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
+    email: 'hans.kornacher@th-koeln.de'
     mi: true
 erw:
     id: erw
@@ -191,6 +204,7 @@ mw:
     name: 'Prof. Dr. Mario Winter'
     avatar: '/img/professoren/winter.png'
     personenseite: 'https://www.th-koeln.de/personen/mario.winter/'
+    email: 'mario.winter@th-koeln.de'
     mi: true
 alm:
     id: alm
@@ -217,6 +231,7 @@ uwm:
     name: 'Uwe Müsse'
     avatar: 'https://www.th-koeln.de/pseimg/241916e718c79e4f5839e3b6aa56cb21d6189b68.png'
     personenseite: 'https://www.th-koeln.de/personen/uwe.muesse/'
+    email: 'uwe.muesse@th-koeln.de'
     mi: true
 mag:
     id: mag
@@ -224,6 +239,7 @@ mag:
     name: 'Matthias Groß'
     avatar: 'https://www.th-koeln.de/pseimg/38cbc61901158f675046f4020ec2b6cec863c12b.png'
     personenseite: 'https://www.th-koeln.de/personen/matthias.gross2/'
+    email: 'matthias.gross@th-koeln.de'
     mi: true
 chh:
     id: chh
@@ -231,6 +247,7 @@ chh:
     name: 'Christian Hahn'
     avatar: 'https://www.th-koeln.de/pseimg/91dc1a78351336bdd58bb06aba518965bafcf350.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.hahn1/'
+    email: 'christian.hahn@th-koeln.de'
     mi: true
 fv:
     id: fv
@@ -238,6 +255,7 @@ fv:
     name: 'Prof. Dr. Frank Victor'
     avatar: '/img/professoren/victor.png'
     personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
+    email: 'frank.victor@th-koeln.de'
     mi: true
 dbreuer:
     id: dbreuer
@@ -245,6 +263,7 @@ dbreuer:
     name: 'Dirk Breuer'
     avatar: '/img/lehrbeauftragte/dirk-breuer.png'
     personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
+    email: 'dirk.breuer@th-koeln.de'
     mi: true
 perasmus:
     id: perasmus
@@ -252,24 +271,28 @@ perasmus:
     name: 'Patrick Erasmus'
     avatar: '/img/lehrbeauftragte/patrick-erasmus.png'
     personenseite: 'https://www.th-koeln.de/personen/patrick.erasmus/'
+    email: 'patrick.erasmus@th-koeln.de'
     mi: true
 jh:
     id: jh
     status: lehrauftrag
     name: 'Julia-Isabell Henke'
     personenseite: 'https://www.juliahenke.com/'
+    email: 'julia.henke1@th-koeln.de'
     mi: false
 lk:
     id: lk
     status: prof
     name: 'Prof. Dr. Lutz Köhler'
     personenseite: 'https://www.th-koeln.de/personen/lutz.koehler/'
+    email:'lutz.koehler@th-koeln.de'
 mboehmer:
     id: mboehmer
     status: prof
     name: 'Prof. Dr. Matthias Böhmer'
     avatar: '/img/professoren/boehmer.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
+    email: 'matthias.boehmer@th-koeln.de'
     mi: true
 edg:
     id: edg
@@ -289,6 +312,7 @@ bb:
     name: 'Prof. Dr. Birgit Bertelsmeier'
     avatar: '/img/professoren/bertelsmeier.png'
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
+    email: 'birgit.bertelsmeier@th-koeln.de'
     mi: true
 hfw:
     id: hfw
@@ -315,6 +339,7 @@ sk:
     name: 'Prof. Dr. Stefan Karsch'
     personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
     avatar: '/img/professoren/karsch.jpg'
+    email: 'stafan.karsch@th-koeln.de'
     mi: true
 hls:
     id: hls
@@ -322,6 +347,7 @@ hls:
     name: 'Prof. Dr. Hans L. Stahl'
     avatar: '/img/professoren/stahl.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
+    email: 'hans.stahl@th-koeln.de'
     mi: true
 jjb:
     id: jjb
@@ -347,6 +373,7 @@ wk:
     name: 'Prof. Dr. Wolfgang Konen'
     avatar: '/img/professoren/konen.png'
     personenseite: 'https://www.th-koeln.de/personen/wolfgang.konen/'
+    email: 'wolfgang.konen@th-koeln.de'
     mi: true
 as:
     id: as
@@ -366,6 +393,7 @@ hg:
     name: 'Prof. Dr. Holger Günther'
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
     avatar: '/img/professoren/guenther.jpg'
+    email: 'holger.guenther@th-koeln.de'
     mi: true
 mas:
     id: mas
@@ -396,6 +424,7 @@ mbluemm:
     name: 'Prof. Dr. Mirjam Blümm'
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
+    email: 'miriam.bluemm@th-koeln.de'
     mi: true
 sb:
     id: sb
@@ -403,6 +432,7 @@ sb:
     name: 'Prof. Dr. Stefan Bente'
     avatar: '/img/professoren/bente.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
+    email: 'stefan.bente@th-koeln.de'
     mi: false
 mzapp:
     id: mzapp
@@ -410,6 +440,7 @@ mzapp:
     name: 'Prof. Dr. Matthias Zapp'
     avatar: '/img/professoren/mzapp.png'
     personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
+    email: 'matthias.zapp@th-koeln.de'
     mi: false
 jkus:
     id: jkus
@@ -417,6 +448,7 @@ jkus:
     name: 'Jan Kus'
     avatar: '/img/lehrbeauftragte/jan-kus.png'
     personenseite: 'https://www.th-koeln.de/en/person/jan.kus/'
+    email: 'jan.kus@th-koeln.de'
     mi: true
 akarge:
     id: akarge
@@ -445,6 +477,7 @@ simonschulte:
     name: 'Simon Schulte'
     avatar: 'https://media-exp1.licdn.com/dms/image/C4D03AQHY9XGDLRG9aQ/profile-displayphoto-shrink_200_200/0/1536308408079?e=1655942400&v=beta&t=6QA3hzL1bFeKWKzYsyYVrcWZXXbLnfZvy9hOjIeEyqI'
     personenseite: 'https://www.th-koeln.de/personen/simon_ludwig.schulte/'
+    email: 'simon.schulte@th-koeln.de'
     mi: true
 simonporten:
     id: simonporten
@@ -459,6 +492,7 @@ christinawerner:
     name: 'Prof. Dr. Christina Werner'
     avatar: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.th-koeln.de%2Fhochschule%2Fneuberufen-2016-prof-dr-christina-werner_35254.php&psig=AOvVaw3QzBHd0iROw9bWx1ESjrkd&ust=1652174126105000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKi1jbGK0vcCFQAAAAAdAAAAABAD'
     personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
+    email: 'christina.werner@th-koeln.de'
     mi: false
 mi:
     id: mi

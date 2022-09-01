@@ -31,11 +31,16 @@ layout: default
           {% assign fs = fachsemester | plus:0%}
 					{% assign sorted_pages = pflichtmodule|concat:schwerpunktmodule|concat:schwerpunktprojekte|where_exp:"item","item.studiensemesterWs == fs"|sort:'title' %}
 					{% for modulbeschreibung in sorted_pages %}
-					<tr class="has-top-border">
+					{% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
+					{% include /functions/resolve-contact.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
+					<tr 
+						data-fs="{{fachsemester}}"
+						data-verantwortlich="{{modulverantwortliche}}"
+						class="has-top-border">
            <td>{{fachsemester}}</td>
 						<td>
 							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
-              {% include /functions/resolve-names.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
+
 							<p class="is-small">{{modulverantwortliche}}</p>
 							{% for teilmodulbeschreibung in sorted_teilmodule %}
 								{% if teilmodulbeschreibung.parent == modulbeschreibung.kuerzel %}

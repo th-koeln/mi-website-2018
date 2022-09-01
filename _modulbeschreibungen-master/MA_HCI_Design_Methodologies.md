@@ -20,7 +20,7 @@ studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
-    zweitpruefer: sheree
+    zweitpruefer: nkuhn
 ---
 
 ## Lehrform/SWS
