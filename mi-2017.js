@@ -122,3 +122,49 @@ if(!urlParams.has('media')){
 	tabs.func.init();	
 }
 
+/* Insert Email Adresses
+############################################################################ */
+const insertEmailAdresses = (target, term)=>{
+
+	if(!window.location.href.match(/127\.0\.0\.1/)) return;
+	const emailDataNodes = document.querySelectorAll('[data-verantwortlich]');
+
+	const splitAdresses = (adresses) => {
+		if(adresses.match(/, /)) return adresses.split(/, /);
+		if(adresses.match(/,/)) return adresses.split(/,/);
+		return [adresses];
+	};
+
+	const addButton = (adresses)=>{
+		const link = document.createElement("a");
+		const { program } = pageData;
+		link.innerHTML = "Mail an die Dozenten";
+		link.href = `mailto: ${Object.keys(emailAdresses).join(',')}?subject=Modulbeschreibungen und Prüfungen im ${program} `;
+		target.appendChild(link);
+	}
+
+	const emailAdresses = {};
+	emailDataNodes.forEach((node, currentIndex, listObj) => {
+			if(!node.dataset.verantwortlich.match(/@/)) return;
+			const adresses = splitAdresses(node.dataset.verantwortlich);
+			
+			adresses.forEach(adress => {
+				if(!emailAdresses[adress]) emailAdresses[adress] = 0;
+				emailAdresses[adress]++;
+			});
+		}
+	);
+
+	addButton(emailAdresses);
+};
+
+/* Mail
+############################################################################ */
+
+document.addEventListener('DOMContentLoaded', (event) => {
+	
+	const insertEmailsJS = document.querySelector('[data-js=insert-emails-ws]');
+	if(insertEmailsJS === null) return false;
+	insertEmailAdresses(insertEmailsJS, 'ws');
+	
+});

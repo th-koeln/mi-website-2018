@@ -6,8 +6,7 @@
 
 {% for verantwortlich in verantwortliche %}
 {% assign verantwortlich_clean = verantwortlich|lstrip %}
-{% assign ms = ms|push: site.data.people[verantwortlich_clean].name %}
+{% assign ms = ms|push: site.data.people[verantwortlich_clean].email %}
 {% endfor %}
 
-{% assign modulverantwortliche = ms|join: ", " %}
-{% assign verantwortliche = ms|join: ", " %}
+{% assign modulverantwortlicheEmail = ms|join: ", " %}

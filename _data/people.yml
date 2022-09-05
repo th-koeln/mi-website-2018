@@ -285,7 +285,7 @@ lk:
     status: prof
     name: 'Prof. Dr. Lutz Köhler'
     personenseite: 'https://www.th-koeln.de/personen/lutz.koehler/'
-    email:'lutz.koehler@th-koeln.de'
+    email: 'lutz.koehler@th-koeln.de'
 mboehmer:
     id: mboehmer
     status: prof

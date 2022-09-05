@@ -13,6 +13,12 @@ layout: default
 {% assign schwerpunktprojekte = site.modulbeschreibungen-master|where:"typ","spp" %} 
 {% assign alle_module = site.modulbeschreibungen-master|sort:'title' %} 
 
+<script>
+	pageData = {
+		"program": "Medieninformatik Master"
+	}
+</script>
+
 <section class="section">
 	<div class="container">
 		<div class="content">
@@ -35,7 +41,7 @@ layout: default
 					{% include /functions/resolve-contact.html modulverantwortlich=modulbeschreibung.modulverantwortlich %}
 					<tr 
 						data-fs="{{fachsemester}}"
-						data-verantwortlich="{{modulverantwortliche}}"
+						data-verantwortlich="{{modulverantwortlicheEmail}}"
 						class="has-top-border">
            <td>{{fachsemester}}</td>
 						<td>
@@ -97,6 +103,16 @@ layout: default
 		</div>
 	</div>
 </section>
+
+
+<div class="container">
+	<div class="content">
+		<div id="admin">
+			<div data-js="insert-emails-ws"></div>
+			<div data-js="insert-emails-ss"></div>
+		</div>
+	</div>
+</div>
 
 <!--section class="section">
 	<div class="container">
