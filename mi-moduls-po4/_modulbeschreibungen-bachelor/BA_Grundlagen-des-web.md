@@ -1,6 +1,6 @@
 ---
 title: Grundlagen des Web
-modulverantwortlich: jkus
+modulverantwortlich: dbreuer
 modulniveau: bachelor
 kuerzel: GW
 untertitel:
