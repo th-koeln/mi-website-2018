@@ -311,8 +311,8 @@ bn:
     name: 'Prof. Dr. Boris Naujoks'
     personenseite: 'https://www.th-koeln.de/personen/boris.naujoks/'
     avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
-mbl: 
-    id: mbl
+mbluemm: 
+    id: mbluemm
     status: prof
     name: 'Prof. Dr. Mirjam Blümm'
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'

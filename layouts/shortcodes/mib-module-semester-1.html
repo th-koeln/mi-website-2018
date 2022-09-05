@@ -1,6 +1,6 @@
 
 {{ $module := where $.Site.Pages "Params.zielmedium" "!=" "print" }}
-{{ $moduleBachelor := where $module ".Dir" "==" "study/bachelor/moduls/" }}
+{{ $moduleBachelor := $module }}
 {{ $fs1 := where $moduleBachelor "Params.studiensemester" 1 }}
 
 <p>
