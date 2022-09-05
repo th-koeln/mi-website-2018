@@ -9,7 +9,7 @@ zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
-published: true
+published: false
 layout: modulbeschreibung
 typ: wpm
 parent: WPM
