@@ -19,7 +19,7 @@
             {{ if and (eq $human.status "prof") ($human.mi) }}
                 <div class="mi-stack">
                     {{ if ne $human.avatar ""}}
-                        {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $human.avatar )}}
+                        {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $human.avatar "name" $human.name)}}
                     {{ end }}
                     <header class="is-vertically-centered">
                         <h3>

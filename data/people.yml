@@ -45,7 +45,7 @@ kf:
     name: 'Prof. Dr. Kristian Fischer'
     avatar: '/img/professoren/fischer.jpg'
     personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
-    mi: true
+    mi: false
 nag:
     id: nag
     status: wma
@@ -143,7 +143,7 @@ me:
     name: 'Prof. Dr. Martin Eisemann'
     avatar: '/img/professoren/eisemann.png'
     personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
-    mi: true
+    mi: false
 bem:
     id: bem
     status: wma
@@ -161,7 +161,7 @@ mag:
     id: mag
     status: wma
     name: 'Matthias Groß'
-    avatar: 'https://www.th-koeln.de/pseimg/38cbc61901158f675046f4020ec2b6cec863c12b.png'
+    avatar: '/img/wissmas/matze-gross.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.gross2/'
     mi: true
 chh:

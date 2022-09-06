@@ -1,1 +1,5 @@
-<div class="m-mi-avatar" {{ if .src }} style="background-image:url({{ .src }})" {{ end }}></div>
+<div class="m-mi-avatar">
+    {{ if .src }}
+    <img src="{{ .src }}" alt="{{.name}}">
+    {{ end }}
+</div>

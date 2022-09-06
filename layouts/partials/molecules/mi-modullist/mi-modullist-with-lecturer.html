@@ -34,9 +34,9 @@
       {{ if (isset $modul.Params "typ")}}
         <li class="m-mi-modullist-with-lecturer__entry" data-href="{{ $modul.RelPermalink }}">
           {{ if ne $avatar ""}}
-            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar )}}
+            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar "name" $verantwortliche)}}
           {{ else }}
-            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" "/img/avatar.png")}}
+            {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" "/img/avatar.png" "name" $verantwortliche)}}
           {{ end }}
           <header class="m-mi-modullist-with-lecturer__entry-head">
             <h3 class="m-mi-modullist-with-lecturer__entry-title">

@@ -2,7 +2,7 @@
 	<div class="m-mi-modulhead--mit-bild">
 		{{ if eq .avatarCount 1}}
     {{$ava := index (.avatar) 0}}
-			{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $ava)}}
+			{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $ava "name" .verantwortliche)}}
 		{{ end }}
 		<header class="m-mi-modulhead-text">
 			<h1 class="m-mi-modulhead--title">
@@ -11,7 +11,7 @@
       {{ if gt .avatarCount 1}}
       <div class="m-mi-modulhead--avatar-box">
         {{ range $ava:= .avatar }}
-          {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $ava)}}
+          {{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $ava "name" "Verantwortliche Dozent:innen")}}
         {{ end }}
       </div>
 		  {{ end }}

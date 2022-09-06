@@ -81,7 +81,7 @@
 				{{ if $scratch.Get "avatar" }}
 					{{ if gt (len ($scratch.Get "avatare")) 0 }}
 						{{ range $avatar:= ($scratch.GetSortedMapValues "avatare") }}
-							{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar ) }}
+							{{ partial "molecules/mi-avatar/mi-avatar.html" (dict "src" $avatar "name" "leider kein Alternativtext") }}
 						{{ end }}
 					{{ end }}
 				{{ end }}
