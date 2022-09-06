@@ -1,7 +1,7 @@
 ---
 title: Bildbasierte Computergrafik
 modulverantwortlich: mag
-kuerzel: bc
+kuerzel: BCG
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: wahlweise deutsch oder englisch
@@ -63,7 +63,7 @@ Nach erfolgreichem Abschluss
 - Warping und Morphing zur Bildinterpolation
 - Lichtfelder
 - Panorama und 360° Panorama Stitching
-- Python, C++, Cuda, OpenCL Programmierung
+- Python, C++ Programmierung
 
 
 ## Medienformen
