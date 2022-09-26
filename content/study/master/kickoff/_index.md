@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T21:05:33+05:30"
-title: "Kick-Off das Wintersemester 2022/23"
+title: "Kick-Off Wintersemester 2022/23"
 view: "views/content-12-12"
 ---
 
