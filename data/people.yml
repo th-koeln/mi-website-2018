@@ -154,7 +154,7 @@ uwm:
     id: uwm
     status: wma
     name: 'Uwe Müsse'
-    avatar: 'https://www.th-koeln.de/pseimg/241916e718c79e4f5839e3b6aa56cb21d6189b68.png'
+    avatar: '/img/wissmas/uwe-muesse.jpg'
     personenseite: 'https://www.th-koeln.de/personen/uwe.muesse/'
     mi: true
 mag:
