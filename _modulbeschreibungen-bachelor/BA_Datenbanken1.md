@@ -2,7 +2,7 @@
 title: Datenbanken
 modulverantwortlich: jschaible
 modulniveau: bachelor
-kuerzel: DB1
+kuerzel: DB
 untertitel:
 studiensemester: 3
 kategorie:
