@@ -1,6 +1,6 @@
 ---
-title: Datenbanken 1
-modulverantwortlich: bb
+title: Datenbanken
+modulverantwortlich: jschaible
 modulniveau: bachelor
 kuerzel: DB1
 untertitel:
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung. Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur
-    erstpruefer: bb
-    zweitpruefer: mzapp
+    erstpruefer: jschaible
+    zweitpruefer: bb
 ---
 
 ## Lehrform/SWS
