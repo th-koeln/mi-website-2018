@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung, Projektdokumentation
     erstpruefer: all
-    zweitpruefer: all
+    zweitpruefer: mas
 ---
 
 ## Lehrform/SWS
