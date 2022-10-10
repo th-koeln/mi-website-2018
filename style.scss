@@ -317,6 +317,9 @@
 }
 
 @media print {
+	html, body{
+		font-size: 8pt !important;
+	}
    section.hero, .is-non-print{
 	   display: none;
    }
