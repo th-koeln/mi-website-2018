@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
     erstpruefer: all
-    zweitpruefer: all
+    zweitpruefer: mas
 ---
 
 ## Lehrform/SWS

@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung, Vortrag, Fachgespräch
     erstpruefer: all
-    zweitpruefer: all
+    zweitpruefer: mas
 ---
 
 ## Lehrform/SWS

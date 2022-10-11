@@ -9,7 +9,7 @@ zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
-published: true
+published: false
 infourl: 
 layout: modulbeschreibung
 typ: spm

@@ -339,7 +339,7 @@ sk:
     name: 'Prof. Dr. Stefan Karsch'
     personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
     avatar: '/img/professoren/karsch.jpg'
-    email: 'stafan.karsch@th-koeln.de'
+    email: 'stefan.karsch@th-koeln.de'
     mi: true
 hls:
     id: hls
@@ -424,7 +424,15 @@ mbluemm:
     name: 'Prof. Dr. Mirjam Blümm'
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
-    email: 'miriam.bluemm@th-koeln.de'
+    email: 'mirjam.bluemm@th-koeln.de'
+    mi: true
+jschaible:
+    id: jschaible
+    status: prof
+    name: 'Prof. Dr. Johann Schaible'
+    personenseite: 'https://www.th-koeln.de/personen/johann.schaible/'
+    avatar: '/img/professoren/johann-schaible.jpg'
+    email: 'johann.schaible@th-koeln.de'
     mi: true
 sb:
     id: sb
@@ -499,4 +507,7 @@ mi:
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
 all:
     id: all
-    name: 'alle Professor:innen der F10'
+    name: 'alle Professor:innen der Lehreinheit Informatik der F10'
+mas:
+    id: mas
+    name: 'alle Professor:innen und wissenschaftlichen Mitarbeiter:innen der Lehreinheit Informatik der F10'
