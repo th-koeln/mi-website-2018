@@ -1,8 +1,8 @@
 ---
-title: Datenbanksysteme
+title: Datenbanken
 modulverantwortlich: jschaible
 modulniveau: bachelor
-kuerzel: DBS
+kuerzel: DB
 untertitel:
 studiensemester: 3
 kategorie:
