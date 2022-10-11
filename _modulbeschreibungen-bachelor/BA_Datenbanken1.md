@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
-    __erstpruefer: jschaible__
+    erstpruefer: jschaible
     zweitpruefer: bb
 ---
 
