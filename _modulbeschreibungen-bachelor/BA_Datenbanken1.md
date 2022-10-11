@@ -1,14 +1,14 @@
 ---
-title: Datenbanken
+title: Datenbanksysteme
 modulverantwortlich: jschaible
 modulniveau: bachelor
-kuerzel: DB
+kuerzel: DBS
 untertitel:
 studiensemester: 3
 kategorie:
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
+voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS‐Praktikum
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
-    erstpruefer: jschaible
+    __erstpruefer: jschaible__
     zweitpruefer: bb
 ---
 
