@@ -352,6 +352,15 @@ hs:
     avatar: '/img/lehrbeauftragte/horststenzel.png'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
     mi: false
+
+jschaible:
+    id: jschaible
+    status: prof
+    name: 'Prof. Dr. Johann Schaible'
+    avatar: '/img/professoren/johann-schaible.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/johann.schaible/'
+    mi: false
+
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
