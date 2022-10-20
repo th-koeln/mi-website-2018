@@ -360,3 +360,9 @@ pre code{
 #admin{
 	padding: $bfs 0;
 }
+
+.content .subtitle{
+	margin-top: -$bfs !important;
+	color: $mi-blau !important;
+	margin-bottom: $bfs * 2;
+}
