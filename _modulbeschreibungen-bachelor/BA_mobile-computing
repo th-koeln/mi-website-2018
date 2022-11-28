@@ -10,7 +10,7 @@ sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung:
 empfohleneVoraussetzungen:
-published: false
+published: true
 layout: modulbeschreibung
 veranstaltungsform: 
 typ: pm
