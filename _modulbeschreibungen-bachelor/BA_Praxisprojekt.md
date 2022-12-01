@@ -7,7 +7,7 @@ untertitel:
 studiensemester: 6
 kategorie:
 sprache: deutsch
-kreditpunkte: 10
+kreditpunkte: 15
 voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte (CP)
 empfohleneVoraussetzungen: 
 published: true

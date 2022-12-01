@@ -17,7 +17,8 @@ layout: default
 <section class="section">
 	<div class="container">
 		<div class="content">
-	        <h1>Studienverlaufsplan Medieninformatik Bachelor</h1>
+	        <h1 class="title">Studienverlaufsplan Medieninformatik Bachelor</h1>
+			<h2 class="subtitle">Stand: {{ site.time | date: "%d.%m.%Y" }}</h2>
 			<table class="table">
 				<thead>
 					<tr>
@@ -32,7 +33,7 @@ layout: default
 					<tr class="no-border">
 						<th colspan="4">{{fachsemester}}. Fachsemester </th>
 					</tr>
-          {% assign fs = fachsemester | plus:0%}
+          			{% assign fs = fachsemester | plus:0%}
 					{% assign sorted_pages = pflichtmodule|where_exp:"item","item.studiensemester == fs"|sort:'title' %}
           
 					{% for modulbeschreibung in sorted_pages %}
@@ -40,6 +41,14 @@ layout: default
 					<tr>
 						<td>
 							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
+							
+							{% assign check = modulbeschreibung.studienleistungen|strip_newlines %}
+							{% if check != ""  %}
+							<p class="is-small">
+							{% include /functions/format-studienleistungen-simple.html studienleistungen=modulbeschreibung.studienleistungen %}
+							{{studienleistungen_html}}
+							</p>
+							{% endif %}
 							{% for teilmodulbeschreibung in sorted_teilmodule %}
 								{% if teilmodulbeschreibung.parent == modulbeschreibung.kuerzel %}
 								- <a class="is-small is-less-important" href="{{site.baseurl}}{{teilmodulbeschreibung.url}}">{{teilmodulbeschreibung.title}}</a><br> 
