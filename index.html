@@ -111,39 +111,43 @@ layout: default
 </section>
 
 <section class="section">
-<table class="table is-striped is-narrow studienverlaufsplan">
-	<thead>
-		<tr>
-			<th colspan="2">Studienabschnitte</th>
-			<th colspan="7">Leistungspunkte und Semesterzuordnung</th>
-		</tr>
-		<tr>
-			<th>Module</th>
-			<th title="Prüfungsvorleistung erforderlich">PV</th>
-			<td title="Summe CP">CP</td>
-			{% for fachsemester in alle_fachsemester %} 
-			<td class="is-fs-{{fachsemester}}">0{{fachsemester}}</td>	
-			{% endfor %}
-		</tr>
-	</thead>
-	<tbody>
-	
-		{% include /functions/unit-studienverlaufsplan.html modulPool=grundlagen unitTitle="Grundlagen" cpUnit="60" %}
-		{% include /functions/unit-studienverlaufsplan.html modulPool=vertiefung unitTitle="Vertiefung" cpUnit="75" %}
-		{% include /functions/unit-studienverlaufsplan.html modulPool=spezialisierung unitTitle="Spezialisierung" cpUnit="45" %}
+	<div class="container">
+		<div class="content">
+		<table class="table is-striped is-narrow studienverlaufsplan">
+			<thead>
+				<tr>
+					<th colspan="2">Studienabschnitte</th>
+					<th colspan="7">Leistungspunkte und Semesterzuordnung</th>
+				</tr>
+				<tr>
+					<th>Module</th>
+					<th title="Prüfungsvorleistung erforderlich">PV</th>
+					<td title="Summe CP">CP</td>
+					{% for fachsemester in alle_fachsemester %} 
+					<td class="is-fs-{{fachsemester}}">0{{fachsemester}}</td>	
+					{% endfor %}
+				</tr>
+			</thead>
+			<tbody>
+			
+				{% include /functions/unit-studienverlaufsplan.html modulPool=grundlagen unitTitle="Grundlagen" cpUnit="60" %}
+				{% include /functions/unit-studienverlaufsplan.html modulPool=vertiefung unitTitle="Vertiefung" cpUnit="75" %}
+				{% include /functions/unit-studienverlaufsplan.html modulPool=spezialisierung unitTitle="Spezialisierung" cpUnit="45" %}
 
-	</tbody>
-	
-	<tfoot>
-		<tr>
-			<th colspan="2">Summe Leistungspunkte</th>
-			<td>180</td>
-			{% for fachsemester in alle_fachsemester %} 
-			<td class="is-fs-{{fachsemester}}">30</td>	
-			{% endfor %}
-		</tr>
-	</tfoot>
-</table>
+			</tbody>
+			
+			<tfoot>
+				<tr>
+					<th colspan="2">Summe Leistungspunkte</th>
+					<td>180</td>
+					{% for fachsemester in alle_fachsemester %} 
+					<td class="is-fs-{{fachsemester}}">30</td>	
+					{% endfor %}
+				</tr>
+			</tfoot>
+		</table>	
+		</div>
+	</div>
 </section>
 
 

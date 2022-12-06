@@ -374,7 +374,12 @@ pre code{
 	}
 
 	th{
-		font-weight: normal;
+		font-weight: normal !important;
+
+		ul{
+			margin-top: 0;
+			margin-bottom: 2px;
+		}
 	}
 
 	td{
