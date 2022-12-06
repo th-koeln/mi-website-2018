@@ -10,9 +10,11 @@ layout: default
 {% assign wahlpflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","wpm" %}
 {% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %} 
 
+{% assign grundlagen = site.modulbeschreibungen-bachelor|where:"kategorie","grundlagen" %}
+{% assign vertiefung = site.modulbeschreibungen-bachelor|where:"kategorie","vertiefung" %}
+{% assign spezialisierung = site.modulbeschreibungen-bachelor|where:"kategorie","spezialisierung" %}
+
 {% assign sorted_teilmodule = teilmodule|sort:'title' %}
-
-
 
 <section class="section">
 	<div class="container">
@@ -109,10 +111,46 @@ layout: default
 </section>
 
 <section class="section">
+<table class="table is-striped is-narrow studienverlaufsplan">
+	<thead>
+		<tr>
+			<th colspan="2">Studienabschnitte</th>
+			<th colspan="7">Leistungspunkte und Semesterzuordnung</th>
+		</tr>
+		<tr>
+			<th>Module</th>
+			<th title="Prüfungsvorleistung erforderlich">PV</th>
+			<td title="Summe CP">CP</td>
+			{% for fachsemester in alle_fachsemester %} 
+			<td class="is-fs-{{fachsemester}}">0{{fachsemester}}</td>	
+			{% endfor %}
+		</tr>
+	</thead>
+	<tbody>
+	
+		{% include /functions/unit-studienverlaufsplan.html modulPool=grundlagen unitTitle="Grundlagen" cpUnit="60" %}
+		{% include /functions/unit-studienverlaufsplan.html modulPool=vertiefung unitTitle="Vertiefung" cpUnit="75" %}
+		{% include /functions/unit-studienverlaufsplan.html modulPool=spezialisierung unitTitle="Spezialisierung" cpUnit="45" %}
+
+	</tbody>
+	
+	<tfoot>
+		<tr>
+			<th colspan="2">Summe Leistungspunkte</th>
+			<td>180</td>
+			{% for fachsemester in alle_fachsemester %} 
+			<td class="is-fs-{{fachsemester}}">30</td>	
+			{% endfor %}
+		</tr>
+	</tfoot>
+</table>
+</section>
+
+
+<section class="section">
 	<div class="container">
 		<div class="content">
 	        <h1>Modulbeschreibungen Bachelor</h1>
-
 			<ol>
 			{% assign sorted_pages = site.modulbeschreibungen-bachelor|sort:'title' %}
 			{% for modulbeschreibung in sorted_pages %}

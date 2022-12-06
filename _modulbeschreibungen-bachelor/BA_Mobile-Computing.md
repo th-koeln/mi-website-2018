@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: MOCO
 untertitel:
 studiensemester: 4
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

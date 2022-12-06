@@ -366,3 +366,41 @@ pre code{
 	color: $mi-blau !important;
 	margin-bottom: $bfs * 2;
 }
+
+.studienverlaufsplan{
+	font-size: smaller;
+	th, td{
+		padding: 0 2px !important;
+	}
+
+	th{
+		font-weight: normal;
+	}
+
+	td{
+		text-align: center;
+	}
+
+	.is-fs-1,.is-fs-3, .is-fs-5{
+		background-color: rgba(0,0,0,0.1);
+	}
+
+	.unit{
+		th, td{
+			background-color: rgba(0,0,0,0.7);
+			color: #fff;
+			padding: 2px 5px !important;
+		}
+	}
+
+	thead{
+		tr{
+			background-color: $mi-black;
+			td, th{
+				color: #fff;
+				padding: 2px 5px !important;
+				font-weight: bold;;
+			}
+		}
+	}
+}	

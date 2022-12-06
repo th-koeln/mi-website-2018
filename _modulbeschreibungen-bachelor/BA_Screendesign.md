@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: SD
 untertitel:
 studiensemester: 3
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

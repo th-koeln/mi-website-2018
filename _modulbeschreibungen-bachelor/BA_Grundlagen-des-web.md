@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: GW
 untertitel:
 studiensemester: 3
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
@@ -18,11 +18,11 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: jkus
+    erstpruefer: dbreuer
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: jkus
+    erstpruefer: dbreuer
     zweitpruefer: maa, nkuhn, mfaske
 ---
 

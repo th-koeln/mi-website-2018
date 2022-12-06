@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: KTN
 untertitel:
 studiensemester: 3
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
@@ -13,6 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+pvl: true
 veranstaltungsform: 
 infourl: 
 studienleistungen:

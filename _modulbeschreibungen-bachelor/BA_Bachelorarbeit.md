@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: BA
 untertitel:
 studiensemester: 6
-kategorie:
+kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelorarbeit und Kolloquium bestanden

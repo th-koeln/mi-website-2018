@@ -5,13 +5,14 @@ modulniveau: bachelor
 kuerzel: AP2
 untertitel:
 studiensemester: 2
-kategorie:
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 7
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1
 published: true
 veranstaltungsform: 
+pvl: true
 typ: pm
 layout: modulbeschreibung
 infourl: 

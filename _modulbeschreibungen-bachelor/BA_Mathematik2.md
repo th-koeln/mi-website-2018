@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: MA2
 untertitel:
 studiensemester: 2
-kategorie:
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 8
 voraussetzungenNachPruefungsordnung: keine
@@ -13,6 +13,7 @@ empfohleneVoraussetzungen: Mathematik I
 published: true
 layout: modulbeschreibung
 typ: pm
+pvl: true
 veranstaltungsform: 
 infourl: 
 studienleistungen:

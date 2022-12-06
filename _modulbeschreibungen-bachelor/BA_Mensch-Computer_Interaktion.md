@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: MCI
 untertitel:
 studiensemester: 2
-kategorie:
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: keine

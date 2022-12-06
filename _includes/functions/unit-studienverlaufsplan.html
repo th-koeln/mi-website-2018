@@ -1,0 +1,68 @@
+{% assign module = include.modulPool %}
+{% assign cpUnit = include.cpUnit %}
+{% assign unitTitle = include.unitTitle %}
+{% assign vertiefungsblockIsVisible = false %}
+<tr class="unit">
+    <th colspan="2">{{unitTitle}}</th>
+    <td>{{cpUnit}}</td>
+    {% for fachsemester in alle_fachsemester %}
+    <td class="is-fs-{{fachsemester}}"></td>
+    {% endfor %}
+</tr>
+
+{% for fachsemesterMacro in alle_fachsemester %}
+{% assign fachsemesterMacro_clean = fachsemesterMacro | plus:0 %}
+{% assign sem = module|where_exp:"item","item.studiensemester == fachsemesterMacro_clean"|sort:'title' %}
+{% for modul in sem %}
+
+
+{% if fachsemesterMacro_clean == 5 %}
+{% endif %}
+
+{% if modul.pvl == true %}
+{% assign pvl = 'TN' %}
+{% else %}
+{% assign pvl = '-' %}
+{% endif %}
+
+{% if modul.typ=='vpm' %}
+{% if vertiefungsblockIsVisible == false %}
+{% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %} 
+<tr>
+    <th>Vertiefungsmodul (1 aus 3):
+        <ul class="list">
+            {% for vertiefungsmodul in vertiefungsmodule %}
+            <li>- <a href="{{vertiefungsmodul.url}}">{{vertiefungsmodul.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </th>
+    <td>{{pvl}}</td>
+    <td>{{modul.kreditpunkte}}</td>
+    {% for fachsemester in alle_fachsemester %}
+    {% assign fs_clean = fachsemester | plus:0 %}
+    {% if modul.studiensemester == fs_clean %}
+    <td class="is-fs-{{fachsemester}}">{{modul.kreditpunkte}}</td>
+    {% else %}
+    <td class="is-fs-{{fachsemester}}"></td>
+    {% endif %}
+    {% endfor %}
+</tr>
+{% assign vertiefungsblockIsVisible = true %}
+{% endif %}
+{% else %}
+<tr>
+    <th><a href="{{site.baseurl}}{{modul.url}}">{{modul.title}}</a></th>
+    <td>{{pvl}}</td>
+    <td>{{modul.kreditpunkte}}</td>
+    {% for fachsemester in alle_fachsemester %}
+    {% assign fs_clean = fachsemester | plus:0 %}
+    {% if modul.studiensemester == fs_clean %}
+    <td class="is-fs-{{fachsemester}}">{{modul.kreditpunkte}}</td>
+    {% else %}
+    <td class="is-fs-{{fachsemester}}"></td>
+    {% endif %}
+    {% endfor %}
+</tr>
+{% endif %}
+{% endfor %}
+{% endfor %}

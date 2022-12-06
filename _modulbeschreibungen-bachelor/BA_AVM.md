@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: AVM1
 untertitel: null
 studiensemester: 3
-kategorie: null
+kategorie: vertiefung
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5

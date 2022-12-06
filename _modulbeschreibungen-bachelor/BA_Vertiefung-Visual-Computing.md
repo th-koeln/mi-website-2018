@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: VC
 untertitel:
 studiensemester: 4
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 20
