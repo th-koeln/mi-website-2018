@@ -65,8 +65,9 @@ App components & architecture
 - Background operations
 - Storage and databases
 - Concurrency and coroutines
+- Foreground and background processes
 
-Development
+App Development
 - Integrated development environment
 - Software development kit
 - Logging and debugging
