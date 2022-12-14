@@ -522,7 +522,7 @@ class Document
                         'empfohlene-voraussetzungen' => 'Empfohlene Voraussetzungen',
                         'typ' => 'Typ',
                         'schwerpunkt' => 'Schwerpunkt',
-                        //'studienleistungen' => 'Prüfungsleistung',
+                        'studienleistungen' => 'Prüfungsleistung',
                     );
 
                     // Schwerpunktzuweisung && Teilmodule
@@ -607,7 +607,16 @@ class Document
                     $tableData['modulverantwortlich']['value'] = implode(', ', $modulverantwortlich);
 
                     /* Studienleistung */
-                    // $tableData['studienleistungen']['value'] = "test";
+                    $studienleistungenTypes = isset($tableData['studienleistungen']) 
+                        ? array_keys($tableData['studienleistungen']['value'])
+                        : array();
+                    $studienleistungenSum = array_map(function ($type) use ($tableData) {
+                        return $tableData['studienleistungen']['value'][$type]['art'];
+                    }, $studienleistungenTypes);
+
+                    //var_dump($studienleistungenSum);
+                    $tableData['studienleistungen']['title'] = "Prüfungsleistung";
+                    $tableData['studienleistungen']['value'] = implode(" und ", $studienleistungenSum);
 
                     /* Module type shorthand symbol mapping */
                     if (isset($typeMap[$tableData['typ']['value']])) {
@@ -617,11 +626,9 @@ class Document
                     $tableMarkdown = "\n";
 
                     foreach ($tableData as $key => $field) {
-
                         if (preg_match("=[a-zA-Z0-9]=", $field['value'])) {
                             $tableMarkdown .= "%begin-modulMeta%**" . $field['title'] . "**: " . $field['value'] . "%end-modulMeta%";
                         }
-
                     }
 
                     $tableMarkdown .= "\n";

@@ -31,7 +31,7 @@ Weitere Informationen zum Bachelor Studiengang Medieninformatik finden Sie unter
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektarbeit%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_AVM§
@@ -130,7 +130,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Frank Victor%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 8%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Frank Victor%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 8%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_AlgorithmenundProgrammierung1§
@@ -206,7 +206,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 7%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 7%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_AlgorithmenundProgrammierung2§
@@ -266,7 +266,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Monika Engelen%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Monika Engelen%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung via ILIAS eAssessment%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_BWL1§
@@ -317,7 +317,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 12%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 12%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Bachelorarbeit§
@@ -345,7 +345,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 3%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 3%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung, Vortrag, Fachgespräch%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Bachelorkolloquium§
@@ -373,7 +373,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Johann Schaible%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Johann Schaible%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Datenbanken1§
@@ -475,7 +475,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Stefan Karsch%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Stefan Karsch%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_EinfhrunginBetriebssystemeundRechnerarchitektur§
@@ -520,7 +520,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss, Prof. Dr. Mirjam Blümm, Prof. Dr. Irma Lindt, Prof. Hans Kornacher, Prof. Dr. Gerhard Hartmann%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss, Prof. Dr. Mirjam Blümm, Prof. Dr. Irma Lindt, Prof. Hans Kornacher, Prof. Dr. Gerhard Hartmann%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_EinfhrungindieMedieninformatik§
@@ -586,7 +586,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Gerhard Hartmann, Prof. Hans Kornacher, Prof. Dr. Mirjam Blümm, Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 10%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Gerhard Hartmann, Prof. Hans Kornacher, Prof. Dr. Mirjam Blümm, Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 10%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projekt, Projektdokumentation und Meilensteinpräsentationen%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Entwicklungsprojekt§
@@ -624,7 +624,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung und Projektarbeit%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Grundlagen-des-web§
@@ -719,7 +719,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Hans L. Stahl%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Hans L. Stahl%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_KommunikationstechnikundNetze§
@@ -762,7 +762,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Präsentation im OpenSpace, Klausur und Klausur%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_MUG§
@@ -893,7 +893,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Wolfgang Konen%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 7%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Wolfgang Konen%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 7%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 Weitere Infos unter [http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm](http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm).
 
@@ -954,7 +954,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Wolfgang Konen%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 8%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Wolfgang Konen%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 8%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mathematik2§
@@ -1005,7 +1005,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Robert Gabriel%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 10%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Robert Gabriel%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 10%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: individuelles Lernportfolio%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mensch-Computer_Interaktion§
@@ -1117,7 +1117,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung (30%) und Projektarbeit (70%)%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mobile-Computing§
@@ -1278,7 +1278,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Paradigmen-der-Programmierung§
@@ -1352,7 +1352,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 15%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 15%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Ausarbeitung, Projektdokumentation%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojekt§
@@ -1389,7 +1389,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 10.5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 10.5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Ausarbeitung, Projektdokumentation%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojektarbeit§
@@ -1425,7 +1425,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 4.5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 6%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 4.5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Seminarvortrag und Abstract zur Praxisprojektarbeit%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojektseminar§
@@ -1480,7 +1480,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Holger Günther, Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Holger Günther, Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projekt-Ausarbeitung (30%), Vortrag (30%), Schriftliche Prüfung (40%)%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Projektmanagement§
@@ -1579,7 +1579,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls, Prof. Dr. Mirjam Blümm, Uwe Müsse%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls, Prof. Dr. Mirjam Blümm, Uwe Müsse%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektarbeit mit Projektpräsentationsprüfung und Fachgespräch, sowie schriftliche Ausarbeitung.%end-modulMeta%
 
 
 ## Arbeitsaufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_Projekt§
@@ -1603,7 +1603,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mirjam Blümm%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mirjam Blümm%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Lernportfolio und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_empirische-forschungsmethoden§
@@ -1680,7 +1680,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Uwe Müsse%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Uwe Müsse%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektarbeit (mit Präsentation) und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_gamification§
@@ -1761,7 +1761,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Lernportfolio und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_soziotechnische-systeme§
@@ -1844,7 +1844,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Gestaltungsportfolio und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Screendesign§
@@ -1963,7 +1963,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Softwaretechnik§
@@ -2050,7 +2050,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Irma Lindt%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Irma Lindt%end-modulMeta%%begin-modulMeta%**Studiensemester**: 1%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_TheoretischeInformatik1§
@@ -2125,7 +2125,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Irma Lindt%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Irma Lindt%end-modulMeta%%begin-modulMeta%**Studiensemester**: 2%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_TheoretischeInformatik2§
@@ -2180,7 +2180,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung, in Ausnahmefällen mündliche Online-Prüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-audiovisuelle-medientechnik§
@@ -2255,7 +2255,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektarbeit mit schriftlicher Ausarbeitung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-audiovisuelles-medienprojekt-2§
@@ -2328,7 +2328,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Daniel Gaida%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Daniel Gaida%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: mündlicher Beitrag (Präsentation)%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-bildverarbeitung-und-computer-vision§
@@ -2422,7 +2422,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Horst Stenzel%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Horst Stenzel%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Durchführung eines Projektes, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-computergrafik-und-animation§
@@ -2523,7 +2523,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Hans Kornacher%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projekt und schriftliche Ausarbeitung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-visuelle-effekte-und-animation§
@@ -2595,23 +2595,13 @@ Das Modul „Visual Computing” im Medieninformatik Bachelor beschäftigt sich 
 
 Ziel dieses Moduls ist es den Studierenden eine fachlich fundierte, praktische, sowie theoretische Grundlage im Umgang mit audiovisuellen Medien zu geben. Dabei wird sowohl auf die technische Seite (technischen Grundlagen der Video- und Fernsehtechnik) eingegangen als auch auf die algorithmische (computergenerierte Bildsynthese, Gameentwicklung).
 
-Das Modul ist aus vier Teilbereichen aufgebaut, von denen zwei verpflichtend sind und zwei weitere aus einem Wahlkatalog gewählt werden können.
+Das Modul ist aus vier Teilmodulen aufgebaut, von denen zwei verpflichtend sind und zwei weitere aus einem Wahlkatalog gewählt werden können.
 
-Die beiden Pflichtkurse, "Audiovisuelle Medientechnik" und "Computergrafik und Animation", schaffen ein Fundament, was es erlaubt innerhalb der beiden verbliebenen Kurse, im Gesamtumfang von 10 CP, tiefer in die jeweilige Spezialisierung einzutauchen. Dabei gibt es grundsätzlich die Möglichkeit sich in Richtung Fernseh- und Videoproduktion oder Gameentwicklung zu vertiefen.
+Die beiden verpflichtenden Teilmodule, "Audiovisuelle Medientechnik" und "Computergrafik und Animation", schaffen ein Fundament, was es erlaubt innerhalb der beiden verbliebenen Teilmodule, im Gesamtumfang von 10 CP, tiefer in die jeweilige Spezialisierung einzutauchen. Dabei gibt es grundsätzlich die Möglichkeit sich in Richtung Fernseh- und Videoproduktion oder Gameentwicklung zu vertiefen.
 
-Die Kurse werden nach Verfügbarkeit angeboten.
+Die Teilmodule werden nach Verfügbarkeit angeboten.
 
-Die Kurse sind in der Regel projektbasiert aufgebaut, so dass sowohl theoretischer Hintergrund als auch praxisnahes Wissen vermittelt wird und zur Anwendung kommt.
-
-Der Wahlkatalog umfasst momentan die Fächer:
-
-* 3D-Modellieren, -Scannen und -Drucken
-
-* Audiovisuelles Medienprojekt 2
-
-* WPF VEA - Visuelle Effekte und Animation
-
-* WPF BV - Bildverarbeitung und Computer Vision
+Die Teilmodule sind in der Regel projektbasiert aufgebaut, so dass sowohl theoretischer Hintergrund als auch praxisnahes Wissen vermittelt wird und zur Anwendung kommt.
 
 
 ## Arbeitsaufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung-Visual-Computing§
@@ -2621,7 +2611,7 @@ Der Wahlkatalog umfasst momentan die Fächer:
 
 ## Angestrebte Lernergebnisse§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung-Visual-Computing§
 
-Je nach gewählten Vertiefungskursen entwickeln die Studierenden Fähigkeiten zur selbstverantwortlichen Durchführung von Projekten im Bereich Gamedevelopment, dreidimensionaler Darstellung virtueller Szenen, Film- und Fernsehtechnik, sowie Visueller Effekte.
+Je nach gewählten Teilmodulen entwickeln die Studierenden Fähigkeiten zur selbstverantwortlichen Durchführung von Projekten im Bereich Gamedevelopment, dreidimensionaler Darstellung virtueller Szenen, Film- und Fernsehtechnik, sowie Visueller Effekte.
 ADD 
 
 ## Enthält folgende Teilmodule:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung-Visual-Computing§
@@ -2712,7 +2702,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung und Projektarbeit%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Frameworks-daten-und-dienste§
@@ -2777,7 +2767,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Prüfung%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Frontend-Development§
@@ -2841,7 +2831,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Seminarvortrag (30%) und Projektarbeit (70%)%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Internet-of-things§
@@ -2901,7 +2891,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Stefan Karsch%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Stefan Karsch%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Seminarvortrag%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Praktische-IT-Sicherheit§
@@ -2918,7 +2908,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Horst Stenzel%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4+%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Horst Stenzel%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4+%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projekt u. Lernportfolio%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WPF-3D-MSD§
@@ -2974,7 +2964,7 @@ ADD
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der Lehreinheit Informatik der F10%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: abhängig vom jeweiligen WPF%end-modulMeta%
 
 
 ## Arbeitsaufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WPF§
