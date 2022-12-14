@@ -1,0 +1,30 @@
+{{ define "main" }}
+    {{ $params := . }}
+    
+    <h1 class="mi-chapter-title is-colorful">{{ .Title }}</h1>
+    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
+    {{ $scratch := newScratch }}
+    </div>
+    <div class="content has-gap is-fluid">
+      <div class="blog-items">
+          {{ range .Pages }}
+              <article class="blog-item">
+                  {{ $date := .Date }}
+                  {{ $teaser := .Resources.Match "teaser*" }}
+
+                  {{ if $teaser }}
+                      {{ $image := index ($teaser) 0 }}            
+                      {{ $thumb := $image.Fill "500x500 Center q90 Linear" }}
+                      {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+                  {{ end }}
+
+                  <a href="{{ .RelPermalink }}">
+                      {{ partial "molecules/mi-blog-teaser/mi-blog-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
+                  </a>
+              </article>
+          {{ end }}
+      </div>
+
+{{ end }}
+
+

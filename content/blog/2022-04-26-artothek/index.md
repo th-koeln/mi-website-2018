@@ -3,15 +3,18 @@ date: "2022-04-26T11:30:00"
 title: "Artothek"
 autor: Matthias Groß
 linkTitle: "Artothek"
+type: project
+introtext: | 
+ Das Modul *Entwicklungsprojekt* vom Wintersemester 2021/2022 hat einige besondere Projekte hervorgebracht, darunter auch das Projekt *Artothek*, von Liana Kwint und Julian Schiller.
+
 ---
 
-Das Modul *Entwicklungsprojekt* vom Wintersemester 2021/2022 hat einige besondere Projekte hervorgebracht, darunter auch das Projekt
-*Artothek*, von Liana Kwint und Julian Schiller.
 
 
-## Artothek --- Einleitung
 
-*Die artothek –-- Raum für junge Kunst bietet neben der Ausleihe zeitgenössischer Kunst einen Ort für Ausstellungen Kölner Künstler sowie internationaler Gäste. Ziel ist die Förderung und Vermittlung junger Kunst* - Webseite Artothek
+## Einleitung
+
+> Die artothek – Raum für junge Kunst bietet neben der Ausleihe zeitgenössischer Kunst einen Ort für Ausstellungen Kölner Künstler sowie internationaler Gäste. Ziel ist die Förderung und Vermittlung junger Kunst <cite>Webseite Artothek</cite>
 
 Der institutionelle Service der Artothek versteht sich als Angebot kultureller Bildung an alle Bürger\*innen. Ein erklärtes Ziel der Artothek ist es, die Barrieren im Zugang zu Kunst zu senken. Das Projekt soll dabei eine unterstützende Rolle einnehmen, in dem es dieses Ziel auf den digitalen Raum überträgt.
 
@@ -20,27 +23,27 @@ Daher widmet sich das Projekt der Frage, **wie sich die Zugänglichkeit** (im Si
 
 ## Problemraum
 
-### Anfangszustand
+### Ausgangszustand
 
-Der Service der Artothek teilt sich auf zwei Seiten:
-1. Homepage (Landing Page)
-2. Online-Katalog,  mit Abbildungen der ausleihbaren Werke
+Der Service der Artothek teilt sich auf zwei Seiten, die [Homepage (Landing Page)](https://www.museenkoeln.de/artothek/seite.aspx?s=542) und [Online-Katalog](https://artothek.kulturelles-erbe-koeln.de) mit Abbildungen der ausleihbaren Werke.
 
-Zugänglichkeit dabei reduziert durch:
-1. kein einheitliches Design zwischen den beiden Seiten (Gebrauchstauglichkeit gesenkt, Stichwort Mentale Modelle)
-2. kein ausreichendes Feedback bei der Nutzung des Services
-3. keine Unterstützung
-4. schlechte Strukturierung
-5. Nutzung von mobilen Endgeräten eingeschränkt
+Dabei wird die Zugänglichkeit durch folgende Merkmale reduziert :
+- kein einheitliches Design zwischen den beiden Seiten (Gebrauchstauglichkeit gesenkt, Stichwort Mentale Modelle)
+- kein ausreichendes Feedback bei der Nutzung des Services
+- keine Unterstützung
+- schlechte Strukturierung
+- Nutzung von mobilen Endgeräten eingeschränkt
 
 
-Aktuelle Website der Artothek:  
-<https://www.museenkoeln.de/artothek/seite.aspx?s=542>  
-Aktuelle Website des Online-Katalogs:  
-<https://artothek.kulturelles-erbe-koeln.de/>
+<figure class="image is-portrait is-small">
+	<div class="image-wrap">
+		<img src="mobile_artothek_current.png" alt="Aktueller Zustand des Online-Katalogs">
+	</div>
+	<figcaption>
+		<p>Aktueller Zustand des Online-Katalogs</p>
+	</figcaption>
+</figure>
 
-
-[![Aktueller Zustand des Online-Katalogs](mobile_artothek_current.png)](mobile_artothek_current.png)
 
 ### Zielzustand
 - Verbesserung der Nutzbarkeit und Bedienbarkeit der Homepage und des Online Katalogs
@@ -60,6 +63,16 @@ Folgende Lösungsansätze wurden erarbeitet und implementiert:
 - Einführung von Methaphern bei der Bedienung (z.B. Liken = ♥)
 - eine Recommendation Engine (Empfehlungen für Nutzer\*innen auf Basis von Favoriten)
 - die Möglichkeit, den Service von verschiedenen Endgeräten zu nutzen
+
+
+<figure class="image is-portrait is-small">
+	<div class="image-wrap">
+		<img src="mobile_artothek_current.png" alt="Aktueller Zustand des Online-Katalogs">
+	</div>
+	<figcaption>
+		<p>Aktueller Zustand des Online-Katalogs</p>
+	</figcaption>
+</figure>
 
 [![Prototyp Homescreen](teaser-mobile_Prototyp_homescreen.png)](teaser-mobile_Prototyp_homescreen.png)
 [![Prototyp Favoritenliste](mobile_Prototyp_favorites_screen.png)](mobile_Prototyp_favorites_screen.pn)

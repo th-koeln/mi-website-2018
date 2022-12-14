@@ -7,3 +7,79 @@
       padding-top: $bfs-xl;
     }
 }
+
+
+.m-mi-textblock.project {
+
+  h2{
+    margin-bottom: $fluid-m;
+    padding-top: $fluid-s;
+    margin-top: $fluid-s;
+    border-top: solid $mi-border-small $mi-lila;
+  }
+
+  blockquote{
+    background-color: $mi-hellgrau;
+    padding: $fluid-l;
+  }
+
+  *:not(h2) + h3{
+    margin-top: $fluid-s;
+  }
+
+  figure.image{
+
+    margin-top: $fluid-s;
+    margin-left: -$from-left;
+    background-color: $mi-hellgrau;
+    width:100vw;
+    padding-left: $from-left;
+    padding-top: $fluid-s;
+    padding-bottom: $fluid-m;
+
+    &.is-portrait{
+
+      display: grid;
+      gap: $m;
+
+      &.is-small{
+        grid-template-columns: $image-small 1fr;
+
+        figcaption{
+          display: flex;
+          width: $text-small;
+          align-items: center;
+        }
+      }
+    }
+
+    .image-wrap{
+      &:hover{
+        position: absolute;
+        left: 0;
+        top: 10vw;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $mi-hellgrau;
+
+        /*&::after{
+          content: "close";
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: -2rem;
+          right: 0;
+          background-color: $mi-pink;
+          color: #ffffff;
+          width: 2rem;
+          height: 2rem;
+          @extend .material-icons;
+        }*/
+      }
+    }
+  }
+}

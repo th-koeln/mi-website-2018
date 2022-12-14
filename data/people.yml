@@ -359,7 +359,7 @@ jschaible:
     name: 'Prof. Dr. Johann Schaible'
     avatar: '/img/professoren/johann-schaible.jpg'
     personenseite: 'https://www.th-koeln.de/personen/johann.schaible/'
-    mi: false
+    mi: true
 
 mi:
     id: mi

@@ -11,6 +11,8 @@ $bfs-l: 25px * $scale;
 $bfs-xl: 31.5px * $scale;
 $bfs-xxl: 40px * $scale;
 $bfs-max: 100px * $scale;
+$half: $bfs / 2;
+$quad: $bfs / 4;
 
 
 // MI Colors
@@ -65,3 +67,22 @@ $mi-border-small: 3px;
 $lh-tight: 110%;
 $lh-medium: 130%;
 $lh-loose: 150%;
+
+// Abstände
+// ---------
+$m: $bfs;
+$l: $bfs-l;
+$fluid-xs: calc(1rem + 2vw);
+$fluid-s: calc(1rem + 2.5vw);
+$fluid-m: calc(1rem + 3.15vw);
+$fluid-l: calc(1rem + 4vw);
+
+// Content Größen
+// ---------
+$image-small: 12rem;
+$text-small: 24rem;
+
+// Transistions
+// ---------
+$tr-fast: 0.3s;
+$tr-medium: 0.6s;
