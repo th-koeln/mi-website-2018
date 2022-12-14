@@ -123,7 +123,7 @@ Begleitend zu der Produktion werden folgende fachspezifischen Inhalte thematisie
 - Karel Reisz, Gavin Millar, Geschichte und Technik der Filmmontage, München: Filmlandpresse, 1988, ISBN 3-88690-071-1
 
 - Chris Vogler, Die Reise des Drehbuchschreibens, Verlag Zweitausendeins
-ADD 
+
 
 
 # Algorithmen und Programmierung 1§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_AlgorithmenundProgrammierung1§
@@ -199,7 +199,7 @@ Die Studierenden sollen
 * Diverse Java-Bücher, u.a.: Bishop, J.: „Java Lernen“
 
 * Sedgewick, R.: „Algorithmen in Java“
-ADD 
+
 
 
 # Algorithmen und Programmierung 2§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_AlgorithmenundProgrammierung2§
@@ -259,7 +259,7 @@ Die Studierende sollen Objektorientierung, die Prinzipien der Algorithmenentwick
 - Sedgewick, R.: „Algorithmen in Java“
 
 - Barnes, J., Kölling, M.: „Java Lernen mit BlueJ“, Verweise auf Onlinedokumente
-ADD 
+
 
 
 # BWL I - Grundlagen§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_BWL1§
@@ -310,7 +310,7 @@ Die Studierenden verstehen die wichtigsten Entscheidungsbereiche wirtschaftliche
 ## Literatur§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_BWL1§
 
 * Wöhe (2016): Einführung in die Allgemeine Betriebswirtschaftslehre, 26. Aufl.
-ADD 
+
 
 
 # Bachelorarbeit§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Bachelorarbeit§
@@ -338,7 +338,7 @@ Die Bachelorarbeit soll zeigen, dass der Prüfling befähigt ist, innerhalb eine
 ## Inhalt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Bachelorarbeit§
 
 Selbstständiges wissenschaftliches, fachpraktisches und gestalterisches Bearbeiten einer Aufgabenstellung.
-ADD 
+
 
 
 # Bachelor Kolloquium§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Bachelorkolloquium§
@@ -366,7 +366,7 @@ Das Kolloquium dient der Feststellung, ob der Prüfling befähigt ist, die Ergeb
 ## Inhalt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Bachelorkolloquium§
 
 Vortrag über das Thema der Bachelorarbeit, Fachdiskussion und mündliche Verteidigung der Arbeit im Kontext der Medieninformatik.
-ADD 
+
 
 
 # Datenbanken§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Datenbanken1§
@@ -468,7 +468,7 @@ Die Studierenden können
 - Kemper, A., Eickler, A.: “Datenbanksysteme – Eine Einführung“. De Gruyter, 2015 mit Übungsbuch
 
 - Saake, G.; Sattler, K.-U.; Heuer, A.: „Datenbanken – Konzepte und Sprachen“, mitp/bhv, 2018
-ADD 
+
 
 
 # Einführung in Betriebssysteme und Rechnerarchitektur§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_EinfhrunginBetriebssystemeundRechnerarchitektur§
@@ -513,7 +513,7 @@ Die Studierenden sollen die Basiskonzepte und Grundlagen der Betriebssysteme und
 - Tanenbaum: „Rechnerarchitektur“
 
 - Tanenbaum: „Modern Operating Systems“
-ADD 
+
 
 
 # Einführung in die Medieninformatik§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_EinfhrungindieMedieninformatik§
@@ -579,7 +579,7 @@ Teambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere
 * Michael Herczeg: Einführung in die Medieninformatik, Oldenbourg Verlag, 2006, ISBN: 3-486-581-031
 
 * Chris Rupp et al: Requirements-Engineering und -Management: Aus der Praxis von klassisch bis agil, Carl Hanser Verlag; 6-te Auflage, 2014, ISBN-10: 3446438939 
-ADD 
+
 
 
 # Entwicklungsprojekt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Entwicklungsprojekt§
@@ -617,7 +617,7 @@ Die Projekte werden in Teams durchgeführt. Zunächst wird von den Teams ein Mod
 Aus dem Methoden- und Technikkatalog wird in Absprache mit den Lehrenden eine Auswahl der einzusetzenden Entwicklungstechniken und -methoden sowie der einzuhaltenden Entwicklungsmodelle getroffen und Qualitätssicherungsmaßnahmen und das Prozessmanagement definiert. 
 
 Die Lehrenden bieten dann während der Projektdurchführung Beratung bzgl. des adäquaten Einsatzes der gewählten Methoden und Techniken. Zwischenstände des Projektes werden zu definierten Meilensteinen von den Projektteams präsentiert. Die Präsentation der Projektergebnisse findet in einem Plenum mit kritischer Diskussion der Methoden und Ergebnisse statt.
-ADD 
+
 
 
 # Grundlagen des Web§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Grundlagen-des-web§
@@ -712,7 +712,7 @@ Im Kontext des Projektes sollen die zentralen Konzepte ''Datenmodellierung'', ''
 - James Governor et al.: Web 2.0 Architectures, OReilly 2009
 
 - Rajkumar Buyya (ed.): Internet of Things: Principles and Paradigms, Morgan Kaufmann 2016
-ADD 
+
 
 
 # Kommunikationstechnik und Netze§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_KommunikationstechnikundNetze§
@@ -755,7 +755,7 @@ Grundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Pr
 ## Literatur§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_KommunikationstechnikundNetze§
 
 * Wird in der Veranstaltung bekannt gegeben
-ADD 
+
 
 
 # Medienrecht, Medien & Gesellschaft§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_MUG§
@@ -886,7 +886,7 @@ Beamergestützte Vorträge
 - Eugen Klunziger, Einführung in das Bürgerliche Recht, Verlag Vahlen
 
 - Norbert Ullrich, Wirtschaftsrecht für Betriebswirte, Verlag Neue Wirtschaftsbriefe
-ADD 
+
 
 
 # Mathematik 1§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mathematik1§
@@ -947,7 +947,7 @@ Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Syste
 * Papula, Lothar: "Mathematik für Ingenieure und Naturwissenschaftler" Vieweg Verlag, 14. Auflage, 2014
 
 * Stingl, Mathematik für Fachhochschulen, Hanser 2003
-ADD 
+
 
 
 # Mathematik 2§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mathematik2§
@@ -998,7 +998,7 @@ Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Syste
 * s. Literaturliste auf der Homepage [www.gm.fh-koeln.de/~konen](http://www.gm.fh-koeln.de/~konen)
 
 * Skript unter [www.gm.fh-koeln.de/~konen/Mathe2-SS](http://www.gm.fh-koeln.de/~konen/Mathe2-SS ) 
-ADD 
+
 
 
 # Mensch-Computer Interaktion§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mensch-Computer_Interaktion§
@@ -1110,7 +1110,7 @@ Gesamtaufwand 300h, davon
 - Snyder, C: Paper Prototyping. San Francisco, Morgan Kaufmann, 2003.
 
 - Ulich, E.: Arbeitspsychologie. Stuttgart, Schäffer-Poeschel, 2001 (5.Auflage).
-ADD 
+
 
 
 # Mobile Computing§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mobile-Computing§
@@ -1271,7 +1271,7 @@ Beamergestützte Vorträge, Rechnergestützte Workshops
 - Android Website: https://developer.android.com
 
 - Weitere Referenzen werden in Veranstaltung genannt
-ADD 
+
 
 
 # Paradigmen der Programmierung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Paradigmen-der-Programmierung§
@@ -1345,7 +1345,7 @@ Die Studierenden sollen unterschiedliche Programmierparadigmen verstehen und anw
 * Goetz, B., Peierls, T., Bloch, J., Bowbeer, J., Holmes, D., Lea, D. (2006). Java-Concurrency in Practise. Addison Wesley.
 
 * Tate, B. A., & Klicman, P. (2011). Sieben Wochen, sieben Sprachen: Verstehen Sie die modernen Sprachkonzepte. Sebastopol: O'Reilly. 
-ADD 
+
 
 
 # Praxisprojekt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojekt§
@@ -1377,7 +1377,7 @@ Die Studierenden
 ## Inhalt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojekt§
 
 Modulinhalte des ersten bis fünften Semesters anhand von realen Anforderungen in einem praxisrelevanten Kontext anwenden und den Studierenden durch die Betreuung des Dozenten an eine selbstständige Projektdurchführung und Kommunikation heranführen. Das Praxisprojekt kann entweder in einem Unternehmen oder in der Hochschule - dann eingebettet in Forschungsprojekte - erfolgen.
-ADD 
+
 
 ## Enthält folgende Teilmodule:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojekt§
 
@@ -1414,7 +1414,7 @@ Die Studierenden
 ## Inhalt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojektarbeit§
 
 Modulinhalte des ersten bis fünften Semesters anhand von realen Anforderungen in einem praxisrelevanten Kontext anwenden und den Studierenden durch die Betreuung des Dozenten an eine selbstständige Projektdurchführung und Kommunikation heranführen. Das Praxisprojekt kann entweder in einem Unternehmen oder in der Hochschule - dann eingebettet in Forschungsprojekte - erfolgen.
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojektarbeit§
 
@@ -1469,7 +1469,7 @@ Das Praxisprojektseminar besteht aus
 ## Literatur§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojektseminar§
 
 - M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 10. überarbeitete und aktualisierte Auflage. - Wien: Facultas: 2019
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Praxisprojektseminar§
 
@@ -1572,7 +1572,7 @@ Damit die Studierenden die vorgestellten Methoden und Techniken zum Management v
 - H. Kerzner: Projektmanagement – Ein systemorientierter Ansatz. mitp-Verlag, Bonn, 2003
 
 - T. DeMarco: Der Termin. Hanser, München, 1998
-ADD 
+
 
 
 # Social Computing Projekt§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_Projekt§
@@ -1592,7 +1592,7 @@ ADD
 Studierende sollen in der Lage sein, computergestützte Systeme nach ethischen, politischen, sozialen und psychologischen Kriterien zu bewerten, zu planen und umsetzen zu können. 
 
 Ziel ist es, soziale Innovation durch digitale Anwendungen entstehen zu lassen. Neben den empirischen Methoden werden Designmethoden vermittelt, sowohl auf der konzeptionellen als auch auf der softwaretechnischen Implementierungsebene, um robuste, sichere und flexible Systeme zu gestalten. 
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_Projekt§
 
@@ -1669,7 +1669,7 @@ Die Studierenden sollen die unterschiedlichen Herangehensweisen quantitativer un
 * Westermann, R. (2000). Wissenschaftstheorie und Experimentalmethodik: Ein Lehrbuch zur psychologischen Methodenlehre. Göttingen [u.a.]: Hogrefe, Verl. für Psychologie.
 
 * Zweig, K. A., In Neuser, W., In Pipek, V., In Rohde, M., & In Scholtes, I. (2014). Socioinformatics: The social impact of interactions between humans and IT.
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_empirische-forschungsmethoden§
 
@@ -1750,7 +1750,7 @@ Die Studierenden sollen in der Lage sein, die Möglichkeiten und Grenzen des Gam
 * Westermann, R. (2000). Wissenschaftstheorie und Experimentalmethodik: Ein Lehrbuch zur psychologischen Methodenlehre. Göttingen [u.a.]: Hogrefe, Verl. für Psychologie.
 
 * Zweig, K. A., In Neuser, W., In Pipek, V., In Rohde, M., & In Scholtes, I. (2014). Socioinformatics: The social impact of interactions between humans and IT.
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_gamification§
 
@@ -1833,7 +1833,7 @@ Die Studierenden sollen das komplexe Wechselspiel zwischen informationstechnisch
 * Westermann, R. (2000). Wissenschaftstheorie und Experimentalmethodik: Ein Lehrbuch zur psychologischen Methodenlehre. Göttingen [u.a.]: Hogrefe, Verl. für Psychologie.
 
 * Zweig, K. A., In Neuser, W., In Pipek, V., In Rohde, M., & In Scholtes, I. (2014). Socioinformatics: The social impact of interactions between humans and IT.
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_soziotechnische-systeme§
 
@@ -1956,7 +1956,7 @@ Beamergestützte Vorträge, Rechnergestützte  Workshops
 - Lewandowsky, Pina; Zeischegg, Francis: Visuelles Gestalten mit dem Computer
 
 - Koschembar, Frank: Grafik für Nicht-Grafiker
-ADD 
+
 
 
 # Softwaretechnik§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Softwaretechnik§
@@ -2043,7 +2043,7 @@ Das Modul gliedert sich in folgende Inhalte:
 - Chris Rupp et al.: UML 2 Glasklar. 4. Aufl., Carl Hanser Verlag, München, 2012
 
 - Jochen Ludewig, Horst Lichter: Software Engineering – Grundlagen, Menschen, Prozesse, Techniken. 2. Aufl., dPunkt Verlag, Heidelberg, 2011
-ADD 
+
 
 
 # Theoretische Informatik 1§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_TheoretischeInformatik1§
@@ -2118,7 +2118,7 @@ Gesamtaufwand 150h, davon
 - Ehrig, H. et al. (1999): Mathematisch-strukturelle Grundlagen der Informatik. Springer,  Heidelberg.
 
 - Beuth, K. (1992): Digitaltechnik. 9.Aufl.Vogel, Würzburg.
-ADD 
+
 
 
 # Theoretische Informatik 2§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_TheoretischeInformatik2§
@@ -2173,7 +2173,7 @@ siehe Theoretische Informatik 1.
 - Hopcroft, J. E.  et al. (2002): Einführung in die Automatentheorie, Formale Sprachen und Komplexitätstheorie. Pearson Studium, München.
 
 - Schöning, U. (1997): Theoretische Informatik - kurzgefaßt. 3. Aufl. Spektrum Akademischer Verlag, Heidelberg.
-ADD 
+
 
 
 # Audiovisuelle Medientechnik§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-audiovisuelle-medientechnik§
@@ -2244,7 +2244,7 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern audiovisuell
 - Johannes Webers, Film- und Fernsehtechnik, Franzis Verlag, Poing 2000, ISBN 3-7723-7116-7
 
 - Möllering, Slansky, Handbuch der professionellen Videoaufnahme Edition Filmwerkstatt, Essen, 1993, ISBN 3 - 9 802 581 - 3 - 0
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-audiovisuelle-medientechnik§
 
@@ -2317,7 +2317,7 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern digitaler au
 - Chris Vogler, Die Reise des Drehbuchschreibens, Verlag Zweitausendeins
 
 - Wolfgang Lanzenberger, Michael Müller, Unternehmensfilme drehen: Business Movies im digitalen Zeitalter, ISBN 978-386764367
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-audiovisuelles-medienprojekt-2§
 
@@ -2411,7 +2411,7 @@ um später zuverlässige Anwendungen im Bereich der Bildverarbeitung realisieren
 -	W. Burger, M. J. Burge, Digitale Bildverarbeitung – Eine Einführung mit Java und ImageJ. eXamen.press, 3. Auflage, 2015.
 
 -	Richard Szeliski, Computer Vision: Algorithms and Applications, 2nd ed., 2022
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-bildverarbeitung-und-computer-vision§
 
@@ -2512,7 +2512,7 @@ Die Studierenden können ihr erworbenes Können und Wissen zur Implementierung e
 - Frank Nielsen, Visual Computing, Charles River Media, 2005
 
 - James Foley, Andries Van Dam, et al., Computer Graphics : Principles and Practice, 2. Ausgabe, Addison-Wesley
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-computergrafik-und-animation§
 
@@ -2575,7 +2575,7 @@ Berufsbilder, die von diesem Modul angesprochen werden, sind zum einen in der Vi
 - Flückiger Barbara, Visual Effects: Filmbilder aus dem Computer (Zürcher Filmstudien), Schüren Verlag GmbH, 2008, ISBN 978-3894725181
 
 - Bertram Sascha, VFX (Praxis Film), UVK, 2005, ISBN 978-3896695154
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_VC-visuelle-effekte-und-animation§
 
@@ -2612,7 +2612,7 @@ Die Teilmodule sind in der Regel projektbasiert aufgebaut, so dass sowohl theore
 ## Angestrebte Lernergebnisse§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung-Visual-Computing§
 
 Je nach gewählten Teilmodulen entwickeln die Studierenden Fähigkeiten zur selbstverantwortlichen Durchführung von Projekten im Bereich Gamedevelopment, dreidimensionaler Darstellung virtueller Szenen, Film- und Fernsehtechnik, sowie Visueller Effekte.
-ADD 
+
 
 ## Enthält folgende Teilmodule:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung-Visual-Computing§
 
@@ -2654,7 +2654,7 @@ Die Studierenden
 - können die erzielten Ergebnisse fachlich, kritisch einordnen und diskutieren,
 
 - um kompetent in Web Entwicklungs Teams mitwirken zu können.
-ADD 
+
 
 ## Enthält folgende Teilmodule:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung-Web_Development§
 
@@ -2688,7 +2688,7 @@ Das Modul verbindet daher Theorien, Modelle und Methodik der Human- und Sozialwi
 Studierende sollen in der Lage sein, computergestützte Systeme nach ethischen, politischen, sozialen und psychologischen Kriterien zu bewerten, zu planen und umsetzen zu können. 
 
 Ziel ist es, soziale Innovation durch digitale Anwendungen entstehen zu lassen. Neben den empirischen Methoden werden Designmethoden vermittelt, sowohl auf der konzeptionellen als auch auf der softwaretechnischen Implementierungsebene, um robuste, sichere und flexible Systeme zu gestalten. 
-ADD 
+
 
 ## Enthält folgende Teilmodule:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Vertiefung_SocialComputing§
 
@@ -2756,7 +2756,7 @@ Beamergestützte Vorträge, Rechnergestützte Workshops
 - Roy: RabbitMQ in Depth, Manning 2016
 
 - Newman: Building Microservices: Designing fine-grained systems, OReilly 2015
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Frameworks-daten-und-dienste§
 
@@ -2820,7 +2820,7 @@ Beamergestützte Vorträge, Rechnergestützte Workshops
 ## Literatur§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Frontend-Development§
 
 - Randy Connolly, Ricardo Hoar: Fundamentals of Web Development
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Frontend-Development§
 
@@ -2880,7 +2880,7 @@ um später Anwendungen und Produkte zur realisieren, bei denen digitale und ding
 ## Medienformen§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Internet-of-things§
 
 Beamergestützte Vorträge, Rechnergestützte Workshops
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Internet-of-things§
 
@@ -2897,7 +2897,7 @@ ADD
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Praktische-IT-Sicherheit§
 
 50h Vorlesung, Seminar; 100h Selbstlernphase
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Praktische-IT-Sicherheit§
 
@@ -2953,7 +2953,7 @@ Die Studierenden sollen
 *	Screencasts
 
 * Beispielmedien
-ADD 
+
 
 ## Teilmodul von:§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WPF-3D-MSD§
 
@@ -2975,4 +2975,3 @@ ADD
 ## Angestrebte Lernergebnisse§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WPF§
 
 Fachliche Vertiefung oder Verbreiterung, nach persönlichem Interesse. Es kann eines der Module aus dem Katalog aller Module der Informatik Bachelorstudiengänge gewählt werden. Auch Pflichtmodule anderer Informatik Studiengänge am Campus können als Wahlpflichtmodule in der Medieninformatik belegt werden.
-ADD 

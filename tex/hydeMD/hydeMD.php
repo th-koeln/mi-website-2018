@@ -634,7 +634,7 @@ class Document
                     $tableMarkdown .= "\n";
 
                     $page->content = preg_replace('/^\s*#(.*?)\n/', "$0\n\n" . $tableMarkdown, $page->content);
-                    $page->content .= "ADD " . $additionalContent;
+                    $page->content .= $additionalContent;
 
                     break;
             }
