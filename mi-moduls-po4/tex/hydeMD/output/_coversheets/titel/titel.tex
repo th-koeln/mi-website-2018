@@ -43,20 +43,6 @@
 %Paket das die Ausgabefonts definiert
 \usepackage[T1]{fontenc}
 
-\usepackage{mdframed}
-\newmdenv[
-  leftline=false,
-  bottomline=false,
-  rightline=false,
-  linewidth=1pt,
-  linecolor=m_lila!20,
-  innertopmargin=5pt,
-  innerbottommargin=0,
-  innerleftmargin=0,
-  skipabove=\topsep,
-  skipbelow=0pt
-]{modulHead}
-
 %Paket für das Einbinden von Grafiken über die figure-Umgebung
 \usepackage{graphicx}
 \usepackage{grffile}
@@ -100,7 +86,7 @@
 \setlength\footheight{40pt}
 %\lfoot{\includegraphics[height=40pt]{../assets/box.pdf}}
 \rfoot{\thepage}
-\lfoot{\changefont <| title |>\\TH Köln // Institut für Informatik\\ \today}
+\lfoot{\changefont Titel Medieninformatik\\TH Köln // Institut für Informatik\\ \today}
 
 
 %\UTF{0192}ndert die Seitennummerierung beim Inhaltsverzeichnis mit eigenem Stil
@@ -145,8 +131,8 @@
 \usepackage{setspace}
 
 %Paket zur Erzeugung von Anführungszeichen durch \enquote{Text}
-% \usepackage[ngerman]{babel}
-% \usepackage[babel, german=quotes]{csquotes}
+\usepackage[ngerman]{babel}
+\usepackage[babel, german=quotes]{csquotes}
 
 %Paket für farbigen Text
 %black,white,green,red,blue,yellow,cyan,magenta
@@ -165,13 +151,9 @@
 
 %Paket zur Erzeugung von Hyperrefs und PDF Informationen
 \usepackage[pdftex,plainpages=false,pdfpagelabels,
-            pdftitle={ <| title |> Medieninformatik // TH Köln // Institut für Informatik},
+            pdftitle={ Titel Medieninformatik // TH Köln // Institut für Informatik},
             pdfauthor={}
             ]{hyperref}
-\hypersetup{
-    colorlinks = true,
-    allcolors = {m_blau}
-}
 
 \usepackage{pdfpages}
 
@@ -201,16 +183,15 @@
 \titleformat{\chapter}
   {\normalfont\sffamily\mdseries}
   {}{1px}{\huge\raggedright}
-  \titlespacing*{\chapter}{0cm}{0pt}{14pt}[0pt]
+  \titlespacing*{\chapter}{0cm}{0pt}{0pt}[0pt]
 % {\chaptertitlename\ \thechapter}{14pt}{\huge\raggedright}
 \titleformat{\section}
-  {\singlespacing\normalfont\sffamily\mdseries\Large\color{m_pink}\raggedright}
-  {\thesection}{1em}{\Large}
+  {\singlespacing\normalfont\sffamily\mdseries\large\color{m_pink}\raggedright}
+  {\thesection}{1em}{\large}
   \titlespacing*{\section}{0pt}{0pt}{-\topskip/2}[0pt]
 \titleformat{\subsection}
-  {\singlespacing\normalfont\sffamily\bfseries\normalsize\raggedright}
-  {\thesection}{1em}{\normalsize}
-  \titlespacing*{\subsection}{0pt}{0pt}{-\topskip/2}[0pt]
+  {\singlespacing\normalfont\sffamily\mdseries\large\raggedright}
+  {\thesubsection}{1em}{\large}
 % Zeilenumbruch und Spacing fÃŒr AbsÃ€tze
 \titleformat{\paragraph}[hang]
   {\singlespacing\normalfont\normalsize\bfseries}
@@ -238,22 +219,24 @@
 
 \begin{document}
 
-%=== Deckblatt =======================================================
-\include{coversheet}
 
-%=== Inhaltsverzeichnis ==============================================
-\tableofcontents
+% Coversheet
 
-%=== Hauptteil =======================================================
-%Seitennummerierung des Hauptteils
-\mainmatter
+\begin{titlepage}
 
+	\includegraphics[width=0.25\textwidth]{../../../../assets/logo_th_koeln.pdf}
 
-\include{content}
+	\vspace{2cm}
+	{\Huge\singlespacing\raggedright Titel\par}
+	\vspace{1cm}
+	{\Large TH Köln – Campus Gummersbach \ Fakultät für Informatik und Ingenieurwissenschaften \ Institut für Informatik\par}
 
-%=== Schlussteil =====================================================
-%%Seitennummerierung für den Anhang
-\backmatter
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
 
 
 \end{document}

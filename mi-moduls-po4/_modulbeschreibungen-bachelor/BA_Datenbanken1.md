@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: DB
 untertitel:
 studiensemester: 3
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS‐Praktikum
@@ -13,6 +13,7 @@ empfohleneVoraussetzungen:
 published: true
 layout: modulbeschreibung
 typ: pm
+pvl: true
 veranstaltungsform: 
 infourl: 
 studienleistungen:

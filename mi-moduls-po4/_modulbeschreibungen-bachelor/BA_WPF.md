@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: WPF
 untertitel: 
 studiensemester: 5
-kategorie: 
+kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

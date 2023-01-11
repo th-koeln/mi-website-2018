@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: EPM
 untertitel:
 studiensemester: 5
-kategorie:
+kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 10
 voraussetzungenNachPruefungsordnung: keine

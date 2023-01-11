@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: PM
 untertitel:
 studiensemester: 5
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
