@@ -502,6 +502,9 @@ christinawerner:
     personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
     email: 'christina.werner@th-koeln.de'
     mi: false
+eingesetzterPruefer:
+    id: eingesetzterPruefer
+    name: vom Prüfungsausschuss eingesetzte\:r Prüfer\:in
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
