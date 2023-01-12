@@ -9,5 +9,12 @@ Was könnte ich denn als Praxisprojekt machen? Und als Bachelorarbeit oder Maste
 
 Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die ihre Themen- und Problemfelder vorstellen und Untersützung aus der Medieninformatik gebrauchen könnten.
 
-Lineup:
-kommt noch 😉
+Heiko Riffler, gjuce GmbH Köln
+E-Commerce
+
+Andreas Heisterkamp & Karsten Roth, Hans Peter Esser GmbH Kürten
+Medizintechnik
+
+Lena Wirtz adesso SE, Dortmund
+IT-Dienstleister
+

@@ -49,24 +49,21 @@
 		<dt>Voraussetzungen nach Prüfungsordnung</dt>
 		<dd>{{ .ele.Params.voraussetzungenNachPruefungsordnung }}</dd>
       {{ end }} 
-
+      
       {{if .ele.Params.studienleistungen }}
-		<dt>Prüfungsform</dt>
+		<dt>Prüfung</dt>
       <dd>
-        {{ if .ele.Params.studienleistungen.einzelleistung}}
-		    {{ .ele.Params.studienleistungen.einzelleistung.art }}
-        {{ else }}
-          {{ range $studienleistung := .ele.Params.studienleistungen }}
-          <br>{{$studienleistung.teilmodul}}: {{$studienleistung.art}}
+          {{ range $index, $value := .ele.Params.studienleistungen }}
+          <br>{{ $index | humanize }}: {{ $value.art }} bewertet durch
+          {{ if $index | eq "einzelleistung" }}
+          {{ $.prueferEinzelleistung }}
+          {{ else }}
+          {{ $.prueferTeamleistung }}
+          {{ end }}
           {{ end }}
         {{ end }}
         </dd>
-      {{ end }} 
 
-      {{if .ele.Params.infourl }}
-      <dt>Weitere Informationen zum Modul</dt>
-      <dd><a href="{{ .ele.Params.infourl }}">{{ .ele.Params.infourl }}</a></dd>
-    {{ end }} 
   
 	</dl>
 	

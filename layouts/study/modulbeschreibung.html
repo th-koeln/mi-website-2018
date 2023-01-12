@@ -28,9 +28,44 @@
 	{{ $verantwortliche := replaceRE "^, " " " $verantwortliche }}
 	
 	{{ $avatar := $scratch.Get "avatar" }}
-  {{ $avatarCount := $scratch.Get "avatarCount" }}
+  	{{ $avatarCount := $scratch.Get "avatarCount" }}
 
-	{{ partial "molecules/mi-modulhead/mi-modulhead.html" (dict "ele" . "verantwortliche" $verantwortliche "avatar" $avatar "avatarCount" $avatarCount "studiengaenge" .Site.Data.studiengaenge) }}
+	<!-- cn: mega hässlich, aber index fand Hugo nur im Preview Modus gut -->
+	{{ $people := .Site.Data.people }}
+	{{ $prueferEinzelleistung := split .Params.studienleistungen.einzelleistung.erstpruefer ", " }}
+	
+	{{ $scratch := newScratch }}
+	{{ $scratch.Set "prueferEinzelleistung" "" }}
+	{{ range $pruefer := $prueferEinzelleistung }}
+		{{ range $item := $people }}
+			{{ if eq $item.id $pruefer }}
+				{{ $scratch.Add "prueferEinzelleistung" ", " }}
+				{{ $scratch.Add "prueferEinzelleistung" $item.name }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+
+	{{ $prueferEinzelleistungAnzeige := $scratch.Get "prueferEinzelleistung" }}
+	{{ $prueferEinzelleistungAnzeige := replaceRE "^, " " " $prueferEinzelleistungAnzeige }}
+	
+	{{ $prueferTeamleistung := split .Params.studienleistungen.teamleistung.erstpruefer ", "}}
+	
+	{{ $scratch := newScratch }}
+	{{ $scratch.Set "prueferTeamleistung" "" }}
+	{{ range $pruefer := $prueferTeamleistung }}
+		{{ range $item := $people }}
+			{{ if eq $item.id $pruefer }}
+				{{ $scratch.Add "prueferTeamleistung" ", " }}
+				{{ $scratch.Add "prueferTeamleistung" $item.name }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+
+	{{ $prueferTeamleistungAnzeige := $scratch.Get "prueferTeamleistung" }}
+	{{ $prueferTeamleistungAnzeige := replaceRE "^, " " " $prueferTeamleistungAnzeige }}
+
+	
+	{{ partial "molecules/mi-modulhead/mi-modulhead.html" (dict "ele" . "verantwortliche" $verantwortliche "prueferEinzelleistung" $prueferEinzelleistungAnzeige "prueferTeamleistung" $prueferTeamleistungAnzeige "avatar" $avatar "avatarCount" $avatarCount "studiengaenge" .Site.Data.studiengaenge) }}
 	{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . "class" "mi-modulbeschreibung") }}
 
   {{ partial "molecules/mi-list-children/mi-list-children.html" (dict "parent" .Params.kuerzel "pages" .Site.Pages ) }}
