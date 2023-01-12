@@ -54,7 +54,7 @@
 		<dt>Prüfung</dt>
       <dd>
           {{ range $index, $value := .ele.Params.studienleistungen }}
-          <br>{{ $index | humanize }}: {{ $value.art }} bewertet durch
+          <br>{{ $index | humanize }}: {{ $value.art }} Bewertung durch
           {{ if $index | eq "einzelleistung" }}
           {{ $.prueferEinzelleistung }}
           {{ else }}

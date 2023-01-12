@@ -367,3 +367,6 @@ mi:
 all:
     id: all
     name: 'alle Professor:innen der TH Köln'
+eingesetzterPruefer:
+    id: eingesetzterPruefer
+    name: vom Prüfungsausschuss eingesetzte:r Prüfer:in
