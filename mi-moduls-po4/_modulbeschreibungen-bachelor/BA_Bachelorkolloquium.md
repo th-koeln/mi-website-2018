@@ -17,7 +17,7 @@ typ: pm
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung, Vortrag, Fachgespräch
-    erstpruefer: all
+    erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
 ---
 

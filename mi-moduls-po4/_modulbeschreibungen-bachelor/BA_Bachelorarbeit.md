@@ -17,7 +17,7 @@ typ: pm
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
-    erstpruefer: all
+    erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
 ---
 
