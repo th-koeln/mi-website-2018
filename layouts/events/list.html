@@ -1,26 +1,30 @@
 {{ define "main" }}
+{{ $scratch := newScratch }}
     {{ $params := . }}
-    
-    <h1 class="mi-chapter-title is-colorful">{{ .Title }}</h1>
-    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
-    {{ $scratch := newScratch }}
-    <div class="events">
-        {{ range .Paginator.Pages }}
-            <article class="event">
-                {{ $date := .Date }}
-                {{ $teaser := .Resources.Match "teaser*" }}
-
-                {{ if $teaser }}
-                    {{ $image := index ($teaser) 0 }}            
-                    {{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
-                    {{ $scratch.Set "teaser" $thumb.RelPermalink }}
-                {{ end }}
-
-                <a href="{{ .RelPermalink }}">
-                    {{ partial "molecules/mi-pulse-teaser/mi-pulse-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
-                </a>
-            </article>
-        {{ end }}
+    <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
+        {{ $params := . }}
+        {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
     </div>
-    {{ template "_internal/pagination.html" . }}
+    <div class="content has-gap is-fluid">
+        <div id="eventblock" class="events">
+        
+            {{ range $item := (.Pages.ByParam "datum").Reverse }}
+            
+                <div class="event">
+                    {{ $date := .Params.datum }}
+                    {{ $scratch.Set "teaser" "" }}
+                    {{ $teaser := .Resources.Match "teaser*" }}
+            
+                    {{ if $teaser }}
+                        {{ $image := index ($teaser) 0 }}            
+                        {{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
+                        {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+                    {{ end }}
+            
+                    <a href="{{ .RelPermalink }}">
+                        {{ partial "molecules/mi-pulse-teaser/mi-pulse-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
+                    </a>
+                </div>
+            {{ end }}
+        </div>
 {{ end }}

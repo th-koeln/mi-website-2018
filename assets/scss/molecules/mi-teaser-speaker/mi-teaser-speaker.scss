@@ -8,7 +8,7 @@
     gap: $fluid-s;
     justify-items: center;
     align-items: center;
-    padding-top: $fluid-s;
+    padding-top: $fluid-xs;
     border-top: solid $mi-border-small $mi-hellgrau;
     
 
@@ -61,6 +61,6 @@
     }
 
     & + &{
-        margin-top: $fluid-m;
+        margin-top: $fluid-xs;
     }
 }
