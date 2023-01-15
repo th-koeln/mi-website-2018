@@ -7,6 +7,7 @@
     display: grid;
     gap: $fluid-s;
     justify-items: center;
+    align-items: center;
     padding-top: $fluid-s;
     border-top: solid $mi-border-small $mi-hellgrau;
     
@@ -36,8 +37,8 @@
     }
 
     img{
-        width: $image-smaller;
-        height: $image-smaller;
+        width: $image-small;
+        height: $image-small;
         aspect-ratio: 1/1;
         object-fit: cover;
         border-radius: 50%;
@@ -49,8 +50,13 @@
     &-row{
         display: flex;
 
-        & > *{
+        & > * + *{
             margin-left: -30px;
+        }
+
+        img{
+            width: $image-smaller;
+            height: $image-smaller;;
         }
     }
 
