@@ -79,6 +79,7 @@ $fluid-l: calc(1rem + 4vw);
 
 // Content Größen
 // ---------
+$image-smaller: 8rem;
 $image-small: 12rem;
 $text-small: 24rem;
 
@@ -86,3 +87,7 @@ $text-small: 24rem;
 // ---------
 $tr-fast: 0.3s;
 $tr-medium: 0.6s;
+
+// Sonstiges
+// ---------
+$shadow-s: 0 0 10px rgba(0,0,0,0.2);
