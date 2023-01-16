@@ -15,7 +15,7 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <img src="./images/heiko.jpg" alt="Heiko Riffeler">
     <figcaption>
         <ul class="speaker-about-list">
-            <li class="speaker-name"><h3>Heiko Riffeler</h3></li>
+            <li class="speaker-name"><h3>moxd lab / TH Köln</h3></li>
             <li>gjuce GmbH, Köln, E-Commerce</li>
             <li>Sucht Frontend- und Backend-Entwickler:innen für Online-Shops und Custom-Projekte. Beispiele möglicher Abschlussprojekte:  
                 <ul>
@@ -23,6 +23,31 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
                     <li>Intelligentes Produkt-Empfehlungs-Modul für einen Freizeitsport-Händler mit Fokus auf klassische und KI-gestützte Daten-Analyse und Backend-Entwicklung</li>
                 </ul>
             </li>
+        </ul>
+    </figcaption>
+</figure>
+
+<figure class="mi-teaser-speaker speaker">
+    <img src="./images/matthias.jpeg" alt="Prof. Dr. Matthias Böhmer">
+    <figcaption>
+        <ul class="speaker-about-list">
+            <li class="speaker-name"><h3>Prof. Dr. Matthias Böhmer</h3></li>
+            <li>moxd lab / TH Köln</li>
+            <li>Sucht Support in den Bereichen Mobile, IoT, Interaction & HCI für verschiedene Forschungsprojekte.</li>
+        </ul>
+    </figcaption>
+</figure>
+
+<figure class="mi-teaser-speaker speaker">
+    <div class="speaker-row">
+        <img src="./images/lena.jpg" alt="Lena Wirtz">
+        <img src="./images/chiara.jpg" alt="Chiara Schmeis">
+    </div>
+    <figcaption>
+        <ul class="speaker-about-list">
+            <li class="speaker-name"><h3>Lena Wirtz & Chiara Schmeis</h3></li>
+            <li>adesso SE, Dortmund, IT-Consulting</li>
+            <li>Brauchen Unterstützung im Bereich Change Management, UX in agiler Produktentwicklung sowie Marketing Automation & Customer Experience</li>
         </ul>
     </figcaption>
 </figure>
@@ -57,25 +82,12 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     </figcaption>
 </figure>
 
-
-<figure class="mi-teaser-speaker speaker">
-    <div class="speaker-row">
-        <img src="./images/lena.jpg" alt="Lena Wirtz">
-        <img src="./images/chiara.jpg" alt="Chiara Schmeis">
-    </div>
-    <figcaption>
-        <ul class="speaker-about-list">
-            <li class="speaker-name"><h3>Lena Wirtz & Chiara Schmeis</h3></li>
-            <li>adesso SE, Dortmund, IT-Consulting</li>
-            <li>Brauchen Unterstützung im Bereich Change Management, UX in agiler Produktentwicklung sowie Marketing Automation & Customer Experience</li>
-        </ul>
-    </figcaption>
-</figure>
-
 </div>
-
-Mit einigen Unternehmen laufen noch die letzten Absprachen, falls sich hier noch was ergibt, sagen wir über diese Seite Bescheid 😉.
 
 ---
 
-Außerdem wird das [Lab for Mobile and Distributed Information Technology](https://moxd.io) einige Themenfelder im Rahmen ihrer aktuellen Forschungsfelder vorstellen. Gleiches gilt für das [Advanced Media Institute](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/advanced-media-institute_69153.php), denn hier gibt es neue Förderung für das [Cranach Digital Archive](https://lucascranach.org) und ein neues gefördertes AR-Projekt in Kooperation mit der Volkshochschule des Oberbergischen Kreises.
+Mit einigen Unternehmen laufen noch die letzten Absprachen, falls sich hier noch was ergibt, sagen wir über diese Seite Bescheid 😉.
+
+
+
+Außerdem wird das [Advanced Media Institute](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/advanced-media-institute_69153.php) einige Themenfelder im Rahmen der aktuellen Forschungsprojekte vorstellen, denn hier gibt es neue Förderung für das [Cranach Digital Archive](https://lucascranach.org) und ein neues gefördertes AR-Projekt in Kooperation mit der Volkshochschule des Oberbergischen Kreises.
