@@ -15,8 +15,8 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <img src="./images/heiko.jpg" alt="Heiko Riffeler">
     <figcaption>
         <ul class="speaker-about-list">
-            <li class="speaker-name"><h3>moxd lab / TH Köln</h3></li>
-            <li>gjuce GmbH, Köln, E-Commerce</li>
+            <li class="speaker-name"><h3>Heiko Riffeler</h3></li>
+            <li><a href="https://www.gjuce.com">gjuce GmbH, Köln, E-Commerce</a></li>
             <li>Sucht Frontend- und Backend-Entwickler:innen für Online-Shops und Custom-Projekte. Beispiele möglicher Abschlussprojekte:  
                 <ul>
                     <li>Innovativer Product-Guide für den Online-Weinhandel mit Fokus auf Konzeption / UX / Frontend-Entwicklung</li>
@@ -32,7 +32,7 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Prof. Dr. Matthias Böhmer</h3></li>
-            <li>moxd lab / TH Köln</li>
+            <li><a href="https://moxd.io">moxd lab / TH Köln</a></li>
             <li>Sucht Support in den Bereichen Mobile, IoT, Interaction & HCI für verschiedene Forschungsprojekte.</li>
         </ul>
     </figcaption>
@@ -46,7 +46,7 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Lena Wirtz & Chiara Schmeis</h3></li>
-            <li>adesso SE, Dortmund, IT-Consulting</li>
+            <li><a href="https://www.adesso.de/de/index.jsp">adesso SE, Dortmund, IT-Consulting</a></li>
             <li>Brauchen Unterstützung im Bereich Change Management, UX in agiler Produktentwicklung sowie Marketing Automation & Customer Experience</li>
         </ul>
     </figcaption>
@@ -60,7 +60,7 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Andreas Heisterkamp & Karsten Roth</h3></li>
-            <li>Hans Peter Esser GmbH, Kürten, Medizintechnik</li>
+            <li><a href="https://www.defi-esser.de">Hans Peter Esser GmbH, Kürten, Medizintechnik</a></li>
             <li>Suchen Web-Entwickler:innen und -Designer:innen (Frontend, Backend, Datenbanken) für:
                 <ul>
                     <li>App-Entwicklung</li>
@@ -77,7 +77,18 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Till Martensmeier</h3></li>
-            <li>Busch-Jaeger Elektro GmbH, Elektroinstallation vom Schalter bis zum Smart-Home-System</li>
+            <li><a href="https://www.busch-jaeger.de">Busch-Jaeger Elektro GmbH, Elektroinstallation vom Schalter bis zum Smart-Home-System</a></li>
+        </ul>
+    </figcaption>
+</figure>
+
+<figure class="mi-teaser-speaker speaker">
+    <img src="./images/bernd.jpg" alt="Dr. Bernd Lutz">
+    <figcaption>
+        <ul class="speaker-about-list">
+            <li class="speaker-name"><h3>Dr. Bernd Lutz</h3></li>
+            <li><a href="https://www.maxon.net">Maxon Computer GmbH, 2D- und 3D-Lösungen für die Computergrafik-Industrie</a></li>
+            <li>Suchen Support:innen in den Bereichen Computergrafik, Modeling, Animation, Simulation, Rendering und UX Design</li>
         </ul>
     </figcaption>
 </figure>
@@ -85,9 +96,6 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
 </div>
 
 ---
-
-Mit einigen Unternehmen laufen noch die letzten Absprachen, falls sich hier noch was ergibt, sagen wir über diese Seite Bescheid 😉.
-
 
 
 Außerdem wird das [Advanced Media Institute](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/advanced-media-institute_69153.php) einige Themenfelder im Rahmen der aktuellen Forschungsprojekte vorstellen, denn hier gibt es neue Förderung für das [Cranach Digital Archive](https://lucascranach.org) und ein neues gefördertes AR-Projekt in Kooperation mit der Volkshochschule des Oberbergischen Kreises.
