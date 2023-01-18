@@ -16,7 +16,8 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Heiko Riffeler</h3></li>
-            <li><a href="https://www.gjuce.com">gjuce GmbH, Köln, E-Commerce</a></li>
+            <li><a href="https://www.gjuce.com">gjuce GmbH, Köln</a></li>
+            <li>Online-Shops und individuelle E-Commerce-Plattformen für Händler, Hersteller und Marken</li>
             <li>Sucht Frontend- und Backend-Entwickler:innen für Online-Shops und Custom-Projekte. Beispiele möglicher Abschlussprojekte:  
                 <ul>
                     <li>Innovativer Product-Guide für den Online-Weinhandel mit Fokus auf Konzeption / UX / Frontend-Entwicklung</li>
@@ -33,6 +34,7 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Prof. Dr. Matthias Böhmer</h3></li>
             <li><a href="https://moxd.io">moxd lab / TH Köln</a></li>
+            <li>Mobile und verteilte Informationstechnologien</li>
             <li>Sucht Support in den Bereichen Mobile, IoT, Interaction & HCI für verschiedene Forschungsprojekte.</li>
         </ul>
     </figcaption>
@@ -46,7 +48,8 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Lena Wirtz & Chiara Schmeis</h3></li>
-            <li><a href="https://www.adesso.de/de/index.jsp">adesso SE, Dortmund, IT-Consulting</a></li>
+            <li><a href="https://www.adesso.de/de/index.jsp">adesso SE, Dortmund</a></li>
+            <li>IT- Consulting zur branchenspezifischen Optimierung von Geschäftsprozessen</li>
             <li>Brauchen Unterstützung im Bereich Change Management, UX in agiler Produktentwicklung sowie Marketing Automation & Customer Experience</li>
         </ul>
     </figcaption>
@@ -60,7 +63,8 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Andreas Heisterkamp & Karsten Roth</h3></li>
-            <li><a href="https://www.defi-esser.de">Hans Peter Esser GmbH, Kürten, Medizintechnik</a></li>
+            <li><a href="https://www.defi-esser.de">Hans Peter Esser GmbH, Kürten</a></li>
+            <li>Vertrieb und Entwicklung von Hard- und Software im Bereich der Medizintechnik (Rettungsdienst, Feuerwehr, Klinik)</li>
             <li>Suchen Web-Entwickler:innen und -Designer:innen (Frontend, Backend, Datenbanken) für:
                 <ul>
                     <li>App-Entwicklung</li>
@@ -77,7 +81,8 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Till Martensmeier</h3></li>
-            <li><a href="https://www.busch-jaeger.de">Busch-Jaeger Elektro GmbH, Elektroinstallation vom Schalter bis zum Smart-Home-System</a></li>
+            <li><a href="https://www.busch-jaeger.de">Busch-Jaeger Elektro GmbH, Lüdenscheid</a></li>
+            <li>Elektroinstallation vom Schalter bis zum Smart-Home-System</li>
         </ul>
     </figcaption>
 </figure>
@@ -87,8 +92,20 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
     <figcaption>
         <ul class="speaker-about-list">
             <li class="speaker-name"><h3>Dr. Bernd Lutz</h3></li>
-            <li><a href="https://www.maxon.net">Maxon Computer GmbH, 2D- und 3D-Lösungen für die Computergrafik-Industrie</a></li>
+            <li><a href="https://www.maxon.net">Maxon Computer GmbH</a></li>
+            <li>2D- und 3D-Lösungen für die Computergrafik-Industrie</li>
             <li>Suchen Support:innen in den Bereichen Computergrafik, Modeling, Animation, Simulation, Rendering und UX Design</li>
+        </ul>
+    </figcaption>
+</figure>
+
+<figure class="mi-teaser-speaker speaker">
+    <img src="./images/philipp.jpg" alt="Philipp Frank">
+    <figcaption>
+        <ul class="speaker-about-list">
+            <li class="speaker-name"><h3>Philipp Frank</h3></li>
+            <li><a href="https://www.dreiform.de">dreiform GmbH, Köln</a></li>
+            <li>Konzepte für Kundendialog, Innovations- und Wissensvermittlung, interaktive Werkzeuge, inspirierende Räume und Arbeitswelten.</li>
         </ul>
     </figcaption>
 </figure>
