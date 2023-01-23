@@ -100,10 +100,13 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
 </figure>
 
 <figure class="mi-teaser-speaker speaker">
-    <img src="./images/christian.jpg" alt="Christian Kühn">
+    <div class="speaker-row">
+        <img src="./images/christian.jpg" alt="Christian Kühn">
+        <img src="./images/ralfs.jpg" alt="Ralfs Korsanevskis">
+    </div>
     <figcaption>
         <ul class="speaker-about-list">
-            <li class="speaker-name"><h3>Ralfs Korsanevskis & Christian Kühn</h3></li>
+            <li class="speaker-name"><h3>Christian Kühn & Ralfs Korsanevskis</h3></li>
             <li><a href="https://www.dreiform.de">dreiform GmbH, Köln</a></li>
             <li>Konzepte für Kundendialog, Innovations- und Wissensvermittlung, interaktive Werkzeuge, inspirierende Räume und Arbeitswelten.</li>
         </ul>
