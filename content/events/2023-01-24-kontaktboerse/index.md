@@ -118,4 +118,4 @@ Zu dieser Veranstaltung haben wir Unternehmen und Organisationen eingeladen, die
 ---
 
 
-Außerdem wird das [Advanced Media Institute](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/advanced-media-institute_69153.php) einige Themenfelder im Rahmen der aktuellen Forschungsprojekte vorstellen, denn hier gibt es neue Förderung für das [Cranach Digital Archive](https://lucascranach.org) und ein neues gefördertes AR-Projekt in Kooperation mit der Volkshochschule des Oberbergischen Kreises.
+Hier finden sich die [Präsentationen der Unternehmen](https://th-koeln.sciebo.de/s/5EghPqKnVKvQ19d). Der Link läuft Ende 02.2023 ab.

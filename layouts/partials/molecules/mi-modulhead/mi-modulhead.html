@@ -52,19 +52,22 @@
       
       {{if .ele.Params.studienleistungen }}
 		<dt>Prüfung</dt>
-      <dd>
-          {{ range $index, $value := .ele.Params.studienleistungen }}
-          <br>{{ $index | humanize }}: {{ $value.art }} Bewertung durch
-          {{ if $index | eq "einzelleistung" }}
-          {{ $.prueferEinzelleistung }}
-          {{ else }}
-          {{ $.prueferTeamleistung }}
-          {{ end }}
-          {{ end }}
-        {{ end }}
-        </dd>
+    <dd>
+      {{ range $index, $value := .ele.Params.studienleistungen }}
+      <br>{{ $index | humanize }}: {{ $value.art }} Bewertung durch
+      {{ if $index | eq "einzelleistung" }}
+      {{ $.prueferEinzelleistung }}
+      {{ else }}
+      {{ $.prueferTeamleistung }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </dd>
 
-  
+    {{if .ele.Params.infourl }}
+		<dt>Weitere Informationen</dt>
+		<dd><a href="{{.ele.Params.infourl }}">{{.ele.Params.infourl }}</a></dd>
+      {{ end }}
 	</dl>
 	
     {{if .ele.Params.empfohleneVoraussetzungen }}
