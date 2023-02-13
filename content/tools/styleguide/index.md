@@ -10,7 +10,7 @@ layout = "single"
 
 
 ## Poster und Plakate
-Für die Gestaltung von Poster und Plakaten gibt hier eine [Vorlage in Figma](https://www.figma.com/file/vvS3kCjyMUXIJ8odYwcloO/Poster-DIN-A1?node-id=0%3A1). Zur Nutzung auf den Pfeil oben in der Titelleiste neben *view only* gehen und aus dem Dropdown Feld *Duplicate to your Drafts* auswählen. Dann kann mit der Vorlage im persönlichen Bereich gearbeitet werden. Als Ergänzung gibt es noch eine kurze [Videoerläuterung zur Nutzung der Vorlage](https://youtu.be/Wto_rek4yAk).
+Für die Gestaltung von Poster und Plakaten gibt hier eine [Vorlage in Figma](https://www.figma.com/file/bzYNARnUndERvBSVpBzhoK/Medieninformatik-Drucksachen-und-mehr?node-id=0%3A1&t=jZ8hGJhQwDkxW7GQ-1). Zur Nutzung auf den Pfeil oben in der Titelleiste neben *view only* gehen und aus dem Dropdown Feld *Duplicate to your Drafts* auswählen. Dann kann mit der Vorlage im persönlichen Bereich gearbeitet werden. Als Ergänzung gibt es noch eine kurze [Videoerläuterung zur Nutzung der Vorlage](https://youtu.be/Wto_rek4yAk).
 
 
 {{< figure src="/tools/styleguide/slideguide-overview.jpg" alt="MI Slideguide">}}
