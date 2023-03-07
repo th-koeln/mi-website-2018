@@ -1,6 +1,6 @@
 ---
 title: Einführung in die Medieninformatik
-modulverantwortlich: cn, mbluemm, il, hk, gh
+modulverantwortlich: cn, mbluemm, il, hk, gh, viet
 modulniveau: bachelor
 kuerzel: EMI
 untertitel:
