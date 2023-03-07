@@ -1,5 +1,5 @@
 ---
-datum: "2022-01-21T14:00:00"
+datum: "2023-03-16T16:00:00"
 title: "Infoveranstaltung zu den Vertiefungsmodulen in der MI"
 linkTitle: "Infoveranstaltung zu den Vertiefungsmodulen in der MI"
 termin: 16. März 2023, 16:00 Uhr // Zoom
