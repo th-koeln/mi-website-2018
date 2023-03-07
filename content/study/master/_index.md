@@ -7,7 +7,6 @@ selectKey: "studiensemesterws"
 semester: 1,2,3,4
 additionalContent: 
   - "kickoff"
-  - "specials"
   - "schwerpunkte"
   - "studienverlaufsplan"
   - "moduls"

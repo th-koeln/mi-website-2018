@@ -1,6 +1,6 @@
 ---
 title: Web Architekturen 
-modulverantwortlich: perasmus
+modulverantwortlich: viet
 kuerzel: WTW-WBA
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,7 +18,7 @@ schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: perasmus
+    erstpruefer: viet
     zweitpruefer: cn
 ---
 
