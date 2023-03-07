@@ -18,7 +18,7 @@ schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)
-    erstpruefer: perasmus
+    erstpruefer: viet
     zweitpruefer: cn
 ---
 
