@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: dbreuer
+    erstpruefer: viet
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
