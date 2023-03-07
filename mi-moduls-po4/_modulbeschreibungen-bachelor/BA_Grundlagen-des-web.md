@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: dbreuer
+    erstpruefer: viet
     zweitpruefer: maa, nkuhn, mfaske
 ---
 
