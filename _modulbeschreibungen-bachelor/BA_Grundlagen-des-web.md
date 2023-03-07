@@ -1,6 +1,6 @@
 ---
 title: Grundlagen des Web
-modulverantwortlich: dbreuer
+modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: GW
 untertitel:

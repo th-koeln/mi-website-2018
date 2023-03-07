@@ -1,6 +1,6 @@
 ---
 title: Medienrecht, Medien & Gesellschaft
-modulverantwortlich: mw
+modulverantwortlich: bb
 modulniveau: bachelor
 kuerzel: IRG
 untertitel:

@@ -1,6 +1,6 @@
 ---
 title: Web Architekturen 
-modulverantwortlich: perasmus
+modulverantwortlich: viet
 kuerzel: WTW-WBA
 studiensemesterWs: 1
 studiensemesterSs: 2
