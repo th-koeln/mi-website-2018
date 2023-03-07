@@ -1,25 +1,26 @@
 ---
-title: Datenbanken 1
-modulverantwortlich: bb
+title: Datenbanken
+modulverantwortlich: jschaible
 modulniveau: bachelor
-kuerzel: DB1
+kuerzel: DB
 untertitel:
 studiensemester: 3
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
-voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS1‐Praktikum
+voraussetzungenNachPruefungsordnung: Klausurteilnahme nur bei bestandenem DBS‐Praktikum
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
 typ: pm
+pvl: true
 veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung. Semesterbegleitende Multiple‐Choice‐Tests mit Punkten für die Klausur
-    erstpruefer: bb
-    zweitpruefer: mzapp
+    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
+    erstpruefer: jschaible
+    zweitpruefer: bb
 ---
 
 ## Lehrform/SWS
@@ -37,35 +38,35 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden sollen
+Die Studierenden können
 
-- über ein einheitliches konsistentes Begriffsgebäude bezüglich der Datenbankthematik verfügen,
-- die theoretischen Grundlagen von Datenbanksystemen am Beispiel relationaler und objektrelationaler Datenbanksysteme verstanden haben, insbesondere die relationale Algebra, die Normalisierung sowie funktionale Abhängigkeiten
-- in der Lage sein, diese Erkenntnisse im Rahmen der Modellierung und Implementierung von Datenbankschemata praktisch anzuwenden,
-- komplexere Datenbankanfragen, Datendefinitionen und Datenänderungen über SQL programmieren  können
-- ein SQL-Statement tunen können
-- mit dem Transaktionsbegriff, der Mehrbenutzersynchronisation und Verfahren zur Fehlererholung sowie zur Sicherung der Datenintegrität vertraut sein
+- ein einheitliches und konsistentes Begriffsgebäude bezüglich der Datenbankthematik verwenden,
+- Erkenntnisse im Rahmen der Modellierung und Implementierung von Datenbankschemata praktisch anwenden,
+- relationale Datenbankschemata konzipieren, implementieren und validieren, insbesondere in Bezug auf die relationale Algebra, die Normalisierung sowie funktionale Abhängigkeiten,
+- komplexere Datenbankanfragen, Datendefinitionen und Datenänderungen über SQL programmieren, 
+- Datenbankabfragen durch Verwendung von Indexen und SQL-Statement-Tuning effizient gestalten und  
+- den Transaktionsbegriff sowie die Mehrbenutzersynchronisation anwenden.
 
 ## Inhalt
 - Grundbegriffe und Architektur von Datenbanken  
 - Ein Vorgehensmodell zur Erstellung eines Datenbanksystems
+- Datenmodellierung (Entity Relationship Modell) und Implementierung am Beispiel eines relationalen Datenbanksystems
 - Grundlagen des relationalen Modells
 - Relationale Algebra
-- Anfrageoptimierung
+- Datenbankerstellung, -manipulation und -abfragen mit SQL
 - Funktionale Abhängigkeiten
 - Datenintegrität
 - Normalisierung
-- Datenmodellierung (Entity Relationship Modell) und Implementierung am Beispiel eines relationalen Datenbanksystems
-- Datenbanksprache SQL: DDL, DML, DAL, Integritätsbedingungen und Constraints unter dem jeweils aktuellen SQL-Standard, zur Zeit SQL2013
-- Transaktionskonzepte, Mehrbenutzersynchronisation, Fehlererholung und Datensicherheit
+- Datenbanksprache SQL: DDL, DML, DAL, Integritätsbedingungen und Constraints unter dem jeweils aktuellen SQL-Standard
+- Transaktionskonzepte und Mehrbenutzersynchronisation
 
 
 ## Medienformen
-* Folien gestützer Vortrag - aber nur sehr selten  
-* I.d.R. erarbeiten der Theorie anhand von überschaubaren Problemstellungen und deren in der Veranstaltung entwickelten Lösungen - hauptsächliches Vorgehen  
+* Folien gestützer Vortrag  
+* I.d.R. erarbeiten der Theorie anhand von überschaubaren Problemstellungen und deren in der Veranstaltung entwickelten Lösungen 
 * Fragen der Studierenden beantworten - sehr erwünscht!  
 * Ilias zur Bereitstellung aller Informationen (Aktuelles, Links, Folien, Praktikums-/Übungsaufgaben, wie auch Lösungen)  
-* edb, die DB-eLearning-Plattform der TH Köln  
+* Self-Assessment mit den Database Trainern von EILD 
 * DB-Wiki, das Online Lexikon für Datenbank-Themen
 
 ## Literatur

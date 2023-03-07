@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: TI1
 untertitel:
 studiensemester: 1
-kategorie:
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

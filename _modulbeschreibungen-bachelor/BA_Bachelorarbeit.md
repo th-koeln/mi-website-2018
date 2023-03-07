@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: BA
 untertitel:
 studiensemester: 6
-kategorie:
+kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelorarbeit und Kolloquium bestanden
@@ -17,8 +17,8 @@ typ: pm
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
-    erstpruefer: all
-    zweitpruefer: all
+    erstpruefer: eingesetzterPruefer
+    zweitpruefer: mas
 ---
 
 ## Lehrform/SWS

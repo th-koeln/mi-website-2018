@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: BK
 untertitel:
 studiensemester: 6
-kategorie:
+kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 3
 voraussetzungenNachPruefungsordnung: alle Modulprüfungen außer Bachelor Kolloquium bestanden
@@ -17,8 +17,8 @@ typ: pm
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung, Vortrag, Fachgespräch
-    erstpruefer: all
-    zweitpruefer: all
+    erstpruefer: eingesetzterPruefer
+    zweitpruefer: mas
 ---
 
 ## Lehrform/SWS

@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: SC
 untertitel:
 studiensemester: 4
-kategorie:
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 20
 voraussetzungenNachPruefungsordnung: keine

@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: EMI
 untertitel:
 studiensemester: 1
-kategorie:
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
@@ -19,7 +19,7 @@ studienleistungen:
   Einzelleistung:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
     erstpruefer: hk, gh, cn, mbl
-    zweitpruefer: uwm, vos, erw, simonschulte
+    zweitpruefer: uwm, vos, maa, simonschulte
 
 ---
 

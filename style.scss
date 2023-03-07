@@ -317,6 +317,9 @@
 }
 
 @media print {
+	html, body{
+		font-size: 8pt !important;
+	}
    section.hero, .is-non-print{
 	   display: none;
    }
@@ -357,3 +360,52 @@ pre code{
 #admin{
 	padding: $bfs 0;
 }
+
+.content .subtitle{
+	margin-top: -$bfs !important;
+	color: $mi-blau !important;
+	margin-bottom: $bfs * 2;
+}
+
+.studienverlaufsplan{
+	font-size: smaller;
+	th, td{
+		padding: 0 2px !important;
+	}
+
+	th{
+		font-weight: normal !important;
+
+		ul{
+			margin-top: 0;
+			margin-bottom: 2px;
+		}
+	}
+
+	td{
+		text-align: center;
+	}
+
+	.is-fs-1,.is-fs-3, .is-fs-5{
+		background-color: rgba(0,0,0,0.1);
+	}
+
+	.unit{
+		th, td{
+			background-color: rgba(0,0,0,0.7);
+			color: #fff;
+			padding: 2px 5px !important;
+		}
+	}
+
+	thead{
+		tr{
+			background-color: $mi-black;
+			td, th{
+				color: #fff;
+				padding: 2px 5px !important;
+				font-weight: bold;;
+			}
+		}
+	}
+}	

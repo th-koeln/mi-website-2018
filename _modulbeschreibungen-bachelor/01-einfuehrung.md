@@ -25,3 +25,5 @@ Das vierte Semester eignet sich aus verschiedenen Gründen gut für ein Auslands
 Den Abschluss des Studiums bildet die Bachelorarbeit. In dieser bearbeiten die Studierenden selbstständig eine praxisorientierte Aufgabe aus einem gewünschten Fachgebiet. Diese können sie in Kooperation mit einem Unternehmen schreiben und somit Kontakte zur Wirtschaft und damit potentiellen Arbeitgebern knüpfen.
 
 {% include image.html url="bilder/studienverlaufsplan-mi-bachelor.svg" caption="Studienverlaufsplan Medieninformatik Bachelor" %}
+
+Weitere Informationen zum Bachelor Studiengang Medieninformatik finden Sie unter [https://www.medieninformatik.th-koeln.de/study/bachelor/](https://www.medieninformatik.th-koeln.de/study/bachelor/).

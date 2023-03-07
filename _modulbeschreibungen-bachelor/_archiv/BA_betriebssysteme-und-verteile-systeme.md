@@ -13,7 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und 
 published: true
 layout: modulbeschreibung
 veranstaltungsform: 
-typ: pm
+typ: wpf
 infourl: 
 studienleistungen:
   Einzelleistung:
