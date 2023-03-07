@@ -6,4 +6,12 @@
     .mi-teaser-image {
       margin-bottom: $bfs-xs;
     }
+
+    &--footer{
+      margin-bottom: 0;
+
+      .a-mi-button{
+        margin-bottom: 0;
+      }
+    }
 }
