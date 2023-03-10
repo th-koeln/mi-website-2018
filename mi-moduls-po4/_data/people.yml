@@ -494,6 +494,13 @@ simonporten:
     avatar: 'https://i.pravatar.cc/300'
     personenseite: 'https://www.th-koeln.de/personen/simon.porten/'
     mi: true
+viet:
+    id: viet
+    status: prof
+    name: 'Prof. Dr. Hoai Viet Nguyen'
+    personenseite: 'https://www.th-koeln.de/personen/viet.nguyen/'
+    avatar: '/img/professoren/viet.jpg'
+    email: 'viet.nguyen@th-koeln.de'
 christinawerner:
     id: christinawerner
     status: prof

@@ -1,6 +1,6 @@
 ---
 title: Grundlagen des Web
-modulverantwortlich: dbreuer
+modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: GW
 untertitel:
@@ -18,11 +18,11 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
-    erstpruefer: dbreuer
+    erstpruefer: viet
     zweitpruefer: maa
   Teamleistung:
     art: Projektarbeit
-    erstpruefer: dbreuer
+    erstpruefer: viet
     zweitpruefer: maa, nkuhn, mfaske
 ---
 

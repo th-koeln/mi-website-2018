@@ -150,6 +150,14 @@ bem:
     name: 'Dr. Benjamin Meyer'
     personenseite: 'https://www.th-koeln.de/personen/benjamin.meyer/'
     mi: true
+viet:
+    id: viet
+    status: prof
+    name: 'Prof. Dr. Hoai Viet Nguyen'
+    personenseite: 'https://www.th-koeln.de/personen/viet.nguyen/'
+    avatar: '/img/professoren/viet.jpg'
+    email: 'viet.nguyen@th-koeln.de'
+    mi: true
 uwm:
     id: uwm
     status: wma
