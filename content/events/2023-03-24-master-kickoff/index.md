@@ -2,7 +2,7 @@
 datum: "2023-03-24T10:00:00"
 title: "Medieninformatik Master // Kick-Off"
 linkTitle: "Medieninformatik Master // Kick-Off"
-termin: 24. März 2024, um 10:00 Uhr, Raum 3.216
+termin: 24. März 2023, um 10:00 Uhr, Raum 3.216
 ---
 
 Die Kick-Off Veranstaltung zum Sommersemester 2023 findet am Freitag den *24.03.2023 ab 10:00* Uhr bis ca. 13:30 Uhr im Medieninformatik Studio (3.216) am Campus in Gummersbach statt und wir freuen uns darauf, Sie dort persönlich willkommen zu heißen! 
