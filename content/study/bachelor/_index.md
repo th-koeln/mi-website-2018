@@ -6,6 +6,7 @@ id: "bachelor"
 selectKey: "studiensemester"
 semester: 1,2,3,4,5,6
 additionalContent: 
+  - "wpf"
   - "vertiefungsmodule"
   - "studienverlaufsplan"
   - "moduls"
