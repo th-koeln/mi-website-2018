@@ -46,6 +46,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+          with:
+            personal_token: ${{ secrets.TOKEN }}
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
