@@ -20,6 +20,7 @@ studienleistungen:
     art: Prüfungsform ist bei den jeweiligen Fächern angegeben
     erstpruefer: gh, hk, mbluemm, cn, ck, hs
     zweitpruefer: gh, hk, mbluemm, cn, ck, hs
+    datum: ende
 ---
 
 ## Kurzbeschreibung
