@@ -19,6 +19,7 @@ studienleistungen:
     art: Projektpräsentation (30%), Projektdokumentation (70%)
     erstpruefer: uwm
     zweitpruefer: 
+    datum:
 ---
 
 ## Kurzbeschreibung
