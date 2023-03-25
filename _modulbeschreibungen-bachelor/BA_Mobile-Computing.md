@@ -20,10 +20,12 @@ studienleistungen:
     art: Mündliche Prüfung (30%)
     erstpruefer: mboehmer
     zweitpruefer:
+    datum: vereinbarung
   Teamleistung:
     art: Projektarbeit (70%)
     erstpruefer: mboehmer
     zweitpruefer:
+    datum: ende
 ---
 
 

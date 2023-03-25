@@ -20,7 +20,7 @@ studienleistungen:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
     erstpruefer: hk, gh, cn, mbl
     zweitpruefer: uwm, vos, maa, simonschulte
-
+    datum: ende
 ---
 
 ## Lehrform/SWS

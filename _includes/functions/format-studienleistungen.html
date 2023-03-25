@@ -9,6 +9,9 @@
   {% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}
   {% include /functions/resolve-names.html verantwortlich=zweitpruefer %}
   Zweitprüfer bzw. Beisitzer {{verantwortliche}}<br>
+  {% assign pruefungstermin = studienleistung[1].datum|downcase %}
+  {% include /functions/resolve-pruefungstermine.html termin=pruefungstermin %}
+  Prüfungstermin: {{resolved_pruefungstermin}}
 {% endfor %}
 
 {% endcapture %}

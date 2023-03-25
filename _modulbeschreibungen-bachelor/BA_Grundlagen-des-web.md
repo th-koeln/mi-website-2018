@@ -20,10 +20,12 @@ studienleistungen:
     art: Mündliche Prüfung
     erstpruefer: viet
     zweitpruefer: maa
+    datum: vereinbarung
   Teamleistung:
     art: Projektarbeit
     erstpruefer: viet
     zweitpruefer: maa, nkuhn, mfaske
+    datum: ende    
 ---
 
 ## Kurzbeschreibung

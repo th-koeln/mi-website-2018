@@ -20,6 +20,7 @@ studienleistungen:
     art: Durchführung eines Projektes, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: hs
     zweitpruefer: fg
+    datum: ende
 ---
 
 ## Lehrform/SWS

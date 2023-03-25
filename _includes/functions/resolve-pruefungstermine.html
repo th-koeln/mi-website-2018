@@ -1,0 +1,12 @@
+{% assign termin = include.termin  %}
+{% assign s = termin | size %}
+
+{% if s > 0 %}
+    {% if site.data.pruefungstermine[termin].name %}
+    {% assign resolved_pruefungstermin = site.data.pruefungstermine[termin].name %}
+    {% else %}
+    {% assign resolved_pruefungstermin = termin %}
+    {% endif %}
+{% else %}
+    {% assign resolved_pruefungstermin = "unbekannt" %}
+{% endif %}

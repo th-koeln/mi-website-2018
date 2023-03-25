@@ -20,6 +20,7 @@ studienleistungen:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: wk
     zweitpruefer: aschmitter
+    datum: ws-1
 ---
 
 Weitere Infos unter [http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm](http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm).

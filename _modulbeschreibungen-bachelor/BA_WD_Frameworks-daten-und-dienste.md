@@ -21,10 +21,12 @@ studienleistungen:
     art: Mündliche Prüfung
     erstpruefer: dbreuer
     zweitpruefer: maa
+    datum: ende
   Teamleistung:
     art: Projektarbeit
     erstpruefer: dbreuer
     zweitpruefer: maa
+    datum: ende
 ---
 
 ## Aufwand

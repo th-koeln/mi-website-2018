@@ -17,9 +17,10 @@ parent: SPM3
 schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio
+    art: Lernportfolio und mündliche Prüfung
     erstpruefer: cn
     zweitpruefer: sb
+    datum: 26.09.2023
 ---
 
 ## Kurzbeschreibung

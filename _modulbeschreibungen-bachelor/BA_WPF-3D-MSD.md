@@ -21,6 +21,7 @@ studienleistungen:
     art: Projekt u. Lernportfolio
     erstpruefer: hs
     zweitpruefer: simonschulte
+    datum: ende
 ---
 
 ## Lehrform/SWS

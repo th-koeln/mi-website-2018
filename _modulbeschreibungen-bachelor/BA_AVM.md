@@ -21,6 +21,7 @@ studienleistungen:
     art: Projektarbeit
     erstpruefer: hk
     zweitpruefer: gh
+    datum: ende
 ---
 
 ## Kurzbeschreibung

@@ -22,6 +22,7 @@ studienleistungen:
     art: Seminarvortrag und Abstract zur Praxisprojektarbeit
     erstpruefer: cn
     zweitpruefer: all
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS

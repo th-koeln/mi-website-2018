@@ -21,6 +21,7 @@ studienleistungen:
     art: Seminarvortrag
     erstpruefer: sk
     zweitpruefer: hls
+    datum: vereinbarung
 ---
 
 ## Aufwand

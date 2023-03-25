@@ -21,10 +21,12 @@ studienleistungen:
     art: Seminarvortrag (30%)
     erstpruefer: mboehmer
     zweitpruefer: il
+    datum: ende
   Teamleistung:
     art: Projektarbeit (70%)
     erstpruefer: mboehmer
     zweitpruefer: il
+    datum: ende
 ---
 
 ## Aufwand

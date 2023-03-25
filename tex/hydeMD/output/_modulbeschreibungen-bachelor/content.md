@@ -624,7 +624,7 @@ Die Lehrenden bieten dann während der Projektdurchführung Beratung bzgl. des a
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung und Projektarbeit%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung, Projektarbeit%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Grundlagen-des-web§
@@ -762,7 +762,7 @@ Grundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Pr
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Präsentation im OpenSpace, Klausur und Klausur%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mario Winter%end-modulMeta%%begin-modulMeta%**Studiensemester**: 5%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Präsentation im OpenSpace, Klausur, Klausur%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_MUG§
@@ -1117,7 +1117,7 @@ Gesamtaufwand 300h, davon
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung (30%) und Projektarbeit (70%)%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung (30%), Projektarbeit (70%)%end-modulMeta%
 
 
 ## Kurzbeschreibung§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Mobile-Computing§
@@ -1603,7 +1603,7 @@ Ziel ist es, soziale Innovation durch digitale Anwendungen entstehen zu lassen. 
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mirjam Blümm%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Lernportfolio und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Mirjam Blümm%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Lernportfolio, Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_empirische-forschungsmethoden§
@@ -1680,7 +1680,7 @@ Die Studierenden sollen die unterschiedlichen Herangehensweisen quantitativer un
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Uwe Müsse%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektarbeit (mit Präsentation) und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Uwe Müsse%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Projektarbeit (mit Präsentation), Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_gamification§
@@ -1761,7 +1761,7 @@ Die Studierenden sollen in der Lage sein, die Möglichkeiten und Grenzen des Gam
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Lernportfolio und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Christian Kohls%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Lernportfolio, Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_SC_soziotechnische-systeme§
@@ -1844,7 +1844,7 @@ Die Studierenden sollen das komplexe Wechselspiel zwischen informationstechnisch
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Gestaltungsportfolio und Projekt- und Projektpräsentationsprüfung%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Christian Noss%end-modulMeta%%begin-modulMeta%**Studiensemester**: 3%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Gestaltungsportfolio, Projekt- und Projektpräsentationsprüfung%end-modulMeta%
 
 
 ## Lehrform/SWS§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_Screendesign§
@@ -2702,7 +2702,7 @@ Ziel ist es, soziale Innovation durch digitale Anwendungen entstehen zu lassen. 
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung und Projektarbeit%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Dirk Breuer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Mündliche Prüfung, Projektarbeit%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Frameworks-daten-und-dienste§
@@ -2831,7 +2831,7 @@ Beamergestützte Vorträge, Rechnergestützte Workshops
 
 
 
-%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Seminarvortrag (30%) und Projektarbeit (70%)%end-modulMeta%
+%begin-modulMeta%**Modulverantwortlich**: Prof. Dr. Matthias Böhmer%end-modulMeta%%begin-modulMeta%**Studiensemester**: 4%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 5%end-modulMeta%%begin-modulMeta%**Typ**: Teilmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Seminarvortrag (30%), Projektarbeit (70%)%end-modulMeta%
 
 
 ## Aufwand§pathlabel:/mi-2017/modulbeschreibungen-bachelor/BA_WD_Internet-of-things§

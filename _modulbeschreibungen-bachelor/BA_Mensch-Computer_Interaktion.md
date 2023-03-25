@@ -20,6 +20,7 @@ studienleistungen:
     art: individuelles Lernportfolio
     erstpruefer: rog
     zweitpruefer: ck
+    datum: ende
 ---
 
 ## Lehrform/SWS

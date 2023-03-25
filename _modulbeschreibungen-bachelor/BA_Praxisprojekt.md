@@ -19,6 +19,7 @@ studienleistungen:
     art: Schriftliche Ausarbeitung, Projektdokumentation
     erstpruefer: all
     zweitpruefer: mas
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS

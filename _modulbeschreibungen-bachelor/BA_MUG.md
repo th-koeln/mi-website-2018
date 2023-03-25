@@ -21,11 +21,13 @@ studienleistungen:
     art: Präsentation im OpenSpace, Klausur
     erstpruefer: mw
     zweitpruefer: 
+    datum: ws-2
   recht:
     teilmodul: Recht
     art: Klausur
     erstpruefer: jh
     zweitpruefer: 
+    datum: ws-2
 ---
 
 ## Lehrform/SWS

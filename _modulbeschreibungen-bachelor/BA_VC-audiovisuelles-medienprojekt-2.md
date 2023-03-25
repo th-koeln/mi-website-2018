@@ -20,6 +20,7 @@ studienleistungen:
     art: Projektarbeit mit schriftlicher Ausarbeitung
     erstpruefer: hk
     zweitpruefer: simonporten
+    datum: ende
 ---
 
 ## Lehrform/SWS
