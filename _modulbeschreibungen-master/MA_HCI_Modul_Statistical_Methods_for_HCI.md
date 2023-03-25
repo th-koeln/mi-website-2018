@@ -21,7 +21,7 @@ studienleistungen:
     art: Lernportfolio
     erstpruefer: gh
     zweitpruefer: nkuhn
-    datum: ende
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS
