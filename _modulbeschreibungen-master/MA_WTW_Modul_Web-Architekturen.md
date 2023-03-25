@@ -20,6 +20,7 @@ studienleistungen:
     art: Lernportfolio (50%), Projektarbeit (50%)
     erstpruefer: viet
     zweitpruefer: cn
+    datum:
 ---
 
 ## Kurzbeschreibung
