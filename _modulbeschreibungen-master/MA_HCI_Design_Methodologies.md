@@ -20,7 +20,8 @@ studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
-    zweitpruefer: nkuhn
+    zweitpruefer: gh
+    datum: ende
 ---
 
 ## Lehrform/SWS
