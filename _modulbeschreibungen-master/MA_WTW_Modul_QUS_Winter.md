@@ -23,6 +23,7 @@ studienleistungen:
     art: Projektportfolio
     erstpruefer: mw
     zweitpruefer: alm
+    datum:
 ---
 
 ## Kurzbeschreibung
