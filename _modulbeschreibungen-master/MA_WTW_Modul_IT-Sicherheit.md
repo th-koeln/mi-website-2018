@@ -20,6 +20,7 @@ studienleistungen:
     art: Fachvortrag (25%), schriftliche Ausarbeitung (25%) und mündliche Prüfung (50%) (im SoSe 2020 entfällt die mündliche Prüfung, welche auf Anfrage zur Notenverbesserung optional genutzt werden kann)
     erstpruefer: sk
     zweitpruefer: 
+    datum:
 ---
 
 ## Kurzbeschreibung
