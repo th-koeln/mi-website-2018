@@ -41,9 +41,9 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 Die Studierenden sollen befähigt werden, 
-- zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie 
-- gegebene Modelle zu interpretieren, zu analysieren und zu bewerten, 
-- um komplexe Systeme zu analysieren, im Team zu entwerfen und dabei im Rahmen methodischer Vorgehensweisen Techniken und Werkzeuge der objektorientierten Modellierung und Softwareentwicklung in den Aktivitäten Anforderungsermittlung, Softwarespezifizierung und Entwurf einzusetzen.
+- zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie gegebene Modelle zu interpretieren, zu analysieren und zu bewerten, 
+- indem sie im Rahmen methodischer Vorgehensweisen im Team komplexe Systeme analysieren, spezifizieren und kritisch diskutieren,
+- um Techniken und Werkzeuge der objektorientierten Modellierung und Softwareentwicklung in den Aktivitäten Anforderungsermittlung, Softwarespezifizierung und Entwurf einsetzen zu können.
 
 ## Inhalt
 
@@ -52,8 +52,8 @@ Die Vorlesung skizziert zunächst das Gesamtgebiet Softwaretechnik und behandelt
 Das Modul gliedert sich in folgende Inhalte: 
 - (10%) Softwareentwicklung im Überblick (Komplexität großer Software, Kernaktivitäten und unterstützende Aktivitäten); 
 - (30%) Die Modellierungssprache UML (Strukturmodellierung mit Objekt- und Klassendiagrammen, Funktionsmodellierung mit Anwendungsfalldiagrammen, Verhaltensmodellierung mit Sequenz-, Kommunikations- und Zustandsdiagrammen);
-- (50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung und Architekturkonzeption, Entwurfskonzepte und Grobentwurf, Feinentwurf);
-- (10%) Zusammenfassung und Ausblick (Modellgetriebene Softwareentwicklung);
+- (50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung sowie Architekturkonzeption und Grobentwurf);
+- (10%) Zusammenfassung und Ausblick (Entwurfskonzepte, Feinentwurf und Modellgetriebene Softwareentwicklung);
 
 
 ## Medienformen
@@ -66,10 +66,15 @@ Das Modul gliedert sich in folgende Inhalte:
 ## Literatur
 - Helmut Balzert: Lehrbuch der Software-Technik Bd. I: Basiskonzepte und Requirements Engineering; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2009
 - Helmut Balzert: Lehrbuch der Software-Technik Bd. II: Entwurf, Implementierung, Installation und Betrieb; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2012
+- Stephan Kleucker: Grundkurs Software-Engineering mit UML. Springer/Vieweg, Wiesbaden, 2019
 - Helmut Balzert: Lehrbuch der Software-Technik Bd. III: Software Management; Spektrum Akademischer Verlag, Heidelberg, 2. Aufl. 2008
+- Jochen Ludewig, Horst Lichter: Software Engineering – Grundlagen, Menschen, Prozesse, Techniken. 3. Aufl., dPunkt Verlag, Heidelberg, 2022
+- Karl-Heinz Rau: Agile objektorientierte Software-Entwicklung. Springer-Vieweg, Wiesbaden, 2016
+- Chris Rupp et al.: UML 2 Glasklar. 4. Aufl., Carl Hanser Verlag, München, 2012
 - Martina Seidl et al.: UML@Classroom; dpunkt.Verlag, Heidelberg, 2012
   Unterlagen/Videos: <http://www.uml.ac.at/lernen>
-- Winter, M.: Methodische objektorientierte Softwareentwicklung. dpunkt.verlag, Heidelberg, 2005;
-- Chris Rupp et al.: UML 2 Glasklar. 4. Aufl., Carl Hanser Verlag, München, 2012
-- Jochen Ludewig, Horst Lichter: Software Engineering – Grundlagen, Menschen, Prozesse, Techniken. 2. Aufl., dPunkt Verlag, Heidelberg, 2011
+- Vollmer, G.: Mobile App Engineering. dpunkt.verlag, Heidelberg, 2019
+- Winter, M.: Methodische objektorientierte Softwareentwicklung. dpunkt.verlag, Heidelberg, 2005
+
+
 
