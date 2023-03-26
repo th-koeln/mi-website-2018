@@ -64,17 +64,16 @@ Das Modul gliedert sich in folgende Inhalte:
 
 
 ## Literatur
-- Helmut Balzert: Lehrbuch der Software-Technik Bd. I: Basiskonzepte und Requirements Engineering; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2009
-- Helmut Balzert: Lehrbuch der Software-Technik Bd. II: Entwurf, Implementierung, Installation und Betrieb; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2012
-- Stephan Kleucker: Grundkurs Software-Engineering mit UML. Springer/Vieweg, Wiesbaden, 2019
-- Helmut Balzert: Lehrbuch der Software-Technik Bd. III: Software Management; Spektrum Akademischer Verlag, Heidelberg, 2. Aufl. 2008
+- Helmut Balzert: Lehrbuch der Software-Technik Bd. I: Basiskonzepte und Requirements Engineering; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2009 <https://rd.springer.com/book/10.1007/978-3-8274-2247-7>
+- Helmut Balzert: Lehrbuch der Software-Technik Bd. II: Entwurf, Implementierung, Installation und Betrieb; Spektrum Akademischer Verlag, Heidelberg, 3. Aufl. 2012 <https://rd.springer.com/book/10.1007/978-3-8274-2246-0>
+- Stephan Kleucker: Grundkurs Software-Engineering mit UML. Springer/Vieweg, Wiesbaden, 2019 <https://rd.springer.com/book/10.1007/978-3-658-19969-2>
 - Jochen Ludewig, Horst Lichter: Software Engineering – Grundlagen, Menschen, Prozesse, Techniken. 3. Aufl., dPunkt Verlag, Heidelberg, 2022
-- Karl-Heinz Rau: Agile objektorientierte Software-Entwicklung. Springer-Vieweg, Wiesbaden, 2016
+- Karl-Heinz Rau: Agile objektorientierte Software-Entwicklung. Springer-Vieweg, Wiesbaden, 2016 <https://rd.springer.com/book/10.1007/978-3-658-00776-8>
 - Chris Rupp et al.: UML 2 Glasklar. 4. Aufl., Carl Hanser Verlag, München, 2012
 - Martina Seidl et al.: UML@Classroom; dpunkt.Verlag, Heidelberg, 2012
   Unterlagen/Videos: <http://www.uml.ac.at/lernen>
 - Vollmer, G.: Mobile App Engineering. dpunkt.verlag, Heidelberg, 2019
-- Winter, M.: Methodische objektorientierte Softwareentwicklung. dpunkt.verlag, Heidelberg, 2005
+- Winter, M.: Methodische objektorientierte Softwareentwicklung. dpunkt.verlag, Heidelberg, 2005 <https://dpunkt.de/produkt/methodische-objektorientierte-softwareentwicklung/>
 
 
 
