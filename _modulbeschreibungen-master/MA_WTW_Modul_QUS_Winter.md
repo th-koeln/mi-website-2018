@@ -58,7 +58,7 @@ Inhalte im Einzelnen:
 - Prozessverbesserungsmodelle (CMMI, SPICE)
 - QS-Werkzeuge, Normen und Gesetze.
 
-Die Studierenden erstellen einen Fachbeitrag zu einer ausgewählten Methode bzw. Technik der Qualitätssicherung und des Qualitätsmanagements. Aufbauend auf dem in der Vorlesung und den studentischen Fachbeiträgen vermittelten Stoff erstellen die Teilnehmer im Projekt-Teil eine Projektportfolio mit den Ergebnissen der Anwendung der vermittelten Methoden und Techniken auf einen selbst gewählten Projektgegenstand sowie tw. experimenteller Realisierung und Reflektion der Anwendung.
+Die Studierenden erstellen einen Fachbeitrag zu einer ausgewählten Methode bzw. Technik der Qualitätssicherung und des Qualitätsmanagements. Aufbauend auf dem in der Vorlesung und den studentischen Fachbeiträgen vermittelten Stoff erstellen die Teilnehmer im Projekt-Teil ein Projektportfolio zur Anwendung der vermittelten Methoden und Techniken auf einen selbst gewählten Projektgegenstand sowie tw. experimenteller Realisierung und Reflektion der Anwendung.
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
@@ -73,7 +73,12 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 * Fallbeispielgestützte Übungen in Gruppen, um die erlernten Modelle und Methoden einzuüben und zu vertiefen (Seminarraum, Rechnerlabor).
 
 ## Literatur
-- S. Wagner: Software Product Quality Control. Springer, Berlin, 2013
-- A. Spillner, T. Roßner, M. Winter, T. Linz: Praxiswissen Softwaretest – Testmanagement. 4., vollst. überarbeitete und akt. Auflage, dpunkt.verlag, Heidelberg, 2014
-- E. Wallmüller: Software Quality Engineering. Hanser, München, 2011.
-- E. Mendes, N. Mosley: Web Engineering. Springer, 2006
+- Adam, P.: Agil in der ISO 9001. Springer Fachmedien Wiesbaden, 2020 <https://rd.springer.com/book/10.1007/978-3-658-28311-7> 
+- Benes, M.E., Groh, P.E.: Grundlagen des Qualitätsmanagements. 4. Aufl., Carl Hanser Verlag, München, 2017
+- Brandes, C., Heller, M.: Qualitätsmanagement in agilen IT-Projekten - quo vadis? Springer Vieweg, 2017 <https://rd.springer.com/book/10.1007>/978-3-658-18085-0 
+- Brüggemann, H. & Bremer, P.: Grundlagen Qualitätsmanagement. Springer Fachmedien, Wiesbaden, 2020 <https://rd.springer.com/book/10.1007/978-3-658-28780-1> 
+- Kleuker, S.: Qualitätssicherung durch Softwaretests. Springer-Vieweg, Heidelberg, 2013 <http://link.springer.com/book/10.1007/978-3-8348-2068-6> 
+- Liggesmeyer, P: Software-Qualität. 2. Aufl., Spektrum Akademischer Verlag, Heidelberg, 2009 <http://link.springer.com/book/10.1007/978-3-8274-2203-3> 
+- Linß, G.: Qualitätsmanagement für Ingenieur. 4. Aufl., Carl Hanser Verlag, München, 2018
+- Spillner, A.; Roßner, T.; Winter, M.; Linz, T.: Praxiswissen Softwaretest – Testmanagement (Aus- und Weiterbildung zum Certified Tester – Advanced Level nach ISTQB-Standard). 4. Aufl., dpunkt.verlag, Heidelberg, August 2014
+- Wallmüller, E.: Software-Quality Engineering – Ein Leitfaden für bessere Software-Qualität. 3., völlig überarbeitete Auflage, Hanser Verlag, München, 2011
