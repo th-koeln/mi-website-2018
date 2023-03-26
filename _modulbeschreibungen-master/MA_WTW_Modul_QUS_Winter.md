@@ -40,23 +40,22 @@ Gesamtaufwand 180 Stunden, davon
 - 108h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Die Studierenden werden befähigt, 
-- Ziele, Methoden, Techniken und Werkzeuge sowie organisatorischen Maßnahmen zur begleitenden Qualitätssicherung (QS) und zum Qualitätsmanagement (QM) für Web- und Mobile Anwendungen beschreiben, diskutieren und anwenden zu können, sowie
-- Methoden und Techniken hinsichtlich ihrer theoretischen Fundierung und ihrer Eignung in einem Projektkontext analysieren und bewerten zu können, und 
-- sich selbständig wissenschaftlich und fachlich weiter zu bilden, 
-- um die Methoden, Techniken und Werkzeuge zur Qualitätssicherung und zum Qualitätsmanagement in eigenen, auch fachübergreifenden Projekten auswählen und anwenden zu können.
+Nach dem erfolgreichen Abschluss dieses Moduls können die Student:innen 
+- die Qualität der Software-Entwicklung auf den drei Ebenen Produkt, Projekt bzw. Prozess und Organisation sichern und managen,
+- indem sie die Ziele, Methoden, Techniken und Werkzeuge sowie organisatorischen Maßnahmen zur begleitenden Qualitätssicherung (QS) und zum Qualitätsmanagement (QM) für Web-, Desktop- und mobile Anwendungen nennen, charakterisieren und situationsadäquat anwenden, sowie Methoden und Techniken hinsichtlich ihrer theoretischen Fundierung und ihrer Praxistauglichkeit analysieren, bewerten und sich dazu selbständig wissenschaftlich und fachlich weiter bilden können,
+- um Methoden, Techniken und Werkzeuge zu QS und QM in eigenen, auch fachübergreifenden Projekten kontextbezogen auswählen und im Projekt-Team sowie der Organisation einführen und damit die Qualität auf allen drei Ebenen sichern und managen zu können.
 
 ## Inhalt
 Das Modul beschreibt Ziele, Methoden, Techniken und Werkzeuge sowie organisatorische Maßnahmen zur begleitenden Qualitätssicherung (QS) bei der Entwicklung von Mobile- und Web-Anwendungen. Schwerpunkte liegen auf der QS in den frühen Phasen der Konzeption und Spezifikation sowie dem Qualitätsmanagement. Ausführungen zu einschlägigen Normen und Gesetzen runden das Modul ab.
 
 Inhalte im Einzelnen: 
-- Qualitätssicherung im Entwicklungsprozess
-- Qualitätsmodelle und -Metriken
-- Analytic Hierarchy Process (AHP) und Quality Function Deployment (QFD)
-- Risikomanagement und Software-Failure Modes Effects Analysis (SW-FMEA)
-- QS-Planung mit QFD und FMEA, Fehler- und Problem-Meldungsbehandlung
-- Prozessverbesserungsmodelle (CMMI, SPICE)
-- QS-Werkzeuge, Normen und Gesetze.
+-Was ist Qualität? Qualitätssicherung vs Qualitätsmanagement
+- Reviews, Anforderungs-Klassifikation (Kano), Priorisierung (AHP)
+- Normen, Standards, Qualitätsmodelle und Qualitätsmetriken
+- Entwicklungsqualität (QFD) und Produkt-Risikoanalysen (FMEA)
+- Software-Test (Web- und Mobile-Testing, MBT, AI-Testing)
+- Prozessmodelle und Prozessverbesserung (V-Modell, Scrum, IDEAL, ISO 9001)
+- Ausblick: Qualitäts-Infrastrukturen (CI, DevOps), Incident-Management
 
 Die Studierenden erstellen einen Fachbeitrag zu einer ausgewählten Methode bzw. Technik der Qualitätssicherung und des Qualitätsmanagements. Aufbauend auf dem in der Vorlesung und den studentischen Fachbeiträgen vermittelten Stoff erstellen die Teilnehmer im Projekt-Teil ein Projektportfolio zur Anwendung der vermittelten Methoden und Techniken auf einen selbst gewählten Projektgegenstand sowie tw. experimenteller Realisierung und Reflektion der Anwendung.
 
