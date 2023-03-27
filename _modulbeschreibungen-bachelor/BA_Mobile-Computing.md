@@ -14,6 +14,7 @@ published: true
 layout: modulbeschreibung
 veranstaltungsform: 
 typ: pm
+pvl: true
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1340996&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
