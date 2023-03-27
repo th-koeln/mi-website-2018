@@ -17,13 +17,8 @@ typ: tm
 veranstaltungsform: 
 parent: WD
 studienleistungen:
-  Einzelleistung:
-    art: Seminarvortrag (30%)
-    erstpruefer: mboehmer
-    zweitpruefer: il
-    datum: ende
   Teamleistung:
-    art: Projektarbeit (70%)
+    art: Projektarbeit
     erstpruefer: mboehmer
     zweitpruefer: il
     datum: ende
