@@ -20,7 +20,7 @@ studienleistungen:
     art: 2 Fachvorträge (je 30%), Projektpräsentation und -dokumentation (40%)
     erstpruefer: chh
     zweitpruefer: gh
-    datum:
+    datum: ende
 ---
 
 ## Kurzbeschreibung
