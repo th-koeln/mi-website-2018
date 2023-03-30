@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Präsentation (30%), Projektarbeit (70%)
     erstpruefer: gh, mbluemm
-    zweitpruefer: gh, mbluemm
+    zweitpruefer: gh, mbluemm, nkuhn
     datum: vereinbarung
     
 ---
