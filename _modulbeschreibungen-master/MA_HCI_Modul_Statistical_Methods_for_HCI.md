@@ -36,7 +36,7 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden sind in der Lage empirische Daten so darzustellen, dass wesentlichen Strukturen erkennbar sind. Die Studierenden können angemessene Kennzahlen und Verfahren zur Charakterisierung von empirischen Daten spezifizieren und ermitteln. Sie beherrschen wesentliche Konzepte zur Visualisierung von empirischen Daten und können erste (explorative) Analysen durchführen. 
+Die Studierenden sind in der Lage empirische Daten so darzustellen, dass wesentlichen Strukturen und Charkateristika erkennbar sind. Die Studierenden können angemessene Kennzahlen und Verfahren zur Charakterisierung von empirischen Daten spezifizieren und ermitteln. Sie beherrschen wesentliche Konzepte zur Visualisierung von empirischen Daten und können erste (explorative) Analysen durchführen. 
 
 Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatistik. Sie sind in der Lage, empirische Daten zu analysieren, Hypothesen zu testen und die Ergebnisse hinsichtlich empirischer Fragestellungen zu interpretieren. Sie können Gütekriterien zur Auswahl unterschiedlicher Verfahren benennen und anwenden.
 
@@ -44,9 +44,9 @@ Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatisti
 
 Merkmale und Skalen, univariante Häufigkeitsverteilungen, Lagemaße, Streuung und Schiefe, Konzentration, bivariate Häufigkeitsverteilungen und Kontingenz, Korrelations- und Regressionsanalyse, Verhältnis – und Indexzahlen.
 
-Diskrete und Stetige Zufallsvariablen, Population und Parameterschätzung, Hypothesentests und Signifikanz, t-Tests, 
+Diskrete und Stetige Verteilungen, Population und Parameterschätzung, parametrische und nichtparametrische Testverfahren, Konfidenzintervalle, Fehlertypen, Effektstärken und Power.
 
-Konfidenzintervalle, Fehlertypen, Effektstärken und Power, multivariate Verfahren (ein- und mehrfaktorielle Varianzanalysen und entsprechendes Forschungsdesign).
+Multivariate Verfahren (ein- und mehrfaktorielle Varianzanalysen und entsprechendes Forschungsdesign.
 
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben
@@ -56,3 +56,4 @@ Konfidenzintervalle, Fehlertypen, Effektstärken und Power, multivariate Verfahr
 - "Modern Staistical Methods for HCI", Judy Robertson, Maurits Kaptein (Eds), Springer, 2016
 - “Deskriptive Statistik”; R. Kosfeld, H. Eckey, M. Türck; Springer,  2016
 - “Inferenzstatistik verstehen”; M. Janczyk, R. Pfister, Springer, 2013
+- "Discovering Statistics Using IBM SPSS Statistics", 5th ed.,Sage Publ. 2017
