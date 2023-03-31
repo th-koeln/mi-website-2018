@@ -21,7 +21,7 @@ jobs:
           sudo mv hugo /usr/local/bin
 
       - name: 🛠️ Build
-        run: hugo --source website --minify
+        run: hugo --source . --minify
 
       - name: 🔑 Install SSH Key
         run: |
