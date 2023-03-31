@@ -14,7 +14,7 @@ infourl:
 layout: modulbeschreibung
 typ: spm
 parent: SPM1
-schwerpunkt: hci
+schwerpunkt: hci, sc
 infourl: 
 studienleistungen:
   Einzelleistung:
