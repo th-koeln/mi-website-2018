@@ -56,4 +56,4 @@ Multivariate Verfahren (ein- und mehrfaktorielle Varianzanalysen und entsprechen
 - "Modern Staistical Methods for HCI", Judy Robertson, Maurits Kaptein (Eds), Springer, 2016
 - “Deskriptive Statistik”; R. Kosfeld, H. Eckey, M. Türck; Springer,  2016
 - “Inferenzstatistik verstehen”; M. Janczyk, R. Pfister, Springer, 2013
-- "Discovering Statistics Using IBM SPSS Statistics", 5th ed.,Sage Publ. 2017
+- "Discovering Statistics Using IBM SPSS Statistics", Andy Fields, 5th ed.,Sage Publ. 2017
