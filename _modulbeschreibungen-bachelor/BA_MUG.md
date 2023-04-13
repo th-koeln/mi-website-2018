@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   iug:
     teilmodul: Informatik und Gesellschaft
-    art: Präsentation im OpenSpace, Klausur
-    erstpruefer: mw
+    art: Klausur
+    erstpruefer: bb
     zweitpruefer: 
     datum: ws-1
   recht:
