@@ -19,7 +19,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projekt u. Lernportfolio
-    erstpruefer: hs
+    erstpruefer: hk
     zweitpruefer: simonschulte
     datum: ende
 ---
