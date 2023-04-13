@@ -20,7 +20,7 @@ studienleistungen:
     erstpruefer: gh, mbluemm
     zweitpruefer: gh, mbluemm, nkuhn
     datum: vereinbarung
-    
+   
 ---
 
 ## Lehrform/SWS
