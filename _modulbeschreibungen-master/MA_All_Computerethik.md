@@ -17,7 +17,7 @@ studienleistungen:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: mbluemm
     zweitpruefer: ck
-    datum: 
+    datum: 19.07.23
 ---
 
 ## Lehrform/SWS
