@@ -52,7 +52,7 @@ Die Studierenden sollen befähigt werden
 
 ## Inhalt
 
-### Informatik und Gesellschaft
+### [Informatik und Gesellschaft](https://ilu.th-koeln.de/goto.php?target=crs_51539&client_id=thkilu)
 
 Die Wechselwirkungen zwischen den von Informatikern entwickelten Systemen und ihrem Einsatzumfeld werden in drei großen Themenblöcken behandelt:
 
