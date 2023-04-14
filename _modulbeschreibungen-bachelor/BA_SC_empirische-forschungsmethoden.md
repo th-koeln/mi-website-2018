@@ -18,7 +18,7 @@ parent: SC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio
+    art: Projektdokumentation
     erstpruefer: mbluemm
     zweitpruefer: ck, uwm, simonschulte
     datum: ende
