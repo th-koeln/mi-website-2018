@@ -15,7 +15,7 @@ layout: modulbeschreibung
 typ: pm
 pvl: true
 veranstaltungsform: 
-infourl: 
+infourl: https://ilias.th-koeln.de/goto.php?target=crs_2319224&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
