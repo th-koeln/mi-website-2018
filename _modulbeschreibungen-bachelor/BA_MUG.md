@@ -21,13 +21,13 @@ studienleistungen:
     art: Klausur
     erstpruefer: bb
     zweitpruefer: 
-    datum: ws-1
+    datum: ws-1, ss-2
   recht:
     teilmodul: Recht
     art: Klausur
     erstpruefer: jh
     zweitpruefer: 
-    datum: ws-1
+    datum: ws-1, ss-2
 ---
 
 ## Lehrform/SWS
