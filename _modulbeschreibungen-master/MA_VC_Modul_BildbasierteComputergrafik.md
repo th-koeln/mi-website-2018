@@ -20,7 +20,7 @@ studienleistungen:
     art: Fachvortrag (40%), schriftlicher Projektbericht (60%)
     erstpruefer: mag
     zweitpruefer: hs
-    datum:
+    datum: vereinbarung
 ---
 
 ## Kurzbeschreibung
