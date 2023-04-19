@@ -20,7 +20,7 @@ studienleistungen:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: wk, dz
     zweitpruefer: wk, dz
-    datum:
+    datum: vereinbarung
 ---
 
 ## Kurzbeschreibung
