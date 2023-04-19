@@ -20,6 +20,7 @@ studienleistungen:
     art: Projektarbeit
     erstpruefer: mbluemm
     zweitpruefer: gh
+    datum: vereinbarung
 ---
 
 ## Kurzbeschreibung
