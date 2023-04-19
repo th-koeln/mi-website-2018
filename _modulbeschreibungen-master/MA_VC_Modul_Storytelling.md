@@ -19,7 +19,7 @@ studienleistungen:
     art: Fachvortrag mit Ausarbeitung (70%), Projektarbeit (30%)
     erstpruefer: hk
     zweitpruefer: 
-    datum:
+    datum: vereinbarung
 ---
 
 ## Kurzbeschreibung
