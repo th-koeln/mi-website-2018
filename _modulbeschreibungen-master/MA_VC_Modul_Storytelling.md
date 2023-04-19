@@ -18,7 +18,7 @@ studienleistungen:
   Einzelleistung:
     art: Fachvortrag mit Ausarbeitung (70%), Projektarbeit (30%)
     erstpruefer: hk
-    zweitpruefer: sporten
+    zweitpruefer: simonporten
     datum: vereinbarung
 ---
 
