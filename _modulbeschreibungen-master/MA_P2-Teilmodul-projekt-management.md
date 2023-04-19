@@ -19,7 +19,8 @@ studienleistungen:
   Einzelleistung:
     art: schriftliche Ausarbeitung (100%)
     erstpruefer: hg
-    zweitpruefer: 
+    zweitpruefer: mwinter
+    datum: Nach Vereinbarung
 ---
 
 ## Kurzbeschreibung
