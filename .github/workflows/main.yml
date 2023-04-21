@@ -32,9 +32,9 @@ jobs:
       - name: 🚀 Deploy
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
           script: |
              mkdir 'public/' '/usr/home/mi-labor/public_html_2/'
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWOR }}
 #            rsync -avz --delete -e 'ssh' 'public/' '/usr/home/mi-labor/public_html_2/'
