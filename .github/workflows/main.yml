@@ -35,6 +35,8 @@ jobs:
           script: |
              mkdir 'public/' '/usr/home/mi-labor/public_html_2/'
           host: ${{ secrets.REMOTE_HOST }}
-          username: ${{ secrets.USERNAME }}
+          username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.PASSWORD }}
+          
+
 #            rsync -avz --delete -e 'ssh' 'public/' '/usr/home/mi-labor/public_html_2/'
