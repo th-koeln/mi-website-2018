@@ -30,4 +30,4 @@ jobs:
           echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
 
       - name: 🚀 Deploy
-        run: rsync -avz --delete -e 'ssh' 'public/' '/home/mi-labor/public_html_2/'
+        run: rsync -avz --delete -e 'ssh' 'public/' '/usr/home/mi-labor/public_html_2/'
