@@ -34,6 +34,6 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
           script: |
             rsync -avz --delete -e 'ssh' 'public/' '/usr/home/mi-labor/public_html_2/'
