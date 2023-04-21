@@ -33,7 +33,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           script: |
-             mkdir 'public/' '/usr/home/mi-labor/public_html_2/'
+             mkdir '/usr/home/mi-labor/public_html_2/'
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
