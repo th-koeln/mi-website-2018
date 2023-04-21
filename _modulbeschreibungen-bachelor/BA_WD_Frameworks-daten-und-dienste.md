@@ -20,12 +20,12 @@ studienleistungen:
   Einzelleistung:
     art: Mündliche Prüfung
     erstpruefer: dbreuer
-    zweitpruefer: maa
+    zweitpruefer: mfaske
     datum: ende
   Teamleistung:
     art: Projektarbeit
     erstpruefer: dbreuer
-    zweitpruefer: maa
+    zweitpruefer: mfaske
     datum: ende
 ---
 
