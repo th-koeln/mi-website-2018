@@ -12,10 +12,9 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.PRIVATE_SSH_KEY }}
         port: ${{ secrets.PORT }}
         debug: true
-        use_insecure_cipher: true
         script: whoami  
 #
 #      - name: 🛒 Checkout
