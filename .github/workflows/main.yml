@@ -15,7 +15,8 @@ jobs:
         key: ${{ secrets.PRIVATE_SSH_KEY }}
         port: ${{ secrets.PORT }}
         debug: true
-        script: whoami  
+        script: whoami
+        use_insecure_cipher: true
 #
 #      - name: 🛒 Checkout
 #        uses: actions/checkout@v2
