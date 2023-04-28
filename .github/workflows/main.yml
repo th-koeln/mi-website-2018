@@ -8,15 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
+      uses: garygrossgarten/github-action-ssh@release
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         debug: true
-        script: whoami
-        use_insecure_cipher: true
+        command: whoami
 #
 #      - name: 🛒 Checkout
 #        uses: actions/checkout@v2
