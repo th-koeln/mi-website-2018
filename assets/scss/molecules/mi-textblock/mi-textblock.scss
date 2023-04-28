@@ -6,6 +6,27 @@
     p + figure {
       padding-top: $bfs-xl;
     }
+
+    dl{
+      margin-bottom: $fluid-s;
+    }
+
+    dt{
+      display: block;
+      float: left;
+      min-width: $fluid-s;
+      padding: 0;
+      padding-top: 0;
+      font-weight: 700;
+      color: $mi-lila;
+
+      &::after {
+        content: ":";
+        display: inline-block;
+        padding-right: .3rem;
+      }
+    }
+
 }
 
 

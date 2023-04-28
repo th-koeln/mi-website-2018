@@ -70,6 +70,8 @@ $lh-loose: 150%;
 
 // Abstände
 // ---------
+$xs: $bfs/2;
+$s: $bfs* 0.75;
 $m: $bfs;
 $l: $bfs-l;
 $fluid-xs: calc(1rem + 2vw);
