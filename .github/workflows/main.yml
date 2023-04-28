@@ -7,14 +7,15 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: 🚀 Deploy
-        uses: appleboy/ssh-action@v0.1.10
-        with:
-          host: ${{ secrets.REMOTE_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          port: ${{ secrets.SSH_PORT }}          
-          script: whoami    
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: whoami  
+#
 #      - name: 🛒 Checkout
 #        uses: actions/checkout@v2
 #
