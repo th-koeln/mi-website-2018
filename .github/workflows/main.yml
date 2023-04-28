@@ -15,6 +15,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         debug: true
+        use_insecure_cipher: true
         script: whoami  
 #
 #      - name: 🛒 Checkout
