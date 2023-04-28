@@ -12,14 +12,8 @@ voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte (CP)
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung
-typ: pm
+typ: pmc
 veranstaltungsform: 
-studienleistungen:
-  Einzelleistung:
-    art: Schriftliche Ausarbeitung, Projektdokumentation
-    erstpruefer: all
-    zweitpruefer: mas
-    datum: vereinbarung
 ---
 
 ## Lehrform/SWS

@@ -5,7 +5,11 @@ layout: default
 {% assign alle_fachsemester = "1,2,3,4,5,6"|split: "," %}
 {% assign cps = 0 %}
 
-{% assign pflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","pm" %}
+{% assign pflichtmodule_container = site.modulbeschreibungen-bachelor|where:"typ","pmc" %}
+{% assign pflichtmodule_single = site.modulbeschreibungen-bachelor|where:"typ","pm" %}
+{% assign pflichtmodule = pflichtmodule_container|concat: pflichtmodule_single %}
+
+
 {% assign teilmodule = site.modulbeschreibungen-bachelor|where:"typ","tm"|sort:'title' %}
 {% assign wahlpflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","wpm" %}
 {% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %}
@@ -61,6 +65,28 @@ layout: default
 						{{studienleistungen_html}}
 					</td>
 				</tr>
+				{% assign submodule = teilmodule|where:"parent",modulbeschreibung.kuerzel|sort:'title' %}
+				{% assign count = 1 %}
+				{% for submodul in submodule %}
+				{% include /functions/resolve-names.html modulverantwortlich=submodul.modulverantwortlich %}
+				{% include /functions/resolve-contact.html modulverantwortlich=submodul.modulverantwortlich %}
+				<tr data-fs="{{fachsemester}}" data-verantwortlich="{{modulverantwortlicheEmail}}"
+					class="is-tight {% if count == kurse.size %}last-item{%endif%}">
+					<td></td>
+
+					<td class="is-small"><a href="{{site.baseurl}}{{submodul.url}}">{{submodul.title}}</a>
+						<p>{{modulverantwortliche}}</p>
+					</td>
+					<td class="is-small">{{submodul.kuerzel}}</td>
+					<td class="is-small">{{submodul.kreditpunkte}}</td>
+					<td class="is-small">
+						{% assign studienleistungen=submodul.studienleistungen %}
+						{% include /functions/format-studienleistungen.html studienleistungen=studienleistungen %}
+						{{studienleistungen_html}}
+					</td>
+				</tr>
+				{% assign count = count |plus: 1 %}
+				{% endfor %}
 				{% endfor %}
 
 				{% if fachsemester == "4" %}

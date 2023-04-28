@@ -12,7 +12,7 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik
 published: true
 layout: modulbeschreibung
-typ: vpm
+typ: pmc
 veranstaltungsform: 
 infourl: https://ilu.th-koeln.de/goto.php?target=crs_51539&client_id=thkilu
 ---
