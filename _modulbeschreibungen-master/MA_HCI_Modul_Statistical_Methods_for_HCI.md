@@ -42,11 +42,7 @@ Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatisti
 
 ## Inhalt
 
-Statistische Kennwerte, Merkmalsverteilungen, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Konfidenzintervalle, Fehlertypen, Effektstärken und Power. ANOVA, Korrelationen, Varianzanalytische und Multivariate Verfahren.
-
-
-
-Multivariate Verfahren (ein- und mehrfaktorielle Varianzanalysen und entsprechendes Forschungsdesign.
+Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Korrelationen, Varianzanalytische und Multivariate Verfahren.
 
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben
