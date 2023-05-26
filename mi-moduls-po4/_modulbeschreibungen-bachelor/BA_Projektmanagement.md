@@ -20,6 +20,7 @@ studienleistungen:
     art: Projekt-Ausarbeitung (30%), Vortrag (30%), Schriftliche Prüfung (40%)
     erstpruefer: hg, mw
     zweitpruefer: hg, mw
+    datum: vereinbarung
 ---
 
 ## Kurzbeschreibung

@@ -20,6 +20,7 @@ studienleistungen:
     art: Projekt, Projektdokumentation und Meilensteinpräsentationen
     erstpruefer: gh, hk, mbluemm, cn
     zweitpruefer: 
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS

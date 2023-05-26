@@ -1,0 +1,29 @@
+{% assign termin = include.termin  %}
+{% assign s = termin | size %}
+{% assign termine = termin | split: ", " %}
+{% assign anzahl_termine = termine | size %}
+
+{% if s > 0 %}
+    {% if anzahl_termine > 1 %}
+        {% assign resolved_pruefungstermin = "" %}
+        {% for termin in termine %}
+            {% if site.data.pruefungstermine[termin].name %}
+                {% assign resolved_pruefungstermin = resolved_pruefungstermin | append: site.data.pruefungstermine[termin].name | append: " & " %}
+            {% else %}
+                {% assign resolved_pruefungstermin = resolved_pruefungstermin | append: termin | append: ", " %}
+            {% endif %}
+        {% endfor %}
+        {% assign size = resolved_pruefungstermin | size | minus: 2 %}
+        {% assign resolved_pruefungstermin = resolved_pruefungstermin | slice: 0, size %}
+
+    {% else %}
+        {% if site.data.pruefungstermine[termin].name %}
+        {% assign resolved_pruefungstermin = site.data.pruefungstermine[termin].name %}
+        {% else %}
+        {% assign resolved_pruefungstermin = termin %}
+        {% endif %}
+    {% endif %}
+
+{% else %}
+    {% assign resolved_pruefungstermin = "unbekannt" %}
+{% endif %}

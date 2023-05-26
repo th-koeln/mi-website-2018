@@ -21,6 +21,7 @@ studienleistungen:
     art: schriftliche Ausarbeitung (100%)
     erstpruefer: ck
     zweitpruefer: 
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS

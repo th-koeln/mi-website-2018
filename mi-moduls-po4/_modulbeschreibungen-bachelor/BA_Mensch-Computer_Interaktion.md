@@ -19,7 +19,8 @@ studienleistungen:
   Einzelleistung:
     art: individuelles Lernportfolio
     erstpruefer: rog
-    zweitpruefer: ck
+    zweitpruefer: gh
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS

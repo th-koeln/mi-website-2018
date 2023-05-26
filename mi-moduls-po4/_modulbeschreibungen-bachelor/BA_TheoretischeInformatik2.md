@@ -20,6 +20,7 @@ studienleistungen:
     art: Schriftliche Prüfung
     erstpruefer: il
     zweitpruefer: hls
+    datum: ss-2
 ---
 
 ## Lehrform/SWS

@@ -20,6 +20,7 @@ studienleistungen:
     art: Schriftliche Prüfung via ILIAS eAssessment
     erstpruefer: moe
     zweitpruefer: tk
+    datum: ws-2    
 ---
 
 ## Lehrform/SWS

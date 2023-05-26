@@ -19,10 +19,14 @@ parent: VC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, in Ausnahmefällen mündliche Online-Prüfung
+    art: mündliche Prüfung
     erstpruefer: hk
     zweitpruefer: simonporten
+    datum: ss-1, ss-2, ws-2
 ---
+
+## zusätzlicher Prüfungstermin
+Es wird eine vorgezogene Prüfung, zusätzlich zu den  direkt nach den Blockveranstaltungen am 21. April 2023 angeboten.
 
 ## Lehrform/SWS
 36h Vorlesung; 36h Praktikum / Projekt; 78h Selbstlernphase 

@@ -21,10 +21,12 @@ studienleistungen:
     art: Lernportfolio
     erstpruefer: ck
     zweitpruefer: mbluemm, uwm
+    datum: ende
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: ck
     zweitpruefer: mbluemm, uwm 
+    datum: ende
 ---
 
 ## Lehrform/SWS

@@ -19,6 +19,7 @@ studienleistungen:
     art: Schriftliche Ausarbeitung, ggf. Projektarbeit mit entsprechenden Artefakten.
     erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
+    datum: antrag
 ---
 
 ## Lehrform/SWS

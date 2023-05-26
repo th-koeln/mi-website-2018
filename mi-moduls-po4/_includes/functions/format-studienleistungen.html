@@ -2,18 +2,23 @@
 {% capture studienleistungen_html %}
 
 {% for studienleistung in studienleistungen %}
-  <strong>{{studienleistung[1].art}}:</strong> 
+  <strong>{{studienleistung[1].art}}:</strong>
   {% assign erstpruefer = studienleistung[1].erstpruefer|downcase %}
   {% include /functions/resolve-names.html verantwortlich=erstpruefer %}
-  Erstprüfer {{verantwortliche}} // 
+  Prüfer:in {{verantwortliche}} //
   {% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}
   {% include /functions/resolve-names.html verantwortlich=zweitpruefer %}
-  Zweitprüfer bzw. Beisitzer {{verantwortliche}}<br>
+  {% if verantwortliche != "" %}
+  Zweitprüfer bzw. Beisitzer {{verantwortliche}} //
+  {% endif %}
+  {% assign pruefungstermin = studienleistung[1].datum|downcase %}
+  {% include /functions/resolve-pruefungstermine.html termin=pruefungstermin %}
+  Prüfungstermin: {{resolved_pruefungstermin}}<br>
 {% endfor %}
 
 {% endcapture %}
 
-{% capture studienleistungen_text %}{% for studienleistung in studienleistungen %}{{studienleistung[1].art}}:{% assign erstpruefer = studienleistung[1].erstpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=erstpruefer %} Erstprüfer {{verantwortliche}} {% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=zweitpruefer %}Zweitprüfer bzw. Beisitzer {{verantwortliche}}; {% endfor %}{% endcapture %}
+{% capture studienleistungen_text %}{% for studienleistung in studienleistungen %}{{studienleistung[1].art}}: {% assign erstpruefer = studienleistung[1].erstpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=erstpruefer %} Erstprüfer {{verantwortliche}} {% assign zweitpruefer = studienleistung[1].zweitpruefer|downcase %}{% include /functions/resolve-names.html verantwortlich=zweitpruefer %}Zweitprüfer bzw. Beisitzer {{verantwortliche}}; {% endfor %}{% endcapture %}
 
 {% capture studienleistungen_art_text %}{% for studienleistung in studienleistungen %}{{studienleistung[1].art}}, {% endfor %}{% endcapture %}
 

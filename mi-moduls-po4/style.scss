@@ -367,8 +367,16 @@ pre code{
 	margin-bottom: $bfs * 2;
 }
 
+.content{
+	h3.module-title{
+		font-size: $bfs * 0.8;
+		margin-bottom: $bfs * 0.25;
+	}
+}
+
 .studienverlaufsplan{
 	font-size: smaller;
+	
 	th, td{
 		padding: 0 2px !important;
 	}

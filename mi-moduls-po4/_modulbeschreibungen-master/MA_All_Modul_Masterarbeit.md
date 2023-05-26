@@ -15,7 +15,8 @@ studienleistungen:
   Einzelleistung:
     art: siehe Prüfungsordnung
     erstpruefer: ck
-    zweitpruefer: 
+    zweitpruefer: gh
+    datum: antrag
 ---
 
 ## Kurzbeschreibung

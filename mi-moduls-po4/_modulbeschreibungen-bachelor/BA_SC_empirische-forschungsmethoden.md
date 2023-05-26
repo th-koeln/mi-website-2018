@@ -18,13 +18,15 @@ parent: SC
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio
+    art: Projektarbeit
     erstpruefer: mbluemm
     zweitpruefer: ck, uwm, simonschulte
+    datum: ende
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: mbluemm
     zweitpruefer: ck, uwm, simonschulte 
+    datum: ende
 ---
 
 ## Lehrform/SWS

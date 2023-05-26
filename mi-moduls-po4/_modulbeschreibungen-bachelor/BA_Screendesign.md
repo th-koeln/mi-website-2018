@@ -20,10 +20,12 @@ studienleistungen:
     art: Gestaltungsportfolio
     erstpruefer: cn
     zweitpruefer: vos
+    datum: vereinbarung
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: cn
     zweitpruefer: vos
+    datum: ende
 ---
 
 ## Lehrform/SWS

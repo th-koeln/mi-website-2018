@@ -19,6 +19,7 @@ studienleistungen:
     art: Mündliche Prüfung, Vortrag, Fachgespräch
     erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
+    datum: antrag
 ---
 
 ## Lehrform/SWS

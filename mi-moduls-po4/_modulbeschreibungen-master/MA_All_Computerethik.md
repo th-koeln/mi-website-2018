@@ -14,9 +14,10 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Fachvortrag mit Diskussion (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: mbluemm
     zweitpruefer: ck
+    datum: 19.07.23
 ---
 
 ## Lehrform/SWS

@@ -21,6 +21,7 @@ studienleistungen:
     art: Schriftliche Prüfung
     erstpruefer: cn
     zweitpruefer: vos
+    datum: 21.09.2023
 ---
 ## Aufwand
 60h Vorlesung/ Seminar; 90h Selbstlernphase

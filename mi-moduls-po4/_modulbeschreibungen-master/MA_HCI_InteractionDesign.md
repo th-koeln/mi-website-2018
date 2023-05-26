@@ -22,6 +22,7 @@ studienleistungen:
     art: Projektarbeit
     erstpruefer: gh
     zweitpruefer: nkuhn
+    datum: ende
 ---
 
 ## Lehrform/SWS

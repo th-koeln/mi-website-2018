@@ -20,6 +20,7 @@ studienleistungen:
     art: mündlicher Beitrag (Präsentation)
     erstpruefer: dgaida
     zweitpruefer: 
+    datum: ende
 ---
 
 

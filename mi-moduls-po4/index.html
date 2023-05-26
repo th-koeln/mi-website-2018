@@ -5,7 +5,10 @@ layout: default
 {% assign alle_fachsemester = "1,2,3,4,5,6"|split: "," %}
 {% assign cps = 0 %}
 
-{% assign pflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","pm" %}
+{% assign pflichtmodule_container = site.modulbeschreibungen-bachelor|where:"typ","pmc" %}
+{% assign pflichtmodule_single = site.modulbeschreibungen-bachelor|where:"typ","pm" %}
+{% assign pflichtmodule = pflichtmodule_container|concat: pflichtmodule_single %}
+
 {% assign teilmodule = site.modulbeschreibungen-bachelor|where:"typ","tm" %}
 {% assign wahlpflichtmodule = site.modulbeschreibungen-bachelor|where:"typ","wpm" %}
 {% assign vertiefungsmodule = site.modulbeschreibungen-bachelor|where:"typ","vpm" %} 
@@ -42,7 +45,7 @@ layout: default
 					{% assign cps = cps|plus: modulbeschreibung.kreditpunkte %}
 					<tr>
 						<td>
-							<a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a>
+							<h3 class="module-title"><a href="{{site.baseurl}}{{modulbeschreibung.url}}">{{modulbeschreibung.title}}</a></h3>
 							
 							{% assign check = modulbeschreibung.studienleistungen|strip_newlines %}
 							{% if check != ""  %}

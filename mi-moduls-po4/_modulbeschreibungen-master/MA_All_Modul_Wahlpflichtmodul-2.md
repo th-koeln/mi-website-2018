@@ -18,7 +18,8 @@ studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
     erstpruefer: 
-    zweitpruefer: 
+    zweitpruefer:
+    datum: ende
 ---
 
 ## Kurzbeschreibung

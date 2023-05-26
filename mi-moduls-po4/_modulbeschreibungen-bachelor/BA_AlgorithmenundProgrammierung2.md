@@ -21,6 +21,7 @@ studienleistungen:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: ck
     zweitpruefer: ald
+    datum: ss-2
 ---
 
 ## Lehrform/SWS

@@ -1,7 +1,7 @@
 ---
-title: Sketching and Designing for User Experience
+title: Psychophysik multimodaler Benutzungsschnittstellen
 modulverantwortlich: gh
-kuerzel: SUE
+kuerzel: PPMB
 studiensemesterWs: 1
 studiensemesterSs: 2
 sprache: deutsch
@@ -19,8 +19,9 @@ published: false
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
-    zweitpruefer: 
+    erstpruefer: gh
+    zweitpruefer: nkuhn
+    datum: vereinbarung
 ---
 
 ## Lehrform/SWS
@@ -30,21 +31,36 @@ studienleistungen:
 ## Arbeitsaufwand
 Gesamtaufwand 180 Stunden, davon
 - 36h Vorlesung
-- 36h Übung / Projekt
-- 108h Selbststudium
+- 36h Selbststudium
+- 108h Projekt
 
 
 
 ## Angestrebte Lernergebnisse
-Die Studierenden sind in der Lage de- und präskriptiv Nutzer- oder deren nutzungsbezogene Sachverhalte oder Situationen mit einem umfänglichen Vokabular visuell-graphisch adäquat für verschiedene Stakeholder auszudrücken. Sie können kognitive und emotionale Schemata identifizieren, analysieren, modellieren und aus den Modellen Designlösungen für interaktive Systeme generieren und skizzieren.
+Die Studierenden kennen die Physiologie der visuellen, auditiven und takil/haptischen Sensorik, sie kennen grundlegende psychopysikalische Gesetzmässigkeiten und können diese in Bezug auf die Gestaltung physikalischer Stimuli und deren perzeptuellen Wirkungen anwenden und interpretieren. Sie kennen die Wahrnehmungsschwellen, die verschiedenen perzeptuellen Skalen und Metriken sowie verschiedene Perzeptionskategorien (z.B. „Klangfarbe“, etc.) für die verschiedenen sensorischen Kanäle 
+und können diese in Bezug auf Designziele für multimodale Interaktionsformen, Kontextparameter (Umgebungshelligkeit, Umgebungsgeräusche, …) sowie individuelle psychologische Parameter (hier insbesondere Aufmerksamkeitsparameter) setzen und abschätzen/evaluieren. Die Studierenden 
+kennen gängige psychophysikalische Untersuchungs- bzw. Erhebungs-Methoden, können diese für designpraktische Fragestellungen anwenden, Ergebnisse angemessen interpretieren und kritisch einordnen.
+
 
 
 ## Inhalt
-- User Experience Modelle
-- Sketching Techniken
-- Storyboards
-- Empathy maps
-- Prototyping
+Physiologie der Sinne
+- visuell
+- auditiv
+- taktil
+
+Grundlagen der Psychophysik
+- Gesetzmässigkeiten (Weber, Fechner, Stevens)
+- Schwellen (Absolutschwellen, Unterschiedsschwellen, JND, Verdeckungsschwellen, Maskierung, etc.)
+- Skalen, Metriken, Perzeptionskategorien
+
+
+Erhebungsmethoden
+- Methode der Herstellung
+- Methode der konstanten Reize
+- Adaptive Methode
+- SNP
+- AFC
 
 
 ## Studien-/Prüfungsleistungen
@@ -52,12 +68,12 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 - Projektpräsentationsprüfung (100%)
 
 ## Medienformen
-- Lehrfilme,
-- Case Studies
 - ebooks
+- Publikationen
 
 
 ## Literatur
-- Bill Buxton “Sketching User Experience”, Focal Press, 2007
-- Saul Greenberg, Bill Buxton et al. “Sketching User Experiences: The workbook”, Elsevier, 2012
-- Snyder, Carolyn, „Paper Prototyping“, Morgan Kaufman Publishers, 2003
+- J. Roederer, „The Physics and Psychophysics of Music“, Springer, 4th ed., 2009
+- S. Grondin, „Psychology of Perception, Springer, 2016
+- C. Hatzfeld et al., „Engineering Haptic Devices“, Springer, 3rd. ed, 2023
+- …..

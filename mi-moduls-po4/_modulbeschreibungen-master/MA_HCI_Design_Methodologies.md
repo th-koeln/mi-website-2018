@@ -14,13 +14,14 @@ infourl:
 layout: modulbeschreibung
 typ: spm
 parent: SPM1
-schwerpunkt: hci
+schwerpunkt: hci, sc
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
-    zweitpruefer: nkuhn
+    zweitpruefer: gh
+    datum: ende
 ---
 
 ## Lehrform/SWS

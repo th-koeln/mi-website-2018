@@ -21,10 +21,12 @@ studienleistungen:
     art: Projektarbeit (mit Präsentation)
     erstpruefer: uwm
     zweitpruefer: mbluemm, ck
+    datum: ende
   Teamleistung:
     art: Projekt- und Projektpräsentationsprüfung
     erstpruefer: uwm
     zweitpruefer: mbluemm, ck, simonschulte
+    datum: ende
 ---
 
 ## Lehrform/SWS

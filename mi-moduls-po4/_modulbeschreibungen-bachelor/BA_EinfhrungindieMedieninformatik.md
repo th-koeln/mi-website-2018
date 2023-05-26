@@ -18,9 +18,9 @@ infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_F
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
-    erstpruefer: hk, gh, cn, mbl
+    erstpruefer: hk, nkuhn, cn, mbl
     zweitpruefer: uwm, vos, maa, simonschulte
-
+    datum: ende
 ---
 
 ## Lehrform/SWS
