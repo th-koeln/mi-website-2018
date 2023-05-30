@@ -14,7 +14,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: siehe Prüfungsordnung
-    erstpruefer: ck
+    erstpruefer: all
     zweitpruefer: 
 ---
 
