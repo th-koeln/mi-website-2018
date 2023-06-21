@@ -131,7 +131,7 @@ Kein Problem :) Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, a
 
 </div>
 
-Darüber hinaus gibt es noch ein großes Beratungsangebot von der [Zentralen Studienberatung der TH Köln](https://www.th-koeln.de/studium/beratung_165.php). Wenn Sie grundsätzlich an einem Informatik Studiengang am [Campus Gummersbach](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/) interessiert sind, aber noch nicht sicher sind, welcher Informatik Studiengang der richtige sein könnte, wenden Sie sich doch an [Prof. Dr. Johann Schaible](https://www.th-koeln.de/personen/johann.schaible/) der Sie hierzu über alle Informatik Studiengänge hinweg beraten kann.
+Darüber hinaus gibt es noch ein großes Beratungsangebot von der [Zentralen Studienberatung der TH Köln](https://www.th-koeln.de/studium/beratung_165.php). Wenn Sie grundsätzlich an einem Informatik Studiengang am [Campus Gummersbach](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/) interessiert sind, aber noch nicht sicher sind, welcher Informatik Studiengang der richtige sein könnte, wenden Sie sich doch an unseren Studienberater [Prof. Dr. Johann Schaible](https://www.th-koeln.de/personen/johann.schaible/), der Sie hierzu über alle Informatik Studiengänge hinweg beraten kann.
 
 <hr class="has-seperator has-extra-head-space has-seperator--dotted has-seperator--lila">
 
