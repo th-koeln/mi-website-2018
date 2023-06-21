@@ -6,7 +6,7 @@ id: "master"
 selectKey: "studiensemesterws"
 semester: 1,2,3,4
 additionalContent: 
-  - "kickoff"
+  - "bewerbung"
   - "schwerpunkte"
   - "studienverlaufsplan"
   - "moduls"
