@@ -92,11 +92,11 @@ layout: faq
 
 ## Klingt gar nicht schlecht, aber ich hab noch ein paar Fragen
 
-Kein Problem :) Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, als auch der Studiengangsleiter zur Verfügung. Die Mentoren haben selbst den Medieninformatik Bachelor abgeschlossen und können daher sehr gut Fragen zu den verschiedenen Modulen und Inhalten beantworten. 
+Kein Problem :) Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, als auch die Studiengangsleiter zur Verfügung. Die Mentoren haben selbst den Medieninformatik Bachelor abgeschlossen und können daher sehr gut Fragen zu den verschiedenen Modulen und Inhalten beantworten. 
 
 
 
-<div class="mi-grid mi-grid--3-cols has-extra-head-space">
+<div class="mi-grid mi-grid--2-cols has-extra-head-space">
   <div class="m-mi-avatar-mit-text">
     <div class="m-mi-avatar" style="background-image:url(/img/mentoren/mario-faske.jpg)"></div>
     <header class="m-mi-avatar-mit-text__text">
@@ -117,13 +117,21 @@ Kein Problem :) Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, a
     <div class="m-mi-avatar" style="background-image:url(/img/professoren/noss.png)"></div>
     <header class="m-mi-avatar-mit-text__text">
       <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/christian.noss/">Prof. Christian Noss</a></h3>
-      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter</h4>
+      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Bachelor</h4>
+    </header>
+  </div>
+  
+  <div class="m-mi-avatar-mit-text">
+    <div class="m-mi-avatar" style="background-image:url(/img/professoren/boehmer.jpg)"></div>
+    <header class="m-mi-avatar-mit-text__text">
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/matthias.boehmer/">Prof. Dr. Matthias Böhmer</a></h3>
+      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Master</h4>
     </header>
   </div>
 
 </div>
 
-Darüber hinaus gibt es noch ein großes Beratungsangebot von der [Zentralen Studienberatung der TH Köln](https://www.th-koeln.de/studium/beratung_165.php). Wenn Sie grundsätzlich an einem Informatik Studiengang am [Campus Gummersbach](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/) interessiert sind, aber noch nicht sicher sind, welcher Informatik Studiengang der richtige sein könnte, wenden Sie sich doch an [Prof. Dr. Frank Victor](https://www.th-koeln.de/personen/frank.victor/) der Sie hierzu über alle Informatik Studiengänge hinweg beraten kann.
+Darüber hinaus gibt es noch ein großes Beratungsangebot von der [Zentralen Studienberatung der TH Köln](https://www.th-koeln.de/studium/beratung_165.php). Wenn Sie grundsätzlich an einem Informatik Studiengang am [Campus Gummersbach](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/) interessiert sind, aber noch nicht sicher sind, welcher Informatik Studiengang der richtige sein könnte, wenden Sie sich doch an [Prof. Dr. Johann Schaible](https://www.th-koeln.de/personen/johann.schaible/) der Sie hierzu über alle Informatik Studiengänge hinweg beraten kann.
 
 <hr class="has-seperator has-extra-head-space has-seperator--dotted has-seperator--lila">
 
