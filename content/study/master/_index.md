@@ -6,13 +6,13 @@ id: "master"
 selectKey: "studiensemesterws"
 semester: 1,2,3,4
 additionalContent: 
-  - "kickoff"
+  - "bewerbung"
   - "schwerpunkte"
   - "studienverlaufsplan"
   - "moduls"
 ---
 
-Der Master Studiengang ist postgradual, d.h. zur Zulassung ist ein erfolgreich abgeschlossener grundständiger Studiengang erforderlich, z.B. der Medieninformatik Bachelor. Der Medieninformatik Master ist auf vier Fachsemester ausgelegt und schließt mit dem Master of Science ab. Klingt gut, oder?
+Der Master Medieninformatik ist ein projektorientierter Studiengang mit einer hohen Wahlfreiheit für eigene Spezialisierungen in 5 Schwerpunkten. Im 2-jährigen Studium finden drei große Projekte statt, die an typische Entwicklungszyklen angelehnt sind. Die Studierenden ergänzen ihr individuelles Profil mit drei frei wählbaren Modulen aus verschiedenen Bereichen der Informatik und angrenzenden Gebieten.
 
 <!--more-->
 

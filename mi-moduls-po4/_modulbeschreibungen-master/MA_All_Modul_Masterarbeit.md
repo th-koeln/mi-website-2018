@@ -14,9 +14,14 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: siehe Prüfungsordnung
+<<<<<<< HEAD
     erstpruefer: ck
     zweitpruefer: gh
     datum: antrag
+=======
+    erstpruefer: all
+    zweitpruefer: 
+>>>>>>> b4d3c5f7b22b2bf0573eedb74492e0cf6bce4dda
 ---
 
 ## Kurzbeschreibung
