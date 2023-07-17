@@ -2,7 +2,7 @@
 datum: "2023-09-25T10:00:00"
 title: "Vorkurs Code & Connect"
 linkTitle: "Vorkurs Code & Connect"
-termin: 25. August 2023 bis 28 August 2023, 10:00 Uhr
+termin: 25. September 2023 bis 28. September 2023, 10:00 Uhr
 ---
 
 Der Vorkurs *Code & Connect* richtet sich an Studienanfängerinnen, die zum Wintersemester ein Bachelorstudium der Medieninformatik am Campus Gummersbach der TH Köln beginnen.
