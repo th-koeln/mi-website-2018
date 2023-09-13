@@ -1,6 +1,6 @@
 ---
 title: Theoretische Informatik 2
-modulverantwortlich: il
+modulverantwortlich: fn
 modulniveau: bachelor
 kuerzel: TI2
 untertitel:
@@ -18,7 +18,7 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
-    erstpruefer: il
+    erstpruefer: fn
     zweitpruefer: hls
     datum: ss-2
 ---
