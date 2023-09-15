@@ -509,6 +509,13 @@ christinawerner:
     personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
     email: 'christina.werner@th-koeln.de'
     mi: false
+fn:
+    id: fn
+    status: prof
+    name: 'Prof. Dr. Florian Niebling'
+    personenseite: 'https://www.th-koeln.de/personen/florian.niebling/'
+    avatar: ''
+    email: 'florian.niebling@th-koeln.de'
 eingesetzterPruefer:
     id: eingesetzterPruefer
     name: vom Prüfungsausschuss eingesetzte\:r Prüfer\:in
