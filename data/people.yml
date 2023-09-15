@@ -12,6 +12,13 @@ moe:
     avatar: '/img/professoren/engelen.png'
     personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
     mi: true
+fn:
+    id: fn
+    status: prof
+    name: 'Prof. Dr. Florian Niebling'
+    personenseite: 'https://www.th-koeln.de/personen/florian.niebling/'
+    avatar: '/img/professoren/niebling.jpg'
+    email: 'florian.niebling@th-koeln.de'
 pb:
     id: pb
     status: wma
