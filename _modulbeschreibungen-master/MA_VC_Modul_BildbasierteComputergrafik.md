@@ -1,6 +1,6 @@
 ---
 title: Bildbasierte Computergrafik
-modulverantwortlich: mag
+modulverantwortlich: fn
 kuerzel: BCG
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -14,30 +14,28 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM2
 schwerpunkt: vc
-infourl: 
+infourl: https://ilu.th-koeln.de/ilias.php?ref_id=87680&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=xp&baseClass=ilRepositoryGUI
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (40%), schriftlicher Projektbericht (60%)
-    erstpruefer: mag
+    art: Fachvortrag (40%), Projektumsetzung und Dokumentation (60%)
+    erstpruefer: fn
     zweitpruefer: hs
     datum: vereinbarung
 ---
 
 ## Kurzbeschreibung
-Diese Vorlesung gibt eine Einführung in die grundlegenden Konzepte der bildbasierten Modellierung und der bildbasierten Synthese, Techniken, auf denen z.B. viele moderne Film-Spezialeffekte basieren. 
+Diese Vorlesung gibt eine Einführung in die grundlegenden Konzepte der bildbasierten Synthese, mit besonderem Schwerpunkt auf Verfahren die für das Tracking in Augmented Reality Systemen zum Einsatz kommen.
 
-Dabei werden verschiedenste Aspekte der Bild- und Videobe- und -verarbeitung,  wie sie in modernen Bearbeitungstools vorkommen, erarbeitet und selbst implementiert. Die Teilnehmer erlernen die grundlegenden Konzepte der automatisierten Modellierung anhand von Fotos realer Objekte. Es werden Methoden zur Bildaufnahme, Bildverarbeitung und Bildsynthese erarbeitet. Die Studierenden sind bei erfolgreicher Teilnahme in der Lage, im Bereich Bild- und Videobearbeitung, sowie bildbasierter Modellierung, eigenständige Beiträge in Forschung und Wirtschaft leisten zu können.
+Dabei werden verschiedenste Aspekte der Bild- und Videoverarbeitung,  wie sie in modernen Bearbeitungstools vorkommen, erarbeitet und selbst implementiert. Es werden Methoden zur Bildaufnahme, Bildverarbeitung und Bildsynthese erarbeitet. Die Teilnehmenden sind in der Lage Augmented Reality Anwendungen zu entwerfen, zu implementieren und zu evaluieren und dadurch eigenständige Beiträge in Forschung und Wirtschaft zu leisten.
 
-## Lehrform/SWS 
+## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Praktikum / Projekt 2 SWS
 
-## Arbeitsaufwand 
+## Arbeitsaufwand
 Gesamtaufwand 180 Stunden, davon
 - 36h Vorlesung
 - 36h Praktikum / Projekt
 - 108h Selbststudium
-
-
 
 ## Angestrebte Lernergebnisse
 Nach erfolgreichem Abschluss
@@ -50,30 +48,25 @@ Nach erfolgreichem Abschluss
   - Kamerakalibrierungsverfahren erfolgreich einsetzen
   - Photogrammetriemethoden zur 3D Rekonstruktion einsetzen
   - Augmented Reality Anwendungen entwerfen und entwickeln
-  - Bildinterpolationsmethoden und ihre Herausforderungen kennen
-  - bildbasierte Darstellungsformen auswählen und anwenden (360° Panoramas, Lichtfelder, Morphing, Image-based Rendering)
 - sind die Studierenden somit in der Lage ihr Wissen und Verständnis einzusetzen, um Modelle, Systeme und Prozesse eigener Bild-, Video-, und Computer-Vision Applikationen zu konzipieren, umzusetzen und zu evaluieren.
 - haben Sie ihre Fähigkeit vertieft, sich eigenständig in neue Themenbereiche einzuarbeiten und Problemstellungen, Technologien und wissenschaftliche Erkenntnisse im Umfeld der bildbasierten Verfahren zu erkennen und sich in relevante Theorien, Methoden und Techniken, sowohl aus theoretischer als auch aus technischer Sichtweise, einzuarbeiten und das erworbene Wissen effizient in die Lösung aktueller und auch zukünftiger Frage- und Problemstellungen einzubringen und anzuwenden. Dies wird durch eigene Recherche, Vorträge und ein Abschlussprojekt realisiert.
 
 ## Inhalt
-- Filterverfahren: Lineare Filter (Box-, Gauss-, Sinc-), Nichtlineare Filter (Median, Vector-Median), kantenerhaltende Filter (Bilateral, Cross-Bilateral, Guided Image Filter), Kantendetektoren (Sobel, Laplace, Canny)
-- Segmentierungs- und Mattingverfahren (Mean-Shift, k-means, Spectral Clustering, Rotoscoping, etc.)
+- Filterverfahren: Lineare Filter (Box-, Gauss-, Sinc-), Kantendetektoren (Sobel, Laplace, Canny)
 - Feature Detektoren (Harris-Corner Detector, SIFT, SURF, etc.)
-- Kamerakalibrierung (Projektive Geometrie, Kameramodelle, Linsenverzerrung, Kalibrierungsalgorithmen, wie Bundle Adjustment) und Tracking Methoden
-- 3D Rekonstruktionsmethoden (Feature Matching, Stereo Rekonstruktion, Multi-View Rekonstruktion, Structured Light, Shape-from-Shading, Shape-from-X, etc.)
-- Warping und Morphing zur Bildinterpolation
-- Lichtfelder
-- Panorama und 360° Panorama Stitching
-- Python, C++ Programmierung
-
+- Robustes Feature Matching mittels RANSAC, inkrementelles Tracking
+- Kamerakalibrierung (Projektive Geometrie, Kameramodelle) und Tracking Methoden
+- Tiefenrekonstruktion und Verdeckung
+- Python, C# Programmierung
 
 ## Medienformen
-- Beamergestützte Vorlesung; 
+- Beamergestützte Vorlesung;
 - Praktika / Projekt in Kleingruppen, um die erlernten Methoden und Techniken einzuüben und zu vertiefen (Rechnerlabor)
 
 ## Literatur
+- Dieter Schmalstieg, Tobias Höllerer, Augmented Reality: Principles and Practice, Addison-Wesley Professional, 2016
 - Reinhard Klette, Concise Computer Vision: An introduction into theory and algorithms, Springer, 2014- Bernd Jähne, Digitale Bildverarbeitung und Bildgewinnung, Springer, 2012
 - Christian Demant, Bernd Streicher-Abel, Axel Springhoff, Industrielle Bildverarbeitung: Wie optische Qualitätskontrolle wirklich funktioniert, Springer, 2011
-- Reinhard Klette, Andreas Koshan, Karsten Schlüns, Computer Vision, Vieweg 1996 
-- Richard Hartley and Andrew Zisserman, Multiple View Geometry in Computer Vision, Cambridge 2000 
+- Reinhard Klette, Andreas Koshan, Karsten Schlüns, Computer Vision, Vieweg 1996
+- Richard Hartley and Andrew Zisserman, Multiple View Geometry in Computer Vision, Cambridge 2000
 - M. Magnor, Video-based Rendering, AK Peters, 2005

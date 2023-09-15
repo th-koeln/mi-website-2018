@@ -42,17 +42,13 @@ Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatisti
 
 ## Inhalt
 
-Merkmale und Skalen, univariante Häufigkeitsverteilungen, Lagemaße, Streuung und Schiefe, Konzentration, bivariate Häufigkeitsverteilungen und Kontingenz, Korrelations- und Regressionsanalyse, Verhältnis – und Indexzahlen.
-
-Diskrete und Stetige Verteilungen, Population und Parameterschätzung, parametrische und nichtparametrische Testverfahren, Konfidenzintervalle, Fehlertypen, Effektstärken und Power.
-
-Multivariate Verfahren (ein- und mehrfaktorielle Varianzanalysen und entsprechendes Forschungsdesign.
+Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Korrelationen, Varianzanalytische und Multivariate Verfahren.
 
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben
 
 ## Literatur
-- Statistik für Human- und Sozialwissenschaftler”; J. Bortz und C. Schuster, Springer, 2010
+- Statistik für Human- und Sozialwissenschaftler”; J. Bortz und C. Schuster, Springer, 7.te Auflage, 2010
 - "Modern Staistical Methods for HCI", Judy Robertson, Maurits Kaptein (Eds), Springer, 2016
 - “Deskriptive Statistik”; R. Kosfeld, H. Eckey, M. Türck; Springer,  2016
 - “Inferenzstatistik verstehen”; M. Janczyk, R. Pfister, Springer, 2013

@@ -1,6 +1,6 @@
 ---
 title: Theoretische Informatik 1
-modulverantwortlich: il
+modulverantwortlich: fn
 modulniveau: bachelor
 kuerzel: TI1
 untertitel:
@@ -14,11 +14,11 @@ published: true
 layout: modulbeschreibung
 typ: pm
 veranstaltungsform: 
-infourl: https://ilias.th-koeln.de/ilias.php?ref_id=692123&cmdClass=ilrepositorygui&cmdNode=w4&baseClass=ilrepositorygui
+infourl: https://ilu.th-koeln.de/ilias.php?ref_id=71293&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=xp&baseClass=ilRepositoryGUI
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
-    erstpruefer: il
+    erstpruefer: fn
     zweitpruefer: hls
     datum: ws-2
 ---
