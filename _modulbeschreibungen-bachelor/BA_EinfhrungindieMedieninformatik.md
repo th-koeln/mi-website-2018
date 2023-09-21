@@ -1,6 +1,6 @@
 ---
 title: Einführung in die Medieninformatik
-modulverantwortlich: cn, mbluemm, il, hk, gh, viet
+modulverantwortlich: mbluemm, viet, mboehmer, hk, il, fn, mfaske, nkuhn
 modulniveau: bachelor
 kuerzel: EMI
 untertitel:
@@ -14,12 +14,12 @@ published: true
 layout: modulbeschreibung
 typ: pm
 veranstaltungsform: Remote, Projektwoche vor Ort
-infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
+infourl: https://ilu.th-koeln.de/ilias.php?ref_id=71274&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=xp&baseClass=ilRepositoryGUI
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
-    erstpruefer: hk, nkuhn, cn, mbl
-    zweitpruefer: uwm, vos, maa, simonschulte
+    erstpruefer: mbluemm, viet
+    zweitpruefer: nkuhn, simonschulte, mfaske, maa
     datum: ende
 ---
 
