@@ -5,6 +5,9 @@ autor: Christian Noss
 linkTitle: "Externe:n studentische:n Gutachter:in gesucht"
 ---
 
+**Wir sind fündig geworden! Vielen Dank für den Support 🙌🏽**
+
+<del>
 Für die Reakkreditierung unserer Medieninformatik Studiengänge (Bachelor & Master) suchen wir noch eine:n externe:n studentische:n Gutachter:in. 
 
 Begutachtet werden müssen (jeweils für Bachelor und Master):
@@ -17,4 +20,4 @@ Die oder der Gutachter:in muss an einer anderen Hochschule studieren und sollte 
 
 Weitere Informationen finden Sie unter auf der TH Website unter [Studiengangentwicklung](https://www.th-koeln.de/hochschule/studiengangsentwicklung_53556.php).
 
-Bei Rückfragen wenden Sie sich bitte an [Christian Noss](https://www.th-koeln.de/personen/christian.noss/).
+Bei Rückfragen wenden Sie sich bitte an [Christian Noss](https://www.th-koeln.de/personen/christian.noss/).</del>
