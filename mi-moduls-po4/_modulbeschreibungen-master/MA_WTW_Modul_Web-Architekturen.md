@@ -37,7 +37,7 @@ Gesamtaufwand 180 Stunden, davon
 - 36h Seminar
 - 108h Selbststudium
 
-## Angestrebte Lernergebnisse
+## Learning Outcomes
 
 Die Studentinnen und Studenten
 
@@ -48,9 +48,16 @@ Die Studentinnen und Studenten
 
 ## Inhalt
 
-Softwarearchitekturen: Intermediäre Systeme, Caching, Content Delivery Networks, Web Application Firewalls, API Gateways, HTTP Streaming, Security
-
-Fallstudien: Anwendungen beispielsweise aus den Bereichen Open Data, Internet of Things, Cloud Services
+* Intermediäre Systeme
+  * Caching
+  * Content Delivery Networks
+  * Web Application Firewalls (WAF)
+  * Load Balancing
+  * API Gateways
+* HTTP Streaming
+* Websecurity
+* Open Data
+* Cloud Services
 
 ## Medienformen
 
