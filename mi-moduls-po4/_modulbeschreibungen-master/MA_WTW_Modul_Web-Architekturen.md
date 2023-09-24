@@ -24,7 +24,6 @@ studienleistungen:
 ---
 ## Kurzbeschreibung
 
-
 ## Lehrform/SWS
 
 4 SWS: Seminar 2 SWS; Projekt 2 SWS
@@ -39,12 +38,7 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Learning Outcomes
 
-Die Studentinnen und Studenten
-
-- können wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur im Kontext von eigenen Erfahrungen einordnen und erklären,
-- können Problemfelder im Bereich der Internet Governance kritisch analysieren und
-- können bestehende Web Anwendungen basierend auf den Konzepten der Software Architektur und der Internet Governance analysieren.
-  Diese Kommpetenzen sollen die Studentinnen und Studenten befähigen in leitender Funktion zur Gestaltung der Architektur von Projekten für das Web beizutragen.
+TBA
 
 ## Inhalt
 
@@ -52,12 +46,22 @@ Die Studentinnen und Studenten
   * Caching
   * Content Delivery Networks
   * Web Application Firewalls (WAF)
-  * Load Balancing
   * API Gateways
-* HTTP Streaming
-* Websecurity
-* Open Data
-* Cloud Services
+* Streaming im Web
+  * HTTP Streaming
+  * WebSockets Streaming
+  * WebRTC
+* Semantic Gap Angriffe
+  * Request Smuggling
+  * HTTP Desync
+  * CPDoS
+* Progressive Web Apps (PWA)
+* Event-Basierte Architekturen
+* HTTP1/HTTP2/HTTP3
+* Dezentrale Kommunikation mit Matrix Protokoll
+* Microfrontends
+* GraphQL
+* gRPC
 
 ## Medienformen
 
@@ -65,9 +69,4 @@ Präsentationsmaterialien
 
 ## Literatur
 
-- Ali Sunyaev: Internet Computing - Principles of Distributed Systems and Emerging Internet-Based Technologies, Springer 2020
-- R. Taylor et al.: Software Architecture - Foundations, Theory, and Practice, Wiley 2009
-- L. DeNardis: Protocol Politics, MIT Press 2009
-- L. DeNardis et al. (eds.): Researching Internet Governance - Methods, Franeworks, Futures, MIT Press 2020
-- F. Daniels et al.: Mashups: Concepts, Models, and Architectures, Springer 2014
-- M. Erder et al.: Continous Architecture - Sustainable Architecture in an Agile and Cloud Centric World, Morgan Kaufmann 2016
+TBA
