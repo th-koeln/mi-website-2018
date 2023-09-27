@@ -12,10 +12,10 @@ empfohleneVoraussetzungen: keine
 infourl: 
 layout: modulbeschreibung
 typ: wpm
-parent:
+parent: 
 schwerpunkt: hci
 infourl: 
-published: false
+published: true
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
