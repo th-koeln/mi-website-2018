@@ -17,7 +17,7 @@ parent: MIMP-E
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
+    art: Schriftliche Ausarbeitung (100%)
     erstpruefer: ck
     zweitpruefer: 
 ---
