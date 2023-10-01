@@ -8,7 +8,7 @@ sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: keine
+empfohleneVoraussetzungen: Algorithmen und Programmierung 1 (Bachelor), Alogrithmen und Programmierung 2 (Bachelor), Paradigmen der Programmierung (Bachelor), Kommunikationstechnik und Netze (Bachelor); Datenbanken (Bachelor); Grundlagen des Webs (Bachelor); Frameworks, Daten und Dienste im Web (Bachelor); Praktische IT-Sicherheit (Bachelor)
 published: true
 layout: modulbeschreibung
 
@@ -17,31 +17,39 @@ parent: SPM2
 schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio (50%), Projektarbeit (50%)
+    art: Fachgespräch (50%), Projektarbeit (50%)
     erstpruefer: viet
     zweitpruefer: cn
     datum: vereinbarung
 ---
 ## Kurzbeschreibung
 
+In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt. 
+
 ## Lehrform/SWS
 
-4 SWS: Seminar 2 SWS; Projekt 2 SWS
+4 SWS: Seminar 2 SWS, Workshop 2 SWS
 
 ## Arbeitsaufwand
-
-Gesamtaufwand 180 Stunden, davon
-
-- 36h Vorlesung
-- 36h Seminar
-- 108h Selbststudium
+Gesamtaufwand 180 Stunden, davon 
+- 36h Seminar 
+- 36h Workshop 
+- 108h Selbststudium 
 
 ## Learning Outcomes
 
-TBA
+Studierende können Architekturen für  Webanwendungen entwerfen indem sie
+
+* Architekturstile im Web analysieren und auswählen
+* über geeignete Technologien entscheiden und begründen
+* neues Wissen im Bereich Web Architekuren sich selber aneignen und
+* anderen Studierenden das elernte Wissen strukturiert vermitteln
+
+um später komplexe Web Architekturen mit hohen Qualitätsanforderungen zu entwickeln, implementieren und evaluieren.
 
 ## Inhalt
 
+* REST und seine Contraints
 * Intermediäre Systeme
   * Caching
   * Content Delivery Networks
@@ -51,17 +59,21 @@ TBA
   * HTTP Streaming
   * WebSockets Streaming
   * WebRTC
-* Semantic Gap Angriffe
-  * Request Smuggling
-  * HTTP Desync
-  * CPDoS
 * Progressive Web Apps (PWA)
 * Event-Basierte Architekturen
-* HTTP1/HTTP2/HTTP3
+* Serverless Architekturen
+* Sicherheit in REST-basierten Systemen
+  * OAuth/OpenID Connect
+  * HTTP Signaturverfahren
+  * Request Smuggling/HTTP Desync
+  * CPDoS
+* Protokolle im Web
+  * HTTP1/HTTP2/HTTP3
+  * QUIC
+  * GraphQL
+  * gRPC
 * Dezentrale Kommunikation mit Matrix Protokoll
-* Microfrontends
-* GraphQL
-* gRPC
+* ...
 
 ## Medienformen
 
