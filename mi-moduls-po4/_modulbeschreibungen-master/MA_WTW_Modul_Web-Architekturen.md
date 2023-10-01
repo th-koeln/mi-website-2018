@@ -8,7 +8,7 @@ sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: keine
+empfohleneVoraussetzungen: Algorithmen und Programmierung 1 (Bachelor), Alogrithmen und Programmierung 2 (Bachelor), Paradigmen der Programmierung (Bachelor), Kommunikationstechnik und Netze (Bachelor); Datenbanken (Bachelor); Grundlagen des Webs (Bachelor); Frameworks, Daten und Dienste im Web (Bachelor); Praktische IT-Sicherheit (Bachelor)
 published: true
 layout: modulbeschreibung
 
@@ -17,50 +17,68 @@ parent: SPM2
 schwerpunkt: wtw
 studienleistungen:
   Einzelleistung:
-    art: Lernportfolio (50%), Projektarbeit (50%)
+    art: Fachgespräch (50%), Projektarbeit (50%)
     erstpruefer: viet
     zweitpruefer: cn
     datum: vereinbarung
 ---
-
 ## Kurzbeschreibung
-Im Grundlagenteil der Veranstaltung sollen wesentliche Konzepte des Gebietes ''Web Architekturen'' erarbeitet werden. Insbesondere geht um Fragen der Grundkonzepte der Software Architektur bezogen auf Web basierte Anwendungen und um Fragen der Internet Governance. Durch ein Kennenlernen der Breite des Gebietes soll den Teilnehmerinnen und Teilnehmern auch die Chance geboten werden Interesse für spezielle Aspekte zu entdecken, die dann im Vertiefungsteil vertieft werden können.
-Der Grundlagenteil wird in einer kombinierten Vorlesungs- und Seminarform durchgeführt.
 
-Im Vertiefungsteil sollen die Teinehmerinnen und Teilnehmer auf Basis des im Grundlagenteils gewonnen Überblicks über das Gebiet ein Thema identifizieren, das durch weitergehendes Durchdringen der vorgeschlagenen Materialien und durch eigene Recherche und ggfs. die Entwicklung von Proof-of-Concept Impleentierungen vertieft wird. Als Mittel der Erarbeitung kann es sinnvoll sein einen lauffähigen Prototypen zu erstellen. 
+In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt. 
 
-## Lehrform/SWS 
-4 SWS: Seminar 2 SWS; Projekt 2 SWS
+## Lehrform/SWS
 
-## Arbeitsaufwand 
+4 SWS: Seminar 2 SWS, Workshop 2 SWS
+
+## Arbeitsaufwand
 Gesamtaufwand 180 Stunden, davon 
-- 36h Vorlesung 
 - 36h Seminar 
+- 36h Workshop 
 - 108h Selbststudium 
 
+## Learning Outcomes
 
-## Angestrebte Lernergebnisse
-Die Studentinnen und Studenten
-- können wesentliche Konzepte und Methoden aus dem Bereich Softwarearchitektur im Kontext von eigenen Erfahrungen einordnen und erklären,
-- können Problemfelder im Bereich der Internet Governance kritisch analysieren und 
-- können bestehende Web Anwendungen basierend auf den Konzepten der Software Architektur und der Internet Governance analysieren.
-Diese Kommpetenzen sollen die Studentinnen und Studenten befähigen in leitender Funktion zur Gestaltung der Architektur von Projekten für das Web beizutragen. 
+Studierende können Architekturen für  Webanwendungen entwerfen indem sie
+
+* Architekturstile im Web analysieren und auswählen
+* über geeignete Technologien entscheiden und begründen
+* neues Wissen im Bereich Web Architekuren sich selber aneignen und
+* anderen Studierenden das elernte Wissen strukturiert vermitteln
+
+um später komplexe Web Architekturen mit hohen Qualitätsanforderungen zu entwickeln, implementieren und evaluieren.
 
 ## Inhalt
-Softwarearchitekturen: Designprozess, Kommunikationsmethoden (Connectoren), Sicherheit, Modellierung, Visualisierung, Analyse
 
-Internet Governance: Governance der Infrastruktur des Web, Politik und Werte bei der Wahl von Protokollen, Softwarelizensierung, Systeme des Urheberrechts, Ethische Fragen bei Web Anwendungen
-
-Fallstudien: Anwendungen beispielsweise aus den Bereichen Open Data, Internet of Things, Cloud Services
-
+* REST und seine Contraints
+* Intermediäre Systeme
+  * Caching
+  * Content Delivery Networks
+  * Web Application Firewalls (WAF)
+  * API Gateways
+* Streaming im Web
+  * HTTP Streaming
+  * WebSockets Streaming
+  * WebRTC
+* Progressive Web Apps (PWA)
+* Event-Basierte Architekturen
+* Serverless Architekturen
+* Sicherheit in REST-basierten Systemen
+  * OAuth/OpenID Connect
+  * HTTP Signaturverfahren
+  * Request Smuggling/HTTP Desync
+  * CPDoS
+* Protokolle im Web
+  * HTTP1/HTTP2/HTTP3
+  * QUIC
+  * GraphQL
+  * gRPC
+* Dezentrale Kommunikation mit Matrix Protokoll
+* ...
 
 ## Medienformen
+
 Präsentationsmaterialien
 
 ## Literatur
-- Ali Sunyaev: Internet Computing - Principles of Distributed Systems and Emerging Internet-Based Technologies, Springer 2020
-- R. Taylor et al.: Software Architecture - Foundations, Theory, and Practice, Wiley 2009
-- L. DeNardis: Protocol Politics, MIT Press 2009
-- L. DeNardis et al. (eds.): Researching Internet Governance - Methods, Franeworks, Futures, MIT Press 2020
-- F. Daniels et al.: Mashups: Concepts, Models, and Architectures, Springer 2014
-- M. Erder et al.: Continous Architecture - Sustainable Architecture in an Agile and Cloud Centric World, Morgan Kaufmann 2016 
+
+TBA
