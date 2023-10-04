@@ -1,13 +1,15 @@
 function createNews() {
 
     const newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
-    
+    const rssUrl = 'http://localhost:1313/temp/rss-mock.xml';
+    // 'https://ilu.th-koeln.de/feed.php?blog_id=176593_cll&client_id=thkilu';
+
     const target = document.querySelector('#eventblock');
     let promises = [];
     let data = [];
 
-    function getResource(url) { 
-        return new Promise((resolve, reject) => {
+    function getJSONResource(url) { 
+        return new Promise((resolve) => {
             fetch(url)
                 .then(response => {
                     return response.json();
@@ -20,6 +22,36 @@ function createNews() {
                 .then(() => resolve(true));  
         });
     }
+
+    function getRSSFromILU(){
+        return new Promise((resolve) => {
+            fetch(rssUrl)
+                .then(response => response.text())
+                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                .then(xmlDoc => {
+                    const items = xmlDoc.getElementsByTagName("item");
+                    let random = 1;
+                    for (item of items) {
+                        const obj = {
+                            title: item.getElementsByTagName("title")[0].innerHTML,
+                            url: item.getElementsByTagName("link")[0].innerHTML,
+                            content: item.getElementsByTagName("description")[0].innerHTML
+                                .replace(/<!\[CDATA\[/g, '')
+                                .replace(/\]\]>/g, '')
+                                .replace(/(<([^>]+)>)/gi, ""),
+                            termin: '',
+                            date: new Date(item.getElementsByTagName("pubDate")[0].innerHTML),
+                            bild: `https://loremflickr.com/g/640/480/cologne#jpg/?random=${random++}`
+                        };
+                        data.push(obj);
+                    };
+                })
+                .then(() => resolve(true));
+        });
+
+    }
+
+
 
     function sortItems() {
         data.sort(function(a, b) {
@@ -41,7 +73,7 @@ function createNews() {
         data = data.slice(0, 116);
         
         target.innerHTML = '';
-      data.forEach(function (item) {
+        data.forEach(function (item) {
         
         let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
         let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + item.bild + '"></div>';
@@ -64,8 +96,10 @@ function createNews() {
     }
 
     newsUrls.forEach(function(url) {
-        promises.push(getResource(url));
+        promises.push(getJSONResource(url));
     });
+
+    promises.push(getRSSFromILU());
   
     Promise.all(promises)
         .then(() => sortItems())
