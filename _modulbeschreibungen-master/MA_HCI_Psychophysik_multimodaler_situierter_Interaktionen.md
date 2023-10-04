@@ -59,7 +59,7 @@ Erhebungsmethoden
 - Methode der Herstellung
 - Methode der konstanten Reize
 - Adaptive Methode
-- SNP
+- SDT
 - AFC
 
 
