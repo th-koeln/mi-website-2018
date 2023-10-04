@@ -1,5 +1,5 @@
 ---
-title: Psychophysik multimodaler Benutzungsschnittstellen
+title: Sketching and Designing for User Experience
 modulverantwortlich: gh
 kuerzel: PPMB
 studiensemesterWs: 1
@@ -37,31 +37,16 @@ Gesamtaufwand 180 Stunden, davon
 
 
 ## Angestrebte Lernergebnisse
-Die Studierenden kennen die Physiologie der visuellen, auditiven und takil/haptischen Sensorik, sie kennen grundlegende psychopysikalische Gesetzmässigkeiten und können diese in Bezug auf die Gestaltung physikalischer Stimuli und deren perzeptuellen Wirkungen anwenden und interpretieren. Sie kennen die Wahrnehmungsschwellen, die verschiedenen perzeptuellen Skalen und Metriken sowie verschiedene Perzeptionskategorien (z.B. „Klangfarbe“, etc.) für die verschiedenen sensorischen Kanäle 
-und können diese in Bezug auf Designziele für multimodale Interaktionsformen, Kontextparameter (Umgebungshelligkeit, Umgebungsgeräusche, …) sowie individuelle psychologische Parameter (hier insbesondere Aufmerksamkeitsparameter) setzen und abschätzen/evaluieren. Die Studierenden 
-kennen gängige psychophysikalische Untersuchungs- bzw. Erhebungs-Methoden, können diese für designpraktische Fragestellungen anwenden, Ergebnisse angemessen interpretieren und kritisch einordnen.
+Die Studierenden kennen und verstehen das Konzept der User Experience und können das Konzept von anderen, benachbarten Konzepten abgrenzen. Sie kennen alle relevante Dimensionen von User Experience und sind in der Lage, diese für eine gegebene Problemstellung zu analysieren, kritisch einzuordnen und neu zu konzipieren. Die Studierenden kennen alle relevanten Sketching-Techniken und können diese auf konkrete Problem- und Fragestellungen anwenden. Sie kennen relevante UX-Mapping Techniken und können für deskriptive und präskriptive Fragestellungen geeignete Mapping-Techniken auswählen, souverän anwenden und die Ergebnisse für eine gegebene Design-Challenge kritisch einordnen.
 
 
 
 ## Inhalt
-Physiologie der Sinne
-- visuell
-- auditiv
-- taktil
-
-Grundlagen der Psychophysik
-- Gesetzmässigkeiten (Weber, Fechner, Stevens)
-- Schwellen (Absolutschwellen, Unterschiedsschwellen, JND, Verdeckungsschwellen, Maskierung, etc.)
-- Skalen, Metriken, Perzeptionskategorien
-
-
-Erhebungsmethoden
-- Methode der Herstellung
-- Methode der konstanten Reize
-- Adaptive Methode
-- SNP
-- AFC
-
+- User Experience Modelle
+- Sketching Techniken
+- Storyboards
+- Empathy maps
+- Prototyping
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
@@ -72,8 +57,7 @@ Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern ang
 - Publikationen
 
 
-## Literatur
-- J. Roederer, „The Physics and Psychophysics of Music“, Springer, 4th ed., 2009
-- S. Grondin, „Psychology of Perception, Springer, 2016
-- C. Hatzfeld et al., „Engineering Haptic Devices“, Springer, 3rd. ed, 2023
-- …..
+## Literatur• Bill Buxton “Sketching User Experience”, Focal Press, 2007
+- Saul Greenberg, Bill Buxton et al. “Sketching User Experiences: The workbook”, Elsevier, 2012
+- Snyder, Carolyn, „Paper Prototyping“, Morgan Kaufman Publishers, 2003
+- Mapping experiences: a guide to creating value through journeys, blueprints, and diagrams, James Kalbach, O'Reilly 2016

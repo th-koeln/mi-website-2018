@@ -41,6 +41,7 @@ Ziel ist vor allem, die Benutzerperspektive im Entwicklungsprozess interaktiver 
 Die Studierenden haben konzeptionelles Design (Conceptual Design) verstanden, können es souverän anwenden und als Vorgehen kritisch einordnen, um aufgabenangemessene und aus Benutzersicht angenehme Technologienutzung zu gestalten. Die Studierenden haben den Ansatz „Designing for Life” verstanden und wissen, wie sie dies methodisch umsetzen können.
 
 ## Inhalt
+- System Design Thinking
 - Analyse und Dokumentation menschlichen, situierten Handelns
 - Entwicklung präskriptiver Handlungsmodelle
 - Analyse und kritische Einordnung präskriptiver Handlungsmodelle
@@ -57,14 +58,18 @@ Die Studierenden haben konzeptionelles Design (Conceptual Design) verstanden, k�
 
 
 ## Literatur
-- Winograd, Terry (ed.), Bringing Design to Software, Addison Wesley, 1996, ISBN: 0-201-85491-0
-- Courage, Cathrine; Baxter, Kathy, „Understanding Your Users“. A practical guide to user requirements. Methods, Tools, & Techniques, Kaufman Morgan Publishers, Elsevier, 2005, ISBN: 1-55860-935-0
-- Dix, Allan; Filay, Janet; Abowd Gregory D.; Beale, Russel, Human-Computer Interaction, 3rd. edition, Pearson Prentice Hall, 2004, ISBN: 0130-461091
-- Preece, Jenny; Rogers, Yvonne; Sharp, Helen, Interaction Design, beyond human-computer interaction, John Wiley & Sons, Inc., New York, ISBN: 0-471-49278-7
-- Pruitt, John; Adlin Tamara, „The Persona Lifecycle“. Keeping People in Mind Troughout Product Design, Morgan Kaufman Publishers, Elsevier, 2006. ISBN: 13- 978-0-12-566251-2
-- Raskin, J., The Human Interface, Addison Wesley, 2000, ISBN: 0-201-37937-6
-- Solso, Robert, L.; MacLin, M. Kimberley; MacLin, Otto, H., Cognitive Psychology, Pearson International Edition, Seventh Ed., 2005, ISBN: 0-205-41030-8
-- Cooper, Alan und Reimann Robert, Cronin, David: „About Face 3.0“, The Essentials of Interaction Design, Wiley, 2007. ISBN: 0470084111
-- Snyder, Carolyn, „Paper Prototyping“, Morgan Kaufman Publishers, 2003, ISBN: 1-55860-870-2
-- Bortz, J.; Döring, N., "Forschungsmethoden und Evaluation für Human- und Sozialwissenschaftler", Springer Heidelberg, Berlin, 2006
-
+- Bringing Design to Software, Winograd, Terry (ed.), Addison Wesley, 1996, ISBN: 0-201-85491-0
+- Double Diamond Framework, UK Design Council
+- Design Thinking Schnellstart Kreative Workshops gestalten, Isabell Osann, Lena Mayer und Inga Wiele, Auflage: 2., überarbeitete und erweiterte Auflage 2020
+- Das Design Thinking Toolbook - Die besten Werkzeuge & Methoden, Michael Lewrick, Patrick Link, Larry Leifer, Achim Schmidt, München 2020,
+- Thoughtful Interaction Design, Løwgren & Stolterman, MIT-Press, 2004
+- Conceptual Design for interactive Systems, Avi Parush, Morgan Kaufman, 2015
+- European Accessibility Act, EU Directive 882 von 2019
+- Designing for Life A Human Perspective on Technology Development, Pertti Saariluoma, José J. Cañas, Jaana Leikas, Springer 2016
+- The Life-centred Design Guide, Damien Lutz, 2022, ISBN: 978-0-6453266-4-2
+- The Elements of user experience: user-centered design for the web, Jesse James Garrett, Indianapolis
+- Designing with the Mind in Mind Simple Guide to Understanding User Interface Design Guidelines, Jeff Johnson, Third Edition, 2020
+- Mapping experiences: a guide to creating value through journeys, blueprints, and diagrams, James Kalbach, O'Reilly 2016
+- Gesetz zur Umsetzung der Richtlinie (EU) 2019/882 des Europäischen Parlaments und des Rates über die Barrierefreiheitsanforderungen für Produkte und Dienstleistungen und zur Änderung anderer Gesetze, 2021
+- „Beyond Net Zero: A Systemic Design Approach“, Design Council
+- PowerPixel, Vorlage von FutureScouting.
