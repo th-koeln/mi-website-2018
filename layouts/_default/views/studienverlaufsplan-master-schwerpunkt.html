@@ -124,7 +124,7 @@
 					
 							{{ if $show }}
 								{{ $scratch.Set "cps" (add ($scratch.Get "cps") 1) }}
-								{{ $modulverantwortlich := $modulbeschreibung.Params.modulverantwortlich }}
+								{{ $scratch.Set "modulverantwortlich" $modulbeschreibung.Params.modulverantwortlich }}
 								<tr>
 									{{ $kennung := $modulbeschreibung.Params.typ }}
 									
@@ -139,9 +139,9 @@
 											{{ range $schwerpunktmodul := $schwerpunktmodule }}
 												{{ if eq $schwerpunktmodul.Params.parent $modulbeschreibung.Params.kuerzel }}
 													{{ if in $schwerpunktmodul.Params.schwerpunkt $schwerpunkt }}
-														{{ $modulverantwortlich := $schwerpunktmodul.Params.modulverantwortlich }}
+														{{ $scratch.Set "modulverantwortlich" $schwerpunktmodul.Params.modulverantwortlich }}
 														{{ $scratch.Add "is_shown" $schwerpunktmodul.Params.kuerzel }}
-														
+
 														<a href="{{ $schwerpunktmodul.RelPermalink }}">
 															{{ $schwerpunktmodul.Params.title }}
 														</a>
@@ -173,7 +173,9 @@
 									</td>
 									<td class="is-small">
 										{{ $scratch.Set "verantwortlich" "" }}
-										{{ $modulverantwortliche := split $modulbeschreibung.Params.modulverantwortlich ", " }}
+										{{ $modulverantwortlich := $scratch.Get "modulverantwortlich" }}
+										{{ $modulverantwortliche := split $modulverantwortlich ", " }}
+										
 										{{ range $modulverantwortlich := $modulverantwortliche }}
 											{{ range $item := $people }}
 												{{ if eq $item.id $modulverantwortlich }}
