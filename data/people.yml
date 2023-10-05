@@ -19,6 +19,7 @@ fn:
     personenseite: 'https://www.th-koeln.de/personen/florian.niebling/'
     avatar: '/img/professoren/niebling.jpg'
     email: 'florian.niebling@th-koeln.de'
+    mi: true
 pb:
     id: pb
     status: wma
@@ -237,7 +238,7 @@ hfw:
     name: 'Prof. Dr. Heide Faeskorn-Woyke'
     avatar: '/img/professoren/faeskorn.png'
     personenseite: 'https://www.th-koeln.de/personen/heide.faeskorn-woyke/'
-    mi: true
+    mi: false
 dag:
     id: dag
     status: wma
@@ -307,7 +308,7 @@ hg:
     name: 'Prof. Dr. Holger Günther'
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
     avatar: '/img/professoren/guenther.jpg'
-    mi: true
+    mi: false
 mas:
     id: mas
     status: wma
