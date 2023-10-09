@@ -1,6 +1,6 @@
 ---
 title: Entwicklungsprojekt
-modulverantwortlich: gh, hk, mbluemm, cn
+modulverantwortlich: gh, hk, fn, cn
 modulniveau: bachelor
 kuerzel: EPM
 untertitel:
@@ -18,7 +18,7 @@ infourl: https://ilias.th-koeln.de/goto.php?target=crs_1328242&client_id=ILIAS_F
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und Meilensteinpräsentationen
-    erstpruefer: gh, hk, mbluemm, cn, fn
+    erstpruefer: gh, hk, cn, fn
     zweitpruefer: vos, mfaske, simonporten, maa, uwm, simonschulte, nkuhn
     datum: vereinbarung
 ---
