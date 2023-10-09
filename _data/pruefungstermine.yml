@@ -2,10 +2,14 @@ ws-1:
     name: Wintersemester Woche 1, Anfang Februar
 ws-2:
     name: Wintersemester Woche 2, Ende März
+ws-1-2:
+    name: Wintersemester Woche 1 & 2, Anfang Februar & Ende März
 ss-1:
     name: Sommersemester Woche 1, Mitte Juli
 ss-2:
     name: Sommersemester Woche 2, Ende September
+ss-1-2:
+    name: Sommersemester Woche 1 & 2, Mitte Juli & Ende September
 ende:
     name: Ende des Semesters
 antrag:
