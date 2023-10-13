@@ -1,6 +1,6 @@
 ---
 title: Projektarbeit - Vision und Konzept im Kontext des Studienschwerpunkts
-modulverantwortlich: hk, mbluemm, ck, gh, cn, jkus
+modulverantwortlich: hk, mbluemm, ck, gh, fn, viet
 kuerzel: MIMP-K
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Die Prüfungsform ist bei den jeweiligen Fächern angegeben.
-    erstpruefer: gh, hk, mbluemm, cn, ck, hs
-    zweitpruefer: gh, hk, mbluemm, cn, ck, hs
+    erstpruefer: gh, hk, mbluemm, ck, fn, viet
+    zweitpruefer: gh, hk, mbluemm, ck, fn, viet
     datum: ende
 ---
 

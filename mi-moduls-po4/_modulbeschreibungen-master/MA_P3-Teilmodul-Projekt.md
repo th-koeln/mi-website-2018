@@ -1,6 +1,6 @@
 ---
 title: Projektanteil Projekt 3
-modulverantwortlich: mw, hk, mbluemm, ck, gh
+modulverantwortlich: mboehmer, hk, mbluemm, ck, gh, hs, fn, viet
 kuerzel: P3
 studiensemesterWs: 3
 studiensemesterSs: 1
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit und -dokumentation (100%)
-    erstpruefer: gh, hk, mbluemm, cn, ck
-    zweitpruefer: gh, hk, bluemm, cn, ck
+    erstpruefer: mboehmer, gh, hk, mbluemm, cn, ck, hs, fn, viet
+    zweitpruefer: mboehmer, gh, hk, bluemm, cn, ck, hs, fn, viet
 ---
 
 ## Kurzbeschreibung

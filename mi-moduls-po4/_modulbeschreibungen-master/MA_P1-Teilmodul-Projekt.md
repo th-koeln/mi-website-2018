@@ -1,6 +1,6 @@
 ---
 title: Projektanteil Projekt 1
-modulverantwortlich: gh, hk, mbluemm, cn, ck
+modulverantwortlich: gh, hk, mbluemm, ck, fn, viet
 kuerzel: P1
 studiensemesterWs: 1
 studiensemesterSs: 2
@@ -18,8 +18,8 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit und -dokumentation
-    erstpruefer: gh, hk, hs, mbluemm, cn, ck
-    zweitpruefer: gh, hk, hs, mbluemm, cn, ck
+    erstpruefer: gh, hk, mbluemm, cn, ck, fn, viet, mboehmer, fn, viet
+    zweitpruefer: gh, hk, mbluemm, cn, ck, fn, viet, mboehmer, fn, viet
 ---
 
 ## Kurzbeschreibung
