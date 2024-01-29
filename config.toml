@@ -22,7 +22,7 @@ unsafe= true
   baseFragment = "/"
   template = ""
   copyright = "Medieninformatik an der TH Köln"
-  ansprechpartner = "Ansprechpartner für die Medieninformatik Website<a href=\"https://www.th-koeln.de/personen/christian.noss/\">Christian Noss</a>"
+  ansprechpartner = "Ansprechpartner für die Medieninformatik Website ist <a href=\"https://www.th-koeln.de/personen/christian.noss/\">Christian Noss</a>"
   impressum = "<a href=\"https://www.th-koeln.de/hochschule/impressum_8159.php\">Impressum</a>"
 
 [taxonomies]
