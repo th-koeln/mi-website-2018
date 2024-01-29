@@ -1,21 +1,21 @@
-name: Deploy on prod
-on:
-  push:
-    branches: ["master"]
-jobs:
-  build:
-    name: Build and Deploy
-    runs-on: ubuntu-latest
-    steps:
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        debug: true
-        script: whoami
+#name: Deploy on prod
+#on:
+#  push:
+#    branches: ["master"]
+#jobs:
+#  build:
+#    name: Build and Deploy
+#    runs-on: ubuntu-latest
+#    steps:
+#    - name: executing remote ssh commands using password
+#      uses: appleboy/ssh-action@master
+#      with:
+#        host: ${{ secrets.HOST }}
+#        username: ${{ secrets.USERNAME }}
+#        password: ${{ secrets.PASSWORD }}
+#        port: ${{ secrets.PORT }}
+#        debug: true
+#        script: whoami
 #
 #      - name: 🛒 Checkout
 #        uses: actions/checkout@v2
