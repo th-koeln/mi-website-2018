@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="200px" viewBox="0 0 1200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>bachelor-schwerpunkte</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bachelor-schwerpunkte" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#5049E9" x="0" y="0" width="380" height="200"></rect>
+        <rect id="Rectangle-Copy" fill="#EB0067" x="410" y="0" width="380" height="200"></rect>
+        <text id="Social-Computing" font-family="RobotoSlab-Regular, Roboto Slab" font-size="31" font-weight="normal" fill="#FFFFFF">
+            <tspan x="20" y="52">Social Computing</tspan>
+        </text>
+        <text id="Visual-Computing" font-family="RobotoSlab-Regular, Roboto Slab" font-size="31" font-weight="normal" fill="#FFFFFF">
+            <tspan x="430" y="52">Visual Computing</tspan>
+        </text>
+        <rect id="Rectangle-Copy-2" fill="#9F00D5" x="820" y="0" width="380" height="200"></rect>
+        <text id="Web-Development" font-family="RobotoSlab-Regular, Roboto Slab" font-size="31" font-weight="normal" fill="#FFFFFF">
+            <tspan x="840" y="52">Web Development</tspan>
+        </text>
+    </g>
+</svg>

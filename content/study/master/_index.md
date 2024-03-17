@@ -3,6 +3,7 @@ date: "2016-11-05T21:05:33+05:30"
 title: "Medieninformatik Master"
 layout: "overview"
 id: "master"
+po: 5
 selectKey: "studiensemesterws"
 semester: 1,2,3,4
 additionalContent: 

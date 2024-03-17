@@ -3,15 +3,15 @@ date: "2016-11-05T21:05:33+05:30"
 title: "Medieninformatik Bachelor"
 layout: "overview"
 id: "bachelor"
+po: 5
 selectKey: "studiensemester"
-semester: 1,2,3,4,5,6
+semester: 1,2,3,4,5,6,7
 additionalContent: 
-  - "vertiefungsmodule"
+  - "modulhandbuch"
   - "studienverlaufsplan"
-  - "moduls"
 ---
 
-Der Bachelor Studiengang Medieninformatik ist ein sogenanntes berufsqualifizierendes grundständiges Studium und führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs beträgt 6 Semester. Die Einschreibung ist ausschließlich zum Wintersemester möglich.
+Der Bachelor-Studiengang Medieninformatik ist ein berufsqualifizierendes grundständiges Studium und führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs beträgt sieben Semester und er schließt mit dem Bachelor of Science ab. Die Einschreibung ist zum Wintersemester möglich. Er befähigt Absolvent*innen in interdisziplinären Teams digitale Medien und interaktive digitale Produkte nutzerzentriert zu konzipieren, zu entwickeln, in den Markt zu bringen, zu evaluieren und kritisch zu hinterfragen. Der Medienbegriff bezieht sich hierbei vor allem auf interaktive Kommunikations- und Kollaborationsmedien und -produkte.
 
 <!--more-->
 <!--
@@ -24,21 +24,19 @@ Auf der Seite für <a href="/study/bachelor/erstsemester/">Erstsemester</a> habe
 
 <div class="m-mi-herotext has-box is-full-width">
 <p>
-Absolventen der Medieninformatik <strong>analysieren</strong>, <strong>konzipieren</strong>, <strong>realisieren</strong>, <strong>betreiben</strong> und <strong>evaluieren informationstechnische Prozesse</strong> und <strong>Systeme</strong> zur Gestaltung, Produktion, Bearbeitung, Distribution und Nutzung <strong>medienbasierter Informationen</strong>.
+Die Menschen mit ihren Bedürfnissen stehen im Zentrum der Medieninformatik.
 </p>
 
 <p>
-Das Studium der Medieninformatik zielt somit im Kern auf die Vermittlung entsprechender Methoden, Techniken und Denkweisen der Informatik. <strong>Absolvent\*innen </strong> der Medieninformatik <strong>arbeiten</strong> dabei vorwiegend in <strong>Teams</strong> und müssen dort ihre erworbenen Kompetenzen einbringen können – hier ist <strong>Interdisziplinarität</strong> gefragt, erwünscht und gefordert. Auch darauf bereitet das Studium der Medieninformatik vor: es <strong>vermittelt Sichtweisen</strong> und Techniken aus verschiedenen Fachgebieten, von <strong>Computergrafik</strong> über <strong>Mensch-Computer-Interaktion</strong> bis <strong>Videoproduktion</strong>, von <strong>Kommunikationsdesign</strong> über <strong>Programmentwicklung</strong> bis <strong>Marketing</strong>.
+Absolvent*innen unserer Medieninformatik-Studiengänge konzipieren und explorieren neue digitale Medien und interaktive digitale Produkte, implementieren diese in Hard- und Software, treiben interdisziplinäre Entwicklungsprozesse voran, und analysieren und evaluieren deren Nutzung.
 </p>
 </div>
 
-Der Studiengang besteht im Kern aus zwei parallelen Strängen: einem Informatik und einem Medien-Strang. Die verschiedenen Module lassen sich mehr oder weniger gut diesen beiden Strängen zuordnen. Darüber hinaus gibt es eine Reihe von Modulen, die der Querschnittsqualifikation dienen, z.B. die Studierenden bei der Durchführung von Projekten oder im Umgang mit betriebswirtschaftlichen Frage- und Problemstellungen unterstützen. 
+Die Menschen mit ihren Bedürfnissen stehen im Zentrum der Medieninformatik. Absolvent\*innen des Bachelor-Studiengangs Medieninformatik haben ein breites und integriertes Wissen sowie ein tiefgehendes Verständnis der Grundlagen ihres Lerngebiets nachgewiesen. Sie konzipieren und explorieren neue digitale Medien und interaktive digitale Produkte und verfügen über ein tiefes Verständnis der wichtigsten Prinzipien, Methoden, Techniken und Best-Practices der Medieninformatik. Praktische Anwendung und Problemlösungsfähigkeiten sind zentrale Elemente ihres Handelns. Sie sind in der Lage, ihr Wissen in anwendungsorientierten Projekten umzusetzen, wissenschaftlich fundierte Urteile abzuleiten und Lösungsansätze zu entwickeln und zu realisieren.
 
-Der zeitliche Ablauf des Studiums teilt sich in drei Abschnitte: Grundlagen, Vertiefung und Spezialisierung. In den ersten beiden Semestern überwiegen die Module aus dem Informatik Strang. Hier werden die mathematischen, theoretischen und technischen Grundlagen mit Lehrveranstaltungen wie Mathematik, Algorithmen und Programmierung, Theoretische Informatik und Einführung in Betriebssysteme und Rechnerarchitekturen vermittelt. Mit fortschreitender Fachsemesterzahl, nehmen die Module aus dem Medienstrang zunehmend mehr Raum ein. 
+Medieninformatiker\*innen können die Anforderungen und Bedürfnisse der Nutzer\*innen identifizieren und in den Gestaltungsprozess integrieren. Dies ermöglicht die Entwicklung nutzer\*innenzentrierter Lösungen, die nicht nur funktional, sondern auch ästhetisch ansprechend sind. Absolvent\*innen zeichnen sich durch ein tiefes Technologieverständnis aus. Von der Konzeption bis zur Implementierung interaktiver und verteilter Systeme setzen die Absolvent\*innen ihr Wissen ein, um effiziente und innovative Lösungen zu schaffen. Sie nehmen eine aktive Rolle in kreativen Prozessen ein, managen diese erfolgreich und kommunizieren effektiv innerhalb des Teams sowie mit relevanten Stakeholdern. Dabei reflektieren und berücksichtigen sie die unterschiedlichen Sichtweisen und Interessen anderer Beteiligter. Absolvent\*innen sind in der Lage, selbstgesteuert zu lernen und sich kontinuierlich weiterzuentwickeln.
 
-Im vierten Semester kann im großen Vertiefungsmodul eine von drei Vertiefungsrichtungen gewählt werden. Zur Auswahl stehen: [Visual Computing](/study/bachelor/moduls/ba_vertiefung-visual-computing/), [Social Computing](/study/bachelor/moduls/ba_vertiefung_socialcomputing/) und [Web-Development](/study/bachelor/moduls/ba_vertiefung-web_development/). Im Vertiefungsmodul ist ein Projektanteil von etwa fünf Creditpoints vorgesehen. Das Entwicklungsprojekt im fünften Semester kann entsprechend der fachlichen Neigung der jeweiligen Studierenden ausgestaltet werden.
+Medieninformatiker*innen erkunden fortgeschrittene interaktive Medien und Technologien, können deren Nutzungs- und Problemlösungspotentiale einschätzen und in sinnvolle Lösungen überführen. Dabei berücksichtigen sie ethische und gesellschaftliche Aspekte und Bedarfe und entwickeln kreative und explorative Ansätze, die über bestehende Standards hinausgehen.
 
-Das vierte Semester eignet sich aus verschiedenen Gründen gut für ein Auslandssemester. Die Studierenden verfügen über ausreichende Qualifikationen und Projekterfahrungen, um in verschiedenen Kontexten handlungsfähig zu sein. Sie stehen aber noch vor dem Spezialisierungsteil des Studiums und verfügen damit idealerweise über die fachliche, mentale und organisatorische Offenheit für ein Austauschsemester. Wegen der wenigen Module im vierten Semester und vor allem wegen des großen Vertiefungsmoduls können im Ausland erworbene Qualifikationen sehr flexibel anerkannt werden. Die Anerkennung erfolgt auf Basis des „Übereinkommen über die Anerkennung von Qualifikationen im Hochschulbereich in der europäischen Region”.
-
-Den Abschluss des Studiums bildet die Bachelorarbeit. In dieser bearbeiten die Studierenden selbstständig eine praxisorientierte Aufgabe aus einem gewünschten Fachgebiet. Diese können sie in Kooperation mit einem Unternehmen schreiben und somit Kontakte zur Wirtschaft und damit potentiellen Arbeitgebern knüpfen.
+Absolvent\*innen verfügen über ein breites, interdisziplinäres Wissen in der Medieninformatik und sind in der Lage, dieses Wissen in konkrete Anwendungen umzusetzen, kritisch zu reflektieren und innovative Lösungen für verschiedene Kontexte zu schaffen.
 
