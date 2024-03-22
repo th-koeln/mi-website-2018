@@ -322,12 +322,12 @@ lkoehler:
   mi: false
   personenseite: https://www.th-koeln.de/personen/lutz.koehler/
   avatar: /src/assets/uploads/avatar.png
+all_profs_and_ma:
+  id: all_profs_and_ma
+  mi: false
+  avatar: /src/assets/uploads/avatar.png
 mfaske:
   id: mfaske
   mi: true
   personenseite: https://www.th-koeln.de/personen/mario.faske/
   avatar: /src/assets/uploads/mario-faske.jpg
-all_profs_and_ma:
-  id: all_profs_and_ma
-  mi: false
-  avatar: /src/assets/uploads/avatar.png
