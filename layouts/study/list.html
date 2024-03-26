@@ -22,7 +22,7 @@
 		{{ $image := index ($teaser) 0 }}
 		{{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
 		{{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info"
-		$section.Summary "url" $section.Permalink "linktext" "mehr lesen") }}
+		$section.Summary "url" $section.Permalink "linktext" "mehr erfahren") }}
 		{{ end }}
 	</article>
 	{{ end }}

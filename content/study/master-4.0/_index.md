@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T21:05:33+05:30"
-title: "Medieninformatik Master"
+title: "Medieninformatik Master MPO4"
 layout: "overview"
 id: "master"
 po: 4
