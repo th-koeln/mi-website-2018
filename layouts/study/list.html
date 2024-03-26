@@ -1,37 +1,38 @@
 {{ define "main" }}
-	{{ $params := . }}
+{{ $params := . }}
 
-    {{ if .File}}
-	<div class="has-seperator">
-		{{ $level := split .File.Dir "/" }}
+{{ if .File}}
+<div class="has-seperator">
+	{{ $level := split .File.Dir "/" }}
 
-		{{ if gt (len $level) 2 }}
-			<h1>{{ .Title }}</h1>
-		{{ end }}
-
-		{{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
-	</div>
-    {{ end }}
-
-	<div class="courses-teaser has-seperator">
-		{{ range .Sections }}
-			<article class="m-mi-content-wrap">
-				{{ $section := . }}
-				{{ $teaser := .Resources.Match "teaser*jpg" }}
-
-				{{ if $teaser }}
-					{{ $image := index ($teaser) 0 }}            
-					{{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
-					{{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info" $section.Summary "url" $section.Permalink "linktext" "mehr lesen") }}
-				{{ end }}
-			</article>
-		{{ end }}
-	</div>
-
-	{{ range $page := where .Pages "IsPage" true }}
-		<article class="m-mi-content-wrap">
-			<h3 id="{{$page.Title | urlize}}">{{ $page.Title }}</h3>
-			{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
-		</article>
+	{{ if gt (len $level) 2 }}
+	<h1>{{ .Title }}</h1>
 	{{ end }}
+
+	{{ partial "molecules/mi-herotext/mi-herotext.html" $params }}
+</div>
+{{ end }}
+
+<div class="courses-teaser has-seperator">
+	{{ range $section := where .Sections "Params.Po" 5}}
+	
+	<article class="m-mi-content-wrap">
+		{{ $teaser := .Resources.Match "teaser*jpg" }}
+		{{ if $teaser }}
+		{{ $image := index ($teaser) 0 }}
+		{{ $thumb := $image.Fill "800x400 Center q90 Linear" }}
+		{{ partial "molecules/mi-teaser/mi-teaser.html" (dict "headline" $section.Title "image" $thumb "info"
+		$section.Summary "url" $section.Permalink "linktext" "mehr erfahren") }}
+		{{ end }}
+	</article>
+	{{ end }}
+</div>
+
+{{ range $page := where .Pages "IsPage" true }}
+
+<article class="m-mi-content-wrap">
+	<h3 id="{{$page.Title | urlize}}">{{ $page.Title }}</h3>
+	{{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $page) }}
+</article>
+{{ end }}
 {{ end }}

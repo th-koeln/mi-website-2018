@@ -1,5 +1,5 @@
 +++
-date = "2016-11-05T21:05:33+05:30"
+date = "2024-03-16T21:05:33+05:30"
 title = "Medieninformatik Mentoren"
 linkTitle = "Study"
 +++

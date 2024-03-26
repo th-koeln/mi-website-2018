@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1819px" height="1060px" viewBox="0 0 1819 1060" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>ws-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1420" height="119.777365"></rect>
+        <polygon id="path-3" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-5" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-7" points="0 0 460 0 460 260 0 260"></polygon>
+        <polygon id="path-9" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-11" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-13" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-15" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-17" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-19" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-21" points="0 0 460 0 460 120 0 120"></polygon>
+        <polygon id="path-23" points="0 0 460 0 460 260 0 260"></polygon>
+        <polygon id="path-25" points="0 0 460 0 460 260 0 260"></polygon>
+    </defs>
+    <g id="ws-small" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1819" height="1060"></rect>
+        <g id="Semester" transform="translate(-2.000000, 1.000000)">
+            <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
+            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+                <tspan x="2" y="68">4. Fachsemester</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="Semester" transform="translate(0.000000, 161.000000)">
+            <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
+            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+                <tspan x="2" y="68">3. Fachsemester</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal" fill="#000000">
+                <tspan x="2" y="108">Assessment/ Evaluation, Forschung </tspan>
+                <tspan x="2" y="132">und Vewertung</tspan>
+            </text>
+        </g>
+        <g id="Semester" transform="translate(0.000000, 461.000000)">
+            <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
+            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+                <tspan x="2" y="68">2. Fachsemester</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal" fill="#000000">
+                <tspan x="2" y="108">Entwicklung</tspan>
+            </text>
+        </g>
+        <g id="Semester" transform="translate(0.000000, 760.000000)">
+            <path d="M1824.5,1.5 L0.5,1.5" id="Line" stroke-opacity="0.3" stroke="#000000" stroke-width="1" stroke-linecap="square"></path>
+            <text id="4.-Fachsemester" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#000000">
+                <tspan x="2" y="68">1. Fachsemester</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal" fill="#000000">
+                <tspan x="2" y="108">Vision und Konzept</tspan>
+            </text>
+        </g>
+        <g id="block/gross" transform="translate(400.000000, 20.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="farben/grau" mask="url(#mask-2)" fill="#9B9B9B">
+                    <g transform="translate(-20.300214, -23.955473)" id="Rectangle-Copy-5">
+                        <rect x="0" y="0" width="1461" height="168"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Master Thesis, 30CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(400.000000, 180.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-3"></use>
+                <g id="farben/schwarz" mask="url(#mask-4)" fill="#231F20">
+                    <g transform="translate(-6.708333, -24.000000)" id="Rectangle-Copy-4">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Wahlpflichtfach, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(880.000000, 180.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-5"></use>
+                <g id="farben/schwarz" mask="url(#mask-6)" fill="#231F20">
+                    <g transform="translate(-6.708333, -24.000000)" id="Rectangle-Copy-4">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Wahlpflichtfach, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(1360.000000, 180.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-7"></use>
+                <g id="farben/gruen" mask="url(#mask-8)" fill="#00AD2F">
+                    <g transform="translate(-6.708333, -52.000000)" id="Rectangle-Copy-2">
+                        <rect x="0" y="0" width="473" height="365"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Projekt – Assessment/</tspan>
+                <tspan x="20" y="86">Evaluation, Forschung und </tspan>
+                <tspan x="20" y="122">Verwertung, 12CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(880.000000, 320.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-9"></use>
+                <g id="farben/schwarz" mask="url(#mask-10)" fill="#231F20">
+                    <g transform="translate(-6.708333, -24.000000)" id="Rectangle-Copy-4">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Wahlpflichtfach, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(400.000000, 780.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-12" fill="white">
+                    <use xlink:href="#path-11"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-11"></use>
+                <g mask="url(#mask-12)" fill="#4952E1" id="Rectangle">
+                    <g transform="translate(-6.708333, -24.000000)">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Spezielle Gebiete der </tspan>
+                <tspan x="20" y="86">Mathematik, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(400.000000, 480.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-14" fill="white">
+                    <use xlink:href="#path-13"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-13"></use>
+                <g mask="url(#mask-14)" fill="#4952E1" id="Rectangle">
+                    <g transform="translate(-6.708333, -24.000000)">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Computerethik, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(400.000000, 620.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-16" fill="white">
+                    <use xlink:href="#path-15"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-15"></use>
+                <g mask="url(#mask-16)" fill="#4952E1" id="Rectangle">
+                    <g transform="translate(-6.708333, -24.000000)">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Research Methods, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(880.000000, 480.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-18" fill="white">
+                    <use xlink:href="#path-17"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-17"></use>
+                <g id="farben/pink" mask="url(#mask-18)" fill="#DD1166">
+                    <g transform="translate(-6.708333, -24.000000)" id="Rectangle-Copy">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Schwerpunktmodul, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(880.000000, 780.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-20" fill="white">
+                    <use xlink:href="#path-19"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-19"></use>
+                <g id="farben/pink" mask="url(#mask-20)" fill="#DD1166">
+                    <g transform="translate(-6.708333, -24.000000)" id="Rectangle-Copy">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Schwerpunktmodul, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(880.000000, 920.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-22" fill="white">
+                    <use xlink:href="#path-21"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-21"></use>
+                <g id="farben/pink" mask="url(#mask-22)" fill="#DD1166">
+                    <g transform="translate(-6.708333, -24.000000)" id="Rectangle-Copy">
+                        <rect x="0" y="0" width="473" height="169"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Schwerpunktmodul, 6CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(1360.000000, 480.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-24" fill="white">
+                    <use xlink:href="#path-23"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-23"></use>
+                <g id="farben/gruen" mask="url(#mask-24)" fill="#00AD2F">
+                    <g transform="translate(-6.708333, -52.000000)" id="Rectangle-Copy-2">
+                        <rect x="0" y="0" width="473" height="365"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Projekt - Entwicklung, 12CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+        <g id="block/klein" transform="translate(1360.000000, 780.000000)">
+            <g id="farben/blau" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-26" fill="white">
+                    <use xlink:href="#path-25"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-25"></use>
+                <g id="farben/gruen" mask="url(#mask-26)" fill="#00AD2F">
+                    <g transform="translate(-6.708333, -52.000000)" id="Rectangle-Copy-2">
+                        <rect x="0" y="0" width="473" height="365"></rect>
+                    </g>
+                </g>
+            </g>
+            <text id="Master-Thesis" font-family="MyriadPro-Regular, Myriad Pro" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="20" y="50">Projekt - Vision &amp; Konzept, </tspan>
+                <tspan x="20" y="86">12CP</tspan>
+            </text>
+            <text id="Erklärung" font-family="MyriadPro-Regular, Myriad Pro" font-size="24" font-weight="normal"></text>
+        </g>
+    </g>
+</svg>

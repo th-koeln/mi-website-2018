@@ -1,0 +1,617 @@
+# config.yml
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: 'src/assets/uploads'
+
+collections:
+  - name: 'people'
+    label: 'Leute'
+    folder: 'src/people'
+    create: true
+    sortable_fields: ['title']
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'people.11ty.js' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'ID', name: 'id', widget: 'string' }
+      - { label: "Medieninformatik Kernteam", name: "mi", widget: "boolean", default: false}
+      - { label: 'Personenseite', name: 'personenseite', widget: 'string', required: false }
+      - label: "Avatar"
+        name: "avatar"
+        widget: "image"
+        choose_url: true
+        default: "src/assets/uploads/placeholder.jpg"
+
+
+  - name: 'pruefungsformen-bachelor'
+    label: 'Prüfungsformen Bachlor'
+    folder: 'src/medieninformatik-bachelor/pruefungsformen-bpo5'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page.11ty.js' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Kürzel', name: 'kuerzel', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+  - name: 'module-bachelor'
+    label: 'Modulbeschreibungen Bachlor'
+    folder: 'src/medieninformatik-bachelor/modulbeschreibungen-bpo5'
+    create: true
+    summary: "{{title}}, {{typ}}"
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'modulbeschreibung.11ty.js' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Kürzel', name: 'kuerzel', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'hidden', default: 'Last Modified' }
+      - label: "Modulverantwortlich"
+        name: "modulverantwortlich"
+        widget: "relation"
+        options_length: 120
+        collection: "people"
+        search_fields: ["title"]
+        value_field: "id"
+        display_fields: ["title"]
+
+      - label: "Dozent:innen"
+        name: "dozierende"
+        widget: "list"
+        allow_add: true
+        summary: '{{fields.title}}'
+        field: 
+          { label: "Dozent:in", name: "dozentin", widget: "relation", options_length: 120, collection: "people", search_fields: ["title"], value_field: "id",display_fields: ["title"] }
+      
+      - label: "Modulniveau"
+        name: "modulniveau"
+        widget: "select"
+        options: 
+          - { label: "Bachelor", value: "bachelor" }
+          - { label: "Master", value: "master" }     
+
+      - label: "Kategorie"
+        name: "kategorie"
+        widget: "select"
+        options: 
+          - { label: "Grundlagen", value: "grundlagen" }
+          - { label: "Vertiefung", value: "vertiefung" }  
+          - { label: "Spezialisierung", value: "spezialisierung" }  
+
+      - label: "Sprache"
+        name: "sprache"
+        widget: "select"
+        options: 
+          - { label: "Deutsch", value: "deutsch" }
+          - { label: "Englisch", value: "englisch" }     
+
+      - label: "Kreditpunkte"
+        name: "kreditpunkte"
+        widget: "number"
+        default: 5
+        value_type: "int"
+        min: 1
+        max: 15
+        step: 1
+
+      - { label: 'Voraussetzungen nach Prüfungsordnung', name: 'voraussetzungenNachPruefungsordnung', widget: 'string', default: 'keine', required: false }
+      - { label: 'Empfohlene Voraussetzungen', name: 'empfohleneVoraussetzungen', widget: 'string', default: 'keine', required: false }
+      
+      - { label: "Veröffentlicht", name: "published", widget: "boolean", default: false}
+      - { label: "Prüfungsvorleistung", name: "pvl", widget: "boolean", default: false, required: false}
+      - { label: 'Didaktische Begründung für Prüfungsvorleistung', name: 'reason-pvl', widget: 'markdown', required: false }
+
+      - label: "Veranstaltungstyp"
+        name: "typ"
+        widget: "select"
+        options: 
+          - { label: "Pflichtmodul", value: "pm" }
+          - { label: "Wahlpflichtmodul", value: "wpf" }  
+
+      - label: "Ist Kind von"
+        name: "parent"
+        widget: "relation"
+        collection: "module-bachelor"
+        search_fields: ["title"]
+        value_field: "kuerzel"
+        options_length: 120
+        display_fields: ["title"]
+        required: false   
+
+      - { label: 'URL zu weiterführenden Informationen', name: 'infourl', widget: 'string', required: false }
+
+      - { label: "Wird im Sommersemester angeboten?", name: "angebotImSs", widget: "boolean", default: false, required: false}
+      - { label: "Wird im Wintersemester angeboten?", name: "angebotImWs", widget: "boolean", default: false, required: false}
+
+      - label: "Präsenzzeit in Stunden"
+        name: "praesenzZeit"
+        widget: "number"
+        default: 60
+        value_type: "int"
+        min: 0
+        max: 1000
+        step: 1
+
+      - label: "Selbststudium in Stunden"
+        name: "selbstStudium"
+        widget: "number"
+        default: 90
+        value_type: "int"
+        min: 0
+        max: 1000
+        step: 1
+
+      - label: "Verwendung des Moduls in weiteren Studiengängen"
+        name: "weitereStudiengaenge"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - { name: "itm", label: "IT-Management", widget: "boolean", default: false, required: false}
+          - { name: "i", label: "Informatik", widget: "boolean", default: false, required: false} 
+          - { name: "wi", label: "Wirtschaftsinformatik", widget: "boolean", default: false, required: false}
+          - { name: "coco", label: "Code & Context", widget: "boolean", default: false, required: false}
+          - { name: "others", label: "andere", widget: "boolean", default: false, required: false}
+          - { name: "none", label: "-", widget: "boolean", default: false, required: false}
+      
+      - label: "Lehrmethoden"
+        name: "lehrmethoden"
+        widget: "list"
+        collapsed: true
+        allow_add: true
+        summary: '{{fields.method}}'
+        field: {label: "Methode", name: "method", widget: "string"}
+
+      - label: "Lehrform"
+        name: "lehrform"
+        widget: "list"
+        collapsed: true
+        allow_add: true
+        summary: '{{fields.form}}'
+        field: {label: "Lehrform", name: "form", widget: "string"}
+
+      - label: "Studienleistungen"
+        name: "studienleistungen"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - label: "einzelleistung"
+            name: "einzelleistung"
+            widget: "list"
+            allow_add: true
+            summary: '{{fields.title}}'
+            required: false
+            fields: 
+              - label: "Prüfungsform"
+                name: "pruefungsform"
+                widget: "relation"
+                collection: "pruefungsformen-bachelor"
+                search_fields: ["title"]
+                value_field: "kuerzel"
+                display_fields: ["title"]
+                required: false
+              - label: "Erstprüfer:in"
+                name: "erstpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Zweitprüfer:in"
+                name: "zweitpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Termin"
+                name: "datum"
+                widget: "object"
+                collapsed: true
+                required: false
+                fields: 
+                  - { name: "ws-1", label: "Wintersemester Prüfungsphase 1 (Anfang Februar)", widget: "boolean", default: false}
+                  - { name: "ws-2", label: "Wintersemester Prüfungsphase 2 (Mitte/ Ende März)", widget: "boolean", default: false} 
+                  - { name: "ss-1", label: "Sommersemester Prüfungsphase 1 (Juli)", widget: "boolean", default: false}
+                  - { name: "ss-2", label: "Sommersemester Prüfungsphase 2 (September)", widget: "boolean", default: false}
+                  - { name: "mitte-vl", label: "während der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-vl", label: "am Ende der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-sem", label: "am Ende des Semesters", widget: "boolean", default: false}
+                  - { name: "nv", label: "nach Vereinbarung", widget: "boolean", default: false}
+              - label: "Logische Verbindung"
+                name: "connector"
+                widget: "select"
+                required: false
+                options: ["und", "oder"]
+                default: ["und"]                  
+                        
+          - label: "Logische Verbindung"
+            name: "connector"
+            widget: "select"
+            required: false
+            options: ["und", "oder"]
+            default: ["und"]
+
+          - label: "teamleistung"
+            name: "teamleistung"
+            widget: "list"
+            allow_add: true
+            summary: '{{fields.title}}'
+            required: false
+            fields: 
+              - label: "Prüfungsform"
+                name: "pruefungsform"
+                widget: "relation"
+                collection: "pruefungsformen-bachelor"
+                search_fields: ["title"]
+                value_field: "kuerzel"
+                display_fields: ["title"]
+                required: false
+              - label: "Erstprüfer:in"
+                name: "erstpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Zweitprüfer:in"
+                name: "zweitpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Termin"
+                name: "datum"
+                widget: "object"
+                collapsed: true
+                required: false
+                fields: 
+                  - { name: "ws-1", label: "Wintersemester Prüfungsphase 1 (Anfang Februar)", widget: "boolean", default: false}
+                  - { name: "ws-2", label: "Wintersemester Prüfungsphase 2 (Mitte/ Ende März)", widget: "boolean", default: false} 
+                  - { name: "ss-1", label: "Sommersemester Prüfungsphase 1 (Juli)", widget: "boolean", default: false}
+                  - { name: "ss-2", label: "Sommersemester Prüfungsphase 2 (September)", widget: "boolean", default: false}
+                  - { name: "mitte-vl", label: "während der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-vl", label: "am Ende der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-sem", label: "am Ende des Semesters", widget: "boolean", default: false}
+                  - { name: "nv", label: "nach Vereinbarung", widget: "boolean", default: false}
+              - label: "Logische Verbindung"
+                name: "connector"
+                widget: "select"
+                required: false
+                options: ["und", "oder"]
+                default: ["und"]
+
+      - label: 'Studiengangkriterien der Hochschule'
+        name: 'studiengangkriterien'
+        widget: "object"
+        collapsed: true
+        fields:
+        - { label: "Global Citizenship", name: "globalcitizenship", widget: "boolean", default: false, required: false }
+        - { label: "Internationalisierung", name: "internationalisierung", widget: "boolean", default: false, required: false }
+        - { label: "Interdisziplinarität", name: "interdisziplinaritaet", widget: "boolean", default: false, required: false }
+        - { label: "Transfer", name: "transfer", widget: "boolean", default: false, required: false }
+
+      - { label: 'Besonderheiten', name: 'besonderheiten', widget: 'markdown', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+
+  - name: 'pruefungsformen-master'
+    label: 'Prüfungsformen Master'
+    folder: 'src/medieninformatik-master/pruefungsformen-mpo5'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page.11ty.js' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Kürzel', name: 'kuerzel', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+  - name: 'module-master'
+    label: 'Modulbeschreibungen Master'
+    folder: 'src/medieninformatik-master/modulbeschreibungen-mpo5'
+    create: true
+    summary: "{{title}}, {{typ}}"
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'modulbeschreibung.11ty.js' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Kürzel', name: 'kuerzel', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'hidden', default: 'Last Modified' }
+      - label: "Modulverantwortlich"
+        name: "modulverantwortlich"
+        widget: "relation"
+        options_length: 120
+        collection: "people"
+        search_fields: ["title"]
+        value_field: "id"
+        display_fields: ["title"]
+
+      - label: "Dozent:innen"
+        name: "dozierende"
+        widget: "list"
+        allow_add: true
+        summary: '{{fields.title}}'
+        field: 
+          { label: "Dozent:in", name: "dozentin", widget: "relation", options_length: 120, collection: "people", search_fields: ["title"], value_field: "id",display_fields: ["title"] }
+      
+      - label: "Modulniveau"
+        name: "modulniveau"
+        widget: "select"
+        options: 
+          - { label: "Bachelor", value: "bachelor" }
+          - { label: "Master", value: "master" }     
+
+      - label: "Kategorie"
+        name: "kategorie"
+        widget: "select"
+        options: 
+          - { label: "Wahlmodul", value: "wahl" }
+          - { label: "Pflichtmodul", value: "pflicht" }  
+          - { label: "Schwerpunktmodul", value: "schwerpunkt" }  
+
+      - label: "Sprache"
+        name: "sprache"
+        widget: "select"
+        options: 
+          - { label: "Deutsch", value: "deutsch" }
+          - { label: "Englisch", value: "englisch" }     
+
+      - label: "Kreditpunkte"
+        name: "kreditpunkte"
+        widget: "number"
+        default: 6
+        value_type: "int"
+        min: 1
+        max: 15
+        step: 1
+      
+      - label: "Gehört zu welchem Schwerpunkt?"
+        name: "schwerpunkt"
+        widget: "select"
+        multiple: true
+        options: ["DEV", "DUX", "EXA", "-"]
+        default: ["-"]  
+        required: false      
+
+      - { label: 'Voraussetzungen nach Prüfungsordnung', name: 'voraussetzungenNachPruefungsordnung', widget: 'string', default: 'keine', required: false }
+      - { label: 'Empfohlene Voraussetzungen', name: 'empfohleneVoraussetzungen', widget: 'string', default: 'keine', required: false }
+      
+      - { label: "Veröffentlicht", name: "published", widget: "boolean", default: false}
+      - { label: "Prüfungsvorleistung", name: "pvl", widget: "boolean", default: false, required: false}
+
+      - label: "Ist Kind von"
+        name: "parent"
+        widget: "list"
+        allow_add: true
+        summary: '{{fields.title}}'
+        required: false
+        field: 
+          label: "Elternteil"
+          name: "parent"
+          widget: "relation"
+          collection: "module-master"
+          search_fields: ["title"]
+          value_field: "kuerzel"
+          options_length: 120
+          display_fields: ["title"]
+          required: false
+
+
+      - { label: 'URL zu weiterführenden Informationen', name: 'infourl', widget: 'string', required: false }
+
+      - { label: "Wird im Sommersemester angeboten?", name: "angebotImSs", widget: "boolean", default: false, required: false}
+      - { label: "Wird im Wintersemester angeboten?", name: "angebotImWs", widget: "boolean", default: false, required: false}
+
+      - label: "Präsenzzeit in Stunden"
+        name: "praesenzZeit"
+        widget: "number"
+        default: 60
+        value_type: "int"
+        min: 0
+        max: 1000
+        step: 1
+
+      - label: "Selbststudium in Stunden"
+        name: "selbstStudium"
+        widget: "number"
+        default: 120
+        value_type: "int"
+        min: 0
+        max: 1000
+        step: 1
+
+      - label: "Verwendung des Moduls in weiteren Studiengängen"
+        name: "weitereStudiengaenge"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - { name: "ds", label: "Digital Sciences", widget: "boolean", default: false, required: false}
+          - { name: "others", label: "andere", widget: "boolean", default: false, required: false}
+          - { name: "none", label: "-", widget: "boolean", default: false, required: false}
+      
+      - label: "Lehrmethoden"
+        name: "lehrmethoden"
+        widget: "list"
+        collapsed: true
+        allow_add: true
+        summary: '{{fields.method}}'
+        field: {label: "Methode", name: "method", widget: "string"}
+
+      - label: "Lehrform"
+        name: "lehrform"
+        widget: "list"
+        collapsed: true
+        allow_add: true
+        summary: '{{fields.form}}'
+        field: {label: "Lehrform", name: "form", widget: "string"}
+      
+      - label: "Anzahl Teilnehmer:innen"
+        name: "participants"
+        widget: "object"
+        summary: '{{fields.min}}  {{fields.max}}'
+        fields:
+        - { label: "min", name: "min", widget: "number", default: 2, value_type: "int", min: 2, max: 50, step: 1, required: false }
+        - { label: "max", name: "max", widget: "number", default: 2, value_type: "int", min: 8, max: 50, step: 1, required: false }
+      - label: "Studienleistungen"
+        name: "studienleistungen"
+        widget: "object"
+        collapsed: true
+        fields: 
+          - label: "einzelleistung"
+            name: "einzelleistung"
+            widget: "list"
+            allow_add: true
+            summary: '{{fields.title}}'
+            required: false
+            fields: 
+              - label: "Prüfungsform"
+                name: "pruefungsform"
+                widget: "relation"
+                collection: "pruefungsformen-master"
+                search_fields: ["title"]
+                value_field: "kuerzel"
+                display_fields: ["title"]
+                required: false
+              - label: "Erstprüfer:in"
+                name: "erstpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Zweitprüfer:in"
+                name: "zweitpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Termin"
+                name: "datum"
+                widget: "object"
+                collapsed: true
+                required: false
+                fields: 
+                  - { name: "ws-1", label: "Wintersemester Prüfungsphase 1 (Anfang Februar)", widget: "boolean", default: false}
+                  - { name: "ws-2", label: "Wintersemester Prüfungsphase 2 (Mitte/ Ende März)", widget: "boolean", default: false} 
+                  - { name: "ss-1", label: "Sommersemester Prüfungsphase 1 (Juli)", widget: "boolean", default: false}
+                  - { name: "ss-2", label: "Sommersemester Prüfungsphase 2 (September)", widget: "boolean", default: false}
+                  - { name: "mitte-vl", label: "während der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-vl", label: "am Ende der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-sem", label: "am Ende des Semesters", widget: "boolean", default: false}
+                  - { name: "nv", label: "nach Vereinbarung", widget: "boolean", default: false}
+              - label: "Logische Verbindung"
+                name: "connector"
+                widget: "select"
+                required: false
+                options: ["und", "oder"]
+                default: ["und"]                  
+                        
+          - label: "Logische Verbindung"
+            name: "connector"
+            widget: "select"
+            required: false
+            options: ["und", "oder"]
+            default: ["und"]
+
+          - label: "teamleistung"
+            name: "teamleistung"
+            widget: "list"
+            allow_add: true
+            summary: '{{fields.title}}'
+            required: false
+            fields: 
+              - label: "Prüfungsform"
+                name: "pruefungsform"
+                widget: "relation"
+                collection: "pruefungsformen-master"
+                search_fields: ["title"]
+                value_field: "kuerzel"
+                display_fields: ["title"]
+                required: false
+              - label: "Erstprüfer:in"
+                name: "erstpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Zweitprüfer:in"
+                name: "zweitpruefer"
+                widget: "relation"
+                options_length: 120
+                collection: "people"
+                search_fields: ["title"]
+                value_field: "id"
+                display_fields: ["title"]
+                required: false
+              - label: "Termin"
+                name: "datum"
+                widget: "object"
+                collapsed: true
+                required: false
+                fields: 
+                  - { name: "ws-1", label: "Wintersemester Prüfungsphase 1 (Anfang Februar)", widget: "boolean", default: false}
+                  - { name: "ws-2", label: "Wintersemester Prüfungsphase 2 (Mitte/ Ende März)", widget: "boolean", default: false} 
+                  - { name: "ss-1", label: "Sommersemester Prüfungsphase 1 (Juli)", widget: "boolean", default: false}
+                  - { name: "ss-2", label: "Sommersemester Prüfungsphase 2 (September)", widget: "boolean", default: false}
+                  - { name: "mitte-vl", label: "während der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-vl", label: "am Ende der Vorlesungszeit", widget: "boolean", default: false}
+                  - { name: "ende-sem", label: "am Ende des Semesters", widget: "boolean", default: false}
+                  - { name: "nv", label: "nach Vereinbarung", widget: "boolean", default: false}
+              - label: "Logische Verbindung"
+                name: "connector"
+                widget: "select"
+                required: false
+                options: ["und", "oder"]
+                default: ["und"]
+
+      - label: 'Studiengangkriterien der Hochschule'
+        name: 'studiengangkriterien'
+        widget: "object"
+        collapsed: true
+        fields:
+        - { label: "Global Citizenship", name: "globalcitizenship", widget: "boolean", default: false, required: false }
+        - { label: "Internationalisierung", name: "internationalisierung", widget: "boolean", default: false, required: false }
+        - { label: "Interdisziplinarität", name: "interdisziplinaritaet", widget: "boolean", default: false, required: false }
+        - { label: "Transfer", name: "transfer", widget: "boolean", default: false, required: false }
+
+      - label: 'Aufwand'
+        name: 'effort'
+        widget: "object"
+        collapsed: true
+        fields:
+        - { label: "Vorlesung", name: "lecture", widget: "number", default: 15, value_type: "int", min: 2, max: 300, step: 1, required: false }    
+        - { label: "Seminar", name: "seminar", widget: "number", default: 15, value_type: "int", min: 2, max: 300, step: 1, required: false }    
+        - { label: "Praktikum", name: "practical", widget: "number", default: 15, value_type: "int", min: 2, max: 300, step: 1, required: false }    
+        - { label: "Übung", name: "exercise", widget: "number", default: 15, value_type: "int", min: 2, max: 300, step: 1, required: false }    
+        - { label: "Projektbegleitung", name: "project_supervision", widget: "number", default: 15, value_type: "int", min: 2, max: 300, step: 1, required: false }    
+        - { label: "Projektarbeit", name: "project_work", widget: "number", default: 15, value_type: "int", min: 2, max: 300, step: 1, required: false }            
+        
+      - { label: 'Besonderheiten', name: 'besonderheiten', widget: 'markdown', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

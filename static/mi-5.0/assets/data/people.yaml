@@ -1,0 +1,333 @@
+nn:
+  id: nn
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/stellen/
+  avatar: /avatar.png
+ald:
+  id: ald
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/alexander.dobrynin/
+  avatar: /src/assets/uploads/dobrynin.png
+ck:
+  id: ck
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/christian.kohls/
+  avatar: /src/assets/uploads/kohls.png
+cn:
+  id: cn
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/christian.noss/
+  avatar: /src/assets/uploads/noss.png
+fn:
+  id: fn
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/florian.niebling/
+  avatar: /src/assets/uploads/niebling.jpg
+il:
+  id: il
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/irma.lindt/
+  avatar: /src/assets/uploads/lindt.png
+maa:
+  id: maa
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/markus.alterauge/
+  avatar: ''
+moe:
+  id: moe
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/monika.engelen/
+  avatar: /src/assets/uploads/engelen.png
+mza:
+  id: mza
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/matthias.zapp/
+  avatar: /src/assets/uploads/zapp.jpg
+vos:
+  id: vos
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/volker.schaefer/
+  avatar: https://www.th-koeln.de/pseimg/968345007305db8e1992c660d36eac653a459623.png
+erw:
+  id: erw
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/ernestine.wassermann/
+  avatar: ''
+gh:
+  id: gh
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/gerhard.hartmann/
+  avatar: /src/assets/uploads/hartmann.png
+hk:
+  id: hk
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/hans.kornacher/
+  avatar: /src/assets/uploads/kornacher.png
+mw:
+  id: mw
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/mario.winter/
+  avatar: /src/assets/uploads/winter.png
+viet:
+  id: viet
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/viet.nguyen/
+  avatar: /src/assets/uploads/viet.jpg
+fv:
+  id: fv
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/frank.victor/
+  avatar: /src/assets/uploads/victor.png
+mboehmer:
+  id: mboehmer
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/matthias.boehmer/
+  avatar: /src/assets/uploads/boehmer.jpg
+uwm:
+  id: uwm
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/uwe.muesse/
+  avatar: /src/assets/uploads/uwe-muesse.jpg
+as:
+  id: as
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/ane.schmitter/
+  avatar: ''
+bb:
+  id: bb
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/birgit.bertelsmeier/
+  avatar: /src/assets/uploads/bertelsmeier.png
+dpetersen:
+  id: dpetersen
+  status: wma
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/david.petersen/
+  avatar: /src/assets/uploads/peterson.jpeg
+hg:
+  id: hg
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/holger.guenther/
+  avatar: /src/assets/uploads/guenther.jpg
+hls:
+  id: hls
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/hans.stahl/
+  avatar: /src/assets/uploads/stahl.png
+sk:
+  id: sk
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/stefan.karsch/
+  avatar: /src/assets/uploads/karsch.jpg
+wk:
+  id: wk
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/wolfgang.konen/
+  avatar: /src/assets/uploads/konen.png
+bn:
+  id: bn
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/boris.naujoks/
+  avatar: https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png
+cfrick:
+  id: cfrick
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/claudia.frick/
+  avatar: /src/assets/uploads/frick.jpg
+dgaida:
+  id: dgaida
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/daniel.gaida/
+  avatar: /src/assets/uploads/gaida.png
+dz:
+  id: dz
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/dietlind.zuehlke/
+  avatar: /src/assets/uploads/zuehlke.jpeg
+hs:
+  id: hs
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/horst.stenzel/
+  avatar: /src/assets/uploads/horststenzel.png
+jhenke:
+  id: jhenke
+  status: lba
+  mi: false
+  personenseite: ''
+  avatar: /avatar.png
+mbluemm:
+  id: mbluemm
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/mirjam.bluemm/
+  avatar: /src/assets/uploads/bluemm.png
+jschaible:
+  id: jschaible
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/johann.schaible/
+  avatar: /src/assets/uploads/johann-schaible.jpg
+mlinden:
+  id: mlinden
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/markus.linden/
+  avatar: /src/assets/uploads/markus-linden.png
+rgroten:
+  id: rgroten
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/raphaela.groten/
+  avatar: /src/assets/uploads/raphaela-groten.png
+seckstein:
+  id: seckstein
+  status: prof
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/stefan.eckstein/
+  avatar: /src/assets/uploads/stefan-eckstein.png
+skullack:
+  id: skullack
+  status: wma
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/sven.kullack/
+  avatar: /avatar.png
+tbb:
+  id: tbb
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/thomas.bartz-beielstein/
+  avatar: /src/assets/uploads/bartz.png
+cpa:
+  id: cpa
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/carolin.palmer/
+  avatar: /src/assets/uploads/palmer.jpeg
+cwe:
+  id: cwe
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/christina.werner1/
+  avatar: /src/assets/uploads/werner.png
+hwe:
+  id: hwe
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/hartmut.westenberger/
+  avatar: /src/assets/uploads/westenberger.png
+jka:
+  id: jka
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/jan.karpe/
+  avatar: /src/assets/uploads/karpe.png
+sbe:
+  id: sbe
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/stefan.bente/
+  avatar: /src/assets/uploads/bente.png
+tkl:
+  id: tkl
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/torsten.klein/
+  avatar: /src/assets/uploads/klein.jpg
+all:
+  id: all
+  status: ''
+  mi: false
+  personenseite: ''
+  avatar: /avatar.png
+dschmitt:
+  id: dschmitt
+  status: prof
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/daniela.schmitt/
+  avatar: /avatar.png
+eingesetzterPruefer:
+  id: eingesetzterPruefer
+  status: ''
+  mi: false
+  personenseite: ''
+  avatar: ''
+mi:
+  id: mi
+  status: ''
+  mi: false
+  personenseite: ''
+  avatar: /avatar.png
+slschulte:
+  id: slschulte
+  status: wma
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/simon_ludwig.schulte/
+  avatar: ''
+priemer:
+  id: priemer
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/petra.riemer/
+  avatar: /src/assets/uploads/a593763bcc89a6ffc5398f9fd4b831f42f784f83.png
+sstumpf:
+  id: sstumpf
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/siegfried.stumpf/
+  avatar: /src/assets/uploads/prof_stumpf.jpg
+msator:
+  id: msator
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/miriam.sartor/
+  avatar: /src/assets/uploads/b6778002dcf6336414e940df373bad056b75f7fa.png
+ddahl:
+  id: ddahl
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/daniel.dahl/
+  avatar: /src/assets/uploads/avatar.png
+rmajewski:
+  id: rmajewski
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/roman.majewski/
+  avatar: /src/assets/uploads/1f93c5704fb3ae27a37884c47227f821edefeedf.png
+lkoehler:
+  id: lkoehler
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/lutz.koehler/
+  avatar: /src/assets/uploads/avatar.png
+all_profs_and_ma:
+  id: all_profs_and_ma
+  mi: false
+  avatar: /src/assets/uploads/avatar.png
+mfaske:
+  id: mfaske
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/mario.faske/
+  avatar: /src/assets/uploads/mario-faske.jpg
