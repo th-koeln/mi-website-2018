@@ -63,5 +63,5 @@ jobs:
         run: ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: rsync -avz ./docs/ -e ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/usr/home/mi-labor/public_html/        
+        run: rsync -avz ./public/ -e ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/usr/home/mi-labor/public_html/        
 
