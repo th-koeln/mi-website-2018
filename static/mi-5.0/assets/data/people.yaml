@@ -331,3 +331,8 @@ mfaske:
   mi: true
   personenseite: https://www.th-koeln.de/personen/mario.faske/
   avatar: /src/assets/uploads/mario-faske.jpg
+NK:
+  id: NK
+  mi: true
+  personenseite: https://www.th-koeln.de/personen/nathalie_michelle_severine.kuhn/
+  avatar: /src/assets/uploads/nathalie-kuhn.jpg
