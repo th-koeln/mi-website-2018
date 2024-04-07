@@ -4,6 +4,6 @@ title: "Hier kann man studieren!"
 linkTitle: "Study"
 ---
 
-Die TH Köln bietet zwei aufeinander aufbauende Medieninformatik Studiengänge an: den [Medieninformatik Bachelor](/study/bachelor-5.0) und den [Medieninformatik Master](/study/master-5.0). Beide werden am {{< urls/campus-gm >}} vom Advanced Media Institute als Vollzeitstudiengänge betrieben.
+Die TH Köln bietet zwei aufeinander aufbauende Medieninformatik Studiengänge an: den [Medieninformatik Bachelor](/study/bachelor/) und den [Medieninformatik Master](/study/master/). Beide werden am {{< urls/campus-gm >}} vom Advanced Media Institute als Vollzeitstudiengänge betrieben.
 
 
