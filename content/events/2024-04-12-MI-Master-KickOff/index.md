@@ -7,7 +7,7 @@ termin: 12. April 2024, 10:00 Uhr
 
 Die Kick-Off Veranstaltung zum Sommersemester 2024 findet am **Freitag den 12.04.2024 ab 10:00 Uhr** bis ca. 14:00 Uhr im **Medieninformatik Studio** (3.216) am **Campus in Gummersbach** statt und wir freuen uns darauf, Euch dort persönlich willkommen zu heißen! 
 
-Die Kick-Off Veranstaltung beginnt mit einer kurzen Begrüßung und einer Vorstellung des Kollegium und der verschiedenen Rollen sowie zentraler Ansprechpartner. Als nächstes stellen Masterstudierende ihr Projekt in einem kurzen Pitch vor. Darauf folgt ein Open Space mit den vorgestellten Projekten als Postersession. Danach gibt es Getränke und Snacks und den Abschluss bildet eine Vorstellung der Module im Sommersemester für den Medieninformatik Master. Dort werden auch Fragen zum Studium beantwortet.
+Die Kick-Off Veranstaltung beginnt mit einer kurzen Begrüßung und einer Vorstellung des Kollegium mit ihren verschiedenen Rollen sowie zentraler Ansprechpartner. Als nächstes stellen Masterstudierende ihr Projekt in einem kurzen Pitch vor. Darauf folgt ein Open Space mit den vorgestellten Projekten als Postersession. Danach gibt es Getränke und Snacks und den Abschluss bildet eine Vorstellung der Module im Sommersemester für den Medieninformatik Master. Dort werden auch Fragen zum Studium beantwortet.
 
 ## Agenda
 
