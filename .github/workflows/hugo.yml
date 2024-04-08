@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Deploy MI Website to MI Web Server
 
 on:
   # Runs on pushes targeting the default branch
@@ -63,5 +63,5 @@ jobs:
         run: ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: rsync -avz ./public/ -e ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/usr/home/mi-labor/public_html/        
+        run: rsync --size-only -avz ./public/ -e ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/usr/home/mi-labor/public_html/        
 
