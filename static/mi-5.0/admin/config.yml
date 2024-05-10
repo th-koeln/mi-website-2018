@@ -176,7 +176,7 @@ collections:
         summary: '{{fields.form}}'
         field: {label: "Lehrform", name: "form", widget: "string"}
 
-      - label: "Studienleistungen"
+      - label: "Prüfungsformen"
         name: "studienleistungen"
         widget: "object"
         collapsed: true
@@ -471,7 +471,7 @@ collections:
         fields:
         - { label: "min", name: "min", widget: "number", default: 2, value_type: "int", min: 2, max: 50, step: 1, required: false }
         - { label: "max", name: "max", widget: "number", default: 2, value_type: "int", min: 8, max: 50, step: 1, required: false }
-      - label: "Studienleistungen"
+      - label: "Prüfungsformen"
         name: "studienleistungen"
         widget: "object"
         collapsed: true

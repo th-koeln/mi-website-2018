@@ -336,3 +336,8 @@ NK:
   mi: true
   personenseite: https://www.th-koeln.de/personen/nathalie_michelle_severine.kuhn/
   avatar: /src/assets/uploads/nathalie-kuhn.jpg
+huschke:
+  id: huschke
+  mi: false
+  personenseite: https://www.th-koeln.de/personen/sabine.huschke/
+  avatar: /src/assets/uploads/avatar.png
