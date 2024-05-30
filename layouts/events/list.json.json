@@ -13,7 +13,7 @@
                 "title":"{{ $element.Title }}",
                 "termin":"{{ $element.Params.termin }}",
                 "date":"{{ $element.Params.datum }}",
-                "bild": "{{ $scratch.Get "teaser" }}",
+                "bild": "https://www.medieninformatik.th-koeln.de{{ $scratch.Get "teaser" }}",
                 "content": {{ $element.RawContent  | jsonify }},
                 "url": "{{ $element.Permalink }}"
             }
