@@ -44,7 +44,7 @@ function createNews() {
       data.forEach(function (item) {
         
         let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
-        let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + item.bild + '"></div>';
+        let teaserImageCode = `<div class="m-mi-pulse-teaser--image"><img src="<${item.bild}" alt="${item.title}"></div>';
         let teaserImage = (item.bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
         
         target.innerHTML += `
