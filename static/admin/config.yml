@@ -1,0 +1,48 @@
+# config.yml
+local_backend: true
+
+backend:
+  name: git-gateway
+  repo: th-koeln/mi-website-2018
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: 'static/uploads'
+
+collections:
+  - name: 'event'
+    label: 'Event'
+    hint: 'Hier kommen Events rein.'
+    folder: 'content/events'
+    create: true
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Link Titel', name: 'linkTitle', widget: 'string' }
+      - { label: 'Termin', name: 'termin', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Date", name: "date", widget: "datetime", default: "", date_format: "YYYY.MM.DDTHH:mm:ss" }
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        choose_url: true
+        media_library:
+          config:
+            slug: "teaser-{{filename}}"
+            max_file_size: 512000 # in bytes, only for default media library
+  
+  - name: 'posts'
+    label: 'Infos & Dokumentation'
+    hint: 'Hier kommen ausführlichere Dokus und Infos rein.'
+    folder: '_posts'
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'simple' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }  
+      - { label: "Date", name: "date", widget: "datetime", default: "", date_format: "DD.MM.YYYY" }

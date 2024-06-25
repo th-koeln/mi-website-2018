@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "hugo --cleanDestinationDir",
-    "dev": "hugo server --disableFastRender --ignoreCache --forceSyncStatic  --cleanDestinationDir",
+    "decap-server": "npx decap-server && echo 'Decap server started http://localhost:8081'",
+    "server": "hugo server --ignoreCache --forceSyncStatic  --cleanDestinationDir",
+    "dev": "npm-run-all --parallel  decap-server server",
     "pull-moduls": "git subtree pull --prefix=mi-moduls-po4/ mi-2017-module master"
   },
   "author": "Advanced Media Institut - Cologne University of Applied Sciences",
@@ -13,8 +15,11 @@
     "type": "git",
     "url": "git@github.com:th-koeln/mi-website-2018.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
   "dependencies": {
-    "photoswipe": "^4.1.3"
+    "photoswipe": "^4.1.3",
+    "decap-cms-app": "^3.1.1"
   }
 }

@@ -21,8 +21,18 @@ function createNews() {
         });
     }
 
+    function cleanItems() {
+
+        const cleanData = [];
+
+        data.forEach(item => {
+            item.date = item.date.replace(/T.*/, '');
+        });
+    }
+
     function sortItems() {
         data.sort(function(a, b) {
+            console.log(a.date, b.date)
             let aTime = new Date(a.date);
             let bTime = new Date(b.date);
             return bTime - aTime;
@@ -38,29 +48,35 @@ function createNews() {
 
     function displayItems() {
         // only show a couple items
-        data = data.slice(0, 116);
-        
+        const news = data.sort(function(a, b) {
+            const aTime = new Date(a.date);
+            const bTime = new Date(b.date);
+            return aTime - bTime;
+        }).reverse().slice(0, 100);
+
+        console.log(news);
+    
         target.innerHTML = '';
-      data.forEach(function (item) {
+        news.forEach(function (item) {
         
-        let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
-        let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + item.bild + '" alt="'+item.title+'"></div>';
-        let teaserImage = (item.bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
+            let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
+            let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + item.bild + '" alt="'+item.title+'"></div>';
+            let teaserImage = (item.bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
         
-        target.innerHTML += `
-        <a href="${item.url}">
-            <div class="m-mi-pulse-teaser has-image">
-              ${teaserImage}
-              <div class="m-mi-pulse-teaser--content">
-                  ${external}
-                  <h2 class="title">${item.title}</h2>
-              </div>
-              <p class="m-mi-pulse-teaser--footer">
-                  ${item.termin}
-              </p>
-            </div>
-        </a>`;
-        });
+            target.innerHTML += `
+                <a href="${item.url}">
+                    <div class="m-mi-pulse-teaser has-image">
+                        ${teaserImage}
+                        <div class="m-mi-pulse-teaser--content">
+                            ${external}
+                            <h2 class="title">${item.title}</h2>
+                        </div>
+                        <p class="m-mi-pulse-teaser--footer">
+                            ${item.termin}
+                        </p>
+                    </div>
+                </a>`;
+            });
     }
 
     newsUrls.forEach(function(url) {
@@ -68,6 +84,7 @@ function createNews() {
     });
   
     Promise.all(promises)
+        .then(() => cleanItems())
         .then(() => sortItems())
         .then(() => displayItems());
 }
