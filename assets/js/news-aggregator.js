@@ -59,7 +59,6 @@ function createNews() {
 
         target.innerHTML = '';
         news.forEach(function (item) {
-            console.log(item)
             let bild = getTeaserImage(item);
             
             let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
