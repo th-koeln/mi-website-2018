@@ -1,7 +1,5 @@
 function createNews() {
-
     const newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
-    
     const target = document.querySelector('#eventblock');
     let promises = [];
     let data = [];
@@ -32,7 +30,6 @@ function createNews() {
 
     function sortItems() {
         data.sort(function(a, b) {
-            console.log(a.date, b.date)
             let aTime = new Date(a.date);
             let bTime = new Date(b.date);
             return bTime - aTime;
@@ -46,6 +43,12 @@ function createNews() {
         return window.location.href.substring(4);
     }
 
+    function getTeaserImage(item){
+        if(item.decapBild && item.decapBild.match(/jpg|jpeg|png|webP|j2/)) return `${item.ref}/${item.decapBild}`;
+        if(item.bild && item.bild.match(/jpg|jpeg|png|webP|j2/)) return item.bild;
+        return false;
+    }
+
     function displayItems() {
         // only show a couple items
         const news = data.sort(function(a, b) {
@@ -54,14 +57,14 @@ function createNews() {
             return aTime - bTime;
         }).reverse().slice(0, 100);
 
-        console.log(news);
-    
         target.innerHTML = '';
         news.forEach(function (item) {
-        
+            console.log(item)
+            let bild = getTeaserImage(item);
+            
             let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
-            let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + item.bild + '" alt="'+item.title+'"></div>';
-            let teaserImage = (item.bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
+            let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + bild + '" alt="'+item.title+'"></div>';
+            let teaserImage = (bild && bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
         
             target.innerHTML += `
                 <a href="${item.url}">

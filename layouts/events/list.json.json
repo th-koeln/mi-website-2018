@@ -11,9 +11,11 @@
             {{ if $index }}, {{ end }}
             {
                 "title":"{{ $element.Title }}",
+                "ref": "{{ $element.Page.Permalink }}",
                 "termin":"{{ $element.Params.termin }}",
                 "date":"{{ $element.Params.datum }}",
                 "bild": "https://www.medieninformatik.th-koeln.de{{ $scratch.Get "teaser" }}",
+                "decapBild": "{{ $element.Params.image}}",
                 "content": {{ $element.RawContent  | jsonify }},
                 "url": "{{ $element.Permalink }}"
             }

@@ -3,15 +3,24 @@
 	{{ $scratch := newScratch }}
 	
     {{ $section := . }}
-    {{ $teaser := .Resources.Match "teaser*" }}
-    {{ $image := index ($teaser) 0 }}
+
+    {{ if .Params.image }}
+        {{ $teaser := .Resources.Match .Params.image}}
+        {{ $scratch.Set "teaser" $teaser }}
+
+    {{ else }}
+        {{ $teaser := .Resources.Match "teaser*" }}
+        {{ $scratch.Set "teaser" $teaser }}
+    {{ end }}
+
+    {{ $image := index ($scratch.Get "teaser") 0 }}
     {{ $hero := $image.Resize "1600x Center q100 Linear" }}
     {{ $scratch.Set "heroClass" "" }}
 
     {{ if .Params.heroClass }}
         {{ $scratch.Set "heroClass" .Params.heroClass }}
     {{end}}
-    
+
     {{ $heroClass := $scratch.Get "heroClass" }}
     
     {{ if $hero }}

@@ -20,9 +20,9 @@ collections:
     fields:
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Link Titel', name: 'linkTitle', widget: 'string' }
-      - { label: 'Termin', name: 'termin', widget: 'string' }
+      - { label: 'Termin (der angezeigt werden soll)', name: 'termin', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: "Date", name: "date", widget: "datetime", default: "", date_format: "YYYY.MM.DDTHH:mm:ss" }
+      - { label: "Date (zur Sortierung)", name: "datum", widget: "datetime", default: "", date_format: "YYYY-MM-DDTHH:mm:ss" }
       - label: "Featured Image"
         name: "image"
         widget: "image"

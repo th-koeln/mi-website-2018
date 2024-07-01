@@ -5,7 +5,7 @@
   "scripts": {
     "start": "hugo --cleanDestinationDir",
     "decap-server": "npx decap-server && echo 'Decap server started http://localhost:8081'",
-    "server": "hugo server --ignoreCache --forceSyncStatic  --cleanDestinationDir",
+    "server": "hugo server --ignoreCache  --disableFastRender --cleanDestinationDir",
     "dev": "npm-run-all --parallel  decap-server server",
     "pull-moduls": "git subtree pull --prefix=mi-moduls-po4/ mi-2017-module master"
   },
