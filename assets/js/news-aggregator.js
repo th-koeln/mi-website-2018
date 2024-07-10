@@ -51,11 +51,7 @@ function createNews() {
 
     function displayItems() {
         // only show a couple items
-        const news = data.sort(function(a, b) {
-            const aTime = new Date(a.date);
-            const bTime = new Date(b.date);
-            return aTime - bTime;
-        }).reverse().slice(0, 100);
+        const news = data.slice(0, 100);
 
         target.innerHTML = '';
         news.forEach(function (item) {
