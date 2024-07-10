@@ -3,7 +3,7 @@ title: "Master Kolloquium von Benedikt Engel: Clientseitige Generierung von
   PDF-Dokumenten aus Webinhalten mit HTML-Markup und CSS-Layout"
 linkTitle: "Master Kolloquium "
 termin: 10. Juli 2024 // 13:00 Uhr // Raum 3.217
-datum: 2024-07-10T00:00:00
+datum: 2024-07-10
 image: c.noss_a_teaser_image_for_a_html_to_pdf_library_where_images_an_63c0185b-ad0b-47b4-851c-0369af67b964.jpg
 ---
 Diese Arbeit untersucht die clientseitge Generierung von PDF-Dokumenten aus HTML-Markup und CSS-Layout. Der Ansatz zielt darauf ab, den Pflegeprozess von Webinhalten und PDF-Dokumenten zu vereinfachen, indem Informationen im We- binhalt angegeben werden und aus diesem bei Bedarf das PDF-Dokument generiert werden kann.
