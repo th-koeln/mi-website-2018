@@ -58,7 +58,7 @@ function createNews() {
             let bild = getTeaserImage(item);
             
             let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
-            let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img src="' + bild + '" alt="'+item.title+'"></div>';
+            let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img loading="lazy" src="' + bild + '" alt="'+item.title+'"></div>';
             let teaserImage = (bild && bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
         
             target.innerHTML += `

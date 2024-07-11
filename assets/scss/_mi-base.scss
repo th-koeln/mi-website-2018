@@ -150,3 +150,48 @@ thead, tbody, tfoot {
 thead tr, tfoot tr {
     background: transparent;
 }
+
+/* View Transitions -----------------------------------------------------------------------------*/
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-group(root) {
+    animation-duration: 1s;
+  }
+  
+  @keyframes slide-out {
+    to {
+      opacity: 1;
+      transform: scale(3) translateY(-100vh);
+    }
+  }
+  
+  @keyframes move-out {
+    from {
+      transform: translateX(0%) scale(1);
+    }
+  
+    to {
+      transform: translateX(100%) scale(1);
+    }
+  }
+  
+  @keyframes move-in {
+    from {
+      transform: translateX(100%) scale(1);
+    }
+  
+    to {
+      transform: translateX(0%) scale(1);
+    }
+  }
+  
+  ::view-transition-old(root) {
+    animation: 0.4s ease-in both move-out;
+  }
+  
+  ::view-transition-new(root) {
+    animation: 0.4s ease-in both move-in;
+  }
