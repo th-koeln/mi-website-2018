@@ -5,7 +5,7 @@ autor: Matthias Böhmer
 linkTitle: "Studierende gewinnen 3. Platz bei Student Research Competition der MuC"
 ---
 
-Unsere Master-Studierenden Lining Bao, Katrin Hartz, Patrick Raul Lang, Finn Nils Maybauer und Leonard Pelzer haben einen ÖPNV-Navigation für neurodivergente Personen entwickelt. Für ihr Konzept und ihr wissenschaftliches Paper wurden sie bei der »Student Research Competition« der Konferenz »Mensch und Computer 2024« in Karlsruhe mit dem dritten Platz ausgezeichnet. Das Projekt wurde innerhalb des Studiums unter Betreuung von Prof. Dr. Gerhart Hartmann bearbeitet. Dafür eignen sich bspw. unsere [Guided Projects](https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project-SP/).
+Unsere Master-Studierenden Lining Bao, Katrin Hartz, Patrick Raul Lang, Finn Nils Maybauer und Leonard Pelzer haben einen ÖPNV-Navigation für neurodivergente Personen entwickelt. Für ihr Konzept und ihr wissenschaftliches Paper wurden sie bei der »Student Research Competition« der Konferenz »Mensch und Computer 2024« in Karlsruhe mit dem dritten Platz ausgezeichnet. Das Projekt wurde innerhalb des Studiums unter Betreuung von Prof. Dr. Gerhard Hartmann bearbeitet. Dafür eignen sich bspw. unsere [Guided Projects](https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project-SP/).
 
 
 ![Finn Maybauer, Leonard Pelzer, Katrin Hartz und Lining Bao (nicht auf dem Foto: Patrick Lang) haben den 3. Platz auf der MuC 2024 gewonnen](award-muc-student-research-competition.jpg)
