@@ -20,7 +20,7 @@
         float: left;
         min-width: 10px;
         padding: 0;
-        font-weight: bold;
+        font-weight: $fw-bold;
         color: #9313ce;
         padding-top: $bfs-xxs;
     }
@@ -140,7 +140,7 @@
         }
 
         &.active {
-            font-weight: bold;
+            font-weight: $fw-bold;
         }
 
         &.active::before {
@@ -325,7 +325,7 @@
 
 .mi-studienverlaufsplan-master .tabs .tabs-title.is-active a {
     background-color: #d16;
-    font-weight: bold;
+    font-weight: $fw-bold;
     color: #fff;
 }
 
@@ -338,32 +338,35 @@
 }
 
 
-/* events & video-overview
+/* video-overview
 ---------------------------------------------------------------------------- */
 
-.events, .video-overview {
+.video-overview {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr) );
     grid-gap: $bfs;
 }
 
-@media(max-width: $mi-vp-xl) {
-    .events, .video-overview {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
-@media(max-width: $mi-vp-l) {
-    .events, .video-overview{
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media(max-width: $mi-vp-s) {
-    .events, .video-overview {
-        grid-template-columns: 1fr;
+/* events
+---------------------------------------------------------------------------- */
+
+.events {
+    
+    margin-top: $fluid-xs;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr) );
+    grid-gap: $bfs-xl;
+
+    @media screen and (min-width: 60rem){
+        padding-right: $fluid-l;
     }
 }
+  
+
+
+
 
 
 /* Blog
@@ -640,7 +643,7 @@ img {
 
 thead th, thead td, tfoot th, tfoot td {
     padding: .5rem .625rem .625rem;
-    font-weight: bold;
+    font-weight: $fw-bold;
     text-align: left;
 }
 

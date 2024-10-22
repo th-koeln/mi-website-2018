@@ -10,6 +10,8 @@ body,
 html {
     font-family: IBMplex, Arial, Helvetica, sans-serif;
     font-size: $bfs;
+    font-weight: $fw-normal;
+
     hyphens: auto;
     overflow-x: hidden;
     @media screen and (max-width: 640px) {
@@ -18,14 +20,13 @@ html {
 }
 
 body {
-    font-family: IBMplex, Helvetica, Roboto, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
 /* Headlines & Texts -----------------------------------------------------------------------------*/
 
 h1 {
-    font-weight: bold;
+    font-weight: $fw-bold;
     margin-bottom: $bfs-xl;
     hyphens: none;
     @media screen and (max-width: 640px) {
@@ -55,7 +56,7 @@ h4 {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: IBMplex, Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: $fw-bold;
     color: inherit;
     text-rendering: optimizeLegibility;
 }

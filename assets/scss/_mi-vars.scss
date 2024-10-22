@@ -25,6 +25,12 @@ $mi-black: #231f20;
 $mi-grau: #aaaaaa;
 $mi-hellgrau: #efefef;
 $lighten: rgba(255,255,255,0.5);
+$dark: rgba(0,0,0,0.7);
+$darker: rgba(0,0,0,0.85);
+$darkest: rgba(0,0,0,1);
+$light: rgba(255,255,255,0.7);
+$lighter: rgba(255,255,255,0.85);
+$lightest: rgba(255,255,255,1);
 
 // MI Fonts
 // ---------
@@ -117,6 +123,13 @@ $mi-vp-xl: 1399px;
 // ---------
 $from-left: 100px;
 
+// Font Weights
+// ---------
+$fw-light: 200;
+$fw-normal: 300;
+$fw-medium: 400;
+$fw-bold: 600;
+
 
 // MI Borders
 // ---------
@@ -150,6 +163,15 @@ $text-small: 24rem;
 $tr-fast: 0.3s;
 $tr-medium: 0.6s;
 
+// Radien
+// ---------
+$radius-xs: $xs;
+$radius-s: $s;
+$radius-m: $m;
+
+
 // Sonstiges
 // ---------
 $shadow-s: 0 0 10px rgba(0,0,0,0.2);
+
+

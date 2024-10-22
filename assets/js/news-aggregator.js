@@ -1,5 +1,29 @@
-function createNews() {
-    const newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
+const newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
+const displayMax = 16;
+
+const showAdditionalNews = () => {
+    const areThereMoreNews = document.querySelectorAll(".news-item").length > displayMax;
+    if(!areThereMoreNews) return;
+    
+    const targetContainer = document.querySelector('#eventblock');
+    if(!targetContainer) return;
+  
+    targetContainer.insertAdjacentHTML("beforeend", `<button class="more-events-button m-mi-pulse-teaser" data-js-show-more-news class="button">Weitere Events anzeigen</button>`);
+  
+    const showMoreButton = document.querySelector("[data-js-show-more-news]");
+    if(!showMoreButton) return;
+  
+    showMoreButton.addEventListener("click", () => {
+      const hiddenItems = document.querySelectorAll(".news-item.is-hidden");
+      hiddenItems.forEach(item => {
+        item.classList.remove("is-hidden");
+        item.classList.add("is-visible");
+      });
+      showMoreButton.style.display = "none";
+    });
+  };
+  
+  function createNews() {
     const target = document.querySelector('#eventblock');
     let promises = [];
     let data = [];
@@ -54,15 +78,17 @@ function createNews() {
         const news = data.slice(0, 100);
 
         target.innerHTML = '';
-        news.forEach(function (item) {
+        news.forEach(function (item, index) {
             let bild = getTeaserImage(item);
             
             let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
             let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img loading="lazy" src="' + bild + '" alt="'+item.title+'"></div>';
             let teaserImage = (bild && bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
-        
+            
+            const visibilityClass = index < displayMax ? 'is-visible' : 'is-hidden';
+
             target.innerHTML += `
-                <a href="${item.url}">
+                <a href="${item.url}" class="news-item ${visibilityClass}">
                     <div class="m-mi-pulse-teaser has-image">
                         ${teaserImage}
                         <div class="m-mi-pulse-teaser--content">
@@ -84,7 +110,8 @@ function createNews() {
     Promise.all(promises)
         .then(() => cleanItems())
         .then(() => sortItems())
-        .then(() => displayItems());
+        .then(() => displayItems())
+        .then(() => showAdditionalNews())
 }
 
 document.onreadystatechange = function () {

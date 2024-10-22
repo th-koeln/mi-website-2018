@@ -25,14 +25,14 @@
     }
 
     &--logoSlug {
-        font-weight: 400;
+        font-weight: $fw-medium;
     }
 
 
     &--text {
         display: inline-block;
         font-family: $family-headlines;
-        font-weight: bold;
+        font-weight: $fw-bold;
         
     }
 
