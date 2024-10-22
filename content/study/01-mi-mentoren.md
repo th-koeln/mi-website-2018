@@ -5,8 +5,8 @@ linkTitle = "Study"
 +++
 
 <div class="mi-grid mi-grid--2-cols">
-  <img src="./ernestine-wassermann.jpg" alt="Ernestine Wassermann // Mi Mentorin">
-  <img src="./simon-schulte.jpg" alt="Simon Schulte // Mi Mentor">
+  <img src="/study/ernestine-wassermann.jpg" alt="Ernestine Wassermann // Mi Mentorin">
+  <img src="/study/simon-schulte.jpg" alt="Simon Schulte // Mi Mentor">
 </div>
 
 <p>
