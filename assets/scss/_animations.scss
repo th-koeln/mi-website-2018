@@ -1,0 +1,267 @@
+/* View transition
+############################################################################ */
+
+
+@view-transition {
+  navigation: auto;
+}
+
+main{
+  contain: paint;
+  view-transition-name: main;
+}
+
+@keyframes go-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* break */
+@keyframes go-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+::view-transition-old(main) {
+  animation-direction: both;
+  animation-duration: 0.4s;
+  animation-name: go-out;
+  animation-timing-function: ease-in;
+}
+
+::view-transition-new(main) {
+  animation: 0.4s ease-in both go-in;
+}
+
+
+/* Scale in
+############################################################################ */
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+.scale-in {
+  @media screen and (min-width: 40rem) {
+    animation-name: scale-in;
+    animation-range: entry 0% cover 50%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Scale in fast
+############################################################################ */
+
+@keyframes scale-in-fast {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    opacity: 1; 
+    transform: scale(1);
+  }
+}
+
+.scale-in-fast, .m-mi-pulse-teaser {
+  @media screen and (min-width: 40rem) {
+    animation-name: scale-in-fast;
+    animation-range: entry 0% cover 30%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: ease-in-out;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Scale out
+############################################################################ */
+
+@keyframes scale-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0; 
+    transform: scale(0);
+  }
+}
+
+.scale-out {
+  @media screen and (min-width: 40rem) {
+    animation-name: scale-out;
+    animation-range: cover 70% cover 100%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Scale out
+############################################################################ */
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
+
+.slide-in, .m-mi-content-wrap, .has-seperator, .verantwortlich {
+  @media screen and (min-width: 40rem) {
+    animation-name: slide-in;
+    animation-range: entry 0% cover 40%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: ease-in-out;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+
+/* Reveal
+############################################################################ */
+
+@keyframes reveal {
+	from {
+		clip-path: inset(45% 20% 45% 20%);
+		opacity: 0;
+	}
+
+	to {
+		clip-path: inset(0% 0% 0% 0%);
+		opacity: 1;
+	}
+}
+
+.reveal, img {
+  @media screen and (min-width: 40rem) {
+    animation-name: reveal;
+    animation-range: entry 0% cover 30%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Zoom out
+############################################################################ */
+
+@keyframes zoom-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0; 
+    transform: scale(2);
+  }
+}
+
+.zoom-out {
+  @media screen and (min-width: 40rem) {
+    animation-name: zoom-out;
+    animation-range: cover 70% cover 100%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Stick and fade out
+############################################################################ */
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0; 
+  }
+}
+
+.stick-and-fade-out {
+  @media screen and (min-width: 40rem) {
+    position: sticky;
+    top: 300px;
+    animation-name: fade-out;
+    animation-range: cover 50% cover 100%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Fade in
+############################################################################ */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1; 
+  }
+}
+
+.fade-in {
+  @media screen and (min-width: 40rem) {
+    animation-name: fade-in;
+    animation-range: cover 0% cover 30%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: linear;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
+
+/* Speed up
+############################################################################ */
+
+@keyframes speed-up {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.speed-up {
+  @media screen and (min-width: 40rem) {
+    animation-name: speed-up;
+    animation-range: cover 0% cover 100%;
+    animation-timeline: --appear-in-viewport;
+    animation-timing-function: ease-in-out;
+    view-timeline-name: --appear-in-viewport;
+  }
+}
