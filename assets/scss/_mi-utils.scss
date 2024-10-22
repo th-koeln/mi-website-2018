@@ -31,7 +31,7 @@
 }
 
 .has-extra-foot-space {
-  margin-bottom: $bfs-xxl !important;
+  margin-bottom: clamp($bfs-xxl, 5vw, calc(#{$bfs-xxl} * 2)) !important;
 }
 
 .arrow-up {

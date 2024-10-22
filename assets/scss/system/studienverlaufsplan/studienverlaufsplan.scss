@@ -1,0 +1,166 @@
+/* Module Block Overview
+############################################################################ */
+ 
+.module-block-overview{
+
+    --bfs: clamp(0.5rem, calc(0.86rem + 1vw), 1.2rem);
+    --half: calc(var(--bfs) / 2); // halbes geviert
+    --quat: calc(var(--bfs) / 4); // viertel geviert
+    --xxs: calc(var(--bfs) * 0.4);
+    --xs: calc(var(--bfs) * 0.6);
+    --s: calc(var(--bfs) * 0.8);
+    --m: calc(var(--bfs) * 1);
+    --l: calc(var(--bfs) * 1.2);
+    --xl: calc(var(--bfs) * 1.5);
+    --xxl: calc(var(--bfs) * 1.9);
+    --xxxl: calc(var(--bfs) * 2.4);
+    --xxxxl: calc(var(--bfs) * 3);
+    --fluid-space-xs: calc(var(--xs) + 0.25vw);
+    --fluid-space-s: calc(var(--s) + 0.5vw);
+    --fluid-space-m: calc(var(--m) + 1vw);
+    --fluid-space-l: calc(var(--l) + 1.5vw);
+    --fluid-space-xl: calc(var(--xl) + 2vw);
+    --max-width-content: calc(var(--m) * 50);
+    --max-width-table: calc(var(--m) * 80);
+    --max-width-card: calc(var(--m) * 20);
+    --max-width-image: calc(var(--m) * 10);
+    --max-width-image-l: calc(var(--m) * 15);
+    --max-width-image-s: calc(var(--m) * 5);
+    --max-width-navigation: calc(var(--m) * 20);
+    --max-width-aside: calc(var(--m) * 20);
+    --mi-lila: #9313ce;
+    --mi-gruen: #00ad2f;
+    --mi-orange: #F58700;
+    --mi-pink: #d16;
+    --mi-blau: #4952e1;
+    --handlungsfeld-dev: #CA0DD2;
+    --handlungsfeld-dux: #A941F4;
+    --handlungsfeld-exa: #463CD1;
+    --handlungsfeld-crea: #3276D1;
+    --handlungsfeld-indi: #12BDDB;
+    --light: #ccc;
+    --lighter: #eee;
+    --lightest: #fff;
+    --lighten: rgb(255 255 255 / 50%);
+    --lighten-strong: rgb(255 255 255 / 80%);
+    --dark: rgb(0 0 0 / 60%);
+    --darker: rgb(0 0 0 / 80%);
+    --darkest: rgb(0 0 0 / 100%);
+    --darken: rgb(0 0 0 / 10%);
+    --darken-strong: rgb(0 0 0 / 20%);
+    --darken-light: rgb(0 0 0 / 5%);
+    --color-text: var(--darker);
+    --color-headline: var(--darkest);
+    --color-accent: var(--mi-pink);
+    --color-highlight: var(--mi-lila);
+    --color-decoration: var(--dark);
+    --color-background: var(--lighter);
+    --color-wip: var(--darker);
+    --ff-normal: ibmplex, sans-serif;
+    --ff-serif: ibmplex, serif;
+    --ff-code: ibmplex, monospace;
+    --ff-headline: ibmplex, monospace;
+    --ff-icons: "MaterialIcons", serif;
+    --fw-normal: 300;
+    --fw-medium: 500;
+    --fw-bold: 600;
+    --lh-normal: 140%;
+    --lh-tight: 115%;
+    --lh-semi-tight: 110%;
+    --lh-loose: 150%;
+    --tr-fast: 0.2s;
+    --tr-slow: 0.6s;
+    --tr-delay: 1.2s;
+    --op-low: 0.4;
+    --op-medium: 0.6;
+    --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 20%);
+    --shadow-l-light: 0 0 var(--xs) rgb(0 0 0 / 5%);
+    --shadow-xl: var(--half) var(--half) var(--m) rgb(0 0 0 / 30%);
+    --shadow-xl-light: var(--half) var(--half) var(--m) rgb(0 0 0 / 10%);
+    --border-width-s: 1px;
+    --border-width-m: 3px;
+    --border-width-l: 6px;
+    --border-radius-s: 3px;
+    --border-radius-m: 0.5ch;
+
+    width: auto;
+    margin-top: var(--xxl);
+
+    .module-block{
+      display: grid;
+      width: auto;
+
+      margin-bottom: var(--xl);
+      gap: var(--m);
+      grid-template-columns: auto 1fr;
+  
+      .fachsemester{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: var(--xs);
+        padding-top: 0;
+        padding-top: 0.5rem;
+        border: solid var(--border-width-m) var(--mi-lila);
+        margin-bottom: 0;
+        color: var(--mi-lila);
+        font-size: var(--xxl);
+      }
+  
+      &-list{
+        display: grid;
+        margin-bottom: 0;
+        max-width: unset !important;
+        gap: 2px;
+        grid-auto-rows: 1fr;
+        grid-template-columns: repeat(auto-fill,minmax(16em,1fr));
+  
+        li{
+          display: block;
+          background-color: var(--darkest);
+          color: var(--lightest);
+          font-size: var(--s);
+          font-weight: var(--fw-medium);
+          line-height: var(--lh-tight);
+          
+          &:hover{
+            background-color: var(--mi-pink) !important;
+          }
+
+          &.grundlagen{
+            background-color:rgba(0, 0, 0, 1);
+          }
+  
+          &.vertiefung, &.schwerpunkt{
+            background-color: rgba(0, 0, 0, 0.7);
+          }
+  
+          &.spezialisierung, &.wahl{
+            background-color: rgba(0, 0, 0, 0.5);
+          }
+  
+          a{
+            display: block;
+            padding: var(--s) var(--s) var(--m) var(--s);
+            color: var(--lightest);
+            text-decoration: none;
+            background-color: transparent;
+
+          }
+  
+          span.module-cps{
+            color: var(--lighten-strong);
+            font-weight: var(--fw-normal);
+  
+            &::before{
+              color: var(--lighten);;
+              content: "// ";
+            }
+          }
+        }
+  
+  
+      }
+    }
+    
+  }
