@@ -8,7 +8,7 @@
 
 body,
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: IBMplex, Arial, Helvetica, sans-serif;
     font-size: $bfs;
     hyphens: auto;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-family: "PT Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: IBMplex, Helvetica, Roboto, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -53,7 +53,7 @@ h4 {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-    font-family: "Roboto Slab";
+    font-family: IBMplex, Helvetica, Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     color: inherit;
@@ -151,47 +151,3 @@ thead tr, tfoot tr {
     background: transparent;
 }
 
-/* View Transitions -----------------------------------------------------------------------------*/
-
-@view-transition {
-    navigation: auto;
-}
-
-::view-transition-group(root) {
-    animation-duration: 1s;
-  }
-  
-  @keyframes slide-out {
-    to {
-      opacity: 1;
-      transform: scale(3) translateY(-100vh);
-    }
-  }
-  
-  @keyframes move-out {
-    from {
-      transform: translateX(0%) scale(1);
-    }
-  
-    to {
-      transform: translateX(100%) scale(1);
-    }
-  }
-  
-  @keyframes move-in {
-    from {
-      transform: translateX(100%) scale(1);
-    }
-  
-    to {
-      transform: translateX(0%) scale(1);
-    }
-  }
-  
-  ::view-transition-old(root) {
-    animation: 0.4s ease-in both move-out;
-  }
-  
-  ::view-transition-new(root) {
-    animation: 0.4s ease-in both move-in;
-  }

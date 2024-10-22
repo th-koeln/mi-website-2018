@@ -35,7 +35,67 @@ $lighten: rgba(255,255,255,0.5);
     src: url('/fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
     font-display: swap;
 }
-$family-headlines: "Roboto Slab";
+$family-headlines: IBMplex, Helvetica, Roboto, Arial, sans-serif;
+
+@font-face {
+    font-display: swap;
+    font-family: IBMplex;
+    font-style: normal;
+    font-weight: 300;
+    src: 
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff2") format("woff2"),
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: IBMplex;
+    font-style: italic;
+    font-weight: 300;
+    src:
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.woff2") format("woff2"),
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: IBMplex;
+    font-style: normal;
+    font-weight: 500;
+    src: 
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.woff2") format("woff2"),
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: IBMplex;
+    font-style: italic;
+    font-weight: 500;
+    src: 
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff2") format("woff2"),
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: IBMplex;
+    font-style: normal;
+    font-weight: 600;
+    src: 
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2") format("woff2"),
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: IBMplex;
+    font-style: italic;
+    font-weight: 600;
+    src: 
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2") format("woff2"),
+      url("/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf") format("truetype");
+  }
 
 @font-face {
     font-family: 'PT Sans';
