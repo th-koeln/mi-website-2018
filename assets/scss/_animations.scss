@@ -2,47 +2,50 @@
 ############################################################################ */
 
 
+/* View Transitions -----------------------------------------------------------------------------*/
+
 @view-transition {
   navigation: auto;
 }
 
-main{
-  contain: paint;
-  view-transition-name: main;
+::view-transition-group(root) {
+  animation-duration: 1s;
 }
 
-@keyframes go-out {
-  from {
+@keyframes slide-out {
+  to {
     opacity: 1;
+    transform: scale(3) translateY(-100vh);
+  }
+}
+
+@keyframes move-out {
+  from {
+    transform: translateX(0%) scale(1);
   }
 
   to {
-    opacity: 0;
+    transform: translateX(100%) scale(1);
   }
 }
 
-/* break */
-@keyframes go-in {
+@keyframes move-in {
   from {
-    opacity: 0;
+    transform: translateX(100%) scale(1);
   }
 
   to {
-    opacity: 1;
+    transform: translateX(0%) scale(1);
   }
 }
 
-::view-transition-old(main) {
-  animation-direction: both;
-  animation-duration: 0.4s;
-  animation-name: go-out;
-  animation-timing-function: ease-in;
+::view-transition-old(root) {
+  animation: 0.4s ease-in both move-out;
 }
 
-::view-transition-new(main) {
-  animation: 0.4s ease-in both go-in;
+::view-transition-new(root) {
+  animation: 0.4s ease-in both move-in;
 }
-
 
 /* Scale in
 ############################################################################ */
@@ -134,7 +137,7 @@ main{
   }
 }
 
-.slide-in, .m-mi-content-wrap, .has-seperator, .verantwortlich {
+.slide-in, .m-mi-content-wrap, .has-seperator, .verantwortlich, .has-extra-foot-space > * {
   @media screen and (min-width: 40rem) {
     animation-name: slide-in;
     animation-range: entry 0% cover 40%;
