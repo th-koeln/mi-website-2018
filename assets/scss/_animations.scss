@@ -128,7 +128,7 @@
 @keyframes slide-in {
   from {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(30%);
   }
 
   to {
@@ -137,7 +137,7 @@
   }
 }
 
-.slide-in, .m-mi-content-wrap, .has-seperator, .verantwortlich, .has-extra-foot-space > * {
+.slide-in, .m-mi-content-wrap, .verantwortlich, .has-extra-foot-space > * {
   @media screen and (min-width: 40rem) {
     animation-name: slide-in;
     animation-range: entry 0% cover 40%;

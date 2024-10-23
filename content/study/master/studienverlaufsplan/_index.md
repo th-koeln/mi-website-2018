@@ -16,15 +16,15 @@ view: "views/content-12-12"
     <h3 class="fachsemester">1</h3>
     <ul class="module-block-list">
       <li class="pflicht"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/">
           Research Methods for Interactive Media <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
           Schwerpunkt <span class="module-cps">6&nbsp;CP</span> </a> </li>
-      <li class="wahl"> <a href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
+      <li class="wahl"> <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
           Wahlmodul <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="wahl"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/"> Guided
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/"> Guided
           Project <span class="module-cps">12&nbsp;CP</span> </a> </li>
     </ul>
   </div>
@@ -32,15 +32,15 @@ view: "views/content-12-12"
     <h3 class="fachsemester">2</h3>
     <ul class="module-block-list">
       <li class="pflicht"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Interactive-Media-Products/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Interactive-Media-Products/">
           Interactive Media Products <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
           Schwerpunkt <span class="module-cps">6&nbsp;CP</span> </a> </li>
-      <li class="wahl"> <a href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
+      <li class="wahl"> <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
           Wahlmodul <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project-SP/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project-SP/">
           Guided Project im Schwerpunkt <span class="module-cps">12&nbsp;CP</span> </a> </li>
     </ul>
   </div>
@@ -48,7 +48,7 @@ view: "views/content-12-12"
     <h3 class="fachsemester">3</h3>
     <ul class="module-block-list">
       <li class="abschluss"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Masterarbeit/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Masterarbeit/">
           Masterarbeit inkl. Kolloquium <span class="module-cps">30&nbsp;CP</span> </a> </li>
     </ul>
   </div>
@@ -61,15 +61,15 @@ view: "views/content-12-12"
     <h3 class="fachsemester">1</h3>
     <ul class="module-block-list">
       <li class="pflicht"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/">
           Research Methods for Interactive Media <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
           Schwerpunkt <span class="module-cps">6&nbsp;CP</span> </a> </li>
-      <li class="wahl"> <a href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
+      <li class="wahl"> <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
           Wahlmodul <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="wahl"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/"> Guided
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/"> Guided
           Project <span class="module-cps">12&nbsp;CP</span> </a> </li>
     </ul>
   </div>
@@ -77,15 +77,15 @@ view: "views/content-12-12"
     <h3 class="fachsemester">2</h3>
     <ul class="module-block-list">
       <li class="pflicht"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Interactive-Media-Products/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Interactive-Media-Products/">
           Interactive Media Products <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
           Schwerpunkt <span class="module-cps">6&nbsp;CP</span> </a> </li>
-      <li class="wahl"> <a href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
+      <li class="wahl"> <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
           Wahlmodul <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project-SP/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project-SP/">
           Guided Project im Schwerpunkt <span class="module-cps">12&nbsp;CP</span> </a> </li>
     </ul>
   </div>
@@ -93,15 +93,15 @@ view: "views/content-12-12"
     <h3 class="fachsemester">3</h3>
     <ul class="module-block-list">
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
           Schwerpunkt <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="schwerpunkt"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO-SP/"> Wahlmodul im
           Schwerpunkt <span class="module-cps">6&nbsp;CP</span> </a> </li>
-      <li class="wahl"> <a href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
+      <li class="wahl"> <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_WAMO/">
           Wahlmodul <span class="module-cps">6&nbsp;CP</span> </a> </li>
       <li class="wahl"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/"> Guided
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/"> Guided
           Project <span class="module-cps">12&nbsp;CP</span> </a> </li>
     </ul>
   </div>
@@ -109,7 +109,7 @@ view: "views/content-12-12"
     <h3 class="fachsemester">4</h3>
     <ul class="module-block-list">
       <li class="abschluss"> <a
-          href="/po5/reakkreditierung/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Masterarbeit/">
+          href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Masterarbeit/">
           Masterarbeit inkl. Kolloquium <span class="module-cps">30&nbsp;CP</span> </a> </li>
     </ul>
   </div>
