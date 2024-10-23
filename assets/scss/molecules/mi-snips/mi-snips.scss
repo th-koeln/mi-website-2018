@@ -1,0 +1,42 @@
+.m-mi-snips{
+  figure{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: $m;
+
+    figcaption{
+      display: flex;
+      flex-direction: column;
+      margin-top: auto;
+      font-size: $s;
+      width: 10rem;
+      color: $dark;
+      font-weight: $fw-bold;
+      line-height: $lh-tight;
+      text-wrap: balance;
+
+      .copyright{
+        margin-bottom: 0;
+        font-weight: $fw-light;
+      }
+    }
+
+    @media screen and (max-width: 40rem) {
+      flex-direction: column;
+      gap: $xs;
+
+      figcaption{
+        width: 100%;
+        text-align: right;
+
+        .bu{
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    img{
+      width: 100%;
+    }
+  }
+}

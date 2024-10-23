@@ -55,7 +55,10 @@
 }
 
 .is-full-width{
+
+  @media screen and (min-width: 40rem) {
     width: 90vw !important;
+  }
 }
 
 .has-mouseover:hover{

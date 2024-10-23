@@ -32,17 +32,31 @@ collections:
             slug: "teaser-{{filename}}"
             max_file_size: 512000 # in bytes, only for default media library
   
-  - name: 'posts'
-    label: 'Infos & Dokumentation'
-    hint: 'Hier kommen ausführlichere Dokus und Infos rein.'
-    folder: '_posts'
+  - name: 'snaps'
+    label: 'Eindrücke'
+    hint: 'Hier kommen Bilder und Filmchen rein, die wir dann auf der Seite verteilen.'
+    folder: 'content/snaps'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
     editor:
       preview: true
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'simple' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }  
-      - { label: "Date", name: "date", widget: "datetime", default: "", date_format: "DD.MM.YYYY" }
+      - { label: 'Caption', name: 'title', widget: 'string' }
+      - { label: 'Autor', name: 'Autor', widget: 'string' }
+      - { label: "Date (zur Sortierung)", name: "datum", widget: "datetime", default: "", date_format: "YYYY-MM-DDTHH:mm:ss" }
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        choose_url: true
+        allow_multiple: true
+        media_library:
+          config:
+            slug: "{{filename}}"
+            max_file_size: 512000 # in bytes, only for default media library
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options: ["Bachelor", "Master", "Event", "Teaching", "Atmo", "Working"]
+        default: ["Atmo"]
+

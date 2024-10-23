@@ -22,6 +22,7 @@
         
         {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         
         {{ with .Title }}
         <meta property="og:title" content="TH Köln // Medieninformatik // {{.}}" />
@@ -46,6 +47,17 @@
         {{ range .AlternativeOutputFormats -}}
             {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
         {{ end -}}
+
+        <script type="module" defer>
+            import PhotoSwipeLightbox from 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe-lightbox.esm.min.js';
+            const lightbox = new PhotoSwipeLightbox({
+                gallery: '.photoswipe',
+                children: 'a',
+                showHideAnimationType: 'zoom',
+                pswpModule: () => import('https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.esm.min.js')
+            });
+            lightbox.init();
+        </script>
         
     </head>
     <body>

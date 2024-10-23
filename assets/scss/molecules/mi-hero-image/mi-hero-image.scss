@@ -1,8 +1,8 @@
 .m-mi-hero-image {
-    overflow: hidden;
-    height: 0;
-    padding-top: 56.25%;
-    background-color: #efefef;
+    
+    position: relative;
+    aspect-ratio: 16/9;
+    background-color: transparent;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -14,23 +14,19 @@
         background-size: contain;
     }
 
-    .title{
-        position: absolute;
-        left: 0;
-        bottom: $bfs-xl;
+    h1{
+        display: block;
     }
+
+
+    @media screen and (min-width: 40rem) {
+        .title{
+            h1, h2{
+                display: inline-block;
+            }
+        }
+    }
+
 }
 
 
-@media screen and (max-width: 639px) {
-    .m-mi-hero-image {
-        padding-top: 90%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-
-    .m-mi-hero-image {
-        padding-top: 100%;
-    }
-}

@@ -1,0 +1,23 @@
+{{ define "response" }}
+    {{ $scratch := newScratch }}
+    [	 
+        {{ range $index, $element := .Data.Pages }}
+        {{ $img := $element.Page.Resources.GetMatch "*.webp" }}
+            {{ if $index }}, {{ end }}
+            {
+                "title":"{{ $element.Title }}",
+                "ref": "{{ $element.Page.Permalink }}",
+                "autor":"{{ $element.Params.autor }}",
+                "date":"{{ $element.Params.datum }}",
+                "width": "{{$img.Width}}",
+                "height": "{{$img.Height}}",
+                "decapBild": "{{ $element.Params.image}}",
+                "tags": {{ $element.Params.tags | jsonify }},
+                "url": "{{ $element.Permalink }}"
+            }
+        {{ end }}
+    ]
+
+{{ end }}
+
+

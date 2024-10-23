@@ -7,6 +7,7 @@ po: 5
 selectKey: "studiensemesterws"
 semester: 1,2,3,4
 additionalContent: 
+  - "gallery"
   - "studienverlaufsplan"
   - "modulhandbuch"
 ---
