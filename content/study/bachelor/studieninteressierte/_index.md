@@ -96,27 +96,27 @@ Kein Problem :) Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, a
 
 
 
-<div class="mi-grid mi-grid--2-cols has-extra-head-space">
+<div class="mi-grid mi-grid--2-cols has-extra-head-space has-extra-foot-space">
   <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/mario-faske.jpg)"></div>
+    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/simon-schulte-centered.webp)"></div>
     <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/mario.faske/">Mario Faske</a></h3>
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/simon_ludwig.schulte/">Simon Schulte</a></h3>
       <h4 class="m-mi-avatar-mit-text__subtitle">Mentor</h4>
     </header>
   </div>
 
   <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/nathalie-kuhn.jpg)"></div>
+    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/ernestine-wassermann-centered.webp)"></div>
     <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/nathalie_michelle_severine.kuhn/">Nathalie Kuhn</a></h3>
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/ernestine.wassermann/">Ernestine Wassermann</a></h3>
       <h4 class="m-mi-avatar-mit-text__subtitle">Mentorin</h4>
     </header>
   </div>
 
   <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/professoren/noss.png)"></div>
+    <div class="m-mi-avatar" style="background-image:url(/img/professoren/viet.jpg"></div>
     <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/christian.noss/">Prof. Christian Noss</a></h3>
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/viet.nguyen/">Prof. Dr. Hoai Viet Nguyen</a></h3>
       <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Bachelor</h4>
     </header>
   </div>
