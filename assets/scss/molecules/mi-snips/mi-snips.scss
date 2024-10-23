@@ -1,19 +1,39 @@
 .m-mi-snips{
+
+  a{
+    display: block;
+    width: 100%;
+
+    &.is-hidden{
+      display: none;
+    }
+  }
+
   figure{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: $m;
+
+    margin: 0;
+
+    img{
+      display: block;
+      margin-bottom: $xs;
+    }
 
     figcaption{
       display: flex;
       flex-direction: column;
       margin-top: auto;
       font-size: $s;
-      width: 10rem;
       color: $dark;
       font-weight: $fw-bold;
       line-height: $lh-tight;
       text-wrap: balance;
+      width: 100%;
+      text-align: right;
+      grid-area: bu;
+
+      .bu{
+        margin-bottom: 0;
+      }
 
       .copyright{
         margin-bottom: 0;
@@ -21,22 +41,24 @@
       }
     }
 
-    @media screen and (max-width: 40rem) {
-      flex-direction: column;
-      gap: $xs;
+    @media screen and (min-width: 40rem) {
 
-      figcaption{
-        width: 100%;
-        text-align: right;
-
-        .bu{
-          margin-bottom: 0;
-        }
-      }
-    }
-
-    img{
+      display: grid;
       width: 100%;
+      column-gap: $m;
+      row-gap: $xs;
+      grid-template-columns: 10rem 1fr;
+      grid-template-areas: 'bu' 'image';
+
+      img{
+        width: 100%;
+        margin-bottom: 0;
+      }
+    
     }
   }
+
+
+
+  
 }
