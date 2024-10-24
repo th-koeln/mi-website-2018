@@ -52,7 +52,6 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-
       - name: Deploy with rsync
         env:
           SSHPASS: ${{ secrets.SSH_PASSWORD }}  # Setze das Passwort hier
