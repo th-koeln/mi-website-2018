@@ -40,7 +40,7 @@ jobs:
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: Build with Hugo
@@ -63,5 +63,6 @@ jobs:
         run: ssh-keyscan -p ${{ secrets.SSH_PORT }} -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: sshpass -p ${{ secrets.SSH_PASSWORD }} -e rsync --checksum -avz ./public/ -e "ssh -p ${{ secrets.SSH_PORT }}" ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/usr/home/mi-labor/public_html/
-
+        env:
+          SSHPASS: ${{ secrets.SSH_PASSWORD }}  # Setze das Passwort hier
+        run: sshpass -e rsync --checksum -avz ./public/ -e "ssh -p ${{ secrets.SSH_PORT }}" ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/usr/home/mi-labor/public_html/
