@@ -1,7 +1,7 @@
 ---
 title: "Mi Frauen Meet-Up"
 linkTitle: "Mi Frauen Meet-Up"
-termin: Mittwoch 30.10.2024 // 15:00 Uhr // Raum 3.218
+termin: Mittwoch 30.10.2024 // 15:00 Uhr // Raum 3.215
 datum: 2024-10-30T00:00:00
 image: teaser_image.jpg
 ---
