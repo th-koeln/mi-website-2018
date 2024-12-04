@@ -3,3 +3,13 @@ RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/%{REQUEST_URI} [R=301,L]
+
+# Prüfen, ob die Origin eine Subdomain von th-koeln.de ist
+RewriteCond %{HTTP:Origin} ^https://([a-z0-9-]+\.)?th-koeln\.de$ [NC]
+RewriteCond %{REQUEST_METHOD} GET
+RewriteRule .* - [E=ORIGIN:%{HTTP:Origin}]
+
+# CORS-Header nur setzen, wenn die Bedingungen erfüllt sind
+Header set Access-Control-Allow-Origin "%{ORIGIN}e" env=ORIGIN
+Header set Access-Control-Allow-Methods "GET"
+Header set Access-Control-Allow-Credentials "true"
