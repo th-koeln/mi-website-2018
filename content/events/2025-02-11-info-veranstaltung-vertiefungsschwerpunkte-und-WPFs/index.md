@@ -15,4 +15,4 @@ https://th-koeln.zoom-x.de/j/62591190667
 **Meeting-ID**: 625 9119 0667<br>
 **Kenncode**: 320347
 
-Wir freuen wir uns sehr auf zahlreiche Teilnehmer*innen!
+Wir freuen uns sehr auf zahlreiche Teilnehmer*innen!
