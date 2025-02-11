@@ -17,4 +17,4 @@ https://th-koeln.zoom-x.de/j/62591190667
 
 Wir freuen uns sehr auf zahlreiche Teilnehmer*innen!
 
-<a href="/download/Info-Veranstaltung_Vertiefungsmodule.pfd">Hier die Folien zum herunterladen</a>
+<a href="/download/Info-Veranstaltung_Vertiefungsmodule.pdf">Hier die Folien zum herunterladen</a>
