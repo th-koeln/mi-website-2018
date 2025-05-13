@@ -13,10 +13,6 @@ Weitere Informationen zum Studiengang finden Sie auf der Website der TH Köln:
 
 ---
 
-Für Studierende, die von der BPO4 in die BPO5 wechseln wollen, gibt es unter folgendem Link eine Übersicht, welche Module angerechnet werden können:
-
-- [Äquivalenzliste Medieninformatik Bachelor](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5-v2.pdf)
-
 Hier finden Sie den [Antrag auf Zulassung zur Bachelorarbeit und zum Kolloquium](https://www.th-koeln.de/mam/downloads/deutsch/studium/studiengaenge/f10/antraege_formulare/f10_ba_informatik_antrag_auf_zul._bachelorarbeit_u._koll.pdf).
 
 Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wollen, gibt es hier ein:
@@ -25,3 +21,10 @@ Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wo
 
 
 Hier finden [Studieninteressierte](/study/bachelor/studieninteressierte/) Informationen rund um den Studiengang Medieninformatik Bachelor, inkl. ein paar Testimonials von Absolventen.
+
+---
+
+Für Studierende, die von der BPO4 in die BPO5 wechseln wollen, gibt es unter folgendem Link eine Übersicht, welche Module angerechnet werden können:
+
+- [Äquivalenzliste Medieninformatik Bachelor, Stand April 2025](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5-v2.pdf)
+- [Äquivalenzliste Medieninformatik Bachelor, Stand Februar 2024](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5.pdf)
