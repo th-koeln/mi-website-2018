@@ -16,3 +16,7 @@ Weitere Informationen zum Studiengang finden Sie auf der Website der TH Köln:
 Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wollen, gibt es hier ein:
 
 - [Merkblatt für die  Anerkennung von Studienleistungen in den Medieninformatik Studiengängen der TH Köln](/download/merkblatt-anerkennung-von-studienleistungen.pdf)
+
+---
+
+Hier finde Sie die [Prüfer:innen für das Sommersemester 2025](/blog/2025-04-28-prueferinnenlisten-ss2025/).

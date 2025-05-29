@@ -28,3 +28,7 @@ Für Studierende, die von der BPO4 in die BPO5 wechseln wollen, gibt es unter fo
 
 - [Äquivalenzliste Medieninformatik Bachelor, Stand April 2025](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5-v2.pdf)
 - [Äquivalenzliste Medieninformatik Bachelor, Stand Februar 2024](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5.pdf)
+
+---
+
+Hier finden Sie die [Prüfer:innen für das Sommersemester 2025](/blog/2025-04-28-prueferinnenlisten-ss2025/).
