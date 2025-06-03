@@ -3,7 +3,7 @@ title: "Guest lecture: System Design on Cloud"
 linkTitle: System Design on Cloud
 termin: 17. Juni 2025, um 13:00 Uhr, Raum 3.216
 datum: 2025-06-17T13:00:00
-image: teaser.jpeg
+image: teaser.jpg
 ---
 # Guest lecture: System Design on Cloud
 
