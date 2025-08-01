@@ -50,7 +50,6 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify \
             --baseURL "https://www.medieninformatik.th-koeln.de/"
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
