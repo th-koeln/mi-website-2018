@@ -37,3 +37,6 @@ unsafe= true
   resampleFilter = "box"
   quality = 75
   anchor = "smart"
+
+[minify]
+  disable = true  
