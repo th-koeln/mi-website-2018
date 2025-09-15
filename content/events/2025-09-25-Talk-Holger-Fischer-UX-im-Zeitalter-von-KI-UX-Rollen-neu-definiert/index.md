@@ -8,7 +8,7 @@ image: ux-ki-holger-fischer.jpg
 
 ## Talk von UX-Designer zur KI-getriebenen Transformation der UX-Branche
 
-Wir freuen uns, dass Holger Fischer beim [Medieninformatik Kickoff](https://www.medieninformatik.th-koeln.de/events/2025-09-25-mi-kickoff/) eine Keynote zum Thema **"UX im Zeitalter von KI - UX-Rollen neu definiert"** hält. Er beleuchtet die Auswirkungen aktueller KI-Entwicklungen auf Rollen und Prozesse im UX Design.
+Wir freuen uns, dass Holger Fischer beim [Medieninformatik Kickoff](https://www.medieninformatik.th-koeln.de/events/2025-09-25-mi-kickoff/) eine Keynote zum Thema **"UX im Zeitalter von KI - UX-Rollen neu definiert"** hält. Er beleuchtet die Möglichkeiten und Auswirkungen aktueller KI-Entwicklungen auf Rollen und Prozesse im UX Design.
 
 Holger Fischer ist UX-Designer und bei der Atruvia AG tätig. Seine Schwerpunkte liegen im Bereich Research & Testing sowie in der strategischen Entwicklung einer menschzentrierten Gestaltung. Neben der Projektunterstützung im Kontext Banking-Software, beschäftigt er sich mit der Befähigung der Projektteams, Nutzerzentrierung zu verstehen und umzusetzen. Zudem war und ist er sehr aktiv in der UX-Community, bspw. bei der GermanUPA, der Bitkom und der Gesellschaft für Informatik. Bis 2010 studierte er bei uns Medieninformatik und schrieb seine Masterarbeit zur Integration von Usability Engineering und Software Engineering.
 
