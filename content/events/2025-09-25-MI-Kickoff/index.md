@@ -9,7 +9,7 @@ image: teaser-mi-kickoff.jpg
 
 Der Kickoff zum Wintersemester 2025/26 findet am **Donnerstag, den 25.09.2025 ab 15:00 Uhr** statt. Wir treffen uns im **Medieninformatik Studio** (3.216) am **Campus G**  und freuen uns darauf, Sie dort persönlich willkommen zu heißen! Eingeladen sind alle Studierenden der Medieninformatik, insbesondere gibt es Infos für unsere neuen Studierenden im 1. Semester des Bachelors und alle Studierenden im Master.
 
-Die Kick-Off Veranstaltung beginnt mit einer kurzen Begrüßung und einer Vorstellung des Kollegiums und der verschiedenen Rollen sowie zentraler Ansprechpartner\*innen. Unser Gast Holger Fischer hält eine Keynote zu <a href="../2025-09-25-talk-holger-fischer-ux-im-zeitalter-von-ki-ux-rollen-neu-definiert/">UX im Zeitalter von KI</a>. Als nächstes stellen Masterstudierende ihre Projekte in kurzen Pitches vor. Darauf folgt ein Open Space mit den Projekten und anderen Aktivitäten am Campus als Postersession. Bei Getränken und Snacks gibt es Gelegenheit für Austausch, Diskussion und Networking.
+Die Kick-Off Veranstaltung beginnt mit einer kurzen Begrüßung und einer Vorstellung des Kollegiums und der verschiedenen Rollen sowie zentraler Ansprechpartner\*innen. Unser Gast Holger Fischer hält eine Keynote zu <a href="../2025-09-25-talk-holger-fischer-ux-im-zeitalter-von-ki-ux-rollen-neu-definiert/">UX im Zeitalter von KI</a>. Als nächstes stellen Masterstudierende ihre Projekte in kurzen Pitches vor. Darauf folgt ein Open Space mit Quiz vom [Community Projekt Team](https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Communityprojekt/), den Projekten als Postersession und anderen Aktivitäten am Campus. Bei Getränken und Snacks gibt es Gelegenheit für Austausch, Diskussion und Networking.
 
 Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projektvorstellungen sowie viele Fragen und Diskussionen drumherum!
 
@@ -35,7 +35,7 @@ Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projek
 </tr>
 <tr>
 	<td>17:00 Uhr</td>
-	<td>Poster-Session mit Voting und Info-Points</td>
+	<td>Quiz (Raum 3.215), Info-Points und Poster-Session mit Voting (im Foyer)</td>
 </tr>
 <tr>
 	<td>18:30 Uhr</td>
