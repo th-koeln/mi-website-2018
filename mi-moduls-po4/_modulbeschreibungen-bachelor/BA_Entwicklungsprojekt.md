@@ -14,7 +14,7 @@ published: true
 layout: modulbeschreibung
 typ: pm
 veranstaltungsform: Remote
-infourl: https://ilias.th-koeln.de/goto.php?target=crs_1328242&client_id=ILIAS_FH_Koeln
+infourl: https://ilu.th-koeln.de/ilias.php?baseClass=ilrepositorygui&ref_id=675293
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und Meilensteinpräsentationen
