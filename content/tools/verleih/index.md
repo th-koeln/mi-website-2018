@@ -11,7 +11,7 @@ Auf Anfrage kann Equipment unter bestimmten Bedingungen ausgeliehen werden. Gern
 * [miverleih@th-koeln.de](miverleih@th-koeln.de)
 * Raum 3.239
 * [Verleihsystem](https://verleih.medieninformatik.th-koeln.de) (Zugriff über das Hochschulnetzwerk oder VPN)
-* Online-Sprechstunde: Dienstags 11:00-12:00 Uhr [https://th-koeln.zoom.us/j/94623876629](https://th-koeln.zoom.us/j/94623876629)
+* Online-Sprechstunde: Mittwochs 11:00-12:00 Uhr [https://th-koeln.zoom.us/j/94623876629](https://th-koeln.zoom.us/j/94623876629)
 
 ## Ausstattung
 Im Rahmen bestimmter Veranstaltungen wird vielseitige, moderne Technik und Software eingesetzt. Das Equipment des Verleihs umfasst u.a.: 
