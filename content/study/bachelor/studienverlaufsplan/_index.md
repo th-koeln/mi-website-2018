@@ -74,9 +74,9 @@ Der Studienverlaufsplan zeigt den Aufbau des Studiums, sprich: welches Modul kom
         </a>
       </li>
       <li class="grundlagen">
-        <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Visual-Computing/"
+        <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Social-Computing/"
           data-auto-event-observed="true">
-          Visual Computing
+          Social Computing
           <span class="module-cps">5&nbsp;CP</span>
         </a>
       </li>
@@ -168,9 +168,9 @@ Der Studienverlaufsplan zeigt den Aufbau des Studiums, sprich: welches Modul kom
         </a>
       </li>
       <li class="vertiefung">
-        <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Social-Computing/"
+        <a href="https://www.medieninformatik.th-koeln.de/mi-5.0/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Visual-Computing/"
           data-auto-event-observed="true">
-          Social Computing
+          Visual Computing
           <span class="module-cps">5&nbsp;CP</span>
         </a>
       </li>
