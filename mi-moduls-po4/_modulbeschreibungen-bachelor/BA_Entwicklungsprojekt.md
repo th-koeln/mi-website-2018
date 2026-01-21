@@ -1,6 +1,6 @@
 ---
 title: Entwicklungsprojekt
-modulverantwortlich: gh, hk, fn, cn
+modulverantwortlich: mbluemm, hk, fn, cn
 modulniveau: bachelor
 kuerzel: EPM
 untertitel:
@@ -14,12 +14,12 @@ published: true
 layout: modulbeschreibung
 typ: pm
 veranstaltungsform: Remote
-infourl: https://ilias.th-koeln.de/goto.php?target=crs_1328242&client_id=ILIAS_FH_Koeln
+infourl: https://ilu.th-koeln.de/ilias.php?baseClass=ilrepositorygui&ref_id=675293
 studienleistungen:
   Einzelleistung:
     art: Projekt, Projektdokumentation und Meilensteinpräsentationen
-    erstpruefer: gh, hk, cn, fn
-    zweitpruefer: vos, mfaske, simonporten, maa, uwm, simonschulte, nkuhn
+    erstpruefer: mbluemm, hk, cn, fn
+    zweitpruefer: vos, simonporten, uwm, simonschulte
     datum: vereinbarung
 ---
 

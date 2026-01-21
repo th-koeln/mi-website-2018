@@ -26,6 +26,7 @@ Hier finden [Studieninteressierte](/study/bachelor/studieninteressierte/) Inform
 
 Für Studierende, die von der BPO4 in die BPO5 wechseln wollen, gibt es unter folgendem Link eine Übersicht, welche Module angerechnet werden können:
 
+- [Äquivalenzliste Medieninformatik Bachelor, Stand Oktober 2025](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5-v3.pdf)
 - [Äquivalenzliste Medieninformatik Bachelor, Stand April 2025](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5-v2.pdf)
 - [Äquivalenzliste Medieninformatik Bachelor, Stand Februar 2024](/mi-5.0/downloads/aequivalenzliste-bpo4-bpo5.pdf)
 
