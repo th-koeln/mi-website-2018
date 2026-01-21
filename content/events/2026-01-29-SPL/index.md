@@ -2,7 +2,7 @@
 datum: "2026-01-28T18:00:00"
 title: "SPL-Liveshow: Campus Royale 2026"
 linkTitle: "Campus Royale 2026"
-termin: 29. Januar 2025 // 18:00 Uhr // MI-Studio und twitch.tv
+termin: 29. Januar 2026 // 18:00 Uhr // MI-Studio und twitch.tv
 image: CampusRoyal2026.png
 ---
 
