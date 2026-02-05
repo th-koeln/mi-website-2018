@@ -123,7 +123,8 @@
         {{ $main := resources.Get "js/main.js" }}
         {{ $news := resources.Get "js/news-aggregator.js" }}
         {{ $slideshow := resources.Get "js/slideshow.js" }}
-        {{ $js :=  slice $main $news $slideshow | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+        {{ $projects := resources.Get "js/projects.js" }}
+        {{ $js :=  slice $main $news $slideshow $projects | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
 
         <script src="{{ $js.Permalink }}"></script>
 	</body>
