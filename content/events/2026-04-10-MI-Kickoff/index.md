@@ -2,7 +2,7 @@
 datum: "2026-10-10T14:00:00"
 title: "MI Kickoff Sommersemester 2026"
 linkTitle: "MI Kickoff"
-termin: 10. Aril 2026 // 14:00 Uhr // Raum 3.216
+termin: 10. April 2026 // 14:00 Uhr // Raum 3.216
 image: teaser-mi-kickoff.jpg
 ---
 ## Let’s get started
