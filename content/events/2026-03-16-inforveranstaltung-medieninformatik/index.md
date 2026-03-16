@@ -13,3 +13,5 @@ https://th-koeln.zoom-x.de/j/64872745445
 
 Meeting-ID: 648 7274 5445
 Kenncode: 225230
+
+[Folien zum Download](/download/Infoveranstaltung_MI_Bachelor_4_Semester_SS2026.pdf)
