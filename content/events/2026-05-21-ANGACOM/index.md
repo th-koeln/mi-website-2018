@@ -1,8 +1,8 @@
 ---
-datum: "2026-05-19T10:00:00"
+datum: "2026-05-21T10:00:00"
 title: "Kostenlose Teilnahme an ANGA COM 2026"
 linkTitle: "ANGA COM 2026"
-termin: 19. Mai 2026 // Kölnnmesse (Halle 7+8 / Congress-Centrum Nord) 
+termin: 21. Mai 2026 // Kölnnmesse (Halle 7+8 / Congress-Centrum Nord) 
 image: angacom.jpg
 ---
 ## ANGA COM 2026
