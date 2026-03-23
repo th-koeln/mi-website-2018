@@ -6,7 +6,7 @@ termin: 29. Januar 2026 // 18:00 Uhr // MI-Studio und twitch.tv
 image: CampusRoyal2026.png
 ---
 
-## Talk von UX-Designer zur KI-Transformation der UX-Branche
+## SPL-Liveshow: Campus Royale 2026
 
 Am Donnerstag, dem 29. Januar, läuft um 18 Uhr unsere voraussichtlich letzte SPL-Liveshow namens Campus Royale. Das dürft ihr nicht verpassen, also besucht uns auf [www.twitch.tv/mithkoeln](https://www.twitch.tv/mithkoeln)! Ca. 35 Studierende haben dieses Jahr ordentlich Schweiß und Überstunden gestiftet, um euch eine unterhaltsame Show zu liefern.
  
