@@ -32,4 +32,4 @@ Für Studierende, die von der BPO4 in die BPO5 wechseln wollen, gibt es unter fo
 
 ---
 
-Hier finden Sie die [Prüfer:innen für das Sommersemester 2025](/blog/2025-04-28-prueferinnenlisten-ss2025/).
+Hier finden Sie die Prüfer:innen für die jeweilen Semester finden Sie [im Blog](/blog/).
