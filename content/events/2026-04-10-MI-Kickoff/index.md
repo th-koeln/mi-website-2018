@@ -9,7 +9,7 @@ image: teaser-mi-kickoff.jpg
 
 Der Kickoff zum Sommersemester 2026 findet am **Freitag, den 10.04.2026 ab 14:00 Uhr** statt. Wir treffen uns im **Medieninformatik Studio** (3.216) am **Campus G**  und freuen uns darauf, Sie dort persönlich willkommen zu heißen! Eingeladen sind alle Studierenden der Medieninformatik (BA und MA): insbesondere gibt es Infos für unsere neuen Studierenden im Master und die Präsentationen der abgeschlossenen Projekte.
 
-Die Kickoff Veranstaltung beginnt mit einer kurzen Begrüßung, einer Vorstellung des Kollegiums und der verschiedenen Rollen sowie zentraler Ansprechpartner\*innen. Unsere Alumna Dr. Christiane Grünloh gibt eine Keynote zum Thema "<a href="../2026-04-10-Talk-Dr-Christiane-Gruenloh-Werkzeuge-fuers-Denken-Medieninformatik-in-Forschung-und-Softwareentwicklung/">Werkzeuge fürs Denken</a>". Als nächstes stellen Masterstudierende ihre Projekte in kurzen Pitches vor. Darauf folgt ein Open Space mit den Projekten als Postersession. Bei Getränken und Snacks gibt es zum Schluss Gelegenheit zum Austauschen, Diskutieren und Networking.
+Die Kickoff Veranstaltung beginnt mit einer kurzen Begrüßung, einer Vorstellung des Kollegiums und der verschiedenen Rollen sowie zentraler Ansprechpartner\*innen. Unsere Alumna Dr. Christiane Grünloh gibt eine Keynote zum Thema "<a href="../2026-04-10-talk-dr-christiane-gruenloh-werkzeuge-fuers-denken-medieninformatik-in-forschung-und-softwareentwicklung/">Werkzeuge fürs Denken</a>". Als nächstes stellen Masterstudierende ihre Projekte in kurzen Pitches vor. Darauf folgt ein Open Space mit den Projekten als Postersession. Bei Getränken und Snacks gibt es zum Schluss Gelegenheit zum Austauschen, Diskutieren und Networking.
 
 Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projektvorstellungen sowie viele Fragen und Diskussionen!
 
@@ -26,7 +26,7 @@ Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projek
 </tr>
 <tr>
 	<td>15:00 Uhr</td>
-	<td>Keynote: <a href="../2026-04-10-Talk-Dr-Christiane-Gruenloh-Werkzeuge-fuers-Denken-Medieninformatik-in-Forschung-und-Softwareentwicklung/">Werkzeuge fürs Denken: Medieninformatik in Forschung und Softwareentwicklung</a></td>
+	<td>Keynote: <a href="../2026-04-10-talk-dr-christiane-gruenloh-werkzeuge-fuers-denken-medieninformatik-in-forschung-und-softwareentwicklung/">Werkzeuge fürs Denken: Medieninformatik in Forschung und Softwareentwicklung</a></td>
 </tr>
 <tr>
 	<td>15:45 Uhr</td>
