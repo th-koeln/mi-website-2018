@@ -8,7 +8,7 @@ image: Werkzeuge-fuers-Denken-Dr-Christiane-Gruenloh.png
 
 ## Keynote zu aktuellen Denkwerkzeugen in der Medieninformatik
 
-Wir freuen uns sehr, dass wir unsere Alumna Dr. Christiane Grünloh für eine Keynote zum Thema **"Werkzeuge fürs Denken: Medieninformatik in Forschung und Softwareentwicklung"** für unseren [Medieninformatik Kickoff](../2025-04-10-mi-kickoff/) gewinnen konnten. Sie spricht über aktuelle Entwicklungen im Bereich KI und reflektiert Vorgehensweisen und Prozesse der Medieninformatik.
+Wir freuen uns sehr, dass wir unsere Alumna Dr. Christiane Grünloh für eine Keynote zum Thema **"Werkzeuge fürs Denken: Medieninformatik in Forschung und Softwareentwicklung"** für unseren [Medieninformatik Kickoff](../2026-04-10-mi-kickoff/) gewinnen konnten. Sie spricht über aktuelle Entwicklungen im Bereich KI und reflektiert Vorgehensweisen und Prozesse der Medieninformatik.
 
 Dr. Christiane Grünloh ist Head of UX bei Nedap Healthcare. Sie leitet ein Team im Bereich User Experience und arbeitet an der UX-Maturity im Unternehmen. Ihr Thema ist die Digitalisierung der häuslichen Pflege, bspw. Anwendungen zu Patientenakten und Logistik.
 
