@@ -6,7 +6,7 @@ termin: 10. April 2026 // 15:00 Uhr // Raum 3.216
 image: Werkzeuge-fuers-Denken-Dr-Christiane-Gruenloh.png
 ---
 
-## Keynote zu aktuellen Denkwerkzeugen in der Medieninformatik
+## Keynote zu Medienformatik in Forschung und Softwareentwicklung
 
 Wir freuen uns sehr, dass wir unsere Alumna Dr. Christiane Grünloh für eine Keynote zum Thema **"Werkzeuge fürs Denken: Medieninformatik in Forschung und Softwareentwicklung"** für unseren [Medieninformatik Kickoff](../2026-04-10-mi-kickoff/) gewinnen konnten. Sie spricht über aktuelle Entwicklungen im Bereich KI und reflektiert Vorgehensweisen und Prozesse der Medieninformatik.
 
