@@ -1,41 +1,43 @@
 +++
-date = "2016-11-05T21:05:33+05:30"
+date = "2026-04-01T10:45:33+02:00"
 title = "Verleih der Medieninformatik"
 layout = "single"
 +++
 
 Auf Anfrage kann Equipment unter bestimmten Bedingungen ausgeliehen werden. Gerne per Mail melden. 
+Anfragen ausserhalb der angebotenen Module, müssen ein Exposé beinhalten (per Email).
 
 ## Kontakt
 
 * [miverleih@th-koeln.de](miverleih@th-koeln.de)
+* Ansprechpartner: Simon Porten
 * Raum 3.239
 * [Verleihsystem](https://verleih.medieninformatik.th-koeln.de) (Zugriff über das Hochschulnetzwerk oder VPN)
 * Online-Sprechstunde: Mittwochs 11:00-12:00 Uhr [https://th-koeln.zoom.us/j/94623876629](https://th-koeln.zoom.us/j/94623876629)
 
 ## Ausstattung
-Im Rahmen bestimmter Veranstaltungen wird vielseitige, moderne Technik und Software eingesetzt. Das Equipment des Verleihs umfasst u.a.: 
-Blackmagic Design URSA Mini Pro 4.6K, Canon 5D, GoPros und Fernsehkameras von Panasonic (AG-HVX200 HD).
+Im Rahmen bestimmter Veranstaltungen und Module wird vielseitige, moderne Technik und Software eingesetzt. Das Equipment des Verleihs umfasst u.a.: 
+Blackmagic Design URSA Mini Pro 4.6K, Blackmagic Pocket Cinema, Sony Alpha III, Canon 5D, Kameragimbals, Smartphone-Halterungen, Studio-Scheinwerfer mit Glühlampen und LED, mobile Greenscreens und Fernsehkameras-Sets von Panasonic (HD & 4k) mit Audiomischer und Mikrofone.
 
-Es steht professionelle Audiotechnik zur Verfügung: Richtmikrofone, Gesangsmikrofone, Funk- und Ansteckmikrofone. Ausserdem haben wir einen Schnittraum mit zeitgemäßen IMacs und Software (Adobe, Final Cut), sowie eine Tonkabine für ungestörte Audioaufnahmen.
+Es steht professionelle Audiotechnik zur Verfügung: Richtmikrofone, Gesangsmikrofone, Funk- und Ansteckmikrofone. Ausserdem haben wir starke IMacs und Software (Adobe, Final Cut). Die IMacs werden nur innerhalb des Gummersbach-Gebäudes verliehen!
 Auch allerlei Kabel, Adapter und auch das ein oder andere Werkzeug haben wir da.
-Für die Nutzung bestimmter Geräte muss zunächst der Workshop „Videotechnik – Masterclass“ erfolgreich abgeschlossen worden sein.
+Im Kontakt mit Simon Porten wird geklärt ob man für den Ausleih der Geräte zugelassen wird.
 
 ## Ausleihvorgang
 Sobald ihr zum Verleih autorisiert seid, kann über das [Verleihsystem](https://verleih.medieninformatik.th-koeln.de)  gewünschtes Equipment reserviert werden. Beim ersten Nutzen ist eine kurze Registrierung mit der GM-ID notwendig. Das Verleihsystem ist ausschließlich über das Hochschulnetzwerk bzw. TH-VPN erreichbar ([Anleitung zur VPN-Einrichtung](https://www.th-koeln.de/hochschule/vpn---virtual-private-network_26952.php)).
-In der Vorlesungszeit benötigt das Ausleihteam eine Vorlaufzeit von **48 Stunden**, außerhalb der Vorlesungszeit **7 Tage**. Anfragen, die diese Zeit unterschreiten, können unter Umständen nicht bearbeitet werden.  
+Eine Ausleihanfrage muss mindestens **48 Stunden** vorher erfolgen, außerhalb der Vorlesungszeit **7 Tage**. Anfragen, die diese Zeit unterschreiten, können unter Umständen nicht bearbeitet werden. Eine Anfrage wurde erst erfolgreich angenommen, wenn der Verleihbetreibende (Simon P.) die Anfrage mit Datum bestätigt. Dies kann auch über Emailkontakt erfolgen. 
 
 ## Veranstaltungen
 Der Großteil der Technik kommt in unterschiedlichen Veranstaltungen zum Einsatz:
 
 ### Audiovisuelles Medienprojekt
-Innerhalb dieses Modul kommt insbesondere die Panasonic AG HVX-200 zum Einsatz.
+Innerhalb dieses Modul kommen insbesondere die Panasonic-Sets zum Einsatz.
 Damit werden Dokumentar- und Spielfilme erstellt.
 Ergebnisse aus diesem Modul finden sich auf der MI-YouTube-Seite: [YT/MIKOELN](https://www.youtube.com/user/mikoeln/videos)
 
 ### Livesendung
 Einmal im Jahr wird im Rahmen des Moduls „Studioproduktion – Live“ von Prof. Hans Kornacher, eine Livesendung auf Twitch ausgestrahlt ([TWITCH/MITHKOELN](https://www.twitch.tv/mithkoeln)).
-Hierzu arbeitet ein Team von ca. 20 Studierenden zusammen und stellt learning by doing eine Sendung auf die Beine. Es werden 3-4 Kameras eingesetzt, vorproduzierte Beiträgen erstellt, es kommen Bildmischer, Tonmischer, Ansteckmikrofone zum Einsatz und ein selbst gebautes Studio wird teilweise aufwändig selbst gezimmert. Eine professionelle Moderatorin moderiert die Veranstaltung und interviewt Gäste.
+Hierzu arbeitet ein Team von ca. 30 Studierenden zusammen und stellt learning by doing eine Sendung auf die Beine. Es werden 3-4 Kameras eingesetzt, vorproduzierte Beiträgen erstellt, es kommen Bildmischer, Tonmischer, Ansteckmikrofone zum Einsatz und ein selbst gebautes Studio wird teilweise aufwändig selbst gezimmert. Eine Moderatorin moderiert die Veranstaltung und interviewt Gäste.
 Die Herausforderung dieses Moduls ist die enge Zusammenarbeit der unterschiedlichen Abteilungen wobei alle voneinander abhängig sind und dadurch jedem Studierenden eine Verantwortung für das große Ganze zukommt. 
    
 ### Master Class
@@ -43,13 +45,10 @@ Innerhalb der Masterclass werden Mitmach-Workshops angeboten, um einerseits die 
 
 - Das professionelle Schnittprogamm **Da Vinci Resolve**
 - Die 3D-Modellierungssoftware **Cinema 4D**
-
 - **Blackmagic Design URSA Mini Pro 4.6**
 - Drehen am **Green Screen** & Bearbeitung von Green Screen Material
 - **360°- Film und Fotografie** und dazu passende Bearbeitungssoftware
 - den Umgang mit dem **DJI Ronin Gimbal**
-- **DJI Drohne**
-
 
 ## Tutorials
 Hier finden sich auch hilfreiche Tutorials:
@@ -57,7 +56,6 @@ Hier finden sich auch hilfreiche Tutorials:
 [AVM Tutorials Ton & Bild mit der Panasonic HXV-200 und Audiomischer](https://youtu.be/xH7dmsIfpD0)
 
 zur [Blackmagic URSA Mini Pro 4.6](https://youtu.be/3THFJMiFxM0)
-
 
 ## FAQ
 Innerhalb der Veranstaltungen oder dem Umgang mit Technik treten häufiger Probleme auf. Die häufigsten Fragen haben wir im FAQ zusammengefasst.
