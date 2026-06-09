@@ -68,8 +68,8 @@ const showAdditionalNews = () => {
     }
 
     function getTeaserImage(item){
-        if(item.decapBild && item.decapBild.match(/jpg|jpeg|png|webP|j2/)) return `${item.ref}/${item.decapBild}`;
-        if(item.bild && item.bild.match(/jpg|jpeg|png|webP|j2/)) return item.bild;
+        if(item.decapBild && item.decapBild.match(/jpg|jpeg|png|webP|j2/i)) return `${item.ref}/${item.decapBild}`;
+        if(item.bild && item.bild.match(/jpg|jpeg|png|webP|j2/i)) return item.bild;
         return false;
     }
 
@@ -83,7 +83,7 @@ const showAdditionalNews = () => {
             
             let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
             let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img loading="lazy" src="' + bild + '" alt="'+item.title+'"></div>';
-            let teaserImage = (bild && bild.match(/jpg|jpeg|png|webP|j2/)) ? teaserImageCode  : "";
+            let teaserImage = (bild && bild.match(/jpg|jpeg|png|webP|j2/i)) ? teaserImageCode  : "";
             
             const visibilityClass = index < displayMax ? 'is-visible' : 'is-hidden';
 
