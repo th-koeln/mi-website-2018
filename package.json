@@ -8,8 +8,7 @@
     "server": "hugo server --disableFastRender --cleanDestinationDir",
     "server:clean": "hugo server --ignoreCache --disableFastRender --cleanDestinationDir",
     "dev": "npm-run-all --parallel decap-server server",
-    "dev:clean": "npm-run-all --parallel decap-server server:clean",
-    "pull-moduls": "git subtree pull --prefix=mi-moduls-po4/ mi-2017-module master"
+    "dev:clean": "npm-run-all --parallel decap-server server:clean"
   },
   "author": "Advanced Media Institut - Cologne University of Applied Sciences",
   "license": "MIT",

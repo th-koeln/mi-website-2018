@@ -39,4 +39,28 @@ unsafe= true
   anchor = "smart"
 
 [minify]
-  disable = true  
+  disable = true
+
+# Modul-Dateien (mi-moduls-po4) nutzen `published: true/false` als Boolean.
+# Hugo behandelt `published` per Default als Alias für publishDate (ein Datum)
+# und bricht sonst mit einem Parse-Fehler ab. Daher hier aus allen Datumsfeldern
+# entfernt — `published` bleibt dadurch ein normaler Parameter.
+[frontmatter]
+  date = ['date']
+  lastmod = [':git', 'date']
+  publishDate = ['date']
+  expiryDate = ['expirydate', 'unpublishdate']
+
+# Module-Mounts: bindet die Modulbeschreibungen aus dem mi-moduls-po4-Subtree ein.
+# Ersetzt die früheren Symlinks (content/study/*-4.0/moduls), denen Hugo seit dem
+# neuen Content-System (v0.146) nicht mehr folgt.
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "mi-moduls-po4/_modulbeschreibungen-master"
+    target = "content/study/master-4.0/moduls"
+  [[module.mounts]]
+    source = "mi-moduls-po4/_modulbeschreibungen-bachelor"
+    target = "content/study/bachelor-4.0/moduls"

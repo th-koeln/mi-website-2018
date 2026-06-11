@@ -14,7 +14,6 @@ infourl:
 layout: modulbeschreibung
 typ: tm
 parent: MIMP-K
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit

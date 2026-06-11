@@ -14,7 +14,6 @@ layout: modulbeschreibung
 typ: wpm
 parent: 
 schwerpunkt: hci
-infourl: 
 published: true
 studienleistungen:
   Einzelleistung:

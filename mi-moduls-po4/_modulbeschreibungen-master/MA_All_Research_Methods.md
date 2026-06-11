@@ -13,7 +13,6 @@ published: true
 infourl: 
 layout: modulbeschreibung
 typ: pm
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Präsentation (30%), Projektarbeit (70%)
