@@ -1,7 +1,7 @@
 {{ $schwerpunkt := .Params.schwerpunktkuerzel }}
 {{ $alle_fachsemester := slice 1 2 3 4 }}
 {{ $alle_startsemester := slice "ws" "ss" }}
-{{ $people := .Site.Data.people }}
+{{ $people := hugo.Data.people }}
 
 {{ $scratch := newScratch }}
 {{ if .File }}

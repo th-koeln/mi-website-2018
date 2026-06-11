@@ -60,7 +60,7 @@
 		{{ $path:= $scratch.Get "path" }}
 
 		{{ with $.Site.GetPage $path }}
-			{{ $people := .Site.Data.people }}
+			{{ $people := hugo.Data.people }}
 			{{ $verantwortlicheRaw := split .Params.kennung ", " }}
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "avatar" false }}

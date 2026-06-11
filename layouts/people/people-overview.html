@@ -15,7 +15,7 @@
     <div class="people has-seperator">
         {{ $scratch := newScratch }}
         
-        {{ range $human := .Site.Data.people }}
+        {{ range $human := hugo.Data.people }}
             {{ if and (eq $human.status "prof") ($human.mi) }}
                 <div class="mi-stack">
                     {{ if ne $human.avatar ""}}

@@ -2,7 +2,7 @@ baseurl = "https://www.medieninformatik.th-koeln.de/"
 
 title = "Medieninformatik an der TH Köln"
 
-languageCode = "de-de"
+locale = "de-de"
 
 sectionPagesMenu = "main"
 summaryLength = 20
