@@ -16,7 +16,6 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM2
 schwerpunkt: hci, mpd
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit

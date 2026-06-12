@@ -15,7 +15,6 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM3
 schwerpunkt: sc
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio (50%), Projektarbeit (50%)

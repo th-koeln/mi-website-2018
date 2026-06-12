@@ -15,7 +15,6 @@ infourl:
 layout: modulbeschreibung
 typ: pm
 veranstaltungsform: 
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: abhängig vom jeweiligen WPF

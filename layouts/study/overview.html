@@ -29,7 +29,7 @@
         {{ $additionalcontentPath := $scratch.Get "additionalcontentPath" }}
 
         {{ with $.Site.GetPage $additionalcontentPath }}
-            {{ .Render .Params.view }}
+            {{ .Render (strings.TrimPrefix "views/" .Params.view) }}
         {{ end }}
     </div>
 	{{ end }}
