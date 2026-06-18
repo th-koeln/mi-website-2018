@@ -15,9 +15,10 @@ Weitere Informationen zum Studiengang finden Sie auf der Website der TH Köln:
 
 Hier finden Sie den [Antrag auf Zulassung zur Bachelorarbeit und zum Kolloquium](https://www.th-koeln.de/mam/downloads/deutsch/studium/studiengaenge/f10/antraege_formulare/f10_ba_informatik_antrag_auf_zul._bachelorarbeit_u._koll.pdf).
 
-Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wollen, gibt es hier ein:
+Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wollen, gibt es hier:
 
 - [Merkblatt für die  Anerkennung von Studienleistungen in den Medieninformatik Studiengängen der TH Köln](/download/merkblatt-anerkennung-von-studienleistungen.pdf)
+- [Antrag auf Anerkennung von Prüfungsleistungen im Studium](https://www.th-koeln.de/mam/downloads/deutsch/studium/rundumsstudium/organisation/th_koln_antrag_auf_anerkennung_von_prufungsleistungen_im_studium.pdf)
 
 
 Hier finden [Studieninteressierte](/study/bachelor/studieninteressierte/) Informationen rund um den Studiengang Medieninformatik Bachelor, inkl. ein paar Testimonials von Absolventen.
