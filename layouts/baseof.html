@@ -61,6 +61,7 @@
         
     </head>
     <body>
+        {{ if ne site.Params.templateMarkers false }}{{ printf "<!-- tpl-page ▶ %s (baseof: %s) -->" templates.Current.Name templates.Current.Base.Name | safeHTML }}{{ end }}
   		<div class="off-canvas-wrapper">
     		<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
       			{{ partial "system/sidebar/sidebar.html" $globalParams }}

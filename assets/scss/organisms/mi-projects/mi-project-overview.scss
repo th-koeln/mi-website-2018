@@ -1,0 +1,99 @@
+
+.mi-project-overview {
+  display: grid;  
+  grid-template-columns: repeat(auto-fill,minmax(20em,1fr));
+  grid-gap: $bfs-xl;
+
+
+  .card {
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: $radius-xs;
+    overflow: hidden;
+    transition: transform $tr-fast;
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      transform: scale(1.02);
+    }
+
+    &-headline {
+      font-size: $bfs-s;
+      font-weight: $fw-medium;
+      margin-bottom: 0.5rem;
+      line-height: $lh-medium;
+    }
+    
+    &-section {
+      padding: 1rem 0;
+    }
+    
+    figure {
+      background-color: $mi-hellgrau;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      mix-blend-mode: multiply;
+    }
+  }
+}
+
+.mi-load-more {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: $bfs-l;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.mi-project-search {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: $bfs-l;
+  max-width: $mi-vp-l;
+  border-bottom: $mi-border-small solid $mi-pink;
+
+  // Label nur für Screenreader – visuell übernimmt das Lupen-Icon.
+  &-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  &-icon {
+    flex: none;
+    color: $mi-pink;
+  }
+
+  &-input {
+    flex: 1;
+    padding: 0.5rem 0;
+    font-size: $bfs;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-empty {
+    margin-bottom: $bfs-l;
+  }
+}
+
