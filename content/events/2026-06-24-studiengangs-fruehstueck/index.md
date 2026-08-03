@@ -1,9 +1,9 @@
 ---
 title: Einladung zum Medieninformatik Studiengangsfrühstück
-linkTitle: breakfirst
+linkTitle: breakfast-ai-generated
 termin: 02. Juli 2026
 datum: 2026-06-24T00:00:00
-image: breakfirst.jpg
+image: breakfast-ai-generated.jpg
 ---
 
 Liebe Medieninformatiker:innen,
