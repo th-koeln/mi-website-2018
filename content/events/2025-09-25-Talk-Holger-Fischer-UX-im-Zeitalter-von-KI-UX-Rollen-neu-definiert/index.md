@@ -3,7 +3,7 @@ datum: "2025-09-25T16:00:00"
 title: "Keynote: UX im Zeitalter von KI"
 linkTitle: "MI Kickoff"
 termin: 25. September 2025 // 16:00 Uhr // Raum 3.216
-image: ux-ki-holger-fischer.jpg
+image: ux-ki-holger-fischer-ai-modified.jpg
 ---
 
 ## Talk von UX-Designer zur KI-Transformation der UX-Branche

@@ -3,7 +3,7 @@ datum: "2026-04-10T15:00:00"
 title: "Keynote: Werkzeuge fürs Denken"
 linkTitle: "MI Kickoff"
 termin: 10. April 2026 // 15:00 Uhr // Raum 3.216
-image: Werkzeuge-fuers-Denken-Dr-Christiane-Gruenloh.png
+image: Werkzeuge-fuers-Denken-Dr-Christiane-Gruenloh-ai-modified.jpg
 ---
 
 ## Keynote zu Medienformatik in Forschung und Softwareentwicklung
