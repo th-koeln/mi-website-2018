@@ -3,7 +3,7 @@ title: Kulturnachmittag
 linkTitle: Kulturnachmittag
 termin: Donnerstag, 16. Juli 2026, 14:30 Uhr
 datum: 2026-07-06T00:00:00
-image: kulturtagquer-2.jpg
+image: kulturtagquer-2-ai-modified.jpg
 ---
 Hallo zusammen, habt ihr Lust, verschiedene Kulturen kennenzulernen, neue Leute zu treffen und euch durch leckere Gerichte aus aller Welt zu probieren? Dann seid ihr herzlich zu unserem Kulturnachmittag eingeladen!
 
