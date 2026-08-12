@@ -1,7 +1,7 @@
 ---
 title: Kinoabend
 linkTitle: Kinoabend
-termin: Donnerstag, den 09. Juli 2026, um 17:00 Uhr
+termin: Donnerstag, 09. Juli 2026, 17:00 Uhr
 datum: 2026-07-08T00:00:00
 image: kinoabend.jpg
 ---
