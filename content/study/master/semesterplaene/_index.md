@@ -4,6 +4,7 @@ title: "Übersicht Lehrangebot und Projekte"
 view: "views/content-12-12"
 ---
 
+* [Wintersemester 2026/2027](https://www.medieninformatik.th-koeln.de//mi-5.0/medieninformatik-master/semester/2026-wise/)
 * [Sommersemester 2026](https://www.medieninformatik.th-koeln.de//mi-5.0/medieninformatik-master/semester/2026-sose/)
 * [Wintersemester 2025/2026](https://www.medieninformatik.th-koeln.de//mi-5.0/medieninformatik-master/semester/2025-wise/)
 * [Sommersemester 2025](https://www.medieninformatik.th-koeln.de//mi-5.0/medieninformatik-master/semester/2025-sose/)
