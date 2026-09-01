@@ -30,7 +30,7 @@ Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projek
 </tr>
 <tr>
 	<td>15:30 Uhr</td>
-	<td>Quiz (Raum 3.215), Info-Points und Poster-Session mit Voting (im Foyer)</td>
+	<td>Poster-Session mit Voting Quiz und Info-Points</td>
 </tr>
 <tr>
 	<td>17:00 Uhr</td>
