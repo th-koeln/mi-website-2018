@@ -18,4 +18,4 @@ Zu seinen persönlichen Interessen zählen auch im Privatleben immer noch Videos
 > * **Datum:** 11. September 2026, 15 Uhr ([im Rahmen des Kickoffs](../2026-09-11-mi-kickoff/))
 > * **Raum:** 3.216 (MI-Studio)
 > * **Titel:** Videospieleentwicklung im Realitätscheck"
-> * **Referentin:** Daniel G.
+> * **Referent:** Daniel G.
