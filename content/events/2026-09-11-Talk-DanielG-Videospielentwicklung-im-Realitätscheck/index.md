@@ -2,7 +2,7 @@
 datum: "2026-09-11T15:00:00"
 title: "Videospieleentwicklung im Realitätscheck"
 linkTitle: "MI Kickoff"
-termin: 11. Septemberl 2026 // 15:00 Uhr // Raum 3.216
+termin: 11. September 2026 // 15:00 Uhr // Raum 3.216
 image: hiddencharacter.jpg
 ---
 
@@ -17,5 +17,5 @@ Zu seinen persönlichen Interessen zählen auch im Privatleben immer noch Videos
 
 > * **Datum:** 11. September 2026, 15 Uhr ([im Rahmen des Kickoffs](../2026-09-11-mi-kickoff/))
 > * **Raum:** 3.216 (MI-Studio)
-> * **Titel:** Videospieleentwicklung im Realitätscheck"
-> * **Referentin:** Daniel G.
+> * **Titel:** Videospieleentwicklung im Realitätscheck
+> * **Referent:** Daniel G.
