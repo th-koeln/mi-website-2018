@@ -26,7 +26,7 @@ Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projek
 </tr>
 <tr>
 	<td>15:00 Uhr</td>
-	<td>Keynote: <a href="../2025-09-25-talk-holger-fischer-ux-im-zeitalter-von-ki-ux-rollen-neu-definiert/">Videospieleentwicklung im Realitätscheck</a></td>
+	<td>Keynote: <a href="../2026-09-11-talk-danielg-videospielentwicklung-im-realit%C3%A4tscheck/">Videospieleentwicklung im Realitätscheck</a></td>
 </tr>
 <tr>
 	<td>15:30 Uhr</td>
