@@ -26,14 +26,22 @@ Wir freuen wir uns sehr auf zahlreiche Teilnehmer\*innen und interessante Projek
 </tr>
 <tr>
 	<td>15:00 Uhr</td>
-	<td>Guided Projects: Vorstellung der Ergebnisse in Kurzvorträgen </td>
+	<td>Keynote: <a href="../2025-09-25-talk-holger-fischer-ux-im-zeitalter-von-ki-ux-rollen-neu-definiert/">Videospieleentwicklung im Realitätscheck</a></td>
 </tr>
 <tr>
 	<td>15:30 Uhr</td>
-	<td>Poster-Session mit Voting Quiz und Info-Points</td>
+	<td>Pause</td>
+</tr>
+<tr>
+	<td>15:45 Uhr</td>
+	<td>Guided Projects: Vorstellung der Ergebnisse in Kurzvorträgen </td>
 </tr>
 <tr>
 	<td>17:00 Uhr</td>
+	<td>Poster-Session mit Voting Quiz und Info-Points</td>
+</tr>
+<tr>
+	<td>18:00 Uhr</td>
 	<td>Auswertung Voting und Bekanntgabe Gewinner*innen</td>
 </tr>
 <tr>
