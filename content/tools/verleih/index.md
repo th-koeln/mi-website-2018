@@ -9,6 +9,7 @@ Auf Anfrage kann Equipment unter bestimmten Bedingungen ausgeliehen werden. Gern
 ## Kontakt
 
 * [miverleih@th-koeln.de](miverleih@th-koeln.de)
+* Ansprechpartner: Simon Porten
 * Raum 3.239
 * Ansprechpartner: Simon Porten
 * [Verleihsystem](https://verleih.medieninformatik.th-koeln.de) (Zugriff über das Hochschulnetzwerk oder VPN)
@@ -54,7 +55,6 @@ Hier finden sich auch hilfreiche Tutorials:
 [AVM Tutorials Ton & Bild mit der Panasonic HXV-200 und Audiomischer](https://youtu.be/xH7dmsIfpD0)
 
 zur [Blackmagic URSA Mini Pro 4.6](https://youtu.be/3THFJMiFxM0)
-
 
 ## FAQ
 Innerhalb der Veranstaltungen oder dem Umgang mit Technik treten häufiger Probleme auf. Die häufigsten Fragen haben wir im FAQ zusammengefasst.
