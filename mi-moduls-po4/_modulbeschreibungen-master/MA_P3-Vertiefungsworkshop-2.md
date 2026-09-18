@@ -14,7 +14,6 @@ infourl:
 layout: modulbeschreibung
 typ: tm
 parent: MIMP-V
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: schriftliche Ausarbeitung (100%)

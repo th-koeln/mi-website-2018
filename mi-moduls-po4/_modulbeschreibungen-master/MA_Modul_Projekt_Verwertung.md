@@ -14,7 +14,6 @@ infourl:
 layout: modulbeschreibung
 typ: spp
 parent: false
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Prüfungsform ist bei den jeweiligen Fächern angegeben

@@ -14,7 +14,6 @@ infourl:
 layout: modulbeschreibung
 typ: spp
 parent: false
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Die Prüfungsform wird in den jeweiligen Fächern beschrieben (Projekt (50%), Projektmanagement (25%), Code Management (Beautiful Code) (25%)).

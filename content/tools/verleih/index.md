@@ -1,31 +1,28 @@
 +++
-date = "2026-04-01T10:45:33+02:00"
+date = "2026-04-10T21:05:33+05:30"
 title = "Verleih der Medieninformatik"
 layout = "single"
 +++
 
-Auf Anfrage kann Equipment unter bestimmten Bedingungen ausgeliehen werden. Gerne per Mail melden. 
-Anfragen ausserhalb der angebotenen Module, müssen ein Exposé beinhalten (per Email).
+Auf Anfrage kann Equipment unter bestimmten Bedingungen ausgeliehen werden. Gerne per Mail melden. Anfragen ausserhalb der angebotenen Module, müssen ein Exposé beinhalten (per Email).
 
 ## Kontakt
 
 * [miverleih@th-koeln.de](miverleih@th-koeln.de)
 * Ansprechpartner: Simon Porten
 * Raum 3.239
+* Ansprechpartner: Simon Porten
 * [Verleihsystem](https://verleih.medieninformatik.th-koeln.de) (Zugriff über das Hochschulnetzwerk oder VPN)
 * Online-Sprechstunde: Mittwochs 11:00-12:00 Uhr [https://th-koeln.zoom.us/j/94623876629](https://th-koeln.zoom.us/j/94623876629)
 
 ## Ausstattung
-Im Rahmen bestimmter Veranstaltungen und Module wird vielseitige, moderne Technik und Software eingesetzt. Das Equipment des Verleihs umfasst u.a.: 
-Blackmagic Design URSA Mini Pro 4.6K, Blackmagic Pocket Cinema, Sony Alpha III, Canon 5D, Kameragimbals, Smartphone-Halterungen, Studio-Scheinwerfer mit Glühlampen und LED, mobile Greenscreens und Fernsehkameras-Sets von Panasonic (HD & 4k) mit Audiomischer und Mikrofone.
+Im Rahmen bestimmter Veranstaltungen und Module wird vielseitige, moderne Technik und Software eingesetzt. Das Equipment des Verleihs umfasst u.a.: Blackmagic Design URSA Mini Pro 4.6K, Blackmagic Pocket Cinema, Sony Alpha III, Canon 5D, Kameragimbals, Smartphone-Halterungen, Studio-Scheinwerfer mit Glühlampen und LED, mobile Greenscreens und Fernsehkameras-Sets von Panasonic (HD & 4k) mit Audiomischer und Mikrofone.
 
-Es steht professionelle Audiotechnik zur Verfügung: Richtmikrofone, Gesangsmikrofone, Funk- und Ansteckmikrofone. Ausserdem haben wir starke IMacs und Software (Adobe, Final Cut). Die IMacs werden nur innerhalb des Gummersbach-Gebäudes verliehen!
-Auch allerlei Kabel, Adapter und auch das ein oder andere Werkzeug haben wir da.
-Im Kontakt mit Simon Porten wird geklärt ob man für den Ausleih der Geräte zugelassen wird.
+Es steht professionelle Audiotechnik zur Verfügung: Richtmikrofone, Gesangsmikrofone, Funk- und Ansteckmikrofone. Ausserdem haben wir starke IMacs und Software (Adobe, Final Cut). Die IMacs werden nur innerhalb des Gummersbach-Gebäudes verliehen! Auch allerlei Kabel, Adapter und auch das ein oder andere Werkzeug haben wir da. Im Kontakt mit Simon Porten wird geklärt ob man für den Ausleih der Geräte zugelassen wird.
 
 ## Ausleihvorgang
 Sobald ihr zum Verleih autorisiert seid, kann über das [Verleihsystem](https://verleih.medieninformatik.th-koeln.de)  gewünschtes Equipment reserviert werden. Beim ersten Nutzen ist eine kurze Registrierung mit der GM-ID notwendig. Das Verleihsystem ist ausschließlich über das Hochschulnetzwerk bzw. TH-VPN erreichbar ([Anleitung zur VPN-Einrichtung](https://www.th-koeln.de/hochschule/vpn---virtual-private-network_26952.php)).
-Eine Ausleihanfrage muss mindestens **48 Stunden** vorher erfolgen, außerhalb der Vorlesungszeit **7 Tage**. Anfragen, die diese Zeit unterschreiten, können unter Umständen nicht bearbeitet werden. Eine Anfrage wurde erst erfolgreich angenommen, wenn der Verleihbetreibende (Simon P.) die Anfrage mit Datum bestätigt. Dies kann auch über Emailkontakt erfolgen. 
+Eine Ausleihanfrage muss mindestens 48 Stunden vorher erfolgen, außerhalb der Vorlesungszeit 7 Tage. Anfragen, die diese Zeit unterschreiten, können unter Umständen nicht bearbeitet werden. Eine Anfrage wurde erst erfolgreich angenommen, wenn der Verleihbetreibende (Simon P.) die Anfrage mit Datum bestätigt. Dies kann auch über Emailkontakt erfolgen.
 
 ## Veranstaltungen
 Der Großteil der Technik kommt in unterschiedlichen Veranstaltungen zum Einsatz:
@@ -49,6 +46,8 @@ Innerhalb der Masterclass werden Mitmach-Workshops angeboten, um einerseits die 
 - Drehen am **Green Screen** & Bearbeitung von Green Screen Material
 - **360°- Film und Fotografie** und dazu passende Bearbeitungssoftware
 - den Umgang mit dem **DJI Ronin Gimbal**
+
+
 
 ## Tutorials
 Hier finden sich auch hilfreiche Tutorials:

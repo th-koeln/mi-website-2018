@@ -15,7 +15,6 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM3
 schwerpunkt: hci
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio

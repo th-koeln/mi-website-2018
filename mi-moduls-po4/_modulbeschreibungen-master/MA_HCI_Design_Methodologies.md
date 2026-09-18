@@ -15,7 +15,6 @@ layout: modulbeschreibung
 typ: spm
 parent: SPM1
 schwerpunkt: hci, sc
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)

@@ -3,7 +3,7 @@ datum: "2026-03-16T10:00:00"
 title: "Infoveranstaltung Bachelor Medieninformatik ab 4. Semester"
 linkTitle: "Infoveranstaltung Bachelor Medieninformatik ab 4. Semester"
 termin: 16. März 2026 // 10:00 Uhr // Zoom
-image: bild.jpg
+image: inforveranstaltung-stock-image-ai-generated.jpg
 ---
 ## Infoveranstaltung Bachelor Medieninformatik ab 4. Semester
 

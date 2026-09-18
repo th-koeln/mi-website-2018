@@ -1,0 +1,19 @@
+{{- /*
+  Fügt einen HTML-Kommentar mit dem aufrufenden Template ein, damit im
+  gerenderten HTML sichtbar ist, welches Partial an welcher Stelle greift.
+
+  Aufruf ganz am Anfang eines Partials:
+      {{ partial "dev/tpl-marker.html" . }}
+
+  Funktionsweise:
+  - templates.Current zeigt auf dieses Marker-Partial, .Parent auf den Aufrufer.
+  - Literale <!-- --> werden von Go html/template entfernt, deshalb wird der
+    Kommentar per printf/safeHTML als Daten ausgegeben.
+
+  Abschaltbar über config.toml:  [params]  templateMarkers = false
+*/ -}}
+{{- if ne site.Params.templateMarkers false -}}
+{{- with templates.Current.Parent -}}
+{{- printf "<!-- tpl ▶ %s -->" .Name | safeHTML -}}
+{{- end -}}
+{{- end -}}

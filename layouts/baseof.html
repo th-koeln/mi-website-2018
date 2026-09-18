@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.Locale }}">
 	{{ $globalParams := . }}
 	{{ $scratch := newScratch }}
 	<head>
@@ -19,6 +19,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="all, follow">
         <meta name="googlebot" content="index, follow, snippet, archive">
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="c6b756b2-7aac-46d4-96bd-1aa5b1c19d92"></script>
         
         {{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
@@ -61,6 +62,7 @@
         
     </head>
     <body>
+        {{ if ne site.Params.templateMarkers false }}{{ printf "<!-- tpl-page ▶ %s (baseof: %s) -->" templates.Current.Name templates.Current.Base.Name | safeHTML }}{{ end }}
   		<div class="off-canvas-wrapper">
     		<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
       			{{ partial "system/sidebar/sidebar.html" $globalParams }}

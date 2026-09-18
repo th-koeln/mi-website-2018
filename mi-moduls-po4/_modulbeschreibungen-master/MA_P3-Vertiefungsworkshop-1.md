@@ -14,7 +14,6 @@ infourl:
 layout: modulbeschreibung
 typ: tm
 parent: MIMP-V
-infourl: 
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (40%), schriftliche Ausarbeitung (60%)

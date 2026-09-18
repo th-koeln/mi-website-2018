@@ -22,7 +22,65 @@ layout: faq
   </p>
 </div-->
 
-<div class="has-seperator">{{< youtube 1WpT-o9Smlc >}}</div>
+<!--div class="has-seperator">{{< youtube 1WpT-o9Smlc >}}</div-->
+
+
+## Medieninformatik? Klingt gut. Mit wem kann ich mich denn mal unterhalten? 
+
+Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, als auch die Studiengangsleiter zur Verfügung. Die Mentoren haben selbst den Medieninformatik Bachelor abgeschlossen und können daher sehr gut Fragen zu den verschiedenen Modulen und Inhalten beantworten. 
+
+
+<div class="mi-grid mi-grid--2-cols has-extra-head-space has-extra-foot-space">
+  <div class="m-mi-avatar-mit-text">
+    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/uwe-muesse.webp)"></div>
+    <header class="m-mi-avatar-mit-text__text">
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/uwe.muesse/">Uwe Müsse</a></h3>
+      <h4 class="m-mi-avatar-mit-text__subtitle">Mentor</h4>
+    </header>
+  </div>
+
+  <div class="m-mi-avatar-mit-text">
+    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/simon-porten.webp)"></div>
+    <header class="m-mi-avatar-mit-text__text">
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/simon.porten/">Simon Porten</a></h3>
+      <h4 class="m-mi-avatar-mit-text__subtitle">Mentor</h4>
+    </header>
+  </div>
+
+  <div class="m-mi-avatar-mit-text">
+    <div class="m-mi-avatar" style="background-image:url(/img/professoren/viet.jpg"></div>
+    <header class="m-mi-avatar-mit-text__text">
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/viet.nguyen/">Prof. Dr. Hoai Viet Nguyen</a></h3>
+      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Bachelor</h4>
+    </header>
+  </div>
+  
+  <div class="m-mi-avatar-mit-text">
+    <div class="m-mi-avatar" style="background-image:url(/img/professoren/boehmer.jpg)"></div>
+    <header class="m-mi-avatar-mit-text__text">
+      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/matthias.boehmer/">Prof. Dr. Matthias Böhmer</a></h3>
+      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Master</h4>
+    </header>
+  </div>
+
+</div>
+
+Darüber hinaus gibt es noch ein großes Beratungsangebot von der [Zentralen Studienberatung der TH Köln](https://www.th-koeln.de/studium/beratung_165.php). Wenn Sie grundsätzlich an einem Informatik Studiengang am [Campus Gummersbach](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/) interessiert sind, aber noch nicht sicher sind, welcher Informatik Studiengang der richtige sein könnte, wenden Sie sich doch an unseren Studienberater [Prof. Dr. Johann Schaible](https://www.th-koeln.de/personen/johann.schaible/), der Sie hierzu über alle Informatik Studiengänge hinweg beraten kann.
+
+<hr class="has-seperator has-extra-head-space has-seperator--dotted has-seperator--lila">
+
+<div>
+
+## Weitere Informationen
+
+Eine gute Übersicht und einen Einblick in die Themen, die in Abschlussarbeiten bearbeitet werden, finden Sie auf der [Übersicht der Praxisprojektthemen](https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/alle-abschlussvortraege/). Das Praxisprojekt ist das Modul vor der Bachelorarbeit im letzten Studiensemester.
+
+Viele Informationen zum [Medieninformatik Studium](https://www.medieninformatik.th-koeln.de/study/) finden Sie natürlich auf der [Website zu den Medieninformatik Studiengängen](https://www.medieninformatik.th-koeln.de/). Weitere studentische Einschätzungen finden Sie auf dem [Studycheck.de Portal](https://www.studycheck.de/studium/medieninformatik/th-koeln-2052). 
+
+Alle organisatorischen Informationen finden Sie auf der [zentralen Website der TH Köln](https://www.th-koeln.de/studium/medieninformatik-bachelor_2379.php). Hier werden auch die Informationen zur [Bewerbung](https://www.th-koeln.de/studium/medieninformatik-bachelor--bewerbung_3962.php) bereit gestellt.
+</div>
+
+<hr class="has-seperator has-extra-head-space has-seperator--dotted has-seperator--lila">
 
 ## Und jetzt?
 
@@ -84,64 +142,8 @@ layout: faq
     </figure>
   </div>
 
-  <hr class="has-seperator has-seperator--dotted has-seperator--lila">
 
 </div>
 
 
 
-## Klingt gar nicht schlecht, aber ich hab noch ein paar Fragen
-
-Kein Problem :) Für Fragen stehen Ihnen sowohl die Medieninformatik Mentoren, als auch die Studiengangsleiter zur Verfügung. Die Mentoren haben selbst den Medieninformatik Bachelor abgeschlossen und können daher sehr gut Fragen zu den verschiedenen Modulen und Inhalten beantworten. 
-
-
-
-<div class="mi-grid mi-grid--2-cols has-extra-head-space has-extra-foot-space">
-  <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/simon-schulte-centered.webp)"></div>
-    <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/simon_ludwig.schulte/">Simon Schulte</a></h3>
-      <h4 class="m-mi-avatar-mit-text__subtitle">Mentor</h4>
-    </header>
-  </div>
-
-  <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/mentoren/ernestine-wassermann-centered.webp)"></div>
-    <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/ernestine.wassermann/">Ernestine Wassermann</a></h3>
-      <h4 class="m-mi-avatar-mit-text__subtitle">Mentorin</h4>
-    </header>
-  </div>
-
-  <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/professoren/viet.jpg"></div>
-    <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/viet.nguyen/">Prof. Dr. Hoai Viet Nguyen</a></h3>
-      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Bachelor</h4>
-    </header>
-  </div>
-  
-  <div class="m-mi-avatar-mit-text">
-    <div class="m-mi-avatar" style="background-image:url(/img/professoren/boehmer.jpg)"></div>
-    <header class="m-mi-avatar-mit-text__text">
-      <h3 class="m-mi-avatar-mit-text__title"><a href="https://www.th-koeln.de/personen/matthias.boehmer/">Prof. Dr. Matthias Böhmer</a></h3>
-      <h4 class="m-mi-avatar-mit-text__subtitle">Studiengangsleiter Master</h4>
-    </header>
-  </div>
-
-</div>
-
-Darüber hinaus gibt es noch ein großes Beratungsangebot von der [Zentralen Studienberatung der TH Köln](https://www.th-koeln.de/studium/beratung_165.php). Wenn Sie grundsätzlich an einem Informatik Studiengang am [Campus Gummersbach](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/) interessiert sind, aber noch nicht sicher sind, welcher Informatik Studiengang der richtige sein könnte, wenden Sie sich doch an unseren Studienberater [Prof. Dr. Johann Schaible](https://www.th-koeln.de/personen/johann.schaible/), der Sie hierzu über alle Informatik Studiengänge hinweg beraten kann.
-
-<hr class="has-seperator has-extra-head-space has-seperator--dotted has-seperator--lila">
-
-<div class="has-extra-foot-space">
-
-## Weitere Informationen
-
-Eine gute Übersicht und einen Einblick in die Themen, die in Abschlussarbeiten bearbeitet werden, finden Sie auf der [Übersicht der Praxisprojektthemen](https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/alle-abschlussvortraege/). Das Praxisprojekt ist das Modul vor der Bachelorarbeit im letzten Studiensemester.
-
-Viele Informationen zum [Medieninformatik Studium](https://www.medieninformatik.th-koeln.de/study/) finden Sie natürlich auf der [Website zu den Medieninformatik Studiengängen](https://www.medieninformatik.th-koeln.de/). Weitere studentische Einschätzungen finden Sie auf dem [Studycheck.de Portal](https://www.studycheck.de/studium/medieninformatik/th-koeln-2052). 
-
-Alle organisatorischen Informationen finden Sie auf der [zentralen Website der TH Köln](https://www.th-koeln.de/studium/medieninformatik-bachelor_2379.php). Hier werden auch die Informationen zur [Bewerbung](https://www.th-koeln.de/studium/medieninformatik-bachelor--bewerbung_3962.php) bereit gestellt.
-</div>
