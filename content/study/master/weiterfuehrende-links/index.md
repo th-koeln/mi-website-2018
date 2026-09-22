@@ -19,4 +19,4 @@ Für Studierende, die bereits erbrachte Prüfungsleistungen anerkennen lassen wo
 
 ---
 
-Hier finden Sie die Prüfer:innen für die jeweilen Semester finden Sie [im Blog](/blog/).
+Prüfer:innen für das jeweilige Semester finden Sie [im Blog](/blog/).
