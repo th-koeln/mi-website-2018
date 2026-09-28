@@ -6,7 +6,7 @@ linkTitle = "Study"
 
 <div class="mi-grid mi-grid--2-cols">
   <img src="/study/uwe-muesse.webp" alt="Uwe Müsse // Mi Mentorin">
-  <img src="/study/simon-porten.webp" alt="Simon Porte // Mi Mentor">
+  <img src="/study/simon-porten.webp" alt="Simon Porten // Mi Mentor">
 </div>
 
 <p>
