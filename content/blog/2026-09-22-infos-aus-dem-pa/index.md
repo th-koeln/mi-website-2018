@@ -11,6 +11,10 @@ Für das Wintersemester 2026/27 wurden folgende Prüferinnenlisten verabschiedet
 - [Prüfer:innen für die Module der BPO 4](../../download/pruefungsausschuesse/exam_lists_wise_2026_inf_mi4.pdf)
 - [Prüfer:innen für die Module der BPO 5](../../download/pruefungsausschuesse/exam_lists_wise_2026_inf_mi5.pdf)
 
+**Master**
+- [Prüfer:innen für die Module der MPO 4](../../download/pruefungsausschuesse/exam_list_wise_2026_inf_mim5_20260928T090650Z_3da58b26-1ba4-4560-a851-6529bbc64c50.pdf)
+- [Prüfer:innen für die Module der MPO 5](../../download/pruefungsausschuesse/exam_lists_wise_20exam_list_wise_2026_inf_mim4_20260928T090640Z_5db18e22-378a-4770-bdaa-023c216e08ae26_inf_mi5.pdf)
+
 <!--
 ### Master
 - [Prüfer:innen für die Module der MPO 4](../../download/pruefungsausschuesse/mim-module-und-pruefer-wise202627-mpo4.pdf)
