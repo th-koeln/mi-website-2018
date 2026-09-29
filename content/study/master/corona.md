@@ -12,3 +12,4 @@ Aufgrund des [Coronavirus (Covid-19)](https://www.th-koeln.de/hochschule/coronav
 ###  Weitere Informationsquellen
 - [Zentrale Informationen der Hochschule](https://www.th-koeln.de/hochschule/coronavirus_73114.php#sprungmarke_1_118)
 
+
