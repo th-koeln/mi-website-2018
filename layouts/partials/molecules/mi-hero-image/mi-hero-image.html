@@ -1,6 +1,17 @@
 {{ partial "dev/tpl-marker.html" . }}
+{{ $contain := in (.class | default "") "do-contain" }}
 <div class="m-mi-hero-image {{ .class }}">
-	<img src="{{ .image.RelPermalink }}" alt="{{ .image.Title }}" class="m-mi-hero-image__image" loading="lazy">
+	{{ with .image }}
+		{{ if $contain }}
+			<img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="m-mi-hero-image__image" loading="lazy">
+		{{ else }}
+			<div class="a-mi-parallax" style="aspect-ratio: {{ .Width }} / {{ .Height }};">
+				<div class="a-mi-parallax__layer">
+					<img src="{{ .RelPermalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}" class="m-mi-hero-image__image a-mi-parallax__image" loading="lazy" decoding="async">
+				</div>
+			</div>
+		{{ end }}
+	{{ end }}
 	{{ if .image }}
 		{{ partial "atoms/mi-headline-invers/mi-headline-invers.html" (dict "headline" .headline "subtitle" .subtitle) }}
 	{{ end }}

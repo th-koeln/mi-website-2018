@@ -1,0 +1,63 @@
+/* Parallax (CSS Scroll-Driven Animations)
+   Rezept: _recipies/rezept-parallax-bilder.md
+   Ohne Support oder bei prefers-reduced-motion bleibt das Bild statisch.
+############################################################################ */
+
+// Ausschlag relativ zur Layerhöhe: overscan / (100 + 2 × overscan)
+@function parallax-peak($overscan) {
+    @return percentage($overscan / (100 + 2 * $overscan));
+}
+
+$parallax-overscan-s: 5;
+$parallax-overscan-l: 7;
+
+.a-mi-parallax {
+    --overscan: #{$parallax-overscan-s * 1%};
+    --parallax-peak: #{parallax-peak($parallax-overscan-s)};
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+
+    @media screen and (min-width: 40rem) {
+        --overscan: #{$parallax-overscan-l * 1%};
+        --parallax-peak: #{parallax-peak($parallax-overscan-l)};
+    }
+}
+
+.a-mi-parallax__layer {
+    position: absolute;
+    inset-inline: 0;
+    top: calc(-1 * var(--overscan));
+    height: calc(100% + 2 * var(--overscan));
+}
+
+.a-mi-parallax__image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+}
+
+@keyframes mi-parallax-drift {
+    from { transform: translateY(calc(-1 * var(--parallax-peak))); }
+    to   { transform: translateY(var(--parallax-peak)); }
+}
+
+@supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+        .a-mi-parallax {
+            view-timeline-name: --mi-parallax;
+            view-timeline-axis: block;
+        }
+
+        .a-mi-parallax__layer {
+            // animation-timeline muss nach dem Shorthand stehen
+            animation: mi-parallax-drift linear both;
+            animation-timeline: --mi-parallax;
+            animation-range: cover;
+        }
+    }
+}
