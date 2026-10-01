@@ -4,6 +4,7 @@
 	{{ $scratch := newScratch }}
 	<head>
         <meta charset="utf-8">
+        <script>document.documentElement.classList.add('js')</script>
         <meta name="view-transition" content="same-origin">
         <link rel="expect">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -126,7 +127,8 @@
         {{ $news := resources.Get "js/news-aggregator.js" }}
         {{ $slideshow := resources.Get "js/slideshow.js" }}
         {{ $projects := resources.Get "js/projects.js" }}
-        {{ $js :=  slice $main $news $slideshow $projects | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+        {{ $lqip := resources.Get "js/lqip.js" }}
+        {{ $js :=  slice $main $news $slideshow $projects $lqip | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
 
         <script src="{{ $js.Permalink }}"></script>
 	</body>

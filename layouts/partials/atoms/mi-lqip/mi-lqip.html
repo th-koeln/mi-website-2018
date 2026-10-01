@@ -1,0 +1,11 @@
+{{/*
+	Bild mit Blur-up-Platzhalter.
+	Parameter: image (Resource, wird angezeigt), alt, class (Wrapper), imgClass, imgStyle
+*/}}
+{{ $blur := partial "atoms/mi-lqip/mi-lqip-placeholder.html" .image }}
+<span class="a-mi-lqip {{ .class }}">
+	{{ with $blur }}
+		<span class="a-mi-lqip__placeholder" aria-hidden="true" style="{{ printf `background-image: url(%q)` . | safeCSS }}"></span>
+	{{ end }}
+	<img class="a-mi-lqip__image {{ .imgClass }}" src="{{ .image.RelPermalink }}" width="{{ .image.Width }}" height="{{ .image.Height }}" alt="{{ .alt }}" {{ with .imgStyle }}style="{{ . | safeCSS }}"{{ end }} loading="lazy" decoding="async">
+</span>

@@ -70,7 +70,7 @@ const renderProjectCard = (project) => {
   const author = escapeHtml(project.author);
 
   const image = project.image
-    ? `<img loading="lazy" src="${escapeHtml(project.image)}" alt="${name}">`
+    ? `<span class="a-mi-lqip is-remote"><img class="a-mi-lqip__image" loading="lazy" decoding="async" src="${escapeHtml(project.image)}" alt="${name}"></span>`
     : '';
 
   const monthYear = escapeHtml(formatMonthYear(project.date || project.updatedAt));

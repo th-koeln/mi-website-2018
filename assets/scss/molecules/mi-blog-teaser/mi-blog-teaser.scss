@@ -13,10 +13,15 @@
         transform: rotate(3deg) scale(1.02);
     }
 
-    & > img{
+    & > img,
+    & > .a-mi-lqip img{
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    & > .a-mi-lqip{
+      height: 100%;
     }
 
     &--external {

@@ -9,7 +9,7 @@
         {{ if not (in . "teaser-") }}
           {{ $thumb := .Fill "400x400 Center q100 Linear" | images.Filter (images.UnsharpMask 0.2 0.2 0.02) }}
           <div class="o-mi-image-overview__item">
-            <a href="{{.RelPermalink}}" class="[ js-slideshow-image ]"><img src="{{$thumb.RelPermalink}}"></a>
+            <a href="{{.RelPermalink}}" class="[ js-slideshow-image ]">{{ partial "atoms/mi-lqip/mi-lqip.html" (dict "image" $thumb) }}</a>
           </div>
         {{ end }}
       {{ end }}

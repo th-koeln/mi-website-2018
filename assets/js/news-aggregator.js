@@ -68,8 +68,9 @@ const showAdditionalNews = () => {
     }
 
     function getTeaserImage(item){
-        if(item.decapBild && item.decapBild.match(/jpg|jpeg|png|webP|j2/i)) return `${item.ref}/${item.decapBild}`;
+        // Für eigene Events enthält bild bereits ein verkleinertes Vorschaubild (auch aus dem Decap-Bild)
         if(item.bild && item.bild.match(/jpg|jpeg|png|webP|j2/i)) return item.bild;
+        if(item.decapBild && item.decapBild.match(/jpg|jpeg|png|webP|j2/i)) return `${item.ref}/${item.decapBild}`;
         return false;
     }
 
@@ -82,7 +83,12 @@ const showAdditionalNews = () => {
             let bild = getTeaserImage(item);
             
             let external = (!item.url.includes(getCurrentUrl())) ? '<i class="material-icons m-mi-pulse-teaser--external">open_in_new</i>' : '';
-            let teaserImageCode = '<div class="m-mi-pulse-teaser--image"><img loading="lazy" src="' + bild + '" alt="'+item.title+'"></div>';
+            // Eigene Events bringen einen Blur-Platzhalter mit, externe nur eine neutrale Fläche
+            let placeholder = item.blur
+                ? `<span class="a-mi-lqip__placeholder" aria-hidden="true" style="background-image: url(&quot;${item.blur}&quot;)"></span>`
+                : '';
+            let lqipClass = item.blur ? 'a-mi-lqip' : 'a-mi-lqip is-remote';
+            let teaserImageCode = `<div class="m-mi-pulse-teaser--image"><span class="${lqipClass}">${placeholder}<img class="a-mi-lqip__image" loading="lazy" decoding="async" src="${bild}" alt="${item.title}"></span></div>`;
             let teaserImage = (bild && bild.match(/jpg|jpeg|png|webP|j2/i)) ? teaserImageCode  : "";
             
             const visibilityClass = index < displayMax ? 'is-visible' : 'is-hidden';

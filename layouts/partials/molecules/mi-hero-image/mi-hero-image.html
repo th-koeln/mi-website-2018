@@ -3,11 +3,11 @@
 <div class="m-mi-hero-image {{ .class }}">
 	{{ with .image }}
 		{{ if $contain }}
-			<img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="m-mi-hero-image__image" loading="lazy">
+			<img src="{{ .RelPermalink }}" alt="{{ .Title }}" class="m-mi-hero-image__image" loading="eager" fetchpriority="high">
 		{{ else }}
 			<div class="a-mi-parallax" style="aspect-ratio: {{ .Width }} / {{ .Height }};">
 				<div class="a-mi-parallax__layer">
-					<img src="{{ .RelPermalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}" class="m-mi-hero-image__image a-mi-parallax__image" loading="lazy" decoding="async">
+					<img src="{{ .RelPermalink }}" alt="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}" class="m-mi-hero-image__image a-mi-parallax__image" loading="eager" fetchpriority="high">
 				</div>
 			</div>
 		{{ end }}

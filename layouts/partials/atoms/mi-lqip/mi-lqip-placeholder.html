@@ -1,0 +1,14 @@
+{{/*
+	Liefert für eine Bild-Resource eine weichgezeichnete Mini-Vorschau als Data-URI:
+	ein 24px-JPEG, eingebettet in ein SVG mit Gaußfilter. Bei Vektorgrafiken leer.
+*/}}
+{{ $uri := "" }}
+{{ if and (eq .MediaType.MainType "image") (ne .MediaType.SubType "svg") }}
+	{{ $thumb := .Resize "24x jpg q35" }}
+	{{ $w := 480 }}
+	{{ $h := math.Round (mul (div (float $thumb.Height) $thumb.Width) $w) }}
+	{{/* Blur ca. Breite / 40; feFuncA macht den Rand wieder deckend, sonst franst er hell aus */}}
+	{{ $svg := printf `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 %d %v'><filter id='b' color-interpolation-filters='sRGB'><feGaussianBlur stdDeviation='12'/><feComponentTransfer><feFuncA type='discrete' tableValues='1 1'/></feComponentTransfer></filter><image preserveAspectRatio='none' filter='url(%%23b)' x='0' y='0' width='%d' height='%v' href='data:image/jpeg;base64,%s'/></svg>` $w $h $w $h ($thumb.Content | base64Encode) }}
+	{{ $uri = printf "data:image/svg+xml;charset=utf-8,%s" (replace (replace $svg "<" "%3C") ">" "%3E") }}
+{{ end }}
+{{ return $uri }}

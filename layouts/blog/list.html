@@ -11,15 +11,16 @@
               <article class="blog-item">
                   {{ $date := .Date }}
                   {{ $teaser := .Resources.Match "teaser*" }}
+                  {{ $scratch.Set "teaser" nil }}
 
                   {{ if $teaser }}
                       {{ $image := index ($teaser) 0 }}            
                       {{ $thumb := $image.Fill "500x500 Center q90 Linear" }}
-                      {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+                      {{ $scratch.Set "teaser" $thumb }}
                   {{ end }}
 
                   <a href="{{ .RelPermalink }}">
-                      {{ partial "molecules/mi-blog-teaser/mi-blog-teaser.html" (dict "ele" . "date" $date "imageSrc" ($scratch.Get "teaser")) }}
+                      {{ partial "molecules/mi-blog-teaser/mi-blog-teaser.html" (dict "ele" . "date" $date "image" ($scratch.Get "teaser")) }}
                   </a>
               </article>
           {{ end }}

@@ -1,0 +1,53 @@
+/* Blur-up-Platzhalter (LQIP)
+   Eigene Bilder: weiche Vorschau, die beim Laden überblendet wird.
+   Externe Bilder (.is-remote): neutrale Fläche, Bild blendet ein.
+   Ohne JavaScript sind alle Bilder sofort sichtbar (.js fehlt).
+############################################################################ */
+
+$lqip-fade: 300ms;
+
+.a-mi-lqip {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    &.is-remote {
+        background-color: #e6e6e6;
+    }
+}
+
+.a-mi-lqip__placeholder {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    transition: opacity $lqip-fade;
+}
+
+// Liegt über dem Platzhalter
+.a-mi-lqip__image {
+    position: relative;
+    display: block;
+}
+
+.js .a-mi-lqip__image:not(.is-loaded) {
+    opacity: 0;
+}
+
+.a-mi-lqip__image.is-loaded {
+    animation: mi-lqip-fade-in $lqip-fade ease-out;
+}
+
+.a-mi-lqip:has(.a-mi-lqip__image.is-loaded) .a-mi-lqip__placeholder {
+    opacity: 0;
+}
+
+@keyframes mi-lqip-fade-in {
+    from { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .a-mi-lqip__placeholder { transition: none; }
+    .a-mi-lqip__image.is-loaded { animation: none; }
+}

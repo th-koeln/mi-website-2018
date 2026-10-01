@@ -1,12 +1,25 @@
 {{ define "response" }}
     {{ $scratch := newScratch }}
-    [	 
+    [
         {{ range $index, $element := .Data.Pages }}
-            {{ $teaser := $element.Resources.Match "teaser*" }}
-            {{ if $teaser }}
-                {{ $image := index ($teaser) 0 }}            
-                {{ $thumb := $image.Fill "400x400 Center q90 Linear" }}
-                {{ $scratch.Set "teaser" $thumb.RelPermalink }}
+            {{ $scratch.Set "source" nil }}
+            {{ with $element.Resources.Match "teaser*" }}
+                {{ $scratch.Set "source" (index . 0) }}
+            {{ end }}
+            {{/* Ein Decap-Bild hat Vorrang vor dem Teaser */}}
+            {{ with $element.Params.image }}
+                {{ with $element.Resources.GetMatch . }}
+                    {{ $scratch.Set "source" . }}
+                {{ end }}
+            {{ end }}
+
+            {{ $scratch.Set "teaser" "" }}
+            {{ $scratch.Set "blur" "" }}
+            {{ with $scratch.Get "source" }}
+                {{/* Kacheln sind 16:9 und höchstens ca. 530px breit */}}
+                {{ $thumb := .Fill "800x450 Center webp q80 Linear" }}
+                {{ $scratch.Set "teaser" $thumb.Permalink }}
+                {{ $scratch.Set "blur" (partial "atoms/mi-lqip/mi-lqip-placeholder.html" $thumb) }}
             {{ end }}
             {{ if $index }}, {{ end }}
             {
@@ -14,8 +27,9 @@
                 "ref": "{{ $element.Page.Permalink }}",
                 "termin":"{{ $element.Params.termin }}",
                 "date":"{{ $element.Params.datum }}",
-                "bild": "https://www.medieninformatik.th-koeln.de{{ $scratch.Get "teaser" }}",
+                "bild": "{{ $scratch.Get "teaser" }}",
                 "decapBild": "{{ $element.Params.image}}",
+                "blur": {{ $scratch.Get "blur" | jsonify }},
                 "content": {{ $element.RawContent  | jsonify }},
                 "url": "{{ $element.Permalink }}"
             }
