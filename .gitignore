@@ -177,3 +177,7 @@ typings/
 
 # Lokale Agent-Rezepte, nicht versionieren
 /_recipies/
+
+# Eingang für Bilder neuer Inhalte, nur den Ordner selbst versionieren
+/_stuff/_input/*
+!/_stuff/_input/.gitkeep
