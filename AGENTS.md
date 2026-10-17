@@ -3,7 +3,7 @@
 Website der Medieninformatik-Studiengänge der TH Köln (Campus Gummersbach):
 https://www.medieninformatik.th-koeln.de/
 
-Statische Seite, gebaut mit **Hugo (extended, v0.163)**. Dazu Decap CMS für die
+Statische Seite, gebaut mit **Hugo (extended, v0.168)**. Dazu Decap CMS für die
 Pflege von News/Events, SCSS über Hugo Pipes und etwas Vanilla-JS. Es gibt kein
 JS-Build-Tooling (kein Bundler, kein Framework).
 
