@@ -35,11 +35,23 @@ unsafe= true
 
 [imaging]
   resampleFilter = "box"
-  quality = 75
   anchor = "smart"
+
+[imaging.jpeg]
+  quality = 75
+
+[imaging.webp]
+  quality = 75
 
 [minify]
   disable = true
+
+# Hugo darf nur noch git als externes Programm starten. Die Default-Liste
+# erlaubt zusätzlich node, postcss und tailwindcss, die wir nicht nutzen
+# (SCSS läuft über das eingebaute LibSass). Bei Umstieg auf Dart Sass hier
+# '^(dart-)?sass(-embedded)?$' ergänzen.
+[security.exec]
+  allow = ['^git$']
 
 # Modul-Dateien (mi-moduls-po4) nutzen `published: true/false` als Boolean.
 # Hugo behandelt `published` per Default als Alias für publishDate (ein Datum)

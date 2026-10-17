@@ -1,1 +1,4 @@
-{{ define "response" }} {{ .Render "test" }} {{ end }}
+{{/* Einzelseiten haben keinen JSON-Inhalt, die Response bleibt leer.
+     Früher stand hier .Render "test" auf eine View, die es nicht gibt.
+     Hugo 0.163 hat das still ignoriert, neuere Versionen brechen ab. */}}
+{{ define "response" }}{{ end }}
