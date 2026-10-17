@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* Parallax (CSS Scroll-Driven Animations)
    Rezept: _recipies/rezept-parallax-bilder.md
    Ohne Support oder bei prefers-reduced-motion bleibt das Bild statisch.
@@ -5,7 +7,7 @@
 
 // Ausschlag relativ zur Layerhöhe: overscan / (100 + 2 × overscan)
 @function parallax-peak($overscan) {
-    @return percentage($overscan / (100 + 2 * $overscan));
+    @return math.percentage(math.div($overscan, 100 + 2 * $overscan));
 }
 
 $parallax-overscan-s: 5;

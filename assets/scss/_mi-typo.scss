@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* MI Typo -----------------------------------------------------------------------------*/
 
 blockquote{
@@ -15,7 +17,7 @@ blockquote{
       &:not(:last-child)::after{
         content: "";
         display: block;
-        height: $bfs / 2;
+        height: math.div($bfs, 2);
       }
     }
 }

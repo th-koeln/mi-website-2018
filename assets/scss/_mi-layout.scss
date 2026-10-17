@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* MI Layout
 -----------------------------------------------------------------------------*/
 
@@ -117,9 +119,9 @@ body {
     display: grid;
     gap: $bfs;
     grid-template-columns: 
-    minmax($mi-vp-l/3, $mi-vp-xl/3)
-    minmax($mi-vp-l/3, $mi-vp-xl/3)
-    minmax($mi-vp-l/3, $mi-vp-xl/3)
+    minmax(math.div($mi-vp-l, 3), math.div($mi-vp-xl, 3))
+    minmax(math.div($mi-vp-l, 3), math.div($mi-vp-xl, 3))
+    minmax(math.div($mi-vp-l, 3), math.div($mi-vp-xl, 3))
   };
   
 

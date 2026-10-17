@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* MI Icons -----------------------------------------------------------------------------*/
 
 @font-face {
@@ -39,7 +41,7 @@
 }
 
 h2 .material-icons {
-  padding-bottom: $bfs /3;
+  padding-bottom: math.div($bfs, 3);
 
   color: $mi-blau !important;
 }

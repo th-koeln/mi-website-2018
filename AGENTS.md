@@ -7,6 +7,10 @@ Statische Seite, gebaut mit **Hugo (extended, v0.168)**. Dazu Decap CMS für die
 Pflege von News/Events, SCSS über Hugo Pipes und etwas Vanilla-JS. Es gibt kein
 JS-Build-Tooling (kein Bundler, kein Framework).
 
+Das SCSS kompiliert **Dart Sass**, das als `sass` im `PATH` liegen muss
+(lokal z. B. `brew install sass/sass/sass`). Im CI ist die Version über
+`DART_SASS_VERSION` in `.github/workflows/hugo.yml` fest eingestellt.
+
 ## Sprache
 
 - Kommunikation, Commit-Messages, Code-Kommentare und Inhalte: **Deutsch**,

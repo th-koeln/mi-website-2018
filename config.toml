@@ -46,12 +46,11 @@ unsafe= true
 [minify]
   disable = true
 
-# Hugo darf nur noch git als externes Programm starten. Die Default-Liste
-# erlaubt zusätzlich node, postcss und tailwindcss, die wir nicht nutzen
-# (SCSS läuft über das eingebaute LibSass). Bei Umstieg auf Dart Sass hier
-# '^(dart-)?sass(-embedded)?$' ergänzen.
+# Hugo darf nur git und Dart Sass (für das SCSS) als externe Programme
+# starten. Die Default-Liste erlaubt zusätzlich node, postcss und
+# tailwindcss, die wir nicht nutzen.
 [security.exec]
-  allow = ['^git$']
+  allow = ['^git$', '^(dart-)?sass(-embedded)?$']
 
 # Modul-Dateien (mi-moduls-po4) nutzen `published: true/false` als Boolean.
 # Hugo behandelt `published` per Default als Alias für publishDate (ein Datum)

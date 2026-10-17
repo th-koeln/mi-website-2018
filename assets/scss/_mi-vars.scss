@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* MI Vars -----------------------------------------------------------------------------*/
 
 $scale: 1;
@@ -11,8 +13,8 @@ $bfs-l: 25px * $scale;
 $bfs-xl: 31.5px * $scale;
 $bfs-xxl: 40px * $scale;
 $bfs-max: 100px * $scale;
-$half: $bfs / 2;
-$quad: $bfs / 4;
+$half: math.div($bfs, 2);
+$quad: math.div($bfs, 4);
 
 
 // MI Colors
@@ -143,7 +145,7 @@ $lh-loose: 150%;
 
 // Abstände
 // ---------
-$xs: $bfs/2;
+$xs: math.div($bfs, 2);
 $s: $bfs* 0.75;
 $m: $bfs;
 $l: $bfs-l;
