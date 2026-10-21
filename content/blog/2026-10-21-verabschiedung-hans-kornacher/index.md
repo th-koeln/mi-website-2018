@@ -6,7 +6,7 @@ linkTitle: "Verabschiedung von Prof. Hans Kornacher"
 bildhinweise: "Fotos: Simon Porten"
 ---
 
-Nach fast zwei Jahrzehnten am Campus Gummersbach ist Prof. Hans Kornacher in den Ruhestand verabschiedet worden. Dazu gab es einen heiteren, sommerlich-bayerischen Nachmittag mit Kaffee und Kuchen im Medieninformatik-Studio.
+**Nach fast zwei Jahrzehnten am Campus Gummersbach ist Prof. Hans Kornacher in den Ruhestand verabschiedet worden. Dazu gab es einen heiteren, sommerlich-bayerischen Nachmittag mit Kaffee und Kuchen im Medieninformatik-Studio.**
 
 Für den passenden Auftritt sorgte eine überlebensgroße Kornacher-Figur in der Greenbox: mit Sonnenhut, Hawaiihemd, Birkenstocks und Cocktail in der Hand. Die Gäste konnten sich dazustellen, Fotos machen und persönliche Grußbotschaften hinterlassen.
 
@@ -23,3 +23,4 @@ Wie sehr sein Gespür für Menschen und Teams trägt, zeigte sich zuletzt bei de
 Zum Abschied erhielt Hans Kornacher von den Mitarbeitenden die Goldene Kamera, die obligatorische Institutstasse, denn, so Institutsdirektorin Prof. Dr. Mirjam Blümm, „hier geht niemand ohne Tasse“, sowie weitere Geschenke. Das Institut sagt Danke, Hans.
 
 Und wenn Hans schon geht: Die Figur bleibt. Wer ganz große Sehnsucht hat, kann im Medieninformatik-Studio jederzeit ein paar Fotos mit ihm machen.
+<br><br>
