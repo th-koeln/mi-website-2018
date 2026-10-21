@@ -4,6 +4,7 @@ title: "Prof. Hans Kornacher mit Goldener Kamera in den Ruhestand verabschiedet"
 autor: Christian Noss
 linkTitle: "Verabschiedung von Prof. Hans Kornacher"
 bildhinweise: "Fotos: Simon Porten"
+startseite: true
 ---
 
 **Nach fast zwei Jahrzehnten am Campus Gummersbach ist Prof. Hans Kornacher in den Ruhestand verabschiedet worden. Dazu gab es einen heiteren, sommerlich-bayerischen Nachmittag mit Kaffee und Kuchen im Medieninformatik-Studio.**

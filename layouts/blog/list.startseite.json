@@ -1,0 +1,24 @@
+{{- /*
+	Blogartikel mit `startseite: true` für den News-und-Events-Block der Startseite.
+	Felder wie in events/list.json.json, damit news-aggregator.js beide gleich behandelt.
+*/ -}}
+{{- $items := slice -}}
+{{- range where .RegularPages "Params.startseite" true -}}
+	{{- $teaser := "" -}}
+	{{- $blur := "" -}}
+	{{- with .Resources.GetMatch "teaser*" -}}
+		{{- /* Kacheln sind 16:9 und höchstens ca. 530px breit */ -}}
+		{{- $thumb := .Fill "800x450 Center webp q80 Linear" -}}
+		{{- $teaser = $thumb.Permalink -}}
+		{{- $blur = partial "atoms/mi-lqip/mi-lqip-placeholder.html" $thumb -}}
+	{{- end -}}
+	{{- $items = $items | append (dict
+		"title" .Title
+		"termin" (printf "News // %s" (.Date | time.Format ":date_long"))
+		"date" (.Date.Format "2006-01-02")
+		"bild" $teaser
+		"blur" $blur
+		"url" .Permalink
+	) -}}
+{{- end -}}
+{{- $items | jsonify -}}

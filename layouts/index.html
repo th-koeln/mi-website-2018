@@ -28,13 +28,14 @@
 
     {{ end }}
 
+    {{/* Aggregiert Events, WTW-Workshops und Blogartikel mit `startseite: true` (news-aggregator.js) */}}
     {{ with .Site.GetPage "/events" }}
-        <h2 class="mi-chapter-title is-colorful">{{ .Title }}</h2>
+        <h2 class="mi-chapter-title is-colorful">News und Events</h2>
         {{ $params := . }}
         {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" . ) }}
     </div>
     <div class="content has-gap is-fluid">
-        <div id="eventblock" class="events">
+        <div id="eventblock" class="events" data-with-news>
         
             {{ range $item := (.Pages.ByParam "datum").Reverse }}
             

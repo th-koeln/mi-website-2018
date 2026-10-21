@@ -33,6 +33,14 @@ unsafe= true
   section = ["HTML", "JSON"]
   home = ["html", "JSON"]
 
+# Feed der Blogartikel mit `startseite: true` für den News-und-Events-Block
+# der Startseite (/blog/startseite.json, siehe assets/js/news-aggregator.js)
+[outputFormats.startseite]
+  mediaType = "application/json"
+  baseName = "startseite"
+  isPlainText = true
+  notAlternative = true
+
 [imaging]
   resampleFilter = "box"
   anchor = "smart"

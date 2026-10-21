@@ -1,4 +1,6 @@
 const newsUrls = ['https://th-koeln.github.io/mi-master-wtw/pulse.json', '/events/index.json'];
+// Blogartikel mit `startseite: true`, nur wenn der Block data-with-news trägt (Startseite)
+const blogUrl = '/blog/startseite.json';
 const displayMax = 16;
 
 const showAdditionalNews = () => {
@@ -8,7 +10,8 @@ const showAdditionalNews = () => {
     const targetContainer = document.querySelector('#eventblock');
     if(!targetContainer) return;
   
-    targetContainer.insertAdjacentHTML("beforeend", `<button class="more-events-button m-mi-pulse-teaser" data-js-show-more-news class="button">Weitere Events anzeigen</button>`);
+    const buttonLabel = targetContainer.hasAttribute('data-with-news') ? 'Weitere News und Events anzeigen' : 'Weitere Events anzeigen';
+    targetContainer.insertAdjacentHTML("beforeend", `<button class="more-events-button m-mi-pulse-teaser" data-js-show-more-news class="button">${buttonLabel}</button>`);
   
     const showMoreButton = document.querySelector("[data-js-show-more-news]");
     if(!showMoreButton) return;
@@ -39,7 +42,9 @@ const showAdditionalNews = () => {
                         data.push(item);
                     });
                 })
-                .then(() => resolve(true));  
+                .then(() => resolve(true))
+                // Fällt eine Quelle aus, trotzdem die übrigen anzeigen
+                .catch(() => resolve(false));
         });
     }
 
@@ -109,7 +114,9 @@ const showAdditionalNews = () => {
             });
     }
 
-    newsUrls.forEach(function(url) {
+    const urls = target.hasAttribute('data-with-news') ? [...newsUrls, blogUrl] : newsUrls;
+
+    urls.forEach(function(url) {
         promises.push(getResource(url));
     });
   
