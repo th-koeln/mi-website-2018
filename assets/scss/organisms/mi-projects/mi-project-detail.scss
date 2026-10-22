@@ -1,0 +1,16 @@
+// Detailansicht für Projekte mit detail.mode = "internal" (siehe assets/js/projects.js).
+// Aufbau wie ein Blogartikel: mi-hero-image und mi-textblock.
+.mi-project-detail {
+
+  // Metadaten unter dem Abstract, kleiner als der Fließtext
+  &__facts {
+    margin-top: $bfs-xl;
+    padding-top: $bfs-l;
+    border-top: $mi-border-small solid $mi-lila;
+    font-size: $bfs-s;
+
+    dd {
+      margin-bottom: 0.25rem;
+    }
+  }
+}

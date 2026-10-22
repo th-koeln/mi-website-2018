@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteRule ^oauth/(.*)$ /kirby/oauth/$1 [R=302,L]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://www.medieninformatik.th-koeln.de/%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} !^www\.

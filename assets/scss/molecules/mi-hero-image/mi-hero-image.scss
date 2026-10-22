@@ -1,12 +1,13 @@
 .m-mi-hero-image {
-    
+
+    // Höhe ergibt sich aus dem Bild bzw. dem Parallax-Wrapper (dessen
+    // aspect-ratio kommt aus den Bildmaßen), damit der Header bündig mit
+    // der Unterkante des Bildes abschließt.
     position: relative;
-    aspect-ratio: 16/9;
     background-color: transparent;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    position: relative;
     border-top: solid 5px $mi-blau;
     margin-bottom: $bfs-xl;
 
@@ -14,19 +15,38 @@
         background-size: contain;
     }
 
+    &__image {
+        display: block;
+    }
+
     h1{
         display: block;
     }
 
+    // Header mit Headline und Subtitle sitzt unten links auf dem Bild
+    .title {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        br {
+            display: none;
+        }
+    }
 
     @media screen and (min-width: 40rem) {
         .title{
-            h1, h2{
-                display: inline-block;
-            }
+            right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
     }
 
 }
-
-

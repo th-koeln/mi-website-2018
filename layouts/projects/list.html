@@ -1,11 +1,15 @@
 {{ define "main" }}
     {{ $params := . }}
-    
-    <h1 class="mi-chapter-title is-colorful">{{ .Title }}</h1>
-    {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
+
+    {{/* Intro wird bei ?projekt=<slug> von projects.js ausgeblendet und durch die Detailansicht ersetzt */}}
+    <div data-js-projects-intro>
+      <h1 class="mi-chapter-title is-colorful">{{ .Title }}</h1>
+      {{ partial "molecules/mi-textblock/mi-textblock.html" (dict "ele" $params)  }}
+    </div>
+    <div data-js-project-detail hidden></div>
     {{ $scratch := newScratch }}
     </div>
-    <div class="content has-gap is-fluid has-extra-head-space">
+    <div class="content has-gap is-fluid has-extra-head-space" data-js-projects-intro>
       <div data-js-projects></div>
 
 {{ end }}
